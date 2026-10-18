@@ -13,7 +13,7 @@ import {
 import { statefulRng } from './rng';
 import { multiplierFor, scoreUnaided, scoreWithOptionHint, zeroScore, type ScoreBreakdown } from './scoring';
 import { selectNext } from './selection';
-import { isExpired, pauseTimer, remainingMs, roundDurationMs, startTimer, type RoundTimer } from './timer';
+import { isExpired, pauseTimer, remainingMs, resumeTimer, roundDurationMs, startTimer, type RoundTimer } from './timer';
 import type { Category, Identity, Rng } from './types';
 
 /**
@@ -77,6 +77,8 @@ export interface GameState {
   recentCategories: Category[];
   /** Ids cuja imagem falhou nesta run (saem do conjunto elegível). */
   failed: string[];
+  /** Próxima identidade já escolhida (a UI pré-carrega a imagem). */
+  upcoming: { id: string; cycleReset: boolean } | null;
   stats: RunStats;
 }
 
@@ -88,6 +90,7 @@ export type GameAction =
   | { type: 'pickOption'; roundId: number; optionId: string; now: number }
   | { type: 'next'; roundId: number; now: number }
   | { type: 'imageFailed'; roundId: number; now: number }
+  | { type: 'imageShown'; roundId: number; now: number }
   | { type: 'hide'; now: number }
   | { type: 'resume'; now: number };
 
@@ -96,6 +99,11 @@ export interface EngineDeps {
   /** Em modo competitivo, somente ids com imagem pronta entram em jogo. */
   isImageReady: (id: string) => boolean;
   config: GameConfig;
+  /**
+   * true (usado no app): o timer de uma rodada com imagem só começa quando a UI confirma `imageShown`.
+   * Assim, rede lenta nunca consome o tempo do jogador. Rodadas sem imagem (preview) começam na hora.
+   */
+  timerStartsOnImage?: boolean;
 }
 
 export interface Engine {
@@ -124,40 +132,68 @@ export function createEngine(deps: EngineDeps): Engine {
     return [value, r.state()];
   }
 
-  /** Inicia uma rodada com uma nova identidade. `number` = número da rodada exibida. */
+  /**
+   * Inicia uma rodada. Usa a identidade pré-selecionada (`upcoming`, já pré-carregada pela UI) quando ainda
+   * for válida e já escolhe a seguinte, para a imagem da próxima rodada carregar enquanto esta é jogada.
+   */
   function beginRound(state: GameState, number: number, now: number): GameState {
     const failed = new Set(state.failed);
     const pool = eligiblePool(state.mode).filter((c) => !failed.has(c.id));
+    const poolIds = new Set(pool.map((c) => c.id));
     const lastId = state.round?.identityId;
-    const [picked, rngState] = withRng(state, (rng) =>
-      selectNext({
-        pool,
-        round: number,
-        used: new Set(state.used),
-        recentCategories: state.recentCategories,
-        lastId,
-        rng,
-        config: config.selection,
-      }),
-    );
-    if (!picked) return { ...state, rngState, phase: 'unavailable', round: null };
-    const { identity, cycleReset } = picked;
-    const used = cycleReset ? [identity.id] : [...state.used, identity.id];
+    const r = statefulRng(state.rngState);
+
+    let current: { identity: Identity; cycleReset: boolean } | null = null;
+    const up = state.upcoming;
+    const upIdentity = up ? byId.get(up.id) : undefined;
+    if (up && upIdentity && poolIds.has(up.id) && up.id !== lastId && (up.cycleReset || !state.used.includes(up.id))) {
+      current = { identity: upIdentity, cycleReset: up.cycleReset };
+    }
+    current ??= selectNext({
+      pool,
+      round: number,
+      used: new Set(state.used),
+      recentCategories: state.recentCategories,
+      lastId,
+      rng: r.rng,
+      config: config.selection,
+    });
+    if (!current) return { ...state, rngState: r.state(), phase: 'unavailable', round: null, upcoming: null };
+
+    const { identity } = current;
+    const used = current.cycleReset ? [identity.id] : [...state.used, identity.id];
+    const recentCategories = [...state.recentCategories, identity.category].slice(-8);
+    const next = selectNext({
+      pool,
+      round: number + 1,
+      used: new Set(used),
+      recentCategories,
+      lastId: identity.id,
+      rng: r.rng,
+      config: config.selection,
+    });
     return {
       ...state,
-      rngState,
+      rngState: r.state(),
       phase: 'playing',
       used,
-      recentCategories: [...state.recentCategories, identity.category].slice(-8),
+      recentCategories,
+      upcoming: next && next.identity.id !== identity.id ? { id: next.identity.id, cycleReset: next.cycleReset } : null,
       nextRoundId: state.nextRoundId + 1,
       round: {
         id: state.nextRoundId,
         number,
         identityId: identity.id,
-        timer: startTimer(roundDurationMs(number, config.timer), now),
+        timer: waitsForImage(identity.id)
+          ? pauseTimer(startTimer(roundDurationMs(number, config.timer), now), now)
+          : startTimer(roundDurationMs(number, config.timer), now),
         options: null,
       },
     };
+  }
+
+  function waitsForImage(id: string): boolean {
+    return deps.timerStartsOnImage === true && deps.isImageReady(id);
   }
 
   function resolve(state: GameState, outcome: Outcome, extra: { guess?: string; now: number }): GameState {
@@ -286,6 +322,10 @@ export function createEngine(deps: EngineDeps): Engine {
         const failedState = { ...state, failed: [...state.failed, state.round.identityId] };
         return beginRound(failedState, state.round.number, action.now);
       }
+      case 'imageShown': {
+        if (!isLiveRound(state, action.roundId) || !state.round || state.round.timer.pausedAt === null) return state;
+        return { ...state, round: { ...state.round, timer: resumeTimer(state.round.timer, action.now) } };
+      }
       case 'hide': {
         if (state.phase !== 'playing' || !state.round) return state;
         return { ...state, phase: 'paused', round: { ...state.round, timer: pauseTimer(state.round.timer, action.now) } };
@@ -321,6 +361,7 @@ export function createEngine(deps: EngineDeps): Engine {
       used: [],
       recentCategories: [],
       failed: [],
+      upcoming: null,
       stats: emptyStats(),
     };
     return beginRound(base, 1, now);

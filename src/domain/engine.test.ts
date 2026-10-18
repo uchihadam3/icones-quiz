@@ -195,6 +195,32 @@ describe('C) timer, race conditions e duplo clique', () => {
     expect(r.round!.number).toBe(1);
   });
 
+  it('a identidade pré-selecionada (pré-carregada) é a da próxima rodada', () => {
+    let s = start();
+    for (let i = 0; i < 10; i++) {
+      const upcoming = s.upcoming!.id;
+      expect(upcoming).not.toBe(s.round!.identityId);
+      s = correct(s, 0);
+      expect(s.round!.identityId).toBe(upcoming);
+    }
+  });
+
+  it('com timerStartsOnImage, o tempo só corre depois que a imagem aparece', () => {
+    const gated = createEngine({ catalog: CHARACTERS, isImageReady: () => true, config: GAME_CONFIG, timerStartsOnImage: true });
+    const s = gated.start('competitive', 3, 0);
+    expect(roundRemainingMs(s, 60_000)).toBe(40_000); // imagem ainda carregando: nada de timeout
+    expect(gated.reduce(s, { type: 'timeout', roundId: s.round!.id, now: 60_000 })).toBe(s);
+    const shown = gated.reduce(s, { type: 'imageShown', roundId: s.round!.id, now: 60_000 });
+    expect(roundRemainingMs(shown, 70_000)).toBe(30_000);
+    expect(gated.reduce(shown, { type: 'imageShown', roundId: s.round!.id, now: 75_000 })).toBe(shown); // idempotente
+  });
+
+  it('sem imagem (preview), o tempo começa na hora mesmo com timerStartsOnImage', () => {
+    const gated = createEngine({ catalog: CHARACTERS, isImageReady: () => false, config: GAME_CONFIG, timerStartsOnImage: true });
+    const s = gated.start('preview', 3, 0);
+    expect(roundRemainingMs(s, 10_000)).toBe(30_000);
+  });
+
   it('palpite vazio não consome a rodada', () => {
     const s = start();
     expect(engine.reduce(s, { type: 'submit', roundId: rid(s), guess: '   ', now: 1 })).toBe(s);
