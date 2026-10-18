@@ -2,12 +2,25 @@ import { useCallback, useEffect, useState } from 'react';
 import type { GameMode, GameState } from './domain/engine';
 import { randomSeed } from './domain/rng';
 import { applyMotionPreference, resolveReducedMotion } from './lib/motion';
-import { addRun, loadRecords, loadSettings, saveRecords, saveSettings, type MotionPreference, type Records } from './lib/storage';
+import { attachParticleCanvas, particlesFx } from './lib/particles';
+import {
+  addPracticeRun,
+  addRun,
+  loadRecords,
+  loadSettings,
+  saveRecords,
+  saveSettings,
+  type MotionPreference,
+  type Records,
+} from './lib/storage';
 import { GameOverScreen } from './ui/components/GameOverScreen';
 import { GameScreen } from './ui/components/GameScreen';
 import { HomeScreen } from './ui/components/HomeScreen';
 
-type Screen = { name: 'home' } | { name: 'game'; mode: GameMode; seed: number } | { name: 'over'; state: GameState; newBest: boolean };
+type Screen =
+  | { name: 'home' }
+  | { name: 'game'; mode: GameMode; seed: number }
+  | { name: 'over'; state: GameState; newBest: boolean; previousBest: number };
 
 export function App() {
   const [screen, setScreen] = useState<Screen>({ name: 'home' });
@@ -27,34 +40,47 @@ export function App() {
     saveSettings({ motion: m });
   };
 
-  const startGame = (mode: GameMode) => setScreen({ name: 'game', mode, seed: randomSeed() });
+  const go = (next: Screen) => {
+    particlesFx.clear();
+    window.scrollTo({ top: 0 });
+    setScreen(next);
+  };
+
+  const startGame = (mode: GameMode) => go({ name: 'game', mode, seed: randomSeed() });
 
   const finish = useCallback(
     (state: GameState) => {
-      let newBest = false;
-      if (state.mode === 'competitive') {
-        newBest = state.score > records.best;
-        const next = addRun(records, {
-          score: state.score,
-          rounds: state.round?.number ?? 0,
-          correct: state.stats.correct,
-          bestCombo: state.stats.bestCombo,
-          endedAt: new Date().toISOString(),
-        });
-        setRecords(next);
-        saveRecords(next);
-      }
-      setScreen({ name: 'over', state, newBest });
+      const competitive = state.mode === 'competitive';
+      const previousBest = competitive ? records.best : records.practiceBest;
+      const newBest = state.score > 0 && state.score > previousBest;
+      const next = competitive
+        ? addRun(records, {
+            score: state.score,
+            rounds: state.round?.number ?? 0,
+            correct: state.stats.correct,
+            bestCombo: state.stats.bestCombo,
+            endedAt: new Date().toISOString(),
+          })
+        : addPracticeRun(records, state.score);
+      setRecords(next);
+      saveRecords(next);
+      setScreen({ name: 'over', state, newBest, previousBest });
     },
     [records],
   );
 
-  const home = () => setScreen({ name: 'home' });
+  const home = () => go({ name: 'home' });
 
   return (
     <div className="app">
-      <div className="aurora" aria-hidden="true" />
-      <main className="shell">
+      <div className="backdrop" aria-hidden="true">
+        <span className="backdrop-aurora" />
+        <span className="backdrop-grid" />
+        <span className="backdrop-stars" />
+        <span className="backdrop-vignette" />
+      </div>
+      <canvas className="fx-canvas" ref={attachParticleCanvas} aria-hidden="true" />
+      <main className="shell" data-screen={screen.name}>
         {screen.name === 'home' && (
           <HomeScreen
             records={records}
@@ -64,9 +90,24 @@ export function App() {
             onPreview={() => startGame('preview')}
           />
         )}
-        {screen.name === 'game' && <GameScreen key={screen.seed} mode={screen.mode} seed={screen.seed} onGameOver={finish} onQuit={home} />}
+        {screen.name === 'game' && (
+          <GameScreen
+            key={screen.seed}
+            mode={screen.mode}
+            seed={screen.seed}
+            best={screen.mode === 'competitive' ? records.best : records.practiceBest}
+            onGameOver={finish}
+            onQuit={home}
+          />
+        )}
         {screen.name === 'over' && (
-          <GameOverScreen state={screen.state} newBest={screen.newBest} onAgain={() => startGame(screen.state.mode)} onHome={home} />
+          <GameOverScreen
+            state={screen.state}
+            newBest={screen.newBest}
+            previousBest={screen.previousBest}
+            onAgain={() => startGame(screen.state.mode)}
+            onHome={home}
+          />
         )}
       </main>
     </div>

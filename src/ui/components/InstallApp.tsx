@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { BrandStar, DownloadIcon } from './Icons';
 
 type InstallChoice = { outcome: 'accepted' | 'dismissed' };
 interface InstallPromptEvent extends Event {
@@ -15,6 +16,7 @@ function isStandalone(): boolean {
 export function InstallApp() {
   const [deferred, setDeferred] = useState<InstallPromptEvent | null>(null);
   const [installed, setInstalled] = useState(isStandalone);
+  const [busy, setBusy] = useState(false);
 
   useEffect(() => {
     const onBeforeInstall = (event: Event) => {
@@ -36,30 +38,42 @@ export function InstallApp() {
   const install = async () => {
     const event = deferred;
     if (!event) return;
-    setDeferred(null);
+    setBusy(true);
     try {
       await event.prompt();
       await event.userChoice;
     } catch {
       // Se o navegador recusar, o menu normal continua disponível.
+    } finally {
+      setBusy(false);
+      setDeferred(null);
     }
   };
 
   if (installed) return null;
   return (
-    <div className="panel install-panel" data-testid="install-app">
-      <h2>Instalar no celular</h2>
-      <p>Adicione ÍCONES à tela inicial e abra como aplicativo, sem precisar de APK.</p>
-      {deferred ? (
-        <button type="button" className="btn btn-secondary" onClick={() => void install()}>
-          Instalar aplicativo
-        </button>
-      ) : (
-        <p className="fine-print">
-          Android (Chrome): menu ⋮ → Instalar app / Adicionar à tela inicial.
-          iPhone (Safari): Compartilhar → Adicionar à Tela de Início.
-        </p>
-      )}
+    <div className="install-card" data-testid="install-app">
+      <div className="install-icon" aria-hidden="true">
+        <BrandStar />
+      </div>
+      <div className="install-body">
+        <h2>Instalar no celular</h2>
+        <p>Abra ÍCONES direto da tela inicial, em tela cheia — sem APK.</p>
+        {deferred || busy ? (
+          <button type="button" className={`btn btn--secondary btn--sm${busy ? ' is-loading' : ''}`} onClick={() => void install()} disabled={busy} aria-busy={busy}>
+            <DownloadIcon /> Instalar aplicativo
+          </button>
+        ) : (
+          <p className="install-steps">
+            <span>
+              <b>Android (Chrome):</b> menu ⋮ → Instalar app
+            </span>
+            <span>
+              <b>iPhone (Safari):</b> Compartilhar → Adicionar à Tela de Início
+            </span>
+          </p>
+        )}
+      </div>
     </div>
   );
 }

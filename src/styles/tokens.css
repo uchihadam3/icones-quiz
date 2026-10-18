@@ -1,0 +1,91 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Tokens de design — ÍCONES
+   Direção: arcade moderno premium. Painéis de vidro escuro com relevo,
+   dourado/laranja como energia principal, ciano para ação secundária.
+   O "calor" (data-heat 0–4, vindo do multiplicador) aquece todo o clima.
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* superfícies */
+  --bg-0: #06071a;
+  --bg-1: #0d0f2b;
+  --bg-2: #161a40;
+  --panel-top: rgba(40, 45, 102, 0.78);
+  --panel-bottom: rgba(17, 19, 50, 0.9);
+  --panel-edge: rgba(170, 180, 255, 0.2);
+  --panel-edge-strong: rgba(190, 200, 255, 0.34);
+  --panel-highlight: rgba(255, 255, 255, 0.14);
+
+  /* texto (contraste AA+ sobre --bg-1) */
+  --text: #f6f7ff;
+  --muted: #c0c5ea;
+  --faint: #929ac8;
+
+  /* energia */
+  --gold-1: #fff1b8;
+  --gold: #ffd166;
+  --orange: #ff9a4d;
+  --orange-deep: #e8622c;
+  --cyan: #5ee7ff;
+  --cyan-deep: #1aa6d6;
+  --violet: #9b8cff;
+  --pink: #ff5da2;
+  --good: #3ee08f;
+  --good-deep: #129a5c;
+  --bad: #ff4f6a;
+  --bad-deep: #c22743;
+  --heart: #ff4d6d;
+
+  /* calor do combo (padrão: frio) */
+  --heat-a: #6f62ff;
+  --heat-b: #2fc7ff;
+  --heat-glow: rgba(94, 231, 255, 0.22);
+  --heat-intensity: 0;
+
+  /* forma */
+  --r-xl: 28px;
+  --r-lg: 22px;
+  --r-md: 16px;
+  --r-sm: 12px;
+  --tap: 50px;
+  --lip: 5px;
+
+  --shadow-lg: 0 30px 60px -28px rgba(0, 0, 0, 0.85);
+  --shadow-md: 0 16px 34px -18px rgba(0, 0, 0, 0.8);
+
+  --font-display: 'Lilita One', 'Arial Rounded MT Bold', ui-rounded, system-ui, sans-serif;
+  --font-ui: 'Nunito Variable', 'Nunito', ui-rounded, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  color-scheme: dark;
+}
+
+:root[data-heat='1'] {
+  --heat-a: #8a5cff;
+  --heat-b: #ffc94d;
+  --heat-glow: rgba(255, 201, 77, 0.26);
+  --heat-intensity: 0.25;
+}
+
+:root[data-heat='2'] {
+  --heat-a: #ff8a3d;
+  --heat-b: #ff5da2;
+  --heat-glow: rgba(255, 138, 61, 0.32);
+  --heat-intensity: 0.5;
+}
+
+:root[data-heat='3'] {
+  --heat-a: #ff5a36;
+  --heat-b: #ff3d8b;
+  --heat-glow: rgba(255, 90, 54, 0.38);
+  --heat-intensity: 0.75;
+}
+
+:root[data-heat='4'] {
+  --heat-a: #ff4422;
+  --heat-b: #ffd23f;
+  --heat-glow: rgba(255, 120, 40, 0.48);
+  --heat-intensity: 1;
+}

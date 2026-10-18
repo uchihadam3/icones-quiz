@@ -2,12 +2,13 @@ import { useEffect, useState } from 'react';
 import { imageUrlFor, isImageReady, preloadImage } from '../../data/assets';
 import { CATEGORY_LABELS } from '../../data/characters';
 import type { Identity } from '../../domain/types';
-import { ImageSlotIcon } from './Icons';
+import { BrandStar, CameraIcon, MaskIcon } from './Icons';
 
 /**
  * Imagem do desafio: sempre INTEIRA e nítida (nunca borrada ou revelada aos poucos).
  * - Partida real: só recebe identidades com imagem pronta; falha de carregamento → onFailed (sem custo).
- * - Preview: identidades sem imagem mostram um espaço neutro "Imagem a adicionar" (nunca um desenho imitando o personagem).
+ * - Preview: identidades sem imagem mostram um pôster neutro "Imagem a adicionar" — arte abstrata da marca,
+ *   nunca um desenho imitando o personagem/pessoa.
  * - O texto alternativo e o placeholder nunca contêm o nome nem a origem (seriam a resposta).
  */
 export function ChallengeImage({
@@ -40,25 +41,44 @@ export function ChallengeImage({
     };
   }, [ready, url, preview, onFailed, onShown]);
 
-  if (!ready || (preview && status === 'failed')) {
-    return (
-      <div className="image-slot" data-testid="image-placeholder">
-        <ImageSlotIcon className="image-slot-icon" />
-        <strong>Imagem a adicionar</strong>
-        {/* Só tipo e categoria: a origem (ex.: "Shrek", "Chaves") muitas vezes É a resposta. */}
-        <span className="image-slot-meta">
-          {identity.kind === 'person' ? 'Pessoa' : 'Personagem'} · {CATEGORY_LABELS[identity.category]}
-        </span>
-        <span className="image-slot-note">Somente no preview de desenvolvimento</span>
-      </div>
-    );
-  }
+  if (!ready || (preview && status === 'failed')) return <PlaceholderPoster identity={identity} />;
 
   return (
     <div className={`image-frame is-${status}`}>
-      {status !== 'loaded' && <div className="image-skeleton" aria-hidden="true" />}
+      {status !== 'loaded' && (
+        <div className="image-skeleton" aria-hidden="true">
+          <BrandStar className="skeleton-star" />
+        </div>
+      )}
       {status === 'loaded' && <img src={url} alt="Imagem do desafio" decoding="async" draggable={false} />}
       {status === 'failed' && <p className="image-error">Não foi possível carregar a imagem. Trocando…</p>}
+    </div>
+  );
+}
+
+function PlaceholderPoster({ identity }: { identity: Identity }) {
+  const person = identity.kind === 'person';
+  return (
+    <div className={`poster is-${identity.kind}`} data-testid="image-placeholder">
+      <div className="poster-rays" aria-hidden="true" />
+      <div className="poster-dots" aria-hidden="true" />
+      <div className="poster-foil" aria-hidden="true" />
+      <div className="poster-emblem" aria-hidden="true">
+        <span className="poster-ring" />
+        <span className="poster-q">?</span>
+      </div>
+      <div className="poster-info">
+        <strong className="poster-title">Imagem a adicionar</strong>
+        {/* Só tipo e categoria: a origem (ex.: "Shrek", "Chaves") muitas vezes É a resposta. */}
+        <div className="poster-chips">
+          <span className="chip">
+            {person ? <CameraIcon /> : <MaskIcon />}
+            {person ? 'Pessoa' : 'Personagem'}
+          </span>
+          <span className="chip">{CATEGORY_LABELS[identity.category]}</span>
+        </div>
+        <span className="poster-note">Preview de desenvolvimento</span>
+      </div>
     </div>
   );
 }

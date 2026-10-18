@@ -2,8 +2,21 @@ import { useLayoutEffect, useRef } from 'react';
 import { GAME_CONFIG } from '../../config/gameConfig';
 import { catalogSummary } from '../../game';
 import { fx } from '../../lib/motion';
-import type { MotionPreference, Records } from '../../lib/storage';
-import { HeartIcon, OptionsIcon, SkipIcon, SparkIcon } from './Icons';
+import { bestComboEver, type MotionPreference, type Records } from '../../lib/storage';
+import {
+  BrandStar,
+  ClockIcon,
+  EyeIcon,
+  FlameIcon,
+  HeartIcon,
+  KeyboardIcon,
+  LockIcon,
+  OptionsIcon,
+  PlayIcon,
+  ShieldHeart,
+  SkipIcon,
+  TrophyIcon,
+} from './Icons';
 import { InstallApp } from './InstallApp';
 
 const cfg = GAME_CONFIG;
@@ -21,82 +34,158 @@ export function HomeScreen({
   onPlay: () => void;
   onPreview: () => void;
 }) {
-  const heroRef = useRef<HTMLDivElement>(null);
-  useLayoutEffect(() => fx.cardIn(heroRef.current), []);
+  const rootRef = useRef<HTMLElement>(null);
+  useLayoutEffect(() => fx.screenIn(rootRef.current), []);
   const imagesReady = catalogSummary.ready > 0;
+  const readyPct = catalogSummary.total ? Math.round((catalogSummary.ready / catalogSummary.total) * 100) : 0;
+  const bestCombo = bestComboEver(records);
 
   return (
-    <section className="screen home-screen" data-testid="home-screen">
-      <div className="hero" ref={heroRef}>
-        <p className="eyebrow">
-          <SparkIcon /> Maratona
+    <section className="screen home-screen" ref={rootRef} data-testid="home-screen">
+      <div className="hero" data-enter>
+        <div className="emblem" aria-hidden="true">
+          <span className="emblem-rays" />
+          <span className="emblem-halo" />
+          <BrandStar className="emblem-star" />
+        </div>
+        <p className="eyebrow">Maratona de cultura pop</p>
+        <h1 className="logo" data-text="ÍCONES">
+          ÍCONES
+        </h1>
+        <p className="tagline">
+          Veja a imagem. <b>Diga quem é.</b> Não erre a sequência.
         </p>
-        <h1 className="logo">ÍCONES</h1>
-        <p className="tagline">Veja a imagem. Diga quem é. Quanto tempo você aguenta?</p>
       </div>
 
-      {imagesReady ? (
-        <button className="btn btn-primary btn-xl" onClick={onPlay} data-testid="play">
-          Jogar
-        </button>
-      ) : (
-        <div className="panel status-panel" role="status" data-testid="images-pending">
-          <h2>Banco de imagens em preparação</h2>
-          <p>
-            O catálogo tem <b>{catalogSummary.total} ícones curados</b>, mas ainda <b>nenhuma imagem licenciada</b> foi adicionada. A partida
-            valendo recorde abre quando as imagens chegarem.
-          </p>
-          <button className="btn btn-primary btn-xl" disabled aria-disabled="true">
-            Jogar (em breve)
-          </button>
+      <div className="cta-block" data-enter>
+        {imagesReady ? (
+          <>
+            <button className="btn btn--primary btn--xl btn--shine" onClick={onPlay} data-testid="play">
+              <PlayIcon /> Jogar
+            </button>
+            <button className="btn btn--secondary" onClick={onPreview} data-testid="preview">
+              Treinar (preview)
+            </button>
+          </>
+        ) : (
+          <>
+            <button className="btn btn--primary btn--xl btn--shine btn--stack" onClick={onPreview} data-testid="preview">
+              <PlayIcon />
+              <span className="btn-stack">
+                <span>Jogar treino</span>
+                <small>Testar mecânicas (preview)</small>
+              </span>
+            </button>
+            <div className="locked-card" role="status" data-testid="images-pending">
+              <div className="locked-head">
+                <span className="locked-icon">
+                  <LockIcon />
+                </span>
+                <div>
+                  <h2>Banco de imagens em preparação</h2>
+                  <p>
+                    {catalogSummary.total} ícones curados aguardando imagens licenciadas. A Maratona valendo recorde abre quando elas chegarem.
+                  </p>
+                </div>
+              </div>
+              <div className="locked-progress" aria-label={`${catalogSummary.ready} de ${catalogSummary.total} imagens prontas`}>
+                <span style={{ width: `${Math.max(readyPct, 2)}%` }} />
+              </div>
+              <div className="locked-foot">
+                <span>
+                  {catalogSummary.ready}/{catalogSummary.total} imagens
+                </span>
+                <button className="btn btn--locked btn--sm" disabled aria-disabled="true">
+                  <LockIcon /> Jogar (em breve)
+                </button>
+              </div>
+            </div>
+          </>
+        )}
+      </div>
+
+      <div className="record-card" data-enter data-testid="records">
+        <TrophyIcon className="record-trophy" />
+        <div className="record-main">
+          <span className="hud-label">Seu recorde</span>
+          <strong className="record-value">{records.best.toLocaleString('pt-BR')}</strong>
+          <span className="record-sub">{records.best > 0 ? 'Neste aparelho. Bata essa marca!' : 'Ainda sem recorde — o primeiro é seu.'}</span>
         </div>
-      )}
+        <dl className="record-side">
+          <div>
+            <dt>Melhor combo</dt>
+            <dd>{bestCombo}</dd>
+          </div>
+          <div>
+            <dt>Treino</dt>
+            <dd>{records.practiceBest.toLocaleString('pt-BR')}</dd>
+          </div>
+        </dl>
+      </div>
 
-      <button className="btn btn-secondary" onClick={onPreview} data-testid="preview">
-        Testar mecânicas (preview)
-      </button>
+      <section className="how" aria-labelledby="how-title" data-enter>
+        <h2 id="how-title" className="section-title">
+          Como funciona
+        </h2>
+        <ol className="loop">
+          <li>
+            <EyeIcon />
+            <b>Veja</b>
+            <span>a imagem inteira</span>
+          </li>
+          <li>
+            <KeyboardIcon />
+            <b>Digite</b>
+            <span>quem é, rápido</span>
+          </li>
+          <li>
+            <FlameIcon />
+            <b>Encadeie</b>
+            <span>combos até x{cfg.scoring.maxMultiplier}</span>
+          </li>
+        </ol>
+        <ul className="rules" aria-label="Regras rápidas">
+          <li className="rule rule--life">
+            <HeartIcon filled />
+            <b>{cfg.lives.initial} vidas</b>
+            <span>erro ou tempo esgotado custa 1</span>
+          </li>
+          <li className="rule rule--time">
+            <ClockIcon />
+            <b>
+              {cfg.timer.earlySeconds}s → {cfg.timer.normalSeconds}s
+            </b>
+            <span>o tempo aperta após a rodada {cfg.timer.earlyRounds}</span>
+          </li>
+          <li className="rule rule--combo">
+            <FlameIcon />
+            <b>Combo x{cfg.scoring.maxMultiplier}</b>
+            <span>acertos seguidos multiplicam</span>
+          </li>
+          <li className="rule rule--recover">
+            <ShieldHeart />
+            <b>Vida de volta</b>
+            <span>{cfg.recovery.thresholds.slice(0, 3).join(', ')}… acertos seguidos</span>
+          </li>
+          <li className="rule rule--skip">
+            <SkipIcon />
+            <b>{cfg.aids.skips} pulos</b>
+            <span>sem perder vida, sem pontos</span>
+          </li>
+          <li className="rule rule--hint">
+            <OptionsIcon />
+            <b>{cfg.aids.optionHints} ajudas</b>
+            <span>3 alternativas, valem menos</span>
+          </li>
+        </ul>
+      </section>
 
-      <InstallApp />
+      <div data-enter>
+        <InstallApp />
+      </div>
 
-      <ul className="rules" aria-label="Como funciona">
-        <li>
-          <HeartIcon filled className="rule-icon heart-color" />
-          <span>
-            <b>{cfg.lives.initial} vidas.</b> Erro ou tempo esgotado custa 1.
-          </span>
-        </li>
-        <li>
-          <SparkIcon className="rule-icon gold" />
-          <span>
-            <b>Acertos seguidos</b> recuperam vida e sobem o combo até x{cfg.scoring.maxMultiplier}.
-          </span>
-        </li>
-        <li>
-          <SkipIcon className="rule-icon cyan" />
-          <span>
-            <b>{cfg.aids.skips} pulos</b> por partida: não custam vida, não dão pontos.
-          </span>
-        </li>
-        <li>
-          <OptionsIcon className="rule-icon cyan" />
-          <span>
-            <b>{cfg.aids.optionHints} ajudas</b> de 3 alternativas: valem menos pontos.
-          </span>
-        </li>
-      </ul>
-
-      <div className="home-footer">
-        <div className="records" data-testid="records">
-          <span className="hud-label">Seu recorde (neste aparelho)</span>
-          <strong>{records.best.toLocaleString('pt-BR')}</strong>
-          {records.history.length > 0 && (
-            <span className="records-last">
-              Últimas: {records.history.slice(0, 3).map((r) => r.score.toLocaleString('pt-BR')).join(' · ')}
-            </span>
-          )}
-        </div>
-
-        <fieldset className="segmented" aria-label="Animações">
+      <footer className="home-footer" data-enter>
+        <fieldset className="segmented">
           <legend className="hud-label">Animações</legend>
           {(
             [
@@ -112,7 +201,7 @@ export function HomeScreen({
           ))}
         </fieldset>
         <p className="fine-print">Sem ranking online por enquanto: recordes ficam só neste navegador.</p>
-      </div>
+      </footer>
     </section>
   );
 }

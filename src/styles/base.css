@@ -1,0 +1,325 @@
+/* ── Base, fundo vivo e utilidades ─────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg-0);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100dvh;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.6em;
+  height: 1.6em;
+  padding: 0 0.35em;
+  font-family: var(--font-ui);
+  font-size: 0.72em;
+  font-weight: 800;
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-bottom-width: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--muted);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ── Fundo: aurora que aquece com o combo, grade em perspectiva, estrelas ── */
+
+.app {
+  position: relative;
+  min-height: 100dvh;
+  isolation: isolate;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background: radial-gradient(120% 80% at 50% 0%, var(--bg-2), var(--bg-1) 45%, var(--bg-0));
+}
+
+.backdrop > span {
+  position: absolute;
+  inset: 0;
+}
+
+.backdrop-aurora {
+  background:
+    radial-gradient(60vmax 40vmax at 12% 8%, color-mix(in srgb, var(--heat-a) 42%, transparent), transparent 62%),
+    radial-gradient(55vmax 38vmax at 92% 18%, color-mix(in srgb, var(--heat-b) 30%, transparent), transparent 60%),
+    radial-gradient(70vmax 40vmax at 50% 110%, color-mix(in srgb, var(--heat-a) 30%, transparent), transparent 62%);
+  filter: saturate(1.15);
+  transition: background 0.8s ease;
+  animation: aurora-drift 18s ease-in-out infinite alternate;
+}
+
+@keyframes aurora-drift {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(-3%, 2%, 0) scale(1.08);
+  }
+}
+
+.backdrop-grid {
+  top: 55%;
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--heat-b) 22%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--heat-b) 22%, transparent) 1px, transparent 1px);
+  background-size: 44px 44px;
+  transform: perspective(420px) rotateX(62deg);
+  transform-origin: top center;
+  mask-image: linear-gradient(180deg, transparent, #000 30%, transparent 95%);
+  opacity: calc(0.35 + var(--heat-intensity) * 0.35);
+  animation: grid-run 6s linear infinite;
+}
+
+@keyframes grid-run {
+  to {
+    background-position: 0 44px;
+  }
+}
+
+.backdrop-stars {
+  background-image:
+    radial-gradient(1.5px 1.5px at 10% 20%, #fff8, transparent),
+    radial-gradient(1px 1px at 30% 70%, #fff6, transparent),
+    radial-gradient(1.5px 1.5px at 55% 30%, #fff9, transparent),
+    radial-gradient(1px 1px at 75% 60%, #fff5, transparent),
+    radial-gradient(1.2px 1.2px at 88% 12%, #fff8, transparent),
+    radial-gradient(1px 1px at 45% 88%, #fff5, transparent),
+    radial-gradient(1.4px 1.4px at 20% 45%, #fff7, transparent),
+    radial-gradient(1px 1px at 65% 8%, #fff6, transparent);
+  animation: twinkle 5s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+  to {
+    opacity: 0.45;
+  }
+}
+
+.backdrop-vignette {
+  background: radial-gradient(120% 90% at 50% 40%, transparent 55%, rgba(0, 0, 0, 0.55));
+  transition: box-shadow 0.3s ease;
+}
+
+/* Tensão: tempo acabando — borda da tela pulsa em vermelho. */
+:root[data-danger] .backdrop-vignette {
+  animation: danger-pulse 1s ease-in-out infinite;
+}
+
+@keyframes danger-pulse {
+  0%,
+  100% {
+    box-shadow: inset 0 0 60px 0 rgba(255, 40, 70, 0.25);
+  }
+  50% {
+    box-shadow: inset 0 0 120px 10px rgba(255, 40, 70, 0.55);
+  }
+}
+
+.fx-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 50;
+  pointer-events: none;
+}
+
+/* ── Casca ─────────────────────────────────────────────────────────────── */
+
+.shell {
+  --pad-top: max(10px, env(safe-area-inset-top));
+  --pad-bottom: max(12px, env(safe-area-inset-bottom));
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  padding: var(--pad-top) 16px var(--pad-bottom);
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: calc(100dvh - var(--pad-top) - var(--pad-bottom));
+}
+
+.screen > * {
+  min-width: 0;
+}
+
+.center-screen {
+  justify-content: center;
+}
+
+/* ── Painéis ───────────────────────────────────────────────────────────── */
+
+.panel {
+  position: relative;
+  padding: 20px;
+  border-radius: var(--r-xl);
+  background: linear-gradient(180deg, var(--panel-top), var(--panel-bottom));
+  border: 1px solid var(--panel-edge);
+  box-shadow:
+    inset 0 1px 0 var(--panel-highlight),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.35),
+    var(--shadow-lg);
+  backdrop-filter: blur(16px) saturate(1.2);
+}
+
+.panel h2 {
+  margin: 0 0 6px;
+  font-size: 1.4rem;
+}
+
+.panel p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.hud-label {
+  font-family: var(--font-ui);
+  font-size: 0.66rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.fine-print {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--faint);
+  text-align: center;
+}
+
+.section-title {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.chip svg {
+  width: 15px;
+  height: 15px;
+}
+
+/* Texto flutuante (+150, −1, +1) criado pelo fx.floatText. */
+.float-text {
+  position: fixed;
+  z-index: 60;
+  pointer-events: none;
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  line-height: 1;
+  white-space: nowrap;
+  -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.35);
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.35), 0 0 22px currentColor;
+}
+
+.float-gold {
+  color: var(--gold);
+  font-size: 2.2rem;
+}
+
+.float-cyan {
+  color: var(--cyan);
+}
+
+.float-good {
+  color: var(--good);
+}
+
+.float-bad {
+  color: var(--bad);
+}
+
+/* ── Movimento reduzido ────────────────────────────────────────────────── */
+
+[data-motion='reduced'] *,
+[data-motion='reduced'] *::before,
+[data-motion='reduced'] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+
+[data-motion='reduced'] .backdrop-grid,
+[data-motion='reduced'] .backdrop-aurora {
+  animation: none !important;
+}

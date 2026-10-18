@@ -1,0 +1,341 @@
+/* ── Botões de jogo: relevo 3D com "lábio", brilho, pressão e estados ────
+   Variáveis por variante: --b-top, --b-bottom (corpo), --b-lip (lábio),
+   --b-text, --b-glow. O lábio some ao pressionar (afunda --lip px).      */
+
+.btn {
+  --b-top: #3a4086;
+  --b-bottom: #262a63;
+  --b-lip: #14173d;
+  --b-text: var(--text);
+  --b-glow: rgba(120, 130, 255, 0.35);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: var(--tap);
+  margin-bottom: var(--lip);
+  padding: 0 20px;
+  border: 0;
+  border-radius: var(--r-md);
+  background: linear-gradient(180deg, var(--b-top), var(--b-bottom));
+  color: var(--b-text);
+  font-family: var(--font-ui);
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  isolation: isolate;
+  box-shadow:
+    0 var(--lip) 0 var(--b-lip),
+    0 calc(var(--lip) + 12px) 22px -10px rgba(0, 0, 0, 0.75),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.35),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.18);
+  transform: translateY(0);
+  transition:
+    transform 0.09s ease,
+    box-shadow 0.09s ease,
+    filter 0.2s ease,
+    opacity 0.2s ease;
+}
+
+/* reflexo superior */
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 2px 3px 52% 3px;
+  border-radius: calc(var(--r-md) - 3px) calc(var(--r-md) - 3px) 40% 40% / calc(var(--r-md) - 3px) calc(var(--r-md) - 3px) 14px 14px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0));
+  pointer-events: none;
+  z-index: -1;
+}
+
+.btn svg {
+  width: 1.2em;
+  height: 1.2em;
+  flex: none;
+  filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.25));
+}
+
+@media (hover: hover) {
+  .btn:hover:not(:disabled) {
+    filter: brightness(1.1) saturate(1.05);
+    box-shadow:
+      0 var(--lip) 0 var(--b-lip),
+      0 calc(var(--lip) + 14px) 30px -8px var(--b-glow),
+      inset 0 1.5px 0 rgba(255, 255, 255, 0.4),
+      inset 0 -2px 0 rgba(0, 0, 0, 0.18);
+  }
+}
+
+.btn:active:not(:disabled) {
+  transform: translateY(var(--lip));
+  box-shadow:
+    0 0 0 var(--b-lip),
+    0 4px 10px -6px rgba(0, 0, 0, 0.8),
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.25),
+    inset 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn:focus-visible {
+  outline: 3px solid var(--cyan);
+  outline-offset: 4px;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  filter: saturate(0.25) brightness(0.72);
+  opacity: 0.7;
+  transform: translateY(calc(var(--lip) - 2px));
+  box-shadow:
+    0 2px 0 var(--b-lip),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* carregando: rótulo some, spinner aparece */
+.btn.is-loading {
+  color: transparent;
+}
+
+.btn.is-loading::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #fff;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ── Variantes ─────────────────────────────────────────────────────────── */
+
+.btn--primary {
+  --b-top: #ffe07a;
+  --b-bottom: #ff9a3d;
+  --b-lip: #b8541c;
+  --b-text: #3a1a02;
+  --b-glow: rgba(255, 170, 60, 0.75);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.btn--secondary {
+  --b-top: #4fe3ff;
+  --b-bottom: #1e9fe0;
+  --b-lip: #0f5f96;
+  --b-text: #032238;
+  --b-glow: rgba(80, 220, 255, 0.6);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn--ghost {
+  --b-top: rgba(255, 255, 255, 0.1);
+  --b-bottom: rgba(255, 255, 255, 0.05);
+  --b-lip: rgba(0, 0, 0, 0.45);
+  --b-glow: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.btn--locked {
+  --b-top: #2b2f5e;
+  --b-bottom: #22254d;
+  --b-lip: #121433;
+  --b-text: var(--muted);
+}
+
+.btn--aid {
+  --b-top: #2f3478;
+  --b-bottom: #22265c;
+  --b-lip: #11143a;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 0 12px;
+  font-size: 0.95rem;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.btn--option {
+  --b-top: #333a85;
+  --b-bottom: #262b68;
+  --b-lip: #13163f;
+  justify-content: flex-start;
+  min-height: 52px;
+  padding: 0 14px;
+  font-size: 1.04rem;
+  text-align: left;
+}
+
+.btn--option.is-correct {
+  --b-top: #5ff0a8;
+  --b-bottom: #1fbf72;
+  --b-lip: #0c7a46;
+  --b-text: #032614;
+  filter: none;
+  opacity: 1;
+}
+
+.btn--option.is-wrong {
+  --b-top: #ff7a8c;
+  --b-bottom: #e23a57;
+  --b-lip: #8f1730;
+  filter: none;
+  opacity: 1;
+}
+
+.btn--option.is-dim {
+  opacity: 0.4;
+}
+
+.btn--next {
+  --b-top: #3c428e;
+  --b-bottom: #2a2f6d;
+  --b-lip: #14173f;
+  width: 100%;
+  overflow: hidden;
+}
+
+.btn--next .next-progress {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(90deg, rgba(94, 231, 255, 0.28), rgba(155, 140, 255, 0.28));
+  transform-origin: left;
+  transform: scaleX(0);
+  animation: next-fill var(--auto-ms, 1500ms) linear forwards;
+}
+
+@keyframes next-fill {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.btn--next .next-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* tamanhos */
+.btn--sm {
+  --tap: 42px;
+  --lip: 4px;
+  padding: 0 14px;
+  font-size: 0.88rem;
+  border-radius: var(--r-sm);
+}
+
+.btn--lg {
+  --tap: 56px;
+  font-size: 1.1rem;
+}
+
+.btn--xl {
+  --tap: 64px;
+  --lip: 6px;
+  width: 100%;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.45rem;
+  letter-spacing: 0.02em;
+  border-radius: var(--r-lg);
+}
+
+/* brilho que atravessa o botão principal de tempos em tempos */
+.btn--shine {
+  overflow: hidden;
+}
+
+.btn--shine::after {
+  content: '';
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -40%;
+  width: 30%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+  transform: skewX(-18deg) translateX(-120%);
+  animation: shine 3.6s ease-in-out 1.2s infinite;
+  pointer-events: none;
+}
+
+@keyframes shine {
+  0%,
+  60% {
+    transform: skewX(-18deg) translateX(-120%);
+  }
+  85%,
+  100% {
+    transform: skewX(-18deg) translateX(560%);
+  }
+}
+
+/* Botão-ícone (pausar) */
+.icon-btn {
+  --lip: 4px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: var(--lip);
+  border: 0;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #343a80, #252a62);
+  color: var(--text);
+  cursor: pointer;
+  box-shadow:
+    0 var(--lip) 0 #12153a,
+    inset 0 1.5px 0 rgba(255, 255, 255, 0.25);
+  transition:
+    transform 0.09s ease,
+    box-shadow 0.09s ease;
+}
+
+.icon-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.icon-btn:active:not(:disabled) {
+  transform: translateY(var(--lip));
+  box-shadow:
+    0 0 0 #12153a,
+    inset 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.icon-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Botão com rótulo + legenda */
+.btn-stack {
+  display: grid;
+  justify-items: start;
+  line-height: 1.05;
+  text-align: left;
+}
+
+.btn-stack small {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  opacity: 0.75;
+}
+
+.btn--stack svg {
+  width: 1.1em;
+  height: 1.1em;
+}

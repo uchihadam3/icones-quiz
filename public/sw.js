@@ -1,5 +1,5 @@
 /* Service worker independente do build. Escopo: /icones-quiz/. */
-const CACHE = 'icones-shell-v1';
+const CACHE = 'icones-shell-v2';
 const BASE = new URL(self.registration.scope).pathname;
 const shell = [BASE, BASE + 'manifest.webmanifest', BASE + 'favicon.svg',
   BASE + 'icons/icon-192.png', BASE + 'icons/icon-512.png'];
