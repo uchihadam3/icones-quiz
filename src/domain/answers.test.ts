@@ -1,0 +1,232 @@
+import { describe, expect, it } from 'vitest';
+import { CHARACTERS } from '../data/characters';
+import { answerKey, areAdjacentKeys, buildAnswerIndex, isAcceptableTypo, normalizeAnswer, singleEdit } from './answers';
+import type { Identity } from './types';
+
+const index = buildAnswerIndex(CHARACTERS);
+const ok = (guess: string, id: string) => index.check(guess, id).correct;
+
+describe('D) normalização', () => {
+  it.each([
+    ['Pelé', 'pele'],
+    ['  HOMEM-ARANHA  ', 'homem aranha'],
+    ['Beyoncé', 'beyonce'],
+    ['Relâmpago   McQueen!', 'relampago mcqueen'],
+    ['Gisele Bündchen', 'gisele bundchen'],
+    ['Monkey D. Luffy', 'monkey d luffy'],
+    ['Tom & Jerry', 'tom jerry'],
+    ['Straße', 'strasse'],
+    ['Ｇｏｋｕ', 'goku'], // largura total (teclados asiáticos)
+    ['Mônica', 'monica'], // acento combinante (NFD)
+  ])('%s → %s', (input, expected) => {
+    expect(normalizeAnswer(input)).toBe(expected);
+  });
+
+  it('chave ignora espaços: "Spider Man" = "Spiderman"', () => {
+    expect(answerKey('Spider Man')).toBe(answerKey('spiderman'));
+  });
+});
+
+describe('D) aceitação de nomes, apelidos e localização', () => {
+  it.each([
+    ['goku', 'Goku'],
+    ['goku', 'son goku'],
+    ['goku', 'KAKAROTTO'],
+    ['homem-aranha', 'Spider-Man'],
+    ['homem-aranha', 'homem aranha'],
+    ['homem-aranha', 'homemaranha'],
+    ['homem-aranha', 'Peter Parker'],
+    ['pele', 'pele'],
+    ['pele', 'Edson Arantes do Nascimento'],
+    ['bob-esponja', 'spongebob squarepants'],
+    ['pernalonga', 'Bugs Bunny'],
+    ['pica-pau', 'woody woodpecker'],
+    ['cristiano-ronaldo', 'CR7'],
+    ['ronaldo-nazario', 'fenomeno'],
+    ['relampago-mcqueen', 'relampago mcqueen'],
+    ['monica', 'MONICA'],
+    ['beyonce', 'beyonce'],
+    ['chaves', 'el chavo del ocho'],
+  ])('%s aceita "%s"', (id, guess) => {
+    expect(ok(guess, id)).toBe(true);
+  });
+});
+
+describe('D) tolerância a 1 erro de teclado', () => {
+  it('nomes longos (8+) aceitam 1 edição', () => {
+    expect(ok('Homer Simpsom', 'homer-simpson')).toBe(true); // n→m vizinhas
+    expect(ok('Buzz Ligthyear', 'buzz-lightyear')).toBe(true); // inversão
+    expect(ok('Darth Vaderr', 'darth-vader')).toBe(true); // letra extra
+    expect(ok('Ayrton Sena', 'ayrton-senna')).toBe(true); // letra faltando no meio
+    expect(ok('Lionel Mesi', 'lionel-messi')).toBe(true);
+  });
+
+  it('nomes de 5–7 letras só aceitam tecla vizinha ou inversão', () => {
+    expect(ok('Pikachi', 'pikachu')).toBe(true); // u→i vizinhas
+    expect(ok('Pikahcu', 'pikachu')).toBe(true); // inversão
+    expect(ok('Pikachz', 'pikachu')).toBe(false); // z não é vizinha de u
+    expect(ok('Pikchu', 'pikachu')).toBe(false); // letra faltando: não vale em nome médio
+    expect(ok('Pikachuu', 'pikachu')).toBe(false); // letra extra: não vale em nome médio
+    expect(ok('Shrel', 'shrek')).toBe(true); // k→l vizinhas
+  });
+
+  it('nomes curtos (<5) exigem resposta exata', () => {
+    expect(ok('Gokuu', 'goku')).toBe(false);
+    expect(ok('Gpku', 'goku')).toBe(false);
+    expect(ok('Hulj', 'hulk')).toBe(false);
+    expect(ok('Ash', 'ash-ketchum')).toBe(true);
+    expect(ok('Asj', 'ash-ketchum')).toBe(false);
+    expect(ok('Nemi', 'nemo')).toBe(false);
+  });
+
+  it('não aceita prefixos arbitrários nem cortar o final', () => {
+    expect(ok('Darth Vade', 'darth-vader')).toBe(false);
+    expect(ok('Darth', 'darth-vader')).toBe(false);
+    expect(ok('Homem', 'homem-aranha')).toBe(false);
+    expect(ok('Homem-Aranh', 'homem-aranha')).toBe(false);
+    expect(ok('Pik', 'pikachu')).toBe(false);
+    expect(ok('Super', 'superman')).toBe(false);
+    expect(ok('Michael', 'michael-jackson')).toBe(false);
+    expect(ok('Taylor S', 'taylor-swift')).toBe(false);
+  });
+
+  it('palpite vazio ou só pontuação não é tratado como resposta', () => {
+    expect(index.check('', 'goku')).toEqual({ correct: false, reason: 'empty' });
+    expect(index.check(' -- !! ', 'goku')).toEqual({ correct: false, reason: 'empty' });
+  });
+});
+
+describe('D) homônimos e colisões com outras identidades', () => {
+  it('"Ronaldo" sozinho não vale nem para Cristiano nem para o Fenômeno', () => {
+    expect(ok('Ronaldo', 'cristiano-ronaldo')).toBe(false);
+    expect(ok('Ronaldo', 'ronaldo-nazario')).toBe(false);
+    expect(ok('Ronaldo Fenômeno', 'cristiano-ronaldo')).toBe(false);
+    expect(ok('Cristiano Ronaldo', 'ronaldo-nazario')).toBe(false);
+  });
+
+  it('"MJ" é ambíguo entre Michael Jackson e Michael Jordan', () => {
+    expect(ok('MJ', 'michael-jackson')).toBe(false);
+    expect(ok('MJ', 'michael-jordan')).toBe(false);
+    expect(ok('Michael Jordan', 'michael-jackson')).toBe(false);
+    expect(ok('Michael Jackson', 'michael-jordan')).toBe(false);
+  });
+
+  it('"Woody" é o de Toy Story, nunca o Pica-Pau', () => {
+    expect(ok('Woody', 'woody')).toBe(true);
+    expect(ok('Woody', 'pica-pau')).toBe(false);
+    expect(ok('Woody Woodpecker', 'woody')).toBe(false);
+  });
+
+  it('"Serena" é ambíguo entre Sailor Moon e Serena Williams', () => {
+    expect(ok('Serena', 'sailor-moon')).toBe(false);
+    expect(ok('Serena', 'serena-williams')).toBe(false);
+    expect(ok('Serena Tsukino', 'sailor-moon')).toBe(true);
+  });
+
+  it('nome de outra identidade nunca vale, mesmo parecido', () => {
+    expect(ok('Luigi', 'mario')).toBe(false);
+    expect(ok('Mario', 'luigi')).toBe(false);
+    expect(ok('Batman', 'superman')).toBe(false);
+    expect(ok('Vegeta', 'goku')).toBe(false);
+    expect(ok('Bart Simpson', 'homer-simpson')).toBe(false);
+    expect(ok('Tom', 'jerry-rato')).toBe(false);
+    expect(ok('Jerry', 'tom-gato')).toBe(false);
+    expect(ok('Tom Cruise', 'tom-gato')).toBe(false);
+    expect(ok('Bruce Wayne', 'hulk')).toBe(false);
+    expect(ok('Bruce Banner', 'batman')).toBe(false);
+    expect(ok('Homer', 'bart-simpson')).toBe(false);
+  });
+
+  it('erro de digitação que fica a 1 edição de OUTRA identidade é rejeitado', () => {
+    const fixture: Identity[] = [
+      { id: 'a', kind: 'person', category: 'celebrity', level: 1, displayName: 'Johnson Silva', names: ['Johnson Silva'], origin: 'x' },
+      { id: 'b', kind: 'person', category: 'celebrity', level: 1, displayName: 'Johnson Silvo', names: ['Johnson Silvo'], origin: 'x' },
+      { id: 'c', kind: 'character', category: 'game', level: 1, displayName: 'Marcos', names: ['Marcos'], origin: 'x' },
+      { id: 'd', kind: 'character', category: 'game', level: 1, displayName: 'Marcus', names: ['Marcus'], origin: 'x' },
+    ];
+    const idx = buildAnswerIndex(fixture);
+    // "Johnson Silvp" está a 1 edição das duas → ambíguo
+    expect(idx.check('Johnson Silvp', 'a')).toEqual({ correct: false, reason: 'ambiguous' });
+    expect(idx.check('Johnson Silvo', 'a')).toEqual({ correct: false, reason: 'other-identity' });
+    // "Marcis" (i vizinha de u e o) fica perto de Marcus e Marcos
+    expect(idx.check('Marcis', 'c').correct).toBe(false);
+    expect(idx.check('Marcus', 'c').correct).toBe(false);
+    expect(idx.check('Marcos', 'c').correct).toBe(true);
+  });
+
+  it('nenhum palpite exato de identidade X é aceito para Y no catálogo inteiro', () => {
+    const active = CHARACTERS.filter((c) => c.active !== false);
+    for (const target of active) {
+      for (const other of active) {
+        if (other.id === target.id) continue;
+        for (const name of [...other.names, ...(other.aliases ?? [])]) {
+          const shared = index.keysOf(target.id).includes(answerKey(name));
+          if (shared) continue; // catalog.test.ts garante que não existem chaves compartilhadas
+          expect(ok(name, target.id), `"${name}" (de ${other.id}) aceito para ${target.id}`).toBe(false);
+        }
+      }
+    }
+  });
+
+  it('nenhum erro de 1 tecla sobre o nome de X é aceito para Y', () => {
+    const active = CHARACTERS.filter((c) => c.active !== false);
+    for (const other of active) {
+      for (const key of index.keysOf(other.id)) {
+        const variants = typoVariants(key);
+        for (const v of variants) {
+          for (const target of active) {
+            if (target.id === other.id) continue;
+            const verdict = index.check(v, target.id);
+            if (verdict.correct) {
+              // Só pode ser aceito se o palpite for de fato um nome do alvo (ex.: variante coincide com a chave do alvo).
+              expect(index.keysOf(target.id), `"${v}" (perto de ${other.id}) aceito para ${target.id}`).toContain(v);
+            }
+          }
+        }
+      }
+    }
+  });
+});
+
+describe('D) utilitários de edição', () => {
+  it('classifica a única edição', () => {
+    expect(singleEdit('abc', 'abc')).toEqual({ type: 'equal' });
+    expect(singleEdit('abcd', 'abdc')).toEqual({ type: 'transpose' });
+    expect(singleEdit('abcd', 'abxd')).toEqual({ type: 'substitute', from: 'c', to: 'x' });
+    expect(singleEdit('abcd', 'abcde')).toEqual({ type: 'insert' });
+    expect(singleEdit('abcd', 'abc')).toEqual({ type: 'delete', truncation: true });
+    expect(singleEdit('abcd', 'acd')).toEqual({ type: 'delete', truncation: false });
+    expect(singleEdit('abcd', 'badc')).toBeNull();
+    expect(singleEdit('abcd', 'ab')).toBeNull();
+  });
+
+  it('vizinhança QWERTY', () => {
+    expect(areAdjacentKeys('a', 's')).toBe(true);
+    expect(areAdjacentKeys('a', 'q')).toBe(true);
+    expect(areAdjacentKeys('n', 'm')).toBe(true);
+    expect(areAdjacentKeys('a', 'l')).toBe(false);
+    expect(areAdjacentKeys('o', 'u')).toBe(false);
+  });
+
+  it('isAcceptableTypo nunca aceita a própria igualdade como erro', () => {
+    expect(isAcceptableTypo('pikachu', 'pikachu')).toBe(false);
+  });
+});
+
+/** Gera variantes a 1 edição: trocas por vizinhas, inversões, remoções e inserções de vizinhas. */
+function typoVariants(key: string): string[] {
+  const out = new Set<string>();
+  const letters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+  for (let i = 0; i < key.length; i++) {
+    out.add(key.slice(0, i) + key.slice(i + 1));
+    if (i < key.length - 1) out.add(key.slice(0, i) + key[i + 1] + key[i] + key.slice(i + 2));
+    for (const ch of letters) {
+      if (areAdjacentKeys(key[i] as string, ch)) {
+        out.add(key.slice(0, i) + ch + key.slice(i + 1));
+        out.add(key.slice(0, i) + ch + key.slice(i));
+      }
+    }
+  }
+  out.delete(key);
+  return [...out];
+}
