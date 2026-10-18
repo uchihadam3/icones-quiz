@@ -20,6 +20,7 @@ digita quem é. Quanto mais acertos seguidos, maior o combo — e mais rápido a
 - 3 pulos e 3 ajudas de "3 alternativas" por partida.
 
 Regras completas e decisões anti-exploit: [docs/GAME_RULES.md](docs/GAME_RULES.md).
+Sistema visual, animações e game feel: [docs/DESIGN.md](docs/DESIGN.md).
 
 ## Desenvolvimento
 

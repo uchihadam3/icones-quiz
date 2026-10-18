@@ -45,7 +45,7 @@ test('preview: mecânicas reais, sem revelar o nome antes da resposta', async ({
 
   // duplo clique em "Próximo" avança só uma rodada
   await page.getByTestId('next').dblclick();
-  await expect(page.getByTestId('round')).toHaveText('Rodada 2');
+  await expect(page.getByTestId('round')).toHaveAttribute('aria-label', 'Rodada 2');
 
   // ajuda de alternativas mostra 3 opções; contador da próxima vida visível
   await expect(page.getByTestId('recovery')).toContainText('Próxima vida 0/3');
@@ -68,7 +68,7 @@ test('sair da aba pausa e anula a rodada sem custar vida', async ({ page }) => {
   });
   await expect(page.getByRole('dialog', { name: 'Pausado' })).toBeVisible();
   await page.getByRole('button', { name: 'Continuar' }).click();
-  await expect(page.getByTestId('round')).toHaveText('Rodada 1');
+  await expect(page.getByTestId('round')).toHaveAttribute('aria-label', 'Rodada 1');
   await expect(page.getByRole('img', { name: '3 de 3 vidas' })).toBeVisible();
 });
 
@@ -133,4 +133,60 @@ test('PWA pronta para instalar no celular: manifesto, ícones e worker', async (
   }
   await expect(page.getByText('Instalar no celular')).toBeVisible();
   await expect.poll(() => page.evaluate(async () => Boolean(await navigator.serviceWorker.getRegistration('/icones-quiz/')))).toBe(true);
+});
+
+test('HUD gamificado: sequência, meta do multiplicador e contador de ajudas', async ({ page }) => {
+  await page.goto('./');
+  await page.getByTestId('preview').click();
+  await expect(page.getByTestId('streak')).toHaveAttribute('aria-label', '0 acertos seguidos');
+  await expect(page.getByTestId('multiplier')).toContainText('x2 em 3');
+  await expect(page.getByRole('button', { name: 'Pular, 3 restantes' })).toBeEnabled();
+  await page.getByRole('button', { name: 'Pausar' }).click();
+  const dialog = page.getByRole('dialog', { name: 'Pausado' });
+  await expect(dialog).toContainText('Pontos');
+  await expect(dialog.getByRole('button', { name: 'Continuar' })).toBeFocused();
+});
+
+test('tempo acabando: tela entra em tensão e o timeout custa 1 vida', async ({ page }) => {
+  await page.clock.install();
+  await page.goto('./');
+  await page.getByTestId('preview').click();
+  await expect(page.getByTestId('timer')).toBeVisible();
+  await page.clock.runFor(33_000);
+  await expect(page.locator('html')).toHaveAttribute('data-danger', 'true');
+  await expect(page.getByTestId('timer')).toHaveClass(/is-warning/);
+  await page.clock.runFor(8_000);
+  await expect(page.getByTestId('feedback')).toContainText('Tempo!');
+  await expect(page.getByRole('img', { name: '2 de 3 vidas' })).toBeVisible();
+  await expect(page.locator('html')).not.toHaveAttribute('data-danger', 'true');
+});
+
+test('fim de jogo com 0 pontos não dispara celebração de recorde', async ({ page }) => {
+  await page.goto('./');
+  await page.getByTestId('preview').click();
+  for (let i = 0; i < 3; i++) {
+    await page.getByTestId('answer-input').fill('nada a ver');
+    await page.getByTestId('answer-input').press('Enter');
+    if (i < 2) await page.getByTestId('next').click();
+  }
+  await expect(page.getByTestId('gameover-screen')).toBeVisible();
+  await expect(page.getByTestId('new-record')).toHaveCount(0);
+  await expect(page.getByText('Aquecendo')).toBeVisible();
+  await page.getByTestId('again').click();
+  await expect(page.getByTestId('game-screen')).toBeVisible();
+});
+
+test.describe('teclado virtual aberto (viewport baixa)', () => {
+  test.use({ viewport: { width: 360, height: 430 } });
+  test('cartão encolhe e a resposta continua visível, sem scroll horizontal', async ({ page }) => {
+    await page.goto('./');
+    await page.getByTestId('preview').click();
+    const input = page.getByTestId('answer-input');
+    await expect(input).toBeInViewport();
+    await expect(page.getByTestId('challenge-card')).toBeInViewport();
+    const box = await page.getByTestId('challenge-card').boundingBox();
+    expect(box!.height).toBeGreaterThan(100);
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+    expect(overflow).toBeLessThanOrEqual(0);
+  });
 });
