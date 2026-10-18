@@ -113,3 +113,24 @@ test('navegação por teclado: Tab alcança as ações principais', async ({ pag
   await page.keyboard.press('Enter');
   await expect(page.getByTestId('answer-input')).toBeFocused();
 });
+
+
+test('PWA pronta para instalar no celular: manifesto, ícones e worker', async ({ page }) => {
+  await page.goto('./');
+  await expect(page.locator('link[rel="manifest"]')).toHaveAttribute('href', '/icones-quiz/manifest.webmanifest');
+  const app = await page.evaluate(async () => {
+    const response = await fetch('/icones-quiz/manifest.webmanifest');
+    if (!response.ok) throw new Error('Manifesto indisponível');
+    return response.json() as Promise<{start_url:string;display:string;icons: {src:string;sizes:string}[]}>;
+  });
+  expect(app.start_url).toBe('/icones-quiz/');
+  expect(app.display).toBe('standalone');
+  expect(app.icons.map(i => i.sizes)).toEqual(expect.arrayContaining(['192x192','512x512']));
+  for (const icon of app.icons) {
+    const response = await page.request.get(new URL(icon.src, page.url()).toString());
+    expect(response.ok()).toBeTruthy();
+    expect(response.headers()['content-type']).toMatch(/image\/png/);
+  }
+  await expect(page.getByText('Instalar no celular')).toBeVisible();
+  await expect.poll(() => page.evaluate(async () => Boolean(await navigator.serviceWorker.getRegistration('/icones-quiz/')))).toBe(true);
+});

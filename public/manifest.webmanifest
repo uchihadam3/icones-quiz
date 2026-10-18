@@ -1,0 +1,31 @@
+{
+  "id": "/icones-quiz/",
+  "name": "ÍCONES — Maratona",
+  "short_name": "ÍCONES",
+  "description": "Adivinhe personagens e celebridades famosos. Combos, vidas e recordes.",
+  "lang": "pt-BR",
+  "start_url": "/icones-quiz/",
+  "scope": "/icones-quiz/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0d1a",
+  "theme_color": "#0b0d1a",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "/icones-quiz/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icones-quiz/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

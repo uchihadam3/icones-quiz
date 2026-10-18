@@ -61,3 +61,22 @@ E2E e publica `dist/` no GitHub Pages com base path `/icones-quiz/`.
 
 Código sob [MIT](LICENSE). Nomes, personagens e marcas citados pertencem aos respectivos donos; imagens
 (quando existirem) têm licença própria registrada em `src/data/assets-manifest.json`.
+
+
+## Instalar no celular (PWA)
+
+O projeto inclui manifesto PWA, ícones PNG 192/512, service worker com cache do aplicativo e
+orientações na tela inicial. **Não existe um APK separado:** a instalação é feita diretamente
+pelo navegador quando o GitHub Pages estiver publicado em HTTPS.
+
+- **Android (Chrome):** visite https://uchihadam3.github.io/icones-quiz/ e toque em
+  «Instalar aplicativo» (quando oferecido) ou no menu ⋮ → «Instalar app» / «Adicionar à tela inicial».
+- **iPhone (Safari):** abra o site no Safari, toque em Compartilhar e escolha
+  «Adicionar à Tela de Início».
+- Os arquivos básicos da interface ficam disponíveis offline depois da primeira visita, mas
+  imagens futuras dependem de terem sido carregadas; partidas competitivas exigem imagens.
+
+**Atenção, configuração externa indispensável:** em 
+https://github.com/uchihadam3/icones-quiz/settings/pages, selecione
+*Build and deployment → Source → GitHub Actions*, depois execute novamente a workflow
+«CI & Deploy». Sem ativar o Pages, o deploy falha com 404, independentemente dos testes.

@@ -4,6 +4,7 @@ import { catalogSummary } from '../../game';
 import { fx } from '../../lib/motion';
 import type { MotionPreference, Records } from '../../lib/storage';
 import { HeartIcon, OptionsIcon, SkipIcon, SparkIcon } from './Icons';
+import { InstallApp } from './InstallApp';
 
 const cfg = GAME_CONFIG;
 
@@ -54,6 +55,8 @@ export function HomeScreen({
       <button className="btn btn-secondary" onClick={onPreview} data-testid="preview">
         Testar mecânicas (preview)
       </button>
+
+      <InstallApp />
 
       <ul className="rules" aria-label="Como funciona">
         <li>
