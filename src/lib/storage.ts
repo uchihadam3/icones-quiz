@@ -17,6 +17,8 @@ export interface RunRecord {
 export interface Records {
   best: number;
   history: RunRecord[];
+  /** Melhor pontuação no modo treino/preview (nunca vale como recorde oficial). */
+  practiceBest: number;
 }
 
 export type MotionPreference = 'system' | 'reduced' | 'full';
@@ -43,13 +45,27 @@ function write(key: string, value: unknown): void {
 }
 
 export function loadRecords(): Records {
-  const r = read<Records>('records', { best: 0, history: [] });
-  return { best: Number.isFinite(r.best) ? r.best : 0, history: Array.isArray(r.history) ? r.history.slice(0, HISTORY_LIMIT) : [] };
+  const r = read<Records>('records', { best: 0, history: [], practiceBest: 0 });
+  const num = (v: unknown) => (typeof v === 'number' && Number.isFinite(v) ? v : 0);
+  return {
+    best: num(r.best),
+    history: Array.isArray(r.history) ? r.history.slice(0, HISTORY_LIMIT) : [],
+    practiceBest: num(r.practiceBest),
+  };
+}
+
+/** Melhor combo já feito em partidas reais. */
+export function bestComboEver(records: Records): number {
+  return records.history.reduce((max, r) => Math.max(max, r.bestCombo), 0);
 }
 
 /** Salva a run e devolve os recordes atualizados (puro em relação ao estado anterior). */
 export function addRun(previous: Records, run: RunRecord): Records {
-  return { best: Math.max(previous.best, run.score), history: [run, ...previous.history].slice(0, HISTORY_LIMIT) };
+  return { ...previous, best: Math.max(previous.best, run.score), history: [run, ...previous.history].slice(0, HISTORY_LIMIT) };
+}
+
+export function addPracticeRun(previous: Records, score: number): Records {
+  return { ...previous, practiceBest: Math.max(previous.practiceBest, score) };
 }
 
 export function saveRecords(records: Records): void {
