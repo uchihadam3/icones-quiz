@@ -1,10 +1,9 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import { GAME_CONFIG } from '../../config/gameConfig';
-import { recoveryView, roundRemainingMs, type GameMode, type GameState, type Resolution } from '../../domain/engine';
+import { recoveryView, roundRemainingMs, type Engine, type GameMode, type GameState, type Resolution } from '../../domain/engine';
 import { heatLevel, isFastAnswer, multiplierProgress } from '../../domain/progress';
 import { multiplierFor } from '../../domain/scoring';
 import type { Identity } from '../../domain/types';
-import { engine } from '../../game';
 import { fx, haptic } from '../../lib/motion';
 import { particlesFx, PALETTES } from '../../lib/particles';
 import { useGame } from '../hooks/useGame';
@@ -16,12 +15,14 @@ import { BoltIcon, CameraIcon, ClockIcon, HeartIcon, HomeIcon, MaskIcon, Options
 const cfg = GAME_CONFIG;
 
 export function GameScreen({
+  engine,
   mode,
   seed,
   best,
   onGameOver,
   onQuit,
 }: {
+  engine: Engine;
   mode: GameMode;
   seed: number;
   best: number;
@@ -131,7 +132,7 @@ export function GameScreen({
               <TimerRing remainingMs={remaining} durationMs={round.timer.durationMs} warningSeconds={cfg.timer.warningSeconds} />
             </>
           )}
-          {resolvedHere && <FeedbackOverlay resolution={resolvedHere} />}
+          {resolvedHere && <FeedbackOverlay resolution={resolvedHere} name={engine.identity(resolvedHere.identityId)?.displayName ?? ''} />}
         </RoundCard>
         {resolvedHere && <Celebration resolution={resolvedHere} />}
       </div>
@@ -357,14 +358,13 @@ function OptionsPanel({
   );
 }
 
-function FeedbackOverlay({ resolution }: { resolution: Resolution }) {
+function FeedbackOverlay({ resolution, name }: { resolution: Resolution; name: string }) {
   const titleRef = useRef<HTMLElement>(null);
   const bodyRef = useRef<HTMLDivElement>(null);
   useLayoutEffect(() => {
     fx.stamp(titleRef.current);
     fx.slideUp(bodyRef.current, 0.12);
   }, []);
-  const name = engine.identity(resolution.identityId)?.displayName ?? '';
   const { outcome, score } = resolution;
   const good = outcome === 'correct' || outcome === 'correct-hint';
   const fast = outcome === 'correct' && isFastAnswer(score, cfg.scoring);

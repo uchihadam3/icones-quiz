@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { imageUrlFor, isImageReady, preloadImage } from '../../data/assets';
-import { CATEGORY_LABELS } from '../../data/characters';
+import { CATEGORY_LABELS } from '../../data/categories';
 import type { Identity } from '../../domain/types';
 import { BrandStar, CameraIcon, MaskIcon } from './Icons';
 

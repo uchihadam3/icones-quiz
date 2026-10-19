@@ -25,19 +25,22 @@ export function HomeScreen({
   records,
   motion,
   onMotionChange,
+  starting = false,
   onPlay,
   onPreview,
 }: {
   records: Records;
   motion: MotionPreference;
   onMotionChange: (m: MotionPreference) => void;
+  /** Catálogo ainda carregando após o clique (raro: normalmente já foi pré-carregado). */
+  starting?: boolean;
   onPlay: () => void;
   onPreview: () => void;
 }) {
   const rootRef = useRef<HTMLElement>(null);
   useLayoutEffect(() => fx.screenIn(rootRef.current), []);
-  const imagesReady = catalogSummary.ready > 0;
-  const readyPct = catalogSummary.total ? Math.round((catalogSummary.ready / catalogSummary.total) * 100) : 0;
+  const imagesReady = catalogSummary.competitiveUnlocked;
+  const readyPct = Math.min(100, Math.round((catalogSummary.ready / catalogSummary.unlock.minReady) * 100));
   const bestCombo = bestComboEver(records);
 
   return (
@@ -60,7 +63,7 @@ export function HomeScreen({
       <div className="cta-block" data-enter>
         {imagesReady ? (
           <>
-            <button className="btn btn--primary btn--xl btn--shine" onClick={onPlay} data-testid="play">
+            <button className={`btn btn--primary btn--xl btn--shine${starting ? ' is-loading' : ''}`} onClick={onPlay} aria-busy={starting} data-testid="play">
               <PlayIcon /> Jogar
             </button>
             <button className="btn btn--secondary" onClick={onPreview} data-testid="preview">
@@ -69,7 +72,12 @@ export function HomeScreen({
           </>
         ) : (
           <>
-            <button className="btn btn--primary btn--xl btn--shine btn--stack" onClick={onPreview} data-testid="preview">
+            <button
+              className={`btn btn--primary btn--xl btn--shine btn--stack${starting ? ' is-loading' : ''}`}
+              onClick={onPreview}
+              aria-busy={starting}
+              data-testid="preview"
+            >
               <PlayIcon />
               <span className="btn-stack">
                 <span>Jogar treino</span>
@@ -84,16 +92,17 @@ export function HomeScreen({
                 <div>
                   <h2>Banco de imagens em preparação</h2>
                   <p>
-                    {catalogSummary.total} ícones curados aguardando imagens licenciadas. A Maratona valendo recorde abre quando elas chegarem.
+                    {catalogSummary.total} ícones curados aguardando imagens licenciadas. A Maratona valendo recorde abre sozinha com{' '}
+                    {catalogSummary.unlock.minReady} imagens prontas.
                   </p>
                 </div>
               </div>
-              <div className="locked-progress" aria-label={`${catalogSummary.ready} de ${catalogSummary.total} imagens prontas`}>
+              <div className="locked-progress" aria-label={`${catalogSummary.ready} de ${catalogSummary.unlock.minReady} imagens necessárias`}>
                 <span style={{ width: `${Math.max(readyPct, 2)}%` }} />
               </div>
               <div className="locked-foot">
                 <span>
-                  {catalogSummary.ready}/{catalogSummary.total} imagens
+                  {catalogSummary.ready}/{catalogSummary.unlock.minReady} imagens
                 </span>
                 <button className="btn btn--locked btn--sm" disabled aria-disabled="true">
                   <LockIcon /> Jogar (em breve)

@@ -1,3 +1,4 @@
+import publishedUrls from 'virtual:character-images';
 import manifestJson from './assets-manifest.json';
 
 /**
@@ -10,7 +11,7 @@ export type AssetStatus = 'missing' | 'ready' | 'rejected';
 
 export interface AssetEntry {
   status: AssetStatus;
-  /** Caminho relativo a public/, ex.: characters/goku.webp */
+  /** Caminho do arquivo-fonte relativo a art/, ex.: characters/goku.webp (publicado com nome-hash). */
   file: string;
   width?: number;
   height?: number;
@@ -39,9 +40,11 @@ export function isImageReady(id: string, manifest: AssetManifest = ASSET_MANIFES
   return manifest.entries[id]?.status === 'ready';
 }
 
-export function imageUrlFor(id: string, manifest: AssetManifest = ASSET_MANIFEST, base = import.meta.env.BASE_URL): string {
-  const file = manifest.entries[id]?.file ?? `characters/${id}.webp`;
-  return `${base.replace(/\/?$/, '/')}${file}`;
+export { publishedUrls };
+
+/** URL publicada da imagem (sem o id no nome em produção). Vazia se não houver imagem pronta. */
+export function imageUrlFor(id: string, urls: Record<string, string> = publishedUrls): string {
+  return urls[id] ?? '';
 }
 
 export function readyCount(ids: readonly string[], manifest: AssetManifest = ASSET_MANIFEST): number {

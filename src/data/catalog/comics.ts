@@ -1,0 +1,48 @@
+import { rows } from './define';
+
+// Super-heróis, vilões e quadrinhos clássicos.
+export default rows('comics', [
+  // Marvel
+  ['homem-aranha', 1, 'Homem-Aranha', 'Homem-Aranha|Spider-Man|Peter Parker', 'Marvel'],
+  ['homem-de-ferro', 1, 'Homem de Ferro', 'Homem de Ferro|Iron Man|Tony Stark', 'Marvel'],
+  ['capitao-america', 2, 'Capitão América', 'Capitão América|Captain America|Steve Rogers', 'Marvel'],
+  ['hulk', 1, 'Hulk', 'Hulk|Incrível Hulk|Bruce Banner', 'Marvel'],
+  ['thor', 1, 'Thor', 'Thor', 'Marvel'],
+  ['pantera-negra', 2, 'Pantera Negra', "Pantera Negra|Black Panther|T'Challa", 'Marvel'],
+  ['doutor-estranho', 2, 'Doutor Estranho', 'Doutor Estranho|Dr. Estranho|Doctor Strange|Stephen Strange', 'Marvel'],
+  ['capita-marvel', 3, 'Capitã Marvel', 'Capitã Marvel|Captain Marvel|Carol Danvers', 'Marvel'],
+  ['homem-formiga', 3, 'Homem-Formiga', 'Homem-Formiga|Ant-Man', 'Marvel'],
+  ['gaviao-arqueiro', 3, 'Gavião Arqueiro', 'Gavião Arqueiro|Hawkeye', 'Marvel'],
+  ['groot', 1, 'Groot', 'Groot', 'Marvel (Guardiões da Galáxia)'],
+  ['rocket-raccoon', 2, 'Rocket', 'Rocket|Rocket Raccoon', 'Marvel (Guardiões da Galáxia)'],
+  ['thanos', 1, 'Thanos', 'Thanos', 'Marvel'],
+  ['loki', 2, 'Loki', 'Loki', 'Marvel'],
+  ['deadpool', 1, 'Deadpool', 'Deadpool', 'Marvel'],
+  ['wolverine', 1, 'Wolverine', 'Wolverine|Logan', 'Marvel (X-Men)'],
+  ['magneto', 2, 'Magneto', 'Magneto', 'Marvel (X-Men)'],
+  ['professor-x', 2, 'Professor X', 'Professor X|Professor Xavier|Charles Xavier', 'Marvel (X-Men)'],
+  ['tempestade', 3, 'Tempestade', 'Tempestade|Storm', 'Marvel (X-Men)'],
+  ['venom', 1, 'Venom', 'Venom', 'Marvel'],
+  ['duende-verde', 3, 'Duende Verde', 'Duende Verde|Green Goblin', 'Marvel'],
+  // DC
+  ['batman', 1, 'Batman', 'Batman|Bruce Wayne', 'DC'],
+  ['superman', 1, 'Superman', 'Superman|Super-Homem|Clark Kent', 'DC'],
+  ['mulher-maravilha', 2, 'Mulher-Maravilha', 'Mulher-Maravilha|Wonder Woman|Diana Prince', 'DC'],
+  ['flash', 2, 'Flash', 'Flash|The Flash|Barry Allen', 'DC'],
+  ['aquaman', 2, 'Aquaman', 'Aquaman', 'DC'],
+  ['lanterna-verde', 2, 'Lanterna Verde', 'Lanterna Verde|Green Lantern', 'DC'],
+  ['coringa', 2, 'Coringa', 'Coringa|Joker', 'DC'],
+  ['arlequina', 1, 'Arlequina', 'Arlequina|Harley Quinn', 'DC'],
+  ['mulher-gato', 2, 'Mulher-Gato', 'Mulher-Gato|Catwoman', 'DC'],
+  ['robin', 2, 'Robin', 'Robin', 'DC'],
+  ['pinguim', 3, 'Pinguim', 'Pinguim|The Penguin|Oswald Cobblepot', 'DC'],
+  ['charada', 3, 'Charada', 'Charada|Riddler|The Riddler', 'DC'],
+  ['bane', 3, 'Bane', 'Bane', 'DC'],
+  ['supergirl', 3, 'Supergirl', 'Supergirl|Kara Zor-El', 'DC'],
+  // Outros quadrinhos
+  ['hellboy', 3, 'Hellboy', 'Hellboy', 'Hellboy'],
+  ['asterix', 2, 'Asterix', 'Asterix|Astérix', 'Asterix'],
+  ['obelix', 2, 'Obelix', 'Obelix|Obélix', 'Asterix'],
+  ['tintim', 2, 'Tintim', 'Tintim|Tintin', 'As Aventuras de Tintim'],
+  ['mafalda', 2, 'Mafalda', 'Mafalda', 'Mafalda (Quino)'],
+]);

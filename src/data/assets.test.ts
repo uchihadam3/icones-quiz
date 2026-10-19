@@ -2,14 +2,17 @@
  * Validação automatizada de assets (também roda via `npm run validate:assets`).
  * - Toda identidade ativa precisa de entrada no manifesto; nenhuma entrada órfã.
  * - Entradas 'ready' precisam de arquivo WebP real, dimensões mínimas, proporção 4:5 e licença/atribuição.
- * - Um .webp presente em public/characters sem status 'ready' falha (evita imagem não revisada em produção).
+ * - Um .webp presente em art/characters sem status 'ready' falha (evita imagem não revisada em produção).
+ * - Nenhuma imagem de personagem pode ficar em public/ (seria publicada com o id no nome).
  */
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { ASSET_MANIFEST, IMAGE_ASPECT, IMAGE_MIN_SIZE, imageUrlFor, isImageReady } from './assets';
+import summary from './catalog-summary.json';
 import { activeCharacters, CHARACTERS } from './characters';
 
+const artDir = resolve(process.cwd(), 'art') + '/';
 const publicDir = resolve(process.cwd(), 'public') + '/';
 
 /** Lê largura/altura de um WebP (VP8, VP8L, VP8X). */
@@ -44,8 +47,8 @@ describe('manifesto de imagens', () => {
   it('cada entrada ready tem arquivo WebP válido, tamanho mínimo, proporção 4:5 e licença', () => {
     for (const [id, e] of Object.entries(entries)) {
       if (e.status !== 'ready') continue;
-      const path = publicDir + e.file;
-      expect(existsSync(path), `arquivo ausente: public/${e.file}`).toBe(true);
+      const path = artDir + e.file;
+      expect(existsSync(path), `arquivo ausente: art/${e.file}`).toBe(true);
       const size = readWebpSize(readFileSync(path));
       expect(size, `${id} não é WebP válido`).not.toBeNull();
       if (!size) continue;
@@ -59,16 +62,26 @@ describe('manifesto de imagens', () => {
     }
   });
 
-  it('nenhum .webp em public/characters sem revisão (status ready)', () => {
-    const files = readdirSync(publicDir + 'characters').filter((f) => f.endsWith('.webp'));
+  it('nenhum .webp em art/characters sem revisão (status ready)', () => {
+    const files = readdirSync(artDir + 'characters').filter((f) => f.endsWith('.webp'));
     for (const f of files) {
       const id = f.replace(/\.webp$/, '');
-      expect(isImageReady(id), `public/characters/${f} existe mas o manifesto não marca ready`).toBe(true);
+      expect(isImageReady(id), `art/characters/${f} existe mas o manifesto não marca ready`).toBe(true);
     }
   });
 
-  it('URLs respeitam o base path do GitHub Pages', () => {
-    expect(imageUrlFor('goku', ASSET_MANIFEST, '/icones-quiz/')).toBe('/icones-quiz/characters/goku.webp');
-    expect(imageUrlFor('goku', ASSET_MANIFEST, '/icones-quiz')).toBe('/icones-quiz/characters/goku.webp');
+  it('nenhuma imagem de personagem em public/ (sairia com o id no nome)', () => {
+    expect(existsSync(publicDir + 'characters')).toBe(false);
+  });
+
+  it('URL vem do mapa publicado; sem imagem pronta não há URL', () => {
+    expect(imageUrlFor('goku', { goku: '/icones-quiz/img/abc123.webp' })).toBe('/icones-quiz/img/abc123.webp');
+    expect(imageUrlFor('goku', {})).toBe('');
+  });
+
+  it('resumo da home está em dia com o manifesto (rode npm run assets:sync)', () => {
+    const ready = Object.values(entries).filter((e) => e.status === 'ready').length;
+    expect(summary.total).toBe(Object.keys(entries).length);
+    expect(summary.ready).toBe(ready);
   });
 });

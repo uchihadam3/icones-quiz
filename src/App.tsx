@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
-import type { GameMode, GameState } from './domain/engine';
+import type { Engine, GameMode, GameState } from './domain/engine';
 import { randomSeed } from './domain/rng';
+import { loadEngine } from './game';
 import { applyMotionPreference, resolveReducedMotion } from './lib/motion';
 import { attachParticleCanvas, particlesFx } from './lib/particles';
 import {
@@ -26,6 +27,16 @@ export function App() {
   const [screen, setScreen] = useState<Screen>({ name: 'home' });
   const [records, setRecords] = useState<Records>(loadRecords);
   const [motion, setMotion] = useState<MotionPreference>(() => loadSettings().motion);
+  const [engine, setEngine] = useState<Engine | null>(null);
+  const [starting, setStarting] = useState(false);
+
+  // Pré-carrega o catálogo (chunk separado) quando o navegador estiver ocioso: o clique em "Jogar" fica instantâneo.
+  useEffect(() => {
+    const w = window as Window & { requestIdleCallback?: (cb: () => void) => number };
+    const run = () => void loadEngine().then(setEngine, () => {});
+    if (w.requestIdleCallback) w.requestIdleCallback(run);
+    else window.setTimeout(run, 1200);
+  }, []);
 
   useEffect(() => {
     const apply = () => applyMotionPreference(resolveReducedMotion(motion));
@@ -46,7 +57,16 @@ export function App() {
     setScreen(next);
   };
 
-  const startGame = (mode: GameMode) => go({ name: 'game', mode, seed: randomSeed() });
+  const startGame = async (mode: GameMode) => {
+    if (starting) return;
+    setStarting(true);
+    try {
+      setEngine(await loadEngine());
+      go({ name: 'game', mode, seed: randomSeed() });
+    } finally {
+      setStarting(false);
+    }
+  };
 
   const finish = useCallback(
     (state: GameState) => {
@@ -86,13 +106,15 @@ export function App() {
             records={records}
             motion={motion}
             onMotionChange={changeMotion}
-            onPlay={() => startGame('competitive')}
-            onPreview={() => startGame('preview')}
+            starting={starting}
+            onPlay={() => void startGame('competitive')}
+            onPreview={() => void startGame('preview')}
           />
         )}
-        {screen.name === 'game' && (
+        {screen.name === 'game' && engine && (
           <GameScreen
             key={screen.seed}
+            engine={engine}
             mode={screen.mode}
             seed={screen.seed}
             best={screen.mode === 'competitive' ? records.best : records.practiceBest}
@@ -105,7 +127,7 @@ export function App() {
             state={screen.state}
             newBest={screen.newBest}
             previousBest={screen.previousBest}
-            onAgain={() => startGame(screen.state.mode)}
+            onAgain={() => void startGame(screen.state.mode)}
             onHome={home}
           />
         )}

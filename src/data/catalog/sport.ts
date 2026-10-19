@@ -1,0 +1,67 @@
+import { rows } from './define';
+
+// Só atletas realmente famosos: futebol em peso e ícones indiscutíveis de outros esportes.
+export default rows('sport', [
+  // Futebol — Brasil
+  ['pele', 1, 'Pelé', 'Pelé|Edson Arantes do Nascimento', 'Futebol (Brasil)', 'Rei Pelé|Rei do Futebol'],
+  ['neymar', 1, 'Neymar', 'Neymar|Neymar Jr|Neymar Júnior', 'Futebol (Brasil)', 'Ney'],
+  ['ronaldo-nazario', 2, 'Ronaldo Fenômeno', 'Ronaldo Nazário|Ronaldo Fenômeno|Ronaldo Luís Nazário de Lima', 'Futebol (Brasil)', 'Fenômeno|R9', 'Ronaldo'],
+  ['ronaldinho', 1, 'Ronaldinho Gaúcho', 'Ronaldinho Gaúcho|Ronaldinho', 'Futebol (Brasil)', 'R10|Dentuço'],
+  ['kaka', 1, 'Kaká', 'Kaká|Ricardo Kaká', 'Futebol (Brasil)'],
+  ['romario', 1, 'Romário', 'Romário', 'Futebol (Brasil)', 'Baixinho'],
+  ['zico', 2, 'Zico', 'Zico|Arthur Antunes Coimbra', 'Futebol (Brasil)', 'Galinho de Quintino'],
+  ['rivaldo', 2, 'Rivaldo', 'Rivaldo', 'Futebol (Brasil)'],
+  ['cafu', 2, 'Cafu', 'Cafu', 'Futebol (Brasil)'],
+  ['adriano-imperador', 2, 'Adriano Imperador', 'Adriano Imperador|Adriano', 'Futebol (Brasil)', 'Imperador'],
+  ['garrincha', 3, 'Garrincha', 'Garrincha|Mané Garrincha', 'Futebol (Brasil)'],
+  ['vinicius-junior', 1, 'Vini Jr.', 'Vinícius Júnior|Vini Jr|Vini Júnior|Vinícius Jr', 'Futebol (Brasil)', undefined, 'Vinícius'],
+  ['marta', 2, 'Marta', 'Marta|Marta Vieira da Silva', 'Futebol (Brasil)', 'Rainha Marta'],
+  // Futebol — mundo
+  ['cristiano-ronaldo', 1, 'Cristiano Ronaldo', 'Cristiano Ronaldo', 'Futebol (Portugal)', 'CR7|Cristiano', 'Ronaldo'],
+  ['lionel-messi', 1, 'Lionel Messi', 'Lionel Messi|Leo Messi', 'Futebol (Argentina)', 'Messi'],
+  ['maradona', 1, 'Maradona', 'Diego Maradona|Maradona|Diego Armando Maradona', 'Futebol (Argentina)'],
+  ['zidane', 1, 'Zinedine Zidane', 'Zinedine Zidane|Zidane', 'Futebol (França)', 'Zizou'],
+  ['mbappe', 1, 'Kylian Mbappé', 'Kylian Mbappé|Mbappé', 'Futebol (França)'],
+  ['david-beckham', 1, 'David Beckham', 'David Beckham', 'Futebol (Inglaterra)', 'Beckham'],
+  ['erling-haaland', 2, 'Erling Haaland', 'Erling Haaland', 'Futebol (Noruega)', 'Haaland'],
+  ['ibrahimovic', 2, 'Zlatan Ibrahimović', 'Zlatan Ibrahimović|Ibrahimović', 'Futebol (Suécia)', 'Zlatan|Ibra'],
+  ['mohamed-salah', 2, 'Mohamed Salah', 'Mohamed Salah', 'Futebol (Egito)', 'Salah'],
+  ['robert-lewandowski', 2, 'Robert Lewandowski', 'Robert Lewandowski', 'Futebol (Polônia)', 'Lewandowski'],
+  ['luka-modric', 3, 'Luka Modrić', 'Luka Modrić', 'Futebol (Croácia)', 'Modric'],
+  // Basquete
+  ['michael-jordan', 1, 'Michael Jordan', 'Michael Jordan', 'Basquete (EUA)', 'Air Jordan|Jordan', 'MJ|Michael'],
+  ['lebron-james', 2, 'LeBron James', 'LeBron James', 'Basquete (EUA)', 'LeBron|King James'],
+  ['kobe-bryant', 1, 'Kobe Bryant', 'Kobe Bryant', 'Basquete (EUA)', 'Kobe'],
+  ['stephen-curry', 2, 'Stephen Curry', 'Stephen Curry|Steph Curry', 'Basquete (EUA)', 'Curry'],
+  ['shaquille-oneal', 1, "Shaquille O'Neal", "Shaquille O'Neal", 'Basquete (EUA)', 'Shaq'],
+  ['magic-johnson', 2, 'Magic Johnson', 'Magic Johnson', 'Basquete (EUA)'],
+  ['oscar-schmidt', 2, 'Oscar Schmidt', 'Oscar Schmidt', 'Basquete (Brasil)', 'Mão Santa'],
+  // Fórmula 1
+  ['ayrton-senna', 1, 'Ayrton Senna', 'Ayrton Senna', 'Fórmula 1 (Brasil)', 'Senna'],
+  ['lewis-hamilton', 1, 'Lewis Hamilton', 'Lewis Hamilton', 'Fórmula 1 (Reino Unido)', 'Hamilton'],
+  ['michael-schumacher', 1, 'Michael Schumacher', 'Michael Schumacher', 'Fórmula 1 (Alemanha)', 'Schumacher', 'Michael'],
+  ['max-verstappen', 2, 'Max Verstappen', 'Max Verstappen', 'Fórmula 1 (Países Baixos)', 'Verstappen'],
+  ['rubens-barrichello', 2, 'Rubens Barrichello', 'Rubens Barrichello', 'Fórmula 1 (Brasil)', 'Rubinho|Barrichello'],
+  // Lutas
+  ['muhammad-ali', 1, 'Muhammad Ali', 'Muhammad Ali|Cassius Clay', 'Boxe (EUA)'],
+  ['mike-tyson', 1, 'Mike Tyson', 'Mike Tyson', 'Boxe (EUA)', 'Tyson'],
+  ['anderson-silva', 2, 'Anderson Silva', 'Anderson Silva', 'MMA (Brasil)', 'Spider'],
+  ['conor-mcgregor', 2, 'Conor McGregor', 'Conor McGregor', 'MMA (Irlanda)', 'McGregor'],
+  // Tênis
+  ['serena-williams', 2, 'Serena Williams', 'Serena Williams', 'Tênis (EUA)', undefined, 'Serena'],
+  ['roger-federer', 1, 'Roger Federer', 'Roger Federer', 'Tênis (Suíça)', 'Federer'],
+  ['rafael-nadal', 1, 'Rafael Nadal', 'Rafael Nadal', 'Tênis (Espanha)', 'Nadal|Rafa Nadal'],
+  ['novak-djokovic', 1, 'Novak Djokovic', 'Novak Djokovic|Novak Đoković', 'Tênis (Sérvia)', 'Djokovic'],
+  ['guga-kuerten', 2, 'Gustavo Kuerten', 'Gustavo Kuerten', 'Tênis (Brasil)', 'Guga'],
+  // Olimpíadas e outros
+  ['usain-bolt', 2, 'Usain Bolt', 'Usain Bolt', 'Atletismo (Jamaica)', 'Bolt'],
+  ['michael-phelps', 1, 'Michael Phelps', 'Michael Phelps', 'Natação (EUA)', 'Phelps', 'Michael'],
+  ['simone-biles', 1, 'Simone Biles', 'Simone Biles', 'Ginástica (EUA)', 'Biles'],
+  ['rebeca-andrade', 2, 'Rebeca Andrade', 'Rebeca Andrade', 'Ginástica (Brasil)'],
+  ['rayssa-leal', 3, 'Rayssa Leal', 'Rayssa Leal', 'Skate (Brasil)', 'Fadinha'],
+  ['gabriel-medina', 2, 'Gabriel Medina', 'Gabriel Medina', 'Surfe (Brasil)', 'Medina'],
+  ['tiger-woods', 1, 'Tiger Woods', 'Tiger Woods', 'Golfe (EUA)'],
+  ['tom-brady', 2, 'Tom Brady', 'Tom Brady', 'Futebol americano (EUA)', 'Brady'],
+  ['hulk-hogan', 2, 'Hulk Hogan', 'Hulk Hogan', 'Luta livre (EUA)'],
+  ['john-cena', 2, 'John Cena', 'John Cena', 'Luta livre (EUA)'],
+]);

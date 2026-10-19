@@ -1,105 +1,17 @@
 {
   "version": 1,
   "entries": {
-    "goku": {
-      "status": "missing",
-      "file": "characters/goku.webp"
-    },
-    "vegeta": {
-      "status": "missing",
-      "file": "characters/vegeta.webp"
-    },
-    "naruto-uzumaki": {
-      "status": "missing",
-      "file": "characters/naruto-uzumaki.webp"
-    },
-    "pikachu": {
-      "status": "missing",
-      "file": "characters/pikachu.webp"
-    },
-    "ash-ketchum": {
-      "status": "missing",
-      "file": "characters/ash-ketchum.webp"
-    },
-    "monkey-d-luffy": {
-      "status": "missing",
-      "file": "characters/monkey-d-luffy.webp"
-    },
-    "sailor-moon": {
-      "status": "missing",
-      "file": "characters/sailor-moon.webp"
-    },
-    "seiya-de-pegaso": {
-      "status": "missing",
-      "file": "characters/seiya-de-pegaso.webp"
-    },
-    "totoro": {
-      "status": "missing",
-      "file": "characters/totoro.webp"
-    },
-    "tanjiro-kamado": {
-      "status": "missing",
-      "file": "characters/tanjiro-kamado.webp"
-    },
-    "mickey-mouse": {
-      "status": "missing",
-      "file": "characters/mickey-mouse.webp"
-    },
-    "pato-donald": {
-      "status": "missing",
-      "file": "characters/pato-donald.webp"
-    },
-    "bob-esponja": {
-      "status": "missing",
-      "file": "characters/bob-esponja.webp"
-    },
-    "patrick-estrela": {
-      "status": "missing",
-      "file": "characters/patrick-estrela.webp"
-    },
-    "homer-simpson": {
-      "status": "missing",
-      "file": "characters/homer-simpson.webp"
-    },
-    "bart-simpson": {
-      "status": "missing",
-      "file": "characters/bart-simpson.webp"
-    },
-    "pernalonga": {
-      "status": "missing",
-      "file": "characters/pernalonga.webp"
-    },
-    "pica-pau": {
-      "status": "missing",
-      "file": "characters/pica-pau.webp"
-    },
-    "scooby-doo": {
-      "status": "missing",
-      "file": "characters/scooby-doo.webp"
-    },
-    "tom-gato": {
-      "status": "missing",
-      "file": "characters/tom-gato.webp"
-    },
-    "jerry-rato": {
-      "status": "missing",
-      "file": "characters/jerry-rato.webp"
-    },
-    "monica": {
-      "status": "missing",
-      "file": "characters/monica.webp"
-    },
-    "cebolinha": {
-      "status": "missing",
-      "file": "characters/cebolinha.webp"
-    },
-    "pantera-cor-de-rosa": {
-      "status": "missing",
-      "file": "characters/pantera-cor-de-rosa.webp"
-    },
     "elsa": {
       "status": "missing",
       "file": "characters/elsa.webp"
+    },
+    "anna-frozen": {
+      "status": "missing",
+      "file": "characters/anna-frozen.webp"
+    },
+    "olaf": {
+      "status": "missing",
+      "file": "characters/olaf.webp"
     },
     "woody": {
       "status": "missing",
@@ -109,221 +21,801 @@
       "status": "missing",
       "file": "characters/buzz-lightyear.webp"
     },
+    "jessie": {
+      "status": "missing",
+      "file": "characters/jessie.webp"
+    },
     "simba": {
       "status": "missing",
       "file": "characters/simba.webp"
     },
-    "stitch": {
+    "mufasa": {
       "status": "missing",
-      "file": "characters/stitch.webp"
+      "file": "characters/mufasa.webp"
+    },
+    "scar": {
+      "status": "missing",
+      "file": "characters/scar.webp"
+    },
+    "timao": {
+      "status": "missing",
+      "file": "characters/timao.webp"
+    },
+    "pumba": {
+      "status": "missing",
+      "file": "characters/pumba.webp"
     },
     "shrek": {
       "status": "missing",
       "file": "characters/shrek.webp"
     },
-    "moana": {
+    "burro": {
       "status": "missing",
-      "file": "characters/moana.webp"
+      "file": "characters/burro.webp"
+    },
+    "fiona": {
+      "status": "missing",
+      "file": "characters/fiona.webp"
+    },
+    "gato-de-botas": {
+      "status": "missing",
+      "file": "characters/gato-de-botas.webp"
     },
     "nemo": {
       "status": "missing",
       "file": "characters/nemo.webp"
     },
+    "dory": {
+      "status": "missing",
+      "file": "characters/dory.webp"
+    },
+    "mike-wazowski": {
+      "status": "missing",
+      "file": "characters/mike-wazowski.webp"
+    },
+    "sulley": {
+      "status": "missing",
+      "file": "characters/sulley.webp"
+    },
+    "wall-e": {
+      "status": "missing",
+      "file": "characters/wall-e.webp"
+    },
+    "remy": {
+      "status": "missing",
+      "file": "characters/remy.webp"
+    },
+    "sr-incrivel": {
+      "status": "missing",
+      "file": "characters/sr-incrivel.webp"
+    },
+    "edna-moda": {
+      "status": "missing",
+      "file": "characters/edna-moda.webp"
+    },
     "relampago-mcqueen": {
       "status": "missing",
       "file": "characters/relampago-mcqueen.webp"
     },
-    "mario": {
+    "mate": {
       "status": "missing",
-      "file": "characters/mario.webp"
+      "file": "characters/mate.webp"
     },
-    "luigi": {
+    "carl-fredricksen": {
       "status": "missing",
-      "file": "characters/luigi.webp"
+      "file": "characters/carl-fredricksen.webp"
     },
-    "sonic": {
+    "alegria": {
       "status": "missing",
-      "file": "characters/sonic.webp"
+      "file": "characters/alegria.webp"
     },
-    "pac-man": {
+    "branca-de-neve": {
       "status": "missing",
-      "file": "characters/pac-man.webp"
+      "file": "characters/branca-de-neve.webp"
     },
-    "link": {
+    "cinderela": {
       "status": "missing",
-      "file": "characters/link.webp"
+      "file": "characters/cinderela.webp"
     },
-    "lara-croft": {
+    "ariel": {
       "status": "missing",
-      "file": "characters/lara-croft.webp"
+      "file": "characters/ariel.webp"
     },
-    "kratos": {
+    "ursula": {
       "status": "missing",
-      "file": "characters/kratos.webp"
+      "file": "characters/ursula.webp"
     },
-    "kirby": {
+    "bela": {
       "status": "missing",
-      "file": "characters/kirby.webp"
+      "file": "characters/bela.webp"
     },
-    "master-chief": {
+    "fera": {
       "status": "missing",
-      "file": "characters/master-chief.webp"
+      "file": "characters/fera.webp"
     },
-    "darth-vader": {
+    "aurora": {
       "status": "missing",
-      "file": "characters/darth-vader.webp"
+      "file": "characters/aurora.webp"
     },
-    "yoda": {
+    "malevola": {
       "status": "missing",
-      "file": "characters/yoda.webp"
+      "file": "characters/malevola.webp"
     },
-    "harry-potter": {
+    "rapunzel": {
       "status": "missing",
-      "file": "characters/harry-potter.webp"
+      "file": "characters/rapunzel.webp"
     },
-    "chaves": {
+    "mulan": {
       "status": "missing",
-      "file": "characters/chaves.webp"
+      "file": "characters/mulan.webp"
     },
-    "seu-madruga": {
+    "jasmine": {
       "status": "missing",
-      "file": "characters/seu-madruga.webp"
+      "file": "characters/jasmine.webp"
     },
-    "jack-sparrow": {
+    "aladdin": {
       "status": "missing",
-      "file": "characters/jack-sparrow.webp"
+      "file": "characters/aladdin.webp"
     },
-    "eleven": {
+    "genio": {
       "status": "missing",
-      "file": "characters/eleven.webp"
+      "file": "characters/genio.webp"
     },
-    "homem-aranha": {
+    "pocahontas": {
       "status": "missing",
-      "file": "characters/homem-aranha.webp"
+      "file": "characters/pocahontas.webp"
     },
-    "batman": {
+    "merida": {
       "status": "missing",
-      "file": "characters/batman.webp"
+      "file": "characters/merida.webp"
     },
-    "superman": {
+    "moana": {
       "status": "missing",
-      "file": "characters/superman.webp"
+      "file": "characters/moana.webp"
     },
-    "mulher-maravilha": {
+    "maui": {
       "status": "missing",
-      "file": "characters/mulher-maravilha.webp"
+      "file": "characters/maui.webp"
     },
-    "homem-de-ferro": {
+    "stitch": {
       "status": "missing",
-      "file": "characters/homem-de-ferro.webp"
+      "file": "characters/stitch.webp"
     },
-    "hulk": {
+    "cruella": {
       "status": "missing",
-      "file": "characters/hulk.webp"
+      "file": "characters/cruella.webp"
     },
-    "capitao-america": {
+    "peter-pan": {
       "status": "missing",
-      "file": "characters/capitao-america.webp"
+      "file": "characters/peter-pan.webp"
     },
-    "coringa": {
+    "capitao-gancho": {
       "status": "missing",
-      "file": "characters/coringa.webp"
+      "file": "characters/capitao-gancho.webp"
     },
-    "michael-jackson": {
+    "sininho": {
       "status": "missing",
-      "file": "characters/michael-jackson.webp"
+      "file": "characters/sininho.webp"
     },
-    "beyonce": {
+    "dumbo": {
       "status": "missing",
-      "file": "characters/beyonce.webp"
+      "file": "characters/dumbo.webp"
     },
-    "taylor-swift": {
+    "bambi": {
       "status": "missing",
-      "file": "characters/taylor-swift.webp"
+      "file": "characters/bambi.webp"
     },
-    "madonna": {
+    "pinoquio": {
       "status": "missing",
-      "file": "characters/madonna.webp"
+      "file": "characters/pinoquio.webp"
     },
-    "freddie-mercury": {
+    "mogli": {
       "status": "missing",
-      "file": "characters/freddie-mercury.webp"
+      "file": "characters/mogli.webp"
     },
-    "elvis-presley": {
+    "balu": {
       "status": "missing",
-      "file": "characters/elvis-presley.webp"
+      "file": "characters/balu.webp"
     },
-    "anitta": {
+    "hercules": {
       "status": "missing",
-      "file": "characters/anitta.webp"
+      "file": "characters/hercules.webp"
     },
-    "shakira": {
+    "tarzan": {
       "status": "missing",
-      "file": "characters/shakira.webp"
+      "file": "characters/tarzan.webp"
     },
-    "rihanna": {
+    "detona-ralph": {
       "status": "missing",
-      "file": "characters/rihanna.webp"
+      "file": "characters/detona-ralph.webp"
     },
-    "xuxa": {
+    "baymax": {
       "status": "missing",
-      "file": "characters/xuxa.webp"
+      "file": "characters/baymax.webp"
     },
-    "roberto-carlos-cantor": {
+    "po-kung-fu-panda": {
       "status": "missing",
-      "file": "characters/roberto-carlos-cantor.webp"
+      "file": "characters/po-kung-fu-panda.webp"
     },
-    "pele": {
+    "banguela": {
       "status": "missing",
-      "file": "characters/pele.webp"
+      "file": "characters/banguela.webp"
     },
-    "neymar": {
+    "gru": {
       "status": "missing",
-      "file": "characters/neymar.webp"
+      "file": "characters/gru.webp"
     },
-    "cristiano-ronaldo": {
+    "minion": {
       "status": "missing",
-      "file": "characters/cristiano-ronaldo.webp"
+      "file": "characters/minion.webp"
     },
-    "ronaldo-nazario": {
+    "rei-julien": {
       "status": "missing",
-      "file": "characters/ronaldo-nazario.webp"
+      "file": "characters/rei-julien.webp"
     },
-    "lionel-messi": {
+    "scrat": {
       "status": "missing",
-      "file": "characters/lionel-messi.webp"
+      "file": "characters/scrat.webp"
     },
-    "ayrton-senna": {
+    "sid-preguica": {
       "status": "missing",
-      "file": "characters/ayrton-senna.webp"
+      "file": "characters/sid-preguica.webp"
     },
-    "michael-jordan": {
+    "goku": {
       "status": "missing",
-      "file": "characters/michael-jordan.webp"
+      "file": "characters/goku.webp"
     },
-    "usain-bolt": {
+    "vegeta": {
       "status": "missing",
-      "file": "characters/usain-bolt.webp"
+      "file": "characters/vegeta.webp"
     },
-    "serena-williams": {
+    "gohan": {
       "status": "missing",
-      "file": "characters/serena-williams.webp"
+      "file": "characters/gohan.webp"
     },
-    "lebron-james": {
+    "piccolo": {
       "status": "missing",
-      "file": "characters/lebron-james.webp"
+      "file": "characters/piccolo.webp"
     },
-    "marta": {
+    "freeza": {
       "status": "missing",
-      "file": "characters/marta.webp"
+      "file": "characters/freeza.webp"
     },
-    "silvio-santos": {
+    "kuririn": {
       "status": "missing",
-      "file": "characters/silvio-santos.webp"
+      "file": "characters/kuririn.webp"
     },
-    "dwayne-johnson": {
+    "mestre-kame": {
       "status": "missing",
-      "file": "characters/dwayne-johnson.webp"
+      "file": "characters/mestre-kame.webp"
+    },
+    "bulma": {
+      "status": "missing",
+      "file": "characters/bulma.webp"
+    },
+    "majin-boo": {
+      "status": "missing",
+      "file": "characters/majin-boo.webp"
+    },
+    "cell": {
+      "status": "missing",
+      "file": "characters/cell.webp"
+    },
+    "trunks": {
+      "status": "missing",
+      "file": "characters/trunks.webp"
+    },
+    "naruto-uzumaki": {
+      "status": "missing",
+      "file": "characters/naruto-uzumaki.webp"
+    },
+    "sasuke-uchiha": {
+      "status": "missing",
+      "file": "characters/sasuke-uchiha.webp"
+    },
+    "kakashi-hatake": {
+      "status": "missing",
+      "file": "characters/kakashi-hatake.webp"
+    },
+    "sakura-haruno": {
+      "status": "missing",
+      "file": "characters/sakura-haruno.webp"
+    },
+    "itachi-uchiha": {
+      "status": "missing",
+      "file": "characters/itachi-uchiha.webp"
+    },
+    "gaara": {
+      "status": "missing",
+      "file": "characters/gaara.webp"
+    },
+    "hinata-hyuga": {
+      "status": "missing",
+      "file": "characters/hinata-hyuga.webp"
+    },
+    "jiraiya": {
+      "status": "missing",
+      "file": "characters/jiraiya.webp"
+    },
+    "monkey-d-luffy": {
+      "status": "missing",
+      "file": "characters/monkey-d-luffy.webp"
+    },
+    "roronoa-zoro": {
+      "status": "missing",
+      "file": "characters/roronoa-zoro.webp"
+    },
+    "nami": {
+      "status": "missing",
+      "file": "characters/nami.webp"
+    },
+    "sanji": {
+      "status": "missing",
+      "file": "characters/sanji.webp"
+    },
+    "tony-tony-chopper": {
+      "status": "missing",
+      "file": "characters/tony-tony-chopper.webp"
+    },
+    "pikachu": {
+      "status": "missing",
+      "file": "characters/pikachu.webp"
+    },
+    "ash-ketchum": {
+      "status": "missing",
+      "file": "characters/ash-ketchum.webp"
+    },
+    "charmander": {
+      "status": "missing",
+      "file": "characters/charmander.webp"
+    },
+    "charizard": {
+      "status": "missing",
+      "file": "characters/charizard.webp"
+    },
+    "bulbasaur": {
+      "status": "missing",
+      "file": "characters/bulbasaur.webp"
+    },
+    "squirtle": {
+      "status": "missing",
+      "file": "characters/squirtle.webp"
+    },
+    "jigglypuff": {
+      "status": "missing",
+      "file": "characters/jigglypuff.webp"
+    },
+    "meowth": {
+      "status": "missing",
+      "file": "characters/meowth.webp"
+    },
+    "mewtwo": {
+      "status": "missing",
+      "file": "characters/mewtwo.webp"
+    },
+    "snorlax": {
+      "status": "missing",
+      "file": "characters/snorlax.webp"
+    },
+    "eevee": {
+      "status": "missing",
+      "file": "characters/eevee.webp"
+    },
+    "psyduck": {
+      "status": "missing",
+      "file": "characters/psyduck.webp"
+    },
+    "gengar": {
+      "status": "missing",
+      "file": "characters/gengar.webp"
+    },
+    "seiya-de-pegaso": {
+      "status": "missing",
+      "file": "characters/seiya-de-pegaso.webp"
+    },
+    "shiryu-de-dragao": {
+      "status": "missing",
+      "file": "characters/shiryu-de-dragao.webp"
+    },
+    "ikki-de-fenix": {
+      "status": "missing",
+      "file": "characters/ikki-de-fenix.webp"
+    },
+    "sailor-moon": {
+      "status": "missing",
+      "file": "characters/sailor-moon.webp"
+    },
+    "yugi-muto": {
+      "status": "missing",
+      "file": "characters/yugi-muto.webp"
+    },
+    "seto-kaiba": {
+      "status": "missing",
+      "file": "characters/seto-kaiba.webp"
+    },
+    "light-yagami": {
+      "status": "missing",
+      "file": "characters/light-yagami.webp"
+    },
+    "l-death-note": {
+      "status": "missing",
+      "file": "characters/l-death-note.webp"
+    },
+    "ryuk": {
+      "status": "missing",
+      "file": "characters/ryuk.webp"
+    },
+    "tanjiro-kamado": {
+      "status": "missing",
+      "file": "characters/tanjiro-kamado.webp"
+    },
+    "nezuko-kamado": {
+      "status": "missing",
+      "file": "characters/nezuko-kamado.webp"
+    },
+    "zenitsu-agatsuma": {
+      "status": "missing",
+      "file": "characters/zenitsu-agatsuma.webp"
+    },
+    "kyojuro-rengoku": {
+      "status": "missing",
+      "file": "characters/kyojuro-rengoku.webp"
+    },
+    "satoru-gojo": {
+      "status": "missing",
+      "file": "characters/satoru-gojo.webp"
+    },
+    "yuji-itadori": {
+      "status": "missing",
+      "file": "characters/yuji-itadori.webp"
+    },
+    "eren-yeager": {
+      "status": "missing",
+      "file": "characters/eren-yeager.webp"
+    },
+    "levi-ackerman": {
+      "status": "missing",
+      "file": "characters/levi-ackerman.webp"
+    },
+    "mikasa-ackerman": {
+      "status": "missing",
+      "file": "characters/mikasa-ackerman.webp"
+    },
+    "ichigo-kurosaki": {
+      "status": "missing",
+      "file": "characters/ichigo-kurosaki.webp"
+    },
+    "yusuke-urameshi": {
+      "status": "missing",
+      "file": "characters/yusuke-urameshi.webp"
+    },
+    "saitama": {
+      "status": "missing",
+      "file": "characters/saitama.webp"
+    },
+    "izuku-midoriya": {
+      "status": "missing",
+      "file": "characters/izuku-midoriya.webp"
+    },
+    "edward-elric": {
+      "status": "missing",
+      "file": "characters/edward-elric.webp"
+    },
+    "kenshin-himura": {
+      "status": "missing",
+      "file": "characters/kenshin-himura.webp"
+    },
+    "doraemon": {
+      "status": "missing",
+      "file": "characters/doraemon.webp"
+    },
+    "shin-chan": {
+      "status": "missing",
+      "file": "characters/shin-chan.webp"
+    },
+    "totoro": {
+      "status": "missing",
+      "file": "characters/totoro.webp"
+    },
+    "sem-rosto": {
+      "status": "missing",
+      "file": "characters/sem-rosto.webp"
+    },
+    "mickey-mouse": {
+      "status": "missing",
+      "file": "characters/mickey-mouse.webp"
+    },
+    "minnie-mouse": {
+      "status": "missing",
+      "file": "characters/minnie-mouse.webp"
+    },
+    "pato-donald": {
+      "status": "missing",
+      "file": "characters/pato-donald.webp"
+    },
+    "pateta": {
+      "status": "missing",
+      "file": "characters/pateta.webp"
+    },
+    "pluto": {
+      "status": "missing",
+      "file": "characters/pluto.webp"
+    },
+    "margarida": {
+      "status": "missing",
+      "file": "characters/margarida.webp"
+    },
+    "tio-patinhas": {
+      "status": "missing",
+      "file": "characters/tio-patinhas.webp"
+    },
+    "ze-carioca": {
+      "status": "missing",
+      "file": "characters/ze-carioca.webp"
+    },
+    "perry-ornitorrinco": {
+      "status": "missing",
+      "file": "characters/perry-ornitorrinco.webp"
+    },
+    "pernalonga": {
+      "status": "missing",
+      "file": "characters/pernalonga.webp"
+    },
+    "patolino": {
+      "status": "missing",
+      "file": "characters/patolino.webp"
+    },
+    "frajola": {
+      "status": "missing",
+      "file": "characters/frajola.webp"
+    },
+    "piu-piu": {
+      "status": "missing",
+      "file": "characters/piu-piu.webp"
+    },
+    "papa-leguas": {
+      "status": "missing",
+      "file": "characters/papa-leguas.webp"
+    },
+    "coiote": {
+      "status": "missing",
+      "file": "characters/coiote.webp"
+    },
+    "taz": {
+      "status": "missing",
+      "file": "characters/taz.webp"
+    },
+    "gaguinho": {
+      "status": "missing",
+      "file": "characters/gaguinho.webp"
+    },
+    "ligeirinho": {
+      "status": "missing",
+      "file": "characters/ligeirinho.webp"
+    },
+    "scooby-doo": {
+      "status": "missing",
+      "file": "characters/scooby-doo.webp"
+    },
+    "salsicha": {
+      "status": "missing",
+      "file": "characters/salsicha.webp"
+    },
+    "fred-flintstone": {
+      "status": "missing",
+      "file": "characters/fred-flintstone.webp"
+    },
+    "ze-colmeia": {
+      "status": "missing",
+      "file": "characters/ze-colmeia.webp"
+    },
+    "manda-chuva": {
+      "status": "missing",
+      "file": "characters/manda-chuva.webp"
+    },
+    "dick-vigarista": {
+      "status": "missing",
+      "file": "characters/dick-vigarista.webp"
+    },
+    "mutley": {
+      "status": "missing",
+      "file": "characters/mutley.webp"
+    },
+    "tom-gato": {
+      "status": "missing",
+      "file": "characters/tom-gato.webp"
+    },
+    "jerry-rato": {
+      "status": "missing",
+      "file": "characters/jerry-rato.webp"
+    },
+    "pica-pau": {
+      "status": "missing",
+      "file": "characters/pica-pau.webp"
+    },
+    "pantera-cor-de-rosa": {
+      "status": "missing",
+      "file": "characters/pantera-cor-de-rosa.webp"
+    },
+    "popeye": {
+      "status": "missing",
+      "file": "characters/popeye.webp"
+    },
+    "garfield": {
+      "status": "missing",
+      "file": "characters/garfield.webp"
+    },
+    "snoopy": {
+      "status": "missing",
+      "file": "characters/snoopy.webp"
+    },
+    "charlie-brown": {
+      "status": "missing",
+      "file": "characters/charlie-brown.webp"
+    },
+    "gasparzinho": {
+      "status": "missing",
+      "file": "characters/gasparzinho.webp"
+    },
+    "papai-smurf": {
+      "status": "missing",
+      "file": "characters/papai-smurf.webp"
+    },
+    "hello-kitty": {
+      "status": "missing",
+      "file": "characters/hello-kitty.webp"
+    },
+    "inspetor-bugiganga": {
+      "status": "missing",
+      "file": "characters/inspetor-bugiganga.webp"
+    },
+    "barney-dinossauro": {
+      "status": "missing",
+      "file": "characters/barney-dinossauro.webp"
+    },
+    "homer-simpson": {
+      "status": "missing",
+      "file": "characters/homer-simpson.webp"
+    },
+    "marge-simpson": {
+      "status": "missing",
+      "file": "characters/marge-simpson.webp"
+    },
+    "bart-simpson": {
+      "status": "missing",
+      "file": "characters/bart-simpson.webp"
+    },
+    "lisa-simpson": {
+      "status": "missing",
+      "file": "characters/lisa-simpson.webp"
+    },
+    "sr-burns": {
+      "status": "missing",
+      "file": "characters/sr-burns.webp"
+    },
+    "bender": {
+      "status": "missing",
+      "file": "characters/bender.webp"
+    },
+    "peter-griffin": {
+      "status": "missing",
+      "file": "characters/peter-griffin.webp"
+    },
+    "eric-cartman": {
+      "status": "missing",
+      "file": "characters/eric-cartman.webp"
+    },
+    "rick-sanchez": {
+      "status": "missing",
+      "file": "characters/rick-sanchez.webp"
+    },
+    "morty-smith": {
+      "status": "missing",
+      "file": "characters/morty-smith.webp"
+    },
+    "bob-esponja": {
+      "status": "missing",
+      "file": "characters/bob-esponja.webp"
+    },
+    "patrick-estrela": {
+      "status": "missing",
+      "file": "characters/patrick-estrela.webp"
+    },
+    "lula-molusco": {
+      "status": "missing",
+      "file": "characters/lula-molusco.webp"
+    },
+    "seu-sirigueijo": {
+      "status": "missing",
+      "file": "characters/seu-sirigueijo.webp"
+    },
+    "sandy-bochechas": {
+      "status": "missing",
+      "file": "characters/sandy-bochechas.webp"
+    },
+    "plankton": {
+      "status": "missing",
+      "file": "characters/plankton.webp"
+    },
+    "jimmy-neutron": {
+      "status": "missing",
+      "file": "characters/jimmy-neutron.webp"
+    },
+    "aang": {
+      "status": "missing",
+      "file": "characters/aang.webp"
+    },
+    "dora-aventureira": {
+      "status": "missing",
+      "file": "characters/dora-aventureira.webp"
+    },
+    "peppa-pig": {
+      "status": "missing",
+      "file": "characters/peppa-pig.webp"
+    },
+    "bluey": {
+      "status": "missing",
+      "file": "characters/bluey.webp"
+    },
+    "ben-10": {
+      "status": "missing",
+      "file": "characters/ben-10.webp"
+    },
+    "finn-o-humano": {
+      "status": "missing",
+      "file": "characters/finn-o-humano.webp"
+    },
+    "jake-o-cao": {
+      "status": "missing",
+      "file": "characters/jake-o-cao.webp"
+    },
+    "florzinha": {
+      "status": "missing",
+      "file": "characters/florzinha.webp"
+    },
+    "lindinha": {
+      "status": "missing",
+      "file": "characters/lindinha.webp"
+    },
+    "docinho": {
+      "status": "missing",
+      "file": "characters/docinho.webp"
+    },
+    "johnny-bravo": {
+      "status": "missing",
+      "file": "characters/johnny-bravo.webp"
+    },
+    "coragem": {
+      "status": "missing",
+      "file": "characters/coragem.webp"
+    },
+    "dexter-laboratorio": {
+      "status": "missing",
+      "file": "characters/dexter-laboratorio.webp"
+    },
+    "mordecai": {
+      "status": "missing",
+      "file": "characters/mordecai.webp"
+    },
+    "monica": {
+      "status": "missing",
+      "file": "characters/monica.webp"
+    },
+    "cebolinha": {
+      "status": "missing",
+      "file": "characters/cebolinha.webp"
+    },
+    "cascao": {
+      "status": "missing",
+      "file": "characters/cascao.webp"
+    },
+    "magali": {
+      "status": "missing",
+      "file": "characters/magali.webp"
+    },
+    "chico-bento": {
+      "status": "missing",
+      "file": "characters/chico-bento.webp"
     },
     "leonardo-dicaprio": {
       "status": "missing",
@@ -337,17 +829,9 @@
       "status": "missing",
       "file": "characters/will-smith.webp"
     },
-    "marilyn-monroe": {
+    "dwayne-johnson": {
       "status": "missing",
-      "file": "characters/marilyn-monroe.webp"
-    },
-    "charlie-chaplin": {
-      "status": "missing",
-      "file": "characters/charlie-chaplin.webp"
-    },
-    "gisele-bundchen": {
-      "status": "missing",
-      "file": "characters/gisele-bundchen.webp"
+      "file": "characters/dwayne-johnson.webp"
     },
     "keanu-reeves": {
       "status": "missing",
@@ -356,6 +840,1498 @@
     "zendaya": {
       "status": "missing",
       "file": "characters/zendaya.webp"
+    },
+    "brad-pitt": {
+      "status": "missing",
+      "file": "characters/brad-pitt.webp"
+    },
+    "angelina-jolie": {
+      "status": "missing",
+      "file": "characters/angelina-jolie.webp"
+    },
+    "tom-hanks": {
+      "status": "missing",
+      "file": "characters/tom-hanks.webp"
+    },
+    "morgan-freeman": {
+      "status": "missing",
+      "file": "characters/morgan-freeman.webp"
+    },
+    "jennifer-aniston": {
+      "status": "missing",
+      "file": "characters/jennifer-aniston.webp"
+    },
+    "julia-roberts": {
+      "status": "missing",
+      "file": "characters/julia-roberts.webp"
+    },
+    "meryl-streep": {
+      "status": "missing",
+      "file": "characters/meryl-streep.webp"
+    },
+    "scarlett-johansson": {
+      "status": "missing",
+      "file": "characters/scarlett-johansson.webp"
+    },
+    "arnold-schwarzenegger": {
+      "status": "missing",
+      "file": "characters/arnold-schwarzenegger.webp"
+    },
+    "jackie-chan": {
+      "status": "missing",
+      "file": "characters/jackie-chan.webp"
+    },
+    "bruce-lee": {
+      "status": "missing",
+      "file": "characters/bruce-lee.webp"
+    },
+    "jim-carrey": {
+      "status": "missing",
+      "file": "characters/jim-carrey.webp"
+    },
+    "adam-sandler": {
+      "status": "missing",
+      "file": "characters/adam-sandler.webp"
+    },
+    "eddie-murphy": {
+      "status": "missing",
+      "file": "characters/eddie-murphy.webp"
+    },
+    "samuel-l-jackson": {
+      "status": "missing",
+      "file": "characters/samuel-l-jackson.webp"
+    },
+    "denzel-washington": {
+      "status": "missing",
+      "file": "characters/denzel-washington.webp"
+    },
+    "nicolas-cage": {
+      "status": "missing",
+      "file": "characters/nicolas-cage.webp"
+    },
+    "al-pacino": {
+      "status": "missing",
+      "file": "characters/al-pacino.webp"
+    },
+    "robert-de-niro": {
+      "status": "missing",
+      "file": "characters/robert-de-niro.webp"
+    },
+    "jack-nicholson": {
+      "status": "missing",
+      "file": "characters/jack-nicholson.webp"
+    },
+    "clint-eastwood": {
+      "status": "missing",
+      "file": "characters/clint-eastwood.webp"
+    },
+    "audrey-hepburn": {
+      "status": "missing",
+      "file": "characters/audrey-hepburn.webp"
+    },
+    "marilyn-monroe": {
+      "status": "missing",
+      "file": "characters/marilyn-monroe.webp"
+    },
+    "charlie-chaplin": {
+      "status": "missing",
+      "file": "characters/charlie-chaplin.webp"
+    },
+    "ryan-gosling": {
+      "status": "missing",
+      "file": "characters/ryan-gosling.webp"
+    },
+    "ryan-reynolds": {
+      "status": "missing",
+      "file": "characters/ryan-reynolds.webp"
+    },
+    "emma-stone": {
+      "status": "missing",
+      "file": "characters/emma-stone.webp"
+    },
+    "jennifer-lawrence": {
+      "status": "missing",
+      "file": "characters/jennifer-lawrence.webp"
+    },
+    "natalie-portman": {
+      "status": "missing",
+      "file": "characters/natalie-portman.webp"
+    },
+    "anne-hathaway": {
+      "status": "missing",
+      "file": "characters/anne-hathaway.webp"
+    },
+    "sandra-bullock": {
+      "status": "missing",
+      "file": "characters/sandra-bullock.webp"
+    },
+    "nicole-kidman": {
+      "status": "missing",
+      "file": "characters/nicole-kidman.webp"
+    },
+    "cameron-diaz": {
+      "status": "missing",
+      "file": "characters/cameron-diaz.webp"
+    },
+    "vin-diesel": {
+      "status": "missing",
+      "file": "characters/vin-diesel.webp"
+    },
+    "jason-statham": {
+      "status": "missing",
+      "file": "characters/jason-statham.webp"
+    },
+    "pedro-pascal": {
+      "status": "missing",
+      "file": "characters/pedro-pascal.webp"
+    },
+    "timothee-chalamet": {
+      "status": "missing",
+      "file": "characters/timothee-chalamet.webp"
+    },
+    "oprah-winfrey": {
+      "status": "missing",
+      "file": "characters/oprah-winfrey.webp"
+    },
+    "kim-kardashian": {
+      "status": "missing",
+      "file": "characters/kim-kardashian.webp"
+    },
+    "elon-musk": {
+      "status": "missing",
+      "file": "characters/elon-musk.webp"
+    },
+    "bill-gates": {
+      "status": "missing",
+      "file": "characters/bill-gates.webp"
+    },
+    "steve-jobs": {
+      "status": "missing",
+      "file": "characters/steve-jobs.webp"
+    },
+    "mark-zuckerberg": {
+      "status": "missing",
+      "file": "characters/mark-zuckerberg.webp"
+    },
+    "mrbeast": {
+      "status": "missing",
+      "file": "characters/mrbeast.webp"
+    },
+    "silvio-santos": {
+      "status": "missing",
+      "file": "characters/silvio-santos.webp"
+    },
+    "faustao": {
+      "status": "missing",
+      "file": "characters/faustao.webp"
+    },
+    "ana-maria-braga": {
+      "status": "missing",
+      "file": "characters/ana-maria-braga.webp"
+    },
+    "luciano-huck": {
+      "status": "missing",
+      "file": "characters/luciano-huck.webp"
+    },
+    "angelica": {
+      "status": "missing",
+      "file": "characters/angelica.webp"
+    },
+    "gugu-liberato": {
+      "status": "missing",
+      "file": "characters/gugu-liberato.webp"
+    },
+    "ratinho": {
+      "status": "missing",
+      "file": "characters/ratinho.webp"
+    },
+    "fatima-bernardes": {
+      "status": "missing",
+      "file": "characters/fatima-bernardes.webp"
+    },
+    "william-bonner": {
+      "status": "missing",
+      "file": "characters/william-bonner.webp"
+    },
+    "galvao-bueno": {
+      "status": "missing",
+      "file": "characters/galvao-bueno.webp"
+    },
+    "hebe-camargo": {
+      "status": "missing",
+      "file": "characters/hebe-camargo.webp"
+    },
+    "jo-soares": {
+      "status": "missing",
+      "file": "characters/jo-soares.webp"
+    },
+    "chacrinha": {
+      "status": "missing",
+      "file": "characters/chacrinha.webp"
+    },
+    "renato-aragao": {
+      "status": "missing",
+      "file": "characters/renato-aragao.webp"
+    },
+    "mussum": {
+      "status": "missing",
+      "file": "characters/mussum.webp"
+    },
+    "paulo-gustavo": {
+      "status": "missing",
+      "file": "characters/paulo-gustavo.webp"
+    },
+    "tata-werneck": {
+      "status": "missing",
+      "file": "characters/tata-werneck.webp"
+    },
+    "whindersson-nunes": {
+      "status": "missing",
+      "file": "characters/whindersson-nunes.webp"
+    },
+    "felipe-neto": {
+      "status": "missing",
+      "file": "characters/felipe-neto.webp"
+    },
+    "luccas-neto": {
+      "status": "missing",
+      "file": "characters/luccas-neto.webp"
+    },
+    "casimiro": {
+      "status": "missing",
+      "file": "characters/casimiro.webp"
+    },
+    "virginia-fonseca": {
+      "status": "missing",
+      "file": "characters/virginia-fonseca.webp"
+    },
+    "carlinhos-maia": {
+      "status": "missing",
+      "file": "characters/carlinhos-maia.webp"
+    },
+    "marcos-mion": {
+      "status": "missing",
+      "file": "characters/marcos-mion.webp"
+    },
+    "fernanda-montenegro": {
+      "status": "missing",
+      "file": "characters/fernanda-montenegro.webp"
+    },
+    "tony-ramos": {
+      "status": "missing",
+      "file": "characters/tony-ramos.webp"
+    },
+    "rodrigo-santoro": {
+      "status": "missing",
+      "file": "characters/rodrigo-santoro.webp"
+    },
+    "selton-mello": {
+      "status": "missing",
+      "file": "characters/selton-mello.webp"
+    },
+    "lazaro-ramos": {
+      "status": "missing",
+      "file": "characters/lazaro-ramos.webp"
+    },
+    "bruna-marquezine": {
+      "status": "missing",
+      "file": "characters/bruna-marquezine.webp"
+    },
+    "juliana-paes": {
+      "status": "missing",
+      "file": "characters/juliana-paes.webp"
+    },
+    "gloria-pires": {
+      "status": "missing",
+      "file": "characters/gloria-pires.webp"
+    },
+    "regina-case": {
+      "status": "missing",
+      "file": "characters/regina-case.webp"
+    },
+    "gisele-bundchen": {
+      "status": "missing",
+      "file": "characters/gisele-bundchen.webp"
+    },
+    "homem-aranha": {
+      "status": "missing",
+      "file": "characters/homem-aranha.webp"
+    },
+    "homem-de-ferro": {
+      "status": "missing",
+      "file": "characters/homem-de-ferro.webp"
+    },
+    "capitao-america": {
+      "status": "missing",
+      "file": "characters/capitao-america.webp"
+    },
+    "hulk": {
+      "status": "missing",
+      "file": "characters/hulk.webp"
+    },
+    "thor": {
+      "status": "missing",
+      "file": "characters/thor.webp"
+    },
+    "pantera-negra": {
+      "status": "missing",
+      "file": "characters/pantera-negra.webp"
+    },
+    "doutor-estranho": {
+      "status": "missing",
+      "file": "characters/doutor-estranho.webp"
+    },
+    "capita-marvel": {
+      "status": "missing",
+      "file": "characters/capita-marvel.webp"
+    },
+    "homem-formiga": {
+      "status": "missing",
+      "file": "characters/homem-formiga.webp"
+    },
+    "gaviao-arqueiro": {
+      "status": "missing",
+      "file": "characters/gaviao-arqueiro.webp"
+    },
+    "groot": {
+      "status": "missing",
+      "file": "characters/groot.webp"
+    },
+    "rocket-raccoon": {
+      "status": "missing",
+      "file": "characters/rocket-raccoon.webp"
+    },
+    "thanos": {
+      "status": "missing",
+      "file": "characters/thanos.webp"
+    },
+    "loki": {
+      "status": "missing",
+      "file": "characters/loki.webp"
+    },
+    "deadpool": {
+      "status": "missing",
+      "file": "characters/deadpool.webp"
+    },
+    "wolverine": {
+      "status": "missing",
+      "file": "characters/wolverine.webp"
+    },
+    "magneto": {
+      "status": "missing",
+      "file": "characters/magneto.webp"
+    },
+    "professor-x": {
+      "status": "missing",
+      "file": "characters/professor-x.webp"
+    },
+    "tempestade": {
+      "status": "missing",
+      "file": "characters/tempestade.webp"
+    },
+    "venom": {
+      "status": "missing",
+      "file": "characters/venom.webp"
+    },
+    "duende-verde": {
+      "status": "missing",
+      "file": "characters/duende-verde.webp"
+    },
+    "batman": {
+      "status": "missing",
+      "file": "characters/batman.webp"
+    },
+    "superman": {
+      "status": "missing",
+      "file": "characters/superman.webp"
+    },
+    "mulher-maravilha": {
+      "status": "missing",
+      "file": "characters/mulher-maravilha.webp"
+    },
+    "flash": {
+      "status": "missing",
+      "file": "characters/flash.webp"
+    },
+    "aquaman": {
+      "status": "missing",
+      "file": "characters/aquaman.webp"
+    },
+    "lanterna-verde": {
+      "status": "missing",
+      "file": "characters/lanterna-verde.webp"
+    },
+    "coringa": {
+      "status": "missing",
+      "file": "characters/coringa.webp"
+    },
+    "arlequina": {
+      "status": "missing",
+      "file": "characters/arlequina.webp"
+    },
+    "mulher-gato": {
+      "status": "missing",
+      "file": "characters/mulher-gato.webp"
+    },
+    "robin": {
+      "status": "missing",
+      "file": "characters/robin.webp"
+    },
+    "pinguim": {
+      "status": "missing",
+      "file": "characters/pinguim.webp"
+    },
+    "charada": {
+      "status": "missing",
+      "file": "characters/charada.webp"
+    },
+    "bane": {
+      "status": "missing",
+      "file": "characters/bane.webp"
+    },
+    "supergirl": {
+      "status": "missing",
+      "file": "characters/supergirl.webp"
+    },
+    "hellboy": {
+      "status": "missing",
+      "file": "characters/hellboy.webp"
+    },
+    "asterix": {
+      "status": "missing",
+      "file": "characters/asterix.webp"
+    },
+    "obelix": {
+      "status": "missing",
+      "file": "characters/obelix.webp"
+    },
+    "tintim": {
+      "status": "missing",
+      "file": "characters/tintim.webp"
+    },
+    "mafalda": {
+      "status": "missing",
+      "file": "characters/mafalda.webp"
+    },
+    "darth-vader": {
+      "status": "missing",
+      "file": "characters/darth-vader.webp"
+    },
+    "yoda": {
+      "status": "missing",
+      "file": "characters/yoda.webp"
+    },
+    "luke-skywalker": {
+      "status": "missing",
+      "file": "characters/luke-skywalker.webp"
+    },
+    "princesa-leia": {
+      "status": "missing",
+      "file": "characters/princesa-leia.webp"
+    },
+    "han-solo": {
+      "status": "missing",
+      "file": "characters/han-solo.webp"
+    },
+    "chewbacca": {
+      "status": "missing",
+      "file": "characters/chewbacca.webp"
+    },
+    "r2-d2": {
+      "status": "missing",
+      "file": "characters/r2-d2.webp"
+    },
+    "c-3po": {
+      "status": "missing",
+      "file": "characters/c-3po.webp"
+    },
+    "grogu": {
+      "status": "missing",
+      "file": "characters/grogu.webp"
+    },
+    "stormtrooper": {
+      "status": "missing",
+      "file": "characters/stormtrooper.webp"
+    },
+    "mandaloriano": {
+      "status": "missing",
+      "file": "characters/mandaloriano.webp"
+    },
+    "harry-potter": {
+      "status": "missing",
+      "file": "characters/harry-potter.webp"
+    },
+    "hermione-granger": {
+      "status": "missing",
+      "file": "characters/hermione-granger.webp"
+    },
+    "rony-weasley": {
+      "status": "missing",
+      "file": "characters/rony-weasley.webp"
+    },
+    "dumbledore": {
+      "status": "missing",
+      "file": "characters/dumbledore.webp"
+    },
+    "voldemort": {
+      "status": "missing",
+      "file": "characters/voldemort.webp"
+    },
+    "hagrid": {
+      "status": "missing",
+      "file": "characters/hagrid.webp"
+    },
+    "severo-snape": {
+      "status": "missing",
+      "file": "characters/severo-snape.webp"
+    },
+    "gandalf": {
+      "status": "missing",
+      "file": "characters/gandalf.webp"
+    },
+    "frodo": {
+      "status": "missing",
+      "file": "characters/frodo.webp"
+    },
+    "gollum": {
+      "status": "missing",
+      "file": "characters/gollum.webp"
+    },
+    "legolas": {
+      "status": "missing",
+      "file": "characters/legolas.webp"
+    },
+    "aragorn": {
+      "status": "missing",
+      "file": "characters/aragorn.webp"
+    },
+    "chaves": {
+      "status": "missing",
+      "file": "characters/chaves.webp"
+    },
+    "chapolin": {
+      "status": "missing",
+      "file": "characters/chapolin.webp"
+    },
+    "seu-madruga": {
+      "status": "missing",
+      "file": "characters/seu-madruga.webp"
+    },
+    "quico": {
+      "status": "missing",
+      "file": "characters/quico.webp"
+    },
+    "chiquinha": {
+      "status": "missing",
+      "file": "characters/chiquinha.webp"
+    },
+    "dona-florinda": {
+      "status": "missing",
+      "file": "characters/dona-florinda.webp"
+    },
+    "professor-girafales": {
+      "status": "missing",
+      "file": "characters/professor-girafales.webp"
+    },
+    "seu-barriga": {
+      "status": "missing",
+      "file": "characters/seu-barriga.webp"
+    },
+    "eleven": {
+      "status": "missing",
+      "file": "characters/eleven.webp"
+    },
+    "walter-white": {
+      "status": "missing",
+      "file": "characters/walter-white.webp"
+    },
+    "jesse-pinkman": {
+      "status": "missing",
+      "file": "characters/jesse-pinkman.webp"
+    },
+    "wandinha-addams": {
+      "status": "missing",
+      "file": "characters/wandinha-addams.webp"
+    },
+    "daenerys": {
+      "status": "missing",
+      "file": "characters/daenerys.webp"
+    },
+    "jon-snow": {
+      "status": "missing",
+      "file": "characters/jon-snow.webp"
+    },
+    "sheldon-cooper": {
+      "status": "missing",
+      "file": "characters/sheldon-cooper.webp"
+    },
+    "spock": {
+      "status": "missing",
+      "file": "characters/spock.webp"
+    },
+    "mr-bean": {
+      "status": "missing",
+      "file": "characters/mr-bean.webp"
+    },
+    "jack-sparrow": {
+      "status": "missing",
+      "file": "characters/jack-sparrow.webp"
+    },
+    "indiana-jones": {
+      "status": "missing",
+      "file": "characters/indiana-jones.webp"
+    },
+    "james-bond": {
+      "status": "missing",
+      "file": "characters/james-bond.webp"
+    },
+    "rocky-balboa": {
+      "status": "missing",
+      "file": "characters/rocky-balboa.webp"
+    },
+    "e-t": {
+      "status": "missing",
+      "file": "characters/e-t.webp"
+    },
+    "marty-mcfly": {
+      "status": "missing",
+      "file": "characters/marty-mcfly.webp"
+    },
+    "doc-brown": {
+      "status": "missing",
+      "file": "characters/doc-brown.webp"
+    },
+    "robocop": {
+      "status": "missing",
+      "file": "characters/robocop.webp"
+    },
+    "predador": {
+      "status": "missing",
+      "file": "characters/predador.webp"
+    },
+    "sherlock-holmes": {
+      "status": "missing",
+      "file": "characters/sherlock-holmes.webp"
+    },
+    "capitao-nascimento": {
+      "status": "missing",
+      "file": "characters/capitao-nascimento.webp"
+    },
+    "godzilla": {
+      "status": "missing",
+      "file": "characters/godzilla.webp"
+    },
+    "king-kong": {
+      "status": "missing",
+      "file": "characters/king-kong.webp"
+    },
+    "dracula": {
+      "status": "missing",
+      "file": "characters/dracula.webp"
+    },
+    "frankenstein": {
+      "status": "missing",
+      "file": "characters/frankenstein.webp"
+    },
+    "freddy-krueger": {
+      "status": "missing",
+      "file": "characters/freddy-krueger.webp"
+    },
+    "jason-voorhees": {
+      "status": "missing",
+      "file": "characters/jason-voorhees.webp"
+    },
+    "chucky": {
+      "status": "missing",
+      "file": "characters/chucky.webp"
+    },
+    "pennywise": {
+      "status": "missing",
+      "file": "characters/pennywise.webp"
+    },
+    "mario": {
+      "status": "missing",
+      "file": "characters/mario.webp"
+    },
+    "luigi": {
+      "status": "missing",
+      "file": "characters/luigi.webp"
+    },
+    "princesa-peach": {
+      "status": "missing",
+      "file": "characters/princesa-peach.webp"
+    },
+    "bowser": {
+      "status": "missing",
+      "file": "characters/bowser.webp"
+    },
+    "yoshi": {
+      "status": "missing",
+      "file": "characters/yoshi.webp"
+    },
+    "toad": {
+      "status": "missing",
+      "file": "characters/toad.webp"
+    },
+    "wario": {
+      "status": "missing",
+      "file": "characters/wario.webp"
+    },
+    "donkey-kong": {
+      "status": "missing",
+      "file": "characters/donkey-kong.webp"
+    },
+    "link": {
+      "status": "missing",
+      "file": "characters/link.webp"
+    },
+    "princesa-zelda": {
+      "status": "missing",
+      "file": "characters/princesa-zelda.webp"
+    },
+    "kirby": {
+      "status": "missing",
+      "file": "characters/kirby.webp"
+    },
+    "samus-aran": {
+      "status": "missing",
+      "file": "characters/samus-aran.webp"
+    },
+    "sonic": {
+      "status": "missing",
+      "file": "characters/sonic.webp"
+    },
+    "tails": {
+      "status": "missing",
+      "file": "characters/tails.webp"
+    },
+    "knuckles": {
+      "status": "missing",
+      "file": "characters/knuckles.webp"
+    },
+    "shadow-the-hedgehog": {
+      "status": "missing",
+      "file": "characters/shadow-the-hedgehog.webp"
+    },
+    "dr-eggman": {
+      "status": "missing",
+      "file": "characters/dr-eggman.webp"
+    },
+    "pac-man": {
+      "status": "missing",
+      "file": "characters/pac-man.webp"
+    },
+    "crash-bandicoot": {
+      "status": "missing",
+      "file": "characters/crash-bandicoot.webp"
+    },
+    "spyro": {
+      "status": "missing",
+      "file": "characters/spyro.webp"
+    },
+    "mega-man": {
+      "status": "missing",
+      "file": "characters/mega-man.webp"
+    },
+    "lara-croft": {
+      "status": "missing",
+      "file": "characters/lara-croft.webp"
+    },
+    "kratos": {
+      "status": "missing",
+      "file": "characters/kratos.webp"
+    },
+    "nathan-drake": {
+      "status": "missing",
+      "file": "characters/nathan-drake.webp"
+    },
+    "ellie-tlou": {
+      "status": "missing",
+      "file": "characters/ellie-tlou.webp"
+    },
+    "cloud-strife": {
+      "status": "missing",
+      "file": "characters/cloud-strife.webp"
+    },
+    "master-chief": {
+      "status": "missing",
+      "file": "characters/master-chief.webp"
+    },
+    "solid-snake": {
+      "status": "missing",
+      "file": "characters/solid-snake.webp"
+    },
+    "geralt-de-rivia": {
+      "status": "missing",
+      "file": "characters/geralt-de-rivia.webp"
+    },
+    "cj-gta": {
+      "status": "missing",
+      "file": "characters/cj-gta.webp"
+    },
+    "ryu-street-fighter": {
+      "status": "missing",
+      "file": "characters/ryu-street-fighter.webp"
+    },
+    "chun-li": {
+      "status": "missing",
+      "file": "characters/chun-li.webp"
+    },
+    "scorpion": {
+      "status": "missing",
+      "file": "characters/scorpion.webp"
+    },
+    "sub-zero": {
+      "status": "missing",
+      "file": "characters/sub-zero.webp"
+    },
+    "steve-minecraft": {
+      "status": "missing",
+      "file": "characters/steve-minecraft.webp"
+    },
+    "creeper": {
+      "status": "missing",
+      "file": "characters/creeper.webp"
+    },
+    "bomberman": {
+      "status": "missing",
+      "file": "characters/bomberman.webp"
+    },
+    "rayman": {
+      "status": "missing",
+      "file": "characters/rayman.webp"
+    },
+    "michael-jackson": {
+      "status": "missing",
+      "file": "characters/michael-jackson.webp"
+    },
+    "elvis-presley": {
+      "status": "missing",
+      "file": "characters/elvis-presley.webp"
+    },
+    "freddie-mercury": {
+      "status": "missing",
+      "file": "characters/freddie-mercury.webp"
+    },
+    "madonna": {
+      "status": "missing",
+      "file": "characters/madonna.webp"
+    },
+    "john-lennon": {
+      "status": "missing",
+      "file": "characters/john-lennon.webp"
+    },
+    "paul-mccartney": {
+      "status": "missing",
+      "file": "characters/paul-mccartney.webp"
+    },
+    "mick-jagger": {
+      "status": "missing",
+      "file": "characters/mick-jagger.webp"
+    },
+    "bob-marley": {
+      "status": "missing",
+      "file": "characters/bob-marley.webp"
+    },
+    "david-bowie": {
+      "status": "missing",
+      "file": "characters/david-bowie.webp"
+    },
+    "kurt-cobain": {
+      "status": "missing",
+      "file": "characters/kurt-cobain.webp"
+    },
+    "ozzy-osbourne": {
+      "status": "missing",
+      "file": "characters/ozzy-osbourne.webp"
+    },
+    "elton-john": {
+      "status": "missing",
+      "file": "characters/elton-john.webp"
+    },
+    "frank-sinatra": {
+      "status": "missing",
+      "file": "characters/frank-sinatra.webp"
+    },
+    "stevie-wonder": {
+      "status": "missing",
+      "file": "characters/stevie-wonder.webp"
+    },
+    "tina-turner": {
+      "status": "missing",
+      "file": "characters/tina-turner.webp"
+    },
+    "whitney-houston": {
+      "status": "missing",
+      "file": "characters/whitney-houston.webp"
+    },
+    "mariah-carey": {
+      "status": "missing",
+      "file": "characters/mariah-carey.webp"
+    },
+    "celine-dion": {
+      "status": "missing",
+      "file": "characters/celine-dion.webp"
+    },
+    "amy-winehouse": {
+      "status": "missing",
+      "file": "characters/amy-winehouse.webp"
+    },
+    "prince": {
+      "status": "missing",
+      "file": "characters/prince.webp"
+    },
+    "louis-armstrong": {
+      "status": "missing",
+      "file": "characters/louis-armstrong.webp"
+    },
+    "ray-charles": {
+      "status": "missing",
+      "file": "characters/ray-charles.webp"
+    },
+    "cher": {
+      "status": "missing",
+      "file": "characters/cher.webp"
+    },
+    "axl-rose": {
+      "status": "missing",
+      "file": "characters/axl-rose.webp"
+    },
+    "jon-bon-jovi": {
+      "status": "missing",
+      "file": "characters/jon-bon-jovi.webp"
+    },
+    "bono": {
+      "status": "missing",
+      "file": "characters/bono.webp"
+    },
+    "beyonce": {
+      "status": "missing",
+      "file": "characters/beyonce.webp"
+    },
+    "taylor-swift": {
+      "status": "missing",
+      "file": "characters/taylor-swift.webp"
+    },
+    "rihanna": {
+      "status": "missing",
+      "file": "characters/rihanna.webp"
+    },
+    "shakira": {
+      "status": "missing",
+      "file": "characters/shakira.webp"
+    },
+    "lady-gaga": {
+      "status": "missing",
+      "file": "characters/lady-gaga.webp"
+    },
+    "britney-spears": {
+      "status": "missing",
+      "file": "characters/britney-spears.webp"
+    },
+    "ariana-grande": {
+      "status": "missing",
+      "file": "characters/ariana-grande.webp"
+    },
+    "justin-bieber": {
+      "status": "missing",
+      "file": "characters/justin-bieber.webp"
+    },
+    "bruno-mars": {
+      "status": "missing",
+      "file": "characters/bruno-mars.webp"
+    },
+    "ed-sheeran": {
+      "status": "missing",
+      "file": "characters/ed-sheeran.webp"
+    },
+    "adele": {
+      "status": "missing",
+      "file": "characters/adele.webp"
+    },
+    "billie-eilish": {
+      "status": "missing",
+      "file": "characters/billie-eilish.webp"
+    },
+    "katy-perry": {
+      "status": "missing",
+      "file": "characters/katy-perry.webp"
+    },
+    "selena-gomez": {
+      "status": "missing",
+      "file": "characters/selena-gomez.webp"
+    },
+    "miley-cyrus": {
+      "status": "missing",
+      "file": "characters/miley-cyrus.webp"
+    },
+    "dua-lipa": {
+      "status": "missing",
+      "file": "characters/dua-lipa.webp"
+    },
+    "the-weeknd": {
+      "status": "missing",
+      "file": "characters/the-weeknd.webp"
+    },
+    "harry-styles": {
+      "status": "missing",
+      "file": "characters/harry-styles.webp"
+    },
+    "jennifer-lopez": {
+      "status": "missing",
+      "file": "characters/jennifer-lopez.webp"
+    },
+    "eminem": {
+      "status": "missing",
+      "file": "characters/eminem.webp"
+    },
+    "snoop-dogg": {
+      "status": "missing",
+      "file": "characters/snoop-dogg.webp"
+    },
+    "drake": {
+      "status": "missing",
+      "file": "characters/drake.webp"
+    },
+    "kanye-west": {
+      "status": "missing",
+      "file": "characters/kanye-west.webp"
+    },
+    "jay-z": {
+      "status": "missing",
+      "file": "characters/jay-z.webp"
+    },
+    "nicki-minaj": {
+      "status": "missing",
+      "file": "characters/nicki-minaj.webp"
+    },
+    "cardi-b": {
+      "status": "missing",
+      "file": "characters/cardi-b.webp"
+    },
+    "post-malone": {
+      "status": "missing",
+      "file": "characters/post-malone.webp"
+    },
+    "lana-del-rey": {
+      "status": "missing",
+      "file": "characters/lana-del-rey.webp"
+    },
+    "olivia-rodrigo": {
+      "status": "missing",
+      "file": "characters/olivia-rodrigo.webp"
+    },
+    "doja-cat": {
+      "status": "missing",
+      "file": "characters/doja-cat.webp"
+    },
+    "pitbull": {
+      "status": "missing",
+      "file": "characters/pitbull.webp"
+    },
+    "bad-bunny": {
+      "status": "missing",
+      "file": "characters/bad-bunny.webp"
+    },
+    "j-balvin": {
+      "status": "missing",
+      "file": "characters/j-balvin.webp"
+    },
+    "daddy-yankee": {
+      "status": "missing",
+      "file": "characters/daddy-yankee.webp"
+    },
+    "ricky-martin": {
+      "status": "missing",
+      "file": "characters/ricky-martin.webp"
+    },
+    "enrique-iglesias": {
+      "status": "missing",
+      "file": "characters/enrique-iglesias.webp"
+    },
+    "karol-g": {
+      "status": "missing",
+      "file": "characters/karol-g.webp"
+    },
+    "rosalia": {
+      "status": "missing",
+      "file": "characters/rosalia.webp"
+    },
+    "psy": {
+      "status": "missing",
+      "file": "characters/psy.webp"
+    },
+    "roberto-carlos-cantor": {
+      "status": "missing",
+      "file": "characters/roberto-carlos-cantor.webp"
+    },
+    "xuxa": {
+      "status": "missing",
+      "file": "characters/xuxa.webp"
+    },
+    "anitta": {
+      "status": "missing",
+      "file": "characters/anitta.webp"
+    },
+    "caetano-veloso": {
+      "status": "missing",
+      "file": "characters/caetano-veloso.webp"
+    },
+    "gilberto-gil": {
+      "status": "missing",
+      "file": "characters/gilberto-gil.webp"
+    },
+    "chico-buarque": {
+      "status": "missing",
+      "file": "characters/chico-buarque.webp"
+    },
+    "tom-jobim": {
+      "status": "missing",
+      "file": "characters/tom-jobim.webp"
+    },
+    "tim-maia": {
+      "status": "missing",
+      "file": "characters/tim-maia.webp"
+    },
+    "rita-lee": {
+      "status": "missing",
+      "file": "characters/rita-lee.webp"
+    },
+    "cazuza": {
+      "status": "missing",
+      "file": "characters/cazuza.webp"
+    },
+    "raul-seixas": {
+      "status": "missing",
+      "file": "characters/raul-seixas.webp"
+    },
+    "renato-russo": {
+      "status": "missing",
+      "file": "characters/renato-russo.webp"
+    },
+    "elis-regina": {
+      "status": "missing",
+      "file": "characters/elis-regina.webp"
+    },
+    "gal-costa": {
+      "status": "missing",
+      "file": "characters/gal-costa.webp"
+    },
+    "maria-bethania": {
+      "status": "missing",
+      "file": "characters/maria-bethania.webp"
+    },
+    "ney-matogrosso": {
+      "status": "missing",
+      "file": "characters/ney-matogrosso.webp"
+    },
+    "milton-nascimento": {
+      "status": "missing",
+      "file": "characters/milton-nascimento.webp"
+    },
+    "djavan": {
+      "status": "missing",
+      "file": "characters/djavan.webp"
+    },
+    "jorge-ben-jor": {
+      "status": "missing",
+      "file": "characters/jorge-ben-jor.webp"
+    },
+    "lulu-santos": {
+      "status": "missing",
+      "file": "characters/lulu-santos.webp"
+    },
+    "seu-jorge": {
+      "status": "missing",
+      "file": "characters/seu-jorge.webp"
+    },
+    "zeca-pagodinho": {
+      "status": "missing",
+      "file": "characters/zeca-pagodinho.webp"
+    },
+    "ivete-sangalo": {
+      "status": "missing",
+      "file": "characters/ivete-sangalo.webp"
+    },
+    "claudia-leitte": {
+      "status": "missing",
+      "file": "characters/claudia-leitte.webp"
+    },
+    "daniela-mercury": {
+      "status": "missing",
+      "file": "characters/daniela-mercury.webp"
+    },
+    "ludmilla": {
+      "status": "missing",
+      "file": "characters/ludmilla.webp"
+    },
+    "pabllo-vittar": {
+      "status": "missing",
+      "file": "characters/pabllo-vittar.webp"
+    },
+    "alok": {
+      "status": "missing",
+      "file": "characters/alok.webp"
+    },
+    "gusttavo-lima": {
+      "status": "missing",
+      "file": "characters/gusttavo-lima.webp"
+    },
+    "marilia-mendonca": {
+      "status": "missing",
+      "file": "characters/marilia-mendonca.webp"
+    },
+    "luan-santana": {
+      "status": "missing",
+      "file": "characters/luan-santana.webp"
+    },
+    "wesley-safadao": {
+      "status": "missing",
+      "file": "characters/wesley-safadao.webp"
+    },
+    "michel-telo": {
+      "status": "missing",
+      "file": "characters/michel-telo.webp"
+    },
+    "sandy": {
+      "status": "missing",
+      "file": "characters/sandy.webp"
+    },
+    "fabio-jr": {
+      "status": "missing",
+      "file": "characters/fabio-jr.webp"
+    },
+    "zeze-di-camargo": {
+      "status": "missing",
+      "file": "characters/zeze-di-camargo.webp"
+    },
+    "leo-santana": {
+      "status": "missing",
+      "file": "characters/leo-santana.webp"
+    },
+    "thiaguinho": {
+      "status": "missing",
+      "file": "characters/thiaguinho.webp"
+    },
+    "pele": {
+      "status": "missing",
+      "file": "characters/pele.webp"
+    },
+    "neymar": {
+      "status": "missing",
+      "file": "characters/neymar.webp"
+    },
+    "ronaldo-nazario": {
+      "status": "missing",
+      "file": "characters/ronaldo-nazario.webp"
+    },
+    "ronaldinho": {
+      "status": "missing",
+      "file": "characters/ronaldinho.webp"
+    },
+    "kaka": {
+      "status": "missing",
+      "file": "characters/kaka.webp"
+    },
+    "romario": {
+      "status": "missing",
+      "file": "characters/romario.webp"
+    },
+    "zico": {
+      "status": "missing",
+      "file": "characters/zico.webp"
+    },
+    "rivaldo": {
+      "status": "missing",
+      "file": "characters/rivaldo.webp"
+    },
+    "cafu": {
+      "status": "missing",
+      "file": "characters/cafu.webp"
+    },
+    "adriano-imperador": {
+      "status": "missing",
+      "file": "characters/adriano-imperador.webp"
+    },
+    "garrincha": {
+      "status": "missing",
+      "file": "characters/garrincha.webp"
+    },
+    "vinicius-junior": {
+      "status": "missing",
+      "file": "characters/vinicius-junior.webp"
+    },
+    "marta": {
+      "status": "missing",
+      "file": "characters/marta.webp"
+    },
+    "cristiano-ronaldo": {
+      "status": "missing",
+      "file": "characters/cristiano-ronaldo.webp"
+    },
+    "lionel-messi": {
+      "status": "missing",
+      "file": "characters/lionel-messi.webp"
+    },
+    "maradona": {
+      "status": "missing",
+      "file": "characters/maradona.webp"
+    },
+    "zidane": {
+      "status": "missing",
+      "file": "characters/zidane.webp"
+    },
+    "mbappe": {
+      "status": "missing",
+      "file": "characters/mbappe.webp"
+    },
+    "david-beckham": {
+      "status": "missing",
+      "file": "characters/david-beckham.webp"
+    },
+    "erling-haaland": {
+      "status": "missing",
+      "file": "characters/erling-haaland.webp"
+    },
+    "ibrahimovic": {
+      "status": "missing",
+      "file": "characters/ibrahimovic.webp"
+    },
+    "mohamed-salah": {
+      "status": "missing",
+      "file": "characters/mohamed-salah.webp"
+    },
+    "robert-lewandowski": {
+      "status": "missing",
+      "file": "characters/robert-lewandowski.webp"
+    },
+    "luka-modric": {
+      "status": "missing",
+      "file": "characters/luka-modric.webp"
+    },
+    "michael-jordan": {
+      "status": "missing",
+      "file": "characters/michael-jordan.webp"
+    },
+    "lebron-james": {
+      "status": "missing",
+      "file": "characters/lebron-james.webp"
+    },
+    "kobe-bryant": {
+      "status": "missing",
+      "file": "characters/kobe-bryant.webp"
+    },
+    "stephen-curry": {
+      "status": "missing",
+      "file": "characters/stephen-curry.webp"
+    },
+    "shaquille-oneal": {
+      "status": "missing",
+      "file": "characters/shaquille-oneal.webp"
+    },
+    "magic-johnson": {
+      "status": "missing",
+      "file": "characters/magic-johnson.webp"
+    },
+    "oscar-schmidt": {
+      "status": "missing",
+      "file": "characters/oscar-schmidt.webp"
+    },
+    "ayrton-senna": {
+      "status": "missing",
+      "file": "characters/ayrton-senna.webp"
+    },
+    "lewis-hamilton": {
+      "status": "missing",
+      "file": "characters/lewis-hamilton.webp"
+    },
+    "michael-schumacher": {
+      "status": "missing",
+      "file": "characters/michael-schumacher.webp"
+    },
+    "max-verstappen": {
+      "status": "missing",
+      "file": "characters/max-verstappen.webp"
+    },
+    "rubens-barrichello": {
+      "status": "missing",
+      "file": "characters/rubens-barrichello.webp"
+    },
+    "muhammad-ali": {
+      "status": "missing",
+      "file": "characters/muhammad-ali.webp"
+    },
+    "mike-tyson": {
+      "status": "missing",
+      "file": "characters/mike-tyson.webp"
+    },
+    "anderson-silva": {
+      "status": "missing",
+      "file": "characters/anderson-silva.webp"
+    },
+    "conor-mcgregor": {
+      "status": "missing",
+      "file": "characters/conor-mcgregor.webp"
+    },
+    "serena-williams": {
+      "status": "missing",
+      "file": "characters/serena-williams.webp"
+    },
+    "roger-federer": {
+      "status": "missing",
+      "file": "characters/roger-federer.webp"
+    },
+    "rafael-nadal": {
+      "status": "missing",
+      "file": "characters/rafael-nadal.webp"
+    },
+    "novak-djokovic": {
+      "status": "missing",
+      "file": "characters/novak-djokovic.webp"
+    },
+    "guga-kuerten": {
+      "status": "missing",
+      "file": "characters/guga-kuerten.webp"
+    },
+    "usain-bolt": {
+      "status": "missing",
+      "file": "characters/usain-bolt.webp"
+    },
+    "michael-phelps": {
+      "status": "missing",
+      "file": "characters/michael-phelps.webp"
+    },
+    "simone-biles": {
+      "status": "missing",
+      "file": "characters/simone-biles.webp"
+    },
+    "rebeca-andrade": {
+      "status": "missing",
+      "file": "characters/rebeca-andrade.webp"
+    },
+    "rayssa-leal": {
+      "status": "missing",
+      "file": "characters/rayssa-leal.webp"
+    },
+    "gabriel-medina": {
+      "status": "missing",
+      "file": "characters/gabriel-medina.webp"
+    },
+    "tiger-woods": {
+      "status": "missing",
+      "file": "characters/tiger-woods.webp"
+    },
+    "tom-brady": {
+      "status": "missing",
+      "file": "characters/tom-brady.webp"
+    },
+    "hulk-hogan": {
+      "status": "missing",
+      "file": "characters/hulk-hogan.webp"
+    },
+    "john-cena": {
+      "status": "missing",
+      "file": "characters/john-cena.webp"
     }
   }
 }

@@ -156,13 +156,15 @@ describe('D) homônimos e colisões com outras identidades', () => {
 
   it('nenhum palpite exato de identidade X é aceito para Y no catálogo inteiro', () => {
     const active = CHARACTERS.filter((c) => c.active !== false);
-    for (const target of active) {
-      for (const other of active) {
-        if (other.id === target.id) continue;
-        for (const name of [...other.names, ...(other.aliases ?? [])]) {
-          const shared = index.keysOf(target.id).includes(answerKey(name));
-          if (shared) continue; // catalog.test.ts garante que não existem chaves compartilhadas
-          expect(ok(name, target.id), `"${name}" (de ${other.id}) aceito para ${target.id}`).toBe(false);
+    const allKeys = active.flatMap((c) => index.keysOf(c.id).map((key) => ({ key, id: c.id })));
+    for (const other of active) {
+      for (const name of [...other.names, ...(other.aliases ?? [])]) {
+        const key = answerKey(name);
+        // Alvos plausíveis: quem tem alguma chave a ≤ 1 edição desse nome (os demais nunca aceitam).
+        const targets = new Set(allKeys.filter((e) => e.id !== other.id && singleEdit(e.key, key) !== null).map((e) => e.id));
+        for (const targetId of targets) {
+          if (index.keysOf(targetId).includes(key)) continue; // catalog.test.ts garante que não existem chaves compartilhadas
+          expect(ok(name, targetId), `"${name}" (de ${other.id}) aceito para ${targetId}`).toBe(false);
         }
       }
     }
@@ -170,22 +172,33 @@ describe('D) homônimos e colisões com outras identidades', () => {
 
   it('nenhum erro de 1 tecla sobre o nome de X é aceito para Y', () => {
     const active = CHARACTERS.filter((c) => c.active !== false);
+    // Índice de chaves por comprimento: só alvos com alguma chave a ≤ 1 edição podem aceitar o palpite.
+    const byLength = new Map<number, { key: string; id: string }[]>();
+    for (const c of active) {
+      for (const key of index.keysOf(c.id)) byLength.set(key.length, [...(byLength.get(key.length) ?? []), { key, id: c.id }]);
+    }
+    let checked = 0;
     for (const other of active) {
       for (const key of index.keysOf(other.id)) {
-        const variants = typoVariants(key);
-        for (const v of variants) {
-          for (const target of active) {
-            if (target.id === other.id) continue;
-            const verdict = index.check(v, target.id);
-            if (verdict.correct) {
+        for (const v of typoVariants(key)) {
+          const candidates = new Set<string>();
+          for (const len of [v.length - 1, v.length, v.length + 1]) {
+            for (const entry of byLength.get(len) ?? []) {
+              if (entry.id !== other.id && singleEdit(entry.key, v) !== null) candidates.add(entry.id);
+            }
+          }
+          for (const targetId of candidates) {
+            checked++;
+            if (index.check(v, targetId).correct) {
               // Só pode ser aceito se o palpite for de fato um nome do alvo (ex.: variante coincide com a chave do alvo).
-              expect(index.keysOf(target.id), `"${v}" (perto de ${other.id}) aceito para ${target.id}`).toContain(v);
+              expect(index.keysOf(targetId), `"${v}" (perto de ${other.id}) aceito para ${targetId}`).toContain(v);
             }
           }
         }
       }
     }
-  });
+    expect(checked).toBeGreaterThan(0);
+  }, 60_000);
 });
 
 describe('D) utilitários de edição', () => {

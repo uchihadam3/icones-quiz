@@ -71,7 +71,8 @@ describe('home', () => {
         onPreview={onPreview}
       />,
     );
-    expect(screen.getByTestId('images-pending')).toHaveTextContent('0/89 imagens');
+    expect(screen.getByTestId('images-pending')).toHaveTextContent('0/30 imagens');
+    expect(screen.getByTestId('images-pending')).toHaveTextContent('583 ícones curados');
     expect(screen.getByRole('button', { name: /Jogar \(em breve\)/ })).toBeDisabled();
     expect(screen.getByTestId('records')).toHaveTextContent('1.234');
     expect(screen.getByTestId('records')).toHaveTextContent('7');
