@@ -14,7 +14,8 @@ Etapas por camada:
     a progressão musical vem do arranjo, nunca de ficar mais alto.
 
 Uso: python tools/audio/music_master.py <dir_variacoes>
-  (espera menu.wav, groove.wav, build.wav, hype.wav, epic.wav, todos com 66 s)
+  (espera menu.wav, groove.wav, build.wav, hype.wav, epic.wav, todos com 66 s, e opcionalmente
+   source.wav, o áudio-fonte usado como referência de alinhamento)
 """
 import json, os, subprocess, sys, wave
 import numpy as np
@@ -149,14 +150,14 @@ def reverb_tail(x, seconds=1.8, wet=0.3):
 def main():
     src_dir = sys.argv[1]
     os.makedirs(OUT, exist_ok=True)
-    ref = read(os.path.join(src_dir, 'hype.wav'))
+    # Referência de tempo: o áudio-fonte das variações (source.wav); sem ele, a camada hype.
+    ref_path = os.path.join(src_dir, 'source.wav')
+    ref = read(ref_path if os.path.exists(ref_path) else os.path.join(src_dir, 'hype.wav'))
     report = {}
     looped = {}
     for layer in LAYERS:
         x = read(os.path.join(src_dir, f'{layer}.wav'))
-        shift_ms, corr = 0.0, 1.0
-        if layer != 'hype':
-            x, shift_ms, corr = align(ref, x)
+        x, shift_ms, corr = align(ref, x)
         lp = loopify(x)
         looped[layer] = lp
         padded = np.vstack([lp[-int(LEAD * SR):], lp, lp[:int(LEAD * SR)]])
