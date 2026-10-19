@@ -20,6 +20,10 @@ Créditos completos ficam em `src/audio/audio-manifest.json` (`credits`).
 
 - **Camadas** (`public/audio/music/*.opus|mp3`): `menu`, `groove`, `build`, `hype`, `epic` — mesma
   peça, arranjos de intensidade crescente. Cada arquivo = `[cauda 2 s][loop 64 s][cabeça 2 s]`.
+- **Ordem das camadas escolhida por medição**, não pelo nome do prompt: x1 é o tema original; as
+  variações foram ordenadas por largura estéreo (0,41 → 0,43 → 0,50 → 0,54), brilho (centroide
+  347 → 396 → 689 → 593 Hz) e densidade de ataques. O `menu` é a versão lounge (menos agudos, mais pads).
+  Todas alinhadas à fonte com deslocamento medido de 0 ms (correlação de ataques 0,79–0,82).
 - **Loop**: 32 compassos (64 s), fechado com crossfade equal-power de 1 compasso; a cauda/cabeça de 2 s
   torna o ponto de loop imune ao atraso de início dos decodificadores (MP3/AAC/Opus).
 - **Volume**: todas as camadas a −18 LUFS e true-peak ≤ −1,5 dBTP — a progressão é de **arranjo**, não

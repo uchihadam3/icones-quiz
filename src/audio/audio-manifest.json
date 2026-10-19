@@ -5,14 +5,35 @@
     "fallback": "mp3"
   },
   "music": {
-    "bpm": 120,
+    "bpm": 120.0,
     "beatsPerBar": 4,
     "keyscale": "A minor",
     "loop": {
-      "lead": 2,
-      "length": 64
+      "lead": 2.0,
+      "length": 64.0
     },
-    "layers": {}
+    "layers": {
+      "menu": {
+        "file": "music/menu",
+        "duration": 68.0
+      },
+      "groove": {
+        "file": "music/groove",
+        "duration": 68.0
+      },
+      "build": {
+        "file": "music/build",
+        "duration": 68.0
+      },
+      "hype": {
+        "file": "music/hype",
+        "duration": 68.0
+      },
+      "epic": {
+        "file": "music/epic",
+        "duration": 68.0
+      }
+    }
   },
   "sfx": {
     "ui-tap": {
@@ -210,7 +231,7 @@
         "sfx/stinger-game-over"
       ],
       "gain": 0.95,
-      "duration": 3.886,
+      "duration": 6.467,
       "duck": 0.7
     },
     "new-record": {
@@ -218,7 +239,7 @@
         "sfx/stinger-record"
       ],
       "gain": 1.0,
-      "duration": 0.73,
+      "duration": 7.2,
       "duck": 0.8
     },
     "record-beaten": {
