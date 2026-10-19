@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { audio } from '../../audio';
 import { BrandStar, DownloadIcon } from './Icons';
 
 type InstallChoice = { outcome: 'accepted' | 'dismissed' };
@@ -24,6 +25,8 @@ export function InstallApp() {
       setDeferred(event as InstallPromptEvent);
     };
     const onInstalled = () => {
+      // Só celebra quando o navegador CONFIRMA a instalação.
+      audio.play('install', { key: 'installed' });
       setInstalled(true);
       setDeferred(null);
     };

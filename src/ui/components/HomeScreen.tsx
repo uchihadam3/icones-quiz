@@ -18,6 +18,7 @@ import {
   TrophyIcon,
 } from './Icons';
 import { InstallApp } from './InstallApp';
+import { SoundControls } from './SoundControls';
 
 const cfg = GAME_CONFIG;
 
@@ -194,6 +195,7 @@ export function HomeScreen({
       </div>
 
       <footer className="home-footer" data-enter>
+        <SoundControls />
         <fieldset className="segmented">
           <legend className="hud-label">Animações</legend>
           {(

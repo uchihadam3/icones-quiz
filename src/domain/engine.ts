@@ -10,6 +10,7 @@ import {
   recoveryRequirement,
   type LivesState,
 } from './lives';
+import { isFastAnswer } from './progress';
 import { statefulRng } from './rng';
 import { multiplierFor, scoreUnaided, scoreWithOptionHint, zeroScore, type ScoreBreakdown } from './scoring';
 import { selectNext } from './selection';
@@ -44,6 +45,7 @@ export interface Resolution {
   score: ScoreBreakdown;
   lifeLost: boolean;
   lifeGained: boolean;
+  comboBefore: number;
   comboAfter: number;
 }
 
@@ -66,6 +68,8 @@ export interface GameState {
   score: number;
   /** Combo de pontuação: acertos seguidos sem ajuda. Pulo/ajuda congelam; erro zera. */
   combo: number;
+  /** Acertos relâmpago (≥ 80% do bônus de velocidade) consecutivos; qualquer outro desfecho zera. */
+  fastStreak: number;
   lives: LivesState;
   skipsLeft: number;
   hintsLeft: number;
@@ -242,11 +246,13 @@ export function createEngine(deps: EngineDeps): Engine {
     }
     score += points.total;
     stats.bestCombo = Math.max(stats.bestCombo, combo);
+    const fast = outcome === 'correct' && isFastAnswer(points, config.scoring);
 
     return {
       ...state,
       phase: lives.lives <= 0 ? 'gameover' : 'feedback',
       combo,
+      fastStreak: fast ? state.fastStreak + 1 : 0,
       lives,
       score,
       stats,
@@ -259,6 +265,7 @@ export function createEngine(deps: EngineDeps): Engine {
         score: points,
         lifeLost,
         lifeGained,
+        comboBefore: state.combo,
         comboAfter: combo,
       },
     };
@@ -352,6 +359,7 @@ export function createEngine(deps: EngineDeps): Engine {
       rngState: seed >>> 0,
       score: 0,
       combo: 0,
+      fastStreak: 0,
       lives: initialLives(config),
       skipsLeft: config.aids.skips,
       hintsLeft: config.aids.optionHints,

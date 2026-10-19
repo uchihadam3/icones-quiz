@@ -2,6 +2,9 @@ import { useCallback, useEffect, useState } from 'react';
 import type { Engine, GameMode, GameState } from './domain/engine';
 import { randomSeed } from './domain/rng';
 import { loadEngine } from './game';
+import { audio } from './audio';
+import { musicTarget } from './audio/director';
+import { useAudioLifecycle } from './audio/useAudio';
 import { applyMotionPreference, resolveReducedMotion } from './lib/motion';
 import { attachParticleCanvas, particlesFx } from './lib/particles';
 import {
@@ -29,6 +32,12 @@ export function App() {
   const [motion, setMotion] = useState<MotionPreference>(() => loadSettings().motion);
   const [engine, setEngine] = useState<Engine | null>(null);
   const [starting, setStarting] = useState(false);
+  useAudioLifecycle();
+
+  // Menu e fim de jogo têm identidade musical própria (a partida é regida pelo diretor em useGameAudio).
+  useEffect(() => {
+    if (screen.name === 'home') audio.setTarget(musicTarget({ scene: 'menu', multiplier: 1, lives: 3, timeWarning: false, fastStreak: 0 }));
+  }, [screen.name]);
 
   // Pré-carrega o catálogo (chunk separado) quando o navegador estiver ocioso: o clique em "Jogar" fica instantâneo.
   useEffect(() => {

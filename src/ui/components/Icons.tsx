@@ -229,3 +229,26 @@ export function ShieldHeart(props: IconProps) {
     </svg>
   );
 }
+
+export function SpeakerIcon({ muted, ...props }: IconProps & { muted?: boolean }) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 9.5h3.6L12.5 5v14l-4.9-4.5H4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1Z" fill="currentColor" />
+      {muted ? (
+        <path d="m16 9.5 5 5m0-5-5 5" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      ) : (
+        <path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+      )}
+    </svg>
+  );
+}
+
+export function NoteIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M9 17.5V6.2l10-2.2v11.3" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinejoin="round" />
+      <ellipse cx="6.6" cy="17.6" rx="2.6" ry="2.1" fill="currentColor" />
+      <ellipse cx="16.6" cy="15.4" rx="2.6" ry="2.1" fill="currentColor" />
+    </svg>
+  );
+}

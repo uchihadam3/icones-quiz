@@ -80,3 +80,19 @@ describe('home', () => {
     expect(onPreview).toHaveBeenCalledOnce();
   });
 });
+
+describe('pôster sem imagem (preview)', () => {
+  it('nunca mostra nome, apelido ou origem de nenhum ícone do catálogo', async () => {
+    const { ChallengeImage } = await import('./ChallengeImage');
+    const { answerKey } = await import('../../domain/answers');
+    for (const identity of CHARACTERS) {
+      const { container, unmount } = render(<ChallengeImage identity={identity} preview onFailed={() => {}} onShown={() => {}} />);
+      const text = answerKey(container.textContent ?? '');
+      const secrets = [identity.displayName, identity.origin, ...identity.names, ...(identity.aliases ?? [])]
+        .map(answerKey)
+        .filter((k) => k.length >= 4);
+      for (const secret of secrets) expect(text.includes(secret), `${identity.id} vaza "${secret}"`).toBe(false);
+      unmount();
+    }
+  }, 60_000);
+});

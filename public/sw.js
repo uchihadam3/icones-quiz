@@ -1,5 +1,8 @@
 /* Service worker independente do build. Escopo: /icones-quiz/. */
-const CACHE = 'icones-shell-v2';
+const CACHE = 'icones-shell-v3';
+// Mídia (áudio e imagens com nome-hash) entra no cache progressivamente, conforme é usada:
+// a instalação do app nunca espera megabytes de música.
+const MEDIA = 'icones-media-v1';
 const BASE = new URL(self.registration.scope).pathname;
 const shell = [BASE, BASE + 'manifest.webmanifest', BASE + 'favicon.svg',
   BASE + 'icons/icon-192.png', BASE + 'icons/icon-512.png'];
@@ -20,7 +23,7 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    await Promise.all((await caches.keys()).filter((key) => key.startsWith('icones-shell-') && key !== CACHE)
+    await Promise.all((await caches.keys()).filter((key) => (key.startsWith('icones-shell-') && key !== CACHE) || (key.startsWith('icones-media-') && key !== MEDIA))
       .map((key) => caches.delete(key)));
     await self.clients.claim();
   })());
@@ -40,6 +43,17 @@ self.addEventListener('fetch', (event) => {
       } catch {
         return (await caches.match(BASE)) || Response.error();
       }
+    })());
+    return;
+  }
+  if (url.pathname.startsWith(BASE + 'audio/') || url.pathname.startsWith(BASE + 'img/')) {
+    event.respondWith((async () => {
+      const cache = await caches.open(MEDIA);
+      const saved = await cache.match(req);
+      if (saved) return saved;
+      const response = await fetch(req);
+      if (response.ok && response.status === 200) cache.put(req, response.clone());
+      return response;
     })());
     return;
   }

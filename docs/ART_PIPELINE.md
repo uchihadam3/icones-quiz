@@ -25,9 +25,11 @@ nítido, acessível e leve que um canvas WebGL. Pixi só entra se surgir um efei
 | **Rive** | mascote/ícones animados com estados (acerto, erro, combo) | quando houver direção de arte de mascote | runtime MIT; editor com plano | SVG estático |
 | **Blender + Python (NumPy/SciPy/Pillow)** | renders 3D de troféus/medalhas/molduras originais; geração em lote de variações e sprites | Etapa de gamificação avançada | Blender GPL (arquivos gerados são nossos) | PNG/WebP estático |
 | **ComfyUI / FLUX** | **somente arte ORIGINAL** de interface: fundos, texturas, molduras, badges. **Nunca** personagens existentes ou pessoas reais | quando precisar de muito material decorativo | verificar licença do checkpoint (FLUX.1 [dev] é não comercial; usar [schnell]/Apache-2.0 ou licença paga) | gradientes CSS |
-| **ElevenLabs** | locução curta ("Combo x5!", "Última vida!") e SFX gerados | Etapa de áudio | plano pago; registrar termos de uso comercial | Web Audio sintetizado |
-| **Lyria** (Google) | trilhas originais / stems para música dinâmica | Etapa de áudio | conferir termos vigentes de uso comercial | Tone.js procedural |
-| **Tone.js / Web Audio** | música adaptativa (camadas por combo/tempo), SFX procedurais leves | Etapa de áudio (primeira opção, zero download) | MIT | silêncio (áudio sempre opcional e com botão de mudo) |
+| **ACE-Step 1.5 + acestep.cpp** | **em uso (Etapa 03)**: trilha original gerada localmente em CPU, variações alinhadas por *cover-nofsq* | MIT (modelo e runtime), sem custo | sem música (jogo segue com efeitos) |
+| **Kenney (CC0)** | **em uso (Etapa 03)**: matéria-prima dos efeitos | CC0 | — |
+| **ElevenLabs** | locução curta ("Combo x5!", "Última vida!") | se houver chave e licença comercial clara | plano pago; registrar termos de uso comercial | Web Audio sintetizado |
+| **Lyria** (Google) | trilhas originais / stems para música dinâmica | alternativa futura à trilha atual | conferir termos vigentes de uso comercial | trilha atual |
+| **Web Audio** | **em uso (Etapa 03)**: motor próprio (`src/audio/engine.ts`) que toca as camadas gravadas, crossfades no compasso e efeitos | — (API do navegador) | silêncio (áudio sempre opcional e com botão de mudo) |
 | **FFmpeg** | conversão/recorte de imagens dos ícones (4:5 WebP), compressão de áudio (Opus/AAC) | Etapa 02 (imagens) | LGPL/GPL (ferramenta de build, não distribuída) | Pillow |
 | **Atlases** (TexturePacker / free-tex-packer) | empacotar sprites de UI/partículas se o Pixi entrar | junto com Pixi | variam | sprites individuais |
 
@@ -42,11 +44,11 @@ nítido, acessível e leve que um canvas WebGL. Pixi só entra se surgir um efei
 ## Estrutura sugerida de assets
 
 ```
+art/characters/<id>.webp   # retratos licenciados; publicados como img/<hash>.webp (ver IMAGE_INTEGRATION.md)
 public/
-  characters/<id>.webp     # retratos licenciados (ver IMAGE_INTEGRATION.md)
   ui/                      # arte original de interface (badges, molduras)
-  audio/                   # sfx/música (Opus + fallback AAC)
-tools/                     # scripts Python/Blender/FFmpeg (não vão para o bundle)
+  audio/                   # música e efeitos (Opus + fallback MP3), ver AUDIO.md
+tools/                     # scripts Python/FFmpeg (não vão para o bundle)
 ```
 
 Cada asset de terceiros precisa de registro de licença (como `assets-manifest.json`).

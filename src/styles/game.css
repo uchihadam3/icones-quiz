@@ -1159,6 +1159,12 @@
   .streak {
     padding-right: 8px;
   }
+
+  /* Com o botão de som na barra, "Vidas cheias" quebra em duas linhas. */
+  .recovery.is-paused .hud-label {
+    white-space: normal;
+    line-height: 1.1;
+  }
 }
 
 @media (max-width: 380px) {
@@ -1180,6 +1186,25 @@
   }
 
   .recovery-hint {
+    display: none;
+  }
+}
+
+/* Celulares de 320 px: com som + pausa na barra, "Vidas cheias" vira só o escudo. */
+@media (max-width: 340px) {
+  .statusbar {
+    gap: 6px;
+  }
+
+  .statusbar .icon-btn {
+    width: 40px;
+  }
+
+  .recovery.is-paused {
+    flex: none;
+  }
+
+  .recovery.is-paused .recovery-body {
     display: none;
   }
 }

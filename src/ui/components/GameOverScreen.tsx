@@ -3,6 +3,7 @@ import type { GameState } from '../../domain/engine';
 import { rankFor, RANKS } from '../../domain/progress';
 import { fx, haptic } from '../../lib/motion';
 import { particlesFx } from '../../lib/particles';
+import { audio } from '../../audio';
 import { CrownIcon, FlameIcon, HeartIcon, HomeIcon, OptionsIcon, RetryIcon, SkipIcon, TargetIcon, TrophyIcon } from './Icons';
 
 export function GameOverScreen({
@@ -31,6 +32,11 @@ export function GameOverScreen({
     fx.screenIn(rootRef.current);
     fx.countTo(scoreRef.current, 0, state.score, newBest ? 1.6 : 1);
   }, [state.score, newBest]);
+
+  // Vinheta: grande resolução musical no recorde; cadência descendente no fim comum.
+  useEffect(() => {
+    audio.play(newBest ? 'new-record' : 'game-over', { key: `over-${state.nextRoundId}-${state.score}` });
+  }, [newBest, state.nextRoundId, state.score]);
 
   useEffect(() => {
     if (!newBest) return;

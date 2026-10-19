@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "formats": {
+    "primary": "opus",
+    "fallback": "mp3"
+  },
+  "music": {
+    "bpm": 120,
+    "beatsPerBar": 4,
+    "keyscale": "A minor",
+    "loop": {
+      "lead": 2,
+      "length": 64
+    },
+    "layers": {}
+  },
+  "sfx": {
+    "ui-tap": {
+      "files": [
+        "sfx/ui-tap-1",
+        "sfx/ui-tap-2"
+      ],
+      "gain": 0.45,
+      "duration": 0.012,
+      "detuneCents": 60
+    },
+    "ui-confirm": {
+      "files": [
+        "sfx/ui-confirm"
+      ],
+      "gain": 0.75,
+      "duration": 1.111,
+      "duck": 0.15
+    },
+    "round-start": {
+      "files": [
+        "sfx/round-start"
+      ],
+      "gain": 0.45,
+      "duration": 0.378
+    },
+    "correct": {
+      "files": [
+        "sfx/correct-1",
+        "sfx/correct-2",
+        "sfx/correct-3"
+      ],
+      "gain": 0.85,
+      "duration": 1.65,
+      "duck": 0.25
+    },
+    "correct-fast": {
+      "files": [
+        "sfx/correct-fast"
+      ],
+      "gain": 0.9,
+      "duration": 1.91,
+      "duck": 0.3
+    },
+    "correct-hint": {
+      "files": [
+        "sfx/correct-hint"
+      ],
+      "gain": 0.7,
+      "duration": 1.167,
+      "duck": 0.15
+    },
+    "wrong": {
+      "files": [
+        "sfx/wrong"
+      ],
+      "gain": 0.85,
+      "duration": 0.855,
+      "duck": 0.35
+    },
+    "timeout": {
+      "files": [
+        "sfx/timeout"
+      ],
+      "gain": 0.85,
+      "duration": 1.973,
+      "duck": 0.4
+    },
+    "tick": {
+      "files": [
+        "sfx/tick"
+      ],
+      "gain": 0.55,
+      "duration": 0.055
+    },
+    "tick-final": {
+      "files": [
+        "sfx/tick-final"
+      ],
+      "gain": 0.65,
+      "duration": 0.119
+    },
+    "heartbeat": {
+      "files": [
+        "sfx/heartbeat"
+      ],
+      "gain": 0.75,
+      "duration": 0.727
+    },
+    "life-lost": {
+      "files": [
+        "sfx/life-lost"
+      ],
+      "gain": 0.95,
+      "duration": 1.539,
+      "duck": 0.5
+    },
+    "last-life": {
+      "files": [
+        "sfx/last-life"
+      ],
+      "gain": 0.85,
+      "duration": 2.469,
+      "duck": 0.35
+    },
+    "life-recovered": {
+      "files": [
+        "sfx/life-recovered"
+      ],
+      "gain": 0.95,
+      "duration": 2.707,
+      "duck": 0.5
+    },
+    "tier-up-2": {
+      "files": [
+        "sfx/tier-up-2"
+      ],
+      "gain": 0.8,
+      "duration": 2.09,
+      "duck": 0.25
+    },
+    "tier-up-3": {
+      "files": [
+        "sfx/tier-up-3"
+      ],
+      "gain": 0.85,
+      "duration": 2.23,
+      "duck": 0.3
+    },
+    "tier-up-4": {
+      "files": [
+        "sfx/tier-up-4"
+      ],
+      "gain": 0.9,
+      "duration": 2.408,
+      "duck": 0.35
+    },
+    "tier-up-5": {
+      "files": [
+        "sfx/tier-up-5"
+      ],
+      "gain": 0.95,
+      "duration": 2.649,
+      "duck": 0.45
+    },
+    "combo-break": {
+      "files": [
+        "sfx/combo-break"
+      ],
+      "gain": 0.65,
+      "duration": 0.324,
+      "duck": 0.2
+    },
+    "skip": {
+      "files": [
+        "sfx/skip"
+      ],
+      "gain": 0.75,
+      "duration": 0.579,
+      "duck": 0.1,
+      "detuneCents": 40
+    },
+    "hint": {
+      "files": [
+        "sfx/hint"
+      ],
+      "gain": 0.8,
+      "duration": 1.183,
+      "duck": 0.15
+    },
+    "pause": {
+      "files": [
+        "sfx/pause"
+      ],
+      "gain": 0.7,
+      "duration": 1.276
+    },
+    "resume": {
+      "files": [
+        "sfx/resume"
+      ],
+      "gain": 0.7,
+      "duration": 1.219
+    },
+    "game-start": {
+      "files": [
+        "sfx/game-start"
+      ],
+      "gain": 0.9,
+      "duration": 3.106,
+      "duck": 0.3
+    },
+    "game-over": {
+      "files": [
+        "sfx/stinger-game-over"
+      ],
+      "gain": 0.95,
+      "duration": 3.886,
+      "duck": 0.7
+    },
+    "new-record": {
+      "files": [
+        "sfx/stinger-record"
+      ],
+      "gain": 1.0,
+      "duration": 0.73,
+      "duck": 0.8
+    },
+    "record-beaten": {
+      "files": [
+        "sfx/record-sparkle"
+      ],
+      "gain": 0.8,
+      "duration": 0.73,
+      "duck": 0.2
+    },
+    "install": {
+      "files": [
+        "sfx/install"
+      ],
+      "gain": 0.8,
+      "duration": 1.587,
+      "duck": 0.2
+    }
+  },
+  "credits": [
+    {
+      "what": "Matéria-prima dos efeitos (cliques, impactos, cartas, fichas, jingles curtos)",
+      "source": "Kenney — Interface Sounds, UI Audio, Impact Sounds, Digital Audio, Casino Audio, Sci-fi Sounds, Music Jingles",
+      "license": "CC0 1.0",
+      "url": "https://kenney.nl/assets"
+    },
+    {
+      "what": "Design em camadas dos efeitos (sinos FM, pads, sub, reverb) e masterização",
+      "source": "tools/audio/sfx_design.py (este repositório)",
+      "license": "MIT (código) — áudio resultante incluído no projeto"
+    },
+    {
+      "what": "Trilha original (tema e variações de intensidade)",
+      "source": "Gerada com ACE-Step 1.5 (modelo aberto, MIT) via acestep.cpp (MIT), rodando localmente; edição/master em tools/audio/music_master.py",
+      "license": "Modelo MIT; faixa original gerada para este projeto",
+      "url": "https://huggingface.co/ACE-Step/Ace-Step1.5"
+    }
+  ]
+}

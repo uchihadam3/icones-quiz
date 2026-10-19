@@ -130,7 +130,7 @@ export function StreakChip({ combo }: { combo: number }) {
 export function RecoveryMeter({ required, progress, paused }: { required: number; progress: number; paused: boolean }) {
   if (paused) {
     return (
-      <div className="recovery is-paused" data-testid="recovery">
+      <div className="recovery is-paused" data-testid="recovery" title="Vidas cheias">
         <ShieldHeart className="recovery-icon" />
         <div className="recovery-body">
           <span className="hud-label">Vidas cheias</span>

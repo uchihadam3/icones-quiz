@@ -1,8 +1,17 @@
 # Integração de imagens (instruções para o Codex / curadoria)
 
-Estado atual (Etapa 01): **nenhuma imagem incluída**. Todas as 89 entradas do manifesto estão com
-`status: "missing"`. O jogo competitivo fica bloqueado com "Banco de imagens em preparação" e o preview
-de desenvolvimento usa um espaço neutro "Imagem a adicionar".
+Estado atual (Etapa 03): **nenhuma imagem incluída**. As **583** entradas do manifesto estão com
+`status: "missing"`. O modo competitivo fica bloqueado com "Banco de imagens em preparação" e o preview
+usa um pôster neutro "Imagem a adicionar" (sem nome nem origem — nunca dá a resposta).
+
+## Resumo do fluxo para o Codex
+
+1. Salvar a imagem aprovada em `art/characters/<id>.webp` (o `id` está em `src/data/catalog/*.ts`).
+2. No `src/data/assets-manifest.json`, trocar a entrada do id para `status: "ready"` e preencher fonte,
+   autor, licença e atribuição (formato abaixo).
+3. Rodar `npm run assets:sync` (atualiza o resumo da home) e `npm run assets:report` (confere tudo).
+4. `npm test` valida arquivo, dimensões, proporção 4:5 e metadados. Pronto: o build publica a imagem como
+   `img/<hash>.webp` e o modo competitivo **libera sozinho** ao atingir o limiar.
 
 ## Regras inegociáveis
 
@@ -32,7 +41,7 @@ de desenvolvimento usa um espaço neutro "Imagem a adicionar".
 
 | Item | Valor |
 |---|---|
-| Caminho | `public/characters/<id>.webp` (o `id` vem de `src/data/characters.ts`) |
+| Caminho | `art/characters/<id>.webp` (o `id` vem de `src/data/catalog/*.ts`) — **nunca em `public/`** |
 | Formato | WebP (qualidade ~80, sem metadados EXIF de localização) |
 | Proporção | **4:5** exata (validada com tolerância 0.01) |
 | Tamanho mínimo | 640 × 800; recomendado 960 × 1200 |
@@ -43,7 +52,7 @@ Exemplo de conversão (FFmpeg/cwebp/Pillow, qualquer um):
 
 ```bash
 # recorte central 4:5 e redimensiona para 960x1200
-ffmpeg -i original.jpg -vf "crop='min(iw,ih*4/5)':'min(ih,iw*5/4)',scale=960:1200" -q:v 80 public/characters/goku.webp
+ffmpeg -i original.jpg -vf "crop='min(iw,ih*4/5)':'min(ih,iw*5/4)',scale=960:1200" -q:v 80 art/characters/goku.webp
 ```
 
 ## Atualizar o manifesto
@@ -65,8 +74,9 @@ Para cada imagem aprovada, edite `src/data/assets-manifest.json`:
 ```
 
 - `status`: `missing` → `ready` (ou `rejected` se reprovar na curadoria; tratado como ausente).
-- Novas identidades: adicione em `src/data/characters.ts` e rode `node scripts/sync-manifest.mjs`
-  (só acrescenta entradas `missing`, nunca altera as existentes).
+- Novas identidades: adicione uma linha no arquivo da categoria em `src/data/catalog/` e rode
+  `npm run assets:sync` (só acrescenta entradas `missing`, nunca altera as existentes; ids não podem
+  sumir — use `active: false`).
 
 ## Validação automática (CI)
 
@@ -75,7 +85,25 @@ Para cada imagem aprovada, edite `src/data/assets-manifest.json`:
 - uma identidade ativa não tiver entrada no manifesto, ou houver entrada órfã;
 - uma entrada `ready` não tiver arquivo, não for WebP válido, for menor que 640×800, sair de 4:5, ou
   estiver sem `license`, `sourceUrl` (https) ou `attribution`;
-- existir `.webp` em `public/characters/` sem status `ready` (imagem não revisada).
+- existir `.webp` em `art/characters/` sem status `ready` (imagem não revisada);
+- existir a pasta `public/characters/` (seria publicada com o id no nome);
+- o resumo da home (`src/data/catalog-summary.json`) estiver desatualizado (rode `npm run assets:sync`).
+
+`npm run assets:report` mostra: total, missing/ready/rejected, distribuição por categoria e nível,
+situação do modo competitivo e arquivos quebrados (ready sem arquivo, arquivo vazio).
+
+## Publicação sem o id na URL
+
+O plugin `vite/characterImages.ts` publica cada imagem `ready` como `img/<sha256-16>.webp` (nome = hash do
+conteúdo). A aba de rede não mostra mais `goku.webp`. **Não é anti-fraude**: o mapa id → URL está no
+JavaScript do cliente. Ranking online exigirá servir as imagens pelo servidor (ver ROADMAP).
+
+## Liberação automática do modo competitivo
+
+`src/data/unlock.json`: **30 imagens prontas, sendo 12 de nível 1**. Justificativa: as 5 primeiras
+rodadas sorteiam 80% nível 1 e uma partida típica dura 15–30 rodadas; com esse conjunto não há repetição
+e a curva de dificuldade se mantém. Ao atingir o limiar, a home troca "Jogar (em breve)" por "Jogar"
+sem mudar código.
 
 ## Checklist por imagem
 
@@ -90,5 +118,4 @@ Para cada imagem aprovada, edite `src/data/assets-manifest.json`:
 
 - Página de créditos exibindo `attribution` de todas as imagens `ready` (obrigatória antes da 1ª
   imagem CC BY/BY-SA ir ao ar) — ver ROADMAP.
-- Os arquivos usam o `id` no nome (`goku.webp`), visível nas ferramentas do navegador. Antes de ranking
-  online, o build deve publicar nomes com hash (o manifesto já desacopla `id` de `file`).
+- Ranking online: servir imagens pelo servidor com URLs efêmeras (o hash atual só esconde o nome).

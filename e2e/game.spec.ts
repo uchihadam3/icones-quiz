@@ -190,3 +190,72 @@ test.describe('teclado virtual aberto (viewport baixa)', () => {
     expect(overflow).toBeLessThanOrEqual(0);
   });
 });
+
+test.describe('áudio', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('icones-quiz:audio-debug', '1'));
+  });
+
+  const log = (page: Page) => page.evaluate(() => (window as Window & { __iconesAudioLog?: string[] }).__iconesAudioLog ?? []);
+
+  test('desbloqueia no primeiro gesto e dispara cada evento uma vez', async ({ page }) => {
+    await page.goto('./');
+    expect(await log(page)).not.toContain('unlock:opus');
+    await page.getByTestId('preview').click();
+    await expect.poll(async () => (await log(page)).some((e) => e.startsWith('unlock:'))).toBe(true);
+    await expect.poll(() => log(page)).toContain('sfx:game-start');
+    await expect.poll(async () => (await log(page)).some((e) => e.startsWith('music:groove'))).toBe(true);
+    // A camada real foi baixada, decodificada e entrou no relógio musical.
+    await expect.poll(() => log(page), { timeout: 15_000 }).toContain('layer:groove');
+
+    const input = page.getByTestId('answer-input');
+    await input.fill('resposta errada');
+    await input.press('Enter');
+    await expect(page.getByTestId('feedback')).toBeVisible();
+    await expect.poll(() => log(page)).toContain('sfx:life-lost');
+    const entries = await log(page);
+    expect(entries.filter((e) => e === 'sfx:wrong')).toHaveLength(1);
+    expect(entries.filter((e) => e === 'sfx:life-lost')).toHaveLength(1);
+
+    await page.getByTestId('next').click();
+    await page.getByRole('button', { name: /Mostrar 3 alternativas/ }).click();
+    await expect.poll(() => log(page)).toContain('sfx:hint');
+    await page.getByRole('button', { name: 'Pausar' }).click();
+    await expect.poll(() => log(page)).toContain('sfx:pause');
+    await expect.poll(async () => (await log(page)).some((e) => /^music:\w+:\d:m$/.test(e))).toBe(true);
+  });
+
+  test('mudo e volumes persistem; jogo segue funcionando sem som', async ({ page }) => {
+    await page.goto('./');
+    await page.getByRole('button', { name: 'Som ligado' }).click();
+    await expect(page.getByRole('button', { name: 'Sem som' })).toBeVisible();
+    await page.getByLabel('Volume da música').fill('30');
+    await page.reload();
+    await expect(page.getByRole('button', { name: 'Sem som' })).toBeVisible();
+    await expect(page.getByLabel('Volume da música')).toHaveValue('30');
+    await page.getByTestId('preview').click();
+    await expect(page.getByTestId('mute')).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.getByTestId('answer-input')).toBeFocused();
+  });
+
+  test('arquivos reais: servidos no base path e decodificáveis pelo navegador', async ({ page }) => {
+    await page.goto('./');
+    const result = await page.evaluate(async () => {
+      const files = ['sfx/correct-1', 'sfx/wrong', 'sfx/life-recovered', 'sfx/tier-up-5', 'sfx/stinger-record', 'music/groove', 'music/epic'];
+      const ctx = new AudioContext();
+      const out: Record<string, number> = {};
+      for (const f of files) {
+        const res = await fetch(`/icones-quiz/audio/${f}.opus`);
+        if (!res.ok) throw new Error(`${f}: HTTP ${res.status}`);
+        const buf = await ctx.decodeAudioData(await res.arrayBuffer());
+        out[f] = buf.duration;
+      }
+      await ctx.close();
+      return { out };
+    });
+    for (const d of Object.values(result.out)) expect(d).toBeGreaterThan(0.05);
+    // Camadas de música: cauda 2 s + loop 64 s + cabeça 2 s.
+    expect(result.out['music/groove']).toBeCloseTo(68, 0);
+    expect(result.out['music/epic']).toBeCloseTo(68, 0);
+  });
+});

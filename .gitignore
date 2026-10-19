@@ -8,3 +8,5 @@ test-results
 *.log
 .env
 .env.*
+tools/audio/.cache
+__pycache__

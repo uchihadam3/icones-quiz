@@ -52,6 +52,23 @@ describe('A) combo e pontos no fluxo real', () => {
   });
 });
 
+describe('sequência relâmpago (alimenta a música)', () => {
+  it('conta acertos relâmpago seguidos e zera em resposta lenta, erro ou ajuda', () => {
+    let s = start();
+    s = correct(s, 0); // resposta instantânea = relâmpago
+    s = correct(s, 0);
+    expect(s.fastStreak).toBe(2);
+    const slow = engine.reduce(s, { type: 'submit', roundId: rid(s), guess: answerFor(s), now: 25_000 });
+    expect(slow.lastResolution?.outcome).toBe('correct');
+    expect(slow.fastStreak).toBe(0);
+    let t = engine.reduce(slow, { type: 'next', roundId: rid(slow), now: 25_001 });
+    t = engine.reduce(t, { type: 'submit', roundId: rid(t), guess: answerFor(t), now: 25_001 });
+    expect(t.fastStreak).toBe(1);
+    const w = wrong(engine.reduce(t, { type: 'next', roundId: rid(t), now: 25_002 }), 25_002);
+    expect(w.fastStreak).toBe(0);
+  });
+});
+
 describe('B) vidas no fluxo real', () => {
   it('3 erros encerram a run; ações depois do fim são ignoradas', () => {
     let s = start();

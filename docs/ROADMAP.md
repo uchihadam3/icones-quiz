@@ -1,6 +1,6 @@
 # Roadmap
 
-## ✅ Etapa 01 — vertical slice (atual)
+## ✅ Etapa 01 — vertical slice
 
 - Motor puro com vidas, recuperação, combo, pulos/ajudas, timer justo e seleção com RNG injetável.
 - Validação de respostas com normalização, apelidos, tolerância a erro e proteção contra homônimos.
@@ -8,15 +8,23 @@
 - Interface mobile-first com GSAP, movimento reduzido e teclado; preview de desenvolvimento.
 - CI (lint, typecheck, unitários, validação de assets, build, E2E 360px/desktop) e deploy no Pages.
 
+## ✅ Etapa 02 — polimento visual e gamificação
+
+## ✅ Etapa 03 — trilha dinâmica, efeitos e catálogo grande
+
+- Trilha original em 5 arranjos alinhados (ACE-Step 1.5, local) regida por diretor musical com histerese.
+- 28 eventos sonoros em camadas (Kenney CC0 + design próprio), controles de volume/mudo.
+- Catálogo de 583 ícones curados, carregado sob demanda; publicação de imagens com nome-hash.
+- Pendências: escuta humana da trilha/efeitos (ajustes de mix por ouvido) e as imagens.
+
 ## 2 — Pacote de imagens (com o Codex)
 
 - Seguir `docs/IMAGE_INTEGRATION.md`: obter imagens com licença, converter para WebP 4:5, preencher o
   manifesto (`ready` + fonte, autor, licença, atribuição).
 - Página de **créditos** listando a atribuição de cada imagem.
 - Começar pelas pessoas reais com fotos livres no Wikimedia Commons; personagens protegidos só com
-  licença. Liberar a partida real quando houver um conjunto mínimo (proposta: ≥ 40 ícones `ready`,
-  com pelo menos 20 de nível 1).
-- Publicar arquivos com nome com hash no build (o id não deve aparecer na URL).
+  licença. A partida real libera sozinha ao atingir 30 ícones `ready` com 12 de nível 1
+  (`src/data/unlock.json`); as imagens já são publicadas como `img/<hash>.webp`.
 
 ## 3 — Milhares de identidades curadas
 
@@ -26,11 +34,11 @@
 - Ferramenta de revisão de nomes/apelidos/homônimos (relatório de chaves a 1 edição entre identidades).
 - Pacotes temáticos (anime, futebol, Disney…).
 
-## 4 — Sons e música dinâmicos
+## 4 — Áudio: próximos passos
 
-- SFX procedurais em Web Audio/Tone.js; música em camadas que cresce com o combo e acelera no fim do
-  tempo. Botão de mudo e volume; áudio só após interação.
-- Avaliar ElevenLabs (locução/SFX) e Lyria (trilhas) conforme licença — ver `ART_PIPELINE.md`.
+- Escuta humana em celulares reais e ajuste de mix por ouvido (o mix atual foi validado por medição).
+- Stems separados por instrumento (hoje as camadas são arranjos completos alinhados) para intensidade
+  ainda mais granular; locução curta opcional ("Combo x5!") se houver ferramenta com licença clara.
 
 ## 5 — Gamificação avançada
 

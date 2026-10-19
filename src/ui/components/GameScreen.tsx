@@ -8,7 +8,9 @@ import { fx, haptic } from '../../lib/motion';
 import { particlesFx, PALETTES } from '../../lib/particles';
 import { useGame } from '../hooks/useGame';
 import { usePreload } from '../hooks/usePreload';
+import { useGameAudio } from '../../audio/useGameAudio';
 import { ChallengeImage } from './ChallengeImage';
+import { MuteButton, SoundControls } from './SoundControls';
 import { Hearts, Multiplier, RecoveryMeter, RoundBadge, Score, StreakChip, TimeFuse, TimerRing } from './Hud';
 import { BoltIcon, CameraIcon, ClockIcon, HeartIcon, HomeIcon, MaskIcon, OptionsIcon, PauseIcon, PlayIcon, SkipIcon, SparkIcon } from './Icons';
 
@@ -62,6 +64,8 @@ export function GameScreen({
   const remaining = phase === 'playing' || phase === 'paused' ? roundRemainingMs(state, now) : 0;
   const warning = phase === 'playing' && remaining > 0 && remaining <= cfg.timer.warningSeconds * 1000;
 
+  useGameAudio(state, { seed, best, warning });
+
   // Clima global da tela: "calor" do combo e tensão do fim do tempo (lidos pelo CSS do fundo).
   useEffect(() => {
     const root = document.documentElement;
@@ -111,6 +115,7 @@ export function GameScreen({
         <RoundBadge number={round.number} />
         <StreakChip combo={state.combo} />
         <RecoveryMeter {...recovery} />
+        <MuteButton />
         <button className="icon-btn" onClick={() => dispatch({ type: 'hide' })} disabled={!canAct} aria-label="Pausar">
           <PauseIcon />
         </button>
@@ -459,6 +464,9 @@ function PauseSheet({ state, onResume, onQuit }: { state: GameState; onResume: (
             <dd>{state.lives.lives}</dd>
           </div>
         </dl>
+        <div className="sheet-sound" data-pop>
+          <SoundControls compact />
+        </div>
         <p className="sheet-note" data-pop>
           Ao continuar, um <b>novo ícone</b> é sorteado e você <b>não perde vida</b>. O combo e a sequência para recuperar vida recomeçam.
         </p>

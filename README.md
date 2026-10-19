@@ -6,10 +6,10 @@ digita quem é. Quanto mais acertos seguidos, maior o combo — e mais rápido a
 
 **Site:** https://uchihadam3.github.io/icones-quiz/
 
-> **Estado atual (Etapa 01):** mecânicas completas e testadas, mas **ainda sem imagens licenciadas**.
-> A partida valendo recorde mostra "Banco de imagens em preparação"; o botão **Testar mecânicas
-> (preview)** permite jogar com espaços neutros "Imagem a adicionar". Ver
-> [docs/IMAGE_INTEGRATION.md](docs/IMAGE_INTEGRATION.md).
+> **Estado atual (Etapa 03):** mecânicas, visual, trilha dinâmica, efeitos e catálogo de **583 ícones**
+> prontos. Faltam as **imagens licenciadas**: a partida valendo recorde libera sozinha com 30 imagens
+> prontas; até lá, **Jogar treino** permite jogar com pôsteres neutros "Imagem a adicionar". Ver
+> [docs/IMAGE_INTEGRATION.md](docs/IMAGE_INTEGRATION.md) e [docs/AUDIO.md](docs/AUDIO.md).
 
 ## Como joga
 
@@ -21,6 +21,7 @@ digita quem é. Quanto mais acertos seguidos, maior o combo — e mais rápido a
 
 Regras completas e decisões anti-exploit: [docs/GAME_RULES.md](docs/GAME_RULES.md).
 Sistema visual, animações e game feel: [docs/DESIGN.md](docs/DESIGN.md).
+Trilha dinâmica e efeitos sonoros: [docs/AUDIO.md](docs/AUDIO.md). Catálogo e curadoria: [docs/CATALOG.md](docs/CATALOG.md).
 
 ## Desenvolvimento
 
@@ -34,6 +35,8 @@ npm run typecheck
 npm test             # unitários + validação de assets
 npm run build
 npm run test:e2e     # Playwright (360px e desktop) contra o build
+npm run assets:sync  # manifesto de imagens + resumo da home (após mexer no catálogo)
+npm run assets:report # total, missing/ready/rejected, por categoria e nível
 ```
 
 Para o E2E num ambiente com Chromium pré-instalado: `PLAYWRIGHT_CHROMIUM_PATH=/caminho/chrome npm run test:e2e`;
@@ -45,10 +48,13 @@ caso contrário, `npx playwright install chromium` antes.
 src/
   config/gameConfig.ts   números canônicos (vidas, tempo, pontuação, dificuldade)
   domain/                regras puras e testadas: engine, lives, scoring, answers, selection, timer, hints, rng
-  data/                  catálogo curado, manifesto de imagens e validação
+  data/                  catálogo curado (catalog/*.ts), manifesto de imagens e validação
+  audio/                 motor de áudio, diretor musical e manifesto de áudio
   lib/                   persistência local e animações (GSAP)
   ui/                    componentes React e hooks
-public/characters/       imagens <id>.webp (vazio até haver licenças)
+art/characters/          imagens <id>.webp (fonte; publicadas como img/<hash>.webp)
+public/audio/            trilha (5 camadas) e efeitos, em Opus + MP3
+tools/audio/             pipeline reprodutível de efeitos, masterização e codificação
 docs/                    regras, pipeline de arte, integração de imagens, roadmap
 e2e/                     testes Playwright
 ```
