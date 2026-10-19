@@ -56,8 +56,14 @@ describe('manifesto de imagens', () => {
       expect(size.height, id).toBeGreaterThanOrEqual(IMAGE_MIN_SIZE.height);
       const ratio = size.width / size.height;
       expect(Math.abs(ratio - IMAGE_ASPECT.width / IMAGE_ASPECT.height), `${id} fora de 4:5`).toBeLessThan(0.01);
-      expect(e.license, `${id} sem licença`).toBeTruthy();
-      expect(e.sourceUrl, `${id} sem fonte`).toMatch(/^https:\/\//);
+      if (e.origin === 'generated') {
+        expect(e.generationPrompt, `${id} sem registro do prompt`).toBeTruthy();
+        expect(e.author, `${id} sem registro da geração`).toBeTruthy();
+        expect(e.rightsNote, `${id} sem nota de direitos`).toBeTruthy();
+      } else {
+        expect(e.license, `${id} sem licença`).toBeTruthy();
+        expect(e.sourceUrl, `${id} sem fonte`).toMatch(/^https:\/\//);
+      }
       expect(e.attribution, `${id} sem atribuição`).toBeTruthy();
     }
   });

@@ -28,11 +28,11 @@ for (const r of rows) {
 const levels = [1, 2, 3].map((l) => rows.filter((r) => r.level === l).length);
 
 // Arquivos quebrados: ready sem arquivo, ou arquivo presente sem entrada ready.
-const publicDir = fileURLToPath(new URL('public/', root));
+const artDir = fileURLToPath(new URL('art/', root));
 const broken = [];
 for (const [id, e] of Object.entries(manifest.entries)) {
-  if (e.status === 'ready' && !existsSync(publicDir + e.file)) broken.push(`${id}: ready mas falta public/${e.file}`);
-  if (e.status === 'ready' && existsSync(publicDir + e.file) && statSync(publicDir + e.file).size === 0) broken.push(`${id}: arquivo vazio`);
+  if (e.status === 'ready' && !existsSync(artDir + e.file)) broken.push(`${id}: ready mas falta art/${e.file}`);
+  if (e.status === 'ready' && existsSync(artDir + e.file) && statSync(artDir + e.file).size === 0) broken.push(`${id}: arquivo vazio`);
 }
 const ready = rows.filter((r) => status(r.id) === 'ready');
 const readyL1 = ready.filter((r) => r.level === 1).length;

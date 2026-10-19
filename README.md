@@ -6,9 +6,9 @@ digita quem é. Quanto mais acertos seguidos, maior o combo — e mais rápido a
 
 **Site:** https://uchihadam3.github.io/icones-quiz/
 
-> **Estado atual (Etapa 03):** mecânicas, visual, trilha dinâmica, efeitos e catálogo de **583 ícones**
-> prontos. Faltam as **imagens licenciadas**: a partida valendo recorde libera sozinha com 30 imagens
-> prontas; até lá, **Jogar treino** permite jogar com pôsteres neutros "Imagem a adicionar". Ver
+> **Estado atual:** mecânicas, visual, trilha dinâmica, efeitos e catálogo de **583 ícones**
+> prontos. Há **155 imagens prontas**; a partida valendo recorde já está liberada. O treino ainda
+> mostra pôsteres neutros "Imagem a adicionar" para entradas sem imagem. Ver
 > [docs/IMAGE_INTEGRATION.md](docs/IMAGE_INTEGRATION.md) e [docs/AUDIO.md](docs/AUDIO.md).
 
 ## Como joga
@@ -66,8 +66,9 @@ E2E e publica `dist/` no GitHub Pages com base path `/icones-quiz/`.
 
 ## Licença
 
-Código sob [MIT](LICENSE). Nomes, personagens e marcas citados pertencem aos respectivos donos; imagens
-(quando existirem) têm licença própria registrada em `src/data/assets-manifest.json`.
+Código sob [MIT](LICENSE). Nomes, personagens e marcas citados pertencem aos respectivos donos. Fotografias
+externas têm licença própria registrada em `src/data/assets-manifest.json`; ilustrações geradas têm
+proveniência e nota de direitos registradas separadamente.
 
 
 ## Instalar no celular (PWA)

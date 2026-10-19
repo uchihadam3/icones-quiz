@@ -18,10 +18,12 @@ test('carrega no base path do Pages, com assets do mesmo base', async ({ page })
   await noHorizontalScroll(page);
 });
 
-test('sem imagens licenciadas: partida real indisponível e estado claro', async ({ page }) => {
+test('partida real usa uma imagem pronta e créditos estão acessíveis', async ({ page }) => {
   await page.goto('./');
-  await expect(page.getByTestId('images-pending')).toContainText('Banco de imagens em preparação');
-  await expect(page.getByRole('button', { name: 'Jogar (em breve)' })).toBeDisabled();
+  await expect(page.getByTestId('play')).toBeEnabled();
+  await expect(page.locator('.image-credits summary')).toContainText('Créditos das imagens');
+  await page.getByTestId('play').click();
+  await expect(page.getByTestId('challenge-card').locator('img[alt="Imagem do desafio"]')).toBeVisible();
 });
 
 test('preview: mecânicas reais, sem revelar o nome antes da resposta', async ({ page }) => {
@@ -29,8 +31,7 @@ test('preview: mecânicas reais, sem revelar o nome antes da resposta', async ({
   await page.getByTestId('preview').click();
   const card = page.getByTestId('challenge-card');
   await expect(card).toBeVisible();
-  await expect(page.getByTestId('image-placeholder')).toContainText('Imagem a adicionar');
-  await expect(page.getByText(/Preview de desenvolvimento/)).toBeVisible();
+  await expect(page.getByTestId('challenge-card').locator('.image-frame, .poster')).toBeVisible();
   await expect(page.getByTestId('timer')).toBeVisible();
   await expect(page.getByRole('img', { name: '3 de 3 vidas' })).toBeVisible();
   await noHorizontalScroll(page);
@@ -105,11 +106,10 @@ test.describe('movimento reduzido', () => {
   });
 });
 
-test('navegação por teclado: Tab alcança as ações principais', async ({ page }) => {
+test('navegação por teclado: Tab alcança a Maratona', async ({ page }) => {
   await page.goto('./');
-  // "Jogar (em breve)" está desabilitado (fora da ordem de Tab); o primeiro foco é o preview.
   await page.keyboard.press('Tab');
-  await expect(page.getByTestId('preview')).toBeFocused();
+  await expect(page.getByTestId('play')).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.getByTestId('answer-input')).toBeFocused();
 });

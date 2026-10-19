@@ -60,24 +60,27 @@ describe('tela de fim de jogo', () => {
 });
 
 describe('home', () => {
-  it('sem imagens: treino é o CTA principal e a Maratona aparece bloqueada com progresso', () => {
+  it('com imagens prontas: Maratona e créditos ficam disponíveis', () => {
     const onPreview = vi.fn();
+    const onPlay = vi.fn();
     render(
       <HomeScreen
         records={{ best: 1234, history: [{ score: 1234, rounds: 9, correct: 8, bestCombo: 7, endedAt: '' }], practiceBest: 50 }}
         motion="system"
         onMotionChange={() => {}}
-        onPlay={() => {}}
+        onPlay={onPlay}
         onPreview={onPreview}
       />,
     );
-    expect(screen.getByTestId('images-pending')).toHaveTextContent('0/30 imagens');
-    expect(screen.getByTestId('images-pending')).toHaveTextContent('583 ícones curados');
-    expect(screen.getByRole('button', { name: /Jogar \(em breve\)/ })).toBeDisabled();
+    expect(screen.queryByTestId('images-pending')).not.toBeInTheDocument();
+    expect(screen.getByTestId('play')).toBeEnabled();
+    expect(screen.getByText(/Créditos das imagens/)).toBeInTheDocument();
     expect(screen.getByTestId('records')).toHaveTextContent('1.234');
     expect(screen.getByTestId('records')).toHaveTextContent('7');
     screen.getByTestId('preview').click();
     expect(onPreview).toHaveBeenCalledOnce();
+    screen.getByTestId('play').click();
+    expect(onPlay).toHaveBeenCalledOnce();
   });
 });
 

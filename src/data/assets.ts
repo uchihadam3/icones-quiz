@@ -23,6 +23,11 @@ export interface AssetEntry {
   licenseUrl?: string;
   /** Texto de atribuição exibido nos créditos. */
   attribution?: string;
+  /** Original artwork produced for this game, rather than a photo from an external source. */
+  origin?: 'generated';
+  /** Prompt and authorship record for an original generated illustration. */
+  generationPrompt?: string;
+  rightsNote?: string;
 }
 
 export interface AssetManifest {

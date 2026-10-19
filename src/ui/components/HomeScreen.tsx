@@ -18,6 +18,7 @@ import {
   TrophyIcon,
 } from './Icons';
 import { InstallApp } from './InstallApp';
+import { ImageCredits } from './ImageCredits';
 import { SoundControls } from './SoundControls';
 
 const cfg = GAME_CONFIG;
@@ -212,6 +213,7 @@ export function HomeScreen({
           ))}
         </fieldset>
         <p className="fine-print">Sem ranking online por enquanto: recordes ficam só neste navegador.</p>
+        <ImageCredits />
       </footer>
     </section>
   );

@@ -114,8 +114,15 @@
       "file": "characters/branca-de-neve.webp"
     },
     "cinderela": {
-      "status": "missing",
-      "file": "characters/cinderela.webp"
+      "status": "ready",
+      "file": "characters/cinderela.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Original fairy tale Cinderella in sparkling pale-blue ball gown at midnight, holding a glass slipper before a pumpkin carriage.",
+      "rightsNote": "Original generated depiction of a public-domain fairy tale character; no claim to third-party film designs.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "ariel": {
       "status": "missing",
@@ -142,8 +149,15 @@
       "file": "characters/malevola.webp"
     },
     "rapunzel": {
-      "status": "missing",
-      "file": "characters/rapunzel.webp"
+      "status": "ready",
+      "file": "characters/rapunzel.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Original fairy tale Rapunzel with exceptionally long golden hair cascading from a castle tower.",
+      "rightsNote": "Original generated depiction of a public-domain fairy tale character; no claim to third-party film designs.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "mulan": {
       "status": "missing",
@@ -154,8 +168,15 @@
       "file": "characters/jasmine.webp"
     },
     "aladdin": {
-      "status": "missing",
-      "file": "characters/aladdin.webp"
+      "status": "ready",
+      "file": "characters/aladdin.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Original fairy tale Aladdin holding an old brass magic lamp at dusk, blue magic smoke and ancient bazaar skyline.",
+      "rightsNote": "Original generated depiction of a public-domain fairy tale character; no claim to third-party film designs.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "genio": {
       "status": "missing",
@@ -266,8 +287,15 @@
       "file": "characters/goku.webp"
     },
     "vegeta": {
-      "status": "missing",
-      "file": "characters/vegeta.webp"
+      "status": "ready",
+      "file": "characters/vegeta.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Vegeta in blue bodysuit and white Saiyan armor, upright black hair, stern crossed arms, anime portrait.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gohan": {
       "status": "missing",
@@ -306,12 +334,26 @@
       "file": "characters/trunks.webp"
     },
     "naruto-uzumaki": {
-      "status": "missing",
-      "file": "characters/naruto-uzumaki.webp"
+      "status": "ready",
+      "file": "characters/naruto-uzumaki.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Naruto Uzumaki in his orange and black ninja outfit, blond spiky hair, blue eyes, whisker marks, Leaf Village headband and lively pose, anime portrait.",
+      "rightsNote": "User-directed generated fan depiction; Naruto remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sasuke-uchiha": {
-      "status": "missing",
-      "file": "characters/sasuke-uchiha.webp"
+      "status": "ready",
+      "file": "characters/sasuke-uchiha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Sasuke Uchiha in a dark high-collared ninja outfit with black spiky hair and blue lightning, animated portrait.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kakashi-hatake": {
       "status": "missing",
@@ -338,8 +380,15 @@
       "file": "characters/jiraiya.webp"
     },
     "monkey-d-luffy": {
-      "status": "missing",
-      "file": "characters/monkey-d-luffy.webp"
+      "status": "ready",
+      "file": "characters/monkey-d-luffy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Monkey D. Luffy wearing straw hat and open red vest, grinning on a sunny pirate ship, anime portrait.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "roronoa-zoro": {
       "status": "missing",
@@ -462,8 +511,15 @@
       "file": "characters/kyojuro-rengoku.webp"
     },
     "satoru-gojo": {
-      "status": "missing",
-      "file": "characters/satoru-gojo.webp"
+      "status": "ready",
+      "file": "characters/satoru-gojo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Satoru Gojo with white spiky hair, black blindfold and dark high-collared coat, blue energy in city backdrop, anime portrait.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "yuji-itadori": {
       "status": "missing",
@@ -818,40 +874,103 @@
       "file": "characters/chico-bento.webp"
     },
     "leonardo-dicaprio": {
-      "status": "missing",
-      "file": "characters/leonardo-dicaprio.webp"
+      "status": "ready",
+      "file": "characters/leonardo-dicaprio.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "tom-cruise": {
-      "status": "missing",
-      "file": "characters/tom-cruise.webp"
+      "status": "ready",
+      "file": "characters/tom-cruise.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg",
+      "author": "Kevin Paul",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Kevin Paul / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "will-smith": {
-      "status": "missing",
-      "file": "characters/will-smith.webp"
+      "status": "ready",
+      "file": "characters/will-smith.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_(48834070763)_(cropped).jpg",
+      "author": "TechCrunch",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: TechCrunch / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "dwayne-johnson": {
-      "status": "missing",
-      "file": "characters/dwayne-johnson.webp"
+      "status": "ready",
+      "file": "characters/dwayne-johnson.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1764_(4x5_cropped_with_moderate_headroom).jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "keanu-reeves": {
-      "status": "missing",
-      "file": "characters/keanu-reeves.webp"
+      "status": "ready",
+      "file": "characters/keanu-reeves.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keanu_Reeves_at_TIFF_2025_02_(Cropped).jpg",
+      "author": "Gabriel Hutchinson",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Gabriel Hutchinson / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "zendaya": {
-      "status": "missing",
-      "file": "characters/zendaya.webp"
+      "status": "ready",
+      "file": "characters/zendaya.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zendaya-byPhilipRomano.jpg",
+      "author": "PhilipRomano",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: PhilipRomano / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "brad-pitt": {
-      "status": "missing",
-      "file": "characters/brad-pitt.webp"
+      "status": "ready",
+      "file": "characters/brad-pitt.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brad_Pitt-69858.jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "angelina-jolie": {
-      "status": "missing",
-      "file": "characters/angelina-jolie.webp"
+      "status": "ready",
+      "file": "characters/angelina-jolie.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angelina_Jolie-643531_(cropped).jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "tom-hanks": {
-      "status": "missing",
-      "file": "characters/tom-hanks.webp"
+      "status": "ready",
+      "file": "characters/tom-hanks.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TomHanksPrincEdw031223_(11_of_41)_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "morgan-freeman": {
       "status": "missing",
@@ -862,64 +981,148 @@
       "file": "characters/jennifer-aniston.webp"
     },
     "julia-roberts": {
-      "status": "missing",
-      "file": "characters/julia-roberts.webp"
+      "status": "ready",
+      "file": "characters/julia-roberts.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Julia_Roberts_2025.jpg",
+      "author": "Colleen Sturtevant",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Colleen Sturtevant / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "meryl-streep": {
-      "status": "missing",
-      "file": "characters/meryl-streep.webp"
+      "status": "ready",
+      "file": "characters/meryl-streep.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_(cropped1).jpg",
+      "author": "Ministry of culture, sports and Tourism- Lee Jeong-woo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Ministry of culture, sports and Tourism- Lee Jeong-woo / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "scarlett-johansson": {
-      "status": "missing",
-      "file": "characters/scarlett-johansson.webp"
+      "status": "ready",
+      "file": "characters/scarlett-johansson.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scarlett_Johansson-8588.jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "arnold-schwarzenegger": {
-      "status": "missing",
-      "file": "characters/arnold-schwarzenegger.webp"
+      "status": "ready",
+      "file": "characters/arnold-schwarzenegger.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg",
+      "author": "Bernhard Holub",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bernhard Holub / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "jackie-chan": {
-      "status": "missing",
-      "file": "characters/jackie-chan.webp"
+      "status": "ready",
+      "file": "characters/jackie-chan.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg",
+      "author": "Segolene Liger",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Segolene Liger / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "bruce-lee": {
       "status": "missing",
       "file": "characters/bruce-lee.webp"
     },
     "jim-carrey": {
-      "status": "missing",
-      "file": "characters/jim-carrey.webp"
+      "status": "ready",
+      "file": "characters/jim-carrey.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jim_Carrey_2008.jpg",
+      "author": "Ian Smith from London, England",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Ian Smith from London, England / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "adam-sandler": {
-      "status": "missing",
-      "file": "characters/adam-sandler.webp"
+      "status": "ready",
+      "file": "characters/adam-sandler.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_(3x4).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "eddie-murphy": {
       "status": "missing",
       "file": "characters/eddie-murphy.webp"
     },
     "samuel-l-jackson": {
-      "status": "missing",
-      "file": "characters/samuel-l-jackson.webp"
+      "status": "ready",
+      "file": "characters/samuel-l-jackson.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samuel_L._Jackson_attending_the_World_premier_of_%22Argylle%22_in_London_,_January_2024_(cropped2).jpg",
+      "author": "Daltoncitys",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Daltoncitys / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "denzel-washington": {
-      "status": "missing",
-      "file": "characters/denzel-washington.webp"
+      "status": "ready",
+      "file": "characters/denzel-washington.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg",
+      "author": "Gabriel Hutchinson",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Gabriel Hutchinson / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "nicolas-cage": {
       "status": "missing",
       "file": "characters/nicolas-cage.webp"
     },
     "al-pacino": {
-      "status": "missing",
-      "file": "characters/al-pacino.webp"
+      "status": "ready",
+      "file": "characters/al-pacino.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Pacino_-_Killing_Castro_-_Q%26A_-_Tribeca_2026_-_by_@JJxFile-23_(cropped).jpg",
+      "author": "Jorge Jaramillo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Jorge Jaramillo / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "robert-de-niro": {
-      "status": "missing",
-      "file": "characters/robert-de-niro.webp"
+      "status": "ready",
+      "file": "characters/robert-de-niro.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_de_Niro_Cannes_Film_Festival_(3x4_cropped).jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "jack-nicholson": {
-      "status": "missing",
-      "file": "characters/jack-nicholson.webp"
+      "status": "ready",
+      "file": "characters/jack-nicholson.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack_Nicholson_2002.jpg",
+      "author": "Georges Biard",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Georges Biard / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "clint-eastwood": {
       "status": "missing",
@@ -938,88 +1141,214 @@
       "file": "characters/charlie-chaplin.webp"
     },
     "ryan-gosling": {
-      "status": "missing",
-      "file": "characters/ryan-gosling.webp"
+      "status": "ready",
+      "file": "characters/ryan-gosling.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GoslingBFI081223_(22_of_30)_(53388157347)_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "ryan-reynolds": {
-      "status": "missing",
-      "file": "characters/ryan-reynolds.webp"
+      "status": "ready",
+      "file": "characters/ryan-reynolds.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_(cropped).jpg",
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Dick Thomas Johnson from Tokyo, Japan / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "emma-stone": {
-      "status": "missing",
-      "file": "characters/emma-stone.webp"
+      "status": "ready",
+      "file": "characters/emma-stone.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emma_Stone_at_the_2025_Venice_Film_Festival-6313_(cropped).jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "jennifer-lawrence": {
       "status": "missing",
       "file": "characters/jennifer-lawrence.webp"
     },
     "natalie-portman": {
-      "status": "missing",
-      "file": "characters/natalie-portman.webp"
+      "status": "ready",
+      "file": "characters/natalie-portman.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NataliePortman.jpg",
+      "author": "Colleen Sturtevant",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Colleen Sturtevant / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "anne-hathaway": {
-      "status": "missing",
-      "file": "characters/anne-hathaway.webp"
+      "status": "ready",
+      "file": "characters/anne-hathaway.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AnneHathaway-byPhilipRomano-Crop.jpg",
+      "author": "PhilipRomano",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: PhilipRomano / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "sandra-bullock": {
-      "status": "missing",
-      "file": "characters/sandra-bullock.webp"
+      "status": "ready",
+      "file": "characters/sandra-bullock.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg",
+      "author": "Kevin Paul",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Kevin Paul / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "nicole-kidman": {
-      "status": "missing",
-      "file": "characters/nicole-kidman.webp"
+      "status": "ready",
+      "file": "characters/nicole-kidman.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MKr384262_Nicole_Kidman_(Women_In_Motion,_Cannes_2025).jpg",
+      "author": "Martin Kraft",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Martin Kraft / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "cameron-diaz": {
-      "status": "missing",
-      "file": "characters/cameron-diaz.webp"
+      "status": "ready",
+      "file": "characters/cameron-diaz.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cameron_Diaz_at_WWD_Style_Awards_2026-1998.jpg",
+      "author": "Kevin Paul",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Kevin Paul / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "vin-diesel": {
-      "status": "missing",
-      "file": "characters/vin-diesel.webp"
+      "status": "ready",
+      "file": "characters/vin-diesel.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vin_Diesel_by_Gage_Skidmore_2.jpg",
+      "author": "Gage Skidmore",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Gage Skidmore / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "jason-statham": {
-      "status": "missing",
-      "file": "characters/jason-statham.webp"
+      "status": "ready",
+      "file": "characters/jason-statham.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jason_Statham_2018.jpg",
+      "author": "MTV International",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: MTV International / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "pedro-pascal": {
-      "status": "missing",
-      "file": "characters/pedro-pascal.webp"
+      "status": "ready",
+      "file": "characters/pedro-pascal.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "timothee-chalamet": {
-      "status": "missing",
-      "file": "characters/timothee-chalamet.webp"
+      "status": "ready",
+      "file": "characters/timothee-chalamet.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Timoth%C3%A9e_Chalamet-63482_(cropped).jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "oprah-winfrey": {
       "status": "missing",
       "file": "characters/oprah-winfrey.webp"
     },
     "kim-kardashian": {
-      "status": "missing",
-      "file": "characters/kim-kardashian.webp"
+      "status": "ready",
+      "file": "characters/kim-kardashian.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Kardashian_West_2014.jpg",
+      "author": "Eva Rinaldi",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Eva Rinaldi / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "elon-musk": {
-      "status": "missing",
-      "file": "characters/elon-musk.webp"
+      "status": "ready",
+      "file": "characters/elon-musk.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(cropped).jpg",
+      "author": "Gage Skidmore",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Gage Skidmore / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "bill-gates": {
-      "status": "missing",
-      "file": "characters/bill-gates.webp"
+      "status": "ready",
+      "file": "characters/bill-gates.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg",
+      "author": "Bogdan Hoyaux / European Union",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Bogdan Hoyaux / European Union / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "steve-jobs": {
-      "status": "missing",
-      "file": "characters/steve-jobs.webp"
+      "status": "ready",
+      "file": "characters/steve-jobs.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+      "author": "Matthew Yohe",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "mark-zuckerberg": {
       "status": "missing",
       "file": "characters/mark-zuckerberg.webp"
     },
     "mrbeast": {
-      "status": "missing",
-      "file": "characters/mrbeast.webp"
+      "status": "ready",
+      "file": "characters/mrbeast.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MrBeast_in_2026_(cropped_4).png",
+      "author": "Tyren Redd",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Tyren Redd / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "silvio-santos": {
-      "status": "missing",
-      "file": "characters/silvio-santos.webp"
+      "status": "ready",
+      "file": "characters/silvio-santos.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silvio_Santos_em_maio_de_2019.jpg",
+      "author": "Palácio do Planalto",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Palácio do Planalto / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "faustao": {
       "status": "missing",
@@ -1030,36 +1359,78 @@
       "file": "characters/ana-maria-braga.webp"
     },
     "luciano-huck": {
-      "status": "missing",
-      "file": "characters/luciano-huck.webp"
+      "status": "ready",
+      "file": "characters/luciano-huck.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luciano_Huck_in_April_2019.jpg",
+      "author": "Romério Cunha",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Romério Cunha / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "angelica": {
       "status": "missing",
       "file": "characters/angelica.webp"
     },
     "gugu-liberato": {
-      "status": "missing",
-      "file": "characters/gugu-liberato.webp"
+      "status": "ready",
+      "file": "characters/gugu-liberato.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renato_Cipriano_e_Gugu_Liberato.jpg",
+      "author": "Renato  Cipriano",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Renato  Cipriano / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "ratinho": {
-      "status": "missing",
-      "file": "characters/ratinho.webp"
+      "status": "ready",
+      "file": "characters/ratinho.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrevista_ao_Programa_do_Ratinho_no_SBT_(cropped).jpg",
+      "author": "Governo do Estado de São Paulo",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Governo do Estado de São Paulo / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "fatima-bernardes": {
-      "status": "missing",
-      "file": "characters/fatima-bernardes.webp"
+      "status": "ready",
+      "file": "characters/fatima-bernardes.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:F%C3%A1tima_Bernardes_no_Lady_Night_5_(cropped).png",
+      "author": "Multishow",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "william-bonner": {
       "status": "missing",
       "file": "characters/william-bonner.webp"
     },
     "galvao-bueno": {
-      "status": "missing",
-      "file": "characters/galvao-bueno.webp"
+      "status": "ready",
+      "file": "characters/galvao-bueno.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lan%C3%A7amento_Livro_Galv%C3%A3o_Bueno_-_16911800058_(cropped).jpg",
+      "author": "Renato  Cipriano",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Renato  Cipriano / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "hebe-camargo": {
-      "status": "missing",
-      "file": "characters/hebe-camargo.webp"
+      "status": "ready",
+      "file": "characters/hebe-camargo.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hebe_Camargo.jpg",
+      "author": "Sergio Savarese",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Sergio Savarese / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "jo-soares": {
       "status": "missing",
@@ -1082,20 +1453,41 @@
       "file": "characters/paulo-gustavo.webp"
     },
     "tata-werneck": {
-      "status": "missing",
-      "file": "characters/tata-werneck.webp"
+      "status": "ready",
+      "file": "characters/tata-werneck.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tat%C3%A1_Werneck_at_Lady_Night_in_2023.jpg",
+      "author": "Humor Multishow",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Humor Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "whindersson-nunes": {
       "status": "missing",
       "file": "characters/whindersson-nunes.webp"
     },
     "felipe-neto": {
-      "status": "missing",
-      "file": "characters/felipe-neto.webp"
+      "status": "ready",
+      "file": "characters/felipe-neto.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Felipe_Neto_at_the_Lady_Night_in_2022_(01).png",
+      "author": "Humor Multishow",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Humor Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "luccas-neto": {
-      "status": "missing",
-      "file": "characters/luccas-neto.webp"
+      "status": "ready",
+      "file": "characters/luccas-neto.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luccas_Neto_em_2024_(cropped_3x4).jpg",
+      "author": "Web Summit Rio",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Web Summit Rio / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "casimiro": {
       "status": "missing",
@@ -1118,16 +1510,37 @@
       "file": "characters/fernanda-montenegro.webp"
     },
     "tony-ramos": {
-      "status": "missing",
-      "file": "characters/tony-ramos.webp"
+      "status": "ready",
+      "file": "characters/tony-ramos.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tony_Ramos.jpg",
+      "author": "Humor Multishow",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Humor Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "rodrigo-santoro": {
-      "status": "missing",
-      "file": "characters/rodrigo-santoro.webp"
+      "status": "ready",
+      "file": "characters/rodrigo-santoro.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rodrigo_Santoro_at_Berlinale_2025.jpg",
+      "author": "Elena Ternovaja",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Elena Ternovaja / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "selton-mello": {
-      "status": "missing",
-      "file": "characters/selton-mello.webp"
+      "status": "ready",
+      "file": "characters/selton-mello.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Selton_Mello-68515_(cropped).jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "lazaro-ramos": {
       "status": "missing",
@@ -1150,8 +1563,15 @@
       "file": "characters/regina-case.webp"
     },
     "gisele-bundchen": {
-      "status": "missing",
-      "file": "characters/gisele-bundchen.webp"
+      "status": "ready",
+      "file": "characters/gisele-bundchen.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arezzo_Fim_de_Ano_2018_com_Gisele_B%C3%BCndchen_05.jpg",
+      "author": "Arezzo Brasil - YouTube",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Arezzo Brasil - YouTube / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "homem-aranha": {
       "status": "missing",
@@ -1510,8 +1930,15 @@
       "file": "characters/predador.webp"
     },
     "sherlock-holmes": {
-      "status": "missing",
-      "file": "characters/sherlock-holmes.webp"
+      "status": "ready",
+      "file": "characters/sherlock-holmes.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Sherlock Holmes, classic Victorian literary detective in a deerstalker and Inverness cape with magnifying glass on a foggy London street. Original polished portrait illustration; no text.",
+      "rightsNote": "Original generated depiction of a public-domain literary character; no claim to third-party film designs.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "capitao-nascimento": {
       "status": "missing",
@@ -1526,12 +1953,26 @@
       "file": "characters/king-kong.webp"
     },
     "dracula": {
-      "status": "missing",
-      "file": "characters/dracula.webp"
+      "status": "ready",
+      "file": "characters/dracula.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Count Dracula from the original literary tale, gaunt aristocrat with black and red cape before a moonlit Transylvanian castle. Original gothic portrait illustration; no text.",
+      "rightsNote": "Original generated depiction of a public-domain literary character; no claim to third-party film designs.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "frankenstein": {
-      "status": "missing",
-      "file": "characters/frankenstein.webp"
+      "status": "ready",
+      "file": "characters/frankenstein.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "The creature from Mary Shelley's Frankenstein, solemn stitched face and weathered coat in a stormlit laboratory. Original gothic portrait illustration; no text.",
+      "rightsNote": "Original generated depiction of a public-domain literary character; no claim to third-party film designs.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "freddy-krueger": {
       "status": "missing",
@@ -1598,8 +2039,15 @@
       "file": "characters/samus-aran.webp"
     },
     "sonic": {
-      "status": "missing",
-      "file": "characters/sonic.webp"
+      "status": "ready",
+      "file": "characters/sonic.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Sonic the Hedgehog, cobalt-blue hedgehog with swept-back spikes, white gloves, red shoes and confident running pose in a green fantasy game landscape.",
+      "rightsNote": "User-directed generated fan depiction; Sonic remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tails": {
       "status": "missing",
@@ -1710,24 +2158,52 @@
       "file": "characters/elvis-presley.webp"
     },
     "freddie-mercury": {
-      "status": "missing",
-      "file": "characters/freddie-mercury.webp"
+      "status": "ready",
+      "file": "characters/freddie-mercury.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg",
+      "author": "Carl Lender",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Carl Lender / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "madonna": {
-      "status": "missing",
-      "file": "characters/madonna.webp"
+      "status": "ready",
+      "file": "characters/madonna.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MadonnaO2171023_(97_of_133)_(53269593787)_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "john-lennon": {
       "status": "missing",
       "file": "characters/john-lennon.webp"
     },
     "paul-mccartney": {
-      "status": "missing",
-      "file": "characters/paul-mccartney.webp"
+      "status": "ready",
+      "file": "characters/paul-mccartney.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MaccaLyricsRFH051121_(15_of_18)_(updated)_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "mick-jagger": {
-      "status": "missing",
-      "file": "characters/mick-jagger.webp"
+      "status": "ready",
+      "file": "characters/mick-jagger.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RStonesHydePark030722_(49_of_125)_(52193656268)_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "bob-marley": {
       "status": "missing",
@@ -1746,16 +2222,30 @@
       "file": "characters/ozzy-osbourne.webp"
     },
     "elton-john": {
-      "status": "missing",
-      "file": "characters/elton-john.webp"
+      "status": "ready",
+      "file": "characters/elton-john.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EltonDocBFILFF101024_(4_of_17)_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "frank-sinatra": {
       "status": "missing",
       "file": "characters/frank-sinatra.webp"
     },
     "stevie-wonder": {
-      "status": "missing",
-      "file": "characters/stevie-wonder.webp"
+      "status": "ready",
+      "file": "characters/stevie-wonder.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SWonderBSTHyde060719-72_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "tina-turner": {
       "status": "missing",
@@ -1774,8 +2264,15 @@
       "file": "characters/celine-dion.webp"
     },
     "amy-winehouse": {
-      "status": "missing",
-      "file": "characters/amy-winehouse.webp"
+      "status": "ready",
+      "file": "characters/amy-winehouse.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amy_Winehouse_f4962007_crop.jpg",
+      "author": "Rama",
+      "license": "CC BY-SA 2.0 fr",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "attribution": "Foto: Rama / Wikimedia Commons, CC BY-SA 2.0 fr; recorte e conversão para WebP."
     },
     "prince": {
       "status": "missing",
@@ -1790,40 +2287,103 @@
       "file": "characters/ray-charles.webp"
     },
     "cher": {
-      "status": "missing",
-      "file": "characters/cher.webp"
+      "status": "ready",
+      "file": "characters/cher.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cher_in_2019_cropped.jpg",
+      "author": "Raph_PH",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "axl-rose": {
-      "status": "missing",
-      "file": "characters/axl-rose.webp"
+      "status": "ready",
+      "file": "characters/axl-rose.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glasto2023_(239_of_468)_(53009325175)_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "jon-bon-jovi": {
-      "status": "missing",
-      "file": "characters/jon-bon-jovi.webp"
+      "status": "ready",
+      "file": "characters/jon-bon-jovi.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NEG_0062-2_(54119957209).jpg",
+      "author": "Montclair Film",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Montclair Film / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "bono": {
-      "status": "missing",
-      "file": "characters/bono.webp"
+      "status": "ready",
+      "file": "characters/bono.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bono_singing_in_Indianapolis_on_Joshua_Tree_Tour_2017_9-10-17.jpg",
+      "author": "Daniel Hazard",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Daniel Hazard / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "beyonce": {
-      "status": "missing",
-      "file": "characters/beyonce.webp"
+      "status": "ready",
+      "file": "characters/beyonce.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "taylor-swift": {
-      "status": "missing",
-      "file": "characters/taylor-swift.webp"
+      "status": "ready",
+      "file": "characters/taylor-swift.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png",
+      "author": "iHeartRadioCA",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: iHeartRadioCA / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "rihanna": {
-      "status": "missing",
-      "file": "characters/rihanna.webp"
+      "status": "ready",
+      "file": "characters/rihanna.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rihanna_Fenty_2018.png",
+      "author": "SIGMA",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: SIGMA / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "shakira": {
-      "status": "missing",
-      "file": "characters/shakira.webp"
+      "status": "ready",
+      "file": "characters/shakira.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg",
+      "author": "Junta de Andalucía",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Junta de Andalucía / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "lady-gaga": {
-      "status": "missing",
-      "file": "characters/lady-gaga.webp"
+      "status": "ready",
+      "file": "characters/lady-gaga.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_Joe_Biden%27s_inauguration_(cropped_5).jpg",
+      "author": "Carlos M. Vazquez II",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Carlos M. Vazquez II / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "britney-spears": {
       "status": "missing",
@@ -1838,56 +2398,147 @@
       "file": "characters/justin-bieber.webp"
     },
     "bruno-mars": {
-      "status": "missing",
-      "file": "characters/bruno-mars.webp"
+      "status": "ready",
+      "file": "characters/bruno-mars.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg",
+      "author": "slgckgc",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: slgckgc / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "ed-sheeran": {
-      "status": "missing",
-      "file": "characters/ed-sheeran.webp"
+      "status": "ready",
+      "file": "characters/ed-sheeran.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran_2022_(3x4_crop).jpg",
+      "author": "Number 10",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Number 10 / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "adele": {
-      "status": "missing",
-      "file": "characters/adele.webp"
+      "status": "ready",
+      "file": "characters/adele.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg",
+      "author": "Marc E.",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Marc E. / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "billie-eilish": {
-      "status": "missing",
-      "file": "characters/billie-eilish.webp"
+      "status": "ready",
+      "file": "characters/billie-eilish.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BillieEilishO2140725-39_-_54665577407_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "katy-perry": {
-      "status": "missing",
-      "file": "characters/katy-perry.webp"
+      "status": "ready",
+      "file": "characters/katy-perry.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Katy_Perry_2026_Tribeca_Film_Festival_(cropped_1).jpg",
+      "author": "Colleen Sturtevant",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Colleen Sturtevant / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "selena-gomez": {
-      "status": "missing",
-      "file": "characters/selena-gomez.webp"
+      "status": "ready",
+      "file": "characters/selena-gomez.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_(cropped).jpg",
+      "author": "Frank Sun",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Frank Sun / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "miley-cyrus": {
-      "status": "missing",
-      "file": "characters/miley-cyrus.webp"
+      "status": "ready",
+      "file": "characters/miley-cyrus.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miley_Cyrus_Primavera19_-226_(48986293772)_(cropped).jpg",
+      "author": "Raphael Pour-Hashemi",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raphael Pour-Hashemi / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "dua-lipa": {
-      "status": "missing",
-      "file": "characters/dua-lipa.webp"
+      "status": "ready",
+      "file": "characters/dua-lipa.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dua_Lipa-69798_(cropped).jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "the-weeknd": {
-      "status": "missing",
-      "file": "characters/the-weeknd.webp"
+      "status": "ready",
+      "file": "characters/the-weeknd.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Weeknd_Portrait_by_Brian_Ziff.jpg",
+      "author": "Brian Ziff",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Brian Ziff / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "harry-styles": {
-      "status": "missing",
-      "file": "characters/harry-styles.webp"
+      "status": "ready",
+      "file": "characters/harry-styles.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(65_of_93)_(52982678051)_(cropped_2).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "jennifer-lopez": {
-      "status": "missing",
-      "file": "characters/jennifer-lopez.webp"
+      "status": "ready",
+      "file": "characters/jennifer-lopez.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_(cropped_3).jpg",
+      "author": "Everwest",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Everwest / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "eminem": {
-      "status": "missing",
-      "file": "characters/eminem.webp"
+      "status": "ready",
+      "file": "characters/eminem.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eminem_2021_Color_Corrected.jpg",
+      "author": "Brendan_linden",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": "Foto: Brendan_linden / Wikimedia Commons, CC0; recorte e conversão para WebP."
     },
     "snoop-dogg": {
-      "status": "missing",
-      "file": "characters/snoop-dogg.webp"
+      "status": "ready",
+      "file": "characters/snoop-dogg.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snoop_Dogg,_WrestleMania_XL_(cropped)_(cropped).jpg",
+      "author": "Diego Serrano",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Diego Serrano / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "drake": {
       "status": "missing",
@@ -1902,56 +2553,126 @@
       "file": "characters/jay-z.webp"
     },
     "nicki-minaj": {
-      "status": "missing",
-      "file": "characters/nicki-minaj.webp"
+      "status": "ready",
+      "file": "characters/nicki-minaj.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicki_Minaj_2025_(3x4_cropped).jpg",
+      "author": "Gage Skidmore from Surprise, AZ, United States of America",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Gage Skidmore from Surprise, AZ, United States of America / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "cardi-b": {
-      "status": "missing",
-      "file": "characters/cardi-b.webp"
+      "status": "ready",
+      "file": "characters/cardi-b.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cardi_B_at_2026_Essence_Festival_of_Culture_02_(cropped)_(cropped).jpg",
+      "author": "Runawaymo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Runawaymo / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "post-malone": {
       "status": "missing",
       "file": "characters/post-malone.webp"
     },
     "lana-del-rey": {
-      "status": "missing",
-      "file": "characters/lana-del-rey.webp"
+      "status": "ready",
+      "file": "characters/lana-del-rey.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LanaDRPrimavera310524_(32_of_147)_(53765476960)_(cropped).jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "olivia-rodrigo": {
-      "status": "missing",
-      "file": "characters/olivia-rodrigo.webp"
+      "status": "ready",
+      "file": "characters/olivia-rodrigo.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glasto2025-546_(cropped)_2.jpg",
+      "author": "Raph_PH",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "doja-cat": {
-      "status": "missing",
-      "file": "characters/doja-cat.webp"
+      "status": "ready",
+      "file": "characters/doja-cat.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doja_Cat_x_Amazon1.1_(cropped).jpg",
+      "author": "Nate the Director",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Nate the Director / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "pitbull": {
       "status": "missing",
       "file": "characters/pitbull.webp"
     },
     "bad-bunny": {
-      "status": "missing",
-      "file": "characters/bad-bunny.webp"
+      "status": "ready",
+      "file": "characters/bad-bunny.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bad_Bunny_2019_by_Glenn_Francis_(cropped).jpg",
+      "author": "Toglenn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Toglenn / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "j-balvin": {
-      "status": "missing",
-      "file": "characters/j-balvin.webp"
+      "status": "ready",
+      "file": "characters/j-balvin.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:J_Balvin,_Noisey_Meets;_Oct_2018.jpg",
+      "author": "Jeff Pinilla",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Jeff Pinilla / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "daddy-yankee": {
       "status": "missing",
       "file": "characters/daddy-yankee.webp"
     },
     "ricky-martin": {
-      "status": "missing",
-      "file": "characters/ricky-martin.webp"
+      "status": "ready",
+      "file": "characters/ricky-martin.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ricky_Martin-4262.jpg",
+      "author": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "enrique-iglesias": {
-      "status": "missing",
-      "file": "characters/enrique-iglesias.webp"
+      "status": "ready",
+      "file": "characters/enrique-iglesias.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enrique_Iglesias_2011,_2_(cropped).jpg",
+      "author": "Eva Rinaldi",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Eva Rinaldi / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "karol-g": {
-      "status": "missing",
-      "file": "characters/karol-g.webp"
+      "status": "ready",
+      "file": "characters/karol-g.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_15.jpg",
+      "author": "Junta de Andalucía",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Junta de Andalucía / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "rosalia": {
       "status": "missing",
@@ -1962,8 +2683,15 @@
       "file": "characters/psy.webp"
     },
     "roberto-carlos-cantor": {
-      "status": "missing",
-      "file": "characters/roberto-carlos-cantor.webp"
+      "status": "ready",
+      "file": "characters/roberto-carlos-cantor.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roberto_Carlos_Credicard_Hall_(42626066250).jpg",
+      "author": "Teca  Lamboglia from São Paulo, Brasil",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Teca  Lamboglia from São Paulo, Brasil / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "xuxa": {
       "status": "missing",
@@ -1974,16 +2702,37 @@
       "file": "characters/anitta.webp"
     },
     "caetano-veloso": {
-      "status": "missing",
-      "file": "characters/caetano-veloso.webp"
+      "status": "ready",
+      "file": "characters/caetano-veloso.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caetano_Veloso_entrevista_Haddad_%C2%B7_23-06-2022_%C2%B7_S%C3%A3o_Paulo_(SP)_(52433690124)_(cropped).jpg",
+      "author": "Fora do Eixo",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Fora do Eixo / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "gilberto-gil": {
-      "status": "missing",
-      "file": "characters/gilberto-gil.webp"
+      "status": "ready",
+      "file": "characters/gilberto-gil.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gilberto_Gil,_May_2025.jpg",
+      "author": "Lula Oficial",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Lula Oficial / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "chico-buarque": {
-      "status": "missing",
-      "file": "characters/chico-buarque.webp"
+      "status": "ready",
+      "file": "characters/chico-buarque.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chico_Buarque_in_2023.jpg",
+      "author": "Palácio do Planalto from Brasilia, Brasil",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Palácio do Planalto from Brasilia, Brasil / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "tom-jobim": {
       "status": "missing",
@@ -2018,20 +2767,41 @@
       "file": "characters/gal-costa.webp"
     },
     "maria-bethania": {
-      "status": "missing",
-      "file": "characters/maria-bethania.webp"
+      "status": "ready",
+      "file": "characters/maria-bethania.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:04.10.2025_-_Show_Maria_Bethania_em_S%C3%A3o_Paulo_(54834138366)_(cropped).jpg",
+      "author": "Lula Oficial",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Lula Oficial / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "ney-matogrosso": {
       "status": "missing",
       "file": "characters/ney-matogrosso.webp"
     },
     "milton-nascimento": {
-      "status": "missing",
-      "file": "characters/milton-nascimento.webp"
+      "status": "ready",
+      "file": "characters/milton-nascimento.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milton_Nascimento,_October_2022.jpg",
+      "author": "Lula Oficial",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Lula Oficial / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "djavan": {
-      "status": "missing",
-      "file": "characters/djavan.webp"
+      "status": "ready",
+      "file": "characters/djavan.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Djavan_San_Javier_Jazz_2023_26_(cropped).jpg",
+      "author": "Tsaorin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Tsaorin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "jorge-ben-jor": {
       "status": "missing",
@@ -2046,100 +2816,233 @@
       "file": "characters/seu-jorge.webp"
     },
     "zeca-pagodinho": {
-      "status": "missing",
-      "file": "characters/zeca-pagodinho.webp"
+      "status": "ready",
+      "file": "characters/zeca-pagodinho.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abertura_do_Carnaval_2024_(53519886801)_(cropped).jpg",
+      "author": "Governo do Estado de São Paulo",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Governo do Estado de São Paulo / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "ivete-sangalo": {
-      "status": "missing",
-      "file": "characters/ivete-sangalo.webp"
+      "status": "ready",
+      "file": "characters/ivete-sangalo.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ivete_Sangalo_SAM_0058_(54481946217)_(cropped).jpg",
+      "author": "Web Summit Rio from Rio de Janeiro, Brazil",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Web Summit Rio from Rio de Janeiro, Brazil / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "claudia-leitte": {
-      "status": "missing",
-      "file": "characters/claudia-leitte.webp"
+      "status": "ready",
+      "file": "characters/claudia-leitte.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Claudia_Leitte_-_FIFA_World_Cup_Opening_2014.jpg",
+      "author": "Agência Brasil",
+      "license": "CC BY 3.0 br",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+      "attribution": "Foto: Agência Brasil / Wikimedia Commons, CC BY 3.0 br; recorte e conversão para WebP."
     },
     "daniela-mercury": {
       "status": "missing",
       "file": "characters/daniela-mercury.webp"
     },
     "ludmilla": {
-      "status": "missing",
-      "file": "characters/ludmilla.webp"
+      "status": "ready",
+      "file": "characters/ludmilla.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ludmilla_-_TVZ_2024_(1).png",
+      "author": "Multishow",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "pabllo-vittar": {
-      "status": "missing",
-      "file": "characters/pabllo-vittar.webp"
+      "status": "ready",
+      "file": "characters/pabllo-vittar.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pabllo_Vittar_-_TVZ_2024_(1).png",
+      "author": "Multishow",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "alok": {
-      "status": "missing",
-      "file": "characters/alok.webp"
+      "status": "ready",
+      "file": "characters/alok.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alok_Tomorrowland_Winter_2025.jpg",
+      "author": "Lucas Gavi",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "attribution": "Foto: Lucas Gavi / Wikimedia Commons, CC BY 4.0; recorte e conversão para WebP."
     },
     "gusttavo-lima": {
-      "status": "missing",
-      "file": "characters/gusttavo-lima.webp"
+      "status": "ready",
+      "file": "characters/gusttavo-lima.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gusttavo_Lima_Extrema_-_MG_GL-71.jpg",
+      "author": "BaladaDigital2",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": "Foto: BaladaDigital2 / Wikimedia Commons, CC0; recorte e conversão para WebP."
     },
     "marilia-mendonca": {
-      "status": "missing",
-      "file": "characters/marilia-mendonca.webp"
+      "status": "ready",
+      "file": "characters/marilia-mendonca.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marilia_Mendonca_Pecuaria_de_Goiania_2018_2.jpg",
+      "author": "Record Goiás",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Record Goiás / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "luan-santana": {
-      "status": "missing",
-      "file": "characters/luan-santana.webp"
+      "status": "ready",
+      "file": "characters/luan-santana.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2Z9A7852.jpg",
+      "author": "Raresinais",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Raresinais / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "wesley-safadao": {
-      "status": "missing",
-      "file": "characters/wesley-safadao.webp"
+      "status": "ready",
+      "file": "characters/wesley-safadao.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wesley_Safad%C3%A3o_Citibank_Hall_2017_(36674588052)_(cropped).jpg",
+      "author": "Teca Lamboglia",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Teca Lamboglia / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "michel-telo": {
-      "status": "missing",
-      "file": "characters/michel-telo.webp"
+      "status": "ready",
+      "file": "characters/michel-telo.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-04-05_Michel_Tel%C3%B3_ao_vivo_em_Novo_Hamburgo_-_022.jpg",
+      "author": "prefeitura de novo hamburgo1",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": "Foto: prefeitura de novo hamburgo1 / Wikimedia Commons, CC0; recorte e conversão para WebP."
     },
     "sandy": {
       "status": "missing",
       "file": "characters/sandy.webp"
     },
     "fabio-jr": {
-      "status": "missing",
-      "file": "characters/fabio-jr.webp"
+      "status": "ready",
+      "file": "characters/fabio-jr.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fabio_Junior_em_2016_(3).jpg_(cropped).jpg",
+      "author": "Unknown authorUnknown author",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "attribution": "Foto: Unknown authorUnknown author / Wikimedia Commons, CC BY 2.5; recorte e conversão para WebP."
     },
     "zeze-di-camargo": {
       "status": "missing",
       "file": "characters/zeze-di-camargo.webp"
     },
     "leo-santana": {
-      "status": "missing",
-      "file": "characters/leo-santana.webp"
+      "status": "ready",
+      "file": "characters/leo-santana.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%A9o_Santana_2019.jpg",
+      "author": "NTV Patos",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: NTV Patos / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "thiaguinho": {
-      "status": "missing",
-      "file": "characters/thiaguinho.webp"
+      "status": "ready",
+      "file": "characters/thiaguinho.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thiaguinho_Pr%C3%AAmio_Multishow_2022.png",
+      "author": "Humor Multishow",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "attribution": "Foto: Humor Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "pele": {
       "status": "missing",
       "file": "characters/pele.webp"
     },
     "neymar": {
-      "status": "missing",
-      "file": "characters/neymar.webp"
+      "status": "ready",
+      "file": "characters/neymar.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "ronaldo-nazario": {
       "status": "missing",
       "file": "characters/ronaldo-nazario.webp"
     },
     "ronaldinho": {
-      "status": "missing",
-      "file": "characters/ronaldinho.webp"
+      "status": "ready",
+      "file": "characters/ronaldinho.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ronaldinho_in_2019.jpg",
+      "author": "Marcos Corrêa/PR",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Marcos Corrêa/PR / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "kaka": {
-      "status": "missing",
-      "file": "characters/kaka.webp"
+      "status": "ready",
+      "file": "characters/kaka.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kak%C3%A1_visited_Stadium_St._Petersburg.jpg",
+      "author": "Евгений Асмолов",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Евгений Асмолов / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "romario": {
-      "status": "missing",
-      "file": "characters/romario.webp"
+      "status": "ready",
+      "file": "characters/romario.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Senadores_da_57%C2%AA_Legislatura_(52689451805).jpg",
+      "author": "Agência Senado from Brasilia, Brazil",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Agência Senado from Brasilia, Brazil / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "zico": {
-      "status": "missing",
-      "file": "characters/zico.webp"
+      "status": "ready",
+      "file": "characters/zico.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zico_2012_3.jpg",
+      "author": "Doha Stadium Plus Qatar",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Doha Stadium Plus Qatar / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "rivaldo": {
       "status": "missing",
@@ -2158,20 +3061,41 @@
       "file": "characters/garrincha.webp"
     },
     "vinicius-junior": {
-      "status": "missing",
-      "file": "characters/vinicius-junior.webp"
+      "status": "ready",
+      "file": "characters/vinicius-junior.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "marta": {
       "status": "missing",
       "file": "characters/marta.webp"
     },
     "cristiano-ronaldo": {
-      "status": "missing",
-      "file": "characters/cristiano-ronaldo.webp"
+      "status": "ready",
+      "file": "characters/cristiano-ronaldo.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "lionel-messi": {
-      "status": "missing",
-      "file": "characters/lionel-messi.webp"
+      "status": "ready",
+      "file": "characters/lionel-messi.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "maradona": {
       "status": "missing",
@@ -2182,44 +3106,93 @@
       "file": "characters/zidane.webp"
     },
     "mbappe": {
-      "status": "missing",
-      "file": "characters/mbappe.webp"
+      "status": "ready",
+      "file": "characters/mbappe.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "david-beckham": {
       "status": "missing",
       "file": "characters/david-beckham.webp"
     },
     "erling-haaland": {
-      "status": "missing",
-      "file": "characters/erling-haaland.webp"
+      "status": "ready",
+      "file": "characters/erling-haaland.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "ibrahimovic": {
-      "status": "missing",
-      "file": "characters/ibrahimovic.webp"
+      "status": "ready",
+      "file": "characters/ibrahimovic.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zlatan_Ibrahimovi%C4%87_nyc.jpg",
+      "author": "Colleen Sturtevant",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Colleen Sturtevant / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "mohamed-salah": {
-      "status": "missing",
-      "file": "characters/mohamed-salah.webp"
+      "status": "ready",
+      "file": "characters/mohamed-salah.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "robert-lewandowski": {
       "status": "missing",
       "file": "characters/robert-lewandowski.webp"
     },
     "luka-modric": {
-      "status": "missing",
-      "file": "characters/luka-modric.webp"
+      "status": "ready",
+      "file": "characters/luka-modric.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "michael-jordan": {
       "status": "missing",
       "file": "characters/michael-jordan.webp"
     },
     "lebron-james": {
-      "status": "missing",
-      "file": "characters/lebron-james.webp"
+      "status": "ready",
+      "file": "characters/lebron-james.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg",
+      "author": "Erik Drost",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Erik Drost / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "kobe-bryant": {
-      "status": "missing",
-      "file": "characters/kobe-bryant.webp"
+      "status": "ready",
+      "file": "characters/kobe-bryant.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant_Dec_2014.jpg",
+      "author": "Keith Allison",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Keith Allison / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "stephen-curry": {
       "status": "missing",
@@ -2230,28 +3203,56 @@
       "file": "characters/shaquille-oneal.webp"
     },
     "magic-johnson": {
-      "status": "missing",
-      "file": "characters/magic-johnson.webp"
+      "status": "ready",
+      "file": "characters/magic-johnson.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magic_Johnson_at_SXSW_2022_(51958828669)_(cropped).jpg",
+      "author": "Daniel Benavides from Austin, TX",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Daniel Benavides from Austin, TX / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "oscar-schmidt": {
       "status": "missing",
       "file": "characters/oscar-schmidt.webp"
     },
     "ayrton-senna": {
-      "status": "missing",
-      "file": "characters/ayrton-senna.webp"
+      "status": "ready",
+      "file": "characters/ayrton-senna.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayrton_Senna_in_the_paddock_before_the_1993_British_Grand_Prix_(33686752075)_(cropped).jpg",
+      "author": "Martin Lee from London, UK",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Martin Lee from London, UK / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "lewis-hamilton": {
       "status": "missing",
       "file": "characters/lewis-hamilton.webp"
     },
     "michael-schumacher": {
-      "status": "missing",
-      "file": "characters/michael-schumacher.webp"
+      "status": "ready",
+      "file": "characters/michael-schumacher.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher,_September_2005.jpg",
+      "author": "Original:  Aécio Neves – Wellington Pedro/Imprensa MG / Derivative work:  F1fans, FMSky",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Original:  Aécio Neves – Wellington Pedro/Imprensa MG / Derivative work:  F1fans, FMSky / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "max-verstappen": {
-      "status": "missing",
-      "file": "characters/max-verstappen.webp"
+      "status": "ready",
+      "file": "characters/max-verstappen.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-08-25_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_(medium_crop).jpg",
+      "author": "Steffen Prößdorf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Steffen Prößdorf / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "rubens-barrichello": {
       "status": "missing",
@@ -2262,8 +3263,15 @@
       "file": "characters/muhammad-ali.webp"
     },
     "mike-tyson": {
-      "status": "missing",
-      "file": "characters/mike-tyson.webp"
+      "status": "ready",
+      "file": "characters/mike-tyson.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg",
+      "author": "Super Festivals",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Super Festivals / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "anderson-silva": {
       "status": "missing",
@@ -2274,64 +3282,141 @@
       "file": "characters/conor-mcgregor.webp"
     },
     "serena-williams": {
-      "status": "missing",
-      "file": "characters/serena-williams.webp"
+      "status": "ready",
+      "file": "characters/serena-williams.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serena-Smiling-2020.png",
+      "author": "AndrewHenkelman",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: AndrewHenkelman / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "roger-federer": {
-      "status": "missing",
-      "file": "characters/roger-federer.webp"
+      "status": "ready",
+      "file": "characters/roger-federer.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roger_Federer_2015_(cropped).jpg",
+      "author": "Tatiana from Moscow, Russia",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "attribution": "Foto: Tatiana from Moscow, Russia / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "rafael-nadal": {
-      "status": "missing",
-      "file": "characters/rafael-nadal.webp"
+      "status": "ready",
+      "file": "characters/rafael-nadal.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rafael_Nadal_en_2024_(cropped).jpg",
+      "author": "Barcex",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Barcex / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "novak-djokovic": {
-      "status": "missing",
-      "file": "characters/novak-djokovic.webp"
+      "status": "ready",
+      "file": "characters/novak-djokovic.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Novak_Djokovic_Paris_2024_Olympic_Games_(cropped).jpg",
+      "author": "Andymiah",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Andymiah / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "guga-kuerten": {
-      "status": "missing",
-      "file": "characters/guga-kuerten.webp"
+      "status": "ready",
+      "file": "characters/guga-kuerten.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guga_Kuerten.jpg",
+      "author": "Geraldo Magela/Agência Senado",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Geraldo Magela/Agência Senado / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "usain-bolt": {
       "status": "missing",
       "file": "characters/usain-bolt.webp"
     },
     "michael-phelps": {
-      "status": "missing",
-      "file": "characters/michael-phelps.webp"
+      "status": "ready",
+      "file": "characters/michael-phelps.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michael_Phelps_Rio_Olympics_2016.jpg",
+      "author": "Agência Brasil Fotografias",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "attribution": "Foto: Agência Brasil Fotografias / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "simone-biles": {
-      "status": "missing",
-      "file": "characters/simone-biles.webp"
+      "status": "ready",
+      "file": "characters/simone-biles.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg",
+      "author": "Ocoudis",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Ocoudis / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "rebeca-andrade": {
-      "status": "missing",
-      "file": "characters/rebeca-andrade.webp"
+      "status": "ready",
+      "file": "characters/rebeca-andrade.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rebeca_Andrade_in_2023.jpg",
+      "author": "Sarah Ladot",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Sarah Ladot / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "rayssa-leal": {
       "status": "missing",
       "file": "characters/rayssa-leal.webp"
     },
     "gabriel-medina": {
-      "status": "missing",
-      "file": "characters/gabriel-medina.webp"
+      "status": "ready",
+      "file": "characters/gabriel-medina.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gabriel_Medina_2.jpg",
+      "author": "Secretaria Especial do Esporte",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Secretaria Especial do Esporte / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "tiger-woods": {
       "status": "missing",
       "file": "characters/tiger-woods.webp"
     },
     "tom-brady": {
-      "status": "missing",
-      "file": "characters/tom-brady.webp"
+      "status": "ready",
+      "file": "characters/tom-brady.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_(cropped)_(cropped).jpg",
+      "author": "Barcex",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "attribution": "Foto: Barcex / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "hulk-hogan": {
       "status": "missing",
       "file": "characters/hulk-hogan.webp"
     },
     "john-cena": {
-      "status": "missing",
-      "file": "characters/john-cena.webp"
+      "status": "ready",
+      "file": "characters/john-cena.webp",
+      "width": 960,
+      "height": 1200,
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Cena_by_Gage_Skidmore.jpg",
+      "author": "Gage Skidmore",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "attribution": "Foto: Gage Skidmore / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     }
   }
 }

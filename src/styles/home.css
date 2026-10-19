@@ -5,6 +5,31 @@
   padding: 6px 0 10px;
 }
 
+.image-credits {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.image-credits summary {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.image-credits ul {
+  max-height: 280px;
+  padding-left: 18px;
+  overflow: auto;
+  line-height: 1.6;
+}
+
+.image-credits li + li { margin-top: 8px; }
+.image-credits a { color: var(--gold); }
+
 .hero {
   display: grid;
   justify-items: center;

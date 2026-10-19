@@ -1,8 +1,7 @@
 # Integração de imagens (instruções para o Codex / curadoria)
 
-Estado atual (Etapa 03): **nenhuma imagem incluída**. As **583** entradas do manifesto estão com
-`status: "missing"`. O modo competitivo fica bloqueado com "Banco de imagens em preparação" e o preview
-usa um pôster neutro "Imagem a adicionar" (sem nome nem origem — nunca dá a resposta).
+Estado atual: **155 imagens prontas** entre as **583** entradas do manifesto. O modo competitivo
+está liberado; o treino usa o pôster neutro "Imagem a adicionar" nas entradas ainda sem arte.
 
 ## Resumo do fluxo para o Codex
 
@@ -18,8 +17,10 @@ usa um pôster neutro "Imagem a adicionar" (sem nome nem origem — nunca dá a 
 1. **Só imagens com permissão de uso comprovada.** Busca no Google Imagens não é permissão. Sem
    scraping, sem hotlink, sem URLs frágeis de terceiros. O arquivo é baixado, revisado e versionado
    aqui.
-2. **Nunca** gerar/desenhar uma ilustração "parecida" com um personagem ou pessoa e apresentá-la como
-   retrato. Também não usar IA generativa para imitar personagens protegidos ou pessoas reais.
+2. Artes geradas para o jogo devem ser reconhecíveis, revisadas individualmente e registradas como
+   `origin: "generated"`, com prompt, autor e nota de direitos. Não inventar uma licença nem atribuir
+   uma imagem gerada a uma fonte externa. Para retratos de pessoas reais, priorizar fotografias
+   verificáveis com permissão de uso.
 3. Imagem **inteira e nítida**; nada de recortes que escondam a identidade ou deixem só um detalhe.
 4. Sem texto que entregue a resposta (nome, logo da franquia, legenda, marca d'água com o nome).
 5. Personagem ≠ ator: a foto de um ator como ele mesmo é uma entrada `person`; o personagem em
@@ -34,8 +35,8 @@ usa um pôster neutro "Imagem a adicionar" (sem nome nem origem — nunca dá a 
   para a maioria dos personagens de Disney, Nintendo, Toei, Warner, Marvel/DC etc. Registrar o contrato
   ou a licença no campo `license`.
 - **Kits de imprensa** oficiais só se os termos permitirem uso em jogo público.
-- Personagens protegidos geralmente **não** têm imagem livre; se não houver licença, a entrada continua
-  `missing` (ou fica `active: false`).
+- Personagens protegidos geralmente **não** têm imagem oficial livre; se não houver uma imagem adequada
+  com permissão verificável ou geração bem-sucedida, a entrada continua `missing`.
 
 ## Especificação do arquivo
 
@@ -74,6 +75,8 @@ Para cada imagem aprovada, edite `src/data/assets-manifest.json`:
 ```
 
 - `status`: `missing` → `ready` (ou `rejected` se reprovar na curadoria; tratado como ausente).
+- Para arte original gerada, use `origin: "generated"`, `generationPrompt`, `author`, `rightsNote`
+  e `attribution`; `sourceUrl` e `license` são obrigatórios somente para arquivo externo.
 - Novas identidades: adicione uma linha no arquivo da categoria em `src/data/catalog/` e rode
   `npm run assets:sync` (só acrescenta entradas `missing`, nunca altera as existentes; ids não podem
   sumir — use `active: false`).
@@ -116,6 +119,5 @@ sem mudar código.
 
 ## Pendências conhecidas
 
-- Página de créditos exibindo `attribution` de todas as imagens `ready` (obrigatória antes da 1ª
-  imagem CC BY/BY-SA ir ao ar) — ver ROADMAP.
+- Créditos das imagens `ready` ficam no rodapé da página inicial.
 - Ranking online: servir imagens pelo servidor com URLs efêmeras (o hash atual só esconde o nome).
