@@ -32,3 +32,7 @@ A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam
 3. Registrar o prompt real e a autoria; para arquivos externos, registrar a página da fonte, autor, licença, atribuição e alterações.
 4. Rodar `npm run assets:sync`, `npm run assets:report`, os testes e o build antes de publicar.
 5. Atualizar as contagens deste arquivo, do README e do guia de integração.
+
+## Correção do Ikki de Fênix
+
+A pedido do usuário, substituída a armadura inteiramente dourada pela paleta da Nova Armadura de Bronze: peitoral e ombreiras prateados, braçadeiras azul-violeta, fivela vermelha e dourado restrito à crista do capacete. Referência oficial: https://tamashiiweb.com/item/13394/?wovn=en. Pose e acabamento da ilustração preservados.
