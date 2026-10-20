@@ -87,14 +87,16 @@ describe('home', () => {
 describe('pôster sem imagem (preview)', () => {
   it('nunca mostra nome, apelido ou origem de nenhum ícone do catálogo', async () => {
     const { ChallengeImage } = await import('./ChallengeImage');
-    const { answerKey } = await import('../../domain/answers');
+    const { normalizeAnswer } = await import('../../domain/answers');
+    // Palavras inteiras (ex.: "Dedé" não "vaza" dentro de "preview de desenvolvimento").
+    const words = (s: string) => ` ${normalizeAnswer(s)} `;
     for (const identity of CHARACTERS) {
       const { container, unmount } = render(<ChallengeImage identity={identity} preview onFailed={() => {}} onShown={() => {}} />);
-      const text = answerKey(container.textContent ?? '');
+      const text = words(container.textContent ?? '');
       const secrets = [identity.displayName, identity.origin, ...identity.names, ...(identity.aliases ?? [])]
-        .map(answerKey)
-        .filter((k) => k.length >= 4);
-      for (const secret of secrets) expect(text.includes(secret), `${identity.id} vaza "${secret}"`).toBe(false);
+        .filter((n) => normalizeAnswer(n).replace(/ /g, '').length >= 4)
+        .map(words);
+      for (const secret of secrets) expect(text.includes(secret), `${identity.id} vaza "${secret.trim()}"`).toBe(false);
       unmount();
     }
   }, 60_000);
