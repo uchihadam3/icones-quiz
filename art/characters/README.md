@@ -1,4 +1,4 @@
-# public/characters
+# art/characters
 
 Imagens dos ícones: `<id>.webp` (proporção 4:5, mínimo 640×800).
 
