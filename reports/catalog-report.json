@@ -4,43 +4,43 @@
     "label": "início da Etapa 04 (main bb8b501)",
     "total": 583
   },
-  "total": 765,
-  "added": 182,
+  "total": 1003,
+  "added": 420,
   "levels": {
-    "n1": 208,
-    "n2": 441,
-    "n3": 116,
-    "n3Share": 15.2
+    "n1": 210,
+    "n2": 601,
+    "n3": 192,
+    "n3Share": 19.1
   },
   "statuses": {
     "missing": {
-      "count": 487,
-      "percent": 63.7
+      "count": 725,
+      "percent": 72.3
     },
     "ready": {
       "count": 278,
-      "percent": 36.3
+      "percent": 27.7
     }
   },
   "byCategory": {
     "animation": {
-      "total": 65,
-      "novos": 0,
-      "n1": 27,
-      "n2": 36,
-      "n3": 2,
+      "total": 161,
+      "novos": 96,
+      "n1": 29,
+      "n2": 101,
+      "n3": 31,
       "ready": 4,
-      "missing": 61,
+      "missing": 157,
       "rejected": 0
     },
     "anime": {
-      "total": 65,
-      "novos": 0,
+      "total": 207,
+      "novos": 142,
       "n1": 4,
-      "n2": 37,
-      "n3": 24,
+      "n2": 132,
+      "n3": 71,
       "ready": 54,
-      "missing": 11,
+      "missing": 153,
       "rejected": 0
     },
     "cartoon": {
@@ -116,6 +116,30 @@
   },
   "topFranchises": [
     {
+      "category": "anime",
+      "origin": "Pokémon",
+      "count": 33,
+      "shareOfCategory": 15.9
+    },
+    {
+      "category": "anime",
+      "origin": "Dragon Ball",
+      "count": 26,
+      "shareOfCategory": 12.6
+    },
+    {
+      "category": "anime",
+      "origin": "Naruto",
+      "count": 19,
+      "shareOfCategory": 9.2
+    },
+    {
+      "category": "anime",
+      "origin": "One Piece",
+      "count": 18,
+      "shareOfCategory": 8.7
+    },
+    {
       "category": "cartoon",
       "origin": "Looney Tunes",
       "count": 15,
@@ -134,28 +158,22 @@
       "shareOfCategory": 35
     },
     {
-      "category": "anime",
-      "origin": "Pokémon",
-      "count": 13,
-      "shareOfCategory": 20
-    },
-    {
       "category": "game",
       "origin": "Super Mario",
       "count": 13,
       "shareOfCategory": 11.1
     },
     {
-      "category": "anime",
-      "origin": "Dragon Ball",
-      "count": 11,
-      "shareOfCategory": 16.9
-    },
-    {
       "category": "game",
       "origin": "Street Fighter",
       "count": 11,
       "shareOfCategory": 9.4
+    },
+    {
+      "category": "animation",
+      "origin": "Toy Story",
+      "count": 10,
+      "shareOfCategory": 6.2
     },
     {
       "category": "cartoon",
@@ -170,6 +188,12 @@
       "shareOfCategory": 5.6
     },
     {
+      "category": "anime",
+      "origin": "Demon Slayer",
+      "count": 9,
+      "shareOfCategory": 4.3
+    },
+    {
       "category": "cartoon",
       "origin": "Turma da Mônica",
       "count": 9,
@@ -182,10 +206,22 @@
       "shareOfCategory": 15.3
     },
     {
-      "category": "anime",
-      "origin": "Naruto",
+      "category": "animation",
+      "origin": "O Rei Leão",
       "count": 8,
-      "shareOfCategory": 12.3
+      "shareOfCategory": 5
+    },
+    {
+      "category": "animation",
+      "origin": "Os Incríveis",
+      "count": 8,
+      "shareOfCategory": 5
+    },
+    {
+      "category": "anime",
+      "origin": "Os Cavaleiros do Zodíaco",
+      "count": 7,
+      "shareOfCategory": 3.4
     },
     {
       "category": "cartoon",
@@ -218,56 +254,26 @@
       "shareOfCategory": 6
     },
     {
-      "category": "cartoon",
-      "origin": "Hora de Aventura",
+      "category": "animation",
+      "origin": "Shrek",
       "count": 6,
-      "shareOfCategory": 3.4
-    },
-    {
-      "category": "cartoon",
-      "origin": "Tartarugas Ninja",
-      "count": 6,
-      "shareOfCategory": 3.4
-    },
-    {
-      "category": "game",
-      "origin": "Sonic",
-      "count": 6,
-      "shareOfCategory": 5.1
-    },
-    {
-      "category": "game",
-      "origin": "Resident Evil",
-      "count": 6,
-      "shareOfCategory": 5.1
+      "shareOfCategory": 3.7
     },
     {
       "category": "animation",
-      "origin": "O Rei Leão",
-      "count": 5,
-      "shareOfCategory": 7.7
-    },
-    {
-      "category": "anime",
-      "origin": "One Piece",
-      "count": 5,
-      "shareOfCategory": 7.7
-    },
-    {
-      "category": "cartoon",
-      "origin": "Scooby-Doo",
-      "count": 5,
-      "shareOfCategory": 2.8
-    },
-    {
-      "category": "cartoon",
-      "origin": "As Meninas Superpoderosas",
-      "count": 5,
-      "shareOfCategory": 2.8
+      "origin": "Divertida Mente",
+      "count": 6,
+      "shareOfCategory": 3.7
     }
   ],
   "review": {
     "nearPairs": [
+      {
+        "a": "anna-frozen",
+        "keyA": "anna",
+        "b": "anya-forger",
+        "keyB": "anya"
+      },
       {
         "a": "dory",
         "keyA": "dory",
@@ -277,8 +283,86 @@
       {
         "a": "fera",
         "keyA": "fera",
+        "b": "medo",
+        "keyB": "fear"
+      },
+      {
+        "a": "fera",
+        "keyA": "fera",
         "b": "ferb",
         "keyB": "ferb"
+      },
+      {
+        "a": "mulan",
+        "keyA": "mulan",
+        "b": "muzan-kibutsuji",
+        "keyB": "muzan"
+      },
+      {
+        "a": "marlin",
+        "keyA": "marlin",
+        "b": "marvin-o-marciano",
+        "keyB": "marvin"
+      },
+      {
+        "a": "crush-tartaruga",
+        "keyA": "crush",
+        "b": "crash-bandicoot",
+        "keyB": "crash"
+      },
+      {
+        "a": "ikki-de-fenix",
+        "keyA": "ikki",
+        "b": "kiki",
+        "keyB": "kiki"
+      },
+      {
+        "a": "androide-18",
+        "keyA": "androide18",
+        "b": "androide-17",
+        "keyB": "androide17"
+      },
+      {
+        "a": "mr-satan",
+        "keyA": "hercule",
+        "b": "hercules",
+        "keyB": "hercules"
+      },
+      {
+        "a": "bills",
+        "keyA": "bills",
+        "b": "simone-biles",
+        "keyB": "biles"
+      },
+      {
+        "a": "brook",
+        "keyA": "brook",
+        "b": "brock",
+        "keyB": "brock"
+      },
+      {
+        "a": "shun-de-andromeda",
+        "keyA": "shun",
+        "b": "shaun-o-carneiro",
+        "keyB": "shaun"
+      },
+      {
+        "a": "misa-amane",
+        "keyA": "misa",
+        "b": "lisa-simpson",
+        "keyB": "lisa"
+      },
+      {
+        "a": "denji",
+        "keyA": "denji",
+        "b": "benji-price",
+        "keyB": "benji"
+      },
+      {
+        "a": "kiki",
+        "keyA": "kiki",
+        "b": "quico",
+        "keyB": "kiko"
       },
       {
         "a": "pluto",
@@ -400,8 +484,27 @@
       "po-kung-fu-panda: po",
       "gru: gru",
       "sid-preguica: sid",
+      "rex-toy-story: rex",
+      "boo-monstros: boo",
+      "dug: dug",
+      "eva-wall-e: eva",
+      "eva-wall-e: eve",
+      "abu: abu",
+      "megara: meg",
+      "bisonho: io",
+      "blu-rio: blu",
       "ash-ketchum: ash",
       "l-death-note: l",
+      "androide-18: c18",
+      "androide-17: c17",
+      "portgas-d-ace: ace",
+      "trafalgar-law: law",
+      "mew: mew",
+      "gon-freecss: gon",
+      "dio-brando: dio",
+      "yor-forger: yor",
+      "chihiro: sen",
+      "princesa-mononoke: san",
       "taz: taz",
       "tom-gato: tom",
       "moe-szyslak: moe",
@@ -425,6 +528,1196 @@
     ]
   },
   "addedIds": [
+    {
+      "id": "sr-cabeca-de-batata",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "rex-toy-story",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "porquinho-hamm",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "slinky",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "zurg",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "lotso",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "garfinho",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "marlin",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "crush-tartaruga",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "boo-monstros",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "randall",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "mulher-elastica",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "flecha",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "violeta-incriveis",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "zeze-incriveis",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "gelado",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "sindrome",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "sally-carrera",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "anton-ego",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "russell-up",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "dug",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "tristeza",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "raiva",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "nojinho",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "medo",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "ansiedade",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "bing-bong",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "miguel-coco",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "hector-coco",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "eva-wall-e",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "luca-paguro",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "mei-lee",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "kristoff",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "sven",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "nala",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "rafiki",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "zazu",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "mirabel",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "bruno-madrigal",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "luisa-madrigal",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "judy-hopps",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "nick-wilde",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "heihei",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "flynn-rider",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "pascal",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "sebastiao",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "linguado",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "rei-tritao",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "lumiere",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "gaston",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "madame-samovar",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "jafar",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "abu",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "iago",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "mushu",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "hades-disney",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "megara",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "rainha-ma",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "alice-pais-das-maravilhas",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "gato-de-cheshire",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "chapeleiro-maluco",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "ursinho-pooh",
+      "category": "animation",
+      "level": 1
+    },
+    {
+      "id": "tigrao",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "leitao",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "bisonho",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "lilo",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "vanellope",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "tiana",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "tambor",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "grilo-falante",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "robin-hood-disney",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "lord-farquaad",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "homem-biscoito",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "tigresa",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "mestre-shifu",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "tai-lung",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "soluco",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "alex-o-leao",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "marty-a-zebra",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "gloria-hipopotamo",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "melman",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "pinguins-de-madagascar",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "manny-mamute",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "agnes",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "mavis",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "blu-rio",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "megamente",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "poppy-trolls",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "tronco-trolls",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "lorax",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "grinch",
+      "category": "animation",
+      "level": 1
+    },
+    {
+      "id": "jack-skellington",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "coraline",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "shaun-o-carneiro",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "wallace-e-gromit",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "spirit",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "goten",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "chi-chi",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "androide-18",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "androide-17",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "tenshinhan",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "yamcha",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "mr-satan",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "bills",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "whis",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "shenlong",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "broly",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "gotenks",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "vegetto",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "raditz",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "jiren",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "orochimaru",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "tsunade",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "madara-uchiha",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "obito-uchiha",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "minato-namikaze",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "rock-lee",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "shikamaru-nara",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "neji-hyuga",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "pain-naruto",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "kyuubi",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "boruto-uzumaki",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "deidara",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "usopp",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "nico-robin",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "franky",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "brook",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "jinbe",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "portgas-d-ace",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "shanks",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "barba-branca",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "boa-hancock",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "trafalgar-law",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "mihawk",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "buggy",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "kaido",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "brock",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "misty",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "equipe-rocket",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "lucario",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "greninja",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "mew",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "lugia",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "gyarados",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "dragonite",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "onix",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "togepi",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "blastoise",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "venusaur",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "raichu",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "magikarp",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "ditto",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "lapras",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "arcanine",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "cubone",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "umbreon",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "hyoga-de-cisne",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "shun-de-andromeda",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "saori-kido",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "shaka-de-virgem",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "kuwabara",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "hiei",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "kurama-yu-yu-hakusho",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "toguro",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "rukia-kuchiki",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "sosuke-aizen",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "misa-amane",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "armin-arlert",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "erwin-smith",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "inosuke-hashibira",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "giyu-tomioka",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "shinobu-kocho",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "muzan-kibutsuji",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "akaza",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "sukuna",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "megumi-fushiguro",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "nobara-kugisaki",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "gon-freecss",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "killua-zoldyck",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "hisoka",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "kurapika",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "alphonse-elric",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "roy-mustang",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "genos",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "all-might",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "katsuki-bakugo",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "shoto-todoroki",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "ochaco-uraraka",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "jotaro-kujo",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "dio-brando",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "giorno-giovanna",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "inuyasha",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "kagome-higurashi",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "sesshomaru",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "shinji-ikari",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "rei-ayanami",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "asuka-langley",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "eva-01",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "denji",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "makima",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "pochita",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "anya-forger",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "loid-forger",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "yor-forger",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "shoyo-hinata",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "ken-kaneki",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "frieren",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "sung-jinwoo",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "conan-edogawa",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "asta-black-clover",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "spike-spiegel",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "kaneda",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "lupin-iii",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "oliver-tsubasa",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "benji-price",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "sakura-kinomoto",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "kero",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "hamtaro",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "astro-boy",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "speed-racer",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "nobita",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "agumon",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "gabumon",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "mago-negro",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "dragao-branco-de-olhos-azuis",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "joey-wheeler",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "sailor-mercury",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "sailor-mars",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "tuxedo-mask",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "chihiro",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "haku-ghibli",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "kiki",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "howl",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "calcifer",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "ponyo",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "princesa-mononoke",
+      "category": "anime",
+      "level": 2
+    },
+    {
+      "id": "gatobus",
+      "category": "anime",
+      "level": 3
+    },
+    {
+      "id": "porco-rosso",
+      "category": "anime",
+      "level": 3
+    },
     {
       "id": "hortelino-troca-letras",
       "category": "cartoon",
@@ -2040,6 +3333,18 @@
       "displayName": "Minion"
     },
     {
+      "id": "ursinho-pooh",
+      "level": 1,
+      "category": "animation",
+      "displayName": "Ursinho Pooh"
+    },
+    {
+      "id": "grinch",
+      "level": 1,
+      "category": "animation",
+      "displayName": "Grinch"
+    },
+    {
       "id": "ash-ketchum",
       "level": 2,
       "category": "anime",
@@ -2526,6 +3831,12 @@
       "displayName": "Marcos Mion"
     },
     {
+      "id": "goten",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Goten"
+    },
+    {
       "id": "marge-simpson",
       "level": 2,
       "category": "cartoon",
@@ -2572,6 +3883,12 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Lázaro Ramos"
+    },
+    {
+      "id": "chi-chi",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Chi-Chi"
     },
     {
       "id": "bart-simpson",
@@ -2622,6 +3939,12 @@
       "displayName": "Bruna Marquezine"
     },
     {
+      "id": "androide-18",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Androide 18"
+    },
+    {
       "id": "lisa-simpson",
       "level": 2,
       "category": "cartoon",
@@ -2668,6 +3991,12 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Juliana Paes"
+    },
+    {
+      "id": "tenshinhan",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Tenshinhan"
     },
     {
       "id": "bender",
@@ -2718,6 +4047,12 @@
       "displayName": "Glória Pires"
     },
     {
+      "id": "yamcha",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Yamcha"
+    },
+    {
       "id": "peter-griffin",
       "level": 2,
       "category": "cartoon",
@@ -2760,6 +4095,12 @@
       "displayName": "Regina Casé"
     },
     {
+      "id": "mr-satan",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Mr. Satan"
+    },
+    {
       "id": "eric-cartman",
       "level": 2,
       "category": "cartoon",
@@ -2794,6 +4135,12 @@
       "level": 2,
       "category": "music",
       "displayName": "Ney Matogrosso"
+    },
+    {
+      "id": "bills",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Bills"
     },
     {
       "id": "rick-sanchez",
@@ -2832,6 +4179,12 @@
       "displayName": "Jorge Ben Jor"
     },
     {
+      "id": "shenlong",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Shenlong"
+    },
+    {
       "id": "morty-smith",
       "level": 2,
       "category": "cartoon",
@@ -2860,6 +4213,12 @@
       "level": 2,
       "category": "music",
       "displayName": "Lulu Santos"
+    },
+    {
+      "id": "broly",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Broly"
     },
     {
       "id": "patrick-estrela",
@@ -2892,6 +4251,12 @@
       "displayName": "Seu Jorge"
     },
     {
+      "id": "gotenks",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Gotenks"
+    },
+    {
       "id": "lula-molusco",
       "level": 2,
       "category": "cartoon",
@@ -2920,6 +4285,12 @@
       "level": 2,
       "category": "music",
       "displayName": "Daniela Mercury"
+    },
+    {
+      "id": "vegetto",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Vegetto"
     },
     {
       "id": "seu-sirigueijo",
@@ -2952,6 +4323,12 @@
       "displayName": "Sandy"
     },
     {
+      "id": "orochimaru",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Orochimaru"
+    },
+    {
       "id": "dora-aventureira",
       "level": 2,
       "category": "cartoon",
@@ -2982,6 +4359,12 @@
       "displayName": "Zezé Di Camargo"
     },
     {
+      "id": "tsunade",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Tsunade"
+    },
+    {
       "id": "bluey",
       "level": 2,
       "category": "cartoon",
@@ -3004,6 +4387,12 @@
       "level": 2,
       "category": "film-tv",
       "displayName": "Jack Sparrow"
+    },
+    {
+      "id": "madara-uchiha",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Madara Uchiha"
     },
     {
       "id": "hortelino-troca-letras",
@@ -3030,6 +4419,12 @@
       "displayName": "Rocky Balboa"
     },
     {
+      "id": "obito-uchiha",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Obito Uchiha"
+    },
+    {
       "id": "eufrazino",
       "level": 2,
       "category": "cartoon",
@@ -3052,6 +4447,12 @@
       "level": 2,
       "category": "film-tv",
       "displayName": "Marty McFly"
+    },
+    {
+      "id": "minato-namikaze",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Minato Namikaze"
     },
     {
       "id": "pepe-le-gamba",
@@ -3078,6 +4479,12 @@
       "displayName": "Doc Brown"
     },
     {
+      "id": "rock-lee",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Rock Lee"
+    },
+    {
       "id": "marvin-o-marciano",
       "level": 2,
       "category": "cartoon",
@@ -3100,6 +4507,12 @@
       "level": 2,
       "category": "film-tv",
       "displayName": "RoboCop"
+    },
+    {
+      "id": "shikamaru-nara",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Shikamaru Nara"
     },
     {
       "id": "lola-bunny",
@@ -3126,6 +4539,12 @@
       "displayName": "Predador"
     },
     {
+      "id": "pain-naruto",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Pain"
+    },
+    {
       "id": "fred-jones",
       "level": 2,
       "category": "cartoon",
@@ -3148,6 +4567,12 @@
       "level": 2,
       "category": "film-tv",
       "displayName": "Capitão Nascimento"
+    },
+    {
+      "id": "kyuubi",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Kyuubi"
     },
     {
       "id": "velma",
@@ -3174,6 +4599,12 @@
       "displayName": "Freddy Krueger"
     },
     {
+      "id": "boruto-uzumaki",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Boruto Uzumaki"
+    },
+    {
       "id": "daphne",
       "level": 2,
       "category": "cartoon",
@@ -3196,6 +4627,12 @@
       "level": 2,
       "category": "film-tv",
       "displayName": "Jason Voorhees"
+    },
+    {
+      "id": "usopp",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Usopp"
     },
     {
       "id": "wilma-flintstone",
@@ -3222,6 +4659,12 @@
       "displayName": "Chucky"
     },
     {
+      "id": "nico-robin",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Nico Robin"
+    },
+    {
       "id": "barney-rubble",
       "level": 2,
       "category": "cartoon",
@@ -3246,6 +4689,12 @@
       "displayName": "Pennywise"
     },
     {
+      "id": "franky",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Franky"
+    },
+    {
       "id": "pedrita",
       "level": 2,
       "category": "cartoon",
@@ -3262,6 +4711,12 @@
       "level": 2,
       "category": "game",
       "displayName": "Nemesis"
+    },
+    {
+      "id": "brook",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Brook"
     },
     {
       "id": "george-jetson",
@@ -3282,6 +4737,12 @@
       "displayName": "Lady Dimitrescu"
     },
     {
+      "id": "portgas-d-ace",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Portgas D. Ace"
+    },
+    {
       "id": "catatau",
       "level": 2,
       "category": "cartoon",
@@ -3298,6 +4759,12 @@
       "level": 2,
       "category": "game",
       "displayName": "Joel"
+    },
+    {
+      "id": "shanks",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Shanks"
     },
     {
       "id": "penelope-charmosa",
@@ -3318,10 +4785,22 @@
       "displayName": "Arthur Morgan"
     },
     {
+      "id": "barba-branca",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Barba Branca"
+    },
+    {
       "id": "tico-e-teco",
       "level": 2,
       "category": "cartoon",
       "displayName": "Tico e Teco"
+    },
+    {
+      "id": "sr-cabeca-de-batata",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Sr. Cabeça de Batata"
     },
     {
       "id": "trevor-philips",
@@ -3330,10 +4809,22 @@
       "displayName": "Trevor Philips"
     },
     {
+      "id": "boa-hancock",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Boa Hancock"
+    },
+    {
       "id": "kim-possible",
       "level": 2,
       "category": "cartoon",
       "displayName": "Kim Possible"
+    },
+    {
+      "id": "rex-toy-story",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Rex"
     },
     {
       "id": "ezio-auditore",
@@ -3342,10 +4833,22 @@
       "displayName": "Ezio Auditore"
     },
     {
+      "id": "trafalgar-law",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Trafalgar Law"
+    },
+    {
       "id": "phineas",
       "level": 2,
       "category": "cartoon",
       "displayName": "Phineas"
+    },
+    {
+      "id": "zurg",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Imperador Zurg"
     },
     {
       "id": "vault-boy",
@@ -3354,10 +4857,22 @@
       "displayName": "Vault Boy"
     },
     {
+      "id": "brock",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Brock"
+    },
+    {
       "id": "ferb",
       "level": 2,
       "category": "cartoon",
       "displayName": "Ferb"
+    },
+    {
+      "id": "lotso",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Lotso"
     },
     {
       "id": "sephiroth",
@@ -3366,10 +4881,22 @@
       "displayName": "Sephiroth"
     },
     {
+      "id": "misty",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Misty"
+    },
+    {
       "id": "doofenshmirtz",
       "level": 2,
       "category": "cartoon",
       "displayName": "Dr. Doofenshmirtz"
+    },
+    {
+      "id": "marlin",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Marlin"
     },
     {
       "id": "tifa-lockhart",
@@ -3378,10 +4905,22 @@
       "displayName": "Tifa Lockhart"
     },
     {
+      "id": "equipe-rocket",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Equipe Rocket"
+    },
+    {
       "id": "dipper-pines",
       "level": 2,
       "category": "cartoon",
       "displayName": "Dipper Pines"
+    },
+    {
+      "id": "boo-monstros",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Boo"
     },
     {
       "id": "chocobo",
@@ -3390,10 +4929,22 @@
       "displayName": "Chocobo"
     },
     {
+      "id": "lucario",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Lucario"
+    },
+    {
       "id": "mabel-pines",
       "level": 2,
       "category": "cartoon",
       "displayName": "Mabel Pines"
+    },
+    {
+      "id": "mulher-elastica",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Mulher-Elástica"
     },
     {
       "id": "sora-kingdom-hearts",
@@ -3402,10 +4953,22 @@
       "displayName": "Sora"
     },
     {
+      "id": "greninja",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Greninja"
+    },
+    {
       "id": "bill-cipher",
       "level": 2,
       "category": "cartoon",
       "displayName": "Bill Cipher"
+    },
+    {
+      "id": "flecha",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Flecha"
     },
     {
       "id": "freddy-fazbear",
@@ -3414,10 +4977,22 @@
       "displayName": "Freddy Fazbear"
     },
     {
+      "id": "mew",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Mew"
+    },
+    {
       "id": "olivia-palito",
       "level": 2,
       "category": "cartoon",
       "displayName": "Olívia Palito"
+    },
+    {
+      "id": "zeze-incriveis",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Zezé"
     },
     {
       "id": "enderman",
@@ -3426,10 +5001,22 @@
       "displayName": "Enderman"
     },
     {
+      "id": "lugia",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Lugia"
+    },
+    {
       "id": "brutus",
       "level": 2,
       "category": "cartoon",
       "displayName": "Brutus"
+    },
+    {
+      "id": "gelado",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Gelado"
     },
     {
       "id": "aldeao-minecraft",
@@ -3438,10 +5025,22 @@
       "displayName": "Aldeão"
     },
     {
+      "id": "gyarados",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Gyarados"
+    },
+    {
       "id": "odie",
       "level": 2,
       "category": "cartoon",
       "displayName": "Odie"
+    },
+    {
+      "id": "russell-up",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Russell"
     },
     {
       "id": "sans-undertale",
@@ -3450,10 +5049,22 @@
       "displayName": "Sans"
     },
     {
+      "id": "dragonite",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Dragonite"
+    },
+    {
       "id": "smurfette",
       "level": 2,
       "category": "cartoon",
       "displayName": "Smurfette"
+    },
+    {
+      "id": "dug",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Dug"
     },
     {
       "id": "cuphead",
@@ -3462,10 +5073,22 @@
       "displayName": "Cuphead"
     },
     {
+      "id": "onix",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Onix"
+    },
+    {
       "id": "gargamel",
       "level": 2,
       "category": "cartoon",
       "displayName": "Gargamel"
+    },
+    {
+      "id": "tristeza",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Tristeza"
     },
     {
       "id": "red-angry-birds",
@@ -3474,10 +5097,22 @@
       "displayName": "Red"
     },
     {
+      "id": "togepi",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Togepi"
+    },
+    {
       "id": "esqueleto",
       "level": 2,
       "category": "cartoon",
       "displayName": "Esqueleto"
+    },
+    {
+      "id": "raiva",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Raiva"
     },
     {
       "id": "jinx",
@@ -3486,10 +5121,28 @@
       "displayName": "Jinx"
     },
     {
+      "id": "blastoise",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Blastoise"
+    },
+    {
       "id": "she-ra",
       "level": 2,
       "category": "cartoon",
       "displayName": "She-Ra"
+    },
+    {
+      "id": "nojinho",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Nojinho"
+    },
+    {
+      "id": "venusaur",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Venusaur"
     },
     {
       "id": "lion-o",
@@ -3498,10 +5151,34 @@
       "displayName": "Lion-O"
     },
     {
+      "id": "medo",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Medo"
+    },
+    {
+      "id": "raichu",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Raichu"
+    },
+    {
       "id": "mumm-ra",
       "level": 2,
       "category": "cartoon",
       "displayName": "Mumm-Ra"
+    },
+    {
+      "id": "ansiedade",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Ansiedade"
+    },
+    {
+      "id": "magikarp",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Magikarp"
     },
     {
       "id": "bumblebee",
@@ -3510,10 +5187,34 @@
       "displayName": "Bumblebee"
     },
     {
+      "id": "miguel-coco",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Miguel"
+    },
+    {
+      "id": "ditto",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Ditto"
+    },
+    {
       "id": "megatron",
       "level": 2,
       "category": "cartoon",
       "displayName": "Megatron"
+    },
+    {
+      "id": "eva-wall-e",
+      "level": 2,
+      "category": "animation",
+      "displayName": "EVA"
+    },
+    {
+      "id": "hyoga-de-cisne",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Hyoga de Cisne"
     },
     {
       "id": "mestre-dos-magos",
@@ -3522,10 +5223,34 @@
       "displayName": "Mestre dos Magos"
     },
     {
+      "id": "luca-paguro",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Luca"
+    },
+    {
+      "id": "shun-de-andromeda",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Shun de Andrômeda"
+    },
+    {
       "id": "leonardo-tartaruga",
       "level": 2,
       "category": "cartoon",
       "displayName": "Leonardo"
+    },
+    {
+      "id": "kristoff",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Kristoff"
+    },
+    {
+      "id": "saori-kido",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Saori Kido"
     },
     {
       "id": "michelangelo-tartaruga",
@@ -3534,10 +5259,34 @@
       "displayName": "Michelangelo"
     },
     {
+      "id": "nala",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Nala"
+    },
+    {
+      "id": "kuwabara",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Kuwabara"
+    },
+    {
       "id": "donatello-tartaruga",
       "level": 2,
       "category": "cartoon",
       "displayName": "Donatello"
+    },
+    {
+      "id": "rafiki",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Rafiki"
+    },
+    {
+      "id": "hiei",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Hiei"
     },
     {
       "id": "rafael-tartaruga",
@@ -3546,10 +5295,34 @@
       "displayName": "Rafael"
     },
     {
+      "id": "mirabel",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Mirabel"
+    },
+    {
+      "id": "kurama-yu-yu-hakusho",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Kurama"
+    },
+    {
       "id": "mestre-splinter",
       "level": 2,
       "category": "cartoon",
       "displayName": "Mestre Splinter"
+    },
+    {
+      "id": "bruno-madrigal",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Bruno Madrigal"
+    },
+    {
+      "id": "rukia-kuchiki",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Rukia Kuchiki"
     },
     {
       "id": "destruidor",
@@ -3558,10 +5331,34 @@
       "displayName": "Destruidor"
     },
     {
+      "id": "judy-hopps",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Judy Hopps"
+    },
+    {
+      "id": "armin-arlert",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Armin Arlert"
+    },
+    {
       "id": "maggie-simpson",
       "level": 2,
       "category": "cartoon",
       "displayName": "Maggie Simpson"
+    },
+    {
+      "id": "nick-wilde",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Nick Wilde"
+    },
+    {
+      "id": "inosuke-hashibira",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Inosuke Hashibira"
     },
     {
       "id": "ned-flanders",
@@ -3570,10 +5367,34 @@
       "displayName": "Ned Flanders"
     },
     {
+      "id": "flynn-rider",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Flynn Rider"
+    },
+    {
+      "id": "giyu-tomioka",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Giyu Tomioka"
+    },
+    {
       "id": "krusty",
       "level": 2,
       "category": "cartoon",
       "displayName": "Palhaço Krusty"
+    },
+    {
+      "id": "sebastiao",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Sebastião"
+    },
+    {
+      "id": "sukuna",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Sukuna"
     },
     {
       "id": "milhouse",
@@ -3582,10 +5403,34 @@
       "displayName": "Milhouse"
     },
     {
+      "id": "linguado",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Linguado"
+    },
+    {
+      "id": "gon-freecss",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Gon Freecss"
+    },
+    {
       "id": "fry-futurama",
       "level": 2,
       "category": "cartoon",
       "displayName": "Fry"
+    },
+    {
+      "id": "lumiere",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Lumière"
+    },
+    {
+      "id": "killua-zoldyck",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Killua Zoldyck"
     },
     {
       "id": "leela-futurama",
@@ -3594,10 +5439,34 @@
       "displayName": "Leela"
     },
     {
+      "id": "gaston",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Gaston"
+    },
+    {
+      "id": "hisoka",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Hisoka"
+    },
+    {
       "id": "stewie-griffin",
       "level": 2,
       "category": "cartoon",
       "displayName": "Stewie Griffin"
+    },
+    {
+      "id": "jafar",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Jafar"
+    },
+    {
+      "id": "alphonse-elric",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Alphonse Elric"
     },
     {
       "id": "stan-marsh",
@@ -3606,10 +5475,34 @@
       "displayName": "Stan Marsh"
     },
     {
+      "id": "mushu",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Mushu"
+    },
+    {
+      "id": "genos",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Genos"
+    },
+    {
       "id": "kyle-broflovski",
       "level": 2,
       "category": "cartoon",
       "displayName": "Kyle Broflovski"
+    },
+    {
+      "id": "hades-disney",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Hades"
+    },
+    {
+      "id": "all-might",
+      "level": 2,
+      "category": "anime",
+      "displayName": "All Might"
     },
     {
       "id": "kenny-mccormick",
@@ -3618,10 +5511,34 @@
       "displayName": "Kenny McCormick"
     },
     {
+      "id": "rainha-ma",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Rainha Má"
+    },
+    {
+      "id": "katsuki-bakugo",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Katsuki Bakugo"
+    },
+    {
       "id": "gary-caracol",
       "level": 2,
       "category": "cartoon",
       "displayName": "Gary"
+    },
+    {
+      "id": "alice-pais-das-maravilhas",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Alice"
+    },
+    {
+      "id": "shoto-todoroki",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Shoto Todoroki"
     },
     {
       "id": "timmy-turner",
@@ -3630,10 +5547,34 @@
       "displayName": "Timmy Turner"
     },
     {
+      "id": "gato-de-cheshire",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Gato de Cheshire"
+    },
+    {
+      "id": "jotaro-kujo",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Jotaro Kujo"
+    },
+    {
       "id": "cosmo-padrinhos",
       "level": 2,
       "category": "cartoon",
       "displayName": "Cosmo"
+    },
+    {
+      "id": "chapeleiro-maluco",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Chapeleiro Maluco"
+    },
+    {
+      "id": "dio-brando",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Dio Brando"
     },
     {
       "id": "wanda-padrinhos",
@@ -3642,10 +5583,34 @@
       "displayName": "Wanda"
     },
     {
+      "id": "tigrao",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Tigrão"
+    },
+    {
+      "id": "inuyasha",
+      "level": 2,
+      "category": "anime",
+      "displayName": "InuYasha"
+    },
+    {
       "id": "tommy-pickles",
       "level": 2,
       "category": "cartoon",
       "displayName": "Tommy Pickles"
+    },
+    {
+      "id": "leitao",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Leitão"
+    },
+    {
+      "id": "kagome-higurashi",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Kagome Higurashi"
     },
     {
       "id": "angelica-pickles",
@@ -3654,10 +5619,34 @@
       "displayName": "Angélica Pickles"
     },
     {
+      "id": "bisonho",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Bisonho"
+    },
+    {
+      "id": "sesshomaru",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Sesshomaru"
+    },
+    {
       "id": "arnold-hey-arnold",
       "level": 2,
       "category": "cartoon",
       "displayName": "Arnold"
+    },
+    {
+      "id": "lilo",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Lilo"
+    },
+    {
+      "id": "shinji-ikari",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Shinji Ikari"
     },
     {
       "id": "katara",
@@ -3666,10 +5655,34 @@
       "displayName": "Katara"
     },
     {
+      "id": "vanellope",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Vanellope"
+    },
+    {
+      "id": "rei-ayanami",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Rei Ayanami"
+    },
+    {
       "id": "sokka",
       "level": 2,
       "category": "cartoon",
       "displayName": "Sokka"
+    },
+    {
+      "id": "tiana",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Tiana"
+    },
+    {
+      "id": "asuka-langley",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Asuka Langley"
     },
     {
       "id": "zuko",
@@ -3678,10 +5691,34 @@
       "displayName": "Zuko"
     },
     {
+      "id": "tambor",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Tambor"
+    },
+    {
+      "id": "denji",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Denji"
+    },
+    {
       "id": "toph",
       "level": 2,
       "category": "cartoon",
       "displayName": "Toph"
+    },
+    {
+      "id": "grilo-falante",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Grilo Falante"
+    },
+    {
+      "id": "makima",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Makima"
     },
     {
       "id": "appa",
@@ -3690,10 +5727,34 @@
       "displayName": "Appa"
     },
     {
+      "id": "lord-farquaad",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Lord Farquaad"
+    },
+    {
+      "id": "pochita",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Pochita"
+    },
+    {
       "id": "tio-iroh",
       "level": 2,
       "category": "cartoon",
       "displayName": "Tio Iroh"
+    },
+    {
+      "id": "homem-biscoito",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Biscoito"
+    },
+    {
+      "id": "anya-forger",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Anya Forger"
     },
     {
       "id": "korra",
@@ -3702,10 +5763,34 @@
       "displayName": "Korra"
     },
     {
+      "id": "tigresa",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Tigresa"
+    },
+    {
+      "id": "ken-kaneki",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Ken Kaneki"
+    },
+    {
       "id": "princesa-jujuba",
       "level": 2,
       "category": "cartoon",
       "displayName": "Princesa Jujuba"
+    },
+    {
+      "id": "mestre-shifu",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Mestre Shifu"
+    },
+    {
+      "id": "frieren",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Frieren"
     },
     {
       "id": "marceline",
@@ -3714,10 +5799,34 @@
       "displayName": "Marceline"
     },
     {
+      "id": "soluco",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Soluço"
+    },
+    {
+      "id": "sung-jinwoo",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Sung Jinwoo"
+    },
+    {
       "id": "rei-gelado",
       "level": 2,
       "category": "cartoon",
       "displayName": "Rei Gelado"
+    },
+    {
+      "id": "alex-o-leao",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Alex, o Leão"
+    },
+    {
+      "id": "conan-edogawa",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Conan Edogawa"
     },
     {
       "id": "bmo",
@@ -3726,10 +5835,34 @@
       "displayName": "BMO"
     },
     {
+      "id": "marty-a-zebra",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Marty, a Zebra"
+    },
+    {
+      "id": "oliver-tsubasa",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Oliver Tsubasa"
+    },
+    {
       "id": "rigby",
       "level": 2,
       "category": "cartoon",
       "displayName": "Rigby"
+    },
+    {
+      "id": "pinguins-de-madagascar",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Pinguins de Madagascar"
+    },
+    {
+      "id": "sakura-kinomoto",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Sakura Kinomoto"
     },
     {
       "id": "gumball",
@@ -3738,10 +5871,34 @@
       "displayName": "Gumball"
     },
     {
+      "id": "manny-mamute",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Manny"
+    },
+    {
+      "id": "hamtaro",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Hamtaro"
+    },
+    {
       "id": "darwin-watterson",
       "level": 2,
       "category": "cartoon",
       "displayName": "Darwin"
+    },
+    {
+      "id": "agnes",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Agnes"
+    },
+    {
+      "id": "astro-boy",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Astro Boy"
     },
     {
       "id": "steven-universo",
@@ -3750,10 +5907,34 @@
       "displayName": "Steven Universo"
     },
     {
+      "id": "mavis",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Mavis"
+    },
+    {
+      "id": "speed-racer",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Speed Racer"
+    },
+    {
       "id": "samurai-jack",
       "level": 2,
       "category": "cartoon",
       "displayName": "Samurai Jack"
+    },
+    {
+      "id": "blu-rio",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Blu"
+    },
+    {
+      "id": "nobita",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Nobita"
     },
     {
       "id": "puro-osso",
@@ -3762,10 +5943,34 @@
       "displayName": "Puro Osso"
     },
     {
+      "id": "megamente",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Megamente"
+    },
+    {
+      "id": "agumon",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Agumon"
+    },
+    {
       "id": "dee-dee",
       "level": 2,
       "category": "cartoon",
       "displayName": "Dee Dee"
+    },
+    {
+      "id": "poppy-trolls",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Poppy"
+    },
+    {
+      "id": "mago-negro",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Mago Negro"
     },
     {
       "id": "macaco-louco",
@@ -3774,10 +5979,34 @@
       "displayName": "Macaco Louco"
     },
     {
+      "id": "lorax",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Lorax"
+    },
+    {
+      "id": "dragao-branco-de-olhos-azuis",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Dragão Branco de Olhos Azuis"
+    },
+    {
       "id": "ravena",
       "level": 2,
       "category": "cartoon",
       "displayName": "Ravena"
+    },
+    {
+      "id": "jack-skellington",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Jack Skellington"
+    },
+    {
+      "id": "chihiro",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Chihiro"
     },
     {
       "id": "estelar",
@@ -3786,10 +6015,34 @@
       "displayName": "Estelar"
     },
     {
+      "id": "coraline",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Coraline"
+    },
+    {
+      "id": "kiki",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Kiki"
+    },
+    {
       "id": "ciborgue",
       "level": 2,
       "category": "cartoon",
       "displayName": "Ciborgue"
+    },
+    {
+      "id": "shaun-o-carneiro",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Shaun, o Carneiro"
+    },
+    {
+      "id": "howl",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Howl"
     },
     {
       "id": "super-choque",
@@ -3798,10 +6051,22 @@
       "displayName": "Super Choque"
     },
     {
+      "id": "ponyo",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Ponyo"
+    },
+    {
       "id": "pinky",
       "level": 2,
       "category": "cartoon",
       "displayName": "Pinky"
+    },
+    {
+      "id": "princesa-mononoke",
+      "level": 2,
+      "category": "anime",
+      "displayName": "Princesa Mononoke"
     },
     {
       "id": "cerebro",
@@ -3814,6 +6079,12 @@
       "level": 2,
       "category": "cartoon",
       "displayName": "Bidu"
+    },
+    {
+      "id": "androide-17",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Androide 17"
     },
     {
       "id": "sr-burns",
@@ -3852,6 +6123,12 @@
       "displayName": "Garrincha"
     },
     {
+      "id": "whis",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Whis"
+    },
+    {
       "id": "sandy-bochechas",
       "level": 3,
       "category": "cartoon",
@@ -3888,10 +6165,22 @@
       "displayName": "Rayssa Leal"
     },
     {
+      "id": "raditz",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Raditz"
+    },
+    {
       "id": "plankton",
       "level": 3,
       "category": "cartoon",
       "displayName": "Plankton"
+    },
+    {
+      "id": "porquinho-hamm",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Porquinho"
     },
     {
       "id": "kratos",
@@ -3912,10 +6201,22 @@
       "displayName": "Gavião Arqueiro"
     },
     {
+      "id": "jiren",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Jiren"
+    },
+    {
       "id": "jimmy-neutron",
       "level": 3,
       "category": "cartoon",
       "displayName": "Jimmy Neutron"
+    },
+    {
+      "id": "slinky",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Slinky"
     },
     {
       "id": "geralt-de-rivia",
@@ -3936,10 +6237,22 @@
       "displayName": "Tempestade"
     },
     {
+      "id": "neji-hyuga",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Neji Hyuga"
+    },
+    {
       "id": "frangolino",
       "level": 3,
       "category": "cartoon",
       "displayName": "Frangolino"
+    },
+    {
+      "id": "garfinho",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Garfinho"
     },
     {
       "id": "rosalina",
@@ -3954,10 +6267,22 @@
       "displayName": "Duende Verde"
     },
     {
+      "id": "deidara",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Deidara"
+    },
+    {
       "id": "pepe-legal",
       "level": 3,
       "category": "cartoon",
       "displayName": "Pepe Legal"
+    },
+    {
+      "id": "crush-tartaruga",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Crush"
     },
     {
       "id": "fox-mccloud",
@@ -3972,10 +6297,22 @@
       "displayName": "Pinguim"
     },
     {
+      "id": "jinbe",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Jinbe"
+    },
+    {
       "id": "hong-kong-fu",
       "level": 3,
       "category": "cartoon",
       "displayName": "Hong Kong Fu"
+    },
+    {
+      "id": "randall",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Randall"
     },
     {
       "id": "captain-falcon",
@@ -3990,10 +6327,22 @@
       "displayName": "Charada"
     },
     {
+      "id": "mihawk",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Mihawk"
+    },
+    {
       "id": "space-ghost",
       "level": 3,
       "category": "cartoon",
       "displayName": "Space Ghost"
+    },
+    {
+      "id": "violeta-incriveis",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Violeta"
     },
     {
       "id": "tom-nook",
@@ -4008,10 +6357,22 @@
       "displayName": "Bane"
     },
     {
+      "id": "buggy",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Buggy"
+    },
+    {
       "id": "max-goof",
       "level": 3,
       "category": "cartoon",
       "displayName": "Max Goof"
+    },
+    {
+      "id": "sindrome",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Síndrome"
     },
     {
       "id": "isabelle-animal-crossing",
@@ -4026,10 +6387,22 @@
       "displayName": "Supergirl"
     },
     {
+      "id": "kaido",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Kaido"
+    },
+    {
       "id": "pato-darkwing",
       "level": 3,
       "category": "cartoon",
       "displayName": "Pato Darkwing"
+    },
+    {
+      "id": "sally-carrera",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Sally Carrera"
     },
     {
       "id": "coco-bandicoot",
@@ -4044,10 +6417,22 @@
       "displayName": "Hellboy"
     },
     {
+      "id": "lapras",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Lapras"
+    },
+    {
       "id": "leoncio",
       "level": 3,
       "category": "cartoon",
       "displayName": "Leôncio"
+    },
+    {
+      "id": "anton-ego",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Anton Ego"
     },
     {
       "id": "dr-wily",
@@ -4056,10 +6441,22 @@
       "displayName": "Dr. Wily"
     },
     {
+      "id": "arcanine",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Arcanine"
+    },
+    {
       "id": "moe-szyslak",
       "level": 3,
       "category": "cartoon",
       "displayName": "Moe Szyslak"
+    },
+    {
+      "id": "bing-bong",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Bing Bong"
     },
     {
       "id": "ms-pac-man",
@@ -4068,10 +6465,22 @@
       "displayName": "Ms. Pac-Man"
     },
     {
+      "id": "cubone",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Cubone"
+    },
+    {
       "id": "brian-griffin",
       "level": 3,
       "category": "cartoon",
       "displayName": "Brian Griffin"
+    },
+    {
+      "id": "hector-coco",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Héctor"
     },
     {
       "id": "johnny-cage",
@@ -4080,10 +6489,22 @@
       "displayName": "Johnny Cage"
     },
     {
+      "id": "umbreon",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Umbreon"
+    },
+    {
       "id": "bojack-horseman",
       "level": 3,
       "category": "cartoon",
       "displayName": "BoJack Horseman"
+    },
+    {
+      "id": "mei-lee",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Mei Lee"
     },
     {
       "id": "yoshimitsu",
@@ -4092,10 +6513,22 @@
       "displayName": "Yoshimitsu"
     },
     {
+      "id": "shaka-de-virgem",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Shaka de Virgem"
+    },
+    {
       "id": "invasor-zim",
       "level": 3,
       "category": "cartoon",
       "displayName": "Invasor Zim"
+    },
+    {
+      "id": "sven",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Sven"
     },
     {
       "id": "terry-bogard",
@@ -4104,10 +6537,22 @@
       "displayName": "Terry Bogard"
     },
     {
+      "id": "toguro",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Toguro"
+    },
+    {
       "id": "professor-utonio",
       "level": 3,
       "category": "cartoon",
       "displayName": "Professor Utônio"
+    },
+    {
+      "id": "zazu",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Zazu"
     },
     {
       "id": "kyo-kusanagi",
@@ -4116,10 +6561,22 @@
       "displayName": "Kyo Kusanagi"
     },
     {
+      "id": "sosuke-aizen",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Sosuke Aizen"
+    },
+    {
       "id": "franjinha",
       "level": 3,
       "category": "cartoon",
       "displayName": "Franjinha"
+    },
+    {
+      "id": "luisa-madrigal",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Luisa Madrigal"
     },
     {
       "id": "chris-redfield",
@@ -4128,10 +6585,22 @@
       "displayName": "Chris Redfield"
     },
     {
+      "id": "misa-amane",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Misa Amane"
+    },
+    {
       "id": "horacio",
       "level": 3,
       "category": "cartoon",
       "displayName": "Horácio"
+    },
+    {
+      "id": "heihei",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Heihei"
     },
     {
       "id": "atreus",
@@ -4140,10 +6609,22 @@
       "displayName": "Atreus"
     },
     {
+      "id": "erwin-smith",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Erwin Smith"
+    },
+    {
       "id": "penadinho",
       "level": 3,
       "category": "cartoon",
       "displayName": "Penadinho"
+    },
+    {
+      "id": "pascal",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Pascal"
     },
     {
       "id": "john-marston",
@@ -4152,10 +6633,22 @@
       "displayName": "John Marston"
     },
     {
+      "id": "shinobu-kocho",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Shinobu Kocho"
+    },
+    {
       "id": "irmao-do-jorel",
       "level": 3,
       "category": "cartoon",
       "displayName": "Irmão do Jorel"
+    },
+    {
+      "id": "rei-tritao",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Rei Tritão"
     },
     {
       "id": "tommy-vercetti",
@@ -4164,10 +6657,22 @@
       "displayName": "Tommy Vercetti"
     },
     {
+      "id": "muzan-kibutsuji",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Muzan Kibutsuji"
+    },
+    {
       "id": "menino-maluquinho",
       "level": 3,
       "category": "cartoon",
       "displayName": "Menino Maluquinho"
+    },
+    {
+      "id": "madame-samovar",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Madame Samovar"
     },
     {
       "id": "ciri",
@@ -4176,10 +6681,34 @@
       "displayName": "Ciri"
     },
     {
+      "id": "akaza",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Akaza"
+    },
+    {
+      "id": "abu",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Abu"
+    },
+    {
       "id": "cortana",
       "level": 3,
       "category": "game",
       "displayName": "Cortana"
+    },
+    {
+      "id": "megumi-fushiguro",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Megumi Fushiguro"
+    },
+    {
+      "id": "iago",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Iago"
     },
     {
       "id": "dante-devil-may-cry",
@@ -4188,10 +6717,34 @@
       "displayName": "Dante"
     },
     {
+      "id": "nobara-kugisaki",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Nobara Kugisaki"
+    },
+    {
+      "id": "megara",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Megara"
+    },
+    {
       "id": "agente-47",
       "level": 3,
       "category": "game",
       "displayName": "Agente 47"
+    },
+    {
+      "id": "kurapika",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Kurapika"
+    },
+    {
+      "id": "robin-hood-disney",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Robin Hood"
     },
     {
       "id": "pyramid-head",
@@ -4200,10 +6753,34 @@
       "displayName": "Pyramid Head"
     },
     {
+      "id": "roy-mustang",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Roy Mustang"
+    },
+    {
+      "id": "tai-lung",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Tai Lung"
+    },
+    {
       "id": "doomguy",
       "level": 3,
       "category": "game",
       "displayName": "Doom Slayer"
+    },
+    {
+      "id": "ochaco-uraraka",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Ochaco Uraraka"
+    },
+    {
+      "id": "gloria-hipopotamo",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Gloria, a Hipopótamo"
     },
     {
       "id": "gordon-freeman",
@@ -4212,10 +6789,34 @@
       "displayName": "Gordon Freeman"
     },
     {
+      "id": "giorno-giovanna",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Giorno Giovanna"
+    },
+    {
+      "id": "melman",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Melman"
+    },
+    {
       "id": "glados",
       "level": 3,
       "category": "game",
       "displayName": "GLaDOS"
+    },
+    {
+      "id": "eva-01",
+      "level": 3,
+      "category": "anime",
+      "displayName": "EVA-01"
+    },
+    {
+      "id": "tronco-trolls",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Tronco"
     },
     {
       "id": "aerith",
@@ -4224,10 +6825,34 @@
       "displayName": "Aerith"
     },
     {
+      "id": "loid-forger",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Loid Forger"
+    },
+    {
+      "id": "wallace-e-gromit",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Wallace e Gromit"
+    },
+    {
       "id": "foxy-fnaf",
       "level": 3,
       "category": "game",
       "displayName": "Foxy"
+    },
+    {
+      "id": "yor-forger",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Yor Forger"
+    },
+    {
+      "id": "spirit",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Spirit"
     },
     {
       "id": "alex-minecraft",
@@ -4236,10 +6861,22 @@
       "displayName": "Alex"
     },
     {
+      "id": "shoyo-hinata",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Shoyo Hinata"
+    },
+    {
       "id": "papyrus-undertale",
       "level": 3,
       "category": "game",
       "displayName": "Papyrus"
+    },
+    {
+      "id": "asta-black-clover",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Asta"
     },
     {
       "id": "mugman",
@@ -4248,16 +6885,100 @@
       "displayName": "Mugman"
     },
     {
+      "id": "spike-spiegel",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Spike Spiegel"
+    },
+    {
       "id": "peely",
       "level": 3,
       "category": "game",
       "displayName": "Peely"
     },
     {
+      "id": "kaneda",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Kaneda"
+    },
+    {
       "id": "teemo",
       "level": 3,
       "category": "game",
       "displayName": "Teemo"
+    },
+    {
+      "id": "lupin-iii",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Lupin III"
+    },
+    {
+      "id": "benji-price",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Benji Price"
+    },
+    {
+      "id": "kero",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Kero"
+    },
+    {
+      "id": "gabumon",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Gabumon"
+    },
+    {
+      "id": "joey-wheeler",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Joey Wheeler"
+    },
+    {
+      "id": "sailor-mercury",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Sailor Mercury"
+    },
+    {
+      "id": "sailor-mars",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Sailor Mars"
+    },
+    {
+      "id": "tuxedo-mask",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Tuxedo Mask"
+    },
+    {
+      "id": "haku-ghibli",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Haku"
+    },
+    {
+      "id": "calcifer",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Calcifer"
+    },
+    {
+      "id": "gatobus",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Gatobus"
+    },
+    {
+      "id": "porco-rosso",
+      "level": 3,
+      "category": "anime",
+      "displayName": "Porco Rosso"
     }
   ]
 }

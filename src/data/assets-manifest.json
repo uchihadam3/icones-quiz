@@ -5006,6 +5006,958 @@
     "teemo": {
       "status": "missing",
       "file": "characters/teemo.webp"
+    },
+    "sr-cabeca-de-batata": {
+      "status": "missing",
+      "file": "characters/sr-cabeca-de-batata.webp"
+    },
+    "rex-toy-story": {
+      "status": "missing",
+      "file": "characters/rex-toy-story.webp"
+    },
+    "porquinho-hamm": {
+      "status": "missing",
+      "file": "characters/porquinho-hamm.webp"
+    },
+    "slinky": {
+      "status": "missing",
+      "file": "characters/slinky.webp"
+    },
+    "zurg": {
+      "status": "missing",
+      "file": "characters/zurg.webp"
+    },
+    "lotso": {
+      "status": "missing",
+      "file": "characters/lotso.webp"
+    },
+    "garfinho": {
+      "status": "missing",
+      "file": "characters/garfinho.webp"
+    },
+    "marlin": {
+      "status": "missing",
+      "file": "characters/marlin.webp"
+    },
+    "crush-tartaruga": {
+      "status": "missing",
+      "file": "characters/crush-tartaruga.webp"
+    },
+    "boo-monstros": {
+      "status": "missing",
+      "file": "characters/boo-monstros.webp"
+    },
+    "randall": {
+      "status": "missing",
+      "file": "characters/randall.webp"
+    },
+    "mulher-elastica": {
+      "status": "missing",
+      "file": "characters/mulher-elastica.webp"
+    },
+    "flecha": {
+      "status": "missing",
+      "file": "characters/flecha.webp"
+    },
+    "violeta-incriveis": {
+      "status": "missing",
+      "file": "characters/violeta-incriveis.webp"
+    },
+    "zeze-incriveis": {
+      "status": "missing",
+      "file": "characters/zeze-incriveis.webp"
+    },
+    "gelado": {
+      "status": "missing",
+      "file": "characters/gelado.webp"
+    },
+    "sindrome": {
+      "status": "missing",
+      "file": "characters/sindrome.webp"
+    },
+    "sally-carrera": {
+      "status": "missing",
+      "file": "characters/sally-carrera.webp"
+    },
+    "anton-ego": {
+      "status": "missing",
+      "file": "characters/anton-ego.webp"
+    },
+    "russell-up": {
+      "status": "missing",
+      "file": "characters/russell-up.webp"
+    },
+    "dug": {
+      "status": "missing",
+      "file": "characters/dug.webp"
+    },
+    "tristeza": {
+      "status": "missing",
+      "file": "characters/tristeza.webp"
+    },
+    "raiva": {
+      "status": "missing",
+      "file": "characters/raiva.webp"
+    },
+    "nojinho": {
+      "status": "missing",
+      "file": "characters/nojinho.webp"
+    },
+    "medo": {
+      "status": "missing",
+      "file": "characters/medo.webp"
+    },
+    "ansiedade": {
+      "status": "missing",
+      "file": "characters/ansiedade.webp"
+    },
+    "bing-bong": {
+      "status": "missing",
+      "file": "characters/bing-bong.webp"
+    },
+    "miguel-coco": {
+      "status": "missing",
+      "file": "characters/miguel-coco.webp"
+    },
+    "hector-coco": {
+      "status": "missing",
+      "file": "characters/hector-coco.webp"
+    },
+    "eva-wall-e": {
+      "status": "missing",
+      "file": "characters/eva-wall-e.webp"
+    },
+    "luca-paguro": {
+      "status": "missing",
+      "file": "characters/luca-paguro.webp"
+    },
+    "mei-lee": {
+      "status": "missing",
+      "file": "characters/mei-lee.webp"
+    },
+    "kristoff": {
+      "status": "missing",
+      "file": "characters/kristoff.webp"
+    },
+    "sven": {
+      "status": "missing",
+      "file": "characters/sven.webp"
+    },
+    "nala": {
+      "status": "missing",
+      "file": "characters/nala.webp"
+    },
+    "rafiki": {
+      "status": "missing",
+      "file": "characters/rafiki.webp"
+    },
+    "zazu": {
+      "status": "missing",
+      "file": "characters/zazu.webp"
+    },
+    "mirabel": {
+      "status": "missing",
+      "file": "characters/mirabel.webp"
+    },
+    "bruno-madrigal": {
+      "status": "missing",
+      "file": "characters/bruno-madrigal.webp"
+    },
+    "luisa-madrigal": {
+      "status": "missing",
+      "file": "characters/luisa-madrigal.webp"
+    },
+    "judy-hopps": {
+      "status": "missing",
+      "file": "characters/judy-hopps.webp"
+    },
+    "nick-wilde": {
+      "status": "missing",
+      "file": "characters/nick-wilde.webp"
+    },
+    "heihei": {
+      "status": "missing",
+      "file": "characters/heihei.webp"
+    },
+    "flynn-rider": {
+      "status": "missing",
+      "file": "characters/flynn-rider.webp"
+    },
+    "pascal": {
+      "status": "missing",
+      "file": "characters/pascal.webp"
+    },
+    "sebastiao": {
+      "status": "missing",
+      "file": "characters/sebastiao.webp"
+    },
+    "linguado": {
+      "status": "missing",
+      "file": "characters/linguado.webp"
+    },
+    "rei-tritao": {
+      "status": "missing",
+      "file": "characters/rei-tritao.webp"
+    },
+    "lumiere": {
+      "status": "missing",
+      "file": "characters/lumiere.webp"
+    },
+    "gaston": {
+      "status": "missing",
+      "file": "characters/gaston.webp"
+    },
+    "madame-samovar": {
+      "status": "missing",
+      "file": "characters/madame-samovar.webp"
+    },
+    "jafar": {
+      "status": "missing",
+      "file": "characters/jafar.webp"
+    },
+    "abu": {
+      "status": "missing",
+      "file": "characters/abu.webp"
+    },
+    "iago": {
+      "status": "missing",
+      "file": "characters/iago.webp"
+    },
+    "mushu": {
+      "status": "missing",
+      "file": "characters/mushu.webp"
+    },
+    "hades-disney": {
+      "status": "missing",
+      "file": "characters/hades-disney.webp"
+    },
+    "megara": {
+      "status": "missing",
+      "file": "characters/megara.webp"
+    },
+    "rainha-ma": {
+      "status": "missing",
+      "file": "characters/rainha-ma.webp"
+    },
+    "alice-pais-das-maravilhas": {
+      "status": "missing",
+      "file": "characters/alice-pais-das-maravilhas.webp"
+    },
+    "gato-de-cheshire": {
+      "status": "missing",
+      "file": "characters/gato-de-cheshire.webp"
+    },
+    "chapeleiro-maluco": {
+      "status": "missing",
+      "file": "characters/chapeleiro-maluco.webp"
+    },
+    "ursinho-pooh": {
+      "status": "missing",
+      "file": "characters/ursinho-pooh.webp"
+    },
+    "tigrao": {
+      "status": "missing",
+      "file": "characters/tigrao.webp"
+    },
+    "leitao": {
+      "status": "missing",
+      "file": "characters/leitao.webp"
+    },
+    "bisonho": {
+      "status": "missing",
+      "file": "characters/bisonho.webp"
+    },
+    "lilo": {
+      "status": "missing",
+      "file": "characters/lilo.webp"
+    },
+    "vanellope": {
+      "status": "missing",
+      "file": "characters/vanellope.webp"
+    },
+    "tiana": {
+      "status": "missing",
+      "file": "characters/tiana.webp"
+    },
+    "tambor": {
+      "status": "missing",
+      "file": "characters/tambor.webp"
+    },
+    "grilo-falante": {
+      "status": "missing",
+      "file": "characters/grilo-falante.webp"
+    },
+    "robin-hood-disney": {
+      "status": "missing",
+      "file": "characters/robin-hood-disney.webp"
+    },
+    "lord-farquaad": {
+      "status": "missing",
+      "file": "characters/lord-farquaad.webp"
+    },
+    "homem-biscoito": {
+      "status": "missing",
+      "file": "characters/homem-biscoito.webp"
+    },
+    "tigresa": {
+      "status": "missing",
+      "file": "characters/tigresa.webp"
+    },
+    "mestre-shifu": {
+      "status": "missing",
+      "file": "characters/mestre-shifu.webp"
+    },
+    "tai-lung": {
+      "status": "missing",
+      "file": "characters/tai-lung.webp"
+    },
+    "soluco": {
+      "status": "missing",
+      "file": "characters/soluco.webp"
+    },
+    "alex-o-leao": {
+      "status": "missing",
+      "file": "characters/alex-o-leao.webp"
+    },
+    "marty-a-zebra": {
+      "status": "missing",
+      "file": "characters/marty-a-zebra.webp"
+    },
+    "gloria-hipopotamo": {
+      "status": "missing",
+      "file": "characters/gloria-hipopotamo.webp"
+    },
+    "melman": {
+      "status": "missing",
+      "file": "characters/melman.webp"
+    },
+    "pinguins-de-madagascar": {
+      "status": "missing",
+      "file": "characters/pinguins-de-madagascar.webp"
+    },
+    "manny-mamute": {
+      "status": "missing",
+      "file": "characters/manny-mamute.webp"
+    },
+    "agnes": {
+      "status": "missing",
+      "file": "characters/agnes.webp"
+    },
+    "mavis": {
+      "status": "missing",
+      "file": "characters/mavis.webp"
+    },
+    "blu-rio": {
+      "status": "missing",
+      "file": "characters/blu-rio.webp"
+    },
+    "megamente": {
+      "status": "missing",
+      "file": "characters/megamente.webp"
+    },
+    "poppy-trolls": {
+      "status": "missing",
+      "file": "characters/poppy-trolls.webp"
+    },
+    "tronco-trolls": {
+      "status": "missing",
+      "file": "characters/tronco-trolls.webp"
+    },
+    "lorax": {
+      "status": "missing",
+      "file": "characters/lorax.webp"
+    },
+    "grinch": {
+      "status": "missing",
+      "file": "characters/grinch.webp"
+    },
+    "jack-skellington": {
+      "status": "missing",
+      "file": "characters/jack-skellington.webp"
+    },
+    "coraline": {
+      "status": "missing",
+      "file": "characters/coraline.webp"
+    },
+    "shaun-o-carneiro": {
+      "status": "missing",
+      "file": "characters/shaun-o-carneiro.webp"
+    },
+    "wallace-e-gromit": {
+      "status": "missing",
+      "file": "characters/wallace-e-gromit.webp"
+    },
+    "spirit": {
+      "status": "missing",
+      "file": "characters/spirit.webp"
+    },
+    "goten": {
+      "status": "missing",
+      "file": "characters/goten.webp"
+    },
+    "chi-chi": {
+      "status": "missing",
+      "file": "characters/chi-chi.webp"
+    },
+    "androide-18": {
+      "status": "missing",
+      "file": "characters/androide-18.webp"
+    },
+    "androide-17": {
+      "status": "missing",
+      "file": "characters/androide-17.webp"
+    },
+    "tenshinhan": {
+      "status": "missing",
+      "file": "characters/tenshinhan.webp"
+    },
+    "yamcha": {
+      "status": "missing",
+      "file": "characters/yamcha.webp"
+    },
+    "mr-satan": {
+      "status": "missing",
+      "file": "characters/mr-satan.webp"
+    },
+    "bills": {
+      "status": "missing",
+      "file": "characters/bills.webp"
+    },
+    "whis": {
+      "status": "missing",
+      "file": "characters/whis.webp"
+    },
+    "shenlong": {
+      "status": "missing",
+      "file": "characters/shenlong.webp"
+    },
+    "broly": {
+      "status": "missing",
+      "file": "characters/broly.webp"
+    },
+    "gotenks": {
+      "status": "missing",
+      "file": "characters/gotenks.webp"
+    },
+    "vegetto": {
+      "status": "missing",
+      "file": "characters/vegetto.webp"
+    },
+    "raditz": {
+      "status": "missing",
+      "file": "characters/raditz.webp"
+    },
+    "jiren": {
+      "status": "missing",
+      "file": "characters/jiren.webp"
+    },
+    "orochimaru": {
+      "status": "missing",
+      "file": "characters/orochimaru.webp"
+    },
+    "tsunade": {
+      "status": "missing",
+      "file": "characters/tsunade.webp"
+    },
+    "madara-uchiha": {
+      "status": "missing",
+      "file": "characters/madara-uchiha.webp"
+    },
+    "obito-uchiha": {
+      "status": "missing",
+      "file": "characters/obito-uchiha.webp"
+    },
+    "minato-namikaze": {
+      "status": "missing",
+      "file": "characters/minato-namikaze.webp"
+    },
+    "rock-lee": {
+      "status": "missing",
+      "file": "characters/rock-lee.webp"
+    },
+    "shikamaru-nara": {
+      "status": "missing",
+      "file": "characters/shikamaru-nara.webp"
+    },
+    "neji-hyuga": {
+      "status": "missing",
+      "file": "characters/neji-hyuga.webp"
+    },
+    "pain-naruto": {
+      "status": "missing",
+      "file": "characters/pain-naruto.webp"
+    },
+    "kyuubi": {
+      "status": "missing",
+      "file": "characters/kyuubi.webp"
+    },
+    "boruto-uzumaki": {
+      "status": "missing",
+      "file": "characters/boruto-uzumaki.webp"
+    },
+    "deidara": {
+      "status": "missing",
+      "file": "characters/deidara.webp"
+    },
+    "usopp": {
+      "status": "missing",
+      "file": "characters/usopp.webp"
+    },
+    "nico-robin": {
+      "status": "missing",
+      "file": "characters/nico-robin.webp"
+    },
+    "franky": {
+      "status": "missing",
+      "file": "characters/franky.webp"
+    },
+    "brook": {
+      "status": "missing",
+      "file": "characters/brook.webp"
+    },
+    "jinbe": {
+      "status": "missing",
+      "file": "characters/jinbe.webp"
+    },
+    "portgas-d-ace": {
+      "status": "missing",
+      "file": "characters/portgas-d-ace.webp"
+    },
+    "shanks": {
+      "status": "missing",
+      "file": "characters/shanks.webp"
+    },
+    "barba-branca": {
+      "status": "missing",
+      "file": "characters/barba-branca.webp"
+    },
+    "boa-hancock": {
+      "status": "missing",
+      "file": "characters/boa-hancock.webp"
+    },
+    "trafalgar-law": {
+      "status": "missing",
+      "file": "characters/trafalgar-law.webp"
+    },
+    "mihawk": {
+      "status": "missing",
+      "file": "characters/mihawk.webp"
+    },
+    "buggy": {
+      "status": "missing",
+      "file": "characters/buggy.webp"
+    },
+    "kaido": {
+      "status": "missing",
+      "file": "characters/kaido.webp"
+    },
+    "brock": {
+      "status": "missing",
+      "file": "characters/brock.webp"
+    },
+    "misty": {
+      "status": "missing",
+      "file": "characters/misty.webp"
+    },
+    "equipe-rocket": {
+      "status": "missing",
+      "file": "characters/equipe-rocket.webp"
+    },
+    "lucario": {
+      "status": "missing",
+      "file": "characters/lucario.webp"
+    },
+    "greninja": {
+      "status": "missing",
+      "file": "characters/greninja.webp"
+    },
+    "mew": {
+      "status": "missing",
+      "file": "characters/mew.webp"
+    },
+    "lugia": {
+      "status": "missing",
+      "file": "characters/lugia.webp"
+    },
+    "gyarados": {
+      "status": "missing",
+      "file": "characters/gyarados.webp"
+    },
+    "dragonite": {
+      "status": "missing",
+      "file": "characters/dragonite.webp"
+    },
+    "onix": {
+      "status": "missing",
+      "file": "characters/onix.webp"
+    },
+    "togepi": {
+      "status": "missing",
+      "file": "characters/togepi.webp"
+    },
+    "blastoise": {
+      "status": "missing",
+      "file": "characters/blastoise.webp"
+    },
+    "venusaur": {
+      "status": "missing",
+      "file": "characters/venusaur.webp"
+    },
+    "raichu": {
+      "status": "missing",
+      "file": "characters/raichu.webp"
+    },
+    "magikarp": {
+      "status": "missing",
+      "file": "characters/magikarp.webp"
+    },
+    "ditto": {
+      "status": "missing",
+      "file": "characters/ditto.webp"
+    },
+    "lapras": {
+      "status": "missing",
+      "file": "characters/lapras.webp"
+    },
+    "arcanine": {
+      "status": "missing",
+      "file": "characters/arcanine.webp"
+    },
+    "cubone": {
+      "status": "missing",
+      "file": "characters/cubone.webp"
+    },
+    "umbreon": {
+      "status": "missing",
+      "file": "characters/umbreon.webp"
+    },
+    "hyoga-de-cisne": {
+      "status": "missing",
+      "file": "characters/hyoga-de-cisne.webp"
+    },
+    "shun-de-andromeda": {
+      "status": "missing",
+      "file": "characters/shun-de-andromeda.webp"
+    },
+    "saori-kido": {
+      "status": "missing",
+      "file": "characters/saori-kido.webp"
+    },
+    "shaka-de-virgem": {
+      "status": "missing",
+      "file": "characters/shaka-de-virgem.webp"
+    },
+    "kuwabara": {
+      "status": "missing",
+      "file": "characters/kuwabara.webp"
+    },
+    "hiei": {
+      "status": "missing",
+      "file": "characters/hiei.webp"
+    },
+    "kurama-yu-yu-hakusho": {
+      "status": "missing",
+      "file": "characters/kurama-yu-yu-hakusho.webp"
+    },
+    "toguro": {
+      "status": "missing",
+      "file": "characters/toguro.webp"
+    },
+    "rukia-kuchiki": {
+      "status": "missing",
+      "file": "characters/rukia-kuchiki.webp"
+    },
+    "sosuke-aizen": {
+      "status": "missing",
+      "file": "characters/sosuke-aizen.webp"
+    },
+    "misa-amane": {
+      "status": "missing",
+      "file": "characters/misa-amane.webp"
+    },
+    "armin-arlert": {
+      "status": "missing",
+      "file": "characters/armin-arlert.webp"
+    },
+    "erwin-smith": {
+      "status": "missing",
+      "file": "characters/erwin-smith.webp"
+    },
+    "inosuke-hashibira": {
+      "status": "missing",
+      "file": "characters/inosuke-hashibira.webp"
+    },
+    "giyu-tomioka": {
+      "status": "missing",
+      "file": "characters/giyu-tomioka.webp"
+    },
+    "shinobu-kocho": {
+      "status": "missing",
+      "file": "characters/shinobu-kocho.webp"
+    },
+    "muzan-kibutsuji": {
+      "status": "missing",
+      "file": "characters/muzan-kibutsuji.webp"
+    },
+    "akaza": {
+      "status": "missing",
+      "file": "characters/akaza.webp"
+    },
+    "sukuna": {
+      "status": "missing",
+      "file": "characters/sukuna.webp"
+    },
+    "megumi-fushiguro": {
+      "status": "missing",
+      "file": "characters/megumi-fushiguro.webp"
+    },
+    "nobara-kugisaki": {
+      "status": "missing",
+      "file": "characters/nobara-kugisaki.webp"
+    },
+    "gon-freecss": {
+      "status": "missing",
+      "file": "characters/gon-freecss.webp"
+    },
+    "killua-zoldyck": {
+      "status": "missing",
+      "file": "characters/killua-zoldyck.webp"
+    },
+    "hisoka": {
+      "status": "missing",
+      "file": "characters/hisoka.webp"
+    },
+    "kurapika": {
+      "status": "missing",
+      "file": "characters/kurapika.webp"
+    },
+    "alphonse-elric": {
+      "status": "missing",
+      "file": "characters/alphonse-elric.webp"
+    },
+    "roy-mustang": {
+      "status": "missing",
+      "file": "characters/roy-mustang.webp"
+    },
+    "genos": {
+      "status": "missing",
+      "file": "characters/genos.webp"
+    },
+    "all-might": {
+      "status": "missing",
+      "file": "characters/all-might.webp"
+    },
+    "katsuki-bakugo": {
+      "status": "missing",
+      "file": "characters/katsuki-bakugo.webp"
+    },
+    "shoto-todoroki": {
+      "status": "missing",
+      "file": "characters/shoto-todoroki.webp"
+    },
+    "ochaco-uraraka": {
+      "status": "missing",
+      "file": "characters/ochaco-uraraka.webp"
+    },
+    "jotaro-kujo": {
+      "status": "missing",
+      "file": "characters/jotaro-kujo.webp"
+    },
+    "dio-brando": {
+      "status": "missing",
+      "file": "characters/dio-brando.webp"
+    },
+    "giorno-giovanna": {
+      "status": "missing",
+      "file": "characters/giorno-giovanna.webp"
+    },
+    "inuyasha": {
+      "status": "missing",
+      "file": "characters/inuyasha.webp"
+    },
+    "kagome-higurashi": {
+      "status": "missing",
+      "file": "characters/kagome-higurashi.webp"
+    },
+    "sesshomaru": {
+      "status": "missing",
+      "file": "characters/sesshomaru.webp"
+    },
+    "shinji-ikari": {
+      "status": "missing",
+      "file": "characters/shinji-ikari.webp"
+    },
+    "rei-ayanami": {
+      "status": "missing",
+      "file": "characters/rei-ayanami.webp"
+    },
+    "asuka-langley": {
+      "status": "missing",
+      "file": "characters/asuka-langley.webp"
+    },
+    "eva-01": {
+      "status": "missing",
+      "file": "characters/eva-01.webp"
+    },
+    "denji": {
+      "status": "missing",
+      "file": "characters/denji.webp"
+    },
+    "makima": {
+      "status": "missing",
+      "file": "characters/makima.webp"
+    },
+    "pochita": {
+      "status": "missing",
+      "file": "characters/pochita.webp"
+    },
+    "anya-forger": {
+      "status": "missing",
+      "file": "characters/anya-forger.webp"
+    },
+    "loid-forger": {
+      "status": "missing",
+      "file": "characters/loid-forger.webp"
+    },
+    "yor-forger": {
+      "status": "missing",
+      "file": "characters/yor-forger.webp"
+    },
+    "shoyo-hinata": {
+      "status": "missing",
+      "file": "characters/shoyo-hinata.webp"
+    },
+    "ken-kaneki": {
+      "status": "missing",
+      "file": "characters/ken-kaneki.webp"
+    },
+    "frieren": {
+      "status": "missing",
+      "file": "characters/frieren.webp"
+    },
+    "sung-jinwoo": {
+      "status": "missing",
+      "file": "characters/sung-jinwoo.webp"
+    },
+    "conan-edogawa": {
+      "status": "missing",
+      "file": "characters/conan-edogawa.webp"
+    },
+    "asta-black-clover": {
+      "status": "missing",
+      "file": "characters/asta-black-clover.webp"
+    },
+    "spike-spiegel": {
+      "status": "missing",
+      "file": "characters/spike-spiegel.webp"
+    },
+    "kaneda": {
+      "status": "missing",
+      "file": "characters/kaneda.webp"
+    },
+    "lupin-iii": {
+      "status": "missing",
+      "file": "characters/lupin-iii.webp"
+    },
+    "oliver-tsubasa": {
+      "status": "missing",
+      "file": "characters/oliver-tsubasa.webp"
+    },
+    "benji-price": {
+      "status": "missing",
+      "file": "characters/benji-price.webp"
+    },
+    "sakura-kinomoto": {
+      "status": "missing",
+      "file": "characters/sakura-kinomoto.webp"
+    },
+    "kero": {
+      "status": "missing",
+      "file": "characters/kero.webp"
+    },
+    "hamtaro": {
+      "status": "missing",
+      "file": "characters/hamtaro.webp"
+    },
+    "astro-boy": {
+      "status": "missing",
+      "file": "characters/astro-boy.webp"
+    },
+    "speed-racer": {
+      "status": "missing",
+      "file": "characters/speed-racer.webp"
+    },
+    "nobita": {
+      "status": "missing",
+      "file": "characters/nobita.webp"
+    },
+    "agumon": {
+      "status": "missing",
+      "file": "characters/agumon.webp"
+    },
+    "gabumon": {
+      "status": "missing",
+      "file": "characters/gabumon.webp"
+    },
+    "mago-negro": {
+      "status": "missing",
+      "file": "characters/mago-negro.webp"
+    },
+    "dragao-branco-de-olhos-azuis": {
+      "status": "missing",
+      "file": "characters/dragao-branco-de-olhos-azuis.webp"
+    },
+    "joey-wheeler": {
+      "status": "missing",
+      "file": "characters/joey-wheeler.webp"
+    },
+    "sailor-mercury": {
+      "status": "missing",
+      "file": "characters/sailor-mercury.webp"
+    },
+    "sailor-mars": {
+      "status": "missing",
+      "file": "characters/sailor-mars.webp"
+    },
+    "tuxedo-mask": {
+      "status": "missing",
+      "file": "characters/tuxedo-mask.webp"
+    },
+    "chihiro": {
+      "status": "missing",
+      "file": "characters/chihiro.webp"
+    },
+    "haku-ghibli": {
+      "status": "missing",
+      "file": "characters/haku-ghibli.webp"
+    },
+    "kiki": {
+      "status": "missing",
+      "file": "characters/kiki.webp"
+    },
+    "howl": {
+      "status": "missing",
+      "file": "characters/howl.webp"
+    },
+    "calcifer": {
+      "status": "missing",
+      "file": "characters/calcifer.webp"
+    },
+    "ponyo": {
+      "status": "missing",
+      "file": "characters/ponyo.webp"
+    },
+    "princesa-mononoke": {
+      "status": "missing",
+      "file": "characters/princesa-mononoke.webp"
+    },
+    "gatobus": {
+      "status": "missing",
+      "file": "characters/gatobus.webp"
+    },
+    "porco-rosso": {
+      "status": "missing",
+      "file": "characters/porco-rosso.webp"
     }
   }
 }
