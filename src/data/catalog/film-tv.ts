@@ -151,4 +151,17 @@ export default rows('film-tv', [
   ['jigsaw', 2, 'Jigsaw', 'Jigsaw|Billy (Jogos Mortais)', 'Jogos Mortais'],
   ['leatherface', 3, 'Leatherface', 'Leatherface|Cara de Couro', 'O Massacre da Serra Elétrica'],
   ['pinhead', 3, 'Pinhead', 'Pinhead', 'Hellraiser'],
+  // Bonecos e criaturas da TV e do cinema
+  ['caco-o-sapo', 1, 'Caco, o Sapo', 'Caco|Caco o Sapo|Kermit|Kermit the Frog', 'Os Muppets'],
+  ['miss-piggy', 2, 'Miss Piggy', 'Miss Piggy', 'Os Muppets'],
+  ['elmo', 1, 'Elmo', 'Elmo', 'Vila Sésamo'],
+  ['come-come', 1, 'Come-Come', 'Come-Come|Cookie Monster|Monstro dos Biscoitos', 'Vila Sésamo'],
+  ['garibaldo', 2, 'Garibaldo', 'Garibaldo|Big Bird', 'Vila Sésamo'],
+  ['oscar-resmungao', 2, 'Oscar Resmungão', 'Oscar Resmungão|Oscar the Grouch', 'Vila Sésamo'],
+  ['bananas-de-pijama', 2, 'Bananas de Pijama', 'Bananas de Pijama|B1 e B2|Bananas in Pyjamas', 'Bananas de Pijama'],
+  ['alf', 2, 'ALF', 'ALF|Alf, o ETeimoso', 'ALF'],
+  ['oompa-loompa', 2, 'Oompa-Loompa', 'Oompa-Loompa|Oompa Loompa|Umpa-Lumpa', 'A Fantástica Fábrica de Chocolate'],
+  ['tubarao', 2, 'Tubarão', 'Tubarão|Jaws', 'Tubarão'],
+  ['tiranossauro-rex', 2, 'Tiranossauro Rex', 'Tiranossauro Rex|T-Rex|Tiranossauro', 'Jurassic Park'],
+  ['smaug', 3, 'Smaug', 'Smaug', 'O Hobbit'],
 ]);

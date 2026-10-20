@@ -192,4 +192,7 @@ export default rows('celebrity', [
   ['luva-de-pedreiro', 2, 'Luva de Pedreiro', 'Luva de Pedreiro|Iran Ferreira', 'Criador de conteúdo (Brasil)'],
   ['juliette', 2, 'Juliette', 'Juliette|Juliette Freire', 'Vencedora do BBB (Brasil)'],
   ['gil-do-vigor', 2, 'Gil do Vigor', 'Gil do Vigor|Gilberto Nogueira', 'Celebridade (Brasil)'],
+  ['adriana-lima', 2, 'Adriana Lima', 'Adriana Lima', 'Modelo (Brasil)'],
+  ['naomi-campbell', 2, 'Naomi Campbell', 'Naomi Campbell', 'Modelo (Reino Unido)'],
+  ['cindy-crawford', 2, 'Cindy Crawford', 'Cindy Crawford', 'Modelo (EUA)'],
 ]);

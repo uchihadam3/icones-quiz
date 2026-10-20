@@ -125,6 +125,9 @@ export const ACTOR_CHARACTER_CONFLICTS: readonly [string, string][] = [
   ['odete-roitman', 'Beatriz Segall'],
   ['carminha', 'Adriana Esteves'],
   ['felix-amor-a-vida', 'Mateus Solano'],
+  ['senhor-das-estrelas', 'Chris Pratt'],
+  ['gamora', 'Zoe Saldaña'],
+  ['drax', 'Dave Bautista'],
   // Pessoa escolhida no lugar do personagem (o personagem NÃO entra enquanto o ator estiver no catálogo)
   ['thomas-shelby', 'Cillian Murphy'],
   ['vito-corleone', 'Marlon Brando'],

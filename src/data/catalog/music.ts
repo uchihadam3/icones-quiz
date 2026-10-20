@@ -226,4 +226,11 @@ export default rows('music', [
   ['mano-brown', 2, 'Mano Brown', 'Mano Brown', "Rapper (Racionais MC's)"],
   ['marcelo-d2', 2, 'Marcelo D2', 'Marcelo D2', 'Rapper (Brasil)'],
   ['gabriel-o-pensador', 2, 'Gabriel o Pensador', 'Gabriel o Pensador|Gabriel, o Pensador', 'Rapper (Brasil)'],
+  ['luiz-gonzaga', 2, 'Luiz Gonzaga', 'Luiz Gonzaga', 'Cantor (Brasil)', 'Rei do Baião|Gonzagão'],
+  ['elba-ramalho', 2, 'Elba Ramalho', 'Elba Ramalho', 'Cantora (Brasil)'],
+  ['ze-ramalho', 2, 'Zé Ramalho', 'Zé Ramalho', 'Cantor (Brasil)'],
+  ['belchior', 2, 'Belchior', 'Belchior', 'Cantor (Brasil)'],
+  ['wanessa-camargo', 2, 'Wanessa Camargo', 'Wanessa Camargo|Wanessa', 'Cantora (Brasil)'],
+  ['kelly-key', 2, 'Kelly Key', 'Kelly Key', 'Cantora (Brasil)'],
+  ['latino', 2, 'Latino', 'Latino', 'Cantor (Brasil)'],
 ]);

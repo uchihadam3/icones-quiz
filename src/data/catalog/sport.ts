@@ -141,4 +141,6 @@ export default rows('sport', [
   ['rey-mysterio', 2, 'Rey Mysterio', 'Rey Mysterio', 'Luta livre (WWE)'],
   ['stone-cold', 2, 'Stone Cold Steve Austin', 'Stone Cold Steve Austin|Stone Cold', 'Luta livre (WWE)'],
   ['magnus-carlsen', 2, 'Magnus Carlsen', 'Magnus Carlsen|Carlsen', 'Xadrez (Noruega)'],
+  ['daniel-alves', 2, 'Daniel Alves', 'Daniel Alves|Dani Alves', 'Futebol (Brasil)'],
+  ['philippe-coutinho', 2, 'Philippe Coutinho', 'Philippe Coutinho|Coutinho', 'Futebol (Brasil)'],
 ]);

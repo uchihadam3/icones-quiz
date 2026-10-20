@@ -15,6 +15,12 @@
 - Trilha original em 5 arranjos alinhados (ACE-Step 1.5, local) regida por diretor musical com histerese.
 - 28 eventos sonoros em camadas (Kenney CC0 + design próprio), controles de volume/mudo.
 - Catálogo de 583 ícones curados, carregado sob demanda; publicação de imagens com nome-hash.
+
+## ✅ Etapa 04 — expansão do catálogo e jogo mais justo
+
+- 1.492 ícones curados (+909), auditoria `npm run catalog:report` e fila de imagens priorizada.
+- Digitação justa (letra dobrada, "Snoop Dog", 2 edições em nomes longos) + corretor sem spoiler.
+- 25 s/20 s, alternativas recarregáveis (+1 a cada 15 acertos, metade dos pontos), barra "Recuperar vida".
 - Pendências: escuta humana da trilha/efeitos (ajustes de mix por ouvido) e as imagens.
 
 ## 2 — Pacote de imagens (com o Codex)

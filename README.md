@@ -6,8 +6,8 @@ digita quem é. Quanto mais acertos seguidos, maior o combo — e mais rápido a
 
 **Site:** https://uchihadam3.github.io/icones-quiz/
 
-> **Estado atual:** mecânicas, visual, trilha dinâmica, efeitos e catálogo de **583 ícones**
-> prontos. Há **278 imagens prontas**; a partida valendo recorde já está liberada. O treino ainda
+> **Estado atual:** mecânicas, visual, trilha dinâmica, efeitos e catálogo de **1.492 ícones**
+> curados. Há **278 imagens prontas** (as demais aguardam arte); a partida valendo recorde já está liberada. O treino ainda
 > mostra pôsteres neutros "Imagem a adicionar" para entradas sem imagem. Ver
 > [docs/IMAGE_INTEGRATION.md](docs/IMAGE_INTEGRATION.md) e [docs/AUDIO.md](docs/AUDIO.md).
 
@@ -37,6 +37,7 @@ npm run build
 npm run test:e2e     # Playwright (360px e desktop) contra o build
 npm run assets:sync  # manifesto de imagens + resumo da home (após mexer no catálogo)
 npm run assets:report # total, missing/ready/rejected, por categoria e nível
+npm run catalog:report # auditoria do catálogo + fila priorizada de imagens (-- --write grava reports/)
 ```
 
 Para o E2E num ambiente com Chromium pré-instalado: `PLAYWRIGHT_CHROMIUM_PATH=/caminho/chrome npm run test:e2e`;

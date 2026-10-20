@@ -172,4 +172,13 @@ export default rows('animation', [
   ['shaun-o-carneiro', 2, 'Shaun, o Carneiro', 'Shaun o Carneiro|Shaun the Sheep|Shaun', 'Shaun, o Carneiro'],
   ['wallace-e-gromit', 3, 'Wallace e Gromit', 'Wallace e Gromit|Wallace and Gromit', 'Wallace e Gromit'],
   ['spirit', 3, 'Spirit', 'Spirit', 'Spirit: O Corcel Indomável'],
+  ['shere-khan', 2, 'Shere Khan', 'Shere Khan|Xerecão', 'Mogli'],
+  ['bagheera', 2, 'Bagheera', 'Bagheera', 'Mogli'],
+  ['rei-louie', 3, 'Rei Louie', 'Rei Louie|King Louie', 'Mogli'],
+  ['kaa', 3, 'Kaa', 'Kaa', 'Mogli'],
+  ['kuzco', 2, 'Kuzco', 'Kuzco|Imperador Kuzco', 'A Nova Onda do Imperador'],
+  ['yzma', 3, 'Yzma', 'Yzma', 'A Nova Onda do Imperador'],
+  ['poderoso-chefinho', 2, 'O Poderoso Chefinho', 'O Poderoso Chefinho|Poderoso Chefinho|Chefinho|Boss Baby', 'O Poderoso Chefinho'],
+  ['chicken-little', 3, 'Chicken Little', 'Chicken Little|Galinho Chicken Little', 'O Galinho Chicken Little'],
+  ['gepeto', 3, 'Gepeto', 'Gepeto|Geppetto', 'Pinóquio'],
 ]);

@@ -4,33 +4,33 @@
     "label": "início da Etapa 04 (main bb8b501)",
     "total": 583
   },
-  "total": 1393,
-  "added": 810,
+  "total": 1492,
+  "added": 909,
   "levels": {
-    "n1": 223,
-    "n2": 949,
-    "n3": 221,
-    "n3Share": 15.9
+    "n1": 227,
+    "n2": 997,
+    "n3": 268,
+    "n3Share": 18
   },
   "statuses": {
     "missing": {
-      "count": 1115,
-      "percent": 80
+      "count": 1214,
+      "percent": 81.4
     },
     "ready": {
       "count": 278,
-      "percent": 20
+      "percent": 18.6
     }
   },
   "byCategory": {
     "animation": {
-      "total": 161,
-      "novos": 96,
+      "total": 170,
+      "novos": 105,
       "n1": 29,
-      "n2": 101,
-      "n3": 31,
+      "n2": 105,
+      "n3": 36,
       "ready": 4,
-      "missing": 157,
+      "missing": 166,
       "rejected": 0
     },
     "anime": {
@@ -44,88 +44,88 @@
       "rejected": 0
     },
     "cartoon": {
-      "total": 177,
-      "novos": 103,
-      "n1": 27,
-      "n2": 125,
-      "n3": 25,
+      "total": 218,
+      "novos": 144,
+      "n1": 28,
+      "n2": 142,
+      "n3": 48,
       "ready": 30,
-      "missing": 147,
+      "missing": 188,
       "rejected": 0
     },
     "celebrity": {
-      "total": 178,
-      "novos": 94,
+      "total": 181,
+      "novos": 97,
       "n1": 24,
-      "n2": 151,
+      "n2": 154,
       "n3": 3,
       "ready": 64,
-      "missing": 114,
+      "missing": 117,
       "rejected": 0
     },
     "comics": {
-      "total": 83,
-      "novos": 43,
+      "total": 94,
+      "novos": 54,
       "n1": 12,
-      "n2": 43,
-      "n3": 28,
+      "n2": 45,
+      "n3": 37,
       "ready": 4,
-      "missing": 79,
+      "missing": 90,
       "rejected": 0
     },
     "film-tv": {
-      "total": 131,
-      "novos": 72,
-      "n1": 21,
-      "n2": 97,
-      "n3": 13,
+      "total": 143,
+      "novos": 84,
+      "n1": 24,
+      "n2": 105,
+      "n3": 14,
       "ready": 6,
-      "missing": 125,
+      "missing": 137,
       "rejected": 0
     },
     "game": {
-      "total": 117,
-      "novos": 79,
+      "total": 131,
+      "novos": 93,
       "n1": 11,
-      "n2": 61,
-      "n3": 45,
+      "n2": 66,
+      "n3": 54,
       "ready": 25,
-      "missing": 92,
+      "missing": 106,
       "rejected": 0
     },
     "music": {
-      "total": 214,
-      "novos": 111,
+      "total": 221,
+      "novos": 118,
       "n1": 69,
-      "n2": 144,
+      "n2": 151,
       "n3": 1,
       "ready": 60,
-      "missing": 154,
+      "missing": 161,
       "rejected": 0
     },
     "sport": {
-      "total": 125,
-      "novos": 70,
+      "total": 127,
+      "novos": 72,
       "n1": 26,
-      "n2": 95,
+      "n2": 97,
       "n3": 4,
       "ready": 31,
-      "missing": 94,
+      "missing": 96,
       "rejected": 0
     }
   },
   "topFranchises": [
     {
+      "category": "comics",
+      "origin": "Marvel",
+      "count": 34,
+      "shareOfCategory": 36.2
+    },
+    {
       "category": "anime",
       "origin": "Pokémon",
       "count": 33,
       "shareOfCategory": 15.9
-    },
-    {
-      "category": "comics",
-      "origin": "Marvel",
-      "count": 28,
-      "shareOfCategory": 33.7
     },
     {
       "category": "anime",
@@ -136,8 +136,8 @@
     {
       "category": "comics",
       "origin": "DC",
-      "count": 24,
-      "shareOfCategory": 28.9
+      "count": 25,
+      "shareOfCategory": 26.6
     },
     {
       "category": "anime",
@@ -155,55 +155,61 @@
       "category": "film-tv",
       "origin": "Star Wars",
       "count": 16,
+      "shareOfCategory": 11.2
+    },
+    {
+      "category": "game",
+      "origin": "Super Mario",
+      "count": 16,
       "shareOfCategory": 12.2
     },
     {
       "category": "cartoon",
       "origin": "Looney Tunes",
       "count": 15,
-      "shareOfCategory": 8.5
+      "shareOfCategory": 6.9
     },
     {
-      "category": "game",
-      "origin": "Super Mario",
+      "category": "cartoon",
+      "origin": "Os Simpsons",
       "count": 13,
-      "shareOfCategory": 11.1
+      "shareOfCategory": 6
+    },
+    {
+      "category": "cartoon",
+      "origin": "Turma da Mônica",
+      "count": 11,
+      "shareOfCategory": 5
     },
     {
       "category": "film-tv",
       "origin": "Chaves (Chespirito)",
       "count": 11,
-      "shareOfCategory": 8.4
+      "shareOfCategory": 7.7
     },
     {
       "category": "game",
       "origin": "Street Fighter",
       "count": 11,
-      "shareOfCategory": 9.4
+      "shareOfCategory": 8.4
     },
     {
       "category": "animation",
       "origin": "Toy Story",
       "count": 10,
-      "shareOfCategory": 6.2
+      "shareOfCategory": 5.9
     },
     {
       "category": "cartoon",
       "origin": "Disney",
       "count": 10,
-      "shareOfCategory": 5.6
-    },
-    {
-      "category": "cartoon",
-      "origin": "Os Simpsons",
-      "count": 10,
-      "shareOfCategory": 5.6
+      "shareOfCategory": 4.6
     },
     {
       "category": "film-tv",
       "origin": "Harry Potter",
       "count": 10,
-      "shareOfCategory": 7.6
+      "shareOfCategory": 7
     },
     {
       "category": "anime",
@@ -212,22 +218,28 @@
       "shareOfCategory": 4.3
     },
     {
-      "category": "cartoon",
-      "origin": "Turma da Mônica",
-      "count": 9,
-      "shareOfCategory": 5.1
-    },
-    {
       "category": "animation",
       "origin": "O Rei Leão",
       "count": 8,
-      "shareOfCategory": 5
+      "shareOfCategory": 4.7
     },
     {
       "category": "animation",
       "origin": "Os Incríveis",
       "count": 8,
-      "shareOfCategory": 5
+      "shareOfCategory": 4.7
+    },
+    {
+      "category": "cartoon",
+      "origin": "Avatar: A Lenda de Aang",
+      "count": 8,
+      "shareOfCategory": 3.7
+    },
+    {
+      "category": "game",
+      "origin": "Mortal Kombat",
+      "count": 8,
+      "shareOfCategory": 6.1
     },
     {
       "category": "anime",
@@ -239,31 +251,19 @@
       "category": "cartoon",
       "origin": "Bob Esponja",
       "count": 7,
-      "shareOfCategory": 4
+      "shareOfCategory": 3.2
     },
     {
       "category": "cartoon",
-      "origin": "Avatar: A Lenda de Aang",
+      "origin": "Hora de Aventura",
       "count": 7,
-      "shareOfCategory": 4
+      "shareOfCategory": 3.2
     },
     {
       "category": "film-tv",
       "origin": "O Senhor dos Anéis",
       "count": 7,
-      "shareOfCategory": 5.3
-    },
-    {
-      "category": "game",
-      "origin": "Mortal Kombat",
-      "count": 7,
-      "shareOfCategory": 6
-    },
-    {
-      "category": "animation",
-      "origin": "Shrek",
-      "count": 6,
-      "shareOfCategory": 3.7
+      "shareOfCategory": 4.9
     }
   ],
   "review": {
@@ -285,6 +285,12 @@
         "keyA": "mate",
         "b": "matue",
         "keyB": "matue"
+      },
+      {
+        "a": "bela",
+        "keyA": "bela",
+        "b": "hela",
+        "keyB": "hela"
       },
       {
         "a": "bela",
@@ -317,6 +323,12 @@
         "keyB": "maul"
       },
       {
+        "a": "slinky",
+        "keyA": "slinky",
+        "b": "blinky",
+        "keyB": "blinky"
+      },
+      {
         "a": "marlin",
         "keyA": "marlin",
         "b": "marvin-o-marciano",
@@ -327,6 +339,12 @@
         "keyA": "crush",
         "b": "crash-bandicoot",
         "keyB": "crash"
+      },
+      {
+        "a": "luca-paguro",
+        "keyA": "luca",
+        "b": "luna-show-da-luna",
+        "keyB": "luna"
       },
       {
         "a": "luca-paguro",
@@ -347,10 +365,28 @@
         "keyB": "yoshi"
       },
       {
+        "a": "roronoa-zoro",
+        "keyA": "zoro",
+        "b": "goro",
+        "keyB": "goro"
+      },
+      {
+        "a": "nami",
+        "keyA": "nami",
+        "b": "navi",
+        "keyB": "navi"
+      },
+      {
         "a": "ikki-de-fenix",
         "keyA": "ikki",
         "b": "kiki",
         "keyB": "kiki"
+      },
+      {
+        "a": "satoru-gojo",
+        "keyA": "gojo",
+        "b": "goro",
+        "keyB": "goro"
       },
       {
         "a": "androide-18",
@@ -417,6 +453,12 @@
         "keyA": "joey",
         "b": "joel-tlou",
         "keyB": "joel"
+      },
+      {
+        "a": "tuxedo-mask",
+        "keyA": "darien",
+        "b": "cat-noir",
+        "keyB": "adrien"
       },
       {
         "a": "kiki",
@@ -611,6 +653,12 @@
         "keyB": "riri"
       },
       {
+        "a": "navi",
+        "keyA": "navi",
+        "b": "xavi",
+        "keyB": "xavi"
+      },
+      {
         "a": "lady-gaga",
         "keyA": "gaga",
         "b": "guga-kuerten",
@@ -661,6 +709,7 @@
       "megara: meg",
       "bisonho: io",
       "blu-rio: blu",
+      "kaa: kaa",
       "majin-boo: buu",
       "ash-ketchum: ash",
       "l-death-note: l",
@@ -680,15 +729,18 @@
       "fry-futurama: fry",
       "invasor-zim: zim",
       "bmo: bmo",
+      "uni: uni",
       "james-bond: 007",
       "e-t: et",
       "bb-8: bb8",
       "jogador-456: 456",
+      "alf: alf",
       "cj-gta: cj",
       "ryu-street-fighter: ryu",
       "ken-masters: ken",
       "kyo-kusanagi: kyo",
       "red-angry-birds: red",
+      "pou: pou",
       "jennifer-lopez: jlo",
       "kanye-west: ye",
       "psy: psy",
@@ -1179,6 +1231,51 @@
     },
     {
       "id": "spirit",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "shere-khan",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "bagheera",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "rei-louie",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "kaa",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "kuzco",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "yzma",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "poderoso-chefinho",
+      "category": "animation",
+      "level": 2
+    },
+    {
+      "id": "chicken-little",
+      "category": "animation",
+      "level": 3
+    },
+    {
+      "id": "gepeto",
       "category": "animation",
       "level": 3
     },
@@ -2408,6 +2505,211 @@
       "level": 3
     },
     {
+      "id": "gato-felix",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "betty-boop",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "droopy",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "mr-magoo",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "bob-o-construtor",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "thomas-trem",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "chase-patrulha-canina",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "skye-patrulha-canina",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "masha",
+      "category": "cartoon",
+      "level": 1
+    },
+    {
+      "id": "pocoyo",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "caillou",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "ladybug",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "cat-noir",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "pucca",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "moranguinho",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "kuromi",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "rainbow-dash",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "luna-show-da-luna",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "peixonauta",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "mr-meeseeks",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "ralph-wiggum",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "abe-simpson",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "sideshow-bob",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "lois-griffin",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "zoidberg",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "butters",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "danny-phantom",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "azula",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "princesa-caroco",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "gwen-tennyson",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "candace-flynn",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "tio-stan",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "chuckie-finster",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "doug-funnie",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "vingador",
+      "category": "cartoon",
+      "level": 2
+    },
+    {
+      "id": "uni",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "gato-guerreiro",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "orko",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "snarf",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "anjinho",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
+      "id": "louco",
+      "category": "cartoon",
+      "level": 3
+    },
+    {
       "id": "george-clooney",
       "category": "celebrity",
       "level": 2
@@ -2878,6 +3180,21 @@
       "level": 2
     },
     {
+      "id": "adriana-lima",
+      "category": "celebrity",
+      "level": 2
+    },
+    {
+      "id": "naomi-campbell",
+      "category": "celebrity",
+      "level": 2
+    },
+    {
+      "id": "cindy-crawford",
+      "category": "celebrity",
+      "level": 2
+    },
+    {
       "id": "visao",
       "category": "comics",
       "level": 2
@@ -3089,6 +3406,61 @@
     },
     {
       "id": "lucky-luke",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "senhor-das-estrelas",
+      "category": "comics",
+      "level": 2
+    },
+    {
+      "id": "gamora",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "drax",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "doutor-destino",
+      "category": "comics",
+      "level": 2
+    },
+    {
+      "id": "shang-chi",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "hela",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "mulher-hulk",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "cavaleiro-da-lua",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "apocalipse",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "rei-do-crime",
+      "category": "comics",
+      "level": 3
+    },
+    {
+      "id": "deathstroke",
       "category": "comics",
       "level": 3
     },
@@ -3449,6 +3821,66 @@
     },
     {
       "id": "pinhead",
+      "category": "film-tv",
+      "level": 3
+    },
+    {
+      "id": "caco-o-sapo",
+      "category": "film-tv",
+      "level": 1
+    },
+    {
+      "id": "miss-piggy",
+      "category": "film-tv",
+      "level": 2
+    },
+    {
+      "id": "elmo",
+      "category": "film-tv",
+      "level": 1
+    },
+    {
+      "id": "come-come",
+      "category": "film-tv",
+      "level": 1
+    },
+    {
+      "id": "garibaldo",
+      "category": "film-tv",
+      "level": 2
+    },
+    {
+      "id": "oscar-resmungao",
+      "category": "film-tv",
+      "level": 2
+    },
+    {
+      "id": "bananas-de-pijama",
+      "category": "film-tv",
+      "level": 2
+    },
+    {
+      "id": "alf",
+      "category": "film-tv",
+      "level": 2
+    },
+    {
+      "id": "oompa-loompa",
+      "category": "film-tv",
+      "level": 2
+    },
+    {
+      "id": "tubarao",
+      "category": "film-tv",
+      "level": 2
+    },
+    {
+      "id": "tiranossauro-rex",
+      "category": "film-tv",
+      "level": 2
+    },
+    {
+      "id": "smaug",
       "category": "film-tv",
       "level": 3
     },
@@ -3844,6 +4276,76 @@
     },
     {
       "id": "teemo",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "koopa-troopa",
+      "category": "game",
+      "level": 2
+    },
+    {
+      "id": "planta-piranha",
+      "category": "game",
+      "level": 2
+    },
+    {
+      "id": "lakitu",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "dixie-kong",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "king-k-rool",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "navi",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "blinky",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "heihachi",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "goro",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "yennefer",
+      "category": "game",
+      "level": 3
+    },
+    {
+      "id": "pou",
+      "category": "game",
+      "level": 2
+    },
+    {
+      "id": "talking-tom",
+      "category": "game",
+      "level": 2
+    },
+    {
+      "id": "flappy-bird",
+      "category": "game",
+      "level": 2
+    },
+    {
+      "id": "fall-guy",
       "category": "game",
       "level": 3
     },
@@ -4403,6 +4905,41 @@
       "level": 2
     },
     {
+      "id": "luiz-gonzaga",
+      "category": "music",
+      "level": 2
+    },
+    {
+      "id": "elba-ramalho",
+      "category": "music",
+      "level": 2
+    },
+    {
+      "id": "ze-ramalho",
+      "category": "music",
+      "level": 2
+    },
+    {
+      "id": "belchior",
+      "category": "music",
+      "level": 2
+    },
+    {
+      "id": "wanessa-camargo",
+      "category": "music",
+      "level": 2
+    },
+    {
+      "id": "kelly-key",
+      "category": "music",
+      "level": 2
+    },
+    {
+      "id": "latino",
+      "category": "music",
+      "level": 2
+    },
+    {
       "id": "socrates",
       "category": "sport",
       "level": 2
@@ -4749,6 +5286,16 @@
     },
     {
       "id": "magnus-carlsen",
+      "category": "sport",
+      "level": 2
+    },
+    {
+      "id": "daniel-alves",
+      "category": "sport",
+      "level": 2
+    },
+    {
+      "id": "philippe-coutinho",
       "category": "sport",
       "level": 2
     }
@@ -5427,6 +5974,12 @@
       "displayName": "Bambi"
     },
     {
+      "id": "caco-o-sapo",
+      "level": 1,
+      "category": "film-tv",
+      "displayName": "Caco, o Sapo"
+    },
+    {
       "id": "cazuza",
       "level": 1,
       "category": "music",
@@ -5445,16 +5998,34 @@
       "displayName": "Pinóquio"
     },
     {
+      "id": "elmo",
+      "level": 1,
+      "category": "film-tv",
+      "displayName": "Elmo"
+    },
+    {
       "id": "raul-seixas",
       "level": 1,
       "category": "music",
       "displayName": "Raul Seixas"
     },
     {
+      "id": "masha",
+      "level": 1,
+      "category": "cartoon",
+      "displayName": "Masha"
+    },
+    {
       "id": "gru",
       "level": 1,
       "category": "animation",
       "displayName": "Gru"
+    },
+    {
+      "id": "come-come",
+      "level": 1,
+      "category": "film-tv",
+      "displayName": "Come-Come"
     },
     {
       "id": "renato-russo",
@@ -7791,6 +8362,12 @@
       "displayName": "Sauron"
     },
     {
+      "id": "senhor-das-estrelas",
+      "level": 2,
+      "category": "comics",
+      "displayName": "Senhor das Estrelas"
+    },
+    {
       "id": "dave-grohl",
       "level": 2,
       "category": "music",
@@ -7837,6 +8414,12 @@
       "level": 2,
       "category": "film-tv",
       "displayName": "Saruman"
+    },
+    {
+      "id": "doutor-destino",
+      "level": 2,
+      "category": "comics",
+      "displayName": "Doutor Destino"
     },
     {
       "id": "chester-bennington",
@@ -8211,6 +8794,12 @@
       "displayName": "Nojinho"
     },
     {
+      "id": "koopa-troopa",
+      "level": 2,
+      "category": "game",
+      "displayName": "Koopa Troopa"
+    },
+    {
       "id": "edward-maos-de-tesoura",
       "level": 2,
       "category": "film-tv",
@@ -8251,6 +8840,12 @@
       "level": 2,
       "category": "animation",
       "displayName": "Medo"
+    },
+    {
+      "id": "planta-piranha",
+      "level": 2,
+      "category": "game",
+      "displayName": "Planta Piranha"
     },
     {
       "id": "mary-poppins",
@@ -8295,6 +8890,12 @@
       "displayName": "Ansiedade"
     },
     {
+      "id": "pou",
+      "level": 2,
+      "category": "game",
+      "displayName": "Pou"
+    },
+    {
       "id": "demogorgon",
       "level": 2,
       "category": "film-tv",
@@ -8337,6 +8938,12 @@
       "displayName": "Miguel"
     },
     {
+      "id": "talking-tom",
+      "level": 2,
+      "category": "game",
+      "displayName": "Talking Tom"
+    },
+    {
       "id": "vecna",
       "level": 2,
       "category": "film-tv",
@@ -8377,6 +8984,12 @@
       "level": 2,
       "category": "animation",
       "displayName": "EVA"
+    },
+    {
+      "id": "flappy-bird",
+      "level": 2,
+      "category": "game",
+      "displayName": "Flappy Bird"
     },
     {
       "id": "saul-goodman",
@@ -9567,6 +10180,12 @@
       "displayName": "Marisa Monte"
     },
     {
+      "id": "daniel-alves",
+      "level": 2,
+      "category": "sport",
+      "displayName": "Daniel Alves"
+    },
+    {
       "id": "dede-santana",
       "level": 2,
       "category": "celebrity",
@@ -9601,6 +10220,12 @@
       "level": 2,
       "category": "music",
       "displayName": "Samuel Rosa"
+    },
+    {
+      "id": "philippe-coutinho",
+      "level": 2,
+      "category": "sport",
+      "displayName": "Philippe Coutinho"
     },
     {
       "id": "zacarias",
@@ -9951,6 +10576,12 @@
       "displayName": "Mavis"
     },
     {
+      "id": "miss-piggy",
+      "level": 2,
+      "category": "film-tv",
+      "displayName": "Miss Piggy"
+    },
+    {
       "id": "reginaldo-rossi",
       "level": 2,
       "category": "music",
@@ -9979,6 +10610,12 @@
       "level": 2,
       "category": "animation",
       "displayName": "Blu"
+    },
+    {
+      "id": "garibaldo",
+      "level": 2,
+      "category": "film-tv",
+      "displayName": "Garibaldo"
     },
     {
       "id": "gretchen",
@@ -10011,6 +10648,12 @@
       "displayName": "Megamente"
     },
     {
+      "id": "oscar-resmungao",
+      "level": 2,
+      "category": "film-tv",
+      "displayName": "Oscar Resmungão"
+    },
+    {
       "id": "joelma",
       "level": 2,
       "category": "music",
@@ -10039,6 +10682,12 @@
       "level": 2,
       "category": "animation",
       "displayName": "Poppy"
+    },
+    {
+      "id": "bananas-de-pijama",
+      "level": 2,
+      "category": "film-tv",
+      "displayName": "Bananas de Pijama"
     },
     {
       "id": "chitaozinho",
@@ -10071,6 +10720,12 @@
       "displayName": "Lorax"
     },
     {
+      "id": "alf",
+      "level": 2,
+      "category": "film-tv",
+      "displayName": "ALF"
+    },
+    {
       "id": "xororo",
       "level": 2,
       "category": "music",
@@ -10099,6 +10754,12 @@
       "level": 2,
       "category": "animation",
       "displayName": "Jack Skellington"
+    },
+    {
+      "id": "oompa-loompa",
+      "level": 2,
+      "category": "film-tv",
+      "displayName": "Oompa-Loompa"
     },
     {
       "id": "paula-fernandes",
@@ -10131,6 +10792,12 @@
       "displayName": "Coraline"
     },
     {
+      "id": "tubarao",
+      "level": 2,
+      "category": "film-tv",
+      "displayName": "Tubarão"
+    },
+    {
       "id": "simone-mendes",
       "level": 2,
       "category": "music",
@@ -10161,6 +10828,12 @@
       "displayName": "Shaun, o Carneiro"
     },
     {
+      "id": "tiranossauro-rex",
+      "level": 2,
+      "category": "film-tv",
+      "displayName": "Tiranossauro Rex"
+    },
+    {
       "id": "ana-castela",
       "level": 2,
       "category": "music",
@@ -10183,6 +10856,12 @@
       "level": 2,
       "category": "cartoon",
       "displayName": "Super Choque"
+    },
+    {
+      "id": "shere-khan",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Shere Khan"
     },
     {
       "id": "joao-gomes",
@@ -10209,6 +10888,12 @@
       "displayName": "Pinky"
     },
     {
+      "id": "bagheera",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Bagheera"
+    },
+    {
       "id": "alcione",
       "level": 2,
       "category": "music",
@@ -10233,6 +10918,12 @@
       "displayName": "Cérebro"
     },
     {
+      "id": "kuzco",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Kuzco"
+    },
+    {
       "id": "beth-carvalho",
       "level": 2,
       "category": "music",
@@ -10251,6 +10942,12 @@
       "displayName": "Bidu"
     },
     {
+      "id": "poderoso-chefinho",
+      "level": 2,
+      "category": "animation",
+      "displayName": "O Poderoso Chefinho"
+    },
+    {
       "id": "martinho-da-vila",
       "level": 2,
       "category": "music",
@@ -10261,6 +10958,12 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Gaules"
+    },
+    {
+      "id": "gato-felix",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Gato Félix"
     },
     {
       "id": "jorge-aragao",
@@ -10275,6 +10978,12 @@
       "displayName": "Luva de Pedreiro"
     },
     {
+      "id": "betty-boop",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Betty Boop"
+    },
+    {
       "id": "arlindo-cruz",
       "level": 2,
       "category": "music",
@@ -10285,6 +10994,12 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Juliette"
+    },
+    {
+      "id": "droopy",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Droopy"
     },
     {
       "id": "diogo-nogueira",
@@ -10299,10 +11014,28 @@
       "displayName": "Gil do Vigor"
     },
     {
+      "id": "bob-o-construtor",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Bob, o Construtor"
+    },
+    {
       "id": "pericles",
       "level": 2,
       "category": "music",
       "displayName": "Péricles"
+    },
+    {
+      "id": "adriana-lima",
+      "level": 2,
+      "category": "celebrity",
+      "displayName": "Adriana Lima"
+    },
+    {
+      "id": "thomas-trem",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Thomas, o Trem"
     },
     {
       "id": "belo",
@@ -10311,10 +11044,34 @@
       "displayName": "Belo"
     },
     {
+      "id": "naomi-campbell",
+      "level": 2,
+      "category": "celebrity",
+      "displayName": "Naomi Campbell"
+    },
+    {
+      "id": "chase-patrulha-canina",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Chase"
+    },
+    {
       "id": "alexandre-pires",
       "level": 2,
       "category": "music",
       "displayName": "Alexandre Pires"
+    },
+    {
+      "id": "cindy-crawford",
+      "level": 2,
+      "category": "celebrity",
+      "displayName": "Cindy Crawford"
+    },
+    {
+      "id": "pocoyo",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Pocoyo"
     },
     {
       "id": "bell-marques",
@@ -10323,10 +11080,22 @@
       "displayName": "Bell Marques"
     },
     {
+      "id": "caillou",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Caillou"
+    },
+    {
       "id": "carlinhos-brown",
       "level": 2,
       "category": "music",
       "displayName": "Carlinhos Brown"
+    },
+    {
+      "id": "ladybug",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Ladybug"
     },
     {
       "id": "pedro-sampaio",
@@ -10335,10 +11104,22 @@
       "displayName": "Pedro Sampaio"
     },
     {
+      "id": "cat-noir",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Cat Noir"
+    },
+    {
       "id": "mc-kevinho",
       "level": 2,
       "category": "music",
       "displayName": "MC Kevinho"
+    },
+    {
+      "id": "pucca",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Pucca"
     },
     {
       "id": "matue",
@@ -10347,10 +11128,22 @@
       "displayName": "Matuê"
     },
     {
+      "id": "moranguinho",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Moranguinho"
+    },
+    {
       "id": "emicida",
       "level": 2,
       "category": "music",
       "displayName": "Emicida"
+    },
+    {
+      "id": "kuromi",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Kuromi"
     },
     {
       "id": "mano-brown",
@@ -10359,16 +11152,82 @@
       "displayName": "Mano Brown"
     },
     {
+      "id": "rainbow-dash",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Rainbow Dash"
+    },
+    {
       "id": "marcelo-d2",
       "level": 2,
       "category": "music",
       "displayName": "Marcelo D2"
     },
     {
+      "id": "mr-meeseeks",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Mr. Meeseeks"
+    },
+    {
       "id": "gabriel-o-pensador",
       "level": 2,
       "category": "music",
       "displayName": "Gabriel o Pensador"
+    },
+    {
+      "id": "azula",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Azula"
+    },
+    {
+      "id": "luiz-gonzaga",
+      "level": 2,
+      "category": "music",
+      "displayName": "Luiz Gonzaga"
+    },
+    {
+      "id": "vingador",
+      "level": 2,
+      "category": "cartoon",
+      "displayName": "Vingador"
+    },
+    {
+      "id": "elba-ramalho",
+      "level": 2,
+      "category": "music",
+      "displayName": "Elba Ramalho"
+    },
+    {
+      "id": "ze-ramalho",
+      "level": 2,
+      "category": "music",
+      "displayName": "Zé Ramalho"
+    },
+    {
+      "id": "belchior",
+      "level": 2,
+      "category": "music",
+      "displayName": "Belchior"
+    },
+    {
+      "id": "wanessa-camargo",
+      "level": 2,
+      "category": "music",
+      "displayName": "Wanessa Camargo"
+    },
+    {
+      "id": "kelly-key",
+      "level": 2,
+      "category": "music",
+      "displayName": "Kelly Key"
+    },
+    {
+      "id": "latino",
+      "level": 2,
+      "category": "music",
+      "displayName": "Latino"
     },
     {
       "id": "androide-17",
@@ -10887,6 +11746,12 @@
       "displayName": "Yoshimitsu"
     },
     {
+      "id": "smaug",
+      "level": 3,
+      "category": "film-tv",
+      "displayName": "Smaug"
+    },
+    {
       "id": "noturno",
       "level": 3,
       "category": "comics",
@@ -11109,6 +11974,12 @@
       "displayName": "Akaza"
     },
     {
+      "id": "mr-magoo",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Mr. Magoo"
+    },
+    {
       "id": "abu",
       "level": 3,
       "category": "animation",
@@ -11131,6 +12002,12 @@
       "level": 3,
       "category": "anime",
       "displayName": "Megumi Fushiguro"
+    },
+    {
+      "id": "skye-patrulha-canina",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Skye"
     },
     {
       "id": "iago",
@@ -11157,6 +12034,12 @@
       "displayName": "Nobara Kugisaki"
     },
     {
+      "id": "luna-show-da-luna",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Luna"
+    },
+    {
       "id": "megara",
       "level": 3,
       "category": "animation",
@@ -11179,6 +12062,12 @@
       "level": 3,
       "category": "anime",
       "displayName": "Kurapika"
+    },
+    {
+      "id": "peixonauta",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Peixonauta"
     },
     {
       "id": "robin-hood-disney",
@@ -11205,6 +12094,12 @@
       "displayName": "Roy Mustang"
     },
     {
+      "id": "ralph-wiggum",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Ralph Wiggum"
+    },
+    {
       "id": "tai-lung",
       "level": 3,
       "category": "animation",
@@ -11227,6 +12122,12 @@
       "level": 3,
       "category": "anime",
       "displayName": "Ochaco Uraraka"
+    },
+    {
+      "id": "abe-simpson",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Vovô Simpson"
     },
     {
       "id": "gloria-hipopotamo",
@@ -11253,6 +12154,12 @@
       "displayName": "Giorno Giovanna"
     },
     {
+      "id": "sideshow-bob",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Sideshow Bob"
+    },
+    {
       "id": "melman",
       "level": 3,
       "category": "animation",
@@ -11277,6 +12184,12 @@
       "displayName": "EVA-01"
     },
     {
+      "id": "lois-griffin",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Lois Griffin"
+    },
+    {
       "id": "tronco-trolls",
       "level": 3,
       "category": "animation",
@@ -11289,10 +12202,22 @@
       "displayName": "Aerith"
     },
     {
+      "id": "gamora",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Gamora"
+    },
+    {
       "id": "loid-forger",
       "level": 3,
       "category": "anime",
       "displayName": "Loid Forger"
+    },
+    {
+      "id": "zoidberg",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Zoidberg"
     },
     {
       "id": "wallace-e-gromit",
@@ -11307,10 +12232,22 @@
       "displayName": "Foxy"
     },
     {
+      "id": "drax",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Drax"
+    },
+    {
       "id": "yor-forger",
       "level": 3,
       "category": "anime",
       "displayName": "Yor Forger"
+    },
+    {
+      "id": "butters",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Butters"
     },
     {
       "id": "spirit",
@@ -11325,10 +12262,28 @@
       "displayName": "Alex"
     },
     {
+      "id": "shang-chi",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Shang-Chi"
+    },
+    {
       "id": "shoyo-hinata",
       "level": 3,
       "category": "anime",
       "displayName": "Shoyo Hinata"
+    },
+    {
+      "id": "danny-phantom",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Danny Phantom"
+    },
+    {
+      "id": "rei-louie",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Rei Louie"
     },
     {
       "id": "papyrus-undertale",
@@ -11337,10 +12292,28 @@
       "displayName": "Papyrus"
     },
     {
+      "id": "hela",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Hela"
+    },
+    {
       "id": "asta-black-clover",
       "level": 3,
       "category": "anime",
       "displayName": "Asta"
+    },
+    {
+      "id": "princesa-caroco",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Princesa Caroço"
+    },
+    {
+      "id": "kaa",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Kaa"
     },
     {
       "id": "mugman",
@@ -11349,10 +12322,28 @@
       "displayName": "Mugman"
     },
     {
+      "id": "mulher-hulk",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Mulher-Hulk"
+    },
+    {
       "id": "spike-spiegel",
       "level": 3,
       "category": "anime",
       "displayName": "Spike Spiegel"
+    },
+    {
+      "id": "gwen-tennyson",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Gwen Tennyson"
+    },
+    {
+      "id": "yzma",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Yzma"
     },
     {
       "id": "peely",
@@ -11361,10 +12352,28 @@
       "displayName": "Peely"
     },
     {
+      "id": "cavaleiro-da-lua",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Cavaleiro da Lua"
+    },
+    {
       "id": "kaneda",
       "level": 3,
       "category": "anime",
       "displayName": "Kaneda"
+    },
+    {
+      "id": "candace-flynn",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Candace"
+    },
+    {
+      "id": "chicken-little",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Chicken Little"
     },
     {
       "id": "teemo",
@@ -11373,10 +12382,40 @@
       "displayName": "Teemo"
     },
     {
+      "id": "apocalipse",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Apocalipse"
+    },
+    {
       "id": "lupin-iii",
       "level": 3,
       "category": "anime",
       "displayName": "Lupin III"
+    },
+    {
+      "id": "tio-stan",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Tio Stan"
+    },
+    {
+      "id": "gepeto",
+      "level": 3,
+      "category": "animation",
+      "displayName": "Gepeto"
+    },
+    {
+      "id": "lakitu",
+      "level": 3,
+      "category": "game",
+      "displayName": "Lakitu"
+    },
+    {
+      "id": "rei-do-crime",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Rei do Crime"
     },
     {
       "id": "benji-price",
@@ -11385,10 +12424,40 @@
       "displayName": "Benji Price"
     },
     {
+      "id": "chuckie-finster",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Chuckie"
+    },
+    {
+      "id": "dixie-kong",
+      "level": 3,
+      "category": "game",
+      "displayName": "Dixie Kong"
+    },
+    {
+      "id": "deathstroke",
+      "level": 3,
+      "category": "comics",
+      "displayName": "Deathstroke"
+    },
+    {
       "id": "kero",
       "level": 3,
       "category": "anime",
       "displayName": "Kero"
+    },
+    {
+      "id": "doug-funnie",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Doug Funnie"
+    },
+    {
+      "id": "king-k-rool",
+      "level": 3,
+      "category": "game",
+      "displayName": "King K. Rool"
     },
     {
       "id": "gabumon",
@@ -11397,10 +12466,34 @@
       "displayName": "Gabumon"
     },
     {
+      "id": "uni",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Uni"
+    },
+    {
+      "id": "navi",
+      "level": 3,
+      "category": "game",
+      "displayName": "Navi"
+    },
+    {
       "id": "joey-wheeler",
       "level": 3,
       "category": "anime",
       "displayName": "Joey Wheeler"
+    },
+    {
+      "id": "gato-guerreiro",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Gato Guerreiro"
+    },
+    {
+      "id": "blinky",
+      "level": 3,
+      "category": "game",
+      "displayName": "Blinky"
     },
     {
       "id": "sailor-mercury",
@@ -11409,10 +12502,34 @@
       "displayName": "Sailor Mercury"
     },
     {
+      "id": "orko",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Orko"
+    },
+    {
+      "id": "heihachi",
+      "level": 3,
+      "category": "game",
+      "displayName": "Heihachi Mishima"
+    },
+    {
       "id": "sailor-mars",
       "level": 3,
       "category": "anime",
       "displayName": "Sailor Mars"
+    },
+    {
+      "id": "snarf",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Snarf"
+    },
+    {
+      "id": "goro",
+      "level": 3,
+      "category": "game",
+      "displayName": "Goro"
     },
     {
       "id": "tuxedo-mask",
@@ -11421,10 +12538,34 @@
       "displayName": "Tuxedo Mask"
     },
     {
+      "id": "anjinho",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Anjinho"
+    },
+    {
+      "id": "yennefer",
+      "level": 3,
+      "category": "game",
+      "displayName": "Yennefer"
+    },
+    {
       "id": "haku-ghibli",
       "level": 3,
       "category": "anime",
       "displayName": "Haku"
+    },
+    {
+      "id": "louco",
+      "level": 3,
+      "category": "cartoon",
+      "displayName": "Louco"
+    },
+    {
+      "id": "fall-guy",
+      "level": 3,
+      "category": "game",
+      "displayName": "Fall Guy"
     },
     {
       "id": "calcifer",
