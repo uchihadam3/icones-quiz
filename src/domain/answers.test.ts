@@ -286,3 +286,44 @@ function typoVariants(key: string): string[] {
   out.delete(key);
   return [...out];
 }
+
+describe('D) sugestão "Você quis dizer" sem spoiler', () => {
+  const suggest = (g: string) => index.suggest(g);
+  it('corrige erros pequenos para a grafia exata do catálogo', () => {
+    expect(suggest('Snoop Dog')).toBe('Snoop Dogg');
+    expect(suggest('snoopy dogg')).toBe('Snoop Dogg');
+    expect(suggest('Naruuto')).toBe('Naruto');
+    expect(suggest('Homer Simpsom')).toBe('Homer Simpson');
+    expect(suggest('Jim Carey')).toBe('Jim Carrey');
+  });
+
+  it('nunca completa prefixos, palpites curtos ou nomes próprios comuns', () => {
+    for (const g of ['', 'N', 'Na', 'Nar', 'Naru', 'Sno', 'Snoop D', 'Jim', 'Jennifer', 'Michael', 'Darth', 'Homem', 'Michael Jacks', 'Darth Vade']) {
+      expect(suggest(g), g).toBeNull();
+    }
+  });
+
+  it('não sugere quando o palpite já é um nome exato (de qualquer identidade)', () => {
+    expect(suggest('Naruto')).toBeNull();
+    expect(suggest('Snoopy')).toBeNull();
+    expect(suggest('Snoop Dogg')).toBeNull();
+  });
+
+  it('não sugere quando há mais de um candidato plausível', () => {
+    const fixture: Identity[] = [
+      { id: 'a', kind: 'person', category: 'celebrity', level: 1, displayName: 'Johnson Silva', names: ['Johnson Silva'], origin: 'x' },
+      { id: 'b', kind: 'person', category: 'celebrity', level: 1, displayName: 'Johnson Silvo', names: ['Johnson Silvo'], origin: 'x' },
+    ];
+    expect(buildAnswerIndex(fixture).suggest('Johnson Silvp')).toBeNull();
+  });
+
+  it('toda sugestão é aceita como resposta da identidade sugerida (coerência com o validador)', () => {
+    const samples = ['Snoop Dog', 'Naruuto', 'Homer Simpsom', 'Lionel Mesy', 'Pikachuu', 'Ayrton Sena'];
+    for (const g of samples) {
+      const s = suggest(g);
+      expect(s, g).not.toBeNull();
+      const owner = index.ownersOf(answerKey(s!))[0]!;
+      expect(index.check(g, owner).correct, `${g} → ${s}`).toBe(true);
+    }
+  });
+});

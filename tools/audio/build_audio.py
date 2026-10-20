@@ -7,7 +7,7 @@ Codifica os áudios masterizados (WAV) para a web e gera src/audio/audio-manifes
 
 Uso: python tools/audio/build_audio.py
 """
-import json, os, shutil, subprocess, wave
+import json, os, subprocess, wave
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CACHE = os.path.join(ROOT, 'tools/audio/.cache')
@@ -47,6 +47,9 @@ EVENTS = {
     'new-record': (['stinger-record'], 1.0, 0.8, 0),
     'record-beaten': (['record-sparkle'], 0.8, 0.2, 0),
     'install': (['install'], 0.8, 0.2, 0),
+    'recovery-step': (['recovery-step'], 0.6, 0, 0),
+    'recovery-break': (['recovery-break'], 0.7, 0.1, 0),
+    'hint-recharge': (['hint-recharge'], 0.85, 0.25, 0),
 }
 
 CREDITS = [
@@ -77,6 +80,11 @@ def wav_duration(path):
 
 def encode(src, dst_noext, kind):
     os.makedirs(os.path.dirname(dst_noext), exist_ok=True)
+    # Opus grava um número de série aleatório: recodificar um áudio igual mudaria o arquivo (e o cache
+    # do PWA) sem mudar o som. Só codifica o que é novo ou cuja fonte mudou.
+    outs = [dst_noext + '.opus', dst_noext + '.mp3']
+    if all(os.path.exists(o) and os.path.getmtime(o) >= os.path.getmtime(src) for o in outs):
+        return
     music = kind == 'music'
     opus = ['ffmpeg', '-v', 'error', '-y', '-i', src, '-c:a', 'libopus', '-b:a', '112k' if music else '80k', '-vbr', 'on',
             '-application', 'audio', '-map_metadata', '-1', '-metadata', 'comment=ICONES Maratona - ver CREDITOS no repositorio', dst_noext + '.opus']
@@ -86,9 +94,8 @@ def encode(src, dst_noext, kind):
 
 
 def main():
-    # Recria public/audio do zero: só vai para o site o que algum evento ou camada usa
-    # (ingredientes como game-over-sfx entram nas vinhetas, não são publicados sozinhos).
-    shutil.rmtree(PUBLIC, ignore_errors=True)
+    # Só vai para o site o que algum evento ou camada usa (ingredientes como game-over-sfx entram nas
+    # vinhetas, não são publicados sozinhos); arquivos que sobrarem em public/audio são apagados no fim.
     used = {f for files, *_ in EVENTS.values() for f in files}
     sources = {name[:-4]: os.path.join(SFX_WAV, name) for name in os.listdir(SFX_WAV) if name.endswith('.wav')}
 
@@ -117,6 +124,13 @@ def main():
         if detune:
             entry['detuneCents'] = detune
         sfx[event] = entry
+
+    wanted = {os.path.join(PUBLIC, 'sfx', f'{b}.{ext}') for b in durations for ext in ('opus', 'mp3')}
+    wanted |= {os.path.join(PUBLIC, 'music', f'{l}.{ext}') for l in layers for ext in ('opus', 'mp3')}
+    for dp, _, fns in os.walk(PUBLIC):
+        for fn in fns:
+            if os.path.join(dp, fn) not in wanted:
+                os.remove(os.path.join(dp, fn))
 
     manifest = {
         'version': 1,

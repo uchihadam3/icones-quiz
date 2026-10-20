@@ -14,7 +14,7 @@ digita quem é. Quanto mais acertos seguidos, maior o combo — e mais rápido a
 ## Como joga
 
 - 3 vidas (nunca mais que 3). Erro ou tempo esgotado custa 1.
-- 40 s nas 5 primeiras rodadas, 30 s depois.
+- 25 s nas 5 primeiras rodadas, 20 s fixos depois (o desafio é reconhecer, não correr contra um relógio cada vez menor).
 - Acertos seguidos sem ajuda recuperam vida: 3, 5, 7, 10, 15 e depois 15 fixo.
 - Combo com multiplicador até x5; pontos por acerto, nível do ícone e velocidade.
 - 3 pulos e 3 ajudas de "3 alternativas" por partida.

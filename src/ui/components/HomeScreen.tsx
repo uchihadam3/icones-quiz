@@ -167,7 +167,9 @@ export function HomeScreen({
             <b>
               {cfg.timer.earlySeconds}s → {cfg.timer.normalSeconds}s
             </b>
-            <span>o tempo aperta após a rodada {cfg.timer.earlyRounds}</span>
+            <span>
+              {cfg.timer.earlySeconds}s nas {cfg.timer.earlyRounds} primeiras, depois {cfg.timer.normalSeconds}s fixos
+            </span>
           </li>
           <li className="rule rule--combo">
             <FlameIcon />
@@ -186,8 +188,8 @@ export function HomeScreen({
           </li>
           <li className="rule rule--hint">
             <OptionsIcon />
-            <b>{cfg.aids.optionHints} ajudas</b>
-            <span>3 alternativas, valem menos</span>
+            <b>{cfg.aids.optionHints} alternativas</b>
+            <span>valem metade · +1 a cada {cfg.aids.optionHintRechargeEvery} acertos</span>
           </li>
         </ul>
       </section>

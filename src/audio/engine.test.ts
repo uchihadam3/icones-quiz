@@ -93,7 +93,7 @@ const manifest: AudioManifest = {
   },
   sfx: Object.fromEntries(
     (
-      ['ui-tap', 'ui-confirm', 'round-start', 'correct', 'correct-fast', 'correct-hint', 'wrong', 'timeout', 'tick', 'tick-final', 'heartbeat', 'life-lost', 'last-life', 'life-recovered', 'tier-up-2', 'tier-up-3', 'tier-up-4', 'tier-up-5', 'combo-break', 'skip', 'hint', 'pause', 'resume', 'game-start', 'game-over', 'new-record', 'record-beaten', 'install'] as SfxEvent[]
+      ['ui-tap', 'ui-confirm', 'round-start', 'correct', 'correct-fast', 'correct-hint', 'wrong', 'timeout', 'tick', 'tick-final', 'heartbeat', 'life-lost', 'last-life', 'life-recovered', 'tier-up-2', 'tier-up-3', 'tier-up-4', 'tier-up-5', 'combo-break', 'skip', 'hint', 'pause', 'resume', 'game-start', 'game-over', 'new-record', 'record-beaten', 'install', 'recovery-step', 'recovery-break', 'hint-recharge'] as SfxEvent[]
     ).map((e) => [e, sfx(e === 'correct' ? ['sfx/correct-1', 'sfx/correct-2', 'sfx/correct-3'] : [`sfx/${e}`])]),
   ) as AudioManifest['sfx'],
   credits: [],

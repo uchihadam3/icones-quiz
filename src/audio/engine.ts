@@ -247,7 +247,7 @@ export class AudioEngine {
    * Toca um efeito. `key` identifica a ocorrência (ex.: id da rodada): repetir a mesma chave não toca de novo.
    * Sem chave, o mesmo evento é ignorado se repetido em < 60 ms.
    */
-  play(event: SfxEvent, opts: { key?: string | number; delay?: number; gain?: number } = {}): void {
+  play(event: SfxEvent, opts: { key?: string | number; delay?: number; gain?: number; /** Transposição exata (ex.: passo da sequência). */ cents?: number } = {}): void {
     const def = this.manifest.sfx[event];
     if (!def) return;
     const key = opts.key === undefined ? undefined : String(opts.key);
@@ -270,7 +270,8 @@ export class AudioEngine {
       const when = ctx.currentTime + Math.max(0, opts.delay ?? 0);
       const src = ctx.createBufferSource();
       src.buffer = buffer;
-      if (def.detuneCents) src.detune.value = (Math.random() * 2 - 1) * def.detuneCents;
+      if (opts.cents !== undefined) src.detune.value = opts.cents;
+      else if (def.detuneCents) src.detune.value = (Math.random() * 2 - 1) * def.detuneCents;
       const g = ctx.createGain();
       g.gain.value = def.gain * (opts.gain ?? 1);
       src.connect(g).connect(this.sfxVol);

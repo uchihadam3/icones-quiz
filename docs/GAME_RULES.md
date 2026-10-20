@@ -14,11 +14,13 @@ borrada nem revelada aos poucos. Não é um Akinator.
 | Item | Valor | Onde |
 |---|---|---|
 | Vidas iniciais / máximo | 3 / 3 | `lives` |
-| Tempo das rodadas 1–5 | 40 s | `timer.earlySeconds` |
-| Tempo a partir da rodada 6 | 30 s | `timer.normalSeconds` |
+| Tempo das rodadas 1–5 | 25 s | `timer.earlySeconds` |
+| Tempo a partir da rodada 6 | 20 s fixos (combo e progressão não reduzem) | `timer.normalSeconds` |
 | Acertos seguidos por vida recuperada | 3, 5, 7, 10, 15 e depois 15 fixo | `recovery` |
 | Pulos por run | 3 | `aids.skips` |
-| Ajudas "3 alternativas" por run | 3 | `aids.optionHints` |
+| Cargas de "3 alternativas" (início e teto) | 3 | `aids.optionHints` |
+| Acertos acumulados por carga devolvida | 15 | `aids.optionHintRechargeEvery` |
+| Pontos de um acerto com alternativas | metade do acerto digitado | `scoring.optionHintShare` |
 | Multiplicador máximo | x5 | `scoring.maxMultiplier` |
 
 ## Vidas
@@ -35,7 +37,9 @@ borrada nem revelada aos poucos. Não é um Akinator.
 - Erro/timeout zera a sequência. Recuperar uma vida zera **só** o contador de recuperação; o combo de
   pontuação continua.
 - Com 3 vidas, a recuperação fica **pausada**: nada acumula para "vida extra".
-- O contador "Próxima vida x/y" fica sempre visível no HUD.
+- A barra **"Recuperar vida"** fica sempre visível no placar, junto aos corações: progresso `x/y`,
+  "faltam N acertos seguidos", animação a cada acerto, "Sequência interrompida — comece de novo" na
+  quebra e "+1 VIDA — recuperada por sequência de acertos!" ao recuperar. Com 3 vidas: "Vidas completas".
 
 ## Combo e pontuação
 
@@ -52,12 +56,21 @@ borrada nem revelada aos poucos. Não é um Akinator.
 |---|---|---|---|---|
 | Pular | mantém | 0 | **congelado** | **zera** |
 | Usar "3 alternativas" | — | — | — | **zera na hora** |
-| Acertar pela alternativa | mantém | 30 fixos (sem multiplicador/velocidade) | **congelado** | continua 0 |
+| Acertar pela alternativa | mantém | **metade** do mesmo acerto digitado (base + nível + velocidade, × multiplicador atual), `Math.round` | **congelado** | continua 0 |
 | Errar a alternativa | −1 | 0 | zera | zera |
 
 Por quê: se pular/ajuda não zerasse a sequência, daria para "pular os difíceis" e recuperar vidas só
 com os fáceis. Congelar (em vez de zerar) o combo mantém pular útil sem transformar ajuda em pontos.
-Um chute de 1 em 3 nunca vale mais que um acerto digitado (testado em `scoring.test.ts`).
+Um acerto com alternativas vale exatamente metade do mesmo acerto digitado (testado em `scoring.test.ts`).
+
+### Recarga das alternativas (sistema separado das vidas)
+
+- Começa com **3 cargas**; cada uso consome 1 (duplo clique não cobra 2; 1 uso por rodada).
+- **+1 carga a cada 15 acertos ACUMULADOS** na partida — não precisam ser seguidos; acertos com
+  alternativas contam; erro, tempo e pulo **não zeram** o progresso; pulo não conta.
+- Teto de 3: com as cargas cheias o medidor fica parado em 0/15 (sem estoque invisível); ao gastar uma,
+  recomeça de 0/15. Nova partida = 3 cargas e medidor zerado.
+- Visual próprio (cristais violeta + linha de recarga no botão), diferente da barra de vida.
 
 **O timer NÃO pausa durante a ajuda.** Estourar o tempo com as alternativas abertas custa 1 vida
 (testado em `engine.test.ts`).
@@ -65,6 +78,18 @@ Um chute de 1 em 3 nunca vale mais que um acerto digitado (testado em `scoring.t
 Com as alternativas abertas, digitar não responde; a resposta é escolher uma opção (mouse/toque ou
 teclas 1–3). As alternativas são do mesmo tipo (pessoa × personagem), preferencialmente da mesma
 categoria, em ordem embaralhada pelo RNG.
+
+## Digitação justa
+
+- Acentos, caixa, hífens, espaços e pontuação não importam; nomes e apelidos curados valem
+  ("Naruto", "Sasuke", "Gojo"…). Pessoas reais: só nomes artísticos/apelidos independentes — nunca
+  "Jim", "Jennifer", "Michael" sozinhos.
+- Erros tolerados (sem ambiguidade com outra identidade, à mesma distância ou menos):
+  5–7 letras → tecla vizinha, inversão ou letra dobrada; 8+ → 1 edição, sem cortar o final (exceto
+  letra repetida: "Snoop Dog"); 9+ → até 2 edições, nunca um começo do nome e com ≥ 80% do tamanho.
+- **Corretor "Você quis dizer"**: aparece só quando o texto é um erro tolerado de UM nome do catálogo
+  inteiro (não usa a resposta da rodada, nunca completa prefixos). Tocar/Tab substitui sem enviar;
+  enviar com o erro também vale, e o feedback mostra a grafia certa ("grafia corrigida").
 
 ## Timer, aba e falhas de imagem
 

@@ -37,12 +37,19 @@ describe('A) combo, multiplicador e pontos', () => {
     expect(scoreUnaided({ combo: 1, level: 1, remainingMs: 0, durationMs: 30_000 }, s).speedBonus).toBe(0);
   });
 
-  it('acerto com alternativas vale pouco, sem multiplicador nem velocidade', () => {
-    const hint = scoreWithOptionHint(s);
-    expect(hint.multiplier).toBe(1);
-    expect(hint.speedBonus).toBe(0);
-    const slowestUnaided = scoreUnaided({ combo: 1, level: 1, remainingMs: 0, durationMs: 30_000 }, s);
-    expect(hint.total).toBeLessThan(slowestUnaided.total);
+  it('acerto com alternativas vale exatamente metade do mesmo acerto digitado (Math.round)', () => {
+    for (const input of [
+      { combo: 0, level: 1 as const, remainingMs: 20_000, durationMs: 20_000 },
+      { combo: 6, level: 2 as const, remainingMs: 7_300, durationMs: 20_000 },
+      { combo: 15, level: 3 as const, remainingMs: 1, durationMs: 25_000 },
+    ]) {
+      const full = scoreUnaided(input, s);
+      const hint = scoreWithOptionHint(input, s);
+      expect(hint.total).toBe(Math.round(full.total / 2));
+      expect(hint.multiplier).toBe(full.multiplier);
+      expect(hint.speedBonus).toBe(full.speedBonus);
+      expect(hint.aidedShare).toBe(0.5);
+    }
   });
 
   it('erro vale zero', () => {

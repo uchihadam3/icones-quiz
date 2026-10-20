@@ -252,3 +252,14 @@ export function NoteIcon(props: IconProps) {
     </svg>
   );
 }
+
+/** Corretor ortográfico: lápis com faísca. */
+export function SpellIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M4 20l1.2-4.3L15.5 5.4a2 2 0 0 1 2.8 0l.3.3a2 2 0 0 1 0 2.8L8.3 18.8z" fill="currentColor" opacity=".9" />
+      <path d="M14 7l3 3" stroke="#000" strokeOpacity=".35" strokeWidth="1.4" fill="none" />
+      <path d="M19.5 14.5l.6 1.4 1.4.6-1.4.6-.6 1.4-.6-1.4-1.4-.6 1.4-.6z" fill="currentColor" />
+    </svg>
+  );
+}

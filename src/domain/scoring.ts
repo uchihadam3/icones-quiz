@@ -19,7 +19,7 @@ export function timeFraction(remainingMs: number, durationMs: number): number {
 }
 
 export interface UnaidedScoreInput {
-  /** Combo DEPOIS de contar este acerto. */
+  /** Combo DEPOIS de contar este acerto (com alternativas: o combo atual, que fica congelado). */
   combo: number;
   level: RecognitionLevel;
   remainingMs: number;
@@ -32,6 +32,8 @@ export interface ScoreBreakdown {
   speedBonus: number;
   multiplier: number;
   total: number;
+  /** Presente quando o acerto foi com alternativas: fração aplicada sobre o valor digitado. */
+  aidedShare?: number;
 }
 
 /** Acerto digitado, sem ajuda: (base + nível + velocidade) × multiplicador. */
@@ -44,11 +46,13 @@ export function scoreUnaided(input: UnaidedScoreInput, config: ScoringConfig): S
 }
 
 /**
- * Acerto com a ajuda de alternativas: valor fixo e baixo, sem multiplicador e sem bônus de velocidade.
- * Um chute de 1 em 3 nunca deve valer mais do que reconhecer o ícone de verdade.
+ * Acerto com a ajuda de alternativas: METADE do que o mesmo acerto valeria digitado naquele instante —
+ * mesma base, nível, velocidade e o multiplicador do combo ATUAL (`input.combo` é o combo antes da
+ * rodada: com ajuda o combo não sobe). Arredondamento: Math.round (meio ponto arredonda para cima).
  */
-export function scoreWithOptionHint(config: ScoringConfig): ScoreBreakdown {
-  return { base: config.optionHintPoints, levelBonus: 0, speedBonus: 0, multiplier: 1, total: config.optionHintPoints };
+export function scoreWithOptionHint(input: UnaidedScoreInput, config: ScoringConfig): ScoreBreakdown {
+  const full = scoreUnaided(input, config);
+  return { ...full, total: Math.round(full.total * config.optionHintShare), aidedShare: config.optionHintShare };
 }
 
 export function zeroScore(): ScoreBreakdown {

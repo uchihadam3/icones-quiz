@@ -47,6 +47,8 @@ export interface Resolution {
   score: ScoreBreakdown;
   lifeLost: boolean;
   lifeGained: boolean;
+  /** Este acerto completou o ciclo de recarga e devolveu 1 carga de alternativas. */
+  hintRecharged: boolean;
   comboBefore: number;
   comboAfter: number;
 }
@@ -61,6 +63,7 @@ export interface RunStats {
   annulled: number;
   bestCombo: number;
   livesRecovered: number;
+  hintsRecharged: number;
 }
 
 export interface GameState {
@@ -74,7 +77,10 @@ export interface GameState {
   fastStreak: number;
   lives: LivesState;
   skipsLeft: number;
+  /** Cargas da ajuda "3 alternativas" (0…aids.optionHints). */
   hintsLeft: number;
+  /** Acertos acumulados para a próxima carga (0…optionHintRechargeEvery-1). Pausado em 0 com cargas cheias. */
+  hintProgress: number;
   round: Round | null;
   nextRoundId: number;
   lastResolution: Resolution | null;
@@ -83,6 +89,8 @@ export interface GameState {
   recentCategories: Category[];
   /** Ids cuja imagem falhou nesta run (saem do conjunto elegível). */
   failed: string[];
+  /** Última quebra da sequência de recuperação de vida (erro, tempo, pulo, ajuda ou anulação), para a UI animar. */
+  streakBreak: { roundId: number; lost: number } | null;
   /** Próxima identidade já escolhida (a UI pré-carrega a imagem). */
   upcoming: { id: string; cycleReset: boolean } | null;
   stats: RunStats;
@@ -121,7 +129,7 @@ export interface Engine {
 }
 
 function emptyStats(): RunStats {
-  return { correct: 0, correctWithHint: 0, wrong: 0, timeouts: 0, skips: 0, hintsUsed: 0, annulled: 0, bestCombo: 0, livesRecovered: 0 };
+  return { correct: 0, correctWithHint: 0, wrong: 0, timeouts: 0, skips: 0, hintsUsed: 0, annulled: 0, bestCombo: 0, livesRecovered: 0, hintsRecharged: 0 };
 }
 
 export function createEngine(deps: EngineDeps): Engine {
@@ -227,8 +235,11 @@ export function createEngine(deps: EngineDeps): Engine {
         break;
       }
       case 'correct-hint':
-        // Combo congelado: não sobe, não zera. Recuperação já foi zerada ao usar a ajuda.
-        points = scoreWithOptionHint(config.scoring);
+        // Combo congelado: não sobe, não zera. Recuperação de vida já foi zerada ao usar a ajuda.
+        points = scoreWithOptionHint(
+          { combo, level: identity?.level ?? 1, remainingMs: remainingMs(round.timer, extra.now), durationMs: round.timer.durationMs },
+          config.scoring,
+        );
         stats.correctWithHint += 1;
         break;
       case 'wrong':
@@ -248,10 +259,25 @@ export function createEngine(deps: EngineDeps): Engine {
     }
     score += points.total;
     stats.bestCombo = Math.max(stats.bestCombo, combo);
+
+    // Recarga das alternativas: todo acerto (com ou sem ajuda) conta, erros não zeram; teto de cargas.
+    let { hintsLeft, hintProgress } = state;
+    let hintRecharged = false;
+    if ((outcome === 'correct' || outcome === 'correct-hint') && hintsLeft < config.aids.optionHints) {
+      hintProgress += 1;
+      if (hintProgress >= config.aids.optionHintRechargeEvery) {
+        hintsLeft += 1;
+        hintProgress = 0;
+        hintRecharged = true;
+        stats.hintsRecharged += 1;
+      }
+    }
     const fast = outcome === 'correct' && isFastAnswer(points, config.scoring);
 
+    const lostStreak = state.lives.streak > 0 && lives.streak === 0 && !lifeGained ? state.lives.streak : 0;
     return {
       ...state,
+      streakBreak: lostStreak > 0 ? { roundId: round.id, lost: lostStreak } : state.streakBreak,
       phase: lives.lives <= 0 ? 'gameover' : 'feedback',
       combo,
       fastStreak: fast ? state.fastStreak + 1 : 0,
@@ -259,6 +285,8 @@ export function createEngine(deps: EngineDeps): Engine {
       score,
       stats,
       skipsLeft: outcome === 'skipped' ? state.skipsLeft - 1 : state.skipsLeft,
+      hintsLeft,
+      hintProgress,
       lastResolution: {
         roundId: round.id,
         identityId: round.identityId,
@@ -268,6 +296,7 @@ export function createEngine(deps: EngineDeps): Engine {
         score: points,
         lifeLost,
         lifeGained,
+        hintRecharged,
         comboBefore: state.combo,
         comboAfter: combo,
       },
@@ -312,6 +341,7 @@ export function createEngine(deps: EngineDeps): Engine {
           hintsLeft: state.hintsLeft - 1,
           // Usar ajuda quebra a sequência "consecutiva sem ajuda" da recuperação imediatamente.
           lives: onStreakBreak(state.lives),
+          streakBreak: state.lives.streak > 0 ? { roundId: state.round.id, lost: state.lives.streak } : state.streakBreak,
           stats: { ...state.stats, hintsUsed: state.stats.hintsUsed + 1 },
           // O timer NÃO pausa durante a ajuda (decisão documentada em docs/GAME_RULES.md).
           round: { ...state.round, options: options.map((o) => o.id) },
@@ -368,6 +398,7 @@ export function createEngine(deps: EngineDeps): Engine {
       lives: initialLives(config),
       skipsLeft: config.aids.skips,
       hintsLeft: config.aids.optionHints,
+      hintProgress: 0,
       round: null,
       nextRoundId: 1,
       lastResolution: null,
@@ -375,6 +406,7 @@ export function createEngine(deps: EngineDeps): Engine {
       recentCategories: [],
       failed: [],
       upcoming: null,
+      streakBreak: null,
       stats: emptyStats(),
     };
     return beginRound(base, 1, now);
@@ -397,6 +429,24 @@ export function recoveryView(state: GameState, config: GameConfig): RecoveryView
     progress: state.lives.streak,
     paused: isRecoveryPaused(state.lives, config),
   };
+}
+
+export interface HintRechargeView {
+  charges: number;
+  max: number;
+  progress: number;
+  every: number;
+  /** Cargas cheias: o medidor fica parado em 0. */
+  full: boolean;
+  /** Acertos que faltam para a próxima carga (0 se cheio). */
+  remaining: number;
+}
+
+export function hintRechargeView(state: GameState, config: GameConfig): HintRechargeView {
+  const max = config.aids.optionHints;
+  const every = config.aids.optionHintRechargeEvery;
+  const full = state.hintsLeft >= max;
+  return { charges: state.hintsLeft, max, progress: full ? 0 : state.hintProgress, every, full, remaining: full ? 0 : every - state.hintProgress };
 }
 
 export function currentMultiplier(state: GameState, config: GameConfig): number {

@@ -29,7 +29,10 @@ export type SfxEvent =
   | 'game-over'
   | 'new-record'
   | 'record-beaten'
-  | 'install';
+  | 'install'
+  | 'recovery-step'
+  | 'recovery-break'
+  | 'hint-recharge';
 
 export interface SfxDef {
   /** Caminhos relativos a public/audio, sem extensão (o motor escolhe opus/mp3). */

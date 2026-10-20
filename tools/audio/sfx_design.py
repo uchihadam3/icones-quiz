@@ -14,6 +14,8 @@ SRC = os.environ.get('KENNEY_DIR', 'tools/audio/.cache/kenney')
 OUT = sys.argv[1] if len(sys.argv) > 1 else 'tools/audio/.cache/sfx-wav'
 os.makedirs(OUT, exist_ok=True)
 rng = np.random.default_rng(20261019)
+# Efeitos acrescentados depois usam um gerador próprio: assim os já publicados continuam idênticos.
+rng_v2 = np.random.default_rng(20261020)
 
 # ── utilidades ────────────────────────────────────────────────────────────
 
@@ -118,10 +120,10 @@ def sub_drop(f0=80, f1=40, dur=0.6, gain_db=-8):
     x = np.sin(ph) * np.exp(-t * 5) * np.clip(t / 0.004, 0, 1)
     return np.stack([x, x], axis=1) * 10 ** (gain_db / 20)
 
-def noise_sweep(dur=0.8, up=True, gain_db=-14):
+def noise_sweep(dur=0.8, up=True, gain_db=-14, gen=None):
     """Riser/whoosh: ruído filtrado com corte em varredura."""
     n = int(dur * SR)
-    noise = rng.standard_normal((n, 2))
+    noise = (gen or rng).standard_normal((n, 2))
     out = np.zeros_like(noise)
     block = 512
     for i in range(0, n, block):
@@ -135,11 +137,11 @@ def noise_sweep(dur=0.8, up=True, gain_db=-14):
     out *= e[:, None]
     return out / np.max(np.abs(out)) * 10 ** (gain_db / 20)
 
-def reverb(x, seconds=1.2, wet=0.25, predelay=0.012, bright=0.6):
+def reverb(x, seconds=1.2, wet=0.25, predelay=0.012, bright=0.6, gen=None):
     """Convolução com resposta impulsiva sintética (ruído com decaimento, estéreo descorrelacionado)."""
     n = int(seconds * SR)
     t = np.arange(n) / SR
-    ir = rng.standard_normal((n, 2)) * np.exp(-t * (6.9 / seconds))[:, None]
+    ir = (gen or rng).standard_normal((n, 2)) * np.exp(-t * (6.9 / seconds))[:, None]
     b, a = signal.butter(1, (2000 + 8000 * bright) / (SR / 2), 'low')
     ir = signal.lfilter(b, a, ir, axis=0)
     ir = np.vstack([np.zeros((int(predelay * SR), 2)), ir])
@@ -263,6 +265,19 @@ make('life-recovered', reverb(mix(
        (pad_chord([N('A3'), N('C4'), N('E4'), N('A4')], 1.4, -16, attack=0.05, cutoff=3000), 0.4)]
 ), 1.6, 0.28, bright=0.9), peak_db=-1.5)
 
+# Recuperação de vida: um "ping" por acerto da sequência (o jogo transpõe a cada passo) e a quebra
+# da sequência como energia se dissipando — distinta da perda de vida, que já tem som próprio.
+make('recovery-step', reverb(mix([
+    (load(IF + 'glass_002.ogg', -12), 0),
+    (bell(N('A5'), 0.45, 0.9, gain_db=-9), 0.004),
+    (bell(N('E6'), 0.35, 0.6, gain_db=-17), 0.03),
+]), 0.6, 0.18, bright=0.8, gen=rng_v2), peak_db=-7)
+make('recovery-break', reverb(mix([
+    (highpass(noise_sweep(0.5, False, -16, gen=rng_v2), 500), 0),
+    (load(IF + 'drop_002.ogg', -10), 0.02),
+    (bell(N('E5'), 0.35, 0.4, gain_db=-16), 0.0), (bell(N('C5'), 0.35, 0.4, gain_db=-17), 0.09), (bell(N('A4'), 0.6, 0.4, gain_db=-17), 0.18),
+]), 0.8, 0.18, gen=rng_v2), peak_db=-8)
+
 # ── Combo: x2…x5 em camadas crescentes, subindo de tom ────────────────────
 tiers = {
     2: (['A4', 'C5', 'E5'], 0, False),
@@ -288,6 +303,14 @@ make('combo-break', mix([(load(IF + 'scratch_005.ogg', -4), 0), (load(IF + 'drop
 # ── Ajudas ────────────────────────────────────────────────────────────────
 make('skip', mix([(load(CA + 'card-slide-2.ogg', -2), 0), (highpass(noise_sweep(0.3, False, -20), 600), 0)]), peak_db=-5)
 make('hint', reverb(mix([(load(CA + 'card-fan-1.ogg', -2), 0), (bell(N('E5'), 0.4, 0.5, gain_db=-16), 0.05), (bell(N('A5'), 0.4, 0.5, gain_db=-16), 0.18), (bell(N('C6'), 0.4, 0.5, gain_db=-16), 0.31)]), 0.7, 0.15), peak_db=-5)
+
+# Carga de alternativas devolvida: cristal + tríade ascendente (C–E–A), brilhante e curta.
+make('hint-recharge', reverb(mix([
+    (load(CA + 'chips-collide-2.ogg', -10), 0),
+    (load(IF + 'glass_004.ogg', -9), 0.02),
+    (bell(N('C6'), 0.7, 1.1, gain_db=-10), 0.0), (bell(N('E6'), 0.7, 1.1, gain_db=-11), 0.06), (bell(N('A6'), 0.9, 1.2, gain_db=-12), 0.12),
+    (highpass(noise_sweep(0.25, True, -22, gen=rng_v2), 2000), 0),
+]), 1.0, 0.22, bright=0.95, gen=rng_v2), peak_db=-4)
 
 # ── Fim ───────────────────────────────────────────────────────────────────
 make('game-over-sfx', reverb(mix([

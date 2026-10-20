@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import type { HintRechargeView } from '../../domain/engine';
 import type { MultiplierProgress } from '../../domain/progress';
 import { fx, haptic, isReduced } from '../../lib/motion';
 import { particlesFx, PALETTES } from '../../lib/particles';
@@ -127,33 +128,88 @@ export function StreakChip({ combo }: { combo: number }) {
   );
 }
 
-export function RecoveryMeter({ required, progress, paused }: { required: number; progress: number; paused: boolean }) {
-  if (paused) {
-    return (
-      <div className="recovery is-paused" data-testid="recovery" title="Vidas cheias">
-        <ShieldHeart className="recovery-icon" />
-        <div className="recovery-body">
-          <span className="hud-label">Vidas cheias</span>
-          <span className="recovery-hint">recuperação pausada</span>
-        </div>
-      </div>
-    );
-  }
+/**
+ * Barra "Recuperar vida": acertos SEGUIDOS SEM AJUDA rumo à próxima vida (metas 3, 5, 7, 10, 15…).
+ * Mensagens derivadas do estado canônico do motor (sem estado próprio): quebra da sequência na rodada
+ * atual (`brokenNow`) e vida recuperada (`gainedNow`). Animações por acerto ficam em efeitos.
+ */
+export function RecoveryStrip({
+  required,
+  progress,
+  paused,
+  brokenNow,
+  gainedNow,
+}: {
+  required: number;
+  progress: number;
+  paused: boolean;
+  brokenNow: boolean;
+  gainedNow: boolean;
+}) {
+  const ref = useRef<HTMLDivElement>(null);
+  const prev = useRef(progress);
+  useEffect(() => {
+    const el = ref.current;
+    if (el && progress > prev.current && !paused) {
+      // O segmento recém-aceso "acende" e o número pula; perto da meta, a faixa pulsa mais forte.
+      const seg = el.querySelector(`[data-seg="${progress - 1}"]`);
+      fx.pop(seg, 1.9);
+      fx.pop(el.querySelector('.rs-count b'), 1.5);
+      if (required - progress <= 1) fx.glowPulse(el);
+      haptic(10);
+    }
+    prev.current = progress;
+  }, [progress, paused, required]);
+  useEffect(() => {
+    if (!gainedNow) return;
+    const el = ref.current;
+    particlesFx.burst(el, PALETTES.good, 30, 1.1);
+    fx.glowPulse(el);
+  }, [gainedNow]);
+  useEffect(() => {
+    if (brokenNow) fx.shake(ref.current, 8);
+  }, [brokenNow]);
+
   const left = required - progress;
+  const state = gainedNow ? 'is-gained' : brokenNow ? 'is-broken' : paused ? 'is-paused' : left === 1 ? 'is-close' : '';
+  const caption = gainedNow
+    ? '+1 VIDA — recuperada por sequência de acertos!'
+    : brokenNow
+      ? 'Sequência interrompida — comece de novo'
+      : paused
+        ? 'recuperação pausada'
+        : left === 1
+          ? 'falta 1 acerto seguido!'
+          : `faltam ${left} acertos seguidos`;
+  const label = paused && !gainedNow ? 'Vidas completas' : 'Recuperar vida';
   return (
-    <div className="recovery" data-testid="recovery" aria-label={`Próxima vida: ${progress} de ${required} acertos seguidos`}>
-      <HeartIcon filled className="recovery-icon is-pending" />
-      <div className="recovery-body">
-        <span className="hud-label">
-          <span className="recovery-word">Próxima </span>vida <b>{progress}/{required}</b>
-        </span>
-        <div className="recovery-track" aria-hidden="true" style={{ ['--segs' as string]: required }}>
+    <div
+      ref={ref}
+      className={`recovery-strip ${state}`}
+      data-testid="recovery"
+      role="status"
+      aria-live="polite"
+      aria-label={paused && !gainedNow ? 'Vidas completas: recuperação pausada' : `Recuperar vida: ${progress} de ${required} acertos seguidos. ${caption}`}
+    >
+      <span className="rs-head">
+        {paused && !gainedNow ? <ShieldHeart className="rs-icon is-shield" /> : <HeartIcon filled className="rs-icon" />}
+        <span className="rs-label">{label}</span>
+        <span className="rs-caption">{caption}</span>
+      </span>
+      <span className="rs-bar">
+        <span className="rs-track" aria-hidden="true" style={{ ['--segs' as string]: required }}>
           {Array.from({ length: required }, (_, i) => (
-            <span key={i} className={i < progress ? 'seg is-on' : i === progress ? 'seg is-next' : 'seg'} />
+            <span key={`${required}-${i}`} data-seg={i} className={gainedNow || (!paused && i < progress) ? 'rs-seg is-on' : !paused && i === progress ? 'rs-seg is-next' : 'rs-seg'} />
           ))}
-        </div>
-        <span className="recovery-hint">{left === 1 ? 'falta 1 acerto!' : `faltam ${left} acertos seguidos`}</span>
-      </div>
+        </span>
+        <span className="rs-count" aria-hidden="true">
+          {gainedNow ? <b>+1</b> : paused ? <b>✓</b> : (
+            <>
+              <b>{progress}</b>/{required}
+            </>
+          )}
+        </span>
+      </span>
     </div>
   );
 }
@@ -190,5 +246,46 @@ export function TimeFuse({ remainingMs, durationMs, warning }: { remainingMs: nu
     <div className={`fuse${warning ? ' is-warning' : ''}`} aria-hidden="true">
       <span className="fuse-fill" style={{ transform: `scaleX(${fraction})` }} />
     </div>
+  );
+}
+
+/**
+ * Cargas da ajuda "3 alternativas" (cristais) + recarga por acertos ACUMULADOS (linha na base do botão).
+ * Visual distinto da barra de vida: cristais violeta, nada de corações nem de "seguidos".
+ */
+export function HintCharges({ charges, max, progress, every, full, remaining }: HintRechargeView) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const prev = useRef(charges);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (charges < prev.current) {
+      // Carga gasta: o cristal "descarrega" (brilho rápido e apaga).
+      const pip = el.querySelector(`[data-pip="${charges}"]`);
+      if (pip && !isReduced()) gsap.fromTo(pip, { scale: 1.8, filter: 'brightness(2.4)' }, { scale: 1, filter: 'brightness(1)', duration: 0.5, ease: 'power2.out', clearProps: 'filter' });
+      particlesFx.burst(pip, PALETTES.cyan, 10, 0.45);
+    }
+    if (charges > prev.current) {
+      // Recarga: o cristal volta com bounce, faíscas e o selo "+1 alternativa".
+      const pip = el.querySelector(`[data-pip="${charges - 1}"]`);
+      if (pip && !isReduced()) gsap.fromTo(pip, { scale: 0.2, rotation: -90 }, { scale: 1, rotation: 0, duration: 0.8, ease: 'elastic.out(1.1, 0.4)' });
+      particlesFx.burst(el, PALETTES.cyan, 26, 0.9);
+      fx.floatText(el, '+1 alternativa', 'float-cyan');
+      haptic(22);
+    }
+    prev.current = charges;
+  }, [charges]);
+  return (
+    <span className={`hint-charges${full ? ' is-full' : ''}${charges === 0 ? ' is-empty' : ''}`} ref={ref} aria-hidden="true">
+      <span className="hc-row">
+        <span className="hc-pips">
+          {Array.from({ length: max }, (_, i) => (
+            <span key={i} data-pip={i} className={i < charges ? 'hc-pip is-on' : 'hc-pip'} />
+          ))}
+        </span>
+        <span className="hc-caption">{full ? `${charges}/${max}` : `+1 em ${remaining}`}</span>
+      </span>
+      <span className="hc-recharge" style={{ ['--p' as string]: full ? 0 : progress / every }} />
+    </span>
   );
 }

@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useLayoutEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import { GAME_CONFIG } from '../../config/gameConfig';
-import { recoveryView, roundRemainingMs, type Engine, type GameMode, type GameState, type Resolution } from '../../domain/engine';
+import { hintRechargeView, recoveryView, roundRemainingMs, type Engine, type GameMode, type GameState, type Resolution } from '../../domain/engine';
 import { heatLevel, isFastAnswer, multiplierProgress } from '../../domain/progress';
 import { multiplierFor } from '../../domain/scoring';
 import type { Identity } from '../../domain/types';
@@ -11,8 +11,8 @@ import { usePreload } from '../hooks/usePreload';
 import { useGameAudio } from '../../audio/useGameAudio';
 import { ChallengeImage } from './ChallengeImage';
 import { MuteButton, SoundControls } from './SoundControls';
-import { Hearts, Multiplier, RecoveryMeter, RoundBadge, Score, StreakChip, TimeFuse, TimerRing } from './Hud';
-import { BoltIcon, CameraIcon, ClockIcon, HeartIcon, HomeIcon, MaskIcon, OptionsIcon, PauseIcon, PlayIcon, SkipIcon, SparkIcon } from './Icons';
+import { Hearts, HintCharges, Multiplier, RecoveryStrip, RoundBadge, Score, StreakChip, TimeFuse, TimerRing } from './Hud';
+import { BoltIcon, CameraIcon, ClockIcon, HeartIcon, HomeIcon, MaskIcon, OptionsIcon, PauseIcon, PlayIcon, SkipIcon, SparkIcon, SpellIcon } from './Icons';
 
 const cfg = GAME_CONFIG;
 
@@ -98,8 +98,10 @@ export function GameScreen({
   }
 
   const recovery = recoveryView(state, cfg);
+  const hints = hintRechargeView(state, cfg);
   const resolution = phase === 'feedback' || phase === 'gameover' ? state.lastResolution : null;
   const resolvedHere = resolution && resolution.roundId === round.id ? resolution : null;
+  const brokenNow = state.streakBreak?.roundId === round.id;
   const canAct = phase === 'playing';
   const person = identity.kind === 'person';
 
@@ -109,12 +111,13 @@ export function GameScreen({
         <Hearts lives={state.lives.lives} max={cfg.lives.max} />
         <Score value={state.score} best={best} competitive={!preview} />
         <Multiplier progress={progress} combo={state.combo} />
+        <RecoveryStrip {...recovery} brokenNow={brokenNow} gainedNow={Boolean(resolvedHere?.lifeGained)} />
       </header>
 
       <div className="statusbar" data-enter>
         <RoundBadge number={round.number} />
         <StreakChip combo={state.combo} />
-        <RecoveryMeter {...recovery} />
+        <span className="statusbar-spacer" />
         <MuteButton />
         <button className="icon-btn" onClick={() => dispatch({ type: 'hide' })} disabled={!canAct} aria-label="Pausar">
           <PauseIcon />
@@ -158,7 +161,12 @@ export function GameScreen({
             onPick={(optionId) => dispatch({ type: 'pickOption', roundId: round.id, optionId })}
           />
         ) : (
-          <AnswerForm roundId={round.id} disabled={!canAct} onSubmit={(guess) => dispatch({ type: 'submit', roundId: round.id, guess })} />
+          <AnswerForm
+            roundId={round.id}
+            disabled={!canAct}
+            suggest={engine.answers.suggest}
+            onSubmit={(guess) => dispatch({ type: 'submit', roundId: round.id, guess })}
+          />
         )}
 
         {phase === 'feedback' ? (
@@ -181,15 +189,23 @@ export function GameScreen({
               <span className="aid-label">Pular</span>
             </button>
             <button
-              className="btn btn--aid"
+              className="btn btn--aid btn--hint"
               disabled={!canAct || state.hintsLeft <= 0 || round.options !== null}
               onClick={() => dispatch({ type: 'useHint', roundId: round.id })}
-              aria-label={`Mostrar 3 alternativas, ${state.hintsLeft} restantes`}
+              aria-label={
+                state.hintsLeft > 0
+                  ? `Mostrar 3 alternativas: ${hints.charges} de ${hints.max} cargas${hints.full ? '' : `, +1 carga em ${hints.remaining} acertos`}`
+                  : `Alternativas esgotadas: próxima carga em ${hints.remaining} acertos`
+              }
+              data-testid="hint-button"
             >
-              <AidIcon tone="hint" left={state.hintsLeft}>
+              <span className="aid-icon hint" aria-hidden="true">
                 <OptionsIcon />
-              </AidIcon>
-              <span className="aid-label">Alternativas</span>
+              </span>
+              <span className="aid-stack">
+                <span className="aid-label">Alternativas</span>
+                <HintCharges {...hints} />
+              </span>
             </button>
           </div>
         )}
@@ -267,7 +283,17 @@ function RoundCard({
   );
 }
 
-function AnswerForm({ roundId, disabled, onSubmit }: { roundId: number; disabled: boolean; onSubmit: (guess: string) => void }) {
+function AnswerForm({
+  roundId,
+  disabled,
+  suggest,
+  onSubmit,
+}: {
+  roundId: number;
+  disabled: boolean;
+  suggest: (guess: string) => string | null;
+  onSubmit: (guess: string) => void;
+}) {
   const [value, setValue] = useState('');
   const [valueRound, setValueRound] = useState(roundId);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -288,8 +314,33 @@ function AnswerForm({ roundId, disabled, onSubmit }: { roundId: number; disabled
     onSubmit(value);
   };
 
+  // Corretor: só aparece quando o texto já é quase um nome do catálogo (nunca a partir da resposta da rodada).
+  const suggestion = useMemo(() => (disabled ? null : suggest(value)), [disabled, suggest, value]);
+  const applySuggestion = () => {
+    if (!suggestion) return;
+    setValue(suggestion);
+    inputRef.current?.focus({ preventScroll: true });
+  };
+
   return (
     <form className="answer" onSubmit={submit} autoComplete="off">
+      {suggestion && (
+        <button
+          type="button"
+          className="suggest-chip"
+          data-testid="suggestion"
+          // Não tira o foco do campo (o teclado do celular continua aberto).
+          onPointerDown={(e) => e.preventDefault()}
+          onClick={applySuggestion}
+          aria-label={`Corrigir para ${suggestion}`}
+        >
+          <SpellIcon />
+          <span className="suggest-text">
+            Você quis dizer: <b>{suggestion}</b>?
+          </span>
+          <kbd>Tab</kbd>
+        </button>
+      )}
       <div className="answer-field">
         <input
           ref={inputRef}
@@ -306,6 +357,12 @@ function AnswerForm({ roundId, disabled, onSubmit }: { roundId: number; disabled
           value={value}
           readOnly={disabled}
           onChange={(e) => setValue(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Tab' && !e.shiftKey && suggestion) {
+              e.preventDefault();
+              applySuggestion();
+            }
+          }}
           data-testid="answer-input"
         />
       </div>
@@ -387,6 +444,8 @@ function FeedbackOverlay({ resolution, name }: { resolution: Resolution; name: s
         <span className="feedback-name">{good ? name : `Era ${name}`}</span>
         <span className="feedback-meta">
           {score.total > 0 && <span className="tag tag--points">+{score.total.toLocaleString('pt-BR')}</span>}
+          {score.aidedShare !== undefined && <span className="tag tag--hint">½ com ajuda</span>}
+          {resolution.match === 'typo' && <span className="tag tag--spell">grafia corrigida</span>}
           {score.multiplier > 1 && <span className="tag tag--mult">x{score.multiplier}</span>}
           {fast && <span className="tag tag--fast">rápido +{score.speedBonus}</span>}
           {resolution.lifeLost && <span className="tag tag--bad">−1 vida</span>}
@@ -415,7 +474,8 @@ function Celebration({ resolution }: { resolution: Resolution }) {
       {resolution.lifeGained ? (
         <>
           <HeartIcon filled />
-          <b>+1 vida!</b>
+          <b>+1 VIDA!</b>
+          <small>recuperada por sequência de acertos</small>
         </>
       ) : (
         <>

@@ -48,8 +48,10 @@ test('preview: mecânicas reais, sem revelar o nome antes da resposta', async ({
   await page.getByTestId('next').dblclick();
   await expect(page.getByTestId('round')).toHaveAttribute('aria-label', 'Rodada 2');
 
-  // ajuda de alternativas mostra 3 opções; contador da próxima vida visível
-  await expect(page.getByTestId('recovery')).toContainText('Próxima vida 0/3');
+  // ajuda de alternativas mostra 3 opções; barra "Recuperar vida" visível com a meta
+  await expect(page.getByTestId('recovery')).toContainText('Recuperar vida');
+  await expect(page.getByTestId('recovery')).toContainText('0/3');
+  await expect(page.getByTestId('recovery')).toContainText('faltam 3 acertos seguidos');
   await page.getByRole('button', { name: /Mostrar 3 alternativas/ }).click();
   await expect(page.getByRole('group', { name: 'Alternativas' }).getByRole('button')).toHaveCount(3);
 
@@ -152,10 +154,10 @@ test('tempo acabando: tela entra em tensão e o timeout custa 1 vida', async ({ 
   await page.goto('./');
   await page.getByTestId('preview').click();
   await expect(page.getByTestId('timer')).toBeVisible();
-  await page.clock.runFor(33_000);
+  await page.clock.runFor(20_000);
   await expect(page.locator('html')).toHaveAttribute('data-danger', 'true');
   await expect(page.getByTestId('timer')).toHaveClass(/is-warning/);
-  await page.clock.runFor(8_000);
+  await page.clock.runFor(5_500); // 25 s + 0,5 s: estourou, e o feedback ainda não avançou sozinho
   await expect(page.getByTestId('feedback')).toContainText('Tempo!');
   await expect(page.getByRole('img', { name: '2 de 3 vidas' })).toBeVisible();
   await expect(page.locator('html')).not.toHaveAttribute('data-danger', 'true');
@@ -290,5 +292,123 @@ test.describe('respostas naturais na partida real (imagens reais, build de produ
       await expect(feedback).not.toContainText('−1 vida');
       await page.getByTestId('next').click();
     }
+  });
+});
+
+test.describe('partida real: vida, alternativas recarregáveis e corretor', () => {
+  // Helpers sobre o build de produção; o oráculo de teste identifica a imagem pelo hash do arquivo.
+  async function shown(page: Page) {
+    const { identityForImage } = await import('./oracle');
+    const img = page.locator('.image-frame.is-loaded img');
+    await expect(img).toBeVisible({ timeout: 15_000 });
+    const identity = identityForImage((await img.getAttribute('src')) ?? '');
+    expect(identity).toBeTruthy();
+    return identity!;
+  }
+  async function roundNumber(page: Page) {
+    return Number((await page.getByTestId('round').getAttribute('aria-label'))?.replace(/\D/g, ''));
+  }
+  /** Avança para a próxima rodada (o "Próximo" também avança sozinho após o feedback). */
+  async function advance(page: Page, from: number) {
+    await page.getByTestId('next').click({ timeout: 1_500 }).catch(() => undefined);
+    await expect(page.getByTestId('round')).toHaveAttribute('aria-label', `Rodada ${from + 1}`);
+  }
+  async function answer(page: Page, text?: string) {
+    const identity = await shown(page);
+    const n = await roundNumber(page);
+    await page.getByTestId('answer-input').fill(text ?? identity.names[0]!);
+    await page.getByTestId('answer-input').press('Enter');
+    await expect(page.getByTestId('feedback')).toBeVisible();
+    return n;
+  }
+
+  test('barra "Recuperar vida": enche a cada acerto, quebra no erro e devolve a vida', async ({ page }) => {
+    await page.goto('./');
+    await page.getByTestId('play').click();
+    const strip = page.getByTestId('recovery');
+    await expect(strip).toContainText('Vidas completas');
+    let n = await answer(page, 'zzzz resposta errada');
+    await expect(page.getByRole('img', { name: '2 de 3 vidas' })).toBeVisible();
+    await advance(page, n);
+    await expect(strip).toContainText('0/3');
+    n = await answer(page);
+    await advance(page, n);
+    n = await answer(page);
+    await expect(strip).toContainText('2/3');
+    await expect(strip).toContainText('falta 1 acerto seguido!');
+    await advance(page, n);
+    n = await answer(page, 'zzzz resposta errada');
+    await expect(strip).toContainText('Sequência interrompida — comece de novo');
+    await expect(page.getByRole('img', { name: '1 de 3 vidas' })).toBeVisible();
+    await advance(page, n);
+    await expect(strip).toContainText('0/3');
+    for (let i = 0; i < 2; i++) {
+      n = await answer(page);
+      await advance(page, n);
+    }
+    await answer(page);
+    await expect(strip).toContainText('+1 VIDA — recuperada por sequência de acertos!');
+    await expect(page.locator('.celebration.is-life')).toContainText('+1 VIDA');
+    await expect(page.getByRole('img', { name: '2 de 3 vidas' })).toBeVisible();
+  });
+
+  test('alternativas: 3 cargas, acerto vale metade, +1 carga após 15 acertos acumulados (teto 3)', async ({ page }) => {
+    test.setTimeout(90_000);
+    await page.goto('./');
+    await page.getByTestId('play').click();
+    const hint = page.getByTestId('hint-button');
+    await expect(hint).toHaveAttribute('aria-label', 'Mostrar 3 alternativas: 3 de 3 cargas');
+    const identity = await shown(page);
+    let n = await roundNumber(page);
+    await hint.click();
+    await page.getByRole('group', { name: 'Alternativas' }).getByRole('button', { name: new RegExp(identity.displayName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')) }).click();
+    await expect(page.getByTestId('feedback')).toContainText('½ com ajuda');
+    await expect(hint).toHaveCount(0); // durante o feedback o botão "Próximo" ocupa o lugar das ajudas
+    await advance(page, n);
+    await expect(hint).toHaveAttribute('aria-label', 'Mostrar 3 alternativas: 2 de 3 cargas, +1 carga em 14 acertos');
+    for (let i = 0; i < 13; i++) {
+      n = await answer(page);
+      await advance(page, n);
+    }
+    await expect(hint).toHaveAttribute('aria-label', /2 de 3 cargas, \+1 carga em 1 acertos/);
+    n = await answer(page); // 15º acerto acumulado (o acerto com ajuda contou)
+    await advance(page, n);
+    await expect(hint).toHaveAttribute('aria-label', 'Mostrar 3 alternativas: 3 de 3 cargas');
+  });
+
+  test('corretor: sugere a grafia certa só perto de um nome real; erro pequeno vale sem perder vida', async ({ page }) => {
+    const { buildAnswerIndex, answerKey } = await import('../src/domain/answers');
+    const { CHARACTERS } = await import('../src/data/characters');
+    const index = buildAnswerIndex(CHARACTERS);
+    await page.goto('./');
+    await page.getByTestId('play').click();
+    const input = page.getByTestId('answer-input');
+    // Rodadas até aparecer um nome longo o bastante para um erro tolerado.
+    for (let attempt = 0; attempt < 12; attempt++) {
+      const identity = await shown(page);
+      const name = [...identity.names, ...(identity.aliases ?? [])].sort((a, b) => answerKey(b).length - answerKey(a).length)[0]!;
+      const typo = name.replace(/([a-z])/i, '$1$1');
+      const expected = index.suggest(typo);
+      const n = await roundNumber(page);
+      if (answerKey(name).length < 8 || !expected || !index.check(typo, identity.id).correct) {
+        await answer(page);
+        await advance(page, n);
+        continue;
+      }
+      await input.fill(name.slice(0, 3)); // prefixo curto: nada de sugestão
+      await expect(page.getByTestId('suggestion')).toHaveCount(0);
+      await input.fill(typo);
+      await expect(page.getByTestId('suggestion')).toContainText(expected);
+      await page.getByTestId('suggestion').click();
+      await expect(input).toHaveValue(expected);
+      await expect(input).toBeFocused();
+      await input.fill(typo); // enviar com o erro também vale (a sugestão é só conveniência)
+      await input.press('Enter');
+      await expect(page.getByTestId('feedback')).toHaveClass(/is-good/);
+      await expect(page.getByTestId('feedback')).toContainText('grafia corrigida');
+      await expect(page.getByRole('img', { name: '3 de 3 vidas' })).toBeVisible();
+      return;
+    }
+    throw new Error('nenhum nome longo apareceu em 12 rodadas');
   });
 });

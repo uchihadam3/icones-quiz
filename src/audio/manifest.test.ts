@@ -19,7 +19,7 @@ const EVENTS: Record<SfxEvent, true> = {
   wrong: true, timeout: true, tick: true, 'tick-final': true, heartbeat: true, 'life-lost': true, 'last-life': true,
   'life-recovered': true, 'tier-up-2': true, 'tier-up-3': true, 'tier-up-4': true, 'tier-up-5': true,
   'combo-break': true, skip: true, hint: true, pause: true, resume: true, 'game-start': true, 'game-over': true,
-  'new-record': true, 'record-beaten': true, install: true,
+  'new-record': true, 'record-beaten': true, install: true, 'recovery-step': true, 'recovery-break': true, 'hint-recharge': true,
 };
 
 /** Duração de um Ogg Opus: granule da última página − pre-skip, a 48 kHz. */

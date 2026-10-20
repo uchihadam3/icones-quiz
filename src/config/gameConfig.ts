@@ -29,7 +29,10 @@ export interface GameConfig {
   };
   aids: {
     skips: number;
+    /** Cargas iniciais da ajuda "3 alternativas" (também o máximo: nunca acumula acima disso). */
     optionHints: number;
+    /** Acertos ACUMULADOS (não precisam ser seguidos; com ou sem ajuda) que devolvem 1 carga. */
+    optionHintRechargeEvery: number;
     /** Quantidade de alternativas exibidas pela ajuda (inclui a correta). */
     optionCount: number;
   };
@@ -42,8 +45,8 @@ export interface GameConfig {
     /** Combo mínimo (após o acerto) para cada multiplicador x1…x5. */
     multiplierTiers: readonly number[];
     maxMultiplier: number;
-    /** Pontos fixos de um acerto feito com a ajuda de alternativas (sem multiplicador nem velocidade). */
-    optionHintPoints: number;
+    /** Fração dos pontos que o mesmo acerto renderia digitado, quando feito com alternativas (0,5 = metade). */
+    optionHintShare: number;
   };
   selection: {
     levelMix: readonly LevelMix[];
@@ -59,15 +62,15 @@ export interface GameConfig {
 export const GAME_CONFIG: GameConfig = {
   lives: { initial: 3, max: 3 },
   recovery: { thresholds: [3, 5, 7, 10, 15], cap: 15 },
-  timer: { earlyRounds: 5, earlySeconds: 40, normalSeconds: 30, warningSeconds: 8 },
-  aids: { skips: 3, optionHints: 3, optionCount: 3 },
+  timer: { earlyRounds: 5, earlySeconds: 25, normalSeconds: 20, warningSeconds: 6 },
+  aids: { skips: 3, optionHints: 3, optionHintRechargeEvery: 15, optionCount: 3 },
   scoring: {
     basePoints: 100,
     levelBonus: { 1: 0, 2: 30, 3: 60 },
     maxSpeedBonus: 50,
     multiplierTiers: [0, 3, 6, 10, 15],
     maxMultiplier: 5,
-    optionHintPoints: 30,
+    optionHintShare: 0.5,
   },
   selection: {
     levelMix: [

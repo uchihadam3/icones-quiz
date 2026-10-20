@@ -257,6 +257,29 @@
       "gain": 0.8,
       "duration": 1.587,
       "duck": 0.2
+    },
+    "recovery-step": {
+      "files": [
+        "sfx/recovery-step"
+      ],
+      "gain": 0.6,
+      "duration": 0.838
+    },
+    "recovery-break": {
+      "files": [
+        "sfx/recovery-break"
+      ],
+      "gain": 0.7,
+      "duration": 1.219,
+      "duck": 0.1
+    },
+    "hint-recharge": {
+      "files": [
+        "sfx/hint-recharge"
+      ],
+      "gain": 0.85,
+      "duration": 1.501,
+      "duck": 0.25
     }
   },
   "credits": [

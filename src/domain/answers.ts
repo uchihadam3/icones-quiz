@@ -173,6 +173,12 @@ export interface AnswerIndex {
   keysOf(id: string): readonly string[];
   /** Identidades que possuem a chave exata. */
   ownersOf(key: string): readonly string[];
+  /**
+   * Correção ortográfica sem spoiler: a grafia certa de UM nome do catálogo do qual o palpite é um erro
+   * tolerado (mesmas regras da aceitação), ou null. Independe da resposta da rodada; nunca completa
+   * prefixos nem palpites curtos; null se o palpite já é um nome exato ou se houver mais de um candidato.
+   */
+  suggest(guess: string): string | null;
 }
 
 export function identityKeys(identity: Identity): string[] {
@@ -192,6 +198,14 @@ export function buildAnswerIndex(identities: readonly Identity[]): AnswerIndex {
     for (const key of keys) owners.set(key, [...(owners.get(key) ?? []), identity.id]);
   }
   const allEntries = [...keysById.entries()];
+  // Grafia original de cada chave (para mostrar "Snoop Dogg", não "snoopdogg").
+  const spelling = new Map<string, string>();
+  for (const identity of identities) {
+    for (const name of [...identity.names, ...(identity.aliases ?? [])]) {
+      const key = answerKey(name);
+      if (key && !spelling.has(key)) spelling.set(key, name);
+    }
+  }
 
   return {
     keysOf: (id) => keysById.get(id) ?? [],
@@ -212,6 +226,24 @@ export function buildAnswerIndex(identities: readonly Identity[]): AnswerIndex {
       );
       if (nearOther) return { correct: false, reason: 'ambiguous' };
       return { correct: true, how: 'typo' };
+    },
+    suggest(guess) {
+      const key = answerKey(guess);
+      if (key.length < 5 || owners.has(key)) return null;
+      let best: { id: string; key: string; tolerance: number } | null = null;
+      for (const [id, keys] of allEntries) {
+        for (const k of keys) {
+          const tolerance = typoTolerance(k, key);
+          if (tolerance === 0) continue;
+          if (best && best.id !== id) return null; // dois candidatos: ambíguo, não sugere
+          if (!best || tolerance < best.tolerance) best = { id, key: k, tolerance };
+        }
+      }
+      if (!best) return null;
+      const chosen = best;
+      // Mesma proteção da aceitação: nenhuma outra identidade tão perto quanto a sugerida.
+      const nearOther = allEntries.some(([id, keys]) => id !== chosen.id && keys.some((k) => boundedDistance(k, key, chosen.tolerance) <= chosen.tolerance));
+      return nearOther ? null : (spelling.get(chosen.key) ?? null);
     },
   };
 }
