@@ -35,7 +35,10 @@ nítido, acessível e leve que um canvas WebGL. Pixi só entra se surgir um efei
 
 ## Orçamentos de desempenho (celular médio)
 
-- JS inicial ≤ 130 KB gzip (hoje ~111 KB, a maior parte React + GSAP).
+- JS inicial ≤ 140 KB gzip (hoje ~136 KB: React + GSAP + motor de áudio + mapa de imagens e créditos
+  dos retratos prontos). O manifesto de imagens entra **enxuto** no build (`vite/slimManifest.ts`: só
+  entradas `ready` com status e créditos; prompts e metadados de auditoria ficam fora). O catálogo de
+  identidades é carregado sob demanda, em chunk separado.
 - Imagem por rodada ≤ ~150 KB WebP; a próxima rodada é pré-carregada.
 - Áudio só após interação do usuário, carregado sob demanda, com controle próprio de mudo/volume
   (independente da preferência de movimento).
