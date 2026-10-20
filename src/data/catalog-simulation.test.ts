@@ -21,7 +21,7 @@ describe('maratonas simuladas sobre o catálogo real', () => {
       let last: string | undefined;
       for (let round = 1; round <= 60; round++) {
         const r = selectNext({ pool, round, used, recentCategories: recent, lastId: last, rng, config: sel })!;
-        expect(r.cycleReset).toBe(false); // 583 ícones: nenhuma partida de 60 rodadas repete
+        expect(r.cycleReset).toBe(false); // centenas de ícones: nenhuma partida de 60 rodadas repete
         expect(used.has(r.identity.id)).toBe(false);
         used.add(r.identity.id);
         if (recent[recent.length - 1] === r.identity.category) sameCategoryInARow++;
@@ -46,14 +46,14 @@ describe('maratonas simuladas sobre o catálogo real', () => {
     expect(sameCategoryInARow / picks).toBeLessThan(0.02);
   }, 60_000);
 
-  it('maratona longa (700 rodadas) esgota o catálogo, reinicia o ciclo e nunca repete em seguida', () => {
+  it('maratona longa (2 catálogos inteiros) esgota o catálogo, reinicia o ciclo e nunca repete em seguida', () => {
     const rng = createRng(99);
     const used = new Set<string>();
     const recent: Category[] = [];
     let last: string | undefined;
     let resets = 0;
     const seenInCycle = new Set<string>();
-    for (let round = 1; round <= 700; round++) {
+    for (let round = 1; round <= pool.length * 2 + 50; round++) {
       const r = selectNext({ pool, round, used, recentCategories: recent, lastId: last, rng, config: sel })!;
       if (r.cycleReset) {
         resets++;
@@ -67,8 +67,33 @@ describe('maratonas simuladas sobre o catálogo real', () => {
       recent.push(r.identity.category);
       last = r.identity.id;
     }
-    expect(resets).toBe(1);
-  });
+    expect(resets).toBe(2);
+  }, 60_000);
+
+  it('escala: 2.000 identidades sintéticas, 2.000 rodadas seguidas sem repetir e sem lentidão', () => {
+    const cats = [...new Set(pool.map((c) => c.category))];
+    const big = Array.from({ length: 2000 }, (_, i) => ({
+      ...pool[i % pool.length]!,
+      id: `sintetico-${i}`,
+      category: cats[i % cats.length]!,
+      level: ((i % 10) < 4 ? 1 : (i % 10) < 8 ? 2 : 3) as RecognitionLevel,
+    }));
+    const rng = createRng(7);
+    const used = new Set<string>();
+    const recent: Category[] = [];
+    let last: string | undefined;
+    const t0 = performance.now();
+    for (let round = 1; round <= big.length; round++) {
+      const r = selectNext({ pool: big, round, used, recentCategories: recent, lastId: last, rng, config: sel })!;
+      expect(r.cycleReset).toBe(false);
+      used.add(r.identity.id);
+      recent.push(r.identity.category);
+      last = r.identity.id;
+    }
+    expect(used.size).toBe(big.length);
+    // Média por sorteio abaixo de 2 ms mesmo com o catálogo inteiro na memória.
+    expect((performance.now() - t0) / big.length).toBeLessThan(2);
+  }, 60_000);
 
   it('motor completo: 200 partidas reais até o fim, sem travar nem repetir na partida', () => {
     const engine = createEngine({ catalog: CHARACTERS, isImageReady: () => true, config: GAME_CONFIG });
