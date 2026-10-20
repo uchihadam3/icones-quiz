@@ -5,15 +5,15 @@ Atualizado em 20/10/2026 (UTC).
 ## Estado verificado
 
 - Catálogo: 583 identidades.
-- Imagens prontas: 247.
-- Entradas ainda sem imagem: 336.
-- Lote desta atualização: 47 ilustrações geradas individualmente com OpenAI, além da correção do Ikki de Fênix.
-- As outras 199 imagens anteriores e seus metadados foram preservados.
+- Imagens prontas: 278.
+- Entradas ainda sem imagem: 305.
+- Continuação atual: 31 novas ilustrações integradas; geração e curadoria em andamento.
+- As 247 imagens anteriores e seus metadados foram preservados, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
-## Ilustrações deste lote
+## Ilustrações do lote anterior
 
 `bulma`, `majin-boo`, `cell`, `nami`, `tony-tony-chopper`, `seto-kaiba`, `zenitsu-agatsuma`, `yuji-itadori`, `eren-yeager`, `mikasa-ackerman`, `izuku-midoriya`, `doraemon`, `shin-chan`, `totoro`, `sem-rosto`, `shadow-the-hedgehog`, `dr-eggman`, `spyro`, `mega-man`, `ryu-street-fighter`, `chun-li`, `lara-croft`, `cloud-strife`, `master-chief`, `solid-snake`, `florzinha`, `lindinha`, `docinho`, `johnny-bravo`, `coragem`, `dexter-laboratorio`, `mordecai`, `monica`, `cebolinha`, `cascao`, `magali`, `chico-bento`, `scorpion`, `sub-zero`, `nathan-drake`, `ellie-tlou`, `steve-minecraft`, `creeper`, `tom-gato`, `pantera-cor-de-rosa`, `garfield`, `snoopy`.
 

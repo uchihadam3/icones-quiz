@@ -78,8 +78,15 @@
       "file": "characters/sulley.webp"
     },
     "wall-e": {
-      "status": "missing",
-      "file": "characters/wall-e.webp"
+      "status": "ready",
+      "file": "characters/wall-e.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual quiz character portrait for Ícones — Maratona. Faithful instantly recognizable canonical animated character: WALL-E from Pixar, small weathered yellow trash-compacting robot with binocular-like expressive camera eyes, thin hydraulic arms, cube torso and caterpillar tracks, gently holding a tiny green seedling in a brown boot, whole body. . Preserve specific face, anatomy, proportions and costume colors. Beautiful premium animated-film illustration with carefully finished materials and soft dimensional lighting. Portrait vertical 4:5, complete head and identifying silhouette comfortably framed, large central subject; full body or whole vehicle for short characters, otherwise upper body. Deep midnight-blue to indigo gradient and subtle cyan rim lighting; underwater atmosphere for sea creatures. Only this character, no text, names, captions, watermark, title or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "remy": {
       "status": "missing",
@@ -556,8 +563,15 @@
       "file": "characters/charizard.webp"
     },
     "bulbasaur": {
-      "status": "missing",
-      "file": "characters/bulbasaur.webp"
+      "status": "ready",
+      "file": "characters/bulbasaur.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual quiz portrait for Ícones — Maratona. Faithful instantly recognizable canonical anime character: Bulbasaur the Pokémon: small teal blue-green quadrupedal creature, darker green patches, big red eyes, wide smiling mouth, large dark green plant bulb on back, full body. . Vertical 4:5 composition, show the entire head and all important identifying parts without clipping. Beautiful polished anime/game illustration, clean precise linework and gentle cel shading, original canonical proportions preserved. Deep navy and violet gradient backdrop, soft turquoise rim light, character fills frame. One subject, no text, captions, character names, watermark or logo, no other creatures, no collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "squirtle": {
       "status": "missing",
@@ -584,12 +598,26 @@
       "file": "characters/eevee.webp"
     },
     "psyduck": {
-      "status": "missing",
-      "file": "characters/psyduck.webp"
+      "status": "ready",
+      "file": "characters/psyduck.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual quiz portrait for Ícones — Maratona. Faithful instantly recognizable canonical anime character: Psyduck the Pokémon: yellow duck-like creature, huge beige flat bill, three black hair tufts, vacant round eyes, tiny webbed feet, clutching sides of head with confused expression. . Vertical 4:5 composition, show the entire head and all important identifying parts without clipping. Beautiful polished anime/game illustration, clean precise linework and gentle cel shading, original canonical proportions preserved. Deep navy and violet gradient backdrop, soft turquoise rim light, character fills frame. One subject, no text, captions, character names, watermark or logo, no other creatures, no collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gengar": {
-      "status": "missing",
-      "file": "characters/gengar.webp"
+      "status": "ready",
+      "file": "characters/gengar.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual quiz portrait for Ícones — Maratona. Faithful instantly recognizable canonical anime character: Gengar the Pokémon: round spiky purple ghost with pointed ears, short limbs, wide toothy grin, bright red eyes, mischievous playful expression, floating slightly, entire silhouette clear. . Vertical 4:5 composition, show the entire head and all important identifying parts without clipping. Beautiful polished anime/game illustration, clean precise linework and gentle cel shading, original canonical proportions preserved. Deep navy and violet gradient backdrop, soft turquoise rim light, character fills frame. One subject, no text, captions, character names, watermark or logo, no other creatures, no collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "seiya-de-pegaso": {
       "status": "ready",
@@ -980,20 +1008,48 @@
       "file": "characters/salsicha.webp"
     },
     "fred-flintstone": {
-      "status": "missing",
-      "file": "characters/fred-flintstone.webp"
+      "status": "ready",
+      "file": "characters/fred-flintstone.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Fred Flintstone classic cartoon caveman, heavyset black-haired adult man with big nose and dark stubble, orange sleeveless black-spotted tunic, teal blue tie, warm grinning face, upper body. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ze-colmeia": {
-      "status": "missing",
-      "file": "characters/ze-colmeia.webp"
+      "status": "ready",
+      "file": "characters/ze-colmeia.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Yogi Bear, upright brown cartoon bear with light muzzle, green porkpie hat and green necktie over white shirt collar, confident charming grin, full body. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "manda-chuva": {
-      "status": "missing",
-      "file": "characters/manda-chuva.webp"
+      "status": "ready",
+      "file": "characters/manda-chuva.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Top Cat, upright yellow cartoon cat with purple porkpie hat and purple sleeveless vest, white muzzle, half-lidded eyes and mischievous grin, full body. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dick-vigarista": {
-      "status": "missing",
-      "file": "characters/dick-vigarista.webp"
+      "status": "ready",
+      "file": "characters/dick-vigarista.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Dick Dastardly from Wacky Races, tall thin man with long hooked nose, black curled mustache, purple racing overcoat, red gloves and tall blue-red racing cap with goggles, scheming smile. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mutley": {
       "status": "missing",
@@ -1063,24 +1119,59 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "charlie-brown": {
-      "status": "missing",
-      "file": "characters/charlie-brown.webp"
+      "status": "ready",
+      "file": "characters/charlie-brown.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Charlie Brown from Peanuts, round bald head with small curled hair, yellow short-sleeve shirt with black zigzag stripe, black shorts, brown shoes, gentle bashful smile, canonical simple comic face and proportions. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gasparzinho": {
-      "status": "missing",
-      "file": "characters/gasparzinho.webp"
+      "status": "ready",
+      "file": "characters/gasparzinho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Casper the Friendly Ghost, cute small white translucent ghost boy with round big head, large blue eyes, friendly smile, rounded arms and tapering floating tail, full body. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "papai-smurf": {
-      "status": "missing",
-      "file": "characters/papai-smurf.webp"
+      "status": "ready",
+      "file": "characters/papai-smurf.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Papa Smurf, tiny blue-skinned elderly smurf with white beard, red floppy cap and red trousers, round nose and gentle wise smile, full body. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "hello-kitty": {
-      "status": "missing",
-      "file": "characters/hello-kitty.webp"
+      "status": "ready",
+      "file": "characters/hello-kitty.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Hello Kitty, small white kitten character with simple black oval eyes, yellow oval nose, whiskers, no mouth, red bow on left ear, blue overalls and yellow shirt, canonical simple cute proportions. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "inspetor-bugiganga": {
-      "status": "missing",
-      "file": "characters/inspetor-bugiganga.webp"
+      "status": "ready",
+      "file": "characters/inspetor-bugiganga.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the quiz Ícones — Maratona. Faithful canonical cartoon subject: Inspector Gadget original cartoon, middle-aged lanky man with long bulbous nose, gray fedora and gray trench coat, blue trousers and gray gloves, spring gadget extending above hat, friendly earnest face. . Instantly recognizable original face, colors, silhouette and proportions. Premium polished cartoon illustration, clean linework, gentle cel shading and tasteful dimensional light. Vertical 4:5, full head and hat inside frame, subject large and centered, full body for small cartoon figures and upper body for tall figures. Deep navy-indigo gradient background and soft cyan rim light. One character, no words or lettering, no name, captions, logos, watermark or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "barney-dinossauro": {
       "status": "missing",
@@ -1442,8 +1533,15 @@
       "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "morgan-freeman": {
-      "status": "missing",
-      "file": "characters/morgan-freeman.webp"
+      "status": "ready",
+      "file": "characters/morgan-freeman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Morgan Freeman . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "jennifer-aniston": {
       "status": "missing",
@@ -1505,8 +1603,15 @@
       "attribution": "Foto: Segolene Liger / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "bruce-lee": {
-      "status": "missing",
-      "file": "characters/bruce-lee.webp"
+      "status": "ready",
+      "file": "characters/bruce-lee.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Bruce Lee . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "jim-carrey": {
       "status": "ready",
@@ -1531,8 +1636,15 @@
       "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "eddie-murphy": {
-      "status": "missing",
-      "file": "characters/eddie-murphy.webp"
+      "status": "ready",
+      "file": "characters/eddie-murphy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Eddie Murphy . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "samuel-l-jackson": {
       "status": "ready",
@@ -1557,8 +1669,15 @@
       "attribution": "Foto: Gabriel Hutchinson / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "nicolas-cage": {
-      "status": "missing",
-      "file": "characters/nicolas-cage.webp"
+      "status": "ready",
+      "file": "characters/nicolas-cage.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Nicolas Cage . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "al-pacino": {
       "status": "ready",
@@ -1594,8 +1713,15 @@
       "attribution": "Foto: Georges Biard / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "clint-eastwood": {
-      "status": "missing",
-      "file": "characters/clint-eastwood.webp"
+      "status": "ready",
+      "file": "characters/clint-eastwood.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Clint Eastwood . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "audrey-hepburn": {
       "status": "missing",
@@ -1606,8 +1732,15 @@
       "file": "characters/marilyn-monroe.webp"
     },
     "charlie-chaplin": {
-      "status": "missing",
-      "file": "characters/charlie-chaplin.webp"
+      "status": "ready",
+      "file": "characters/charlie-chaplin.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Charlie Chaplin as the iconic Little Tramp, black bowler hat, toothbrush mustache, dark jacket, vest, bow tie and cane . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "ryan-gosling": {
       "status": "ready",
@@ -1643,8 +1776,15 @@
       "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "jennifer-lawrence": {
-      "status": "missing",
-      "file": "characters/jennifer-lawrence.webp"
+      "status": "ready",
+      "file": "characters/jennifer-lawrence.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Jennifer Lawrence . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "natalie-portman": {
       "status": "ready",
@@ -1794,8 +1934,15 @@
       "attribution": "Foto: Matthew Yohe / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "mark-zuckerberg": {
-      "status": "missing",
-      "file": "characters/mark-zuckerberg.webp"
+      "status": "ready",
+      "file": "characters/mark-zuckerberg.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Mark Zuckerberg . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "mrbeast": {
       "status": "ready",
@@ -1820,12 +1967,26 @@
       "attribution": "Foto: Palácio do Planalto / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "faustao": {
-      "status": "missing",
-      "file": "characters/faustao.webp"
+      "status": "ready",
+      "file": "characters/faustao.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Fausto Silva, the Brazilian television host known as Faustão . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "ana-maria-braga": {
-      "status": "missing",
-      "file": "characters/ana-maria-braga.webp"
+      "status": "ready",
+      "file": "characters/ana-maria-braga.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Ana Maria Braga, Brazilian television host with her characteristic short platinum blonde hair . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "luciano-huck": {
       "status": "ready",
@@ -1839,8 +2000,15 @@
       "attribution": "Foto: Romério Cunha / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "angelica": {
-      "status": "missing",
-      "file": "characters/angelica.webp"
+      "status": "ready",
+      "file": "characters/angelica.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure Angélica, Brazilian blonde television host and singer, recognizable mole on her left thigh is not necessary in this upper-body portrait . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "gugu-liberato": {
       "status": "ready",
@@ -1876,8 +2044,15 @@
       "attribution": "Foto: Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "william-bonner": {
-      "status": "missing",
-      "file": "characters/william-bonner.webp"
+      "status": "ready",
+      "file": "characters/william-bonner.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual likeness portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, instantly recognizable painted portrait of the real public figure William Bonner, Brazilian television news anchor . Crucial: preserve this person's actual distinctive face, ethnicity, facial proportions, characteristic hair and familiar public appearance, never a generic substitute. Depict their most widely recognizable public adult appearance, elegant neutral attire appropriate to them; for historical figures use their iconic era. Polished lifelike digital portrait painting, natural skin texture and subtle brushwork, kind composed expression, carefully modeled features, no caricature. Vertical 4:5, head-and-upper-torso with whole head visible and space above hair, centered and filling frame. Deep navy-to-indigo studio gradient, soft cinematic cyan rim light. One person only, no text, names, lettering, caption, autograph, logos, watermark or collage.",
+      "rightsNote": "User-directed generated artistic depiction of a real public figure; not a documentary photograph.",
+      "attribution": "Retrato artístico gerado para Ícones — Maratona com OpenAI; representação de figura pública."
     },
     "galvao-bueno": {
       "status": "ready",
@@ -2118,8 +2293,15 @@
       "file": "characters/magneto.webp"
     },
     "professor-x": {
-      "status": "missing",
-      "file": "characters/professor-x.webp"
+      "status": "ready",
+      "file": "characters/professor-x.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual premium character portrait for the Brazilian quiz Ícones — Maratona. Faithful instantly recognizable comic character: Professor Charles Xavier classic X-Men comics, bald mature man, calm thoughtful face, dark green suit over white shirt and tie, seated in golden hover wheelchair, one hand touching temple. No actor likeness. . Preserve canonical costume, anatomy, identifying face, colors and symbols that belong to the costume. Beautiful polished painted comic illustration, expressive dignified pose, precise hands and facial details, no photorealistic actor face. Vertical 4:5 central composition, complete head and headwear within frame, upper body plus identifying accessory visible, large subject. Deep navy-indigo gradient background, cinematic cyan rim light. One character, no caption, name, words, signature, watermark or franchise title; no collage, no combat or gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tempestade": {
       "status": "missing",
@@ -2280,8 +2462,15 @@
       "file": "characters/rony-weasley.webp"
     },
     "dumbledore": {
-      "status": "missing",
-      "file": "characters/dumbledore.webp"
+      "status": "ready",
+      "file": "characters/dumbledore.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for the quiz Ícones — Maratona. Create a faithful instantly recognizable depiction of Albus Dumbledore from Harry Potter, elderly wizard with very long silver hair and beard, half-moon spectacles, long purple embroidered robes and matching soft pointed hat, wise kindly expression, recognizable character. . Beautiful premium cinematic painted illustration of the character in costume, detailed expressive face and correct canonical features, recognizable identity essential, no generic substitutes. Vertical 4:5, center subject, head and headwear complete with margin, waist-up or whole body for droids/small creatures. Midnight blue-indigo background, luminous restrained cyan rim light, polished realistic materials. One character only; no written text, title, name, caption, watermark or signature; no violence, no collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "voldemort": {
       "status": "missing",
@@ -2531,8 +2720,15 @@
       "file": "characters/link.webp"
     },
     "princesa-zelda": {
-      "status": "missing",
-      "file": "characters/princesa-zelda.webp"
+      "status": "ready",
+      "file": "characters/princesa-zelda.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, immediately recognizable faithful depiction of the named character, retaining canonical anatomy, colors and face. Princess Zelda from The Legend of Zelda Breath of the Wild, pointed ears, blonde hair, green eyes, royal blue tunic over white clothing and leather belt, calm resolute expression, hands relaxed. Vertical 4:5 portrait, whole head and identifying silhouette clearly visible, central readable composition; upper body or full body when needed for proportions. Premium polished game illustration, expressive pose, carefully drawn hands, crisp detail, luminous deep navy-to-indigo studio gradient background with subtle cyan rim lighting. No words, names, captions, watermark or franchise title. One character only, no collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kirby": {
       "status": "missing",
@@ -2716,8 +2912,15 @@
       "file": "characters/geralt-de-rivia.webp"
     },
     "cj-gta": {
-      "status": "missing",
-      "file": "characters/cj-gta.webp"
+      "status": "ready",
+      "file": "characters/cj-gta.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, immediately recognizable faithful depiction of the named character, retaining canonical anatomy, colors and face. Carl CJ Johnson from Grand Theft Auto San Andreas, recognizable Black young adult with short black hair, white tank top, blue jeans, silver chain necklace, calm confident street pose. Faithful to the video game character, illustrated, no actor likeness. Vertical 4:5 portrait, whole head and identifying silhouette clearly visible, central readable composition; upper body or full body when needed for proportions. Premium polished game illustration, expressive pose, carefully drawn hands, crisp detail, luminous deep navy-to-indigo studio gradient background with subtle cyan rim lighting. No words, names, captions, watermark or franchise title. One character only, no collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ryu-street-fighter": {
       "status": "ready",
@@ -2786,12 +2989,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "bomberman": {
-      "status": "missing",
-      "file": "characters/bomberman.webp"
+      "status": "ready",
+      "file": "characters/bomberman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, immediately recognizable faithful depiction of the named character, retaining canonical anatomy, colors and face. Classic White Bomberman, compact cute robot in white suit, large white helmet and rectangular black face visor with two black vertical eyes, pink ball antenna, pink gloves and boots, blue torso belt; cheerful full body. Vertical 4:5 portrait, whole head and identifying silhouette clearly visible, central readable composition; upper body or full body when needed for proportions. Premium polished game illustration, expressive pose, carefully drawn hands, crisp detail, luminous deep navy-to-indigo studio gradient background with subtle cyan rim lighting. No words, names, captions, watermark or franchise title. One character only, no collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rayman": {
-      "status": "missing",
-      "file": "characters/rayman.webp"
+      "status": "ready",
+      "file": "characters/rayman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for the Brazilian quiz Ícones — Maratona. Create a beautiful, immediately recognizable faithful depiction of the named character, retaining canonical anatomy, colors and face. Rayman from the video games, warm peach face enormous rounded nose, blond swept hair tufts, purple hooded torso with white ring chest emblem, red neckerchief, floating white gloves and yellow-white shoes, NO ARMS OR LEGS connecting limbs. Vertical 4:5 portrait, whole head and identifying silhouette clearly visible, central readable composition; upper body or full body when needed for proportions. Premium polished game illustration, expressive pose, carefully drawn hands, crisp detail, luminous deep navy-to-indigo studio gradient background with subtle cyan rim lighting. No words, names, captions, watermark or franchise title. One character only, no collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "michael-jackson": {
       "status": "missing",
