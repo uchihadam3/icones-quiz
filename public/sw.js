@@ -1,5 +1,5 @@
 /* Service worker independente do build. Escopo: /icones-quiz/. */
-const CACHE = 'icones-shell-v3';
+const CACHE = 'icones-shell-v4';
 // Mídia (áudio e imagens com nome-hash) entra no cache progressivamente, conforme é usada:
 // a instalação do app nunca espera megabytes de música.
 const MEDIA = 'icones-media-v1';
@@ -37,7 +37,9 @@ self.addEventListener('fetch', (event) => {
   if (req.mode === 'navigate') {
     event.respondWith((async () => {
       try {
-        const response = await fetch(req);
+        // no-cache: revalida o HTML com o servidor (o Pages manda max-age=600), para cada abertura
+        // pegar o build mais recente quando houver rede.
+        const response = await fetch(req, { cache: 'no-cache' });
         if (response.ok) (await caches.open(CACHE)).put(BASE, response.clone());
         return response;
       } catch {

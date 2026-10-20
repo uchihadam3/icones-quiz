@@ -61,13 +61,56 @@ describe('D) tolerância a 1 erro de teclado', () => {
     expect(ok('Lionel Mesi', 'lionel-messi')).toBe(true);
   });
 
-  it('nomes de 5–7 letras só aceitam tecla vizinha ou inversão', () => {
+  it('nomes de 5–7 letras aceitam tecla vizinha, inversão ou letra dobrada', () => {
     expect(ok('Pikachi', 'pikachu')).toBe(true); // u→i vizinhas
     expect(ok('Pikahcu', 'pikachu')).toBe(true); // inversão
     expect(ok('Pikachz', 'pikachu')).toBe(false); // z não é vizinha de u
-    expect(ok('Pikchu', 'pikachu')).toBe(false); // letra faltando: não vale em nome médio
-    expect(ok('Pikachuu', 'pikachu')).toBe(false); // letra extra: não vale em nome médio
+    expect(ok('Pikchu', 'pikachu')).toBe(false); // letra faltando (não dobrada): não vale em nome médio
+    expect(ok('Pikachuu', 'pikachu')).toBe(true); // letra dobrada a mais
+    expect(ok('Pikachux', 'pikachu')).toBe(false); // letra extra qualquer: não vale em nome médio
+    expect(ok('Naruuto', 'naruto-uzumaki')).toBe(true);
     expect(ok('Shrel', 'shrek')).toBe(true); // k→l vizinhas
+  });
+
+  it('letra repetida no fim pode faltar ("Snoop Dog"), sem virar licença para prefixos', () => {
+    expect(ok('Snoop Dog', 'snoop-dogg')).toBe(true);
+    expect(ok('snoop dog', 'snoop-dogg')).toBe(true);
+    expect(ok('Snoopy Dogg', 'snoop-dogg')).toBe(true); // 1 letra extra em nome longo
+    expect(ok('Snoopy Dog', 'snoop-dogg')).toBe(true); // 2 edições em nome longo, sem ambiguidade
+    expect(ok('Snoopy', 'snoop-dogg')).toBe(false); // é outra identidade
+    expect(ok('Snoopy', 'snoopy')).toBe(true);
+    expect(ok('Snoop D', 'snoop-dogg')).toBe(false);
+    expect(ok('Darth Vade', 'darth-vader')).toBe(false); // cortar o final continua proibido
+  });
+
+  it('2 edições só em nomes longos, nunca como começo do nome', () => {
+    expect(ok('Lionel Mesy', 'lionel-messi')).toBe(true); // 1 edição
+    expect(ok('Leonel Mesi', 'lionel-messi')).toBe(true); // 2 edições, 10+ letras
+    expect(ok('Michael Jacks', 'michael-jackson')).toBe(false); // prefixo
+    expect(ok('Michael Jackso', 'michael-jackson')).toBe(false); // corte do final
+    expect(ok('Jim Carey', 'jim-carrey')).toBe(true); // letra dobrada a menos
+    expect(ok('Jennifer Lawrance', 'jennifer-lawrence')).toBe(true);
+  });
+
+  it('nome próprio comum sozinho não completa a resposta', () => {
+    expect(ok('Jim', 'jim-carrey')).toBe(false);
+    expect(ok('Jennifer', 'jennifer-lawrence')).toBe(false);
+    expect(ok('Michael', 'michael-jackson')).toBe(false);
+    expect(ok('Michael', 'michael-jordan')).toBe(false);
+    expect(ok('Darth', 'darth-vader')).toBe(false);
+    expect(ok('Homem', 'homem-aranha')).toBe(false);
+  });
+
+  it('apelidos naturais de anime valem (forma pela qual todo mundo chama)', () => {
+    const cases: [string, string][] = [
+      ['Naruto', 'naruto-uzumaki'], ['Sasuke', 'sasuke-uchiha'], ['Kakashi', 'kakashi-hatake'], ['Itachi', 'itachi-uchiha'],
+      ['Tanjiro', 'tanjiro-kamado'], ['Eren', 'eren-yeager'], ['Luffy', 'monkey-d-luffy'], ['Zoro', 'roronoa-zoro'],
+      ['Ichigo', 'ichigo-kurosaki'], ['Gojo', 'satoru-gojo'], ['Levi', 'levi-ackerman'], ['Mikasa', 'mikasa-ackerman'],
+      ['Rengoku', 'kyojuro-rengoku'], ['Chopper', 'tony-tony-chopper'],
+    ];
+    for (const [guess, id] of cases) expect(ok(guess, id), `${guess} → ${id}`).toBe(true);
+    expect(ok('Naruto Uzumaki', 'naruto-uzumaki')).toBe(true);
+    expect(ok('Sasuke Uchiha', 'sasuke-uchiha')).toBe(true);
   });
 
   it('nomes curtos (<5) exigem resposta exata', () => {

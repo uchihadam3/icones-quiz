@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import type { Engine, GameMode, GameState } from './domain/engine';
 import { randomSeed } from './domain/rng';
 import { loadEngine } from './game';
+import { setInGame } from './lib/appUpdate';
 import { audio } from './audio';
 import { musicTarget } from './audio/director';
 import { useAudioLifecycle } from './audio/useAudio';
@@ -33,6 +34,9 @@ export function App() {
   const [engine, setEngine] = useState<Engine | null>(null);
   const [starting, setStarting] = useState(false);
   useAudioLifecycle();
+
+  // Atualização do PWA só recarrega fora da partida (e fora da tela de resultado).
+  useEffect(() => setInGame(screen.name !== 'home'), [screen.name]);
 
   // Menu e fim de jogo têm identidade musical própria (a partida é regida pelo diretor em useGameAudio).
   useEffect(() => {

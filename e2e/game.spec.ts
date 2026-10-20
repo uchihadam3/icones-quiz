@@ -259,3 +259,36 @@ test.describe('áudio', () => {
     expect(result.out['music/epic']).toBeCloseTo(68, 0);
   });
 });
+
+test.describe('respostas naturais na partida real (imagens reais, build de produção)', () => {
+  test('apelido curto e erro de digitação seguro são aceitos, sem perder vida', async ({ page }) => {
+    const { identityForImage } = await import('./oracle');
+    const { buildAnswerIndex, answerKey } = await import('../src/domain/answers');
+    const { CHARACTERS } = await import('../src/data/characters');
+    const index = buildAnswerIndex(CHARACTERS);
+
+    await page.goto('./');
+    await page.getByTestId('play').click();
+    for (let round = 0; round < 8; round++) {
+      const img = page.locator('.image-frame.is-loaded img');
+      await expect(img).toBeVisible({ timeout: 15_000 });
+      const identity = identityForImage((await img.getAttribute('src')) ?? '');
+      expect(identity, 'imagem sem identidade conhecida').toBeTruthy();
+      // Forma mais curta aceita (ex.: "Naruto" para Naruto Uzumaki) …
+      const names = [...identity!.names, ...(identity!.aliases ?? [])].filter((n) => index.check(n, identity!.id).correct);
+      let guess = names.sort((a, b) => answerKey(a).length - answerKey(b).length)[0]!;
+      // … e, em rodadas alternadas, com um erro de digitação que o jogo deve perdoar (letra dobrada).
+      if (round % 2 === 1) {
+        const longest = names.sort((a, b) => answerKey(b).length - answerKey(a).length)[0]!;
+        const doubled = longest.replace(/([a-z])/i, '$1$1');
+        if (index.check(doubled, identity!.id).correct) guess = doubled;
+      }
+      await page.getByTestId('answer-input').fill(guess);
+      await page.getByTestId('answer-input').press('Enter');
+      const feedback = page.getByTestId('feedback');
+      await expect(feedback, `"${guess}" para ${identity!.id}`).toHaveClass(/is-good/);
+      await expect(feedback).not.toContainText('−1 vida');
+      await page.getByTestId('next').click();
+    }
+  });
+});

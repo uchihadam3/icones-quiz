@@ -7,10 +7,15 @@ import type { Identity } from './types';
  * 1. Normalização Unicode: acentos, caixa, pontuação e espaços não importam ("Pelé" = "pele", "Homem-Aranha" = "homem aranha" = "homemaranha").
  * 2. Aceita nomes e apelidos cadastrados. Prefixos arbitrários não são aceitos.
  * 3. Um palpite que é o nome (ou fica a 1 erro do nome) de OUTRA identidade nunca vale.
- * 4. Tolerância de 1 erro de teclado, mais rígida para nomes curtos:
+ * 4. Tolerância a erros de digitação, mais rígida para nomes curtos:
  *    - menos de 5 letras: só exato;
- *    - 5 a 7 letras: só troca por tecla vizinha (QWERTY) ou inversão de duas letras adjacentes;
- *    - 8+ letras: qualquer 1 edição (troca, inversão, letra extra ou faltando), exceto cortar o final.
+ *    - 5 a 7 letras: troca por tecla vizinha (QWERTY), inversão de duas letras adjacentes ou letra
+ *      dobrada a mais/a menos ("Pikachuu", "Snop");
+ *    - 8+ letras: qualquer 1 edição (troca, inversão, letra extra ou faltando), exceto cortar o final —
+ *      a não ser que a letra cortada seja a repetição da anterior ("Snoop Dog" → Snoop Dogg);
+ *    - 9+ letras: até 2 edições, desde que o palpite não seja um começo do nome ("Michael Jacks" não vale)
+ *      e tenha pelo menos 80% do tamanho.
+ *    Em todos os casos, o palpite não pode estar tão perto (mesma distância ou menos) de outra identidade.
  */
 
 const SPECIAL_LETTERS: Record<string, string> = {
@@ -104,17 +109,58 @@ export function singleEdit(target: string, guess: string): Edit | null {
   return { type: 'delete', truncation: target.startsWith(guess) };
 }
 
-export function isAcceptableTypo(target: string, guess: string): boolean {
-  const edit = singleEdit(target, guess);
-  if (!edit || edit.type === 'equal') return false;
-  const len = target.length;
-  if (len < 5) return false;
-  if (len <= 7) {
-    if (edit.type === 'transpose') return true;
-    return edit.type === 'substitute' && areAdjacentKeys(edit.from, edit.to);
+/** Letra extra/faltando que só repete a vizinha ("pikachuu", "dogg" → "dog"). */
+function isDoubledLetterEdit(target: string, guess: string): boolean {
+  const longer = target.length > guess.length ? target : guess;
+  const shorter = target.length > guess.length ? guess : target;
+  let i = 0;
+  while (i < shorter.length && longer[i] === shorter[i]) i++;
+  const ch = longer[i];
+  return ch !== undefined && (longer[i - 1] === ch || longer[i + 1] === ch);
+}
+
+/** Distância de edição (Damerau restrita) com limite: devolve `max + 1` assim que passar do limite. */
+export function boundedDistance(a: string, b: string, max: number): number {
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prev2: number[] = [];
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    let rowMin = i;
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      let v = Math.min((prev[j] as number) + 1, (cur[j - 1] as number) + 1, (prev[j - 1] as number) + cost);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, (prev2[j - 2] as number) + 1);
+      cur.push(v);
+      rowMin = Math.min(rowMin, v);
+    }
+    if (rowMin > max) return max + 1;
+    prev2 = prev;
+    prev = cur;
   }
-  if (edit.type === 'delete' && edit.truncation) return false;
-  return true;
+  return Math.min(prev[b.length] as number, max + 1);
+}
+
+/** Quantas edições a tolerância admite entre `target` e `guess` (0 = não é um erro aceitável). */
+export function typoTolerance(target: string, guess: string): 0 | 1 | 2 {
+  const len = target.length;
+  if (len < 5 || target === guess) return 0;
+  const edit = singleEdit(target, guess);
+  if (edit) {
+    if (len <= 7) {
+      if (edit.type === 'transpose') return 1;
+      if (edit.type === 'substitute') return areAdjacentKeys(edit.from, edit.to) ? 1 : 0;
+      return isDoubledLetterEdit(target, guess) ? 1 : 0;
+    }
+    if (edit.type === 'delete' && edit.truncation) return isDoubledLetterEdit(target, guess) ? 1 : 0;
+    return 1;
+  }
+  if (len >= 9 && guess.length >= Math.ceil(len * 0.8) && !target.startsWith(guess) && boundedDistance(target, guess, 2) === 2) return 2;
+  return 0;
+}
+
+export function isAcceptableTypo(target: string, guess: string): boolean {
+  return typoTolerance(target, guess) > 0;
 }
 
 export type MatchVerdict =
@@ -158,10 +204,11 @@ export function buildAnswerIndex(identities: readonly Identity[]): AnswerIndex {
       if (targetKeys.includes(key)) return { correct: true, how: 'exact' };
       if ((owners.get(key) ?? []).some((id) => id !== targetId)) return { correct: false, reason: 'other-identity' };
 
-      if (!targetKeys.some((k) => isAcceptableTypo(k, key))) return { correct: false, reason: 'no-match' };
-      // Um erro de digitação só vale se não puder ser lido como outra identidade.
+      const tolerance = Math.min(...targetKeys.map((k) => typoTolerance(k, key) || 99));
+      if (tolerance === 99) return { correct: false, reason: 'no-match' };
+      // Um erro de digitação só vale se não puder ser lido como outra identidade (à mesma distância ou menos).
       const nearOther = allEntries.some(
-        ([id, keys]) => id !== targetId && keys.some((k) => singleEdit(k, key) !== null),
+        ([id, keys]) => id !== targetId && keys.some((k) => boundedDistance(k, key, tolerance) <= tolerance),
       );
       if (nearOther) return { correct: false, reason: 'ambiguous' };
       return { correct: true, how: 'typo' };

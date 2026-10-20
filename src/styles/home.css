@@ -653,3 +653,8 @@
 .sheet-sound {
   width: 100%;
 }
+
+.app-version {
+  opacity: 0.55;
+  font-variant-numeric: tabular-nums;
+}

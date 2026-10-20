@@ -5,3 +5,8 @@ declare module 'virtual:character-images' {
   const urls: Record<string, string>;
   export default urls;
 }
+
+interface ImportMetaEnv {
+  /** Commit do build (definido em vite.config.ts). */
+  readonly VITE_APP_VERSION?: string;
+}

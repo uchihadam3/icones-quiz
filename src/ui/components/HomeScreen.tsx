@@ -19,6 +19,7 @@ import {
 } from './Icons';
 import { InstallApp } from './InstallApp';
 import { ImageCredits } from './ImageCredits';
+import { APP_VERSION } from '../../lib/appUpdate';
 import { SoundControls } from './SoundControls';
 
 const cfg = GAME_CONFIG;
@@ -213,6 +214,7 @@ export function HomeScreen({
           ))}
         </fieldset>
         <p className="fine-print">Sem ranking online por enquanto: recordes ficam só neste navegador.</p>
+        <p className="fine-print app-version" data-testid="app-version">versão {APP_VERSION}</p>
         <ImageCredits />
       </footer>
     </section>

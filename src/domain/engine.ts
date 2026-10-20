@@ -42,6 +42,8 @@ export interface Resolution {
   identityId: string;
   outcome: Outcome;
   guess?: string;
+  /** Acerto digitado: exato ou com pequeno erro de grafia tolerado (a UI mostra a grafia correta). */
+  match?: 'exact' | 'typo';
   score: ScoreBreakdown;
   lifeLost: boolean;
   lifeGained: boolean;
@@ -200,7 +202,7 @@ export function createEngine(deps: EngineDeps): Engine {
     return deps.timerStartsOnImage === true && deps.isImageReady(id);
   }
 
-  function resolve(state: GameState, outcome: Outcome, extra: { guess?: string; now: number }): GameState {
+  function resolve(state: GameState, outcome: Outcome, extra: { guess?: string; match?: 'exact' | 'typo'; now: number }): GameState {
     const round = state.round;
     if (!round) return state;
     const identity = byId.get(round.identityId);
@@ -262,6 +264,7 @@ export function createEngine(deps: EngineDeps): Engine {
         identityId: round.identityId,
         outcome,
         guess: extra.guess,
+        ...(extra.match ? { match: extra.match } : {}),
         score: points,
         lifeLost,
         lifeGained,
@@ -283,7 +286,9 @@ export function createEngine(deps: EngineDeps): Engine {
         if (isExpired(state.round.timer, action.now)) return resolve(state, 'timeout', { now: action.now });
         const verdict = answers.check(action.guess, state.round.identityId);
         if (!verdict.correct && verdict.reason === 'empty') return state;
-        return resolve(state, verdict.correct ? 'correct' : 'wrong', { guess: action.guess, now: action.now });
+        return verdict.correct
+          ? resolve(state, 'correct', { guess: action.guess, match: verdict.how, now: action.now })
+          : resolve(state, 'wrong', { guess: action.guess, now: action.now });
       }
       case 'timeout': {
         if (!isLiveRound(state, action.roundId) || !state.round) return state;
