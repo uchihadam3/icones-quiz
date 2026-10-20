@@ -353,16 +353,37 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "bulma": {
-      "status": "missing",
-      "file": "characters/bulma.webp"
+      "status": "ready",
+      "file": "characters/bulma.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished character portrait for Ícones — Maratona image-recognition quiz. Bulma from Dragon Ball, recognizable vivid turquoise-blue hair in her classic high ponytail with large red bow, bright blue eyes, pink short-sleeve adventure dress with a simple front and no lettering, purple neck scarf, brown belt and small pouch. Waist-up clever cheerful confident expression, holding her round green-screen Dragon Radar in one hand. Teal and deep blue neutral gradient. Preserve the faithful canonical anime face, hairstyle, proportions, costume, signature colors and recognizable silhouette. Premium polished anime illustration, expressive clean linework, rich detailed painterly cel shading, cinematic rim light. Vertical 4:5, one character centered, full head and both shoulders and key identifying details visible with comfortable headroom. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, character names, text on clothing, captions, franchise logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "majin-boo": {
-      "status": "missing",
-      "file": "characters/majin-boo.webp"
+      "status": "ready",
+      "file": "characters/majin-boo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished character portrait for Ícones — Maratona image-recognition quiz. Majin Buu from Dragon Ball Z in his iconic friendly round fat form: pink skin, small smiling closed eyes, single curved antenna on top of bald head, purple cape, dark vest with gold trim, white puffy pants, black belt with gold buckle and black M symbol, yellow gloves. Waist-up playful happy grin with one hand giving a friendly wave. Dark indigo and lavender gradient, no violence. Preserve the faithful canonical anime face, hairstyle, proportions, costume, signature colors and recognizable silhouette. Premium polished anime illustration, expressive clean linework, rich detailed painterly cel shading, cinematic rim light. Vertical 4:5, one character centered, full head and both shoulders and key identifying details visible with comfortable headroom. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, character names, text on clothing, captions, franchise logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "cell": {
-      "status": "missing",
-      "file": "characters/cell.webp"
+      "status": "ready",
+      "file": "characters/cell.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished character portrait for Ícones — Maratona image-recognition quiz. Perfect Cell from Dragon Ball Z, faithful tall green biomechanical warrior, black spot pattern across green exoskeleton, two tall swept-up crown horns, pale face with purple cheek panels, narrow pink eyes, black chest and shoulder areas, dark insect-like wing plates behind shoulders. Waist-up composed confident arms-crossed pose. Dark navy and emerald gradient. Exact iconic anime face and silhouette. Preserve the faithful canonical anime face, hairstyle, proportions, costume, signature colors and recognizable silhouette. Premium polished anime illustration, expressive clean linework, rich detailed painterly cel shading, cinematic rim light. Vertical 4:5, one character centered, full head and both shoulders and key identifying details visible with comfortable headroom. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, character names, text on clothing, captions, franchise logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "trunks": {
       "status": "ready",
@@ -486,8 +507,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "nami": {
-      "status": "missing",
-      "file": "characters/nami.webp"
+      "status": "ready",
+      "file": "characters/nami.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished character portrait for Ícones — Maratona image-recognition quiz. Nami from One Piece, faithful long flowing orange hair, warm brown eyes, blue stylized tattoo on left upper arm, blue-and-white striped short-sleeved top and jeans, brown belt. Waist-up cheerful clever confident smile holding the blue Clima-Tact staff diagonally behind one shoulder. Modest adventurous character portrait, no sexual emphasis, deep marine-blue gradient. Preserve the faithful canonical anime face, hairstyle, proportions, costume, signature colors and recognizable silhouette. Premium polished anime illustration, expressive clean linework, rich detailed painterly cel shading, cinematic rim light. Vertical 4:5, one character centered, full head and both shoulders and key identifying details visible with comfortable headroom. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, character names, text on clothing, captions, franchise logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sanji": {
       "status": "ready",
@@ -501,8 +529,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tony-tony-chopper": {
-      "status": "missing",
-      "file": "characters/tony-tony-chopper.webp"
+      "status": "ready",
+      "file": "characters/tony-tony-chopper.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished character portrait for Ícones — Maratona image-recognition quiz. Tony Tony Chopper from One Piece in his iconic small Brain Point form, adorable little brown reindeer with tan face and belly, wide round dark eyes, bright blue nose, small antlers protruding from his large red-pink hat with white X and light blue rim. Red shorts and little hooves, wearing his small backpack. Full body lively friendly pose waving with one hoof. Faithful cute canonical proportions, deep teal-blue gradient. Preserve the faithful canonical anime face, hairstyle, proportions, costume, signature colors and recognizable silhouette. Premium polished anime illustration, expressive clean linework, rich detailed painterly cel shading, cinematic rim light. Vertical 4:5, one character centered, full head and both shoulders and key identifying details visible with comfortable headroom. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, character names, text on clothing, captions, franchise logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "pikachu": {
       "status": "missing",
@@ -612,8 +647,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "seto-kaiba": {
-      "status": "missing",
-      "file": "characters/seto-kaiba.webp"
+      "status": "ready",
+      "file": "characters/seto-kaiba.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished character portrait for Ícones — Maratona image-recognition quiz. Seto Kaiba from Yu-Gi-Oh!, faithful straight brown hair with neat bangs, sharp blue eyes, long white high-collared coat with black lining and small silver shoulder studs, black turtleneck, black belt and blue undershirt accents. Waist-up confident stern three-quarter pose, one hand holding a plain card with brown patterned back facing viewer, no writing or card title. Dark midnight-blue gradient with cool silver rim light. Preserve the faithful canonical anime face, hairstyle, proportions, costume, signature colors and recognizable silhouette. Premium polished anime illustration, expressive clean linework, rich detailed painterly cel shading, cinematic rim light. Vertical 4:5, one character centered, full head and both shoulders and key identifying details visible with comfortable headroom. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, character names, text on clothing, captions, franchise logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "light-yagami": {
       "status": "ready",
@@ -671,8 +713,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "zenitsu-agatsuma": {
-      "status": "missing",
-      "file": "characters/zenitsu-agatsuma.webp"
+      "status": "ready",
+      "file": "characters/zenitsu-agatsuma.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. Zenitsu Agatsuma from Demon Slayer, recognizable short bowl-cut golden-yellow hair with orange-tipped triangular layers, golden-brown eyes, yellow-orange haori patterned with small white triangles over dark demon slayer uniform. Waist-up anxious but determined expression, hands resting on the hilt of his sheathed white katana. Subtle golden lightning arc behind shoulder, deep blue gradient, no blood. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kyojuro-rengoku": {
       "status": "ready",
@@ -697,12 +746,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "yuji-itadori": {
-      "status": "missing",
-      "file": "characters/yuji-itadori.webp"
+      "status": "ready",
+      "file": "characters/yuji-itadori.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. Yuji Itadori from Jujutsu Kaisen, recognizable short spiky pink hair with dark shaved sides, warm brown eyes, athletic build, dark navy high-collared school uniform with vivid red hood and red drawstrings. Waist-up open friendly confident smile, one fist held near chest in a ready pose. Canonical human form with no face tattoos, simple dark teal gradient. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "eren-yeager": {
-      "status": "missing",
-      "file": "characters/eren-yeager.webp"
+      "status": "ready",
+      "file": "characters/eren-yeager.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. Eren Yeager from early Attack on Titan, recognizable short straight dark brown hair, intense green eyes, short tan military jacket with Scout wing crest without lettering, pale beige lace-up shirt, brown leather harness straps and dark green cloak folded back over one shoulder. Waist-up determined focused expression, one hand gripping cloak edge. Faithful early human character, not titan, muted slate-blue gradient. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "levi-ackerman": {
       "status": "ready",
@@ -716,8 +779,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mikasa-ackerman": {
-      "status": "missing",
-      "file": "characters/mikasa-ackerman.webp"
+      "status": "ready",
+      "file": "characters/mikasa-ackerman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. Mikasa Ackerman from early Attack on Titan, recognizable straight chin-length black hair, dark gray eyes, subtle small scar under her right eye, iconic thick red scarf around neck, short tan Scout military jacket over cream shirt and brown harness. Waist-up calm protective determined expression with one hand holding her red scarf. Muted midnight-blue gradient with soft red rim light. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ichigo-kurosaki": {
       "status": "ready",
@@ -753,8 +823,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "izuku-midoriya": {
-      "status": "missing",
-      "file": "characters/izuku-midoriya.webp"
+      "status": "ready",
+      "file": "characters/izuku-midoriya.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. Izuku Midoriya, Deku from My Hero Academia, recognizable messy dark green hair with brighter green highlights, large green eyes, four small freckles on each cheek, green hero suit with white-silver metal neck guard lowered around neck, dark accents and thick white gloves. Waist-up earnest heroic friendly smile, one gloved fist raised, subtle green lightning accents behind shoulder, deep navy gradient. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "edward-elric": {
       "status": "ready",
@@ -779,20 +856,48 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "doraemon": {
-      "status": "missing",
-      "file": "characters/doraemon.webp"
+      "status": "ready",
+      "file": "characters/doraemon.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. Doraemon, iconic round blue robotic cat, white round face and belly, large white oval eyes, round red nose, three black whisker lines on each cheek, red collar with small golden bell, white four-dimensional pocket on belly, rounded white paws and feet, no visible external ears. Full body cheerful waving pose with canonical cute simple proportions, deep blue-purple gradient. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shin-chan": {
-      "status": "missing",
-      "file": "characters/shin-chan.webp"
+      "status": "ready",
+      "file": "characters/shin-chan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. Shin-chan, Shinnosuke Nohara from Crayon Shin-chan, recognizable five-year-old cartoon boy with very thick curved black eyebrows, black short hair, round dark eyes, distinctive broad rounded face, plain red T-shirt, yellow shorts and yellow shoes. Fully clothed wholesome playful full-body standing pose with hands on hips and a mischievous friendly grin. Faithful cartoon proportions, deep teal-blue gradient. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "totoro": {
-      "status": "missing",
-      "file": "characters/totoro.webp"
+      "status": "ready",
+      "file": "characters/totoro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. Totoro from My Neighbor Totoro, iconic large round gray forest spirit, tall pointed gray ears, broad white belly with gray chevron marks, tiny round eyes, black nose and long black whiskers, small leaf balanced on head. Full body friendly sitting pose with broad warm smile, all ears and silhouette visible. Beautiful gentle hand-painted animation-inspired illustration with clean outlines, muted forest green and deep blue gradient. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sem-rosto": {
-      "status": "missing",
-      "file": "characters/sem-rosto.webp"
+      "status": "ready",
+      "file": "characters/sem-rosto.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character portrait for Ícones — Maratona, an image-recognition quiz. No-Face, Kaonashi from Spirited Away, iconic tall black gently flowing spirit body with a white oval mask, tiny dark oval eyes, purple vertical facial markings below eyes and small subtle mouth slit. Waist-up calm mysterious gentle pose, two slender dark hands extended politely in front, no scary giant mouth or teeth. Beautiful polished hand-painted animation-inspired illustration, dark indigo and soft violet gradient. Faithful instantly recognizable canonical character design, face, costume and signature colors. Premium clean expressive linework, detailed soft painterly cel shading and cinematic rim light, not photorealistic. Vertical 4:5, single character centered with full head and key silhouette visible, safe margins around head, hands and accessories. Correct natural anatomy. Uncluttered subdued background. No words, character name, clothing text, captions, franchise title, logos, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mickey-mouse": {
       "status": "missing",
@@ -895,8 +1000,15 @@
       "file": "characters/mutley.webp"
     },
     "tom-gato": {
-      "status": "missing",
-      "file": "characters/tom-gato.webp"
+      "status": "ready",
+      "file": "characters/tom-gato.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One stunning original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Tom Cat from Tom and Jerry, faithful gray-blue anthropomorphic cartoon cat with white muzzle, white belly and paws, yellow-green eyes, black eyebrows, pink inner ears and long gray tail. Full body mischievous friendly pose standing with one hand on hip and other raised as if surprised, sly playful smile. Preserve canonical rounded face and classic cartoon proportions, no other characters. Deep blue-violet gradient. Faithful instantly recognizable canonical cartoon face, silhouette, body proportions, exact colors and personality. Premium expressive clean linework, beautiful soft painterly cel shading and cinematic rim lighting, retain original cartoon simplicity rather than realism. Vertical 4:5, single character centered, full head and body silhouette clearly visible with comfortable margins. No extra limbs or distorted paws. Uncluttered simple background. No words, character name, labels, captions, franchise logos, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jerry-rato": {
       "status": "missing",
@@ -907,8 +1019,15 @@
       "file": "characters/pica-pau.webp"
     },
     "pantera-cor-de-rosa": {
-      "status": "missing",
-      "file": "characters/pantera-cor-de-rosa.webp"
+      "status": "ready",
+      "file": "characters/pantera-cor-de-rosa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One stunning original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. The Pink Panther, Pantera Cor-de-Rosa, faithful extremely slender pink anthropomorphic panther with long thin limbs and tail, oval pink face, yellow eyes with narrow black pupils, dark pink nose and pale pink muzzle and belly. Full body elegant relaxed leaning pose, legs crossed and one hand resting near chin, smooth sly amused expression. Canonical elongated graceful proportions, deep indigo gradient with soft magenta rim light. Faithful instantly recognizable canonical cartoon face, silhouette, body proportions, exact colors and personality. Premium expressive clean linework, beautiful soft painterly cel shading and cinematic rim lighting, retain original cartoon simplicity rather than realism. Vertical 4:5, single character centered, full head and body silhouette clearly visible with comfortable margins. No extra limbs or distorted paws. Uncluttered simple background. No words, character name, labels, captions, franchise logos, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "popeye": {
       "status": "ready",
@@ -922,12 +1041,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "garfield": {
-      "status": "missing",
-      "file": "characters/garfield.webp"
+      "status": "ready",
+      "file": "characters/garfield.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One stunning original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Garfield, faithful chubby orange tabby cartoon cat with bold black stripes, rounded ears, large half-lidded eyes, yellow muzzle with small black whisker dots, pink nose, white eyes and fat orange body. Full body relaxed seated pose with arms folded over belly, characteristic dry sarcastic half-smile, tail curled along ground. Preserve canonical face and proportions, no generic realistic cat. Deep midnight-blue gradient. Faithful instantly recognizable canonical cartoon face, silhouette, body proportions, exact colors and personality. Premium expressive clean linework, beautiful soft painterly cel shading and cinematic rim lighting, retain original cartoon simplicity rather than realism. Vertical 4:5, single character centered, full head and body silhouette clearly visible with comfortable margins. No extra limbs or distorted paws. Uncluttered simple background. No words, character name, labels, captions, franchise logos, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "snoopy": {
-      "status": "missing",
-      "file": "characters/snoopy.webp"
+      "status": "ready",
+      "file": "characters/snoopy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One stunning original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Snoopy from Peanuts, faithful small white cartoon beagle with large rounded white muzzle, little black oval nose, black floppy ears, tiny black dot eyes, black patch on back and thin black collar. Full body joyful upright dancing pose with one forepaw raised and feet in a light step, gentle happy smile. Preserve canonical clean simple facial design and proportions, no other characters. Deep blue gradient. Faithful instantly recognizable canonical cartoon face, silhouette, body proportions, exact colors and personality. Premium expressive clean linework, beautiful soft painterly cel shading and cinematic rim lighting, retain original cartoon simplicity rather than realism. Vertical 4:5, single character centered, full head and body silhouette clearly visible with comfortable margins. No extra limbs or distorted paws. Uncluttered simple background. No words, character name, labels, captions, franchise logos, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "charlie-brown": {
       "status": "missing",
@@ -1078,52 +1211,136 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "florzinha": {
-      "status": "missing",
-      "file": "characters/florzinha.webp"
+      "status": "ready",
+      "file": "characters/florzinha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character illustration for Ícones — Maratona image-recognition quiz. Blossom from The Powerpuff Girls, called Florzinha in Brazil. Faithful tiny superhero girl with huge round head, enormous pink irises in round white eyes, long straight orange-red hair with a large red bow on top, pink sleeveless dress with horizontal black waist stripe, white tights and simple black Mary Jane shoes. Full body hovering with one arm confidently raised, cheerful smart leader expression, simple canonical round mitten-like hands. Dark blue gradient with soft pink rim light. Preserve canonical recognizable cartoon face, proportions, silhouette, costume, exact signature colors and expression. Premium clean expressive linework, subtle polished painterly cel shading and cinematic soft rim lighting while retaining original cartoon simplicity. Vertical 4:5, one character centered, entire head and distinguishing silhouette clearly visible with safe space around hair, feet, ears and hands. Uncluttered simple gradient background. No words, names, captions, logos, franchise title, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "lindinha": {
-      "status": "missing",
-      "file": "characters/lindinha.webp"
+      "status": "ready",
+      "file": "characters/lindinha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character illustration for Ícones — Maratona image-recognition quiz. Bubbles from The Powerpuff Girls, called Lindinha in Brazil. Faithful tiny superhero girl with huge round head, enormous sky-blue irises in round white eyes, short blonde hair in two little pigtails with blue ties, blue sleeveless dress with black horizontal waist stripe, white tights and black Mary Jane shoes. Full body cheerful flying pose with arms spread, sweet joyful smile, simple canonical round mitten-like hands. Deep blue-purple gradient. Preserve canonical recognizable cartoon face, proportions, silhouette, costume, exact signature colors and expression. Premium clean expressive linework, subtle polished painterly cel shading and cinematic soft rim lighting while retaining original cartoon simplicity. Vertical 4:5, one character centered, entire head and distinguishing silhouette clearly visible with safe space around hair, feet, ears and hands. Uncluttered simple gradient background. No words, names, captions, logos, franchise title, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "docinho": {
-      "status": "missing",
-      "file": "characters/docinho.webp"
+      "status": "ready",
+      "file": "characters/docinho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character illustration for Ícones — Maratona image-recognition quiz. Buttercup from The Powerpuff Girls, called Docinho in Brazil. Faithful tiny superhero girl with huge round head, enormous vivid green irises in round white eyes, short black hair with blunt bangs and flicked-out bob tips, green sleeveless dress with horizontal black waist stripe, white tights and black Mary Jane shoes. Full body hovering with arms crossed and confident mischievous determined half-smile, simple canonical rounded hands. Deep teal-blue gradient. Preserve canonical recognizable cartoon face, proportions, silhouette, costume, exact signature colors and expression. Premium clean expressive linework, subtle polished painterly cel shading and cinematic soft rim lighting while retaining original cartoon simplicity. Vertical 4:5, one character centered, entire head and distinguishing silhouette clearly visible with safe space around hair, feet, ears and hands. Uncluttered simple gradient background. No words, names, captions, logos, franchise title, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "johnny-bravo": {
-      "status": "missing",
-      "file": "characters/johnny-bravo.webp"
+      "status": "ready",
+      "file": "characters/johnny-bravo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character illustration for Ícones — Maratona image-recognition quiz. Johnny Bravo, faithful tall muscular cartoon man with enormous upright blond pompadour, dark black rectangular sunglasses, fitted plain black short-sleeve T-shirt, blue jeans and black shoes. Waist-up posing with one arm flexed and the other hand smoothing his pompadour, confident goofy flirtatious but wholesome grin. Faithful exaggerated broad shoulders and small waist, midnight-blue gradient with gold rim light. Preserve canonical recognizable cartoon face, proportions, silhouette, costume, exact signature colors and expression. Premium clean expressive linework, subtle polished painterly cel shading and cinematic soft rim lighting while retaining original cartoon simplicity. Vertical 4:5, one character centered, entire head and distinguishing silhouette clearly visible with safe space around hair, feet, ears and hands. Uncluttered simple gradient background. No words, names, captions, logos, franchise title, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "coragem": {
-      "status": "missing",
-      "file": "characters/coragem.webp"
+      "status": "ready",
+      "file": "characters/coragem.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character illustration for Ícones — Maratona image-recognition quiz. Courage the Cowardly Dog, called Coragem in Brazil, faithful small pink-purple cartoon dog with big white oval eyes, tiny black pupils, enormous black oval nose, two thin black ears, small belly and dark oval spots on back. Full body endearing nervous pose with front paws clasped together and a worried friendly toothy smile. Canonical short skinny limbs and rounded body, deep blue-purple gradient. Preserve canonical recognizable cartoon face, proportions, silhouette, costume, exact signature colors and expression. Premium clean expressive linework, subtle polished painterly cel shading and cinematic soft rim lighting while retaining original cartoon simplicity. Vertical 4:5, one character centered, entire head and distinguishing silhouette clearly visible with safe space around hair, feet, ears and hands. Uncluttered simple gradient background. No words, names, captions, logos, franchise title, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dexter-laboratorio": {
-      "status": "missing",
-      "file": "characters/dexter-laboratorio.webp"
+      "status": "ready",
+      "file": "characters/dexter-laboratorio.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character illustration for Ícones — Maratona image-recognition quiz. Dexter from Dexter's Laboratory, faithful short boy genius with bright orange hair, thick dark square-rimmed glasses with pale-blue lenses, white laboratory coat with a small black center button, purple gloves and black boots. Full body confident scientific pose, one purple-gloved hand raised holding a small blue bubbling flask, other hand on hip, smug clever smile. Preserve canonical huge head and stubby proportions, dark blue gradient. Preserve canonical recognizable cartoon face, proportions, silhouette, costume, exact signature colors and expression. Premium clean expressive linework, subtle polished painterly cel shading and cinematic soft rim lighting while retaining original cartoon simplicity. Vertical 4:5, one character centered, entire head and distinguishing silhouette clearly visible with safe space around hair, feet, ears and hands. Uncluttered simple gradient background. No words, names, captions, logos, franchise title, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mordecai": {
-      "status": "missing",
-      "file": "characters/mordecai.webp"
+      "status": "ready",
+      "file": "characters/mordecai.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful finished character illustration for Ícones — Maratona image-recognition quiz. Mordecai from Regular Show, called Apenas um Show in Brazil, faithful tall slim anthropomorphic blue jay with blue crest and head, long pointed gray beak, white face and chest, round dark eyes, blue arms with two white horizontal bands, long blue tail and skinny gray legs with three bird toes. Full body relaxed standing pose giving a casual thumbs up and a calm friendly smile. Faithful cartoon proportions, deep indigo gradient. Preserve canonical recognizable cartoon face, proportions, silhouette, costume, exact signature colors and expression. Premium clean expressive linework, subtle polished painterly cel shading and cinematic soft rim lighting while retaining original cartoon simplicity. Vertical 4:5, one character centered, entire head and distinguishing silhouette clearly visible with safe space around hair, feet, ears and hands. Uncluttered simple gradient background. No words, names, captions, logos, franchise title, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "monica": {
-      "status": "missing",
-      "file": "characters/monica.webp"
+      "status": "ready",
+      "file": "characters/monica.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Mônica from the Brazilian Turma da Mônica comics by Mauricio de Sousa, faithful recognizable little girl with short black hair and outward curled tips, two prominent front teeth, rounded cheerful face, plain red short-sleeve dress and bare feet. Full body confident friendly standing pose holding her iconic blue stuffed bunny Sansão by one ear at her side, other hand resting on hip. Canonical Brazilian comic proportions and face, no generic anime replacement. Deep blue gradient. Keep the distinctive original comic character's canonical face, head shape, body proportions, outfit and signature colors unmistakably recognizable. Premium polished cartoon illustration with expressive clean dark outlines, soft beautiful painterly cel shading and cinematic rim light. Wholesome child-friendly depiction, fully clothed canonical outfit. Vertical 4:5 single character centered, full head and all key features visible with safe margin. Simple uncluttered background. No words, names, logos, labels, captions, franchise title, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "cebolinha": {
-      "status": "missing",
-      "file": "characters/cebolinha.webp"
+      "status": "ready",
+      "file": "characters/cebolinha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Cebolinha from the Brazilian Turma da Mônica comics by Mauricio de Sousa, faithful recognizable little boy with exactly five thin spiky strands of black hair on otherwise bare head, rounded face, plain green short-sleeve T-shirt, black shorts, brown shoes and white socks. Full body mischievous clever cheerful pose with one hand by chin as if plotting a harmless playful idea. Canonical Brazilian comic proportions and face, deep indigo and green gradient. Keep the distinctive original comic character's canonical face, head shape, body proportions, outfit and signature colors unmistakably recognizable. Premium polished cartoon illustration with expressive clean dark outlines, soft beautiful painterly cel shading and cinematic rim light. Wholesome child-friendly depiction, fully clothed canonical outfit. Vertical 4:5 single character centered, full head and all key features visible with safe margin. Simple uncluttered background. No words, names, logos, labels, captions, franchise title, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "cascao": {
-      "status": "missing",
-      "file": "characters/cascao.webp"
+      "status": "ready",
+      "file": "characters/cascao.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Cascão from the Brazilian Turma da Mônica comics by Mauricio de Sousa, faithful recognizable little boy with short tousled black hair, rounded face with small brown dirt marks on cheeks, yellow sleeveless shirt, red plaid shorts with suspenders, bare feet. Full body cheerful carefree pose waving one hand and holding his suspenders with the other. Canonical Brazilian comic proportions, gentle friendly face, deep blue gradient. Keep the distinctive original comic character's canonical face, head shape, body proportions, outfit and signature colors unmistakably recognizable. Premium polished cartoon illustration with expressive clean dark outlines, soft beautiful painterly cel shading and cinematic rim light. Wholesome child-friendly depiction, fully clothed canonical outfit. Vertical 4:5 single character centered, full head and all key features visible with safe margin. Simple uncluttered background. No words, names, logos, labels, captions, franchise title, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "magali": {
-      "status": "missing",
-      "file": "characters/magali.webp"
+      "status": "ready",
+      "file": "characters/magali.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Magali from the Brazilian Turma da Mônica comics by Mauricio de Sousa, faithful recognizable little girl with straight short black bob with bangs, rounded happy face, plain yellow short-sleeve dress and bare feet. Full body cheerful pose holding a red watermelon wedge with green rind in both hands, pleased hungry friendly smile. Canonical Brazilian comic proportions and face, no generic anime replacement, deep blue and warm yellow gradient. Keep the distinctive original comic character's canonical face, head shape, body proportions, outfit and signature colors unmistakably recognizable. Premium polished cartoon illustration with expressive clean dark outlines, soft beautiful painterly cel shading and cinematic rim light. Wholesome child-friendly depiction, fully clothed canonical outfit. Vertical 4:5 single character centered, full head and all key features visible with safe margin. Simple uncluttered background. No words, names, logos, labels, captions, franchise title, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "chico-bento": {
-      "status": "missing",
-      "file": "characters/chico-bento.webp"
+      "status": "ready",
+      "file": "characters/chico-bento.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Chico Bento from the Brazilian Turma da Mônica comics by Mauricio de Sousa, faithful recognizable Brazilian countryside boy with straw hat, short messy black hair under hat, rounded face with freckles, red-and-white checked short-sleeve shirt, short blue jeans with frayed hems, bare feet. Full body friendly relaxed pose holding a simple wooden fishing pole over one shoulder, warm innocent grin. Canonical Brazilian comic proportions and face, deep teal-blue gradient with warm sunlight rim. Keep the distinctive original comic character's canonical face, head shape, body proportions, outfit and signature colors unmistakably recognizable. Premium polished cartoon illustration with expressive clean dark outlines, soft beautiful painterly cel shading and cinematic rim light. Wholesome child-friendly depiction, fully clothed canonical outfit. Vertical 4:5 single character centered, full head and all key features visible with safe margin. Simple uncluttered background. No words, names, logos, labels, captions, franchise title, watermark, frame or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "leonardo-dicaprio": {
       "status": "ready",
@@ -2359,12 +2576,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shadow-the-hedgehog": {
-      "status": "missing",
-      "file": "characters/shadow-the-hedgehog.webp"
+      "status": "ready",
+      "file": "characters/shadow-the-hedgehog.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one stunning finished game character portrait for Ícones — Maratona image-recognition quiz. Shadow the Hedgehog from Sonic, recognizable black anthropomorphic hedgehog with vivid red stripes on swept-up quills, red eyes, white chest tuft, tan muzzle, white gloves with gold wrist rings and signature red-white-black hover shoes. Full body composed confident pose, one gloved hand loosely raised and other by hip, slight stern expression. Faithful game mascot proportions, dark blue gradient with red rim light. Faithful canonical face, costume, colors, body proportions and silhouette, instantly recognizable. Premium clean expressive outlines, detailed beautiful painterly cel shading, cinematic rim lighting and clear readable features. Vertical 4:5, one character centered, full head and all identifying details visible, safe margins around ears, hair, horns, wings and hands. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, name, label text, captions, franchise logos, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dr-eggman": {
-      "status": "missing",
-      "file": "characters/dr-eggman.webp"
+      "status": "ready",
+      "file": "characters/dr-eggman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one stunning finished game character portrait for Ícones — Maratona image-recognition quiz. Dr. Eggman, Dr. Robotnik from Sonic, recognizable bald egg-shaped head, enormous brown side-swept bushy mustache, tiny round blue sunglasses and small goggles perched on scalp, red long coat with yellow rectangular details, black trousers, white gloves. Waist-up boastful clever grin with one hand stroking mustache and the other holding a small plain remote control. Dark teal-blue gradient, no text. Faithful canonical face, costume, colors, body proportions and silhouette, instantly recognizable. Premium clean expressive outlines, detailed beautiful painterly cel shading, cinematic rim lighting and clear readable features. Vertical 4:5, one character centered, full head and all identifying details visible, safe margins around ears, hair, horns, wings and hands. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, name, label text, captions, franchise logos, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "pac-man": {
       "status": "ready",
@@ -2389,40 +2620,96 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "spyro": {
-      "status": "missing",
-      "file": "characters/spyro.webp"
+      "status": "ready",
+      "file": "characters/spyro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one stunning finished game character portrait for Ícones — Maratona image-recognition quiz. Spyro the Dragon, recognizable little purple dragon with yellow-orange curved horns, orange inner wing membranes, yellow chest plates, green expressive eyes, pointed orange back crest and long purple tail. Full body friendly adventurous pose with wings partly open, confident playful smile. Faithful bright stylized game mascot proportions, polished painterly illustration, deep blue and purple gradient. Faithful canonical face, costume, colors, body proportions and silhouette, instantly recognizable. Premium clean expressive outlines, detailed beautiful painterly cel shading, cinematic rim lighting and clear readable features. Vertical 4:5, one character centered, full head and all identifying details visible, safe margins around ears, hair, horns, wings and hands. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, name, label text, captions, franchise logos, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mega-man": {
-      "status": "missing",
-      "file": "characters/mega-man.webp"
+      "status": "ready",
+      "file": "characters/mega-man.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one stunning finished game character portrait for Ícones — Maratona image-recognition quiz. Mega Man, Rockman, iconic blue robot hero with round blue helmet, darker blue helmet stripe, large expressive blue eyes and face exposed, cyan bodysuit with dark blue chest armor, large blue boots, blue left glove and signature cylindrical blue Mega Buster replacing right forearm. Full body courageous friendly pose with buster angled down safely, no firing. Deep electric-blue gradient. Faithful canonical face, costume, colors, body proportions and silhouette, instantly recognizable. Premium clean expressive outlines, detailed beautiful painterly cel shading, cinematic rim lighting and clear readable features. Vertical 4:5, one character centered, full head and all identifying details visible, safe margins around ears, hair, horns, wings and hands. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, name, label text, captions, franchise logos, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "lara-croft": {
-      "status": "missing",
-      "file": "characters/lara-croft.webp"
+      "status": "ready",
+      "file": "characters/lara-croft.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One stunning original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Lara Croft from the classic Tomb Raider games, recognizable long dark brown hair tied in a braid, brown eyes, turquoise fitted sleeveless adventure top, brown shorts, brown leather belt, small brown backpack straps and black fingerless gloves. Waist-up athletic adventurous pose holding a small old compass in one hand, confident clever expression. Faithful game character illustration, not an actress photograph, modest practical clothing, deep teal-blue gradient. Instantly recognizable canonical face, hairstyle, costume and signature details. Premium expressive clean linework, rich beautiful painterly cel shading, cinematic soft rim lighting, detailed polished game illustration rather than photorealism. Vertical 4:5, single character centered, full head and both shoulders clearly visible with safe margins around hair, helmet, hands and accessories. Simple uncluttered gradient backdrop, natural correct anatomy. No text, name, captions, franchise title, logos, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kratos": {
       "status": "missing",
       "file": "characters/kratos.webp"
     },
     "nathan-drake": {
-      "status": "missing",
-      "file": "characters/nathan-drake.webp"
+      "status": "ready",
+      "file": "characters/nathan-drake.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona image-recognition quiz. Nathan Drake from Uncharted games, recognizable short tousled dark brown hair, light beard stubble, friendly rugged face, dark blue henley shirt with rolled sleeves, brown leather shoulder holster straps, necklace with a small ring. Waist-up adventurous relaxed pose holding a folded old treasure map with no readable writing, confident wry smile. Faithful game illustration, not an actor, muted slate-blue gradient. Preserve canonical face, proportions, silhouette, costume and exact signature colors; instantly recognizable. Premium polished game key art with detailed painterly cel shading and clean expressive outlines except blocky voxel characters preserve their pixel geometry. Vertical 4:5, one character centered, full head and key identifying details visible with safe margins. Correct anatomy and natural hands. Uncluttered subdued background. No words, names, labels, franchise logos, captions, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ellie-tlou": {
-      "status": "missing",
-      "file": "characters/ellie-tlou.webp"
+      "status": "ready",
+      "file": "characters/ellie-tlou.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona image-recognition quiz. Ellie from The Last of Us first game, faithful recognizable auburn-brown hair tied in a low ponytail, green eyes, light freckles across nose and cheeks, faded dark red T-shirt with a subtle landscape graphic without words, dark undershirt and brown backpack straps. Waist-up brave thoughtful expression, one hand gripping a backpack strap. Fully clothed modest nonviolent teen character portrait, no injuries or weapons. Faithful game illustration, not a television actress, deep teal-blue gradient. Preserve canonical face, proportions, silhouette, costume and exact signature colors; instantly recognizable. Premium polished game key art with detailed painterly cel shading and clean expressive outlines except blocky voxel characters preserve their pixel geometry. Vertical 4:5, one character centered, full head and key identifying details visible with safe margins. Correct anatomy and natural hands. Uncluttered subdued background. No words, names, labels, franchise logos, captions, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "cloud-strife": {
-      "status": "missing",
-      "file": "characters/cloud-strife.webp"
+      "status": "ready",
+      "file": "characters/cloud-strife.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One stunning original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Cloud Strife from Final Fantasy VII, iconic dramatically spiky blond hair, bright blue-green eyes, black sleeveless ribbed turtleneck, large dark metal shoulder pauldron on left shoulder with round bolts, black gloves and broad leather sword harness. Waist-up confident quiet determined expression, enormous broad Buster Sword resting diagonally behind one shoulder. Faithful polished anime game design, deep blue and silver gradient. Instantly recognizable canonical face, hairstyle, costume and signature details. Premium expressive clean linework, rich beautiful painterly cel shading, cinematic soft rim lighting, detailed polished game illustration rather than photorealism. Vertical 4:5, single character centered, full head and both shoulders clearly visible with safe margins around hair, helmet, hands and accessories. Simple uncluttered gradient backdrop, natural correct anatomy. No text, name, captions, franchise title, logos, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "master-chief": {
-      "status": "missing",
-      "file": "characters/master-chief.webp"
+      "status": "ready",
+      "file": "characters/master-chief.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One stunning original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Master Chief from Halo, instantly recognizable olive-green Mjolnir power armor and full helmet with broad golden-orange reflective visor, black flexible undersuit in armor gaps, angular bulky shoulders and detailed chest armor. Waist-up three-quarter composed heroic stance, hands held at rest with no gun needed. Beautiful game illustration with realistic metal surface detail but not a photograph, deep navy and teal gradient. Instantly recognizable canonical face, hairstyle, costume and signature details. Premium expressive clean linework, rich beautiful painterly cel shading, cinematic soft rim lighting, detailed polished game illustration rather than photorealism. Vertical 4:5, single character centered, full head and both shoulders clearly visible with safe margins around hair, helmet, hands and accessories. Simple uncluttered gradient backdrop, natural correct anatomy. No text, name, captions, franchise title, logos, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "solid-snake": {
-      "status": "missing",
-      "file": "characters/solid-snake.webp"
+      "status": "ready",
+      "file": "characters/solid-snake.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One stunning original finished character portrait for Ícones — Maratona, a Brazilian image-recognition quiz. Solid Snake from Metal Gear Solid, recognizable brown mullet-style hair, long dark gray bandana tied at back, strong brows, blue-gray eyes, short beard stubble, dark gray-blue sneaking suit with padded shoulders, black tactical gloves and chest straps. Waist-up focused stoic three-quarter pose, one hand adjusting his earpiece. No weapons needed, faithful game character rather than actor, subdued dark blue-gray gradient. Instantly recognizable canonical face, hairstyle, costume and signature details. Premium expressive clean linework, rich beautiful painterly cel shading, cinematic soft rim lighting, detailed polished game illustration rather than photorealism. Vertical 4:5, single character centered, full head and both shoulders clearly visible with safe margins around hair, helmet, hands and accessories. Simple uncluttered gradient backdrop, natural correct anatomy. No text, name, captions, franchise title, logos, watermark, border or frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "geralt-de-rivia": {
       "status": "missing",
@@ -2433,28 +2720,70 @@
       "file": "characters/cj-gta.webp"
     },
     "ryu-street-fighter": {
-      "status": "missing",
-      "file": "characters/ryu-street-fighter.webp"
+      "status": "ready",
+      "file": "characters/ryu-street-fighter.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one stunning finished game character portrait for Ícones — Maratona image-recognition quiz. Ryu from Street Fighter, recognizable short spiky black hair, flowing red forehead bandana, thick dark brows, sleeveless frayed white karate gi with black belt, muscular arms and red padded martial-arts gloves. Waist-up calm determined traditional ready stance with fists held at chest height, no opponent or impact. Dark slate-blue gradient with subtle red rim light. Faithful canonical face, costume, colors, body proportions and silhouette, instantly recognizable. Premium clean expressive outlines, detailed beautiful painterly cel shading, cinematic rim lighting and clear readable features. Vertical 4:5, one character centered, full head and all identifying details visible, safe margins around ears, hair, horns, wings and hands. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, name, label text, captions, franchise logos, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "chun-li": {
-      "status": "missing",
-      "file": "characters/chun-li.webp"
+      "status": "ready",
+      "file": "characters/chun-li.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one stunning finished game character portrait for Ícones — Maratona image-recognition quiz. Chun-Li from Street Fighter, recognizable dark brown hair in twin round buns with white silk covers and trailing white ribbons, warm brown eyes, blue qipao martial-arts dress with gold trim and high collar, white waist sash, iconic chunky dark wrist cuffs with silver spikes. Waist-up confident friendly heroic pose raising one closed fist at chest height. Modest canonical outfit, deep blue-purple gradient. Faithful canonical face, costume, colors, body proportions and silhouette, instantly recognizable. Premium clean expressive outlines, detailed beautiful painterly cel shading, cinematic rim lighting and clear readable features. Vertical 4:5, one character centered, full head and all identifying details visible, safe margins around ears, hair, horns, wings and hands. Simple uncluttered gradient background. Correct anatomy and natural hands. No words, name, label text, captions, franchise logos, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "scorpion": {
-      "status": "missing",
-      "file": "characters/scorpion.webp"
+      "status": "ready",
+      "file": "characters/scorpion.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona image-recognition quiz. Scorpion from Mortal Kombat, recognizable yellow-and-black masked ninja, dark hood, angular yellow face mask covering nose and mouth, intense pale glowing eyes, yellow segmented tabard over black ninja clothing, black leather gauntlets, small chain loop hanging at belt. Waist-up composed fierce heroic stance with arms crossed, tiny restrained ember glow behind shoulders. No blood, gore, wounds, violence or victims. Deep charcoal-blue gradient. Preserve canonical face, proportions, silhouette, costume and exact signature colors; instantly recognizable. Premium polished game key art with detailed painterly cel shading and clean expressive outlines except blocky voxel characters preserve their pixel geometry. Vertical 4:5, one character centered, full head and key identifying details visible with safe margins. Correct anatomy and natural hands. Uncluttered subdued background. No words, names, labels, franchise logos, captions, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sub-zero": {
-      "status": "missing",
-      "file": "characters/sub-zero.webp"
+      "status": "ready",
+      "file": "characters/sub-zero.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona image-recognition quiz. Sub-Zero from Mortal Kombat, recognizable blue-and-black masked ninja, dark hood, angular blue face mask covering nose and mouth, intense pale blue eyes, blue armored tabard over black ninja clothing, blue forearm guards. Waist-up composed focused ready stance, one palm holding a small translucent blue ice crystal. No combat, blood or wounds. Deep midnight-blue gradient with cool frost particles. Preserve canonical face, proportions, silhouette, costume and exact signature colors; instantly recognizable. Premium polished game key art with detailed painterly cel shading and clean expressive outlines except blocky voxel characters preserve their pixel geometry. Vertical 4:5, one character centered, full head and key identifying details visible with safe margins. Correct anatomy and natural hands. Uncluttered subdued background. No words, names, labels, franchise logos, captions, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "steve-minecraft": {
-      "status": "missing",
-      "file": "characters/steve-minecraft.webp"
+      "status": "ready",
+      "file": "characters/steve-minecraft.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona image-recognition quiz. Steve from Minecraft, faithful iconic block-built game character, square brown-haired head, pixelated light tan face with dark brown beard-like mouth pixels, blue-purple eyes, turquoise short-sleeve shirt, dark blue trousers and gray shoes. Full body adventurous friendly standing pose holding a pixelated turquoise diamond pickaxe at his side. Strict blocky voxel proportions and pixel-like texture details, polished soft cinematic lighting on a clean deep blue gradient. Preserve canonical face, proportions, silhouette, costume and exact signature colors; instantly recognizable. Premium polished game key art with detailed painterly cel shading and clean expressive outlines except blocky voxel characters preserve their pixel geometry. Vertical 4:5, one character centered, full head and key identifying details visible with safe margins. Correct anatomy and natural hands. Uncluttered subdued background. No words, names, labels, franchise logos, captions, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "creeper": {
-      "status": "missing",
-      "file": "characters/creeper.webp"
+      "status": "ready",
+      "file": "characters/creeper.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. One beautiful original finished character portrait for Ícones — Maratona image-recognition quiz. Creeper from Minecraft, faithful iconic blocky green game creature with square head, dark black pixelated face formed by two square eyes and a distinctive long downturned mouth, mottled green pixel skin, tall rectangular body and four short square feet. Full body front three-quarter standing pose, all four feet visible, no arms. Beautiful polished voxel game illustration with soft cinematic lighting, simple dark indigo gradient. No explosion. Preserve canonical face, proportions, silhouette, costume and exact signature colors; instantly recognizable. Premium polished game key art with detailed painterly cel shading and clean expressive outlines except blocky voxel characters preserve their pixel geometry. Vertical 4:5, one character centered, full head and key identifying details visible with safe margins. Correct anatomy and natural hands. Uncluttered subdued background. No words, names, labels, franchise logos, captions, watermarks, frames or borders.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "bomberman": {
       "status": "missing",

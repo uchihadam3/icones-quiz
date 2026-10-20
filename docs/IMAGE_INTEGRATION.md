@@ -1,6 +1,6 @@
 # Integração de imagens (instruções para o Codex / curadoria)
 
-Estado atual: **200 imagens prontas** entre as **583** entradas do manifesto. O modo competitivo
+Estado atual: **247 imagens prontas** entre as **583** entradas do manifesto. O modo competitivo
 está liberado; o treino usa o pôster neutro "Imagem a adicionar" nas entradas ainda sem arte.
 
 ## Resumo do fluxo para o Codex
