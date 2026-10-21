@@ -7,7 +7,7 @@ digita quem é. Quanto mais acertos seguidos, maior o combo — e mais rápido a
 **Site:** https://uchihadam3.github.io/icones-quiz/
 
 > **Estado atual:** mecânicas, visual, trilha dinâmica, efeitos e catálogo de **1.492 ícones**
-> curados. Há **278 imagens prontas** (as demais aguardam arte); a partida valendo recorde já está liberada. O treino ainda
+> curados. Há **303 imagens prontas** (as demais aguardam arte); a partida valendo recorde já está liberada. O treino ainda
 > mostra pôsteres neutros "Imagem a adicionar" para entradas sem imagem. Ver
 > [docs/IMAGE_INTEGRATION.md](docs/IMAGE_INTEGRATION.md) e [docs/AUDIO.md](docs/AUDIO.md).
 
