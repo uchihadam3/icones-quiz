@@ -1,19 +1,25 @@
 # Continuidade das imagens — Ícones
 
-Atualizado em 20/10/2026.
+Atualizado em 21/10/2026.
 
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 419.
-- Entradas ainda sem imagem: 1.073.
-- Continuação atual: 40 novas ilustrações integradas (20 de anime e 20 de videogames), revisadas individualmente.
-- As 379 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 464.
+- Entradas ainda sem imagem: 1.028.
+- Continuação atual: 45 novas ilustrações integradas (20 de anime, 15 de desenhos, 10 de videogames), revisadas individualmente.
+- As 419 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+`lady-dimitrescu`, `trevor-philips`, `vault-boy`, `chocobo`, `enderman`, `aldeao-minecraft`, `sans-undertale`, `jinx`, `agente-47`, `doomguy`, `muzan-kibutsuji`, `akaza`, `ochaco-uraraka`, `giorno-giovanna`, `loid-forger`, `yor-forger`, `shoyo-hinata`, `asta-black-clover`, `spike-spiegel`, `kaneda`, `lupin-iii`, `benji-price`, `kero`, `gabumon`, `joey-wheeler`, `sailor-mercury`, `sailor-mars`, `tuxedo-mask`, `buggy`, `kaido`, `appa`, `tio-iroh`, `azula`, `princesa-jujuba`, `marceline`, `rei-gelado`, `bmo`, `steven-universo`, `puro-osso`, `macaco-louco`, `professor-utonio`, `ravena`, `super-choque`, `bidu`, `franjinha`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts completos, eventuais refinamentos e proveniência no manifesto. Refinamentos revisados em: `bidu`, `franjinha`. As tentativas bloqueadas continuam `missing` e estão registradas em `reports/image-generation-pending.json`.
+
+## Lote anterior de 40 retratos — anime e videogames
 
 `frieren`, `denji`, `makima`, `pochita`, `anya-forger`, `jotaro-kujo`, `dio-brando`, `inuyasha`, `kagome-higurashi`, `sesshomaru`, `ken-kaneki`, `sung-jinwoo`, `conan-edogawa`, `oliver-tsubasa`, `sakura-kinomoto`, `hamtaro`, `agumon`, `mago-negro`, `dragao-branco-de-olhos-azuis`, `shaka-de-virgem`, `amy-rose`, `dr-neo-cortex`, `coco-bandicoot`, `e-honda`, `kitana`, `shao-kahn`, `eddy-gordo`, `leon-kennedy`, `jill-valentine`, `albert-wesker`, `nemesis-resident-evil`, `joel-tlou`, `arthur-morgan`, `ezio-auditore`, `sephiroth`, `tifa-lockhart`, `cuphead`, `tripulante-among-us`, `gordon-freeman`, `dante-devil-may-cry`.
 
@@ -55,6 +61,8 @@ As tentativas abaixo não produziram arte utilizável. Não repetir a mesma soli
 Novos bloqueios registrados em 21/10/2026: `elsa`, `anna-frozen`, `olaf`, `woody`, `buzz-lightyear`, `jessie`, `simba`, `mufasa`, `scar`, `timao`, `pumba`, `burro`, `fiona`, `gato-de-botas`, `nemo`, `dory`, `mike-wazowski`, `sulley`, `remy`, `sr-incrivel`, `edna-moda`, `relampago-mcqueen`, `mate`, `carl-fredricksen`, `alegria`, `ariel`, `ursula`, `bela`, `fera`, `mulan`, `jasmine`, `genio`, `merida`, `moana`, `maui`, `stitch`, `baymax`, `po-kung-fu-panda`, `banguela`, `gru`, `vegetto`, `dipper-pines`, `mabel-pines`, `bill-cipher`. Prompts exatos em `reports/image-generation-pending.json`.
 
 Bloqueios desta continuação: `red-angry-birds`, `freddy-fazbear`. Prompts completos em `reports/image-generation-pending.json`.
+
+Bloqueios da continuação de 21/10/2026: `superman`, `thor`, `groot`, `thanos`, `venom`, `arlequina`, `flash`, `aquaman`, `coringa`, `mulher-gato`, `estelar`, `ciborgue`, `pinky`, `cerebro`, `horacio`. Prompts completos em `reports/image-generation-pending.json`.
 
 A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam outra identidade, grupos, fantasias imprecisas, nomes visíveis ou enquadramento inadequado; esses arquivos não foram usados. As demais entradas `missing` continuam disponíveis para geração/curadoria. O manifesto é a fonte do estado atual; `npm run assets:report` apresenta a contagem atualizada.
 
