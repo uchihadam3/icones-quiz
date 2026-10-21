@@ -4560,20 +4560,48 @@
       "file": "characters/invasor-zim.webp"
     },
     "katara": {
-      "status": "missing",
-      "file": "characters/katara.webp"
+      "status": "ready",
+      "file": "characters/katara.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Katara from Avatar The Last Airbender, recognizable Water Tribe girl with long dark brown hair, two looped strands framing face and braid behind, bright blue eyes, blue pendant necklace. Classic blue-and-white Water Tribe tunic with white collar and blue wrist wraps. Friendly resolute smile, gentle translucent water ribbon curling beside her hand. Faithful original animation proportions.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sokka": {
-      "status": "missing",
-      "file": "characters/sokka.webp"
+      "status": "ready",
+      "file": "characters/sokka.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Sokka from Avatar The Last Airbender, young Water Tribe male with dark brown shaved-sides hair tied in high warrior ponytail, blue eyes and tan skin. Classic sleeveless blue tunic with white trim, white necklace and dark blue wrist wraps. Witty confident grin, holding his curved blue boomerang next to shoulder, entire boomerang visible.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "zuko": {
-      "status": "missing",
-      "file": "characters/zuko.webp"
+      "status": "ready",
+      "file": "characters/zuko.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Prince Zuko from Avatar The Last Airbender in his later-season appearance, young man with shaggy short black hair, amber eyes and very distinctive red burn scar surrounding LEFT eye. Red-and-dark-maroon Fire Nation tunic with gold trim, calm serious expression. One open hand holds a small warm flame low beside torso. Faithful original animated design, no helmet.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "toph": {
-      "status": "missing",
-      "file": "characters/toph.webp"
+      "status": "ready",
+      "file": "characters/toph.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Toph Beifong from Avatar The Last Airbender, girl with pale green unfocused eyes, black hair in large rounded bun, thick bangs, green headband with white round ornaments at temples. Green sleeveless Earth Kingdom tunic over cream shirt, green wrist guards. Bold mischievous grin, hands planted confidently at hips, a few small floating stone fragments near bottom. Faithful original cartoon proportions.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "appa": {
       "status": "missing",
@@ -4584,8 +4612,15 @@
       "file": "characters/tio-iroh.webp"
     },
     "korra": {
-      "status": "missing",
-      "file": "characters/korra.webp"
+      "status": "ready",
+      "file": "characters/korra.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Korra from The Legend of Korra, athletic young adult Water Tribe woman with tan skin, bright blue eyes and long dark brown hair in high ponytail with two side locks secured by blue bands. Classic light-blue sleeveless high-collar shirt with dark navy arm wraps. Confident determined grin, fist raised near chest and subtle water swirl, faithful animated design.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "princesa-jujuba": {
       "status": "missing",
@@ -4604,32 +4639,67 @@
       "file": "characters/bmo.webp"
     },
     "rigby": {
-      "status": "missing",
-      "file": "characters/rigby.webp"
+      "status": "ready",
+      "file": "characters/rigby.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Rigby from Regular Show, faithful small brown anthropomorphic raccoon with spiky brown hair tuft, cream muzzle, large round white eyes and long tail with dark brown stripes. No clothing. Comically sly confident grin with short arms folded, entire head and characteristic striped tail curled within frame. Preserve simplified expressive cartoon anatomy.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gumball": {
-      "status": "missing",
-      "file": "characters/gumball.webp"
+      "status": "ready",
+      "file": "characters/gumball.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Gumball Watterson from The Amazing World of Gumball, faithful blue anthropomorphic cartoon cat with large oval white eyes and black pupils, three whiskers per cheek, small blue triangular ears, beige long-sleeve sweater with brown cuffs and collar. Cheerful mischievous open smile, one hand making a friendly wave. Correct simple cartoon proportions, whole head and ears visible.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "darwin-watterson": {
-      "status": "missing",
-      "file": "characters/darwin-watterson.webp"
+      "status": "ready",
+      "file": "characters/darwin-watterson.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Darwin Watterson from The Amazing World of Gumball, faithful bright orange anthropomorphic goldfish with round head, huge oval white eyes, black pupils, small fish fins as arms, short green sneakers with white toe caps. Joyful friendly smile, whole character framed because he is small and round, front three-quarter pose with one fin raised. Do not turn him into a human.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "steven-universo": {
       "status": "missing",
       "file": "characters/steven-universo.webp"
     },
     "samurai-jack": {
-      "status": "missing",
-      "file": "characters/samurai-jack.webp"
+      "status": "ready",
+      "file": "characters/samurai-jack.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Samurai Jack, faithful iconic Cartoon Network design: stoic Japanese male samurai with black hair tied in high topknot, narrow dark eyes and thick angular eyebrows, simple clean white kimono tied with white sash. Holding sheathed katana at waist, three-quarter upper-body composed pose. Elegant bold angular cartoon linework and flat expressive shapes with tasteful premium dimensional shading, entire topknot visible.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "puro-osso": {
       "status": "missing",
       "file": "characters/puro-osso.webp"
     },
     "dee-dee": {
-      "status": "missing",
-      "file": "characters/dee-dee.webp"
+      "status": "ready",
+      "file": "characters/dee-dee.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Dee Dee from Dexter's Laboratory, faithful very tall skinny blonde cartoon girl with two high pigtails, tiny black oval eyes, exaggerated large head proportions and pink short-sleeve ballerina dress with pale pink tights. Playful curious smile, one hand pointing up, upper-body composition with both long pigtails fully in frame. Clean bold original cartoon silhouette, no human realism.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "macaco-louco": {
       "status": "missing",
@@ -4772,48 +4842,118 @@
       "file": "characters/ms-pac-man.webp"
     },
     "ken-masters": {
-      "status": "missing",
-      "file": "characters/ken-masters.webp"
+      "status": "ready",
+      "file": "characters/ken-masters.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Ken Masters from Street Fighter, athletic muscular blond adult man with shaggy medium-length blond hair, red sleeveless karate gi with torn armholes, black belt and padded brown martial arts gloves. Confident friendly grin, fists held in relaxed guard, faithful game character design, no headband.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "guile": {
-      "status": "missing",
-      "file": "characters/guile.webp"
+      "status": "ready",
+      "file": "characters/guile.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Guile from Street Fighter, muscular American male soldier with extremely tall flat-top blond haircut, square jaw, stern face. Olive green fitted tank top, dog tags and camouflage trousers barely visible, American flag shoulder tattoo. Arms folded across broad chest, iconic flat-top completely in frame.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "blanka": {
-      "status": "missing",
-      "file": "characters/blanka.webp"
+      "status": "ready",
+      "file": "characters/blanka.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Blanka from Street Fighter, recognizable powerful green-skinned creature fighter with huge bright orange swept-back mane and orange sideburns, wild expressive face with visible fangs, broken brown shorts and metal ankle cuffs may be out of frame. Upper-body crouched energetic posture with one open hand, playful fierce expression, mild yellow electricity, not grotesque.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "m-bison": {
-      "status": "missing",
-      "file": "characters/m-bison.webp"
+      "status": "ready",
+      "file": "characters/m-bison.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. M Bison from Street Fighter, imposing muscular adult villain with pale glowing eyes, sinister confident smile, iconic red military peaked cap bearing simple winged skull emblem, red high-collar military uniform and cape, silver shoulder armor and metal wrist guards. Arms crossed, complete cap visible, subtle purple psycho-power glow.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dhalsim": {
-      "status": "missing",
-      "file": "characters/dhalsim.webp"
+      "status": "ready",
+      "file": "characters/dhalsim.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Dhalsim from Street Fighter, very slim dark-brown-skinned Indian male yogi, bald head with painted red stripes, large white eyes, gold hoop earrings and necklace of stylized small ivory skull beads. Orange cloth wraps, palms together in calm namaste pose, long lean arms visible without stretching across frame. Reverent serene face, faithful game design.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "zangief": {
-      "status": "missing",
-      "file": "characters/zangief.webp"
+      "status": "ready",
+      "file": "characters/zangief.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Zangief from Street Fighter, massive muscular adult man with short dark mohawk, thick full beard, brown eyes and characteristic cross-shaped scars on chest and shoulders. Iconic red wrestling trunks with gold belt mostly out of frame, red-and-gold wristbands. Friendly fierce grin and flexed upper-body wrestler pose, no blood.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "cammy": {
-      "status": "missing",
-      "file": "characters/cammy.webp"
+      "status": "ready",
+      "file": "characters/cammy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Cammy White from Street Fighter in her classic recognizable hero costume, adult athletic woman with long blond hair in two braided pigtails, blue eyes, small cheek scar and red military beret. Green sleeveless high-collar bodysuit and red armored gauntlets. Confident focused upper-body boxing guard, framed chest-up, nonsexual composition, full beret and braids visible.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "akuma": {
-      "status": "missing",
-      "file": "characters/akuma.webp"
+      "status": "ready",
+      "file": "characters/akuma.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Akuma from Street Fighter, muscular older male martial artist with wild red hair tied in small topknot, red glowing eyes, dark weathered skin and fierce heavy brow. Dark charcoal torn sleeveless gi, thick rope belt and oversized wooden prayer beads around neck. Stern front three-quarter upper-body pose, subtle violet energy in background, no writing.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "e-honda": {
       "status": "missing",
       "file": "characters/e-honda.webp"
     },
     "raiden": {
-      "status": "missing",
-      "file": "characters/raiden.webp"
+      "status": "ready",
+      "file": "characters/raiden.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Raiden from classic Mortal Kombat, adult thunder-god warrior with luminous white eyes and iconic broad conical straw hat, white long-sleeve martial-arts tunic under blue sleeveless tabard, black belt and black forearm guards. Upper-body three-quarter stance, small blue lightning arcs between hands. Entire straw hat fits inside canvas with margin, no text.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "liu-kang": {
-      "status": "missing",
-      "file": "characters/liu-kang.webp"
+      "status": "ready",
+      "file": "characters/liu-kang.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Liu Kang from classic Mortal Kombat, adult Chinese male martial artist with long black hair, red fabric headband tied behind head, red-and-black martial arts trousers and black wrist wraps, bare athletic chest. Focused calm fighting stance with one fist near chest, restrained small orange flame near hand, no gore, faithful classic design.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kitana": {
       "status": "missing",
@@ -5392,12 +5532,26 @@
       "file": "characters/spirit.webp"
     },
     "goten": {
-      "status": "missing",
-      "file": "characters/goten.webp"
+      "status": "ready",
+      "file": "characters/goten.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Goten from Dragon Ball Z, cheerful young boy with wild black spiky hair resembling young Goku, orange gi over dark blue short-sleeve undershirt, blue belt and wristbands. Broad friendly smile, one hand making a small fist near chest, wholesome adventurous pose, no hair transformation.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "chi-chi": {
-      "status": "missing",
-      "file": "characters/chi-chi.webp"
+      "status": "ready",
+      "file": "characters/chi-chi.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Chi-Chi from Dragon Ball Z, adult woman with long straight black hair tied into a low ponytail with blunt bangs, dark eyes. Familiar purple sleeveless high-collar Chinese qipao martial-arts top with orange sash and purple wristbands. Determined slightly stern motherly expression, one hand at hip.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "androide-18": {
       "status": "ready",
@@ -5411,20 +5565,48 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "androide-17": {
-      "status": "missing",
-      "file": "characters/androide-17.webp"
+      "status": "ready",
+      "file": "characters/androide-17.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Android 17 from Dragon Ball Z, slim adult man with straight black shoulder-length hair parted in the center, blue eyes and small gold hoop earrings. Orange bandana scarf around neck, short black T-shirt over white long sleeves, blue jeans and brown belt. Cool reserved smile, arms folded. Plain black shirt without any lettering.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tenshinhan": {
-      "status": "missing",
-      "file": "characters/tenshinhan.webp"
+      "status": "ready",
+      "file": "characters/tenshinhan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Tien Shinhan from Dragon Ball Z, tall muscular bald human martial artist with three eyes, the third eye centered vertically on forehead, stern face. Green one-shoulder martial arts tunic with red sash and red wristbands, one shoulder bare. Calm upper-body fighting-ready pose, hands in a simple respectful fist-and-palm greeting. Three eyes total.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "yamcha": {
-      "status": "missing",
-      "file": "characters/yamcha.webp"
+      "status": "ready",
+      "file": "characters/yamcha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Yamcha from Dragon Ball Z, athletic adult man with long shaggy black hair and distinctive diagonal facial scars on cheek and near left eye. Orange martial-arts gi over blue undershirt, blue sash and wristbands. Confident friendly grin and relaxed one-hand-on-hip pose. Plain fabric with no written emblem.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mr-satan": {
-      "status": "missing",
-      "file": "characters/mr-satan.webp"
+      "status": "ready",
+      "file": "characters/mr-satan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Mr Satan, Hercule from Dragon Ball Z, stocky muscular middle-aged man with large curly black afro, thick black mustache and pronounced chin. Burgundy martial arts gi, white cape fastened near shoulders and white belt. Enthusiastic boastful grin, giving a friendly confident thumbs-up, no written text on outfit.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "bills": {
       "status": "ready",
@@ -5723,24 +5905,52 @@
       "file": "characters/umbreon.webp"
     },
     "hyoga-de-cisne": {
-      "status": "missing",
-      "file": "characters/hyoga-de-cisne.webp"
+      "status": "ready",
+      "file": "characters/hyoga-de-cisne.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Hyoga the Cygnus Saint from Saint Seiya, young man with long flowing golden-blond hair and blue eyes, elegant glossy SILVER Cygnus Bronze Cloth with icy-blue reflections, swan-themed silver helmet with wing ornaments, blue bodysuit beneath. Serene determined expression, one fist raised with subtle frost crystals. Entire swan helmet and hair visible; faithful silver armor, no gold armor.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shun-de-andromeda": {
-      "status": "missing",
-      "file": "characters/shun-de-andromeda.webp"
+      "status": "ready",
+      "file": "characters/shun-de-andromeda.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Shun the Andromeda Bronze Saint from Saint Seiya, gentle young man with green shoulder-length hair and green eyes. Iconic metallic PINK Andromeda Bronze Cloth over green bodysuit, pink helmet with white wing-like sides. Silver nebula chain wrapping lightly around one raised arm, triangular chain tip visible near lower edge. Calm resolute face, entire helmet visible.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "saori-kido": {
-      "status": "missing",
-      "file": "characters/saori-kido.webp"
+      "status": "ready",
+      "file": "characters/saori-kido.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Saori Kido, Athena from Saint Seiya, elegant adult woman with very long straight lavender-purple hair and violet eyes. Flowing white Grecian goddess gown with gold accents, holding her tall gold Athena staff with circular top. Serene dignified expression, torso-up with full head and circular staff ornament visible. No battle armor.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shaka-de-virgem": {
       "status": "missing",
       "file": "characters/shaka-de-virgem.webp"
     },
     "kuwabara": {
-      "status": "missing",
-      "file": "characters/kuwabara.webp"
+      "status": "ready",
+      "file": "characters/kuwabara.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Kazuma Kuwabara from Yu Yu Hakusho, tall broad young man with unmistakable orange pompadour, small intense eyes, heavy brow and square face. Blue Japanese school uniform jacket with gold buttons and white undershirt. Determined confident grin, translucent glowing orange spirit sword rising from a hand low near chest, no text.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "hiei": {
       "status": "ready",
@@ -5765,8 +5975,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "toguro": {
-      "status": "missing",
-      "file": "characters/toguro.webp"
+      "status": "ready",
+      "file": "characters/toguro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Younger Toguro from Yu Yu Hakusho, tall extremely muscular adult male with flat-topped black hair, strong angular face and tiny round black sunglasses. Iconic dark green open trench coat over fitted black tank top, broad shoulders. Stoic arms-folded pose, human form, no gore or grotesque transformation.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rukia-kuchiki": {
       "status": "ready",
@@ -5780,12 +5997,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sosuke-aizen": {
-      "status": "missing",
-      "file": "characters/sosuke-aizen.webp"
+      "status": "ready",
+      "file": "characters/sosuke-aizen.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Sosuke Aizen from Bleach in his recognizable early Soul Society captain appearance, adult man with neatly combed brown hair, thin rectangular glasses, warm deceptive smile. Black Soul Reaper shihakusho beneath white captain haori with long sleeves, katana sheathed at waist. One hand delicately adjusting glasses, no written captain number visible.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "misa-amane": {
-      "status": "missing",
-      "file": "characters/misa-amane.webp"
+      "status": "ready",
+      "file": "characters/misa-amane.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Misa Amane from Death Note, adult blonde woman with long golden hair in two high small ponytails and bangs, large amber eyes. Iconic black gothic dress with lace long sleeves, black choker and small cross necklace. Playful confident smile, one hand raised in a peace sign. Modest upper-body styling, no notebook lettering.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "armin-arlert": {
       "status": "missing",
@@ -5796,8 +6027,15 @@
       "file": "characters/erwin-smith.webp"
     },
     "inosuke-hashibira": {
-      "status": "missing",
-      "file": "characters/inosuke-hashibira.webp"
+      "status": "ready",
+      "file": "characters/inosuke-hashibira.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Inosuke Hashibira from Demon Slayer, muscular young male with his iconic gray-brown boar mask including blue eyes, pink snout and large tusks; mask covers his entire head. Bare muscular chest, furry brown waist belt over dark baggy uniform trousers. Holding two chipped Nichirin katana handles, blades angled low away from face. Whole boar mask including ears and tusks visible, no blood.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "giyu-tomioka": {
       "status": "ready",
@@ -5885,12 +6123,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "hisoka": {
-      "status": "missing",
-      "file": "characters/hisoka.webp"
+      "status": "ready",
+      "file": "characters/hisoka.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Hisoka from Hunter x Hunter, adult male magician with swept-up bright red hair, gold eyes, pink star marking on one cheek and green teardrop on other cheek. Sleeveless pale white magician tunic with pink piping and colored playing-card suit shapes, magenta waist sash. Mysterious sly closed smile, holding one playing card delicately near shoulder, no letters or numbers on card.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kurapika": {
-      "status": "missing",
-      "file": "characters/kurapika.webp"
+      "status": "ready",
+      "file": "characters/kurapika.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Kurapika from Hunter x Hunter, slim young man with straight chin-length blond bob, dark eyes and calm serious face. Distinctive royal-blue sleeveless tabard with gold geometric trim over white long-sleeve shirt. His right hand raised near chest showing slender silver chains attached to fingers, small cross-shaped charm, accurate hand anatomy.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "alphonse-elric": {
       "status": "ready",
@@ -5915,20 +6167,48 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "genos": {
-      "status": "missing",
-      "file": "characters/genos.webp"
+      "status": "ready",
+      "file": "characters/genos.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Genos from One Punch Man, young male cyborg with short spiky blond hair, black sclera and golden irises, silver metal mechanical neck and arms. Black sleeveless high-collar shirt, polished silver cybernetic arms with intricate joints and small warm orange core accents. Focused serious expression, one mechanical fist held near chest.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "all-might": {
-      "status": "missing",
-      "file": "characters/all-might.webp"
+      "status": "ready",
+      "file": "characters/all-might.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. All Might from My Hero Academia in his iconic muscular hero form, huge smiling adult male with two tall blond hair tufts rising backward, angular face and deep shaded eyes. Blue red white and gold hero costume with large white V motif on chest and golden gauntlets. Broad reassuring toothy grin and thumbs-up, entire tall hair tufts inside frame.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "katsuki-bakugo": {
-      "status": "missing",
-      "file": "characters/katsuki-bakugo.webp"
+      "status": "ready",
+      "file": "characters/katsuki-bakugo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Katsuki Bakugo from My Hero Academia, young male hero with spiky ash-blond hair, red eyes and iconic black angular domino eye mask. Black sleeveless hero costume with orange X straps across chest, green collar and oversized grenade-shaped green gauntlets on forearms. Fierce confident grin, upper-body pose, no explosion covering face.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shoto-todoroki": {
-      "status": "missing",
-      "file": "characters/shoto-todoroki.webp"
+      "status": "ready",
+      "file": "characters/shoto-todoroki.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona image-recognition game. Shoto Todoroki from My Hero Academia, young male hero with half-white half-red hair divided down center, one gray eye and one turquoise eye, visible reddish burn scar around the eye on the RED-haired side. Dark navy high-collar hero uniform with white utility straps. Calm serious expression, small ice crystals near white-haired side and warm restrained embers near red-haired side.. Faithful unmistakable original character design, exact recognizable face, hairstyle, signature costume and colors, preserving the source animation or game proportions. Beautiful premium illustrated game artwork, crisp expressive linework, rich painterly cel shading, subtle dimensional rim lighting. Portrait canvas vertical 4:5. Frame from waist or chest up; show ENTIRE head, all hair, ears and signature accessories, with generous empty background ABOVE the highest point. The character should occupy at most 80 percent of the canvas height; do not crop the head or hair tips. Deep navy-to-indigo subdued gradient background. Natural correct anatomy and hands. One character only. No name, letters, writing, captions, title, franchise logo, watermark, border, collage or UI.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ochaco-uraraka": {
       "status": "missing",
