@@ -191,6 +191,17 @@ test.describe('teclado virtual aberto (viewport baixa)', () => {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     expect(overflow).toBeLessThanOrEqual(0);
   });
+
+  test('com a foto pequena, o tempo fica ao lado dela (nunca em cima da imagem)', async ({ page }) => {
+    await page.goto('./');
+    await page.getByTestId('play').click();
+    await expect(page.locator('.image-frame.is-loaded img')).toBeVisible({ timeout: 15_000 });
+    const timer = (await page.getByTestId('timer').boundingBox())!;
+    const photo = (await page.locator('.card').boundingBox())!;
+    const overlaps = timer.x < photo.x + photo.width && timer.x + timer.width > photo.x && timer.y < photo.y + photo.height && timer.y + timer.height > photo.y;
+    expect(overlaps).toBe(false);
+    await expect(page.getByTestId('timer')).toBeInViewport();
+  });
 });
 
 test.describe('áudio', () => {
@@ -290,7 +301,10 @@ test.describe('respostas naturais na partida real (imagens reais, build de produ
       const feedback = page.getByTestId('feedback');
       await expect(feedback, `"${guess}" para ${identity!.id}`).toHaveClass(/is-good/);
       await expect(feedback).not.toContainText('−1 vida');
-      await page.getByTestId('next').click();
+      // "Próximo" também avança sozinho após o feedback: clica se ainda der tempo e espera a rodada mudar.
+      const label = await page.getByTestId('round').getAttribute('aria-label');
+      await page.getByTestId('next').click({ timeout: 1_500 }).catch(() => undefined);
+      await expect(page.getByTestId('round')).not.toHaveAttribute('aria-label', label!);
     }
   });
 });

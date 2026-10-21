@@ -633,9 +633,9 @@
 
 .timer {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 2;
+  top: 13px;
+  right: 13px;
+  z-index: 3;
   width: 60px;
   height: 60px;
   display: grid;
@@ -1226,8 +1226,8 @@
   .timer {
     width: 46px;
     height: 46px;
-    top: 6px;
-    right: 6px;
+    top: 9px;
+    right: 9px;
   }
 
   .timer-value {
@@ -1578,5 +1578,44 @@
 @media (max-width: 340px) {
   .btn--hint .aid-icon {
     display: none;
+  }
+}
+
+/* Cartão baixo (teclado aberto, telas curtas): o anel do tempo sai de cima da foto e vai para o lado,
+   no espaço que sobra ao redor do cartão; o cartão reserva essa faixa dos dois lados. */
+@container (max-height: 300px) {
+  .card-frame {
+    width: min(100cqw - 116px, 80cqh, 520px);
+  }
+
+  .card-frame > .timer {
+    top: 0;
+    right: auto;
+    left: calc(100% + 8px);
+    width: 48px;
+    height: 48px;
+  }
+
+  .card-frame > .timer .timer-value {
+    font-size: 1.15rem;
+  }
+}
+
+/* Telas baixas: faixa "Recuperar vida" numa linha só (depois das regras base, para prevalecer). */
+@media (max-height: 600px) {
+  .recovery-strip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+  }
+
+  .rs-head {
+    flex: none;
+  }
+
+  .rs-bar {
+    flex: 1;
+    min-width: 0;
   }
 }

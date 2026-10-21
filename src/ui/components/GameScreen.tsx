@@ -133,13 +133,11 @@ export function GameScreen({
           onImageFailed={onImageFailed}
           onImageShown={onImageShown}
           hidden={phase === 'paused'}
+          timer={
+            phase === 'playing' ? <TimerRing remainingMs={remaining} durationMs={round.timer.durationMs} warningSeconds={cfg.timer.warningSeconds} /> : null
+          }
         >
-          {phase === 'playing' && (
-            <>
-              <TimeFuse remainingMs={remaining} durationMs={round.timer.durationMs} warning={warning} />
-              <TimerRing remainingMs={remaining} durationMs={round.timer.durationMs} warningSeconds={cfg.timer.warningSeconds} />
-            </>
-          )}
+          {phase === 'playing' && <TimeFuse remainingMs={remaining} durationMs={round.timer.durationMs} warning={warning} />}
           {resolvedHere && <FeedbackOverlay resolution={resolvedHere} name={engine.identity(resolvedHere.identityId)?.displayName ?? ''} />}
         </RoundCard>
         {resolvedHere && <Celebration resolution={resolvedHere} />}
@@ -234,6 +232,7 @@ function RoundCard({
   resolution,
   onImageFailed,
   onImageShown,
+  timer,
   children,
 }: {
   identity: Identity;
@@ -242,6 +241,8 @@ function RoundCard({
   resolution: Resolution | null;
   onImageFailed: () => void;
   onImageShown: () => void;
+  /** Anel do tempo: fora do .card (que corta o que transborda) para poder ir ao lado da foto quando ela encolhe. */
+  timer: ReactNode;
   children: ReactNode;
 }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -279,6 +280,7 @@ function RoundCard({
         )}
         {children}
       </div>
+      {timer}
     </div>
   );
 }
