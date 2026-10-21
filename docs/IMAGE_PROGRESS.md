@@ -1,17 +1,23 @@
 # Continuidade das imagens — Ícones
 
-Atualizado em 20/10/2026 (UTC).
+Atualizado em 20/10/2026.
 
 ## Estado verificado
 
-- Catálogo: 583 identidades.
-- Imagens prontas: 278.
-- Entradas ainda sem imagem: 305.
-- Continuação atual: 31 novas ilustrações integradas; geração e curadoria em andamento.
-- As 247 imagens anteriores e seus metadados foram preservados, incluindo o Ikki com a armadura corrigida.
+- Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
+- Imagens prontas: 303.
+- Entradas ainda sem imagem: 1.189.
+- Continuação atual: 25 novas ilustrações de anime integradas, revisadas individualmente.
+- As 278 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
+
+## Ilustrações desta continuação
+
+`tsunade`, `orochimaru`, `minato-namikaze`, `rock-lee`, `shikamaru-nara`, `madara-uchiha`, `neji-hyuga`, `pain-naruto`, `deidara`, `androide-18`, `bills`, `whis`, `broly`, `hiei`, `kurama-yu-yu-hakusho`, `gon-freecss`, `killua-zoldyck`, `sukuna`, `megumi-fushiguro`, `nobara-kugisaki`, `rukia-kuchiki`, `roy-mustang`, `alphonse-elric`, `giyu-tomioka`, `shinobu-kocho`.
+
+Geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB. Prompts completos (incluindo o ajuste de enquadramento do Bills) no manifesto. Publicação automática com nomes por hash no build, sem nome do personagem na URL. A contagem anterior de 305 pendências se referia ao catálogo de 583 nomes; a expansão para 1.492 acrescentou novas pendências.
 
 ## Ilustrações do lote anterior
 

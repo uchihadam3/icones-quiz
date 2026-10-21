@@ -5400,8 +5400,15 @@
       "file": "characters/chi-chi.webp"
     },
     "androide-18": {
-      "status": "missing",
-      "file": "characters/androide-18.webp"
+      "status": "ready",
+      "file": "characters/androide-18.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Android 18 from Dragon Ball Z, adult woman with straight blonde chin-length bob parted to one side, blue eyes, small gold hoop earrings. Iconic blue sleeveless denim vest over a black tank layered above black-and-white striped long sleeves. Cool confident slight smile, arms folded, upper body, no letters on clothing.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "androide-17": {
       "status": "missing",
@@ -5420,20 +5427,41 @@
       "file": "characters/mr-satan.webp"
     },
     "bills": {
-      "status": "missing",
-      "file": "characters/bills.webp"
+      "status": "ready",
+      "file": "characters/bills.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Beerus the God of Destruction from Dragon Ball Super, unmistakable slender purple hairless anthropomorphic cat deity with very tall pointed ears, golden eyes, wrinkled muzzle and long thin tail. Egyptian-inspired black and blue sleeveless collar with white and orange diamond shapes, gold neck ring and upper-arm bands, blue sash. Waist-up imperious relaxed pose, one finger raised, no human hair.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.\nRefinement: Edit only the framing of this Beerus portrait for the Ícones quiz. Pull the camera back enough that BOTH very tall pointed ears and their complete tips fit fully inside the 4:5 canvas with generous visible blue background above them. Keep exactly the same recognizable face, purple skin, outfit, pose, clean anime style, lighting and background. No text. The entire head INCLUDING both ears must fit with at least 8 percent clear headroom. Preserve the upper-body composition.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "whis": {
-      "status": "missing",
-      "file": "characters/whis.webp"
+      "status": "ready",
+      "file": "characters/whis.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Whis from Dragon Ball Super, pale light-blue skin, high white swept-back sculpted hair, violet eyes, small magenta lips. Burgundy robe with black chest panel decorated by white-orange diamond pattern, orange sash, very distinctive large light-blue circular floating neck halo. Holding his long dark staff with black orb enclosed in blue ring near his shoulder, all head and halo in frame, tranquil polite smile.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shenlong": {
       "status": "missing",
       "file": "characters/shenlong.webp"
     },
     "broly": {
-      "status": "missing",
-      "file": "characters/broly.webp"
+      "status": "ready",
+      "file": "characters/broly.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Broly from Dragon Ball Super, adult extremely muscular Saiyan warrior in his recognizable full-power Super Saiyan form, enormous wild spiky bright green hair, stern brow, light skin, green fur pelt wrapped at waist, gold wrist cuffs, purple trousers only barely visible. Upper-body portrait with green aura, nonviolent determined pose, preserve his facial scar and faithful anime design.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gotenks": {
       "status": "missing",
@@ -5452,40 +5480,96 @@
       "file": "characters/jiren.webp"
     },
     "orochimaru": {
-      "status": "missing",
-      "file": "characters/orochimaru.webp"
+      "status": "ready",
+      "file": "characters/orochimaru.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Orochimaru from Naruto, very pale adult male with straight long jet-black hair, thin brows, golden snake eyes with slit pupils and purple markings around the eyes, subtle sinister smile. Beige high-collar tunic over black long sleeves and enormous thick purple rope belt tied behind his waist, simple small silver earrings. Three-quarter waist-up, one hand lightly touching his other sleeve, no snakes hiding his face.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tsunade": {
-      "status": "missing",
-      "file": "characters/tsunade.webp"
+      "status": "ready",
+      "file": "characters/tsunade.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Tsunade from Naruto, adult blonde woman with straight hair parted centrally into two long low ponytails, brown eyes, small violet diamond mark on forehead. Her iconic green open haori over gray sleeveless wrap top with dark navy sash. Confident calm smile, three-quarter waist-up pose, one hand resting at her hip; modest faithful canonical outfit. No hat.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "madara-uchiha": {
-      "status": "missing",
-      "file": "characters/madara-uchiha.webp"
+      "status": "ready",
+      "file": "characters/madara-uchiha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Madara Uchiha from Naruto, adult male with very long wild spiky black hair partly covering one eye, red Sharingan eyes and stern face. His iconic dark blue long-sleeve outfit under deep red segmented samurai-style chest and shoulder armor, black gloves. Waist-up commanding arms-folded posture, no helmet, face unobstructed.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "obito-uchiha": {
       "status": "missing",
       "file": "characters/obito-uchiha.webp"
     },
     "minato-namikaze": {
-      "status": "missing",
-      "file": "characters/minato-namikaze.webp"
+      "status": "ready",
+      "file": "characters/minato-namikaze.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Minato Namikaze from Naruto, young adult male with bright spiky blond hair and blue eyes, blue Leaf village forehead protector, dark blue ninja suit and green flak vest under flowing white Hokage cloak with red flame pattern along the visible bottom edge. Warm confident expression, three-quarter upper-body pose, holding his distinctive three-pronged kunai by the handle low near waist. No lettering on cloak or weapon.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rock-lee": {
-      "status": "missing",
-      "file": "characters/rock-lee.webp"
+      "status": "ready",
+      "file": "characters/rock-lee.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Rock Lee from Naruto, young male ninja with unmistakable glossy black bowl haircut, enormous round dark eyes, very thick round eyebrows. Green fitted long-sleeve jumpsuit, green Konoha flak vest, orange legwarmers may be out of frame, white bandages wrapped around hands and forearms. Energetic optimistic grin and thumbs-up, upper-body, correct five-finger hand.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shikamaru-nara": {
-      "status": "missing",
-      "file": "characters/shikamaru-nara.webp"
+      "status": "ready",
+      "file": "characters/shikamaru-nara.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Shikamaru Nara from Naruto Shippuden, young adult male with black hair tied into high spiky pineapple-shaped ponytail, narrow dark eyes, calm intelligent slightly bored expression. Green Konoha flak vest over dark mesh-collar ninja clothing, small silver stud earrings. Upper-body three-quarter view, hands held in his recognizable shadow-possession thinking seal near chest, natural fingers.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "neji-hyuga": {
-      "status": "missing",
-      "file": "characters/neji-hyuga.webp"
+      "status": "ready",
+      "file": "characters/neji-hyuga.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Neji Hyuga from Naruto Shippuden, young adult male with very long dark brown hair flowing behind shoulders, pale lavender-white pupil-less Byakugan eyes, silver Leaf forehead protector on dark cloth, cream-white high-collared loose ninja tunic. Calm focused expression, one open palm facing forward in Gentle Fist stance, accurate hand.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "pain-naruto": {
-      "status": "missing",
-      "file": "characters/pain-naruto.webp"
+      "status": "ready",
+      "file": "characters/pain-naruto.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Pain, the Deva Path Yahiko body from Naruto Shippuden. Orange spiky hair, pale skin, purple Rinnegan eyes with concentric rings, black metal piercings at bridge of nose and cheeks and ears. Scratched Rain village metal forehead protector. Black Akatsuki cloak with high collar, red cloud motifs and red lining. Waist-up imposing front three-quarter view, one open palm held out, face clear.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kyuubi": {
       "status": "missing",
@@ -5496,8 +5580,15 @@
       "file": "characters/boruto-uzumaki.webp"
     },
     "deidara": {
-      "status": "missing",
-      "file": "characters/deidara.webp"
+      "status": "ready",
+      "file": "characters/deidara.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Deidara from Naruto Shippuden, adult male with long blond hair in high ponytail and very long fringe covering his left eye, blue right eye, scratched Rock village forehead protector. Black Akatsuki high-collar cloak with red cloud motifs and red lining. Mischievous confident smile, showing his right open palm with its small distinctive mouth as he holds a small white clay bird in the other hand. Clear accurate anatomy.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "usopp": {
       "status": "missing",
@@ -5652,20 +5743,41 @@
       "file": "characters/kuwabara.webp"
     },
     "hiei": {
-      "status": "missing",
-      "file": "characters/hiei.webp"
+      "status": "ready",
+      "file": "characters/hiei.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Hiei from Yu Yu Hakusho, short lean male demon with tall upward jet-black spiky hair with a prominent white starburst streak at front, red eyes, white headband covering third eye. Black sleeveless tunic and high collar, white scarf, black fingerless gloves. Upper body three-quarter view, stern composed expression, one hand resting on sheathed katana at waist, no extra eyes visible.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kurama-yu-yu-hakusho": {
-      "status": "missing",
-      "file": "characters/kurama-yu-yu-hakusho.webp"
+      "status": "ready",
+      "file": "characters/kurama-yu-yu-hakusho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Kurama in his human Shuichi Minamino form from Yu Yu Hakusho, elegant young man with long vivid red hair, green eyes, gentle composed smile. His distinctive bright magenta-pink long-sleeve Chinese martial-arts tunic with yellow trim and yellow frog closures. Holding a single deep red rose between fingers near chest, upper body, faithful anime design, no fox ears.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "toguro": {
       "status": "missing",
       "file": "characters/toguro.webp"
     },
     "rukia-kuchiki": {
-      "status": "missing",
-      "file": "characters/rukia-kuchiki.webp"
+      "status": "ready",
+      "file": "characters/rukia-kuchiki.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Rukia Kuchiki from Bleach, young woman with black chin-length straight hair and one characteristic long lock between eyes, violet eyes, calm confident face. Black Soul Reaper kimono with white inner collar and white waist sash. Her katana Sode no Shirayuki sheathed at waist with white hilt and white guard, one hand resting on its hilt. Waist-up portrait with subtle snow sparkle, generous headroom.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sosuke-aizen": {
       "status": "missing",
@@ -5688,12 +5800,26 @@
       "file": "characters/inosuke-hashibira.webp"
     },
     "giyu-tomioka": {
-      "status": "missing",
-      "file": "characters/giyu-tomioka.webp"
+      "status": "ready",
+      "file": "characters/giyu-tomioka.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Giyu Tomioka from Demon Slayer, young adult male with shaggy black hair tied in short low ponytail, deep blue eyes and quiet stoic face. Black Demon Slayer uniform beneath his distinctive asymmetric haori, one half plain deep crimson and other half patterned in green yellow orange geometric hexagons. Sheathed katana held at waist, subtle restrained water swirl near bottom. Waist-up, head fully visible, generous headroom.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shinobu-kocho": {
-      "status": "missing",
-      "file": "characters/shinobu-kocho.webp"
+      "status": "ready",
+      "file": "characters/shinobu-kocho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Shinobu Kocho from Demon Slayer, young adult woman with dark purple eyes, black hair fading to purple ends tied into a bun with butterfly hair ornament. Gentle enigmatic smile. Black Demon Slayer uniform under white butterfly-wing haori with pale green-pink gradient edges and fine black wing veining. One hand lightly holding her slender sheathed katana at waist, delicate butterfly nearby. Upper-body, full butterfly hair ornament and head visible, generous headroom.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "muzan-kibutsuji": {
       "status": "missing",
@@ -5704,24 +5830,59 @@
       "file": "characters/akaza.webp"
     },
     "sukuna": {
-      "status": "missing",
-      "file": "characters/sukuna.webp"
+      "status": "ready",
+      "file": "characters/sukuna.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Ryomen Sukuna from Jujutsu Kaisen in his recognizable Yuji vessel form: young adult male with short spiky pink hair, intense red eyes, clear symmetrical black curse tattoos on forehead, nose, cheeks and chin, a second small closed eye slit beneath each eye. Dark navy Jujutsu school jacket with red hood. Three-quarter chest-up portrait, ominous confident smile, correct canonical markings. Leave ample headroom.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "megumi-fushiguro": {
-      "status": "missing",
-      "file": "characters/megumi-fushiguro.webp"
+      "status": "ready",
+      "file": "characters/megumi-fushiguro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Megumi Fushiguro from Jujutsu Kaisen, young male with unmistakable unruly starburst black spiky hair and dark blue eyes, dark navy high-collar Jujutsu school uniform. Reserved serious expression, holding his two hands together in a natural shadow-puppet dog hand sign near chest. Upper-body portrait, leave ample empty background above all hair spikes.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "nobara-kugisaki": {
-      "status": "missing",
-      "file": "characters/nobara-kugisaki.webp"
+      "status": "ready",
+      "file": "characters/nobara-kugisaki.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Nobara Kugisaki from Jujutsu Kaisen, young woman with chin-length auburn bob parted at side, brown eyes and confident determined smile. Dark navy Jujutsu school uniform jacket with golden buttons and tan belt, holding her recognizable small metal hammer upright beside shoulder and three long silver nails between fingers of other hand. Waist-up, correct hands, generous headroom.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gon-freecss": {
-      "status": "missing",
-      "file": "characters/gon-freecss.webp"
+      "status": "ready",
+      "file": "characters/gon-freecss.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Gon Freecss from Hunter x Hunter, cheerful boy with distinctive tall upward black spiky hair with green highlights, large amber-brown eyes, bright green jacket with red-orange piping and stand collar, green shorts mostly out of frame, orange backpack straps visible. Optimistic friendly smile, one fist raised near chest, wholesome adventurous upper-body portrait.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "killua-zoldyck": {
-      "status": "missing",
-      "file": "characters/killua-zoldyck.webp"
+      "status": "ready",
+      "file": "characters/killua-zoldyck.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Killua Zoldyck from Hunter x Hunter, boy with fluffy unruly silver-white spiky hair and vivid blue eyes, confident mischievous small smile. White short-sleeve high-collar shirt over long-sleeve dark navy undershirt, upper body, holding a silver yo-yo on its thin string near chest with subtle blue electricity arcing nearby, wholesome nonviolent pose.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "hisoka": {
       "status": "missing",
@@ -5732,12 +5893,26 @@
       "file": "characters/kurapika.webp"
     },
     "alphonse-elric": {
-      "status": "missing",
-      "file": "characters/alphonse-elric.webp"
+      "status": "ready",
+      "file": "characters/alphonse-elric.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Alphonse Elric from Fullmetal Alchemist Brotherhood, immediately recognizable enormous empty silver-gray suit of medieval armor with pointed helmet top, red glowing eye slits, distinctive lower jaw grate and white trailing plume, huge shoulder armor with conical spikes. Gentle friendly body language, one large metal gauntlet giving a small wave. Waist-up, entire helmet plume and shoulder spikes fully within frame, generous headroom.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "roy-mustang": {
-      "status": "missing",
-      "file": "characters/roy-mustang.webp"
+      "status": "ready",
+      "file": "characters/roy-mustang.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image recognition quiz. Create one beautiful finished anime illustration. Roy Mustang from Fullmetal Alchemist Brotherhood, adult man with short black hair falling across forehead and dark eyes, composed self-assured expression. Blue Amestrian military officer uniform with silver piping and gold shoulder epaulets. One white ignition glove raised with thumb and middle finger poised to snap, its red transmutation circle visible on the back, tiny flame above hand. Upper body, generous headroom, accurate anatomy.. Faithful recognizable canonical face, hairstyle, anatomy and costume colors. Premium clean anime linework, detailed painterly cel shading, dimensional cinematic rim lighting and saturated clear colors. Vertical 4:5 composition, head and upper torso centered and large, complete head, signature details fully visible and comfortable headroom. Subdued deep navy-to-indigo gradient background, unobtrusive soft glow. Only one character, natural accurate anatomy and hands. No character name, words, captions, franchise logos, watermark, border or frame. No collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "genos": {
       "status": "missing",

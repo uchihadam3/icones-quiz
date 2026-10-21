@@ -1,6 +1,6 @@
 # Integração de imagens (instruções para o Codex / curadoria)
 
-Estado atual: **278 imagens prontas** entre as **1.492** entradas do manifesto (fila priorizada em
+Estado atual: **303 imagens prontas** entre as **1.492** entradas do manifesto (fila priorizada em
 `reports/catalog-report.md`, gerada por `npm run catalog:report -- --write`). O modo competitivo
 está liberado; o treino usa o pôster neutro "Imagem a adicionar" nas entradas ainda sem arte.
 
