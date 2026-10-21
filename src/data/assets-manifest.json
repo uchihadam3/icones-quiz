@@ -4328,8 +4328,15 @@
       "file": "characters/pedrita.webp"
     },
     "george-jetson": {
-      "status": "missing",
-      "file": "characters/george-jetson.webp"
+      "status": "ready",
+      "file": "characters/george-jetson.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. George Jetson from The Jetsons, classic cartoon man with short orange-red hair, long rounded nose, small oval black eyes, white futuristic high-collar shirt with mint-green broad collar and light-blue trousers. Friendly optimistic smile, faithful original cartoon proportions.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "catatau": {
       "status": "missing",
@@ -4404,76 +4411,188 @@
       "file": "characters/odie.webp"
     },
     "smurfette": {
-      "status": "missing",
-      "file": "characters/smurfette.webp"
+      "status": "ready",
+      "file": "characters/smurfette.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Smurfette from The Smurfs, small blue female Smurf with long blond hair, large friendly eyes, white curved Smurf cap, white simple dress and shoes. Whole little character, cheerful friendly wave, full cap and hair visible.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gargamel": {
-      "status": "missing",
-      "file": "characters/gargamel.webp"
+      "status": "ready",
+      "file": "characters/gargamel.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Gargamel from The Smurfs, balding pale cartoon man with black side hair, long hooked nose, thick dark brows and missing-tooth grin, worn black robe with brown patch and red shoes. Hunched sly pose, faithful classic cartoon proportions.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "leoncio": {
       "status": "missing",
       "file": "characters/leoncio.webp"
     },
     "he-man": {
-      "status": "missing",
-      "file": "characters/he-man.webp"
+      "status": "ready",
+      "file": "characters/he-man.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. He-Man from classic Masters of the Universe, very muscular tan adult man with chin-length blond pageboy haircut, gray chest harness with red cross-like emblem, brown furry belt and silver wrist bracers. Confident heroic smile holding silver Power Sword upright beside shoulder.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "esqueleto": {
-      "status": "missing",
-      "file": "characters/esqueleto.webp"
+      "status": "ready",
+      "file": "characters/esqueleto.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Skeletor from classic Masters of the Universe, yellow skull face with dark sockets, blue muscular body, purple hood and purple crossed chest straps. Sinister theatrical grin, ram-skull Havoc Staff upright beside shoulder, stylized cartoon design, no gore.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "she-ra": {
-      "status": "missing",
-      "file": "characters/she-ra.webp"
+      "status": "ready",
+      "file": "characters/she-ra.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. She-Ra from classic Princess of Power, adult woman with long blond hair, white-gold winged tiara, white dress with gold chest motif and red gem, red cape and gold bracers. Warm heroic expression, silver sword with blue gem beside shoulder, complete tiara visible.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "lion-o": {
-      "status": "missing",
-      "file": "characters/lion-o.webp"
+      "status": "ready",
+      "file": "characters/lion-o.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Lion-O from ThunderCats, orange-tan feline humanoid with enormous swept-back red mane, pointed ears and pale muzzle, blue sleeveless outfit and black-red cat-eye chest emblem. Orange claw-shield gauntlet on one hand, Sword of Omens held low, calm heroic face.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mumm-ra": {
-      "status": "missing",
-      "file": "characters/mumm-ra.webp"
+      "status": "ready",
+      "file": "characters/mumm-ra.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Mumm-Ra from classic ThunderCats in ancient small sorcerer form, gray-blue mummified face and bandaged hands, red glowing eyes, red hooded robe and tattered cape. Hunched upper-body spellcasting pose, faithful stylized cartoon, no gore.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "optimus-prime": {
-      "status": "missing",
-      "file": "characters/optimus-prime.webp"
+      "status": "ready",
+      "file": "characters/optimus-prime.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Optimus Prime from Transformers G1, heroic red and blue robot, blue helmet with twin antennae, silver faceplate, blue eyes, red chest with two blue truck windshield panels, gray abdominal grille and blue forearms. Commanding upper-body stance, faithful angular G1 mechanical design.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "bumblebee": {
-      "status": "missing",
-      "file": "characters/bumblebee.webp"
+      "status": "ready",
+      "file": "characters/bumblebee.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Bumblebee from Transformers G1, compact yellow robot, yellow helmet with short horn-like fins, blue eyes, silver-gray face, yellow compact-car chest with black windshield, black-yellow limbs. Friendly mechanical thumbs-up, faithful classic G1 design.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "megatron": {
-      "status": "missing",
-      "file": "characters/megatron.webp"
+      "status": "ready",
+      "file": "characters/megatron.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Megatron from Transformers G1, imposing silver-gray robot with squared silver helmet, red eyes, stern metallic face, broad silver chest with black center and large black cylindrical fusion cannon mounted on RIGHT forearm. Commanding pose, faithful G1 mechanical shapes.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mestre-dos-magos": {
       "status": "missing",
       "file": "characters/mestre-dos-magos.webp"
     },
     "leonardo-tartaruga": {
-      "status": "missing",
-      "file": "characters/leonardo-tartaruga.webp"
+      "status": "ready",
+      "file": "characters/leonardo-tartaruga.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Leonardo from Teenage Mutant Ninja Turtles, green ninja turtle with BLUE eye mask, brown shell and tan plastron, brown belt and wraps. Serious confident smile, two sheathed katana handles above shoulders, faithful classic animation.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "michelangelo-tartaruga": {
-      "status": "missing",
-      "file": "characters/michelangelo-tartaruga.webp"
+      "status": "ready",
+      "file": "characters/michelangelo-tartaruga.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Michelangelo from Teenage Mutant Ninja Turtles, green turtle with ORANGE eye mask, brown shell, tan plastron, brown belt and wraps. Joyful playful grin holding wooden nunchaku with short chain low near torso, faithful classic animation.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "donatello-tartaruga": {
-      "status": "missing",
-      "file": "characters/donatello-tartaruga.webp"
+      "status": "ready",
+      "file": "characters/donatello-tartaruga.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Donatello from Teenage Mutant Ninja Turtles, green turtle with PURPLE eye mask, brown shell and tan plastron, brown belt and wraps. Friendly thoughtful smile, wooden bo staff upright beside shoulder, classic animated design, no goggles.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rafael-tartaruga": {
-      "status": "missing",
-      "file": "characters/rafael-tartaruga.webp"
+      "status": "ready",
+      "file": "characters/rafael-tartaruga.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Raphael from Teenage Mutant Ninja Turtles, green turtle with RED eye mask, brown shell and tan plastron, brown belt and wraps. Confident fierce half smile, two short three-pronged sai held low, faithful classic cartoon design.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mestre-splinter": {
-      "status": "missing",
-      "file": "characters/mestre-splinter.webp"
+      "status": "ready",
+      "file": "characters/mestre-splinter.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Master Splinter from Teenage Mutant Ninja Turtles, elderly brown anthropomorphic rat sensei with pale long whiskers, pointed ears and wise kind eyes. Burgundy kimono and sash, worn wooden walking staff, dignified calm pose, faithful classic animation.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "destruidor": {
-      "status": "missing",
-      "file": "characters/destruidor.webp"
+      "status": "ready",
+      "file": "characters/destruidor.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Shredder Oroku Saki from Teenage Mutant Ninja Turtles, steel helmet with three curved blades and silver face mask over nose and mouth, piercing eyes, purple cape, metal shoulder and forearm armor with multiple blades over dark ninja tunic. Arms folded, classic animation.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "maggie-simpson": {
       "status": "missing",
@@ -5631,8 +5750,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shenlong": {
-      "status": "missing",
-      "file": "characters/shenlong.webp"
+      "status": "ready",
+      "file": "characters/shenlong.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Shenron from Dragon Ball, long emerald serpentine dragon with cream segmented belly, red eyes, brown deer antlers, long whiskers. Head and upper coiled neck prominent, body curled gracefully below, complete antlers in frame, no human body.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.\nRefinement: Edit only the framing of this Shenron (Shenlong) illustration. Pull the camera back so BOTH entire brown antlers and ALL their tips fit inside the vertical 4:5 picture, with at least 8 percent clear navy-blue background above the highest antler tip. Keep the same unmistakable green dragon face, red eyes, whiskers, coiled serpentine body, scales, cream belly, hands, palette, anime style and lighting. The head and full antlers remain prominent but comfortably framed. No words, borders or other characters.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "broly": {
       "status": "ready",
@@ -5646,20 +5772,41 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gotenks": {
-      "status": "missing",
-      "file": "characters/gotenks.webp"
+      "status": "ready",
+      "file": "characters/gotenks.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Gotenks from Dragon Ball Z in Super Saiyan form: youthful boy, enormous golden spiky hair, teal eyes, black fusion vest with yellow padded collar, bare torso, teal sash and white harem pants. Playful confident grin, hands on hips.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "vegetto": {
       "status": "missing",
       "file": "characters/vegetto.webp"
     },
     "raditz": {
-      "status": "missing",
-      "file": "characters/raditz.webp"
+      "status": "ready",
+      "file": "characters/raditz.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Raditz from Dragon Ball Z, male Saiyan with extremely long wild black hair, widow's peak, brown-black Saiyan armor and broad shoulder guards, brown tail around waist, small green scouter over one eye. Confident stern face.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jiren": {
-      "status": "missing",
-      "file": "characters/jiren.webp"
+      "status": "ready",
+      "file": "characters/jiren.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Jiren from Dragon Ball Super, muscular smooth gray-skinned bald alien with enormous glossy black eyes, small nose, red-and-black Pride Trooper uniform and white gloves. Stern arms-folded pose.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "orochimaru": {
       "status": "ready",
@@ -5695,8 +5842,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "obito-uchiha": {
-      "status": "missing",
-      "file": "characters/obito-uchiha.webp"
+      "status": "ready",
+      "file": "characters/obito-uchiha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Obito Uchiha as Tobi from Naruto, iconic orange spiral mask with one eye hole showing Sharingan, short black spiky hair and black high-collar Akatsuki cloak with red cloud motifs and red lining. One gloved hand near collar.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "minato-namikaze": {
       "status": "ready",
@@ -5754,12 +5908,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kyuubi": {
-      "status": "missing",
-      "file": "characters/kyuubi.webp"
+      "status": "ready",
+      "file": "characters/kyuubi.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Kurama the Nine-Tailed Fox from Naruto, enormous orange fox with long pointed ears, black eye markings and red eyes. Head and upper body framed by exactly nine large sweeping fluffy tails in fan shape. Fierce intelligent expression, full ears and tail fan visible.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "boruto-uzumaki": {
-      "status": "missing",
-      "file": "characters/boruto-uzumaki.webp"
+      "status": "ready",
+      "file": "characters/boruto-uzumaki.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Boruto Uzumaki, boy ninja with spiky blond hair, blue eyes, two whisker lines per cheek, Leaf forehead protector, black jacket with magenta lining over white T-shirt and small bolt necklace. Cheerful confident fist near chest.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "deidara": {
       "status": "ready",
@@ -5773,48 +5941,118 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "usopp": {
-      "status": "missing",
-      "file": "characters/usopp.webp"
+      "status": "ready",
+      "file": "characters/usopp.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Usopp from classic One Piece, slim male with curly dark hair, very long thin nose, tan bandana and goggles on forehead, brown sleeveless overalls with cream straps. Playful confident grin, holding slingshot low beside torso.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "nico-robin": {
-      "status": "missing",
-      "file": "characters/nico-robin.webp"
+      "status": "ready",
+      "file": "characters/nico-robin.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Nico Robin from One Piece, adult woman with long straight black hair, blue eyes, distinctive narrow nose, sunglasses atop head, blue fitted zip-front short-sleeve top. Calm intelligent warm smile holding a small plain closed book, modest waist-up framing.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "franky": {
-      "status": "missing",
-      "file": "characters/franky.webp"
+      "status": "ready",
+      "file": "characters/franky.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Franky from classic pre-timeskip One Piece, massive muscular cyborg with turquoise pompadour, small sunglasses on forehead, angular metal nose, open red Hawaiian shirt with yellow palm patterns, huge forearms with blue stars. Proud cheerful grin, arms folded.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "brook": {
-      "status": "missing",
-      "file": "characters/brook.webp"
+      "status": "ready",
+      "file": "characters/brook.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Brook from One Piece, friendly thin skeleton with huge black afro, round dark eye sockets and toothy grin, dark gentleman's tailcoat, orange cravat and black top hat. Holding violin under one arm, entire hat and afro in frame, whimsical anime rather than gore.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jinbe": {
-      "status": "missing",
-      "file": "characters/jinbe.webp"
+      "status": "ready",
+      "file": "characters/jinbe.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Jinbe from One Piece, huge broad blue whale-shark fish-man with black tied hair, curled brows, broad nose, lower tusks and dignified face. Orange kimono with black geometric leaf pattern and yellow sash. Calm friendly pose, faithful anime proportions.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "portgas-d-ace": {
-      "status": "missing",
-      "file": "characters/portgas-d-ace.webp"
+      "status": "ready",
+      "file": "characters/portgas-d-ace.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Portgas D Ace from One Piece, adult male with black hair, freckles, orange cowboy hat with two blue badge faces and red bead band, red bead necklace and bare torso. Friendly confident smile with tiny flame above raised fingertip, full hat visible.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shanks": {
-      "status": "missing",
-      "file": "characters/shanks.webp"
+      "status": "ready",
+      "file": "characters/shanks.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Shanks from One Piece, red-haired adult pirate with light beard, three scars over LEFT eye, open white shirt, black cape and red sash. Calm confident smile, sheathed sword at hip; missing LEFT arm naturally hidden under cloak, no extra left hand.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "barba-branca": {
-      "status": "missing",
-      "file": "characters/barba-branca.webp"
+      "status": "ready",
+      "file": "characters/barba-branca.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Whitebeard, Edward Newgate from One Piece, enormous muscular elderly pirate with huge crescent white mustache, black bandana, white captain coat with gold epaulettes over bare scarred chest. Proud grin, bisento polearm upright beside shoulder, complete mustache visible.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "boa-hancock": {
       "status": "missing",
       "file": "characters/boa-hancock.webp"
     },
     "trafalgar-law": {
-      "status": "missing",
-      "file": "characters/trafalgar-law.webp"
+      "status": "ready",
+      "file": "characters/trafalgar-law.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Trafalgar Law from One Piece, adult man with short black hair, small goatee, white fuzzy spotted bucket hat, gold earrings, yellow hoodie under dark coat, tattooed hands. Calm clever smile, long sheathed Kikoku sword at shoulder, complete hat visible.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mihawk": {
-      "status": "missing",
-      "file": "characters/mihawk.webp"
+      "status": "ready",
+      "file": "characters/mihawk.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Dracule Mihawk from One Piece, adult man with yellow hawk eyes, pointed thin goatee and mustache, black cavalier hat with white feather, burgundy patterned open coat and gold cross necklace. Giant black cross-shaped sword hilt behind shoulders, stern dignified face.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "buggy": {
       "status": "missing",
@@ -6019,12 +6257,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "armin-arlert": {
-      "status": "missing",
-      "file": "characters/armin-arlert.webp"
+      "status": "ready",
+      "file": "characters/armin-arlert.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Armin Arlert from Attack on Titan, young male with blond bowl-cut bob and blue eyes, tan Scout Regiment cropped jacket over beige shirt and brown harness, green cloak. Gentle thoughtful expression, holding small plain closed book near chest, no injuries.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "erwin-smith": {
-      "status": "missing",
-      "file": "characters/erwin-smith.webp"
+      "status": "ready",
+      "file": "characters/erwin-smith.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Erwin Smith from Attack on Titan, adult commander with neat parted blond hair, thick brows and blue eyes, tan Scout jacket, white shirt, turquoise bolo tie and dark green cloak. Composed resolute expression, upper body with hands low.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "inosuke-hashibira": {
       "status": "ready",

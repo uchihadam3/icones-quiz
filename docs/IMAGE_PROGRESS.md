@@ -1,19 +1,25 @@
 # Continuidade das imagens — Ícones
 
-Atualizado em 20/10/2026.
+Atualizado em 21/10/2026.
 
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 343.
-- Entradas ainda sem imagem: 1.149.
-- Continuação atual: 40 novas ilustrações integradas (20 de anime, 10 de videogames e 10 de desenhos), revisadas individualmente.
-- As 303 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 379.
+- Entradas ainda sem imagem: 1.113.
+- Continuação atual: 36 novas ilustrações integradas (19 de anime e 17 de desenhos), revisadas individualmente.
+- As 343 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+`gotenks`, `raditz`, `jiren`, `shenlong`, `obito-uchiha`, `boruto-uzumaki`, `kyuubi`, `usopp`, `nico-robin`, `franky`, `brook`, `jinbe`, `portgas-d-ace`, `shanks`, `barba-branca`, `trafalgar-law`, `mihawk`, `armin-arlert`, `erwin-smith`, `leonardo-tartaruga`, `michelangelo-tartaruga`, `donatello-tartaruga`, `rafael-tartaruga`, `mestre-splinter`, `destruidor`, `optimus-prime`, `bumblebee`, `megatron`, `he-man`, `esqueleto`, `she-ra`, `lion-o`, `mumm-ra`, `george-jetson`, `smurfette`, `gargamel`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts e proveniência no manifesto. Shenlong teve o enquadramento refinado para mostrar os chifres inteiros. As novas tentativas bloqueadas, com os prompts completos, estão em `reports/image-generation-pending.json`; continuam com status `missing`.
+
+## Lote anterior de 40 retratos
 
 `goten`, `chi-chi`, `androide-17`, `tenshinhan`, `yamcha`, `mr-satan`, `hyoga-de-cisne`, `shun-de-andromeda`, `saori-kido`, `kuwabara`, `toguro`, `sosuke-aizen`, `misa-amane`, `inosuke-hashibira`, `hisoka`, `kurapika`, `genos`, `all-might`, `katsuki-bakugo`, `shoto-todoroki`, `ken-masters`, `guile`, `blanka`, `m-bison`, `dhalsim`, `zangief`, `cammy`, `akuma`, `liu-kang`, `raiden`, `katara`, `sokka`, `zuko`, `toph`, `korra`, `samurai-jack`, `gumball`, `darwin-watterson`, `rigby`, `dee-dee`.
 
@@ -38,6 +44,9 @@ Geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/charac
 As tentativas abaixo não produziram arte utilizável. Não repetir a mesma solicitação para contornar bloqueios; procurar uma imagem externa apropriada, conferir autoria/licença, revisar o enquadramento e só então integrar. Goku, Mario, Pikachu, Shrek e Mickey já constavam como bloqueados no trabalho anterior.
 
 `goku`, `mario`, `pikachu`, `shrek`, `mickey-mouse`, `scooby-doo`, `bob-esponja`, `homer-simpson`, `homem-de-ferro`, `hulk`, `wolverine`, `deadpool`, `link`, `kirby`, `harry-potter`, `darth-vader`, `yoda`, `jack-sparrow`, `rick-sanchez`, `morty-smith`, `kratos`, `geralt-de-rivia`, `jerry-rato`, `pica-pau`.
+
+
+Novos bloqueios registrados em 21/10/2026: `elsa`, `anna-frozen`, `olaf`, `woody`, `buzz-lightyear`, `jessie`, `simba`, `mufasa`, `scar`, `timao`, `pumba`, `burro`, `fiona`, `gato-de-botas`, `nemo`, `dory`, `mike-wazowski`, `sulley`, `remy`, `sr-incrivel`, `edna-moda`, `relampago-mcqueen`, `mate`, `carl-fredricksen`, `alegria`, `ariel`, `ursula`, `bela`, `fera`, `mulan`, `jasmine`, `genio`, `merida`, `moana`, `maui`, `stitch`, `baymax`, `po-kung-fu-panda`, `banguela`, `gru`, `vegetto`, `dipper-pines`, `mabel-pines`, `bill-cipher`. Prompts exatos em `reports/image-generation-pending.json`.
 
 A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam outra identidade, grupos, fantasias imprecisas, nomes visíveis ou enquadramento inadequado; esses arquivos não foram usados. As demais entradas `missing` continuam disponíveis para geração/curadoria. O manifesto é a fonte do estado atual; `npm run assets:report` apresenta a contagem atualizada.
 
