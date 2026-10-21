@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-20",
   "entries": [
     {
       "id": "elsa",
@@ -262,6 +262,18 @@
     {
       "id": "bill-cipher",
       "prompt": "Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Bill Cipher from Gravity Falls, flat golden-yellow triangular demon with ONE huge eye in middle, subtle black brick pattern near base, small black bow tie and top hat, thin black stick arms and legs. Whole floating triangle, one hand theatrically raised, faithful cartoon design.. Faithful instantly recognizable original anime/cartoon design, canonical face, hairstyle, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading, subtle cinematic rim light. Vertical 4:5; upper body centered, ENTIRE head, hair, ears, hats and accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands. One character only. No character name, words, captions, franchise logo, watermark, border or collage.",
+      "status": "blocked",
+      "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
+    },
+    {
+      "id": "red-angry-birds",
+      "prompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Red from Angry Birds, round red bird with thick black angry eyebrows, triangular yellow beak, cream belly, black tail and red crest feathers. Entire single bird visible, expressive determined face, no limbs added. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "status": "blocked",
+      "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
+    },
+    {
+      "id": "freddy-fazbear",
+      "prompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Freddy Fazbear from Five Nights at Freddy’s, canonical brown animatronic bear with round ears, black top hat, black bow tie, blue eyes, tan muzzle and belly, broad snout, holding a microphone. Moody stage-like lighting, readable non-graphic portrait, no words or watermark. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
       "status": "blocked",
       "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
     }
