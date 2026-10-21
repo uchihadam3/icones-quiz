@@ -5,15 +5,21 @@ Atualizado em 20/10/2026.
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 303.
-- Entradas ainda sem imagem: 1.189.
-- Continuação atual: 25 novas ilustrações de anime integradas, revisadas individualmente.
-- As 278 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 343.
+- Entradas ainda sem imagem: 1.149.
+- Continuação atual: 40 novas ilustrações integradas (20 de anime, 10 de videogames e 10 de desenhos), revisadas individualmente.
+- As 303 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+`goten`, `chi-chi`, `androide-17`, `tenshinhan`, `yamcha`, `mr-satan`, `hyoga-de-cisne`, `shun-de-andromeda`, `saori-kido`, `kuwabara`, `toguro`, `sosuke-aizen`, `misa-amane`, `inosuke-hashibira`, `hisoka`, `kurapika`, `genos`, `all-might`, `katsuki-bakugo`, `shoto-todoroki`, `ken-masters`, `guile`, `blanka`, `m-bison`, `dhalsim`, `zangief`, `cammy`, `akuma`, `liu-kang`, `raiden`, `katara`, `sokka`, `zuko`, `toph`, `korra`, `samurai-jack`, `gumball`, `darwin-watterson`, `rigby`, `dee-dee`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts e proveniência no manifesto. O lote anterior de 25 retratos foi publicado pelo PR #1 antes desta continuação.
+
+## Lote anterior de 25 retratos
 
 `tsunade`, `orochimaru`, `minato-namikaze`, `rock-lee`, `shikamaru-nara`, `madara-uchiha`, `neji-hyuga`, `pain-naruto`, `deidara`, `androide-18`, `bills`, `whis`, `broly`, `hiei`, `kurama-yu-yu-hakusho`, `gon-freecss`, `killua-zoldyck`, `sukuna`, `megumi-fushiguro`, `nobara-kugisaki`, `rukia-kuchiki`, `roy-mustang`, `alphonse-elric`, `giyu-tomioka`, `shinobu-kocho`.
 
