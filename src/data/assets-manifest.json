@@ -4937,20 +4937,41 @@
       "file": "characters/isabelle-animal-crossing.webp"
     },
     "amy-rose": {
-      "status": "missing",
-      "file": "characters/amy-rose.webp"
+      "status": "ready",
+      "file": "characters/amy-rose.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Amy Rose from Sonic the Hedgehog, pink hedgehog with green eyes, pink swept quills, red headband, red sleeveless dress with white trim, white gloves and gold bracelets. Cheerful pose with her red-and-yellow Piko Piko hammer held at shoulder, no words. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "alex-kidd": {
       "status": "missing",
       "file": "characters/alex-kidd.webp"
     },
     "dr-neo-cortex": {
-      "status": "missing",
-      "file": "characters/dr-neo-cortex.webp"
+      "status": "ready",
+      "file": "characters/dr-neo-cortex.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Doctor Neo Cortex from Crash Bandicoot, cartoon scientist with huge yellow rectangular head, black side hair, pointed dark goatee, red gloves and white laboratory coat. One canonical black N on forehead is allowed as an intrinsic character feature; no other text. Mischievous grin, holding his ray gun pointing safely upward. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "coco-bandicoot": {
-      "status": "missing",
-      "file": "characters/coco-bandicoot.webp"
+      "status": "ready",
+      "file": "characters/coco-bandicoot.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Coco Bandicoot from Crash Bandicoot, orange female bandicoot with long blonde ponytail, big green eyes, white T-shirt and blue denim overalls, pink flower hair clip. Confident friendly pose holding closed pink laptop. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dr-wily": {
       "status": "missing",
@@ -5049,8 +5070,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "e-honda": {
-      "status": "missing",
-      "file": "characters/e-honda.webp"
+      "status": "ready",
+      "file": "characters/e-honda.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. E. Honda from Street Fighter, powerful stocky Japanese sumo wrestler with black topknot, iconic red face paint, blue and white striped sumo outfit, broad shoulders and confident face. One open palm forward, character only. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "raiden": {
       "status": "ready",
@@ -5075,20 +5103,41 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kitana": {
-      "status": "missing",
-      "file": "characters/kitana.webp"
+      "status": "ready",
+      "file": "characters/kitana.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Kitana from Mortal Kombat, adult woman with black hair, blue face mask, blue-and-silver martial armor and blue headband, holding a single open steel war fan beside shoulder. Regal focused eyes, no blood, no attack on another person. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shao-kahn": {
-      "status": "missing",
-      "file": "characters/shao-kahn.webp"
+      "status": "ready",
+      "file": "characters/shao-kahn.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Shao Kahn from Mortal Kombat, muscular adult conqueror in canonical skull helmet with curved horns, red and black armor, spiked shoulder guards and large hammer. Imposing non-graphic portrait with hammer resting by shoulder, full horns visible. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.\nRefinement: Make a precise edit of this existing portrait. Replace ONLY the round dragon logo embossed on the hammer head with a plain round weathered metal medallion of matching material, lighting and perspective, without any symbol or letters. Also pull the camera back slightly, about 10 percent, so both curved helmet horns have comfortable navy background margin above their highest tips. Preserve the same Shao Kahn character, skull helmet design, face, body, pose, armor, hands, hammer shape, materials, colors, navy background and finished illustration style. Keep vertical 4:5. No text, logos, watermark or other characters.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "johnny-cage": {
       "status": "missing",
       "file": "characters/johnny-cage.webp"
     },
     "eddy-gordo": {
-      "status": "missing",
-      "file": "characters/eddy-gordo.webp"
+      "status": "ready",
+      "file": "characters/eddy-gordo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Eddy Gordo from Tekken 3, Brazilian capoeira fighter, medium-brown skin, long dark dreadlocks, green-and-yellow sleeveless capoeira outfit, wristbands. Relaxed confident martial arts pose, no logos or lettering. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "yoshimitsu": {
       "status": "missing",
@@ -5103,40 +5152,82 @@
       "file": "characters/kyo-kusanagi.webp"
     },
     "leon-kennedy": {
-      "status": "missing",
-      "file": "characters/leon-kennedy.webp"
+      "status": "ready",
+      "file": "characters/leon-kennedy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Leon S. Kennedy from Resident Evil 4, recognizable game character with ash-blond side-parted hair falling over one eye, blue-gray eyes, brown leather jacket with cream shearling collar over black tactical shirt and shoulder holster. Alert composed face, no weapon needed. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jill-valentine": {
-      "status": "missing",
-      "file": "characters/jill-valentine.webp"
+      "status": "ready",
+      "file": "characters/jill-valentine.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Jill Valentine from Resident Evil 3, recognizable game character with short brown bob and blue eyes, blue sleeveless top, black tactical straps, dark fingerless gloves, serious determined expression. Shoulders and upper torso, no weapon needed. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "chris-redfield": {
       "status": "missing",
       "file": "characters/chris-redfield.webp"
     },
     "albert-wesker": {
-      "status": "missing",
-      "file": "characters/albert-wesker.webp"
+      "status": "ready",
+      "file": "characters/albert-wesker.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Albert Wesker from Resident Evil, adult blond slicked-back hair, black sunglasses, high-collared long black leather coat, black gloves. Cold confident expression and folded arms. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "nemesis-resident-evil": {
-      "status": "missing",
-      "file": "characters/nemesis-resident-evil.webp"
+      "status": "ready",
+      "file": "characters/nemesis-resident-evil.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Nemesis from Resident Evil 3, recognizable fictional monster, huge muscular humanoid with scarred pale distorted face, one visible eye, exposed large irregular teeth and black heavy trench coat with straps. Non-graphic monster portrait: no blood, wounds, gore, dismemberment or victims. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "lady-dimitrescu": {
       "status": "missing",
       "file": "characters/lady-dimitrescu.webp"
     },
     "joel-tlou": {
-      "status": "missing",
-      "file": "characters/joel-tlou.webp"
+      "status": "ready",
+      "file": "characters/joel-tlou.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Joel Miller from The Last of Us, recognizable video game character, rugged middle-aged man with salt-and-pepper dark hair, thick short beard, weathered face, muted green plaid shirt, worn backpack straps. Serious weary but protective expression. No resemblance to a live-action actor. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "atreus": {
       "status": "missing",
       "file": "characters/atreus.webp"
     },
     "arthur-morgan": {
-      "status": "missing",
-      "file": "characters/arthur-morgan.webp"
+      "status": "ready",
+      "file": "characters/arthur-morgan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Arthur Morgan from Red Dead Redemption 2, rugged adult cowboy with short brown hair, light stubble, blue eyes, brown leather cowboy hat, faded blue collared shirt and dark leather shoulder gun belt. Thoughtful strong expression, no weapon in hands. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "john-marston": {
       "status": "missing",
@@ -5151,8 +5242,15 @@
       "file": "characters/tommy-vercetti.webp"
     },
     "ezio-auditore": {
-      "status": "missing",
-      "file": "characters/ezio-auditore.webp"
+      "status": "ready",
+      "file": "characters/ezio-auditore.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Ezio Auditore from Assassin’s Creed II, canonical white pointed hood, short dark beard, white and red Renaissance assassin robes, ornate leather chest strap and silver shoulder armor. Recognizable face partly shaded by hood, composed confident pose. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ciri": {
       "status": "missing",
@@ -5163,8 +5261,15 @@
       "file": "characters/cortana.webp"
     },
     "dante-devil-may-cry": {
-      "status": "missing",
-      "file": "characters/dante-devil-may-cry.webp"
+      "status": "ready",
+      "file": "characters/dante-devil-may-cry.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Dante from Devil May Cry 3, iconic adult male video game demon hunter with medium-length white hair, blue eyes, red long leather coat, black leather shoulder harness and dark trousers. Confident cocky smile, large ornate Rebellion sword sheathed across his back, no guns needed, no blood or gore. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "agente-47": {
       "status": "missing",
@@ -5179,8 +5284,15 @@
       "file": "characters/doomguy.webp"
     },
     "gordon-freeman": {
-      "status": "missing",
-      "file": "characters/gordon-freeman.webp"
+      "status": "ready",
+      "file": "characters/gordon-freeman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Gordon Freeman from Half-Life 2, recognizable video game scientist hero, adult man with short brown hair, squared black glasses, green eyes and short brown goatee. Wearing iconic orange-and-black HEV protective suit with gray shoulder plating and an intrinsic small orange lambda emblem, holding a red crowbar at his side. Alert determined expression. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "glados": {
       "status": "missing",
@@ -5191,12 +5303,26 @@
       "file": "characters/vault-boy.webp"
     },
     "sephiroth": {
-      "status": "missing",
-      "file": "characters/sephiroth.webp"
+      "status": "ready",
+      "file": "characters/sephiroth.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Sephiroth from Final Fantasy VII, adult man with extremely long silver hair, green catlike eyes, long black leather coat open at chest, silver pauldrons, black gloves. Elegant stern expression, iconic long katana held vertically at side, no wing necessary. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tifa-lockhart": {
-      "status": "missing",
-      "file": "characters/tifa-lockhart.webp"
+      "status": "ready",
+      "file": "characters/tifa-lockhart.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Tifa Lockhart from Final Fantasy VII Remake, adult woman with long black hair, red-brown eyes, white sleeveless athletic top, black suspenders, black skirt and black-and-red martial gloves. Strong friendly confident pose with fists raised at chest, canonical modest framing. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "aerith": {
       "status": "missing",
@@ -5211,8 +5337,15 @@
       "file": "characters/sora-kingdom-hearts.webp"
     },
     "tripulante-among-us": {
-      "status": "missing",
-      "file": "characters/tripulante-among-us.webp"
+      "status": "ready",
+      "file": "characters/tripulante-among-us.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Red crewmate from Among Us, iconic simple red rounded astronaut bean body, backpack, two short legs, large glossy cyan visor, no hands or mouth, clean neutral standard outfit with no hat or accessories. Entire crewmate visible, faithful simple silhouette. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "freddy-fazbear": {
       "status": "missing",
@@ -5243,8 +5376,15 @@
       "file": "characters/papyrus-undertale.webp"
     },
     "cuphead": {
-      "status": "missing",
-      "file": "characters/cuphead.webp"
+      "status": "ready",
+      "file": "characters/cuphead.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Cuphead from Cuphead, classic 1930s cartoon hero with white cup head, red-and-white striped straw, black shirt, red shorts, yellow gloves and brown shoes, pie-cut eyes and broad smile. Entire straw and head inside frame, lively jaunty pose. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.\nRefinement: Precise costume correction on this existing Cuphead illustration, using the original game design shown by Studio MDHR at https://cupheadgame.com/library/images/buy-now/brothers.webp as the factual costume reference. Change ONLY these three details: (1) both gloves must be white with soft cream shading, not yellow; (2) remove the two large white oval buttons from the red shorts, leaving plain smooth red shorts; (3) both exposed legs below the shorts must be white with soft cream shading, not black. Keep his arms and shirt black. Preserve the exact cup-shaped head, red-and-white straw, face, expression, pose, brown shoes, composition, navy background, lighting and beautiful painterly cartoon finish. Do not copy text or add another character. Vertical 4:5, no text, names, logo, watermark or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mugman": {
       "status": "missing",
@@ -6176,8 +6316,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shaka-de-virgem": {
-      "status": "missing",
-      "file": "characters/shaka-de-virgem.webp"
+      "status": "ready",
+      "file": "characters/shaka-de-virgem.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Virgo Shaka from Saint Seiya, serene adult male with long straight blond hair, eyes gently closed, ornate gold Virgo armor with large rounded shoulder plates, blue jewels. Hands in a calm meditative gesture, helmet not worn, long hair fully visible. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kuwabara": {
       "status": "ready",
@@ -6467,28 +6614,63 @@
       "file": "characters/ochaco-uraraka.webp"
     },
     "jotaro-kujo": {
-      "status": "missing",
-      "file": "characters/jotaro-kujo.webp"
+      "status": "ready",
+      "file": "characters/jotaro-kujo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Jotaro Kujo from JoJo’s Bizarre Adventure Part 3, tall stern man with black cap blending into black hair, black long coat with large gold chain on collar, green shirt. Hand touching cap brim. No readable letters on cap. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dio-brando": {
-      "status": "missing",
-      "file": "characters/dio-brando.webp"
+      "status": "ready",
+      "file": "characters/dio-brando.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. DIO from JoJo’s Bizarre Adventure Part 3, adult male with wavy blond hair, green heart headband, golden jacket over black bodysuit, green heart belt. Confident dramatic pose and intense red eyes. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "giorno-giovanna": {
       "status": "missing",
       "file": "characters/giorno-giovanna.webp"
     },
     "inuyasha": {
-      "status": "missing",
-      "file": "characters/inuyasha.webp"
+      "status": "ready",
+      "file": "characters/inuyasha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. InuYasha from InuYasha, long silver-white hair, white dog ears atop head, golden eyes, red robe of the Fire Rat, black and white beaded necklace, sword sheathed at waist. Confident folded arms. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kagome-higurashi": {
-      "status": "missing",
-      "file": "characters/kagome-higurashi.webp"
+      "status": "ready",
+      "file": "characters/kagome-higurashi.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Kagome Higurashi from InuYasha, long straight black hair, brown eyes, canonical modest green and white sailor school uniform with red neckerchief, holding her wooden bow upright. Friendly determined expression, age-appropriate portrayal. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sesshomaru": {
-      "status": "missing",
-      "file": "characters/sesshomaru.webp"
+      "status": "ready",
+      "file": "characters/sesshomaru.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Sesshomaru from InuYasha, elegant adult demon man with very long silver hair, crescent moon on forehead, magenta cheek stripes, white kimono with red floral motifs, spiked shoulder armor and large white fluffy pelt over one shoulder. Calm dignified expression. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "shinji-ikari": {
       "status": "missing",
@@ -6507,20 +6689,48 @@
       "file": "characters/eva-01.webp"
     },
     "denji": {
-      "status": "missing",
-      "file": "characters/denji.webp"
+      "status": "ready",
+      "file": "characters/denji.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Denji from Chainsaw Man, human form, young man with messy blond hair and sharp teeth, white shirt and black tie, black trousers, small starter cord on chest, mischievous grin. No chainsaw transformation. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "makima": {
-      "status": "missing",
-      "file": "characters/makima.webp"
+      "status": "ready",
+      "file": "characters/makima.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Makima from Chainsaw Man, woman with red hair in a long braid, straight bangs, golden eyes with concentric rings, white shirt and black tie, composed enigmatic smile. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "pochita": {
-      "status": "missing",
-      "file": "characters/pochita.webp"
+      "status": "ready",
+      "file": "characters/pochita.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Pochita from Chainsaw Man, small round orange canine devil, black handle on head, short gray chainsaw blade projecting forward from face, black starter tail, four tiny legs and friendly big eyes. Entire small creature visible, cheerful pose, no gore. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "anya-forger": {
-      "status": "missing",
-      "file": "characters/anya-forger.webp"
+      "status": "ready",
+      "file": "characters/anya-forger.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Anya Forger from Spy x Family, pink bobbed hair, wide green eyes, black cone-shaped hair ornaments with gold edging, canonical black Eden school uniform with gold trim and white collar. Sweet playful expression, age-appropriate fully clothed portrait. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.\nRefinement: Edit only the framing of this existing portrait. Pull the camera back slightly, about 12 percent, so the entire tip of her pink hair curl and both black-gold hair ornaments have comfortable visible navy background above them, with at least 5 percent headroom. Keep the same character, face, expression, hairstyle, costume, hands, pose, colors, navy background, lighting and illustration style unchanged. Keep a vertical 4:5 canvas. No text, names, watermark or other characters.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "loid-forger": {
       "status": "missing",
@@ -6535,20 +6745,48 @@
       "file": "characters/shoyo-hinata.webp"
     },
     "ken-kaneki": {
-      "status": "missing",
-      "file": "characters/ken-kaneki.webp"
+      "status": "ready",
+      "file": "characters/ken-kaneki.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Ken Kaneki from Tokyo Ghoul, white hair, one red ghoul eye and one gray eye, iconic black leather half-face mask with silver zipper mouth and teeth pattern, black clothing. Moody non-graphic portrait, no blood or gore. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "frieren": {
-      "status": "missing",
-      "file": "characters/frieren.webp"
+      "status": "ready",
+      "file": "characters/frieren.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Frieren from Frieren: Beyond Journey’s End, elven mage with long white twin ponytails, pointed ears, calm green eyes, white and gold mage coat with black trim, red gemstone earrings. Holding her recognizable gold-and-red staff, gentle thoughtful expression. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.\nRefinement: Edit only the framing of this existing portrait. Pull the camera back slightly, about 15 percent, and recompose the staff inward so its entire gold crescent top, including the rightmost finial, is comfortably visible inside the right edge with navy background margin. Keep her entire white hair and both pointed ears visible with generous headroom. Preserve the exact character, face, expression, clothing, hands, pose, staff design, colors, navy background, lighting and illustration style. Vertical 4:5. No text, names, watermark or other characters.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sung-jinwoo": {
-      "status": "missing",
-      "file": "characters/sung-jinwoo.webp"
+      "status": "ready",
+      "file": "characters/sung-jinwoo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Sung Jinwoo from Solo Leveling, young adult man with tousled short black hair, sharp blue-violet glowing eyes, black high-collared coat. Quiet confident expression, subtle violet shadow aura, no other characters. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "conan-edogawa": {
-      "status": "missing",
-      "file": "characters/conan-edogawa.webp"
+      "status": "ready",
+      "file": "characters/conan-edogawa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Conan Edogawa from Detective Conan, small boy detective with black hair and signature cowlick, round glasses, blue blazer, white shirt, red bow tie and gray shorts. Thoughtful pose with hand near chin, fully clothed age-appropriate portrayal. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "asta-black-clover": {
       "status": "missing",
@@ -6567,24 +6805,45 @@
       "file": "characters/lupin-iii.webp"
     },
     "oliver-tsubasa": {
-      "status": "missing",
-      "file": "characters/oliver-tsubasa.webp"
+      "status": "ready",
+      "file": "characters/oliver-tsubasa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Tsubasa Ozora, known as Oliver Tsubasa in Captain Tsubasa, black spiky hair, cheerful determined face, canonical white football jersey with blue sleeve trim. Holding a classic black-and-white football; omit team lettering, logos and numbers. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "benji-price": {
       "status": "missing",
       "file": "characters/benji-price.webp"
     },
     "sakura-kinomoto": {
-      "status": "missing",
-      "file": "characters/sakura-kinomoto.webp"
+      "status": "ready",
+      "file": "characters/sakura-kinomoto.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Sakura Kinomoto from Cardcaptor Sakura, short chestnut hair and green eyes, canonical pink magical outfit with white frilled collar, pink cap with white wings, holding her pink bird-head sealing staff. Cheerful age-appropriate fully clothed portrait. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kero": {
       "status": "missing",
       "file": "characters/kero.webp"
     },
     "hamtaro": {
-      "status": "missing",
-      "file": "characters/hamtaro.webp"
+      "status": "ready",
+      "file": "characters/hamtaro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Hamtaro from Hamtaro, tiny round orange-and-white hamster with large shiny black eyes, orange ears, white belly, tiny paws, cheerful expression. Entire little hamster visible holding a sunflower seed. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "astro-boy": {
       "status": "missing",
@@ -6599,20 +6858,41 @@
       "file": "characters/nobita.webp"
     },
     "agumon": {
-      "status": "missing",
-      "file": "characters/agumon.webp"
+      "status": "ready",
+      "file": "characters/agumon.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Agumon from Digimon Adventure, small orange dinosaur Digimon, large round green eyes, short broad snout, large white claws on hands and feet, cream belly. Cheerful brave pose. Entire recognizable head and upper body. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gabumon": {
       "status": "missing",
       "file": "characters/gabumon.webp"
     },
     "mago-negro": {
-      "status": "missing",
-      "file": "characters/mago-negro.webp"
+      "status": "ready",
+      "file": "characters/mago-negro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Dark Magician from Yu-Gi-Oh!, canonical purple segmented armor, tall curled pointed purple helmet, angular shoulder guards, long turquoise-green magical staff, serious face with violet hair. Entire helmet and staff top visible. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.\nRefinement: Edit only the framing of this existing Dark Magician portrait. Zoom the camera out about 20 percent so his ENTIRE tall curved pointed purple helmet fits inside the vertical 4:5 canvas, including its highest tip, with at least 6 percent navy background headroom. Keep the exact same character, face, eyes, costume, armor, staff, hands, pose, colors, navy background and finished illustration style. Do not redesign the helmet. No text, character names, captions, logos, watermark, frame or additional characters.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dragao-branco-de-olhos-azuis": {
-      "status": "missing",
-      "file": "characters/dragao-branco-de-olhos-azuis.webp"
+      "status": "ready",
+      "file": "characters/dragao-branco-de-olhos-azuis.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Create one beautiful finished individual character portrait for Ícones — Maratona image-recognition quiz. Blue-Eyes White Dragon from Yu-Gi-Oh!, iconic long angular silver-white dragon, luminous blue eyes, sharp elongated head, segmented neck armor, large batlike pale wings. Majestic three-quarter portrait; full head, wings folded enough to fit, no rider or other creatures. Faithful instantly recognizable canonical character design, face, anatomy, costume and colors. Premium expressive clean outlines, detailed painterly cel shading and subtle cinematic rim light matching the existing quiz portraits. Vertical 4:5; upper body centered unless entire creature is specified. ENTIRE head, hair, ears, horns, hats and identifying accessories comfortably inside frame with generous headroom. Deep navy-indigo gradient background. Natural correct hands where applicable. One character only. No character name, words, captions, franchise logo, watermark, border, collage or extra characters, except an intrinsic emblem explicitly requested.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "joey-wheeler": {
       "status": "missing",
