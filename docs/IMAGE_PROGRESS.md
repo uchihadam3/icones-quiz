@@ -5,15 +5,21 @@ Atualizado em 21/10/2026.
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 464.
-- Entradas ainda sem imagem: 1.028.
-- Continuação atual: 45 novas ilustrações integradas (20 de anime, 15 de desenhos, 10 de videogames), revisadas individualmente.
-- As 419 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 521.
+- Entradas ainda sem imagem: 971.
+- Continuação atual: 57 novas ilustrações integradas (17 de anime, 17 de desenhos, 23 de videogames), revisadas individualmente.
+- As 464 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+`boa-hancock`, `shinji-ikari`, `rei-ayanami`, `asuka-langley`, `astro-boy`, `speed-racer`, `nobita`, `chihiro`, `kiki`, `howl`, `ponyo`, `princesa-mononoke`, `eva-01`, `haku-ghibli`, `calcifer`, `gatobus`, `porco-rosso`, `dr-wily`, `johnny-cage`, `yoshimitsu`, `terry-bogard`, `kyo-kusanagi`, `chris-redfield`, `atreus`, `john-marston`, `tommy-vercetti`, `ciri`, `cortana`, `pyramid-head`, `glados`, `aerith`, `alex-minecraft`, `papyrus-undertale`, `mugman`, `peely`, `teemo`, `blinky`, `heihachi`, `goro`, `yennefer`, `salsicha`, `odie`, `olivia-palito`, `brutus`, `mestre-dos-magos`, `vingador`, `uni`, `catatau`, `orko`, `snarf`, `gato-guerreiro`, `danny-phantom`, `princesa-caroco`, `gwen-tennyson`, `timmy-turner`, `cosmo-padrinhos`, `wanda-padrinhos`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts completos, eventuais refinamentos e proveniência no manifesto. Refinamentos revisados em: `kiki`, `ponyo`, `princesa-mononoke`, `calcifer`, `gatobus`, `pyramid-head`, `alex-minecraft`, `papyrus-undertale`, `heihachi`, `snarf`, `danny-phantom`. As tentativas bloqueadas continuam `missing` e estão registradas em `reports/image-generation-pending.json`.
+
+## Lote anterior de 45 retratos — anime, desenhos e videogames
 
 `lady-dimitrescu`, `trevor-philips`, `vault-boy`, `chocobo`, `enderman`, `aldeao-minecraft`, `sans-undertale`, `jinx`, `agente-47`, `doomguy`, `muzan-kibutsuji`, `akaza`, `ochaco-uraraka`, `giorno-giovanna`, `loid-forger`, `yor-forger`, `shoyo-hinata`, `asta-black-clover`, `spike-spiegel`, `kaneda`, `lupin-iii`, `benji-price`, `kero`, `gabumon`, `joey-wheeler`, `sailor-mercury`, `sailor-mars`, `tuxedo-mask`, `buggy`, `kaido`, `appa`, `tio-iroh`, `azula`, `princesa-jujuba`, `marceline`, `rei-gelado`, `bmo`, `steven-universo`, `puro-osso`, `macaco-louco`, `professor-utonio`, `ravena`, `super-choque`, `bidu`, `franjinha`.
 
@@ -63,6 +69,8 @@ Novos bloqueios registrados em 21/10/2026: `elsa`, `anna-frozen`, `olaf`, `woody
 Bloqueios desta continuação: `red-angry-birds`, `freddy-fazbear`. Prompts completos em `reports/image-generation-pending.json`.
 
 Bloqueios da continuação de 21/10/2026: `superman`, `thor`, `groot`, `thanos`, `venom`, `arlequina`, `flash`, `aquaman`, `coringa`, `mulher-gato`, `estelar`, `ciborgue`, `pinky`, `cerebro`, `horacio`. Prompts completos em `reports/image-generation-pending.json`.
+
+Bloqueios da continuação de 21/10/2026: `fred-jones`, `velma`, `daphne`. Prompts completos em `reports/image-generation-pending.json`.
 
 A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam outra identidade, grupos, fantasias imprecisas, nomes visíveis ou enquadramento inadequado; esses arquivos não foram usados. As demais entradas `missing` continuam disponíveis para geração/curadoria. O manifesto é a fonte do estado atual; `npm run assets:report` apresenta a contagem atualizada.
 
