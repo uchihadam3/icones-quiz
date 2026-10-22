@@ -14,12 +14,12 @@
   },
   "statuses": {
     "missing": {
-      "count": 971,
-      "percent": 65.1
+      "count": 941,
+      "percent": 63.1
     },
     "ready": {
-      "count": 521,
-      "percent": 34.9
+      "count": 551,
+      "percent": 36.9
     }
   },
   "byCategory": {
@@ -49,8 +49,8 @@
       "n1": 28,
       "n2": 142,
       "n3": 48,
-      "ready": 89,
-      "missing": 129,
+      "ready": 109,
+      "missing": 109,
       "rejected": 0
     },
     "celebrity": {
@@ -89,8 +89,8 @@
       "n1": 11,
       "n2": 66,
       "n3": 54,
-      "ready": 88,
-      "missing": 43,
+      "ready": 98,
+      "missing": 33,
       "rejected": 0
     },
     "music": {
@@ -5926,12 +5926,6 @@
       "displayName": "Tim Maia"
     },
     {
-      "id": "galinha-pintadinha",
-      "level": 1,
-      "category": "cartoon",
-      "displayName": "Galinha Pintadinha"
-    },
-    {
       "id": "dumbo",
       "level": 1,
       "category": "animation",
@@ -5948,12 +5942,6 @@
       "level": 1,
       "category": "music",
       "displayName": "Rita Lee"
-    },
-    {
-      "id": "masha",
-      "level": 1,
-      "category": "cartoon",
-      "displayName": "Masha"
     },
     {
       "id": "bambi",
@@ -6478,10 +6466,10 @@
       "displayName": "Snorlax"
     },
     {
-      "id": "barney-dinossauro",
+      "id": "marge-simpson",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Barney"
+      "displayName": "Marge Simpson"
     },
     {
       "id": "remy",
@@ -6532,10 +6520,10 @@
       "displayName": "Eevee"
     },
     {
-      "id": "marge-simpson",
+      "id": "bart-simpson",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Marge Simpson"
+      "displayName": "Bart Simpson"
     },
     {
       "id": "sr-incrivel",
@@ -6586,10 +6574,10 @@
       "displayName": "Vegetto"
     },
     {
-      "id": "bart-simpson",
+      "id": "lisa-simpson",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Bart Simpson"
+      "displayName": "Lisa Simpson"
     },
     {
       "id": "relampago-mcqueen",
@@ -6640,10 +6628,10 @@
       "displayName": "Brock"
     },
     {
-      "id": "lisa-simpson",
+      "id": "peter-griffin",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Lisa Simpson"
+      "displayName": "Peter Griffin"
     },
     {
       "id": "mate",
@@ -6652,10 +6640,10 @@
       "displayName": "Mate"
     },
     {
-      "id": "ganondorf",
+      "id": "rei-dedede",
       "level": 2,
       "category": "game",
-      "displayName": "Ganondorf"
+      "displayName": "Rei Dedede"
     },
     {
       "id": "legolas",
@@ -6694,10 +6682,10 @@
       "displayName": "Misty"
     },
     {
-      "id": "bender",
+      "id": "rick-sanchez",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Bender"
+      "displayName": "Rick Sanchez"
     },
     {
       "id": "alegria",
@@ -6706,10 +6694,10 @@
       "displayName": "Alegria"
     },
     {
-      "id": "meta-knight",
+      "id": "freddy-fazbear",
       "level": 2,
       "category": "game",
-      "displayName": "Meta Knight"
+      "displayName": "Freddy Fazbear"
     },
     {
       "id": "seu-madruga",
@@ -6748,10 +6736,10 @@
       "displayName": "Equipe Rocket"
     },
     {
-      "id": "peter-griffin",
+      "id": "morty-smith",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Peter Griffin"
+      "displayName": "Morty Smith"
     },
     {
       "id": "ursula",
@@ -6760,10 +6748,10 @@
       "displayName": "Úrsula"
     },
     {
-      "id": "rei-dedede",
+      "id": "red-angry-birds",
       "level": 2,
       "category": "game",
-      "displayName": "Rei Dedede"
+      "displayName": "Red"
     },
     {
       "id": "dona-florinda",
@@ -6802,10 +6790,10 @@
       "displayName": "Lucario"
     },
     {
-      "id": "eric-cartman",
+      "id": "patrick-estrela",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Eric Cartman"
+      "displayName": "Patrick Estrela"
     },
     {
       "id": "bela",
@@ -6814,10 +6802,10 @@
       "displayName": "Bela"
     },
     {
-      "id": "alex-kidd",
+      "id": "koopa-troopa",
       "level": 2,
       "category": "game",
-      "displayName": "Alex Kidd"
+      "displayName": "Koopa Troopa"
     },
     {
       "id": "professor-girafales",
@@ -6856,10 +6844,10 @@
       "displayName": "Greninja"
     },
     {
-      "id": "rick-sanchez",
+      "id": "lula-molusco",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Rick Sanchez"
+      "displayName": "Lula Molusco"
     },
     {
       "id": "fera",
@@ -6868,10 +6856,10 @@
       "displayName": "Fera"
     },
     {
-      "id": "sora-kingdom-hearts",
+      "id": "planta-piranha",
       "level": 2,
       "category": "game",
-      "displayName": "Sora"
+      "displayName": "Planta Piranha"
     },
     {
       "id": "seu-barriga",
@@ -6910,22 +6898,16 @@
       "displayName": "Mew"
     },
     {
-      "id": "morty-smith",
+      "id": "hortelino-troca-letras",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Morty Smith"
+      "displayName": "Hortelino Troca-Letras"
     },
     {
       "id": "aurora",
       "level": 2,
       "category": "animation",
       "displayName": "Aurora"
-    },
-    {
-      "id": "freddy-fazbear",
-      "level": 2,
-      "category": "game",
-      "displayName": "Freddy Fazbear"
     },
     {
       "id": "walter-white",
@@ -6964,22 +6946,16 @@
       "displayName": "Lugia"
     },
     {
-      "id": "patrick-estrela",
+      "id": "eufrazino",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Patrick Estrela"
+      "displayName": "Eufrazino Puxa-Briga"
     },
     {
       "id": "malevola",
       "level": 2,
       "category": "animation",
       "displayName": "Malévola"
-    },
-    {
-      "id": "red-angry-birds",
-      "level": 2,
-      "category": "game",
-      "displayName": "Red"
     },
     {
       "id": "wandinha-addams",
@@ -7018,22 +6994,16 @@
       "displayName": "Gyarados"
     },
     {
-      "id": "lula-molusco",
+      "id": "pepe-le-gamba",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Lula Molusco"
+      "displayName": "Pepe Le Gambá"
     },
     {
       "id": "jasmine",
       "level": 2,
       "category": "animation",
       "displayName": "Jasmine"
-    },
-    {
-      "id": "koopa-troopa",
-      "level": 2,
-      "category": "game",
-      "displayName": "Koopa Troopa"
     },
     {
       "id": "daenerys",
@@ -7072,22 +7042,16 @@
       "displayName": "Dragonite"
     },
     {
-      "id": "seu-sirigueijo",
+      "id": "marvin-o-marciano",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Seu Sirigueijo"
+      "displayName": "Marvin, o Marciano"
     },
     {
       "id": "pocahontas",
       "level": 2,
       "category": "animation",
       "displayName": "Pocahontas"
-    },
-    {
-      "id": "planta-piranha",
-      "level": 2,
-      "category": "game",
-      "displayName": "Planta Piranha"
     },
     {
       "id": "jon-snow",
@@ -7126,22 +7090,16 @@
       "displayName": "Onix"
     },
     {
-      "id": "dora-aventureira",
+      "id": "lola-bunny",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Dora"
+      "displayName": "Lola Bunny"
     },
     {
       "id": "merida",
       "level": 2,
       "category": "animation",
       "displayName": "Merida"
-    },
-    {
-      "id": "pou",
-      "level": 2,
-      "category": "game",
-      "displayName": "Pou"
     },
     {
       "id": "sheldon-cooper",
@@ -7180,22 +7138,16 @@
       "displayName": "Togepi"
     },
     {
-      "id": "bluey",
+      "id": "fred-jones",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Bluey"
+      "displayName": "Fred Jones"
     },
     {
       "id": "moana",
       "level": 2,
       "category": "animation",
       "displayName": "Moana"
-    },
-    {
-      "id": "talking-tom",
-      "level": 2,
-      "category": "game",
-      "displayName": "Talking Tom"
     },
     {
       "id": "spock",
@@ -7234,22 +7186,16 @@
       "displayName": "Blastoise"
     },
     {
-      "id": "hortelino-troca-letras",
+      "id": "velma",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Hortelino Troca-Letras"
+      "displayName": "Velma"
     },
     {
       "id": "maui",
       "level": 2,
       "category": "animation",
       "displayName": "Maui"
-    },
-    {
-      "id": "flappy-bird",
-      "level": 2,
-      "category": "game",
-      "displayName": "Flappy Bird"
     },
     {
       "id": "jack-sparrow",
@@ -7288,10 +7234,10 @@
       "displayName": "Venusaur"
     },
     {
-      "id": "eufrazino",
+      "id": "daphne",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Eufrazino Puxa-Briga"
+      "displayName": "Daphne"
     },
     {
       "id": "stitch",
@@ -7336,10 +7282,10 @@
       "displayName": "Raichu"
     },
     {
-      "id": "pepe-le-gamba",
+      "id": "wilma-flintstone",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Pepe Le Gambá"
+      "displayName": "Wilma Flintstone"
     },
     {
       "id": "cruella",
@@ -7384,10 +7330,10 @@
       "displayName": "Magikarp"
     },
     {
-      "id": "marvin-o-marciano",
+      "id": "barney-rubble",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Marvin, o Marciano"
+      "displayName": "Barney Rubble"
     },
     {
       "id": "capitao-gancho",
@@ -7432,10 +7378,10 @@
       "displayName": "Ditto"
     },
     {
-      "id": "lola-bunny",
+      "id": "pedrita",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Lola Bunny"
+      "displayName": "Pedrita"
     },
     {
       "id": "mogli",
@@ -7474,10 +7420,10 @@
       "displayName": "Anthony Hopkins"
     },
     {
-      "id": "fred-jones",
+      "id": "penelope-charmosa",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Fred Jones"
+      "displayName": "Penélope Charmosa"
     },
     {
       "id": "balu",
@@ -7516,10 +7462,10 @@
       "displayName": "Liam Neeson"
     },
     {
-      "id": "velma",
+      "id": "tico-e-teco",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Velma"
+      "displayName": "Tico e Teco"
     },
     {
       "id": "hercules",
@@ -7558,10 +7504,10 @@
       "displayName": "Idris Elba"
     },
     {
-      "id": "daphne",
+      "id": "kim-possible",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Daphne"
+      "displayName": "Kim Possible"
     },
     {
       "id": "tarzan",
@@ -7600,10 +7546,10 @@
       "displayName": "Marlon Brando"
     },
     {
-      "id": "wilma-flintstone",
+      "id": "phineas",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Wilma Flintstone"
+      "displayName": "Phineas"
     },
     {
       "id": "detona-ralph",
@@ -7642,10 +7588,10 @@
       "displayName": "James Dean"
     },
     {
-      "id": "barney-rubble",
+      "id": "ferb",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Barney Rubble"
+      "displayName": "Ferb"
     },
     {
       "id": "baymax",
@@ -7684,10 +7630,10 @@
       "displayName": "Elizabeth Taylor"
     },
     {
-      "id": "pedrita",
+      "id": "doofenshmirtz",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Pedrita"
+      "displayName": "Dr. Doofenshmirtz"
     },
     {
       "id": "po-kung-fu-panda",
@@ -7726,10 +7672,10 @@
       "displayName": "Will Ferrell"
     },
     {
-      "id": "penelope-charmosa",
+      "id": "dipper-pines",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Penélope Charmosa"
+      "displayName": "Dipper Pines"
     },
     {
       "id": "banguela",
@@ -7768,10 +7714,10 @@
       "displayName": "Steve Carell"
     },
     {
-      "id": "tico-e-teco",
+      "id": "mabel-pines",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Tico e Teco"
+      "displayName": "Mabel Pines"
     },
     {
       "id": "rei-julien",
@@ -7810,10 +7756,10 @@
       "displayName": "Jack Black"
     },
     {
-      "id": "kim-possible",
+      "id": "bill-cipher",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Kim Possible"
+      "displayName": "Bill Cipher"
     },
     {
       "id": "scrat",
@@ -7852,10 +7798,10 @@
       "displayName": "Kevin Hart"
     },
     {
-      "id": "phineas",
+      "id": "maggie-simpson",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Phineas"
+      "displayName": "Maggie Simpson"
     },
     {
       "id": "sid-preguica",
@@ -7894,10 +7840,10 @@
       "displayName": "Ben Stiller"
     },
     {
-      "id": "ferb",
+      "id": "ned-flanders",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Ferb"
+      "displayName": "Ned Flanders"
     },
     {
       "id": "sr-cabeca-de-batata",
@@ -7936,10 +7882,10 @@
       "displayName": "Chris Rock"
     },
     {
-      "id": "doofenshmirtz",
+      "id": "krusty",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Dr. Doofenshmirtz"
+      "displayName": "Palhaço Krusty"
     },
     {
       "id": "rex-toy-story",
@@ -7978,10 +7924,10 @@
       "displayName": "Jamie Foxx"
     },
     {
-      "id": "dipper-pines",
+      "id": "milhouse",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Dipper Pines"
+      "displayName": "Milhouse"
     },
     {
       "id": "zurg",
@@ -8020,10 +7966,10 @@
       "displayName": "Danny DeVito"
     },
     {
-      "id": "mabel-pines",
+      "id": "fry-futurama",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Mabel Pines"
+      "displayName": "Fry"
     },
     {
       "id": "lotso",
@@ -8062,10 +8008,10 @@
       "displayName": "Paul Walker"
     },
     {
-      "id": "bill-cipher",
+      "id": "stewie-griffin",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Bill Cipher"
+      "displayName": "Stewie Griffin"
     },
     {
       "id": "marlin",
@@ -8104,10 +8050,10 @@
       "displayName": "Macaulay Culkin"
     },
     {
-      "id": "maggie-simpson",
+      "id": "stan-marsh",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Maggie Simpson"
+      "displayName": "Stan Marsh"
     },
     {
       "id": "boo-monstros",
@@ -8146,10 +8092,10 @@
       "displayName": "Zac Efron"
     },
     {
-      "id": "ned-flanders",
+      "id": "kyle-broflovski",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Ned Flanders"
+      "displayName": "Kyle Broflovski"
     },
     {
       "id": "mulher-elastica",
@@ -8188,10 +8134,10 @@
       "displayName": "Antonio Banderas"
     },
     {
-      "id": "krusty",
+      "id": "kenny-mccormick",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Palhaço Krusty"
+      "displayName": "Kenny McCormick"
     },
     {
       "id": "flecha",
@@ -8224,10 +8170,10 @@
       "displayName": "Jet Li"
     },
     {
-      "id": "milhouse",
+      "id": "gary-caracol",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Milhouse"
+      "displayName": "Gary"
     },
     {
       "id": "zeze-incriveis",
@@ -8260,10 +8206,10 @@
       "displayName": "Shah Rukh Khan"
     },
     {
-      "id": "fry-futurama",
+      "id": "tommy-pickles",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Fry"
+      "displayName": "Tommy Pickles"
     },
     {
       "id": "gelado",
@@ -8296,10 +8242,10 @@
       "displayName": "Halle Berry"
     },
     {
-      "id": "leela-futurama",
+      "id": "angelica-pickles",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Leela"
+      "displayName": "Angélica Pickles"
     },
     {
       "id": "russell-up",
@@ -8332,10 +8278,10 @@
       "displayName": "Salma Hayek"
     },
     {
-      "id": "stewie-griffin",
+      "id": "estelar",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Stewie Griffin"
+      "displayName": "Estelar"
     },
     {
       "id": "dug",
@@ -8368,10 +8314,10 @@
       "displayName": "Penélope Cruz"
     },
     {
-      "id": "stan-marsh",
+      "id": "ciborgue",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Stan Marsh"
+      "displayName": "Ciborgue"
     },
     {
       "id": "tristeza",
@@ -8404,10 +8350,10 @@
       "displayName": "Sofía Vergara"
     },
     {
-      "id": "kyle-broflovski",
+      "id": "pinky",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Kyle Broflovski"
+      "displayName": "Pinky"
     },
     {
       "id": "raiva",
@@ -8440,10 +8386,10 @@
       "displayName": "Charlize Theron"
     },
     {
-      "id": "kenny-mccormick",
+      "id": "cerebro",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Kenny McCormick"
+      "displayName": "Cérebro"
     },
     {
       "id": "nojinho",
@@ -8476,10 +8422,10 @@
       "displayName": "Kate Winslet"
     },
     {
-      "id": "gary-caracol",
+      "id": "bob-o-construtor",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Gary"
+      "displayName": "Bob, o Construtor"
     },
     {
       "id": "medo",
@@ -8512,10 +8458,10 @@
       "displayName": "Kristen Stewart"
     },
     {
-      "id": "tommy-pickles",
+      "id": "thomas-trem",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Tommy Pickles"
+      "displayName": "Thomas, o Trem"
     },
     {
       "id": "ansiedade",
@@ -8548,10 +8494,10 @@
       "displayName": "Reese Witherspoon"
     },
     {
-      "id": "angelica-pickles",
+      "id": "chase-patrulha-canina",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Angélica Pickles"
+      "displayName": "Chase"
     },
     {
       "id": "miguel-coco",
@@ -8584,10 +8530,10 @@
       "displayName": "Drew Barrymore"
     },
     {
-      "id": "arnold-hey-arnold",
+      "id": "ladybug",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Arnold"
+      "displayName": "Ladybug"
     },
     {
       "id": "eva-wall-e",
@@ -8620,10 +8566,10 @@
       "displayName": "Lindsay Lohan"
     },
     {
-      "id": "estelar",
+      "id": "cat-noir",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Estelar"
+      "displayName": "Cat Noir"
     },
     {
       "id": "luca-paguro",
@@ -8656,10 +8602,10 @@
       "displayName": "Hilary Duff"
     },
     {
-      "id": "ciborgue",
+      "id": "pucca",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Ciborgue"
+      "displayName": "Pucca"
     },
     {
       "id": "kristoff",
@@ -8692,10 +8638,10 @@
       "displayName": "Whoopi Goldberg"
     },
     {
-      "id": "pinky",
+      "id": "moranguinho",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Pinky"
+      "displayName": "Moranguinho"
     },
     {
       "id": "nala",
@@ -8728,10 +8674,10 @@
       "displayName": "Viola Davis"
     },
     {
-      "id": "cerebro",
+      "id": "kuromi",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Cérebro"
+      "displayName": "Kuromi"
     },
     {
       "id": "rafiki",
@@ -8764,10 +8710,10 @@
       "displayName": "Sydney Sweeney"
     },
     {
-      "id": "gato-felix",
+      "id": "rainbow-dash",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Gato Félix"
+      "displayName": "Rainbow Dash"
     },
     {
       "id": "mirabel",
@@ -8800,10 +8746,10 @@
       "displayName": "Anya Taylor-Joy"
     },
     {
-      "id": "betty-boop",
+      "id": "mr-meeseeks",
       "level": 2,
       "category": "cartoon",
-      "displayName": "Betty Boop"
+      "displayName": "Mr. Meeseeks"
     },
     {
       "id": "bruno-madrigal",
@@ -8836,12 +8782,6 @@
       "displayName": "Ellen DeGeneres"
     },
     {
-      "id": "droopy",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Droopy"
-    },
-    {
       "id": "judy-hopps",
       "level": 2,
       "category": "animation",
@@ -8870,12 +8810,6 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Jimmy Fallon"
-    },
-    {
-      "id": "bob-o-construtor",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Bob, o Construtor"
     },
     {
       "id": "nick-wilde",
@@ -8908,12 +8842,6 @@
       "displayName": "Gordon Ramsay"
     },
     {
-      "id": "thomas-trem",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Thomas, o Trem"
-    },
-    {
       "id": "flynn-rider",
       "level": 2,
       "category": "animation",
@@ -8942,12 +8870,6 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Paris Hilton"
-    },
-    {
-      "id": "chase-patrulha-canina",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Chase"
     },
     {
       "id": "sebastiao",
@@ -8980,12 +8902,6 @@
       "displayName": "Kylie Jenner"
     },
     {
-      "id": "pocoyo",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Pocoyo"
-    },
-    {
       "id": "linguado",
       "level": 2,
       "category": "animation",
@@ -9014,12 +8930,6 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Kendall Jenner"
-    },
-    {
-      "id": "caillou",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Caillou"
     },
     {
       "id": "lumiere",
@@ -9052,12 +8962,6 @@
       "displayName": "Jeff Bezos"
     },
     {
-      "id": "ladybug",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Ladybug"
-    },
-    {
       "id": "gaston",
       "level": 2,
       "category": "animation",
@@ -9086,12 +8990,6 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "PewDiePie"
-    },
-    {
-      "id": "cat-noir",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Cat Noir"
     },
     {
       "id": "jafar",
@@ -9124,12 +9022,6 @@
       "displayName": "Khaby Lame"
     },
     {
-      "id": "pucca",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Pucca"
-    },
-    {
       "id": "mushu",
       "level": 2,
       "category": "animation",
@@ -9158,12 +9050,6 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Eliana"
-    },
-    {
-      "id": "moranguinho",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Moranguinho"
     },
     {
       "id": "hades-disney",
@@ -9196,12 +9082,6 @@
       "displayName": "Serginho Groisman"
     },
     {
-      "id": "kuromi",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Kuromi"
-    },
-    {
       "id": "rainha-ma",
       "level": 2,
       "category": "animation",
@@ -9232,12 +9112,6 @@
       "displayName": "Pedro Bial"
     },
     {
-      "id": "rainbow-dash",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Rainbow Dash"
-    },
-    {
       "id": "alice-pais-das-maravilhas",
       "level": 2,
       "category": "animation",
@@ -9266,12 +9140,6 @@
       "level": 2,
       "category": "celebrity",
       "displayName": "Tiago Leifert"
-    },
-    {
-      "id": "mr-meeseeks",
-      "level": 2,
-      "category": "cartoon",
-      "displayName": "Mr. Meeseeks"
     },
     {
       "id": "gato-de-cheshire",
@@ -10390,10 +10258,10 @@
       "displayName": "Umbreon"
     },
     {
-      "id": "jimmy-neutron",
+      "id": "frangolino",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Jimmy Neutron"
+      "displayName": "Frangolino"
     },
     {
       "id": "slinky",
@@ -10420,10 +10288,10 @@
       "displayName": "Tempestade"
     },
     {
-      "id": "frangolino",
+      "id": "pepe-legal",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Frangolino"
+      "displayName": "Pepe Legal"
     },
     {
       "id": "garfinho",
@@ -10450,10 +10318,10 @@
       "displayName": "Duende Verde"
     },
     {
-      "id": "pepe-legal",
+      "id": "hong-kong-fu",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Pepe Legal"
+      "displayName": "Hong Kong Fu"
     },
     {
       "id": "crush-tartaruga",
@@ -10480,10 +10348,10 @@
       "displayName": "Pinguim"
     },
     {
-      "id": "hong-kong-fu",
+      "id": "space-ghost",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Hong Kong Fu"
+      "displayName": "Space Ghost"
     },
     {
       "id": "randall",
@@ -10510,10 +10378,10 @@
       "displayName": "Charada"
     },
     {
-      "id": "space-ghost",
+      "id": "max-goof",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Space Ghost"
+      "displayName": "Max Goof"
     },
     {
       "id": "violeta-incriveis",
@@ -10540,10 +10408,10 @@
       "displayName": "Bane"
     },
     {
-      "id": "max-goof",
+      "id": "pato-darkwing",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Max Goof"
+      "displayName": "Pato Darkwing"
     },
     {
       "id": "sindrome",
@@ -10570,10 +10438,10 @@
       "displayName": "Supergirl"
     },
     {
-      "id": "pato-darkwing",
+      "id": "leoncio",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Pato Darkwing"
+      "displayName": "Leôncio"
     },
     {
       "id": "sally-carrera",
@@ -10582,10 +10450,10 @@
       "displayName": "Sally Carrera"
     },
     {
-      "id": "ms-pac-man",
+      "id": "lakitu",
       "level": 3,
       "category": "game",
-      "displayName": "Ms. Pac-Man"
+      "displayName": "Lakitu"
     },
     {
       "id": "phoebe-buffay",
@@ -10600,10 +10468,10 @@
       "displayName": "Hellboy"
     },
     {
-      "id": "leoncio",
+      "id": "moe-szyslak",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Leôncio"
+      "displayName": "Moe Szyslak"
     },
     {
       "id": "anton-ego",
@@ -10612,10 +10480,10 @@
       "displayName": "Anton Ego"
     },
     {
-      "id": "foxy-fnaf",
+      "id": "dixie-kong",
       "level": 3,
       "category": "game",
-      "displayName": "Foxy"
+      "displayName": "Dixie Kong"
     },
     {
       "id": "popis",
@@ -10630,10 +10498,10 @@
       "displayName": "Galactus"
     },
     {
-      "id": "moe-szyslak",
+      "id": "brian-griffin",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Moe Szyslak"
+      "displayName": "Brian Griffin"
     },
     {
       "id": "bing-bong",
@@ -10642,10 +10510,10 @@
       "displayName": "Bing Bong"
     },
     {
-      "id": "lakitu",
+      "id": "king-k-rool",
       "level": 3,
       "category": "game",
-      "displayName": "Lakitu"
+      "displayName": "King K. Rool"
     },
     {
       "id": "leatherface",
@@ -10660,10 +10528,10 @@
       "displayName": "Tocha Humana"
     },
     {
-      "id": "brian-griffin",
+      "id": "bojack-horseman",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Brian Griffin"
+      "displayName": "BoJack Horseman"
     },
     {
       "id": "hector-coco",
@@ -10672,10 +10540,10 @@
       "displayName": "Héctor"
     },
     {
-      "id": "dixie-kong",
+      "id": "navi",
       "level": 3,
       "category": "game",
-      "displayName": "Dixie Kong"
+      "displayName": "Navi"
     },
     {
       "id": "pinhead",
@@ -10690,22 +10558,16 @@
       "displayName": "Senhor Fantástico"
     },
     {
-      "id": "bojack-horseman",
+      "id": "horacio",
       "level": 3,
       "category": "cartoon",
-      "displayName": "BoJack Horseman"
+      "displayName": "Horácio"
     },
     {
       "id": "mei-lee",
       "level": 3,
       "category": "animation",
       "displayName": "Mei Lee"
-    },
-    {
-      "id": "king-k-rool",
-      "level": 3,
-      "category": "game",
-      "displayName": "King K. Rool"
     },
     {
       "id": "smaug",
@@ -10720,10 +10582,10 @@
       "displayName": "Noturno"
     },
     {
-      "id": "invasor-zim",
+      "id": "mr-magoo",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Invasor Zim"
+      "displayName": "Mr. Magoo"
     },
     {
       "id": "sven",
@@ -10732,22 +10594,16 @@
       "displayName": "Sven"
     },
     {
-      "id": "navi",
-      "level": 3,
-      "category": "game",
-      "displayName": "Navi"
-    },
-    {
       "id": "gambit",
       "level": 3,
       "category": "comics",
       "displayName": "Gambit"
     },
     {
-      "id": "horacio",
+      "id": "skye-patrulha-canina",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Horácio"
+      "displayName": "Skye"
     },
     {
       "id": "zazu",
@@ -10756,22 +10612,16 @@
       "displayName": "Zazu"
     },
     {
-      "id": "fall-guy",
-      "level": 3,
-      "category": "game",
-      "displayName": "Fall Guy"
-    },
-    {
       "id": "blade",
       "level": 3,
       "category": "comics",
       "displayName": "Blade"
     },
     {
-      "id": "penadinho",
+      "id": "luna-show-da-luna",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Penadinho"
+      "displayName": "Luna"
     },
     {
       "id": "luisa-madrigal",
@@ -10786,10 +10636,10 @@
       "displayName": "Asa Noturna"
     },
     {
-      "id": "irmao-do-jorel",
+      "id": "peixonauta",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Irmão do Jorel"
+      "displayName": "Peixonauta"
     },
     {
       "id": "heihei",
@@ -10804,10 +10654,10 @@
       "displayName": "Espantalho"
     },
     {
-      "id": "menino-maluquinho",
+      "id": "ralph-wiggum",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Menino Maluquinho"
+      "displayName": "Ralph Wiggum"
     },
     {
       "id": "pascal",
@@ -10822,10 +10672,10 @@
       "displayName": "Darkseid"
     },
     {
-      "id": "mr-magoo",
+      "id": "abe-simpson",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Mr. Magoo"
+      "displayName": "Vovô Simpson"
     },
     {
       "id": "rei-tritao",
@@ -10840,10 +10690,10 @@
       "displayName": "Senhor Frio"
     },
     {
-      "id": "skye-patrulha-canina",
+      "id": "sideshow-bob",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Skye"
+      "displayName": "Sideshow Bob"
     },
     {
       "id": "madame-samovar",
@@ -10858,10 +10708,10 @@
       "displayName": "Rorschach"
     },
     {
-      "id": "luna-show-da-luna",
+      "id": "lois-griffin",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Luna"
+      "displayName": "Lois Griffin"
     },
     {
       "id": "abu",
@@ -10876,10 +10726,10 @@
       "displayName": "Invencível"
     },
     {
-      "id": "peixonauta",
+      "id": "zoidberg",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Peixonauta"
+      "displayName": "Zoidberg"
     },
     {
       "id": "iago",
@@ -10894,10 +10744,10 @@
       "displayName": "Ideiafix"
     },
     {
-      "id": "ralph-wiggum",
+      "id": "butters",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Ralph Wiggum"
+      "displayName": "Butters"
     },
     {
       "id": "megara",
@@ -10912,10 +10762,10 @@
       "displayName": "Milu"
     },
     {
-      "id": "abe-simpson",
+      "id": "candace-flynn",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Vovô Simpson"
+      "displayName": "Candace"
     },
     {
       "id": "robin-hood-disney",
@@ -10930,10 +10780,10 @@
       "displayName": "Capitão Haddock"
     },
     {
-      "id": "sideshow-bob",
+      "id": "tio-stan",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Sideshow Bob"
+      "displayName": "Tio Stan"
     },
     {
       "id": "tai-lung",
@@ -10948,10 +10798,10 @@
       "displayName": "Hagar"
     },
     {
-      "id": "lois-griffin",
+      "id": "chuckie-finster",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Lois Griffin"
+      "displayName": "Chuckie"
     },
     {
       "id": "gloria-hipopotamo",
@@ -10966,10 +10816,10 @@
       "displayName": "Recruta Zero"
     },
     {
-      "id": "zoidberg",
+      "id": "doug-funnie",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Zoidberg"
+      "displayName": "Doug Funnie"
     },
     {
       "id": "melman",
@@ -10984,10 +10834,10 @@
       "displayName": "Lucky Luke"
     },
     {
-      "id": "butters",
+      "id": "anjinho",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Butters"
+      "displayName": "Anjinho"
     },
     {
       "id": "tronco-trolls",
@@ -11002,10 +10852,10 @@
       "displayName": "Gamora"
     },
     {
-      "id": "candace-flynn",
+      "id": "louco",
       "level": 3,
       "category": "cartoon",
-      "displayName": "Candace"
+      "displayName": "Louco"
     },
     {
       "id": "wallace-e-gromit",
@@ -11020,12 +10870,6 @@
       "displayName": "Drax"
     },
     {
-      "id": "tio-stan",
-      "level": 3,
-      "category": "cartoon",
-      "displayName": "Tio Stan"
-    },
-    {
       "id": "spirit",
       "level": 3,
       "category": "animation",
@@ -11036,12 +10880,6 @@
       "level": 3,
       "category": "comics",
       "displayName": "Shang-Chi"
-    },
-    {
-      "id": "chuckie-finster",
-      "level": 3,
-      "category": "cartoon",
-      "displayName": "Chuckie"
     },
     {
       "id": "rei-louie",
@@ -11056,12 +10894,6 @@
       "displayName": "Hela"
     },
     {
-      "id": "doug-funnie",
-      "level": 3,
-      "category": "cartoon",
-      "displayName": "Doug Funnie"
-    },
-    {
       "id": "kaa",
       "level": 3,
       "category": "animation",
@@ -11074,12 +10906,6 @@
       "displayName": "Mulher-Hulk"
     },
     {
-      "id": "anjinho",
-      "level": 3,
-      "category": "cartoon",
-      "displayName": "Anjinho"
-    },
-    {
       "id": "yzma",
       "level": 3,
       "category": "animation",
@@ -11090,12 +10916,6 @@
       "level": 3,
       "category": "comics",
       "displayName": "Cavaleiro da Lua"
-    },
-    {
-      "id": "louco",
-      "level": 3,
-      "category": "cartoon",
-      "displayName": "Louco"
     },
     {
       "id": "chicken-little",

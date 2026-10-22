@@ -1181,8 +1181,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "barney-dinossauro": {
-      "status": "missing",
-      "file": "characters/barney-dinossauro.webp"
+      "status": "ready",
+      "file": "characters/barney-dinossauro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Barney the Dinosaur, canonical friendly round purple dinosaur with green belly, broad smiling snout and three yellow toenails on each foot. Full friendly standing character, clearly purple-green design.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "homer-simpson": {
       "status": "missing",
@@ -1205,16 +1212,30 @@
       "file": "characters/sr-burns.webp"
     },
     "bender": {
-      "status": "missing",
-      "file": "characters/bender.webp"
+      "status": "ready",
+      "file": "characters/bender.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Bender from Futurama, canonical gray cylindrical robot with square-toothed mouth, black visor band and two round eyes, single head antenna, segmented limbs and belly door. Full head and antenna, jaunty confident pose.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "peter-griffin": {
       "status": "missing",
       "file": "characters/peter-griffin.webp"
     },
     "eric-cartman": {
-      "status": "missing",
-      "file": "characters/eric-cartman.webp"
+      "status": "ready",
+      "file": "characters/eric-cartman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Eric Cartman from South Park, canonical round boy with blue-and-yellow cap, red coat, yellow mittens and brown trousers, unimpressed expression. Full character, preserve recognizable simple flat geometric proportions.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rick-sanchez": {
       "status": "missing",
@@ -1237,8 +1258,15 @@
       "file": "characters/lula-molusco.webp"
     },
     "seu-sirigueijo": {
-      "status": "missing",
-      "file": "characters/seu-sirigueijo.webp"
+      "status": "ready",
+      "file": "characters/seu-sirigueijo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Mr. Krabs from SpongeBob SquarePants, canonical red crab with tall eye stalks, large red claws, pale blue collared shirt, purple trousers and black belt, greedy friendly grin, entire head, eye stalks and claws visible.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sandy-bochechas": {
       "status": "missing",
@@ -1249,8 +1277,15 @@
       "file": "characters/plankton.webp"
     },
     "jimmy-neutron": {
-      "status": "missing",
-      "file": "characters/jimmy-neutron.webp"
+      "status": "ready",
+      "file": "characters/jimmy-neutron.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Jimmy Neutron, canonical boy genius with huge brown swirled pompadour, large blue eyes, red T-shirt with intrinsic yellow atom symbol, blue jeans and sneakers, confident clever smile. Entire tall hairstyle visible, fully clothed.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "aang": {
       "status": "ready",
@@ -1264,16 +1299,30 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dora-aventureira": {
-      "status": "missing",
-      "file": "characters/dora-aventureira.webp"
+      "status": "ready",
+      "file": "characters/dora-aventureira.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Dora the Explorer, canonical little Latina girl with short brown bob, brown eyes, pink short-sleeved T-shirt, orange shorts, yellow socks, white shoes and purple backpack. Entire cheerful fully clothed girl, no companion.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "peppa-pig": {
       "status": "missing",
       "file": "characters/peppa-pig.webp"
     },
     "bluey": {
-      "status": "missing",
-      "file": "characters/bluey.webp"
+      "status": "ready",
+      "file": "characters/bluey.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Bluey, canonical little blue heeler dog child with dark navy patches, pale-blue muzzle and belly, pointed ears, black nose and short upright tail. Full playful character, preserve the original distinctive Bluey face and proportions.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ben-10": {
       "status": "ready",
@@ -4661,8 +4710,15 @@
       "file": "characters/fry-futurama.webp"
     },
     "leela-futurama": {
-      "status": "missing",
-      "file": "characters/leela-futurama.webp"
+      "status": "ready",
+      "file": "characters/leela-futurama.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Turanga Leela from Futurama, canonical single large cyclopean eye, purple ponytail, white sleeveless top, dark trousers and black boots, wrist computer, confident heroic pose. Fully clothed, one eye only, full ponytail visible.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "stewie-griffin": {
       "status": "missing",
@@ -4734,12 +4790,26 @@
       "file": "characters/angelica-pickles.webp"
     },
     "arnold-hey-arnold": {
-      "status": "missing",
-      "file": "characters/arnold-hey-arnold.webp"
+      "status": "ready",
+      "file": "characters/arnold-hey-arnold.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Arnold from Hey Arnold, canonical football-shaped head with blond tufts sticking out at both sides, tiny blue cap, long green sweater over red plaid shirt and blue trousers, kind smile. Full wide head and all blond tufts visible.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "invasor-zim": {
-      "status": "missing",
-      "file": "characters/invasor-zim.webp"
+      "status": "ready",
+      "file": "characters/invasor-zim.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Invader Zim, canonical small green alien with large red eyes, two thin black antennae, pink-red tunic, black gloves and boots, exaggerated determined expression, full little character and antennae visible.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "katara": {
       "status": "ready",
@@ -5026,20 +5096,48 @@
       "file": "characters/horacio.webp"
     },
     "penadinho": {
-      "status": "missing",
-      "file": "characters/penadinho.webp"
+      "status": "ready",
+      "file": "characters/penadinho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Penadinho from Maurício de Sousa's Turma da Mônica, faithful classic canonical little white ghost with round head, simple expressive black eyes and small mouth, floating white ghost body tapering below. Friendly mischievous expression, entire ghost, no gravestones or text.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.\nRefinement: Correct the FIRST supplied generated illustration so it depicts the canonical Penadinho by Maurício de Sousa as shown in the SECOND supplied official exhibition character reference. Use the second image only for character identity and anatomy. Match its broad, flat-lobed ghost head silhouette, large fully black oval eyes with a single small white oval highlight in each, small rounded nose, smiling mouth, stubby ghost arms and short rounded ghost feet. Remove the first image's pointed curled head tuft and crescent-shaped pupils, which make it resemble a different ghost. Keep the first illustration's navy-indigo backdrop, premium cel shading, lighting and friendly mood. Show one complete recognizable character centered with an 8 percent margin, all head lobes and feet fully visible. No text, captions, logo, border or watermark. Preserve an opaque background.\nVisual design reference: https://www.experienciavivamauricio.com.br/",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "galinha-pintadinha": {
-      "status": "missing",
-      "file": "characters/galinha-pintadinha.webp"
+      "status": "ready",
+      "file": "characters/galinha-pintadinha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Galinha Pintadinha, canonical round bright blue hen with white polka dots, red comb and wattle, yellow-orange beak and feet, large white eyes. Entire cheerful hen, all comb and feet in frame.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "irmao-do-jorel": {
-      "status": "missing",
-      "file": "characters/irmao-do-jorel.webp"
+      "status": "ready",
+      "file": "characters/irmao-do-jorel.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Irmão do Jorel from the Brazilian animated series, faithful unmistakable canonical design, short boy with voluminous black curly hair and prominent front teeth, recognizable usual clothes and round expressive face. Fully clothed cheerful upper-body portrait, entire hairstyle visible.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "menino-maluquinho": {
-      "status": "missing",
-      "file": "characters/menino-maluquinho.webp"
+      "status": "ready",
+      "file": "characters/menino-maluquinho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Menino Maluquinho from Ziraldo's canonical comics, faithful recognizable smiling boy wearing his iconic silver cooking pot upside-down as a hat, tousled black hair, familiar yellow T-shirt. Energetic fully clothed upper-body portrait, entire pot and handle inside frame.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "diddy-kong": {
       "status": "missing",
@@ -5070,12 +5168,26 @@
       "file": "characters/rosalina.webp"
     },
     "ganondorf": {
-      "status": "missing",
-      "file": "characters/ganondorf.webp"
+      "status": "ready",
+      "file": "characters/ganondorf.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Ganondorf from The Legend of Zelda Ocarina of Time, canonical dark olive skin, sharp red hair, golden forehead jewel, angular imposing face and dark gold-trimmed armor with cape. Regal villain upper-body portrait, whole head and crown ornament visible.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "meta-knight": {
-      "status": "missing",
-      "file": "characters/meta-knight.webp"
+      "status": "ready",
+      "file": "characters/meta-knight.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Meta Knight from Kirby, canonical small round dark-blue warrior with silver mask and glowing yellow eyes, purple-blue cape, armored gloves and gold sword. Entire creature with full mask, cape and sword inside frame.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rei-dedede": {
       "status": "missing",
@@ -5109,8 +5221,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "alex-kidd": {
-      "status": "missing",
-      "file": "characters/alex-kidd.webp"
+      "status": "ready",
+      "file": "characters/alex-kidd.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Alex Kidd from Sega's classic games, canonical boy hero with large ears, brown hair, red jumpsuit, yellow trim and white gloves, cheerful face and oversized raised fighting fist.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dr-neo-cortex": {
       "status": "ready",
@@ -5146,8 +5265,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ms-pac-man": {
-      "status": "missing",
-      "file": "characters/ms-pac-man.webp"
+      "status": "ready",
+      "file": "characters/ms-pac-man.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Ms. Pac-Man, canonical yellow spherical arcade character, red bow, feminine eyelashes, red lips, red boots and orange gloves. Full lively pose, bow and boots inside frame, no printed words.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ken-masters": {
       "status": "ready",
@@ -5634,8 +5760,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sora-kingdom-hearts": {
-      "status": "missing",
-      "file": "characters/sora-kingdom-hearts.webp"
+      "status": "ready",
+      "file": "characters/sora-kingdom-hearts.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Sora from Kingdom Hearts II, canonical brown spiky hair, blue eyes, black short jacket with yellow straps and red accents, chain necklace and oversized shoes; holding the recognizable silver-and-gold Keyblade angled inward. Whole head and key-shaped weapon tip inside frame, fully clothed.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tripulante-among-us": {
       "status": "ready",
@@ -5653,8 +5786,15 @@
       "file": "characters/freddy-fazbear.webp"
     },
     "foxy-fnaf": {
-      "status": "missing",
-      "file": "characters/foxy-fnaf.webp"
+      "status": "ready",
+      "file": "characters/foxy-fnaf.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Foxy from Five Nights at Freddy's, canonical rusty red animatronic pirate fox with eyepatch raised above eye, metal hook hand, torn brown shorts and exposed mechanical leg joints. Full recognizable head and ears, atmospheric character illustration, no gore, victims or jumpscare text.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "enderman": {
       "status": "ready",
@@ -9166,16 +9306,37 @@
       "file": "characters/gepeto.webp"
     },
     "gato-felix": {
-      "status": "missing",
-      "file": "characters/gato-felix.webp"
+      "status": "ready",
+      "file": "characters/gato-felix.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Felix the Cat, canonical black cartoon cat with huge white eyes, black pupils, wide friendly smile, pointed ears and curled thin tail, white paws. Full lively vintage cartoon pose.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.\nRefinement: Edit the supplied illustration of Felix the Cat to correct only the paw colors to his canonical design. Both hands and both feet must be entirely black like the rest of his black body, with subtle rim lighting and visible finger/toe contour lines. Remove the invented white gloves, white cuffs and white shoe-like feet; the black hands join seamlessly to his black arms. Keep the white eye area and white muzzle exactly as they are. Preserve pose, face, tail, proportions, blue background and rich cel-shaded rendering. No text, labels, logos or watermarks.\nVisual design reference: https://www.konami.com/games/felixthecat/about-the-game/",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "betty-boop": {
-      "status": "missing",
-      "file": "characters/betty-boop.webp"
+      "status": "ready",
+      "file": "characters/betty-boop.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Betty Boop, canonical vintage cartoon woman with short black curls, large eyes and long lashes, small red lips, gold hoop earrings and classic red dress, playful friendly fully clothed upper-body portrait.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "droopy": {
-      "status": "missing",
-      "file": "characters/droopy.webp"
+      "status": "ready",
+      "file": "characters/droopy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Droopy, canonical small white basset-hound cartoon dog with drooping cheeks, small red-orange forehead tuft, long black ears and sleepy half-closed eyes, deadpan expression. Entire little dog.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mr-magoo": {
       "status": "missing",
@@ -9198,16 +9359,37 @@
       "file": "characters/skye-patrulha-canina.webp"
     },
     "masha": {
-      "status": "missing",
-      "file": "characters/masha.webp"
+      "status": "ready",
+      "file": "characters/masha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Masha from Masha and the Bear, canonical little blond girl with green eyes, magenta headscarf and long magenta pinafore over white blouse, joyful face. Fully clothed entire small character, no bear.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "pocoyo": {
-      "status": "missing",
-      "file": "characters/pocoyo.webp"
+      "status": "ready",
+      "file": "characters/pocoyo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Pocoyo, canonical small toddler in blue one-piece outfit and blue rounded cap with two flaps, simple friendly face, entire cheerful character, no animal companions.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "caillou": {
-      "status": "missing",
-      "file": "characters/caillou.webp"
+      "status": "ready",
+      "file": "characters/caillou.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Caillou, canonical small bald boy with yellow collared T-shirt with red trim, blue shorts and red shoes, gentle cheerful expression. Entire fully clothed child, simple clean cartoon proportions.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ladybug": {
       "status": "missing",
@@ -9565,20 +9747,48 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "pou": {
-      "status": "missing",
-      "file": "characters/pou.webp"
+      "status": "ready",
+      "file": "characters/pou.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Pou, canonical small rounded triangular brown blob virtual pet, two large white eyes with black pupils, tiny simple smiling mouth. Full simple creature, no clothes or extra accessories.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "talking-tom": {
-      "status": "missing",
-      "file": "characters/talking-tom.webp"
+      "status": "ready",
+      "file": "characters/talking-tom.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Talking Tom, canonical friendly gray anthropomorphic tabby cat with green eyes, pink nose, pale muzzle and belly, upright cheerful waving pose. Entire head and ears.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "flappy-bird": {
-      "status": "missing",
-      "file": "characters/flappy-bird.webp"
+      "status": "ready",
+      "file": "characters/flappy-bird.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Flappy Bird, canonical small round yellow pixel-art bird with large white eye, red-orange beak, white wing and black outline. Entire simple side-on flying bird; keep recognizable pixel geometry, premium subtle illustrated lighting, no pipes or text.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "fall-guy": {
-      "status": "missing",
-      "file": "characters/fall-guy.webp"
+      "status": "ready",
+      "file": "characters/fall-guy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Fall Guy, canonical bright pink bean-shaped game contestant with white oval faceplate and two black vertical oval eyes, short rounded arms and legs, cheerful waving pose. Entire creature, simple original costume, no lettering.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "luiz-gonzaga": {
       "status": "missing",
