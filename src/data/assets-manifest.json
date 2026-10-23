@@ -2615,20 +2615,48 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "frodo": {
-      "status": "missing",
-      "file": "characters/frodo.webp"
+      "status": "ready",
+      "file": "characters/frodo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Frodo Baggins from The Lord of the Rings, faithful Elijah Wood likeness, young adult hobbit with curly dark brown hair, bright blue eyes, green traveling cloak with leaf brooch, cream shirt and brown waistcoat. Gentle determined expression. No other person.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gollum": {
-      "status": "missing",
-      "file": "characters/gollum.webp"
+      "status": "ready",
+      "file": "characters/gollum.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Gollum from The Lord of the Rings, faithful pale thin fictional creature with sparse wispy dark hair, enormous blue eyes, long pointed ears, hunched shoulders and loincloth. Crouched full body with both hands and both feet visible, wary expressive face. Non-graphic.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "legolas": {
-      "status": "missing",
-      "file": "characters/legolas.webp"
+      "status": "ready",
+      "file": "characters/legolas.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Legolas from The Lord of the Rings, faithful Orlando Bloom likeness, elegant adult elf with long straight pale blond hair, pointed ears, green and brown elven archery clothing and shoulder quiver. Calm alert expression. Entire ears and hair visible.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "aragorn": {
-      "status": "missing",
-      "file": "characters/aragorn.webp"
+      "status": "ready",
+      "file": "characters/aragorn.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Aragorn from The Lord of the Rings, faithful Viggo Mortensen likeness, rugged adult ranger with shoulder-length wavy dark hair and short beard, weathered dark leather ranger clothes and green cloak. Noble determined expression.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "chaves": {
       "status": "ready",
@@ -2727,8 +2755,15 @@
       "file": "characters/walter-white.webp"
     },
     "jesse-pinkman": {
-      "status": "missing",
-      "file": "characters/jesse-pinkman.webp"
+      "status": "ready",
+      "file": "characters/jesse-pinkman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Jesse Pinkman from Breaking Bad, faithful Aaron Paul likeness, adult man with short brown hair, close beard, charcoal knit beanie, loose yellow graphic-free hoodie and dark jacket. Concerned expressive face. No drugs, paraphernalia or text.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "wandinha-addams": {
       "status": "ready",
@@ -2742,12 +2777,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "daenerys": {
-      "status": "missing",
-      "file": "characters/daenerys.webp"
+      "status": "ready",
+      "file": "characters/daenerys.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Daenerys Targaryen from Game of Thrones, faithful Emilia Clarke likeness, adult woman with long platinum-blonde braided hair and violet-blue eyes, pale blue regal dress with subtle dragon-scale texture. Confident dignified expression. No other creature.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jon-snow": {
-      "status": "missing",
-      "file": "characters/jon-snow.webp"
+      "status": "ready",
+      "file": "characters/jon-snow.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Jon Snow from Game of Thrones, faithful Kit Harington likeness, adult man with curly shoulder-length dark hair, dark eyes and short beard, black leather clothing and heavy black fur cloak. Quiet determined expression.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sheldon-cooper": {
       "status": "ready",
@@ -2879,8 +2928,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "capitao-nascimento": {
-      "status": "missing",
-      "file": "characters/capitao-nascimento.webp"
+      "status": "ready",
+      "file": "characters/capitao-nascimento.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Capitão Nascimento from Tropa de Elite, faithful Wagner Moura likeness, adult Brazilian man with short dark hair, clean-shaven face and intense serious eyes, black tactical uniform and black beret with small intrinsic insignia. No printed words, weapon or violence.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "godzilla": {
       "status": "ready",
@@ -2927,8 +2983,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "freddy-krueger": {
-      "status": "missing",
-      "file": "characters/freddy-krueger.webp"
+      "status": "ready",
+      "file": "characters/freddy-krueger.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Freddy Krueger from A Nightmare on Elm Street, faithful fictional character with weathered textured face rendered in a clean non-graphic stylized way, brown fedora, red-and-dark-green striped sweater and one complete iconic bladed glove held at rest. No blood, fresh wounds, victim, threatening action or violence. Entire hat and glove visible.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jason-voorhees": {
       "status": "missing",
@@ -2939,8 +3002,15 @@
       "file": "characters/chucky.webp"
     },
     "pennywise": {
-      "status": "missing",
-      "file": "characters/pennywise.webp"
+      "status": "ready",
+      "file": "characters/pennywise.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Pennywise from It, faithful 2017 fictional clown design, white clown makeup, tall orange-red hair with bald forehead, red nose and two fine red vertical makeup lines across eyes and mouth, silver-gray ruffled clown suit and orange pom-pom buttons. Neutral whimsical portrait, no threatening action, blood, violence or other person.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mario": {
       "status": "missing",
@@ -6493,16 +6563,37 @@
       "file": "characters/lord-farquaad.webp"
     },
     "homem-biscoito": {
-      "status": "missing",
-      "file": "characters/homem-biscoito.webp"
+      "status": "ready",
+      "file": "characters/homem-biscoito.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Gingy the Gingerbread Man from Shrek, faithful gingerbread cookie character with round biscuit head, white icing eyebrows and edging, blue icing eyes, red icing smile, purple gumdrop buttons and icing cuffs. Full body, both arms and both legs intact and entirely visible, cheerful expression.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tigresa": {
-      "status": "missing",
-      "file": "characters/tigresa.webp"
+      "status": "ready",
+      "file": "characters/tigresa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Tigress from Kung Fu Panda, faithful anthropomorphic orange-and-black tiger martial artist with white muzzle, amber eyes, red sleeveless Chinese martial arts vest with gold trim and black trousers. Focused dignified expression, entire ears visible.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mestre-shifu": {
-      "status": "missing",
-      "file": "characters/mestre-shifu.webp"
+      "status": "ready",
+      "file": "characters/mestre-shifu.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Master Shifu from Kung Fu Panda, faithful small elderly red panda kung-fu master with huge pointed ears, reddish-brown and cream fur, long white eyebrows and whiskers, russet robe and dark belt. Full body standing, entire ears and feet visible, calm wise expression.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tai-lung": {
       "status": "missing",
@@ -6525,28 +6616,56 @@
       "file": "characters/gloria-hipopotamo.webp"
     },
     "melman": {
-      "status": "missing",
-      "file": "characters/melman.webp"
+      "status": "ready",
+      "file": "characters/melman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Melman the Giraffe from Madagascar, faithful animated giraffe with long narrow pale-tan face, brown patches, long thin neck, two small tufted ossicones, large ears and worried expressive eyes. Complete head, horns and upper neck inside canvas.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "pinguins-de-madagascar": {
       "status": "missing",
       "file": "characters/pinguins-de-madagascar.webp"
     },
     "manny-mamute": {
-      "status": "missing",
-      "file": "characters/manny-mamute.webp"
+      "status": "ready",
+      "file": "characters/manny-mamute.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Manny the mammoth from Ice Age, faithful animated woolly mammoth with reddish-brown shaggy fur, large domed head, long trunk, curved ivory tusks and expressive eyes. Portrait showing entire head, both full tusks and entire trunk curling gently upward, no cropped tips.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "agnes": {
       "status": "missing",
       "file": "characters/agnes.webp"
     },
     "mavis": {
-      "status": "missing",
-      "file": "characters/mavis.webp"
+      "status": "ready",
+      "file": "characters/mavis.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Mavis from Hotel Transylvania, faithful young adult animated vampire woman with short black bob and straight bangs, pale skin, large blue eyes, black high-neck dress and black-and-red striped sleeves. Friendly playful smile, no bat or extra subject.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.\nRefinement: Correct only Mavis's arm clothing to match her classic Hotel Transylvania movie outfit: keep the plain black high-neck short-sleeved dress, and remove the red-and-black striped undersleeves so both arms below the black short sleeves show her natural pale skin. The red-and-black stripes belong to her stockings, not her arms; her legs are outside this upper-body portrait. Preserve her exact face, large blue eyes, short black bob, expression, pose, illustration style, colors and navy-indigo background. Keep the complete hairstyle inside the frame. No text, watermark, extra subject or other changes.\nVisual design reference: https://www.sonypicturesanimation.com/projects/films/hotel-transylvania",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "blu-rio": {
-      "status": "missing",
-      "file": "characters/blu-rio.webp"
+      "status": "ready",
+      "file": "characters/blu-rio.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Blu from Rio, faithful animated blue Spix macaw with bright cobalt-blue plumage, slightly lighter blue face, large curved black beak and expressive eyes. Full body perched on a simple small branch, complete long tail, both wings and feet visible. No other bird.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "megamente": {
       "status": "missing",
@@ -6561,8 +6680,15 @@
       "file": "characters/tronco-trolls.webp"
     },
     "lorax": {
-      "status": "missing",
-      "file": "characters/lorax.webp"
+      "status": "ready",
+      "file": "characters/lorax.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "The Lorax, faithful small orange furry animated creature with enormous drooping yellow mustache, thick yellow eyebrows, round brown eyes, tiny legs and bare orange feet. Full body entirely visible, warm slightly stern expression.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "grinch": {
       "status": "missing",
@@ -8690,28 +8816,63 @@
       "file": "characters/bellatrix.webp"
     },
     "sauron": {
-      "status": "missing",
-      "file": "characters/sauron.webp"
+      "status": "ready",
+      "file": "characters/sauron.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Sauron from The Lord of the Rings, faithful towering dark armored lord with iconic tall spiked iron helmet, narrow dark eye openings, ornate blackened plate armor and dark cape. Upper body portrait with all helmet spikes fully visible. No flames, violence or victim.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "saruman": {
-      "status": "missing",
-      "file": "characters/saruman.webp"
+      "status": "ready",
+      "file": "characters/saruman.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Saruman the White from The Lord of the Rings, faithful Christopher Lee likeness, long straight white hair and very long white beard, strong long nose and dark heavy eyebrows, ivory wizard robes, dignified stern gaze. No other character.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "bilbo": {
-      "status": "missing",
-      "file": "characters/bilbo.webp"
+      "status": "ready",
+      "file": "characters/bilbo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Bilbo Baggins from The Hobbit, faithful Martin Freeman likeness, adult hobbit with wavy chestnut hair, burgundy corduroy coat, mustard waistcoat and cream shirt, small green traveling scarf. Curious thoughtful expression.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "davy-jones": {
       "status": "missing",
       "file": "characters/davy-jones.webp"
     },
     "morpheus": {
-      "status": "missing",
-      "file": "characters/morpheus.webp"
+      "status": "ready",
+      "file": "characters/morpheus.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Morpheus from The Matrix, faithful Laurence Fishburne likeness, adult Black man with shaved head, small round mirrored sunglasses and long black leather coat over dark clothes. Calm powerful expression, no weapon.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "agente-smith": {
-      "status": "missing",
-      "file": "characters/agente-smith.webp"
+      "status": "ready",
+      "file": "characters/agente-smith.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Agent Smith from The Matrix, faithful Hugo Weaving likeness, adult man with short slick dark hair, narrow black rectangular sunglasses, black suit, white shirt, black tie and discreet earpiece. Stern cold expression, no weapon.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "xenomorfo": {
       "status": "missing",
@@ -8751,20 +8912,41 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "beetlejuice": {
-      "status": "missing",
-      "file": "characters/beetlejuice.webp"
+      "status": "ready",
+      "file": "characters/beetlejuice.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Beetlejuice from Beetlejuice, faithful Michael Keaton character likeness with pale theatrical face, dark purple eye circles, wild green-tinted hair, iconic black-and-white vertically striped suit, white shirt and black tie. Mischievous grin, whimsical non-graphic appearance, entire hair visible.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "edward-maos-de-tesoura": {
-      "status": "missing",
-      "file": "characters/edward-maos-de-tesoura.webp"
+      "status": "ready",
+      "file": "characters/edward-maos-de-tesoura.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Edward Scissorhands, faithful Johnny Depp character likeness, pale face with subtle healed fine scars, dark expressive eyes, wild black hair and black leather clothing with many buckles. Upper-body portrait with one complete mechanical scissor hand visible safely relaxed. Gentle shy expression, no injury or violence.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.\nRefinement: Edit only the framing of this existing Edward Scissorhands illustration. Zoom out uniformly just enough that every tip of the wild black hairstyle is fully visible with a clear navy background margin of approximately 8 percent above it. The uppermost hair is currently clipped by the top canvas edge. Preserve the exact face, expression, hairstyle, clothing, buckles, pose, complete mechanical scissor hand, colors, painted style and plain navy-indigo background. Vertical 4:5, one subject, no text or watermark.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mary-poppins": {
       "status": "missing",
       "file": "characters/mary-poppins.webp"
     },
     "mad-max": {
-      "status": "missing",
-      "file": "characters/mad-max.webp"
+      "status": "ready",
+      "file": "characters/mad-max.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Mad Max Rockatansky, faithful classic Mel Gibson likeness, adult rugged man with short dark tousled hair, light stubble, weathered black leather jacket with one shoulder pad, gray shirt and leather straps. Stoic alert expression, no weapon.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "demogorgon": {
       "status": "missing",
@@ -8798,20 +8980,48 @@
       "file": "characters/morticia-addams.webp"
     },
     "tyrion-lannister": {
-      "status": "missing",
-      "file": "characters/tyrion-lannister.webp"
+      "status": "ready",
+      "file": "characters/tyrion-lannister.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Tyrion Lannister from Game of Thrones, faithful Peter Dinklage likeness and distinctive adult facial proportions, short wavy brown hair, close beard, burgundy doublet with dark leather trim. Wry intelligent expression. Respectful faithful portrait.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "cersei-lannister": {
-      "status": "missing",
-      "file": "characters/cersei-lannister.webp"
+      "status": "ready",
+      "file": "characters/cersei-lannister.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Cersei Lannister from Game of Thrones, faithful Lena Headey likeness, adult queen with long golden blonde hair, deep red embroidered gown and delicate gold circlet. Proud composed expression. Entire crown and hairstyle visible.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "arya-stark": {
-      "status": "missing",
-      "file": "characters/arya-stark.webp"
+      "status": "ready",
+      "file": "characters/arya-stark.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Arya Stark from Game of Thrones, faithful adult Maisie Williams likeness, brown eyes, brown hair tied back, dark gray northern traveling jacket and brown leather shoulder straps. Alert determined expression, no weapon.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rei-da-noite": {
-      "status": "missing",
-      "file": "characters/rei-da-noite.webp"
+      "status": "ready",
+      "file": "characters/rei-da-noite.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "The Night King from Game of Thrones, faithful fictional ice king with angular blue-gray face, vivid blue eyes, ridged icy crown spikes growing from head, dark segmented armor. Entire crown visible. No violence, victims or gore.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rick-grimes": {
       "status": "missing",
@@ -8826,32 +9036,81 @@
       "file": "characters/daryl-dixon.webp"
     },
     "chandler-bing": {
-      "status": "missing",
-      "file": "characters/chandler-bing.webp"
+      "status": "ready",
+      "file": "characters/chandler-bing.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Chandler Bing from Friends, faithful Matthew Perry likeness in the original series, adult man with short brown side-parted hair and distinctive wry facial expression, casual beige sweater vest over pale blue button-down shirt. Warm comic portrait, no text.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "joey-tribbiani": {
-      "status": "missing",
-      "file": "characters/joey-tribbiani.webp"
+      "status": "ready",
+      "file": "characters/joey-tribbiani.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Joey Tribbiani from Friends, faithful Matt LeBlanc likeness in the original series, adult man with short thick dark hair, broad friendly smile, black casual leather jacket over dark shirt. Playful confident expression.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ross-geller": {
-      "status": "missing",
-      "file": "characters/ross-geller.webp"
+      "status": "ready",
+      "file": "characters/ross-geller.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Ross Geller from Friends, faithful David Schwimmer likeness in the original series, adult man with dark short hair, long expressive face and prominent eyebrows, brown corduroy jacket over blue shirt. Slightly puzzled friendly expression.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "phoebe-buffay": {
-      "status": "missing",
-      "file": "characters/phoebe-buffay.webp"
+      "status": "ready",
+      "file": "characters/phoebe-buffay.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Phoebe Buffay from Friends, faithful Lisa Kudrow likeness in the original series, adult woman with very long straight blonde hair, distinctive warm smile, colorful bohemian patterned blouse and layered necklaces. Entire hairstyle inside frame.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dr-house": {
-      "status": "missing",
-      "file": "characters/dr-house.webp"
+      "status": "ready",
+      "file": "characters/dr-house.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Dr. Gregory House from House M.D., faithful Hugh Laurie likeness, middle-aged man with blue eyes, short untidy salt-and-pepper hair and stubble, dark blazer over blue open-neck shirt. Distinctive skeptical raised eyebrow and wry expression. No printed text.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "homelander": {
-      "status": "missing",
-      "file": "characters/homelander.webp"
+      "status": "ready",
+      "file": "characters/homelander.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Homelander from The Boys, faithful Antony Starr likeness, adult man with neatly swept blond hair, blue superhero suit with red and gold trim, gold eagle shoulder armor and red cape. Polished smile with intense eyes, no violence, entire head visible.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "billy-butcher": {
-      "status": "missing",
-      "file": "characters/billy-butcher.webp"
+      "status": "ready",
+      "file": "characters/billy-butcher.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Billy Butcher from The Boys, faithful Karl Urban likeness, adult rugged man with dark swept-back hair, thick dark beard, open dark floral shirt and black trench coat. Sardonic confident expression, no weapon or violence.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jogador-456": {
       "status": "missing",
@@ -8893,32 +9152,74 @@
       "file": "characters/bozo.webp"
     },
     "nhonho": {
-      "status": "missing",
-      "file": "characters/nhonho.webp"
+      "status": "ready",
+      "file": "characters/nhonho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Nhonho, Ñoño from El Chavo del Ocho, faithful cheerful round-faced character portrayed by Edgar Vivar, black short hair, chubby cheeks, red short overalls with yellow shirt and red socks. Childlike fictional role, friendly smile, no other person.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "dona-clotilde": {
-      "status": "missing",
-      "file": "characters/dona-clotilde.webp"
+      "status": "ready",
+      "file": "characters/dona-clotilde.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Dona Clotilde from Chaves, faithful Angelines Fernández likeness, older woman with dark wavy hair under her iconic blue hat decorated with colorful flowers, blue dress, thin eyebrows and slightly stern yet warm expression. Entire flowered hat visible.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jaiminho": {
-      "status": "missing",
-      "file": "characters/jaiminho.webp"
+      "status": "ready",
+      "file": "characters/jaiminho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Jaiminho the postman from Chaves, faithful Raúl Chato Padilla likeness, older kind man with round face, short gray hair and black mustache, gray postal cap and gray postman uniform with brown mailbag shoulder strap. Entire cap visible, no printed words.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "popis": {
-      "status": "missing",
-      "file": "characters/popis.webp"
+      "status": "ready",
+      "file": "characters/popis.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Pópis, La Popis from Chaves, faithful fictional freckled girl character portrayed by Florinda Meza, brown hair in two pigtails with pink bows, pink dress with large white collar, innocent slightly puzzled expression. Portrait without her doll or any other figure.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "nazare-tedesco": {
-      "status": "missing",
-      "file": "characters/nazare-tedesco.webp"
+      "status": "ready",
+      "file": "characters/nazare-tedesco.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Nazaré Tedesco from Senhora do Destino, faithful Renata Sorrah likeness, mature Brazilian woman with shoulder-length light blonde hair, arched eyebrows and expressive suspicious eyes, elegant pale blouse and gold earrings. Recognizable sly calculating expression. No meme text or mathematical symbols.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "odete-roitman": {
       "status": "missing",
       "file": "characters/odete-roitman.webp"
     },
     "carminha": {
-      "status": "missing",
-      "file": "characters/carminha.webp"
+      "status": "ready",
+      "file": "characters/carminha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Carminha from Avenida Brasil, faithful Adriana Esteves likeness, adult Brazilian woman with shoulder-length bleached blonde hair and dark eyebrows, crisp white blouse and delicate gold jewelry. Distinctive haughty tense expression. No other person.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "felix-amor-a-vida": {
       "status": "missing",
@@ -8936,8 +9237,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "visconde-de-sabugosa": {
-      "status": "missing",
-      "file": "characters/visconde-de-sabugosa.webp"
+      "status": "ready",
+      "file": "characters/visconde-de-sabugosa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Visconde de Sabugosa from Sítio do Picapau Amarelo, faithful anthropomorphic corn-cob scholar: yellow corn-kernel face, green leafy side hair, long fine mustache, small round spectacles, tall green top hat, green frock coat and white cravat. Warm wise expression. Entire top hat visible.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "saci": {
       "status": "ready",
@@ -8966,8 +9274,15 @@
       "file": "characters/ghostface.webp"
     },
     "michael-myers": {
-      "status": "missing",
-      "file": "characters/michael-myers.webp"
+      "status": "ready",
+      "file": "characters/michael-myers.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Michael Myers from Halloween, faithful fictional adult costumed character wearing iconic plain pale expressionless mask with short brown hair and dark navy mechanic coveralls. Neutral still upper-body portrait, no weapon, victim, injury, blood or violence.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "samara": {
       "status": "missing",
@@ -8982,8 +9297,15 @@
       "file": "characters/valak.webp"
     },
     "jigsaw": {
-      "status": "missing",
-      "file": "characters/jigsaw.webp"
+      "status": "ready",
+      "file": "characters/jigsaw.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Billy the puppet from Saw, the iconic puppet associated with Jigsaw, faithful white ventriloquist dummy face, red spiral cheeks, red eyes, long dark hair, black tuxedo and red bow tie. One puppet alone in a neutral upper-body portrait, no violence, blood, trap, text or extra subject.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "leatherface": {
       "status": "missing",
@@ -10242,8 +10564,15 @@
       "file": "characters/tiranossauro-rex.webp"
     },
     "smaug": {
-      "status": "missing",
-      "file": "characters/smaug.webp"
+      "status": "ready",
+      "file": "characters/smaug.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Smaug from The Hobbit, faithful immense red-gold dragon, long angular reptilian head, pointed crown horns, golden eye, red scales and plated golden throat. Portrait of complete head, horns and upper neck, sinister intelligent expression, no fire or destruction.\nUse case: stylized-concept. Asset type: one individual character illustration for Ícones — Maratona image quiz. Premium expressive painted illustration, crisp outlines, rich cel shading and subtle cinematic rim light matching existing quiz artwork. Faithful canonical face, silhouette, proportions, clothing and colors. Vertical 4:5 canvas, plain deep navy-indigo background. Upper-body framing unless full body is requested. Keep ALL head, hair, ears, hats, horns and visible hands entirely inside the frame, with a generous 8–10 percent clear margin above and at the sides. Correct anatomy, limb count and hands. One subject. No printed name, captions, words, franchise logo, watermark, border or collage. Intrinsic costume symbols may remain. No photorealism, no gore.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "koopa-troopa": {
       "status": "missing",
