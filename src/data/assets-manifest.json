@@ -3358,8 +3358,15 @@
       "file": "characters/michael-jackson.webp"
     },
     "elvis-presley": {
-      "status": "missing",
-      "file": "characters/elvis-presley.webp"
+      "status": "ready",
+      "file": "characters/elvis-presley.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Elvis Presley in his iconic 1968 adult comeback appearance, sculpted black pompadour and sideburns, unmistakable face and half smile, black leather jacket, holding a vintage handheld microphone below his face.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "freddie-mercury": {
       "status": "ready",
@@ -3384,8 +3391,15 @@
       "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "john-lennon": {
-      "status": "missing",
-      "file": "characters/john-lennon.webp"
+      "status": "ready",
+      "file": "characters/john-lennon.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "John Lennon in his familiar early 1970s adult appearance, shoulder-length brown hair, round wire-rim spectacles and short beard, gentle thoughtful face, plain denim jacket over white shirt.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "paul-mccartney": {
       "status": "ready",
@@ -3410,20 +3424,41 @@
       "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "bob-marley": {
-      "status": "missing",
-      "file": "characters/bob-marley.webp"
+      "status": "ready",
+      "file": "characters/bob-marley.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Bob Marley, recognizable adult face, warm smile, long black dreadlocks, knitted red yellow green tam cap, simple dark open-collar shirt, one hand resting near his heart.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "david-bowie": {
       "status": "missing",
       "file": "characters/david-bowie.webp"
     },
     "kurt-cobain": {
-      "status": "missing",
-      "file": "characters/kurt-cobain.webp"
+      "status": "ready",
+      "file": "characters/kurt-cobain.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Kurt Cobain in his iconic adult 1990s appearance, shoulder-length untidy blond hair, light beard and blue eyes, worn olive cardigan over a plain light shirt, thoughtful slightly tilted head.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "ozzy-osbourne": {
-      "status": "missing",
-      "file": "characters/ozzy-osbourne.webp"
+      "status": "ready",
+      "file": "characters/ozzy-osbourne.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Ozzy Osbourne in his recognizable mature stage appearance, long straight dark hair, round purple-tinted glasses, distinctive face, black outfit and silver cross necklace, playful knowing smile.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "elton-john": {
       "status": "ready",
@@ -3437,8 +3472,15 @@
       "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "frank-sinatra": {
-      "status": "missing",
-      "file": "characters/frank-sinatra.webp"
+      "status": "ready",
+      "file": "characters/frank-sinatra.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Frank Sinatra in his classic middle-aged crooner appearance, recognizable face and blue eyes, dark fedora fully visible, black tuxedo and bow tie, holding a vintage silver microphone at chest level, relaxed smile.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "stevie-wonder": {
       "status": "ready",
@@ -3452,8 +3494,15 @@
       "attribution": "Foto: Raph_PH / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "tina-turner": {
-      "status": "missing",
-      "file": "characters/tina-turner.webp"
+      "status": "ready",
+      "file": "characters/tina-turner.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Tina Turner in her iconic adult 1980s stage appearance, expressive recognizable face, voluminous spiky golden-brown hair, sleeveless black sparkling stage dress, joyful powerful smile, microphone held below the face.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.\nRefinement: Edit only the framing of this existing Tina Turner illustration. Zoom out uniformly and recenter her so the entire spiky golden-brown hairstyle, including the finest tips currently clipped by the top edge, fits inside the vertical 4:5 frame with at least 8 percent clear navy background above and at the sides. Preserve the exact recognizable face, joyous expression, skin tone, hair design, black sparkling stage dress, microphone, hand anatomy, pose, painterly finish, colors and navy-indigo background. Do not redesign her or add elements. No text, names, watermark or border.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "whitney-houston": {
       "status": "missing",
@@ -3479,16 +3528,37 @@
       "attribution": "Foto: Rama / Wikimedia Commons, CC BY-SA 2.0 fr; recorte e conversão para WebP."
     },
     "prince": {
-      "status": "missing",
-      "file": "characters/prince.webp"
+      "status": "ready",
+      "file": "characters/prince.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Prince in his iconic adult Purple Rain era appearance, recognizable fine mustache and face, voluminous black curly hair, purple high-collared stage coat and white ruffled shirt, self-assured gaze.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "louis-armstrong": {
-      "status": "missing",
-      "file": "characters/louis-armstrong.webp"
+      "status": "ready",
+      "file": "characters/louis-armstrong.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Louis Armstrong in his familiar mature appearance, unmistakable broad joyful smile, short dark hair, dark tuxedo and bow tie, holding a brass trumpet upright beside his chest with the complete instrument inside the frame.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.\nRefinement: Edit only the brass trumpet in this existing Louis Armstrong illustration. Correct it into a standard realistic B-flat trumpet with exactly THREE piston valves and exactly three round valve buttons; the current extra fourth button is incorrect. Keep the instrument's upright diagonal placement, visible mouthpiece at the top, bell at the bottom, coherent brass tubing and natural hand grip. Preserve the exact recognizable face, broad smile, pose, anatomy, tuxedo, complete head, composition, painterly rendering, colors and navy-indigo background. No additional instruments, text, names, watermark or border.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "ray-charles": {
-      "status": "missing",
-      "file": "characters/ray-charles.webp"
+      "status": "ready",
+      "file": "characters/ray-charles.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Ray Charles in his familiar mature appearance, unmistakable face and broad smile, short dark hair, black sunglasses, dark suit and bow tie, hands relaxed together at chest level, no piano or other people.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "cher": {
       "status": "ready",
@@ -3898,12 +3968,26 @@
       "attribution": "Foto: Teca  Lamboglia from São Paulo, Brasil / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "xuxa": {
-      "status": "missing",
-      "file": "characters/xuxa.webp"
+      "status": "ready",
+      "file": "characters/xuxa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Xuxa Meneghel in her iconic adult 1980s television-host appearance, recognizable face and blue eyes, short blond hair styled into two small high ponytails with bangs, bright silver and pink futuristic stage jacket, warm joyful smile.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.\nRefinement: Edit only the framing of this existing adult Xuxa Meneghel illustration. Zoom out uniformly and recenter her so both entire blond ponytails, including the highest fine strands currently clipped by the top edge, fit comfortably inside the vertical 4:5 frame with at least 8 percent clear navy background above and at the sides. Preserve the exact adult face and likeness, blue eyes, smile, hairstyle, pink hair ties, silver-pink stage jacket, earrings, chin-resting hands, anatomy, pose, painterly finish, colors and navy-indigo background. Do not redesign her or add objects. No text, names, watermark or border.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "anitta": {
-      "status": "missing",
-      "file": "characters/anitta.webp"
+      "status": "ready",
+      "file": "characters/anitta.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Anitta, recognizable adult Brazilian singer face, long sleek dark brown hair, confident smile, fully clothed stylish red tailored stage blazer over a black top, gold hoop earrings, one hand on her lapel.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "caetano-veloso": {
       "status": "ready",
@@ -3939,24 +4023,59 @@
       "attribution": "Foto: Palácio do Planalto from Brasilia, Brasil / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "tom-jobim": {
-      "status": "missing",
-      "file": "characters/tom-jobim.webp"
+      "status": "ready",
+      "file": "characters/tom-jobim.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Antônio Carlos Jobim in his familiar mature appearance, recognizable long face, wavy salt-and-pepper hair, relaxed thoughtful smile, open-collar white shirt beneath a light beige jacket, no cigarette.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "tim-maia": {
-      "status": "missing",
-      "file": "characters/tim-maia.webp"
+      "status": "ready",
+      "file": "characters/tim-maia.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Tim Maia in his iconic mature appearance, recognizable full bearded face, large round afro, broad build, black sunglasses and bright red open-collar shirt, smiling confidently, microphone at chest level.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "rita-lee": {
-      "status": "missing",
-      "file": "characters/rita-lee.webp"
+      "status": "ready",
+      "file": "characters/rita-lee.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Rita Lee in her recognizable mature rock-singer appearance, vivid red straight hair with bangs, round tinted glasses, familiar face and playful smile, black tailored jacket and patterned scarf.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "cazuza": {
-      "status": "missing",
-      "file": "characters/cazuza.webp"
+      "status": "ready",
+      "file": "characters/cazuza.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Cazuza in his recognizable adult mid-1980s appearance, dark tousled curly hair, thin mustache, expressive face and lively eyes, plain white T-shirt beneath a black leather jacket, spirited smiling portrait.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "raul-seixas": {
-      "status": "missing",
-      "file": "characters/raul-seixas.webp"
+      "status": "ready",
+      "file": "characters/raul-seixas.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Raul Seixas in his iconic adult 1970s appearance, recognizable face, long dark wavy hair and full beard, large dark sunglasses, black leather vest over a plain dark shirt, confident half smile.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "renato-russo": {
       "status": "missing",
@@ -4186,8 +4305,15 @@
       "attribution": "Foto: Humor Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "pele": {
-      "status": "missing",
-      "file": "characters/pele.webp"
+      "status": "ready",
+      "file": "characters/pele.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Pelé in his iconic adult 1970 football appearance, unmistakable youthful face and joyful smile, short tightly curled black hair, classic plain yellow Brazil football shirt with green collar, one fist raised at chest level in celebration.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "neymar": {
       "status": "ready",
@@ -4201,8 +4327,15 @@
       "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "ronaldo-nazario": {
-      "status": "missing",
-      "file": "characters/ronaldo-nazario.webp"
+      "status": "ready",
+      "file": "characters/ronaldo-nazario.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Ronaldo Nazário in his iconic adult 2002 football appearance, unmistakable face and gap-toothed smile, famous tiny semicircular patch of hair at the very front of an otherwise shaved head, yellow Brazil shirt with green trim, confident celebratory portrait.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "ronaldinho": {
       "status": "ready",
@@ -4249,20 +4382,48 @@
       "attribution": "Foto: Doha Stadium Plus Qatar / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "rivaldo": {
-      "status": "missing",
-      "file": "characters/rivaldo.webp"
+      "status": "ready",
+      "file": "characters/rivaldo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Rivaldo in his adult 2002 football appearance, recognizable long narrow face, closely cropped dark hair, serious focused gaze, yellow Brazil shirt with green collar, three-quarter upper-body portrait.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "cafu": {
-      "status": "missing",
-      "file": "characters/cafu.webp"
+      "status": "ready",
+      "file": "characters/cafu.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Cafu in his adult 2002 football appearance, recognizable face and wide joyful smile, short tightly curled dark hair, yellow Brazil football shirt with green trim, relaxed celebratory pose.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "adriano-imperador": {
-      "status": "missing",
-      "file": "characters/adriano-imperador.webp"
+      "status": "ready",
+      "file": "characters/adriano-imperador.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Adriano Imperador in his recognizable adult mid-2000s football appearance, powerful broad build, close-cropped black hair, recognizable face and calm confident expression, plain blue-and-black vertically striped football shirt.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "garrincha": {
-      "status": "missing",
-      "file": "characters/garrincha.webp"
+      "status": "ready",
+      "file": "characters/garrincha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Garrincha in his iconic adult early-1960s football appearance, recognizable face and cheerful smile, short wavy dark hair, classic plain yellow Brazil football shirt with green collar, natural friendly upper-body pose.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "vinicius-junior": {
       "status": "ready",
@@ -4276,8 +4437,15 @@
       "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "marta": {
-      "status": "missing",
-      "file": "characters/marta.webp"
+      "status": "ready",
+      "file": "characters/marta.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Marta Vieira da Silva, recognizable adult Brazilian football star face, dark hair pulled into a ponytail, determined warm smile, plain yellow Brazil football shirt with green trim, athletic upper-body portrait.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "cristiano-ronaldo": {
       "status": "ready",
@@ -4302,12 +4470,26 @@
       "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "maradona": {
-      "status": "missing",
-      "file": "characters/maradona.webp"
+      "status": "ready",
+      "file": "characters/maradona.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Diego Maradona in his iconic adult 1986 football appearance, unmistakable face, thick black curly hair, blue-and-white vertically striped Argentina football shirt, confident joyful upper-body portrait.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "zidane": {
-      "status": "missing",
-      "file": "characters/zidane.webp"
+      "status": "ready",
+      "file": "characters/zidane.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Zinedine Zidane in his iconic adult 2006 football appearance, unmistakable face and receding closely shaved hair, focused calm expression, plain dark blue France football shirt with subtle red and white trim, three-quarter portrait.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "mbappe": {
       "status": "ready",
@@ -4321,8 +4503,15 @@
       "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "david-beckham": {
-      "status": "missing",
-      "file": "characters/david-beckham.webp"
+      "status": "ready",
+      "file": "characters/david-beckham.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "David Beckham in his familiar adult football-era appearance, unmistakable face, short swept blond-brown hair and neat stubble, plain white England football shirt with subtle navy trim, composed confident expression.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "erling-haaland": {
       "status": "ready",
@@ -4358,8 +4547,15 @@
       "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "robert-lewandowski": {
-      "status": "missing",
-      "file": "characters/robert-lewandowski.webp"
+      "status": "ready",
+      "file": "characters/robert-lewandowski.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Robert Lewandowski in his recognizable adult football appearance, short neatly styled dark hair, unmistakable face and alert eyes, plain red-and-white Poland football shirt, confident slight smile.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "luka-modric": {
       "status": "ready",
@@ -4373,8 +4569,15 @@
       "attribution": "Foto: Bryan Berlin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "michael-jordan": {
-      "status": "missing",
-      "file": "characters/michael-jordan.webp"
+      "status": "ready",
+      "file": "characters/michael-jordan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Michael Jordan in his iconic adult 1990s basketball appearance, unmistakable face, shaved bald head, small mustache, red basketball jersey with black-and-white edging, holding a basketball at his chest, determined calm smile.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "lebron-james": {
       "status": "ready",
@@ -4399,12 +4602,26 @@
       "attribution": "Foto: Keith Allison / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "stephen-curry": {
-      "status": "missing",
-      "file": "characters/stephen-curry.webp"
+      "status": "ready",
+      "file": "characters/stephen-curry.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Stephen Curry in his recognizable adult basketball appearance, unmistakable face, short curly hair and neat short beard, plain royal-blue basketball jersey with yellow trim, basketball held below his chin at chest level, friendly confident smile.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "shaquille-oneal": {
-      "status": "missing",
-      "file": "characters/shaquille-oneal.webp"
+      "status": "ready",
+      "file": "characters/shaquille-oneal.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Shaquille O’Neal in his iconic adult early-2000s basketball appearance, unmistakable large face, bald head and short goatee, enormous broad shoulders, plain gold basketball jersey with purple edging, joyful charismatic smile.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "magic-johnson": {
       "status": "ready",
@@ -4418,8 +4635,15 @@
       "attribution": "Foto: Daniel Benavides from Austin, TX / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "oscar-schmidt": {
-      "status": "missing",
-      "file": "characters/oscar-schmidt.webp"
+      "status": "ready",
+      "file": "characters/oscar-schmidt.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Oscar Schmidt in his iconic adult late-1980s Brazilian basketball appearance, recognizable long face, thick wavy dark hair and mustache, plain yellow basketball jersey with green trim, basketball tucked at his side, focused warm expression.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "ayrton-senna": {
       "status": "ready",
@@ -4433,8 +4657,15 @@
       "attribution": "Foto: Martin Lee from London, UK / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "lewis-hamilton": {
-      "status": "missing",
-      "file": "characters/lewis-hamilton.webp"
+      "status": "ready",
+      "file": "characters/lewis-hamilton.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Lewis Hamilton in his recognizable adult racing-driver appearance, unmistakable face, neat braided hair and short beard, small earrings, plain black racing suit with turquoise trim and no sponsors, composed confident gaze.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "michael-schumacher": {
       "status": "ready",
@@ -4459,8 +4690,15 @@
       "attribution": "Foto: Steffen Prößdorf / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "rubens-barrichello": {
-      "status": "missing",
-      "file": "characters/rubens-barrichello.webp"
+      "status": "ready",
+      "file": "characters/rubens-barrichello.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Rubens Barrichello in his familiar adult Formula One appearance, unmistakable face and cheerful broad smile, short receding brown hair, plain red racing suit with white trim and no sponsors, holding a plain white full-face racing helmet at waist level.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "muhammad-ali": {
       "status": "missing",
@@ -4478,8 +4716,15 @@
       "attribution": "Foto: Super Festivals / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "anderson-silva": {
-      "status": "missing",
-      "file": "characters/anderson-silva.webp"
+      "status": "ready",
+      "file": "characters/anderson-silva.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Anderson Silva in his iconic adult champion MMA appearance, unmistakable face, bald head and short goatee, plain black athletic training shirt, black fingerless sports gloves in a relaxed guard at chest level, calm confident smile, no opponent or injuries.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "conor-mcgregor": {
       "status": "missing",
@@ -4541,8 +4786,15 @@
       "attribution": "Foto: Geraldo Magela/Agência Senado / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "usain-bolt": {
-      "status": "missing",
-      "file": "characters/usain-bolt.webp"
+      "status": "ready",
+      "file": "characters/usain-bolt.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Usain Bolt in his iconic adult sprinting-champion appearance, unmistakable face, very short black hair and neat short beard, plain yellow Jamaica athletics singlet with green trim, joyful smile and one fist raised at chest level.\nUse case: stylized-concept. Asset type: one public-figure portrait for the Ícones — Maratona image quiz. Faithful instantly recognizable facial likeness, age and distinctive hairstyle from the appearance described above. Premium expressive painted illustration with clean contours, detailed painterly shading and subtle cinematic rim light, consistent with the recent quiz portraits. Vertical 4:5 canvas. Centered upper-body portrait; entire head, hair, hats, hands and mentioned accessories comfortably inside frame, with 8 percent clear margin above and at the sides. Simple deep navy-indigo background. Natural anatomy and correct finger count. One person only. No printed name, words, readable numbers, shirt lettering, logos, sponsorships, watermark, border or collage. No photorealistic news-photo styling and no extra people.",
+      "rightsNote": "User-directed generated artistic depiction of a public figure for an image quiz; this is an illustration, not a photograph or endorsement.",
+      "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "michael-phelps": {
       "status": "ready",

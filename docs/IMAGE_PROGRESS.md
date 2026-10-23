@@ -5,15 +5,21 @@ Atualizado em 23/10/2026.
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 706.
-- Entradas ainda sem imagem: 786.
-- Continuação atual: 27 novas ilustrações integradas (5 de quadrinhos, 22 de filmes e séries), revisadas individualmente.
-- As 679 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 742.
+- Entradas ainda sem imagem: 750.
+- Continuação atual: 36 novas ilustrações integradas (17 de música, 19 de esporte), revisadas individualmente.
+- As 706 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+`elvis-presley`, `john-lennon`, `bob-marley`, `kurt-cobain`, `ozzy-osbourne`, `frank-sinatra`, `tina-turner`, `prince`, `louis-armstrong`, `ray-charles`, `xuxa`, `anitta`, `tom-jobim`, `tim-maia`, `rita-lee`, `cazuza`, `raul-seixas`, `pele`, `ronaldo-nazario`, `rivaldo`, `cafu`, `adriano-imperador`, `garrincha`, `marta`, `maradona`, `zidane`, `david-beckham`, `robert-lewandowski`, `michael-jordan`, `stephen-curry`, `shaquille-oneal`, `oscar-schmidt`, `lewis-hamilton`, `rubens-barrichello`, `anderson-silva`, `usain-bolt`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts completos, eventuais refinamentos e proveniência no manifesto. Refinamentos revisados em: `tina-turner`, `louis-armstrong`, `xuxa`. As tentativas bloqueadas continuam `missing` e estão registradas em `reports/image-generation-pending.json`.
+
+## Lote anterior de 27 retratos — quadrinhos, filmes e séries
 
 `tempestade`, `ultron`, `motoqueiro-fantasma`, `espantalho`, `rei-do-crime`, `severo-snape`, `dobby`, `bellatrix`, `demogorgon`, `vecna`, `dustin-henderson`, `saul-goodman`, `morticia-addams`, `rick-grimes`, `negan`, `daryl-dixon`, `jogador-456`, `boneca-round-6`, `professor-la-casa-de-papel`, `toquio`, `berlim`, `bozo`, `odete-roitman`, `felix-amor-a-vida`, `bananas-de-pijama`, `tubarao`, `tiranossauro-rex`.
 
@@ -111,6 +117,8 @@ Bloqueios da continuação de 23/10/2026: `pernalonga`, `patolino`, `frajola`, `
 Bloqueios da continuação de 23/10/2026: `ghostface`, `lord-farquaad`, `tai-lung`, `soluco`, `alex-o-leao`, `marty-a-zebra`, `gloria-hipopotamo`, `agnes`, `poppy-trolls`, `tronco-trolls`, `poderoso-chefinho`, `jack-skellington`, `shrek`. Prompts completos em `reports/image-generation-pending.json`.
 
 Bloqueios da continuação de 23/10/2026: `homem-de-ferro`, `capitao-america`, `hulk`, `pantera-negra`, `doutor-estranho`, `capita-marvel`, `homem-formiga`, `gaviao-arqueiro`, `rocket-raccoon`, `loki`, `deadpool`, `wolverine`, `magneto`, `duende-verde`, `lanterna-verde`, `robin`, `pinguim`, `charada`, `bane`, `supergirl`, `visao`, `feiticeira-escarlate`, `soldado-invernal`, `galactus`, `coisa`, `tocha-humana`, `senhor-fantastico`, `ciclope`, `jean-grey`, `vampira`, `miles-morales`, `gwen-stacy`, `doutor-octopus`, `carnificina`, `justiceiro`, `demolidor`, `blade`, `shazam`, `arqueiro-verde`, `batgirl`, `hera-venenosa`, `duas-caras`, `lex-luthor`, `darkseid`, `senhor-frio`, `senhor-das-estrelas`, `gamora`, `drax`, `doutor-destino`, `shang-chi`, `hela`, `mulher-hulk`, `cavaleiro-da-lua`, `apocalipse`, `deathstroke`, `harry-potter`, `hermione-granger`, `rony-weasley`, `voldemort`, `hagrid`, `draco-malfoy`, `eleven`, `garibaldo`. Prompts completos em `reports/image-generation-pending.json`.
+
+Bloqueios da continuação de 23/10/2026: `michael-jackson`, `david-bowie`, `whitney-houston`, `muhammad-ali`. Prompts completos em `reports/image-generation-pending.json`.
 
 A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam outra identidade, grupos, fantasias imprecisas, nomes visíveis ou enquadramento inadequado; esses arquivos não foram usados. As demais entradas `missing` continuam disponíveis para geração/curadoria. O manifesto é a fonte do estado atual; `npm run assets:report` apresenta a contagem atualizada.
 
