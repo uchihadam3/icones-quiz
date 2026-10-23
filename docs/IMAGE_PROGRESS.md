@@ -1,19 +1,25 @@
 # Continuidade das imagens — Ícones
 
-Atualizado em 22/10/2026.
+Atualizado em 23/10/2026.
 
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 594.
-- Entradas ainda sem imagem: 898.
-- Continuação atual: 43 novas ilustrações integradas (23 de desenhos, 16 de quadrinhos, 4 de animações), revisadas individualmente.
-- As 551 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 632.
+- Entradas ainda sem imagem: 860.
+- Continuação atual: 38 novas ilustrações integradas (9 de desenhos, 29 de filmes e séries), revisadas individualmente.
+- As 594 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+`pepe-legal`, `hong-kong-fu`, `space-ghost`, `wilma-flintstone`, `pedrita`, `penelope-charmosa`, `butters`, `anjinho`, `louco`, `chapolin`, `seu-madruga`, `quico`, `chiquinha`, `dona-florinda`, `professor-girafales`, `seu-barriga`, `wandinha-addams`, `sheldon-cooper`, `spock`, `mr-bean`, `marty-mcfly`, `doc-brown`, `rocky-balboa`, `indiana-jones`, `robocop`, `predador`, `e-t`, `godzilla`, `king-kong`, `gizmo`, `geleia`, `alf`, `homem-de-marshmallow`, `ranger-vermelho`, `maozinha`, `emilia`, `saci`, `cuca`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts completos, eventuais refinamentos e proveniência no manifesto. Refinamentos revisados em: `pedrita`, `professor-girafales`. As tentativas bloqueadas continuam `missing` e estão registradas em `reports/image-generation-pending.json`.
+
+## Lote anterior de 43 retratos — desenhos, quadrinhos e animações
 
 `sandy-bochechas`, `plankton`, `gary-caracol`, `mutley`, `stan-marsh`, `kyle-broflovski`, `kenny-mccormick`, `bojack-horseman`, `zoidberg`, `tommy-pickles`, `angelica-pickles`, `chuckie-finster`, `doug-funnie`, `ladybug`, `cat-noir`, `pucca`, `moranguinho`, `kuromi`, `rainbow-dash`, `bob-o-construtor`, `thomas-trem`, `chase-patrulha-canina`, `mr-magoo`, `asterix`, `obelix`, `tintim`, `mafalda`, `calvin`, `haroldo`, `hagar`, `recruta-zero`, `lucky-luke`, `ideiafix`, `milu`, `capitao-haddock`, `hellboy`, `spawn`, `omni-man`, `invencivel`, `scrat`, `coraline`, `shaun-o-carneiro`, `wallace-e-gromit`.
 
@@ -87,6 +93,8 @@ Bloqueios da continuação de 21/10/2026: `fred-jones`, `velma`, `daphne`. Promp
 Bloqueios da continuação de 22/10/2026: `ash-ketchum`, `charmander`, `charizard`, `squirtle`, `jigglypuff`, `meowth`, `mewtwo`, `snorlax`, `eevee`, `brock`, `misty`, `equipe-rocket`, `lucario`, `greninja`, `mew`, `lugia`, `gyarados`, `dragonite`, `onix`, `togepi`, `blastoise`, `venusaur`, `raichu`, `magikarp`, `ditto`, `lapras`, `arcanine`, `cubone`, `umbreon`, `samus-aran`, `fox-mccloud`, `captain-falcon`, `tom-nook`, `isabelle-animal-crossing`, `rei-dedede`, `peppa-pig`, `perry-ornitorrinco`, `peter-griffin`, `patrick-estrela`, `lula-molusco`, `kim-possible`, `phineas`, `ferb`, `doofenshmirtz`, `fry-futurama`. Prompts completos em `reports/image-generation-pending.json`.
 
 Bloqueios da continuação de 22/10/2026: `marge-simpson`, `bart-simpson`, `lisa-simpson`, `sr-burns`, `stewie-griffin`, `brian-griffin`, `skye-patrulha-canina`, `rorschach`, `asa-noturna`, `noturno`, `gambit`, `grinch`, `minion`, `rei-julien`, `sid-preguica`, `megamente`, `spirit`. Prompts completos em `reports/image-generation-pending.json`.
+
+Bloqueios da continuação de 23/10/2026: `pernalonga`, `patolino`, `frajola`, `piu-piu`, `papa-leguas`, `coiote`, `taz`, `gaguinho`, `ligeirinho`, `marvin-o-marciano`, `hortelino-troca-letras`, `eufrazino`, `lola-bunny`, `frangolino`, `barney-rubble`, `tio-stan`, `walter-white`, `caco-o-sapo`, `elmo`, `come-come`, `xenomorfo`, `tinky-winky`. Prompts completos em `reports/image-generation-pending.json`.
 
 A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam outra identidade, grupos, fantasias imprecisas, nomes visíveis ou enquadramento inadequado; esses arquivos não foram usados. As demais entradas `missing` continuam disponíveis para geração/curadoria. O manifesto é a fonte do estado atual; `npm run assets:report` apresenta a contagem atualizada.
 
