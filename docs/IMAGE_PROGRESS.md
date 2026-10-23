@@ -5,15 +5,21 @@ Atualizado em 23/10/2026.
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 632.
-- Entradas ainda sem imagem: 860.
-- Continuação atual: 38 novas ilustrações integradas (9 de desenhos, 29 de filmes e séries), revisadas individualmente.
-- As 594 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 679.
+- Entradas ainda sem imagem: 813.
+- Continuação atual: 47 novas ilustrações integradas (39 de filmes e séries, 8 de animações), revisadas individualmente.
+- As 632 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+`frodo`, `gollum`, `legolas`, `aragorn`, `sauron`, `saruman`, `bilbo`, `smaug`, `jesse-pinkman`, `daenerys`, `jon-snow`, `tyrion-lannister`, `cersei-lannister`, `arya-stark`, `rei-da-noite`, `capitao-nascimento`, `nhonho`, `dona-clotilde`, `jaiminho`, `popis`, `nazare-tedesco`, `carminha`, `visconde-de-sabugosa`, `morpheus`, `agente-smith`, `beetlejuice`, `edward-maos-de-tesoura`, `mad-max`, `dr-house`, `homelander`, `billy-butcher`, `chandler-bing`, `joey-tribbiani`, `ross-geller`, `phoebe-buffay`, `michael-myers`, `jigsaw`, `pennywise`, `freddy-krueger`, `homem-biscoito`, `tigresa`, `mestre-shifu`, `melman`, `manny-mamute`, `mavis`, `blu-rio`, `lorax`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts completos, eventuais refinamentos e proveniência no manifesto. Refinamentos revisados em: `edward-maos-de-tesoura`, `mavis`. As tentativas bloqueadas continuam `missing` e estão registradas em `reports/image-generation-pending.json`.
+
+## Lote anterior de 38 retratos — desenhos, filmes e séries
 
 `pepe-legal`, `hong-kong-fu`, `space-ghost`, `wilma-flintstone`, `pedrita`, `penelope-charmosa`, `butters`, `anjinho`, `louco`, `chapolin`, `seu-madruga`, `quico`, `chiquinha`, `dona-florinda`, `professor-girafales`, `seu-barriga`, `wandinha-addams`, `sheldon-cooper`, `spock`, `mr-bean`, `marty-mcfly`, `doc-brown`, `rocky-balboa`, `indiana-jones`, `robocop`, `predador`, `e-t`, `godzilla`, `king-kong`, `gizmo`, `geleia`, `alf`, `homem-de-marshmallow`, `ranger-vermelho`, `maozinha`, `emilia`, `saci`, `cuca`.
 
@@ -95,6 +101,8 @@ Bloqueios da continuação de 22/10/2026: `ash-ketchum`, `charmander`, `charizar
 Bloqueios da continuação de 22/10/2026: `marge-simpson`, `bart-simpson`, `lisa-simpson`, `sr-burns`, `stewie-griffin`, `brian-griffin`, `skye-patrulha-canina`, `rorschach`, `asa-noturna`, `noturno`, `gambit`, `grinch`, `minion`, `rei-julien`, `sid-preguica`, `megamente`, `spirit`. Prompts completos em `reports/image-generation-pending.json`.
 
 Bloqueios da continuação de 23/10/2026: `pernalonga`, `patolino`, `frajola`, `piu-piu`, `papa-leguas`, `coiote`, `taz`, `gaguinho`, `ligeirinho`, `marvin-o-marciano`, `hortelino-troca-letras`, `eufrazino`, `lola-bunny`, `frangolino`, `barney-rubble`, `tio-stan`, `walter-white`, `caco-o-sapo`, `elmo`, `come-come`, `xenomorfo`, `tinky-winky`. Prompts completos em `reports/image-generation-pending.json`.
+
+Bloqueios da continuação de 23/10/2026: `ghostface`, `lord-farquaad`, `tai-lung`, `soluco`, `alex-o-leao`, `marty-a-zebra`, `gloria-hipopotamo`, `agnes`, `poppy-trolls`, `tronco-trolls`, `poderoso-chefinho`, `jack-skellington`, `shrek`. Prompts completos em `reports/image-generation-pending.json`.
 
 A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam outra identidade, grupos, fantasias imprecisas, nomes visíveis ou enquadramento inadequado; esses arquivos não foram usados. As demais entradas `missing` continuam disponíveis para geração/curadoria. O manifesto é a fonte do estado atual; `npm run assets:report` apresenta a contagem atualizada.
 
