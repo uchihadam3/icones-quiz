@@ -14,12 +14,12 @@
   },
   "statuses": {
     "missing": {
-      "count": 786,
-      "percent": 52.7
+      "count": 750,
+      "percent": 50.3
     },
     "ready": {
-      "count": 706,
-      "percent": 47.3
+      "count": 742,
+      "percent": 49.7
     }
   },
   "byCategory": {
@@ -99,8 +99,8 @@
       "n1": 69,
       "n2": 151,
       "n3": 1,
-      "ready": 60,
-      "missing": 161,
+      "ready": 77,
+      "missing": 144,
       "rejected": 0
     },
     "sport": {
@@ -109,8 +109,8 @@
       "n1": 26,
       "n2": 97,
       "n3": 4,
-      "ready": 31,
-      "missing": 96,
+      "ready": 50,
+      "missing": 77,
       "rejected": 0
     }
   },
@@ -5344,10 +5344,10 @@
       "displayName": "Michael Jackson"
     },
     {
-      "id": "pele",
+      "id": "muhammad-ali",
       "level": 1,
       "category": "sport",
-      "displayName": "Pelé"
+      "displayName": "Muhammad Ali"
     },
     {
       "id": "jennifer-aniston",
@@ -5392,16 +5392,16 @@
       "displayName": "Hulk"
     },
     {
-      "id": "elvis-presley",
+      "id": "david-bowie",
       "level": 1,
       "category": "music",
-      "displayName": "Elvis Presley"
+      "displayName": "David Bowie"
     },
     {
-      "id": "maradona",
+      "id": "tiger-woods",
       "level": 1,
       "category": "sport",
-      "displayName": "Maradona"
+      "displayName": "Tiger Woods"
     },
     {
       "id": "oprah-winfrey",
@@ -5440,16 +5440,10 @@
       "displayName": "Thor"
     },
     {
-      "id": "john-lennon",
+      "id": "whitney-houston",
       "level": 1,
       "category": "music",
-      "displayName": "John Lennon"
-    },
-    {
-      "id": "zidane",
-      "level": 1,
-      "category": "sport",
-      "displayName": "Zinedine Zidane"
+      "displayName": "Whitney Houston"
     },
     {
       "id": "renato-aragao",
@@ -5488,16 +5482,10 @@
       "displayName": "Groot"
     },
     {
-      "id": "bob-marley",
+      "id": "mariah-carey",
       "level": 1,
       "category": "music",
-      "displayName": "Bob Marley"
-    },
-    {
-      "id": "david-beckham",
-      "level": 1,
-      "category": "sport",
-      "displayName": "David Beckham"
+      "displayName": "Mariah Carey"
     },
     {
       "id": "mussum",
@@ -5536,16 +5524,10 @@
       "displayName": "Thanos"
     },
     {
-      "id": "david-bowie",
+      "id": "celine-dion",
       "level": 1,
       "category": "music",
-      "displayName": "David Bowie"
-    },
-    {
-      "id": "michael-jordan",
-      "level": 1,
-      "category": "sport",
-      "displayName": "Michael Jordan"
+      "displayName": "Celine Dion"
     },
     {
       "id": "whindersson-nunes",
@@ -5578,16 +5560,10 @@
       "displayName": "Deadpool"
     },
     {
-      "id": "kurt-cobain",
+      "id": "britney-spears",
       "level": 1,
       "category": "music",
-      "displayName": "Kurt Cobain"
-    },
-    {
-      "id": "shaquille-oneal",
-      "level": 1,
-      "category": "sport",
-      "displayName": "Shaquille O'Neal"
+      "displayName": "Britney Spears"
     },
     {
       "id": "fernanda-montenegro",
@@ -5620,16 +5596,10 @@
       "displayName": "Wolverine"
     },
     {
-      "id": "ozzy-osbourne",
+      "id": "ariana-grande",
       "level": 1,
       "category": "music",
-      "displayName": "Ozzy Osbourne"
-    },
-    {
-      "id": "lewis-hamilton",
-      "level": 1,
-      "category": "sport",
-      "displayName": "Lewis Hamilton"
+      "displayName": "Ariana Grande"
     },
     {
       "id": "patolino",
@@ -5656,16 +5626,10 @@
       "displayName": "Venom"
     },
     {
-      "id": "frank-sinatra",
+      "id": "justin-bieber",
       "level": 1,
       "category": "music",
-      "displayName": "Frank Sinatra"
-    },
-    {
-      "id": "muhammad-ali",
-      "level": 1,
-      "category": "sport",
-      "displayName": "Muhammad Ali"
+      "displayName": "Justin Bieber"
     },
     {
       "id": "frajola",
@@ -5692,16 +5656,10 @@
       "displayName": "Superman"
     },
     {
-      "id": "tina-turner",
+      "id": "pitbull",
       "level": 1,
       "category": "music",
-      "displayName": "Tina Turner"
-    },
-    {
-      "id": "tiger-woods",
-      "level": 1,
-      "category": "sport",
-      "displayName": "Tiger Woods"
+      "displayName": "Pitbull"
     },
     {
       "id": "piu-piu",
@@ -5728,10 +5686,10 @@
       "displayName": "Arlequina"
     },
     {
-      "id": "whitney-houston",
+      "id": "renato-russo",
       "level": 1,
       "category": "music",
-      "displayName": "Whitney Houston"
+      "displayName": "Renato Russo"
     },
     {
       "id": "papa-leguas",
@@ -5752,10 +5710,10 @@
       "displayName": "Come-Come"
     },
     {
-      "id": "mariah-carey",
+      "id": "jimi-hendrix",
       "level": 1,
       "category": "music",
-      "displayName": "Mariah Carey"
+      "displayName": "Jimi Hendrix"
     },
     {
       "id": "coiote",
@@ -5770,10 +5728,10 @@
       "displayName": "Mike Wazowski"
     },
     {
-      "id": "celine-dion",
+      "id": "dolly-parton",
       "level": 1,
       "category": "music",
-      "displayName": "Celine Dion"
+      "displayName": "Dolly Parton"
     },
     {
       "id": "taz",
@@ -5788,10 +5746,10 @@
       "displayName": "Branca de Neve"
     },
     {
-      "id": "britney-spears",
+      "id": "aretha-franklin",
       "level": 1,
       "category": "music",
-      "displayName": "Britney Spears"
+      "displayName": "Aretha Franklin"
     },
     {
       "id": "scooby-doo",
@@ -5806,10 +5764,10 @@
       "displayName": "Ariel"
     },
     {
-      "id": "ariana-grande",
+      "id": "james-brown",
       "level": 1,
       "category": "music",
-      "displayName": "Ariana Grande"
+      "displayName": "James Brown"
     },
     {
       "id": "pica-pau",
@@ -5824,10 +5782,10 @@
       "displayName": "Mulan"
     },
     {
-      "id": "justin-bieber",
+      "id": "gene-simmons",
       "level": 1,
       "category": "music",
-      "displayName": "Justin Bieber"
+      "displayName": "Gene Simmons"
     },
     {
       "id": "homer-simpson",
@@ -5842,10 +5800,10 @@
       "displayName": "Gênio"
     },
     {
-      "id": "pitbull",
+      "id": "slash",
       "level": 1,
       "category": "music",
-      "displayName": "Pitbull"
+      "displayName": "Slash"
     },
     {
       "id": "bob-esponja",
@@ -5860,10 +5818,10 @@
       "displayName": "Peter Pan"
     },
     {
-      "id": "anitta",
+      "id": "justin-timberlake",
       "level": 1,
       "category": "music",
-      "displayName": "Anitta"
+      "displayName": "Justin Timberlake"
     },
     {
       "id": "peppa-pig",
@@ -5878,10 +5836,10 @@
       "displayName": "Sininho"
     },
     {
-      "id": "tim-maia",
+      "id": "christina-aguilera",
       "level": 1,
       "category": "music",
-      "displayName": "Tim Maia"
+      "displayName": "Christina Aguilera"
     },
     {
       "id": "dumbo",
@@ -5890,10 +5848,10 @@
       "displayName": "Dumbo"
     },
     {
-      "id": "rita-lee",
+      "id": "avril-lavigne",
       "level": 1,
       "category": "music",
-      "displayName": "Rita Lee"
+      "displayName": "Avril Lavigne"
     },
     {
       "id": "bambi",
@@ -5902,10 +5860,10 @@
       "displayName": "Bambi"
     },
     {
-      "id": "cazuza",
+      "id": "tupac",
       "level": 1,
       "category": "music",
-      "displayName": "Cazuza"
+      "displayName": "Tupac"
     },
     {
       "id": "pinoquio",
@@ -5914,10 +5872,10 @@
       "displayName": "Pinóquio"
     },
     {
-      "id": "raul-seixas",
+      "id": "50-cent",
       "level": 1,
       "category": "music",
-      "displayName": "Raul Seixas"
+      "displayName": "50 Cent"
     },
     {
       "id": "gru",
@@ -5926,22 +5884,10 @@
       "displayName": "Gru"
     },
     {
-      "id": "renato-russo",
-      "level": 1,
-      "category": "music",
-      "displayName": "Renato Russo"
-    },
-    {
       "id": "minion",
       "level": 1,
       "category": "animation",
       "displayName": "Minion"
-    },
-    {
-      "id": "jimi-hendrix",
-      "level": 1,
-      "category": "music",
-      "displayName": "Jimi Hendrix"
     },
     {
       "id": "ursinho-pooh",
@@ -5950,70 +5896,10 @@
       "displayName": "Ursinho Pooh"
     },
     {
-      "id": "dolly-parton",
-      "level": 1,
-      "category": "music",
-      "displayName": "Dolly Parton"
-    },
-    {
       "id": "grinch",
       "level": 1,
       "category": "animation",
       "displayName": "Grinch"
-    },
-    {
-      "id": "aretha-franklin",
-      "level": 1,
-      "category": "music",
-      "displayName": "Aretha Franklin"
-    },
-    {
-      "id": "james-brown",
-      "level": 1,
-      "category": "music",
-      "displayName": "James Brown"
-    },
-    {
-      "id": "gene-simmons",
-      "level": 1,
-      "category": "music",
-      "displayName": "Gene Simmons"
-    },
-    {
-      "id": "slash",
-      "level": 1,
-      "category": "music",
-      "displayName": "Slash"
-    },
-    {
-      "id": "justin-timberlake",
-      "level": 1,
-      "category": "music",
-      "displayName": "Justin Timberlake"
-    },
-    {
-      "id": "christina-aguilera",
-      "level": 1,
-      "category": "music",
-      "displayName": "Christina Aguilera"
-    },
-    {
-      "id": "avril-lavigne",
-      "level": 1,
-      "category": "music",
-      "displayName": "Avril Lavigne"
-    },
-    {
-      "id": "tupac",
-      "level": 1,
-      "category": "music",
-      "displayName": "Tupac"
-    },
-    {
-      "id": "50-cent",
-      "level": 1,
-      "category": "music",
-      "displayName": "50 Cent"
     },
     {
       "id": "ash-ketchum",
@@ -6052,16 +5938,16 @@
       "displayName": "Capitão América"
     },
     {
-      "id": "prince",
+      "id": "drake",
       "level": 2,
       "category": "music",
-      "displayName": "Prince"
+      "displayName": "Drake"
     },
     {
-      "id": "ronaldo-nazario",
+      "id": "conor-mcgregor",
       "level": 2,
       "category": "sport",
-      "displayName": "Ronaldo Fenômeno"
+      "displayName": "Conor McGregor"
     },
     {
       "id": "audrey-hepburn",
@@ -6106,16 +5992,16 @@
       "displayName": "Pantera Negra"
     },
     {
-      "id": "louis-armstrong",
+      "id": "kanye-west",
       "level": 2,
       "category": "music",
-      "displayName": "Louis Armstrong"
+      "displayName": "Kanye West"
     },
     {
-      "id": "rivaldo",
+      "id": "hulk-hogan",
       "level": 2,
       "category": "sport",
-      "displayName": "Rivaldo"
+      "displayName": "Hulk Hogan"
     },
     {
       "id": "marilyn-monroe",
@@ -6160,16 +6046,16 @@
       "displayName": "Doutor Estranho"
     },
     {
-      "id": "ray-charles",
+      "id": "jay-z",
       "level": 2,
       "category": "music",
-      "displayName": "Ray Charles"
+      "displayName": "Jay-Z"
     },
     {
-      "id": "cafu",
+      "id": "socrates",
       "level": 2,
       "category": "sport",
-      "displayName": "Cafu"
+      "displayName": "Sócrates"
     },
     {
       "id": "jo-soares",
@@ -6214,16 +6100,16 @@
       "displayName": "Rocket"
     },
     {
-      "id": "drake",
+      "id": "post-malone",
       "level": 2,
       "category": "music",
-      "displayName": "Drake"
+      "displayName": "Post Malone"
     },
     {
-      "id": "adriano-imperador",
+      "id": "bebeto",
       "level": 2,
       "category": "sport",
-      "displayName": "Adriano Imperador"
+      "displayName": "Bebeto"
     },
     {
       "id": "chacrinha",
@@ -6268,16 +6154,16 @@
       "displayName": "Loki"
     },
     {
-      "id": "kanye-west",
+      "id": "daddy-yankee",
       "level": 2,
       "category": "music",
-      "displayName": "Kanye West"
+      "displayName": "Daddy Yankee"
     },
     {
-      "id": "marta",
+      "id": "taffarel",
       "level": 2,
       "category": "sport",
-      "displayName": "Marta"
+      "displayName": "Taffarel"
     },
     {
       "id": "paulo-gustavo",
@@ -6322,16 +6208,16 @@
       "displayName": "Magneto"
     },
     {
-      "id": "jay-z",
+      "id": "rosalia",
       "level": 2,
       "category": "music",
-      "displayName": "Jay-Z"
+      "displayName": "Rosalía"
     },
     {
-      "id": "robert-lewandowski",
+      "id": "rogerio-ceni",
       "level": 2,
       "category": "sport",
-      "displayName": "Robert Lewandowski"
+      "displayName": "Rogério Ceni"
     },
     {
       "id": "casimiro",
@@ -6376,16 +6262,16 @@
       "displayName": "Flash"
     },
     {
-      "id": "post-malone",
+      "id": "psy",
       "level": 2,
       "category": "music",
-      "displayName": "Post Malone"
+      "displayName": "PSY"
     },
     {
-      "id": "stephen-curry",
+      "id": "dunga",
       "level": 2,
       "category": "sport",
-      "displayName": "Stephen Curry"
+      "displayName": "Dunga"
     },
     {
       "id": "virginia-fonseca",
@@ -6430,16 +6316,16 @@
       "displayName": "Aquaman"
     },
     {
-      "id": "daddy-yankee",
+      "id": "elis-regina",
       "level": 2,
       "category": "music",
-      "displayName": "Daddy Yankee"
+      "displayName": "Elis Regina"
     },
     {
-      "id": "oscar-schmidt",
+      "id": "felipao",
       "level": 2,
       "category": "sport",
-      "displayName": "Oscar Schmidt"
+      "displayName": "Felipão"
     },
     {
       "id": "carlinhos-maia",
@@ -6484,16 +6370,16 @@
       "displayName": "Lanterna Verde"
     },
     {
-      "id": "rosalia",
+      "id": "gal-costa",
       "level": 2,
       "category": "music",
-      "displayName": "Rosalía"
+      "displayName": "Gal Costa"
     },
     {
-      "id": "rubens-barrichello",
+      "id": "tite",
       "level": 2,
       "category": "sport",
-      "displayName": "Rubens Barrichello"
+      "displayName": "Tite"
     },
     {
       "id": "marcos-mion",
@@ -6538,16 +6424,16 @@
       "displayName": "Coringa"
     },
     {
-      "id": "psy",
+      "id": "ney-matogrosso",
       "level": 2,
       "category": "music",
-      "displayName": "PSY"
+      "displayName": "Ney Matogrosso"
     },
     {
-      "id": "anderson-silva",
+      "id": "falcao-futsal",
       "level": 2,
       "category": "sport",
-      "displayName": "Anderson Silva"
+      "displayName": "Falcão"
     },
     {
       "id": "lazaro-ramos",
@@ -6592,16 +6478,16 @@
       "displayName": "Mulher-Gato"
     },
     {
-      "id": "xuxa",
+      "id": "jorge-ben-jor",
       "level": 2,
       "category": "music",
-      "displayName": "Xuxa"
+      "displayName": "Jorge Ben Jor"
     },
     {
-      "id": "conor-mcgregor",
+      "id": "thiago-silva",
       "level": 2,
       "category": "sport",
-      "displayName": "Conor McGregor"
+      "displayName": "Thiago Silva"
     },
     {
       "id": "bruna-marquezine",
@@ -6646,16 +6532,16 @@
       "displayName": "Robin"
     },
     {
-      "id": "tom-jobim",
+      "id": "lulu-santos",
       "level": 2,
       "category": "music",
-      "displayName": "Tom Jobim"
+      "displayName": "Lulu Santos"
     },
     {
-      "id": "usain-bolt",
+      "id": "casemiro",
       "level": 2,
       "category": "sport",
-      "displayName": "Usain Bolt"
+      "displayName": "Casemiro"
     },
     {
       "id": "juliana-paes",
@@ -6700,16 +6586,16 @@
       "displayName": "Visão"
     },
     {
-      "id": "elis-regina",
+      "id": "seu-jorge",
       "level": 2,
       "category": "music",
-      "displayName": "Elis Regina"
+      "displayName": "Seu Jorge"
     },
     {
-      "id": "hulk-hogan",
+      "id": "richarlison",
       "level": 2,
       "category": "sport",
-      "displayName": "Hulk Hogan"
+      "displayName": "Richarlison"
     },
     {
       "id": "gloria-pires",
@@ -6754,16 +6640,16 @@
       "displayName": "Feiticeira Escarlate"
     },
     {
-      "id": "gal-costa",
+      "id": "daniela-mercury",
       "level": 2,
       "category": "music",
-      "displayName": "Gal Costa"
+      "displayName": "Daniela Mercury"
     },
     {
-      "id": "socrates",
+      "id": "gabigol",
       "level": 2,
       "category": "sport",
-      "displayName": "Sócrates"
+      "displayName": "Gabigol"
     },
     {
       "id": "regina-case",
@@ -6808,16 +6694,16 @@
       "displayName": "Soldado Invernal"
     },
     {
-      "id": "ney-matogrosso",
+      "id": "sandy",
       "level": 2,
       "category": "music",
-      "displayName": "Ney Matogrosso"
+      "displayName": "Sandy"
     },
     {
-      "id": "bebeto",
+      "id": "johan-cruyff",
       "level": 2,
       "category": "sport",
-      "displayName": "Bebeto"
+      "displayName": "Johan Cruyff"
     },
     {
       "id": "george-clooney",
@@ -6856,16 +6742,16 @@
       "displayName": "Coisa"
     },
     {
-      "id": "jorge-ben-jor",
+      "id": "zeze-di-camargo",
       "level": 2,
       "category": "music",
-      "displayName": "Jorge Ben Jor"
+      "displayName": "Zezé Di Camargo"
     },
     {
-      "id": "taffarel",
+      "id": "thierry-henry",
       "level": 2,
       "category": "sport",
-      "displayName": "Taffarel"
+      "displayName": "Thierry Henry"
     },
     {
       "id": "matt-damon",
@@ -6904,16 +6790,16 @@
       "displayName": "Ciclope"
     },
     {
-      "id": "lulu-santos",
+      "id": "ringo-starr",
       "level": 2,
       "category": "music",
-      "displayName": "Lulu Santos"
+      "displayName": "Ringo Starr"
     },
     {
-      "id": "rogerio-ceni",
+      "id": "andres-iniesta",
       "level": 2,
       "category": "sport",
-      "displayName": "Rogério Ceni"
+      "displayName": "Andrés Iniesta"
     },
     {
       "id": "ben-affleck",
@@ -6952,16 +6838,16 @@
       "displayName": "Jean Grey"
     },
     {
-      "id": "seu-jorge",
+      "id": "george-harrison",
       "level": 2,
       "category": "music",
-      "displayName": "Seu Jorge"
+      "displayName": "George Harrison"
     },
     {
-      "id": "dunga",
+      "id": "xavi",
       "level": 2,
       "category": "sport",
-      "displayName": "Dunga"
+      "displayName": "Xavi"
     },
     {
       "id": "christian-bale",
@@ -7000,16 +6886,16 @@
       "displayName": "Vampira"
     },
     {
-      "id": "daniela-mercury",
+      "id": "keith-richards",
       "level": 2,
       "category": "music",
-      "displayName": "Daniela Mercury"
+      "displayName": "Keith Richards"
     },
     {
-      "id": "felipao",
+      "id": "sergio-ramos",
       "level": 2,
       "category": "sport",
-      "displayName": "Felipão"
+      "displayName": "Sergio Ramos"
     },
     {
       "id": "henry-cavill",
@@ -7048,16 +6934,16 @@
       "displayName": "Miles Morales"
     },
     {
-      "id": "sandy",
+      "id": "janis-joplin",
       "level": 2,
       "category": "music",
-      "displayName": "Sandy"
+      "displayName": "Janis Joplin"
     },
     {
-      "id": "tite",
+      "id": "iker-casillas",
       "level": 2,
       "category": "sport",
-      "displayName": "Tite"
+      "displayName": "Iker Casillas"
     },
     {
       "id": "robert-pattinson",
@@ -7096,16 +6982,16 @@
       "displayName": "Gwen Stacy"
     },
     {
-      "id": "zeze-di-camargo",
+      "id": "jim-morrison",
       "level": 2,
       "category": "music",
-      "displayName": "Zezé Di Camargo"
+      "displayName": "Jim Morrison"
     },
     {
-      "id": "falcao-futsal",
+      "id": "gianluigi-buffon",
       "level": 2,
       "category": "sport",
-      "displayName": "Falcão"
+      "displayName": "Gianluigi Buffon"
     },
     {
       "id": "joaquin-phoenix",
@@ -7144,16 +7030,16 @@
       "displayName": "Doutor Octopus"
     },
     {
-      "id": "ringo-starr",
+      "id": "bob-dylan",
       "level": 2,
       "category": "music",
-      "displayName": "Ringo Starr"
+      "displayName": "Bob Dylan"
     },
     {
-      "id": "thiago-silva",
+      "id": "andrea-pirlo",
       "level": 2,
       "category": "sport",
-      "displayName": "Thiago Silva"
+      "displayName": "Andrea Pirlo"
     },
     {
       "id": "cillian-murphy",
@@ -7192,16 +7078,16 @@
       "displayName": "Carnificina"
     },
     {
-      "id": "george-harrison",
+      "id": "bruce-springsteen",
       "level": 2,
       "category": "music",
-      "displayName": "George Harrison"
+      "displayName": "Bruce Springsteen"
     },
     {
-      "id": "casemiro",
+      "id": "wayne-rooney",
       "level": 2,
       "category": "sport",
-      "displayName": "Casemiro"
+      "displayName": "Wayne Rooney"
     },
     {
       "id": "bruce-willis",
@@ -7240,16 +7126,16 @@
       "displayName": "Justiceiro"
     },
     {
-      "id": "keith-richards",
+      "id": "johnny-cash",
       "level": 2,
       "category": "music",
-      "displayName": "Keith Richards"
+      "displayName": "Johnny Cash"
     },
     {
-      "id": "richarlison",
+      "id": "didier-drogba",
       "level": 2,
       "category": "sport",
-      "displayName": "Richarlison"
+      "displayName": "Didier Drogba"
     },
     {
       "id": "mel-gibson",
@@ -7288,16 +7174,16 @@
       "displayName": "Demolidor"
     },
     {
-      "id": "janis-joplin",
+      "id": "shania-twain",
       "level": 2,
       "category": "music",
-      "displayName": "Janis Joplin"
+      "displayName": "Shania Twain"
     },
     {
-      "id": "gabigol",
+      "id": "samuel-etoo",
       "level": 2,
       "category": "sport",
-      "displayName": "Gabigol"
+      "displayName": "Samuel Eto'o"
     },
     {
       "id": "russell-crowe",
@@ -7336,16 +7222,16 @@
       "displayName": "Shazam"
     },
     {
-      "id": "jim-morrison",
+      "id": "marvin-gaye",
       "level": 2,
       "category": "music",
-      "displayName": "Jim Morrison"
+      "displayName": "Marvin Gaye"
     },
     {
-      "id": "johan-cruyff",
+      "id": "kevin-de-bruyne",
       "level": 2,
       "category": "sport",
-      "displayName": "Johan Cruyff"
+      "displayName": "Kevin De Bruyne"
     },
     {
       "id": "anthony-hopkins",
@@ -7378,16 +7264,16 @@
       "displayName": "Arqueiro Verde"
     },
     {
-      "id": "bob-dylan",
+      "id": "diana-ross",
       "level": 2,
       "category": "music",
-      "displayName": "Bob Dylan"
+      "displayName": "Diana Ross"
     },
     {
-      "id": "thierry-henry",
+      "id": "harry-kane",
       "level": 2,
       "category": "sport",
-      "displayName": "Thierry Henry"
+      "displayName": "Harry Kane"
     },
     {
       "id": "liam-neeson",
@@ -7420,16 +7306,16 @@
       "displayName": "Batgirl"
     },
     {
-      "id": "bruce-springsteen",
+      "id": "lionel-richie",
       "level": 2,
       "category": "music",
-      "displayName": "Bruce Springsteen"
+      "displayName": "Lionel Richie"
     },
     {
-      "id": "andres-iniesta",
+      "id": "jude-bellingham",
       "level": 2,
       "category": "sport",
-      "displayName": "Andrés Iniesta"
+      "displayName": "Jude Bellingham"
     },
     {
       "id": "idris-elba",
@@ -7462,16 +7348,16 @@
       "displayName": "Hera Venenosa"
     },
     {
-      "id": "johnny-cash",
+      "id": "phil-collins",
       "level": 2,
       "category": "music",
-      "displayName": "Johnny Cash"
+      "displayName": "Phil Collins"
     },
     {
-      "id": "xavi",
+      "id": "lamine-yamal",
       "level": 2,
       "category": "sport",
-      "displayName": "Xavi"
+      "displayName": "Lamine Yamal"
     },
     {
       "id": "marlon-brando",
@@ -7504,16 +7390,16 @@
       "displayName": "Duas-Caras"
     },
     {
-      "id": "shania-twain",
+      "id": "sting",
       "level": 2,
       "category": "music",
-      "displayName": "Shania Twain"
+      "displayName": "Sting"
     },
     {
-      "id": "sergio-ramos",
+      "id": "luis-suarez",
       "level": 2,
       "category": "sport",
-      "displayName": "Sergio Ramos"
+      "displayName": "Luis Suárez"
     },
     {
       "id": "james-dean",
@@ -7546,16 +7432,16 @@
       "displayName": "Lex Luthor"
     },
     {
-      "id": "marvin-gaye",
+      "id": "eric-clapton",
       "level": 2,
       "category": "music",
-      "displayName": "Marvin Gaye"
+      "displayName": "Eric Clapton"
     },
     {
-      "id": "iker-casillas",
+      "id": "antoine-griezmann",
       "level": 2,
       "category": "sport",
-      "displayName": "Iker Casillas"
+      "displayName": "Antoine Griezmann"
     },
     {
       "id": "elizabeth-taylor",
@@ -7588,16 +7474,16 @@
       "displayName": "Senhor das Estrelas"
     },
     {
-      "id": "diana-ross",
+      "id": "brian-may",
       "level": 2,
       "category": "music",
-      "displayName": "Diana Ross"
+      "displayName": "Brian May"
     },
     {
-      "id": "gianluigi-buffon",
+      "id": "karim-benzema",
       "level": 2,
       "category": "sport",
-      "displayName": "Gianluigi Buffon"
+      "displayName": "Karim Benzema"
     },
     {
       "id": "will-ferrell",
@@ -7624,16 +7510,16 @@
       "displayName": "Doutor Destino"
     },
     {
-      "id": "lionel-richie",
+      "id": "robert-plant",
       "level": 2,
       "category": "music",
-      "displayName": "Lionel Richie"
+      "displayName": "Robert Plant"
     },
     {
-      "id": "andrea-pirlo",
+      "id": "manuel-neuer",
       "level": 2,
       "category": "sport",
-      "displayName": "Andrea Pirlo"
+      "displayName": "Manuel Neuer"
     },
     {
       "id": "steve-carell",
@@ -7654,16 +7540,16 @@
       "displayName": "Rei Julien"
     },
     {
-      "id": "phil-collins",
+      "id": "steven-tyler",
       "level": 2,
       "category": "music",
-      "displayName": "Phil Collins"
+      "displayName": "Steven Tyler"
     },
     {
-      "id": "wayne-rooney",
+      "id": "pep-guardiola",
       "level": 2,
       "category": "sport",
-      "displayName": "Wayne Rooney"
+      "displayName": "Pep Guardiola"
     },
     {
       "id": "jack-black",
@@ -7684,16 +7570,16 @@
       "displayName": "Sid"
     },
     {
-      "id": "sting",
+      "id": "angus-young",
       "level": 2,
       "category": "music",
-      "displayName": "Sting"
+      "displayName": "Angus Young"
     },
     {
-      "id": "didier-drogba",
+      "id": "jose-mourinho",
       "level": 2,
       "category": "sport",
-      "displayName": "Didier Drogba"
+      "displayName": "José Mourinho"
     },
     {
       "id": "kevin-hart",
@@ -7714,16 +7600,16 @@
       "displayName": "Sr. Cabeça de Batata"
     },
     {
-      "id": "eric-clapton",
+      "id": "james-hetfield",
       "level": 2,
       "category": "music",
-      "displayName": "Eric Clapton"
+      "displayName": "James Hetfield"
     },
     {
-      "id": "samuel-etoo",
+      "id": "carlo-ancelotti",
       "level": 2,
       "category": "sport",
-      "displayName": "Samuel Eto'o"
+      "displayName": "Carlo Ancelotti"
     },
     {
       "id": "ben-stiller",
@@ -7744,16 +7630,16 @@
       "displayName": "Rex"
     },
     {
-      "id": "brian-may",
+      "id": "dave-grohl",
       "level": 2,
       "category": "music",
-      "displayName": "Brian May"
+      "displayName": "Dave Grohl"
     },
     {
-      "id": "kevin-de-bruyne",
+      "id": "jurgen-klopp",
       "level": 2,
       "category": "sport",
-      "displayName": "Kevin De Bruyne"
+      "displayName": "Jürgen Klopp"
     },
     {
       "id": "chris-rock",
@@ -7774,16 +7660,16 @@
       "displayName": "Imperador Zurg"
     },
     {
-      "id": "robert-plant",
+      "id": "chester-bennington",
       "level": 2,
       "category": "music",
-      "displayName": "Robert Plant"
+      "displayName": "Chester Bennington"
     },
     {
-      "id": "harry-kane",
+      "id": "kevin-durant",
       "level": 2,
       "category": "sport",
-      "displayName": "Harry Kane"
+      "displayName": "Kevin Durant"
     },
     {
       "id": "jamie-foxx",
@@ -7804,16 +7690,16 @@
       "displayName": "Lotso"
     },
     {
-      "id": "steven-tyler",
+      "id": "chris-martin",
       "level": 2,
       "category": "music",
-      "displayName": "Steven Tyler"
+      "displayName": "Chris Martin"
     },
     {
-      "id": "jude-bellingham",
+      "id": "larry-bird",
       "level": 2,
       "category": "sport",
-      "displayName": "Jude Bellingham"
+      "displayName": "Larry Bird"
     },
     {
       "id": "danny-devito",
@@ -7834,16 +7720,16 @@
       "displayName": "Marlin"
     },
     {
-      "id": "angus-young",
+      "id": "adam-levine",
       "level": 2,
       "category": "music",
-      "displayName": "Angus Young"
+      "displayName": "Adam Levine"
     },
     {
-      "id": "lamine-yamal",
+      "id": "kareem-abdul-jabbar",
       "level": 2,
       "category": "sport",
-      "displayName": "Lamine Yamal"
+      "displayName": "Kareem Abdul-Jabbar"
     },
     {
       "id": "paul-walker",
@@ -7864,16 +7750,16 @@
       "displayName": "Boo"
     },
     {
-      "id": "james-hetfield",
+      "id": "gwen-stefani",
       "level": 2,
       "category": "music",
-      "displayName": "James Hetfield"
+      "displayName": "Gwen Stefani"
     },
     {
-      "id": "luis-suarez",
+      "id": "dennis-rodman",
       "level": 2,
       "category": "sport",
-      "displayName": "Luis Suárez"
+      "displayName": "Dennis Rodman"
     },
     {
       "id": "macaulay-culkin",
@@ -7894,16 +7780,16 @@
       "displayName": "Mulher-Elástica"
     },
     {
-      "id": "dave-grohl",
+      "id": "pink-cantora",
       "level": 2,
       "category": "music",
-      "displayName": "Dave Grohl"
+      "displayName": "P!nk"
     },
     {
-      "id": "antoine-griezmann",
+      "id": "andre-agassi",
       "level": 2,
       "category": "sport",
-      "displayName": "Antoine Griezmann"
+      "displayName": "Andre Agassi"
     },
     {
       "id": "zac-efron",
@@ -7918,16 +7804,16 @@
       "displayName": "Flecha"
     },
     {
-      "id": "chester-bennington",
+      "id": "kelly-clarkson",
       "level": 2,
       "category": "music",
-      "displayName": "Chester Bennington"
+      "displayName": "Kelly Clarkson"
     },
     {
-      "id": "karim-benzema",
+      "id": "maria-sharapova",
       "level": 2,
       "category": "sport",
-      "displayName": "Karim Benzema"
+      "displayName": "Maria Sharapova"
     },
     {
       "id": "antonio-banderas",
@@ -7942,16 +7828,16 @@
       "displayName": "Zezé"
     },
     {
-      "id": "chris-martin",
+      "id": "sia",
       "level": 2,
       "category": "music",
-      "displayName": "Chris Martin"
+      "displayName": "Sia"
     },
     {
-      "id": "manuel-neuer",
+      "id": "carlos-alcaraz",
       "level": 2,
       "category": "sport",
-      "displayName": "Manuel Neuer"
+      "displayName": "Carlos Alcaraz"
     },
     {
       "id": "jet-li",
@@ -7966,16 +7852,16 @@
       "displayName": "Gelado"
     },
     {
-      "id": "adam-levine",
+      "id": "lizzo",
       "level": 2,
       "category": "music",
-      "displayName": "Adam Levine"
+      "displayName": "Lizzo"
     },
     {
-      "id": "pep-guardiola",
+      "id": "nelson-piquet",
       "level": 2,
       "category": "sport",
-      "displayName": "Pep Guardiola"
+      "displayName": "Nelson Piquet"
     },
     {
       "id": "shah-rukh-khan",
@@ -7990,16 +7876,16 @@
       "displayName": "Russell"
     },
     {
-      "id": "gwen-stefani",
+      "id": "alicia-keys",
       "level": 2,
       "category": "music",
-      "displayName": "Gwen Stefani"
+      "displayName": "Alicia Keys"
     },
     {
-      "id": "jose-mourinho",
+      "id": "emerson-fittipaldi",
       "level": 2,
       "category": "sport",
-      "displayName": "José Mourinho"
+      "displayName": "Emerson Fittipaldi"
     },
     {
       "id": "halle-berry",
@@ -8014,16 +7900,16 @@
       "displayName": "Dug"
     },
     {
-      "id": "pink-cantora",
+      "id": "usher",
       "level": 2,
       "category": "music",
-      "displayName": "P!nk"
+      "displayName": "Usher"
     },
     {
-      "id": "carlo-ancelotti",
+      "id": "felipe-massa",
       "level": 2,
       "category": "sport",
-      "displayName": "Carlo Ancelotti"
+      "displayName": "Felipe Massa"
     },
     {
       "id": "salma-hayek",
@@ -8038,16 +7924,16 @@
       "displayName": "Tristeza"
     },
     {
-      "id": "kelly-clarkson",
+      "id": "pharrell-williams",
       "level": 2,
       "category": "music",
-      "displayName": "Kelly Clarkson"
+      "displayName": "Pharrell Williams"
     },
     {
-      "id": "jurgen-klopp",
+      "id": "fernando-alonso",
       "level": 2,
       "category": "sport",
-      "displayName": "Jürgen Klopp"
+      "displayName": "Fernando Alonso"
     },
     {
       "id": "penelope-cruz",
@@ -8062,16 +7948,16 @@
       "displayName": "Raiva"
     },
     {
-      "id": "sia",
+      "id": "camila-cabello",
       "level": 2,
       "category": "music",
-      "displayName": "Sia"
+      "displayName": "Camila Cabello"
     },
     {
-      "id": "kevin-durant",
+      "id": "sebastian-vettel",
       "level": 2,
       "category": "sport",
-      "displayName": "Kevin Durant"
+      "displayName": "Sebastian Vettel"
     },
     {
       "id": "sofia-vergara",
@@ -8086,16 +7972,16 @@
       "displayName": "Nojinho"
     },
     {
-      "id": "lizzo",
+      "id": "demi-lovato",
       "level": 2,
       "category": "music",
-      "displayName": "Lizzo"
+      "displayName": "Demi Lovato"
     },
     {
-      "id": "larry-bird",
+      "id": "jose-aldo",
       "level": 2,
       "category": "sport",
-      "displayName": "Larry Bird"
+      "displayName": "José Aldo"
     },
     {
       "id": "charlize-theron",
@@ -8110,16 +7996,16 @@
       "displayName": "Medo"
     },
     {
-      "id": "alicia-keys",
+      "id": "shawn-mendes",
       "level": 2,
       "category": "music",
-      "displayName": "Alicia Keys"
+      "displayName": "Shawn Mendes"
     },
     {
-      "id": "kareem-abdul-jabbar",
+      "id": "amanda-nunes",
       "level": 2,
       "category": "sport",
-      "displayName": "Kareem Abdul-Jabbar"
+      "displayName": "Amanda Nunes"
     },
     {
       "id": "kate-winslet",
@@ -8134,16 +8020,16 @@
       "displayName": "Ansiedade"
     },
     {
-      "id": "usher",
+      "id": "sam-smith",
       "level": 2,
       "category": "music",
-      "displayName": "Usher"
+      "displayName": "Sam Smith"
     },
     {
-      "id": "dennis-rodman",
+      "id": "minotauro",
       "level": 2,
       "category": "sport",
-      "displayName": "Dennis Rodman"
+      "displayName": "Minotauro"
     },
     {
       "id": "kristen-stewart",
@@ -8158,16 +8044,16 @@
       "displayName": "Miguel"
     },
     {
-      "id": "pharrell-williams",
+      "id": "sabrina-carpenter",
       "level": 2,
       "category": "music",
-      "displayName": "Pharrell Williams"
+      "displayName": "Sabrina Carpenter"
     },
     {
-      "id": "andre-agassi",
+      "id": "vitor-belfort",
       "level": 2,
       "category": "sport",
-      "displayName": "Andre Agassi"
+      "displayName": "Vitor Belfort"
     },
     {
       "id": "reese-witherspoon",
@@ -8182,16 +8068,16 @@
       "displayName": "EVA"
     },
     {
-      "id": "camila-cabello",
+      "id": "notorious-big",
       "level": 2,
       "category": "music",
-      "displayName": "Camila Cabello"
+      "displayName": "The Notorious B.I.G."
     },
     {
-      "id": "maria-sharapova",
+      "id": "alex-poatan",
       "level": 2,
       "category": "sport",
-      "displayName": "Maria Sharapova"
+      "displayName": "Alex Poatan"
     },
     {
       "id": "drew-barrymore",
@@ -8206,16 +8092,16 @@
       "displayName": "Luca"
     },
     {
-      "id": "demi-lovato",
+      "id": "dr-dre",
       "level": 2,
       "category": "music",
-      "displayName": "Demi Lovato"
+      "displayName": "Dr. Dre"
     },
     {
-      "id": "carlos-alcaraz",
+      "id": "popo-freitas",
       "level": 2,
       "category": "sport",
-      "displayName": "Carlos Alcaraz"
+      "displayName": "Popó"
     },
     {
       "id": "lindsay-lohan",
@@ -8230,16 +8116,16 @@
       "displayName": "Kristoff"
     },
     {
-      "id": "shawn-mendes",
+      "id": "ice-cube",
       "level": 2,
       "category": "music",
-      "displayName": "Shawn Mendes"
+      "displayName": "Ice Cube"
     },
     {
-      "id": "nelson-piquet",
+      "id": "floyd-mayweather",
       "level": 2,
       "category": "sport",
-      "displayName": "Nelson Piquet"
+      "displayName": "Floyd Mayweather"
     },
     {
       "id": "hilary-duff",
@@ -8254,16 +8140,16 @@
       "displayName": "Nala"
     },
     {
-      "id": "sam-smith",
+      "id": "kendrick-lamar",
       "level": 2,
       "category": "music",
-      "displayName": "Sam Smith"
+      "displayName": "Kendrick Lamar"
     },
     {
-      "id": "emerson-fittipaldi",
+      "id": "manny-pacquiao",
       "level": 2,
       "category": "sport",
-      "displayName": "Emerson Fittipaldi"
+      "displayName": "Manny Pacquiao"
     },
     {
       "id": "whoopi-goldberg",
@@ -8278,16 +8164,16 @@
       "displayName": "Rafiki"
     },
     {
-      "id": "sabrina-carpenter",
+      "id": "travis-scott",
       "level": 2,
       "category": "music",
-      "displayName": "Sabrina Carpenter"
+      "displayName": "Travis Scott"
     },
     {
-      "id": "felipe-massa",
+      "id": "canelo-alvarez",
       "level": 2,
       "category": "sport",
-      "displayName": "Felipe Massa"
+      "displayName": "Canelo Álvarez"
     },
     {
       "id": "viola-davis",
@@ -8302,16 +8188,16 @@
       "displayName": "Mirabel"
     },
     {
-      "id": "notorious-big",
+      "id": "lil-wayne",
       "level": 2,
       "category": "music",
-      "displayName": "The Notorious B.I.G."
+      "displayName": "Lil Wayne"
     },
     {
-      "id": "fernando-alonso",
+      "id": "khabib",
       "level": 2,
       "category": "sport",
-      "displayName": "Fernando Alonso"
+      "displayName": "Khabib Nurmagomedov"
     },
     {
       "id": "sydney-sweeney",
@@ -8326,16 +8212,16 @@
       "displayName": "Bruno Madrigal"
     },
     {
-      "id": "dr-dre",
+      "id": "lil-nas-x",
       "level": 2,
       "category": "music",
-      "displayName": "Dr. Dre"
+      "displayName": "Lil Nas X"
     },
     {
-      "id": "sebastian-vettel",
+      "id": "ronda-rousey",
       "level": 2,
       "category": "sport",
-      "displayName": "Sebastian Vettel"
+      "displayName": "Ronda Rousey"
     },
     {
       "id": "anya-taylor-joy",
@@ -8350,16 +8236,16 @@
       "displayName": "Judy Hopps"
     },
     {
-      "id": "ice-cube",
+      "id": "marshmello",
       "level": 2,
       "category": "music",
-      "displayName": "Ice Cube"
+      "displayName": "Marshmello"
     },
     {
-      "id": "jose-aldo",
+      "id": "nadia-comaneci",
       "level": 2,
       "category": "sport",
-      "displayName": "José Aldo"
+      "displayName": "Nadia Comăneci"
     },
     {
       "id": "ellen-degeneres",
@@ -8374,16 +8260,16 @@
       "displayName": "Nick Wilde"
     },
     {
-      "id": "kendrick-lamar",
+      "id": "david-guetta",
       "level": 2,
       "category": "music",
-      "displayName": "Kendrick Lamar"
+      "displayName": "David Guetta"
     },
     {
-      "id": "amanda-nunes",
+      "id": "daiane-dos-santos",
       "level": 2,
       "category": "sport",
-      "displayName": "Amanda Nunes"
+      "displayName": "Daiane dos Santos"
     },
     {
       "id": "jimmy-fallon",
@@ -8398,16 +8284,16 @@
       "displayName": "Flynn Rider"
     },
     {
-      "id": "travis-scott",
+      "id": "andrea-bocelli",
       "level": 2,
       "category": "music",
-      "displayName": "Travis Scott"
+      "displayName": "Andrea Bocelli"
     },
     {
-      "id": "minotauro",
+      "id": "cesar-cielo",
       "level": 2,
       "category": "sport",
-      "displayName": "Minotauro"
+      "displayName": "César Cielo"
     },
     {
       "id": "gordon-ramsay",
@@ -8422,16 +8308,16 @@
       "displayName": "Sebastião"
     },
     {
-      "id": "lil-wayne",
+      "id": "luciano-pavarotti",
       "level": 2,
       "category": "music",
-      "displayName": "Lil Wayne"
+      "displayName": "Luciano Pavarotti"
     },
     {
-      "id": "vitor-belfort",
+      "id": "giba",
       "level": 2,
       "category": "sport",
-      "displayName": "Vitor Belfort"
+      "displayName": "Giba"
     },
     {
       "id": "paris-hilton",
@@ -8446,16 +8332,16 @@
       "displayName": "Linguado"
     },
     {
-      "id": "lil-nas-x",
+      "id": "marc-anthony",
       "level": 2,
       "category": "music",
-      "displayName": "Lil Nas X"
+      "displayName": "Marc Anthony"
     },
     {
-      "id": "alex-poatan",
+      "id": "bernardinho",
       "level": 2,
       "category": "sport",
-      "displayName": "Alex Poatan"
+      "displayName": "Bernardinho"
     },
     {
       "id": "kylie-jenner",
@@ -8470,16 +8356,16 @@
       "displayName": "Lumière"
     },
     {
-      "id": "marshmello",
+      "id": "maluma",
       "level": 2,
       "category": "music",
-      "displayName": "Marshmello"
+      "displayName": "Maluma"
     },
     {
-      "id": "popo-freitas",
+      "id": "kelly-slater",
       "level": 2,
       "category": "sport",
-      "displayName": "Popó"
+      "displayName": "Kelly Slater"
     },
     {
       "id": "kendall-jenner",
@@ -8494,16 +8380,16 @@
       "displayName": "Gaston"
     },
     {
-      "id": "david-guetta",
+      "id": "luis-fonsi",
       "level": 2,
       "category": "music",
-      "displayName": "David Guetta"
+      "displayName": "Luis Fonsi"
     },
     {
-      "id": "floyd-mayweather",
+      "id": "tony-hawk",
       "level": 2,
       "category": "sport",
-      "displayName": "Floyd Mayweather"
+      "displayName": "Tony Hawk"
     },
     {
       "id": "jeff-bezos",
@@ -8518,16 +8404,16 @@
       "displayName": "Jafar"
     },
     {
-      "id": "andrea-bocelli",
+      "id": "gloria-estefan",
       "level": 2,
       "category": "music",
-      "displayName": "Andrea Bocelli"
+      "displayName": "Gloria Estefan"
     },
     {
-      "id": "manny-pacquiao",
+      "id": "undertaker",
       "level": 2,
       "category": "sport",
-      "displayName": "Manny Pacquiao"
+      "displayName": "The Undertaker"
     },
     {
       "id": "pewdiepie",
@@ -8542,16 +8428,16 @@
       "displayName": "Mushu"
     },
     {
-      "id": "luciano-pavarotti",
+      "id": "julio-iglesias",
       "level": 2,
       "category": "music",
-      "displayName": "Luciano Pavarotti"
+      "displayName": "Julio Iglesias"
     },
     {
-      "id": "canelo-alvarez",
+      "id": "rey-mysterio",
       "level": 2,
       "category": "sport",
-      "displayName": "Canelo Álvarez"
+      "displayName": "Rey Mysterio"
     },
     {
       "id": "khaby-lame",
@@ -8566,16 +8452,16 @@
       "displayName": "Hades"
     },
     {
-      "id": "marc-anthony",
+      "id": "thalia",
       "level": 2,
       "category": "music",
-      "displayName": "Marc Anthony"
+      "displayName": "Thalía"
     },
     {
-      "id": "khabib",
+      "id": "stone-cold",
       "level": 2,
       "category": "sport",
-      "displayName": "Khabib Nurmagomedov"
+      "displayName": "Stone Cold Steve Austin"
     },
     {
       "id": "eliana",
@@ -8590,16 +8476,16 @@
       "displayName": "Rainha Má"
     },
     {
-      "id": "maluma",
+      "id": "jungkook",
       "level": 2,
       "category": "music",
-      "displayName": "Maluma"
+      "displayName": "Jungkook"
     },
     {
-      "id": "ronda-rousey",
+      "id": "magnus-carlsen",
       "level": 2,
       "category": "sport",
-      "displayName": "Ronda Rousey"
+      "displayName": "Magnus Carlsen"
     },
     {
       "id": "serginho-groisman",
@@ -8614,16 +8500,16 @@
       "displayName": "Alice"
     },
     {
-      "id": "luis-fonsi",
+      "id": "lisa-blackpink",
       "level": 2,
       "category": "music",
-      "displayName": "Luis Fonsi"
+      "displayName": "Lisa (BLACKPINK)"
     },
     {
-      "id": "nadia-comaneci",
+      "id": "daniel-alves",
       "level": 2,
       "category": "sport",
-      "displayName": "Nadia Comăneci"
+      "displayName": "Daniel Alves"
     },
     {
       "id": "pedro-bial",
@@ -8638,16 +8524,16 @@
       "displayName": "Gato de Cheshire"
     },
     {
-      "id": "gloria-estefan",
+      "id": "rose-blackpink",
       "level": 2,
       "category": "music",
-      "displayName": "Gloria Estefan"
+      "displayName": "Rosé (BLACKPINK)"
     },
     {
-      "id": "daiane-dos-santos",
+      "id": "philippe-coutinho",
       "level": 2,
       "category": "sport",
-      "displayName": "Daiane dos Santos"
+      "displayName": "Philippe Coutinho"
     },
     {
       "id": "tiago-leifert",
@@ -8662,16 +8548,10 @@
       "displayName": "Chapeleiro Maluco"
     },
     {
-      "id": "julio-iglesias",
+      "id": "vinicius-de-moraes",
       "level": 2,
       "category": "music",
-      "displayName": "Julio Iglesias"
-    },
-    {
-      "id": "cesar-cielo",
-      "level": 2,
-      "category": "sport",
-      "displayName": "César Cielo"
+      "displayName": "Vinicius de Moraes"
     },
     {
       "id": "boninho",
@@ -8686,16 +8566,10 @@
       "displayName": "Tigrão"
     },
     {
-      "id": "thalia",
+      "id": "joao-gilberto",
       "level": 2,
       "category": "music",
-      "displayName": "Thalía"
-    },
-    {
-      "id": "giba",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Giba"
+      "displayName": "João Gilberto"
     },
     {
       "id": "raul-gil",
@@ -8710,16 +8584,10 @@
       "displayName": "Leitão"
     },
     {
-      "id": "jungkook",
+      "id": "erasmo-carlos",
       "level": 2,
       "category": "music",
-      "displayName": "Jungkook"
-    },
-    {
-      "id": "bernardinho",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Bernardinho"
+      "displayName": "Erasmo Carlos"
     },
     {
       "id": "datena",
@@ -8734,16 +8602,10 @@
       "displayName": "Bisonho"
     },
     {
-      "id": "lisa-blackpink",
+      "id": "cassia-eller",
       "level": 2,
       "category": "music",
-      "displayName": "Lisa (BLACKPINK)"
-    },
-    {
-      "id": "kelly-slater",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Kelly Slater"
+      "displayName": "Cássia Eller"
     },
     {
       "id": "adriane-galisteu",
@@ -8758,16 +8620,10 @@
       "displayName": "Lilo"
     },
     {
-      "id": "rose-blackpink",
+      "id": "marisa-monte",
       "level": 2,
       "category": "music",
-      "displayName": "Rosé (BLACKPINK)"
-    },
-    {
-      "id": "tony-hawk",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Tony Hawk"
+      "displayName": "Marisa Monte"
     },
     {
       "id": "ana-hickmann",
@@ -8782,16 +8638,10 @@
       "displayName": "Vanellope"
     },
     {
-      "id": "vinicius-de-moraes",
+      "id": "samuel-rosa",
       "level": 2,
       "category": "music",
-      "displayName": "Vinicius de Moraes"
-    },
-    {
-      "id": "undertaker",
-      "level": 2,
-      "category": "sport",
-      "displayName": "The Undertaker"
+      "displayName": "Samuel Rosa"
     },
     {
       "id": "carla-perez",
@@ -8806,16 +8656,10 @@
       "displayName": "Tiana"
     },
     {
-      "id": "joao-gilberto",
+      "id": "nando-reis",
       "level": 2,
       "category": "music",
-      "displayName": "João Gilberto"
-    },
-    {
-      "id": "rey-mysterio",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Rey Mysterio"
+      "displayName": "Nando Reis"
     },
     {
       "id": "sergio-mallandro",
@@ -8830,16 +8674,10 @@
       "displayName": "Tambor"
     },
     {
-      "id": "erasmo-carlos",
+      "id": "herbert-vianna",
       "level": 2,
       "category": "music",
-      "displayName": "Erasmo Carlos"
-    },
-    {
-      "id": "stone-cold",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Stone Cold Steve Austin"
+      "displayName": "Herbert Vianna"
     },
     {
       "id": "cid-moreira",
@@ -8854,16 +8692,10 @@
       "displayName": "Grilo Falante"
     },
     {
-      "id": "cassia-eller",
+      "id": "chorao",
       "level": 2,
       "category": "music",
-      "displayName": "Cássia Eller"
-    },
-    {
-      "id": "magnus-carlsen",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Magnus Carlsen"
+      "displayName": "Chorão"
     },
     {
       "id": "chico-anysio",
@@ -8878,16 +8710,10 @@
       "displayName": "Lord Farquaad"
     },
     {
-      "id": "marisa-monte",
+      "id": "pitty",
       "level": 2,
       "category": "music",
-      "displayName": "Marisa Monte"
-    },
-    {
-      "id": "daniel-alves",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Daniel Alves"
+      "displayName": "Pitty"
     },
     {
       "id": "dede-santana",
@@ -8902,16 +8728,10 @@
       "displayName": "Soluço"
     },
     {
-      "id": "samuel-rosa",
+      "id": "dinho-mamonas",
       "level": 2,
       "category": "music",
-      "displayName": "Samuel Rosa"
-    },
-    {
-      "id": "philippe-coutinho",
-      "level": 2,
-      "category": "sport",
-      "displayName": "Philippe Coutinho"
+      "displayName": "Dinho"
     },
     {
       "id": "zacarias",
@@ -8926,10 +8746,10 @@
       "displayName": "Alex, o Leão"
     },
     {
-      "id": "nando-reis",
+      "id": "iza",
       "level": 2,
       "category": "music",
-      "displayName": "Nando Reis"
+      "displayName": "IZA"
     },
     {
       "id": "tom-cavalcante",
@@ -8944,10 +8764,10 @@
       "displayName": "Marty, a Zebra"
     },
     {
-      "id": "herbert-vianna",
+      "id": "luisa-sonza",
       "level": 2,
       "category": "music",
-      "displayName": "Herbert Vianna"
+      "displayName": "Luísa Sonza"
     },
     {
       "id": "fabio-porchat",
@@ -8962,10 +8782,10 @@
       "displayName": "Pinguins de Madagascar"
     },
     {
-      "id": "chorao",
+      "id": "gloria-groove",
       "level": 2,
       "category": "music",
-      "displayName": "Chorão"
+      "displayName": "Gloria Groove"
     },
     {
       "id": "marcelo-adnet",
@@ -8980,10 +8800,10 @@
       "displayName": "Agnes"
     },
     {
-      "id": "pitty",
+      "id": "sidney-magal",
       "level": 2,
       "category": "music",
-      "displayName": "Pitty"
+      "displayName": "Sidney Magal"
     },
     {
       "id": "danilo-gentili",
@@ -8998,10 +8818,10 @@
       "displayName": "Megamente"
     },
     {
-      "id": "dinho-mamonas",
+      "id": "reginaldo-rossi",
       "level": 2,
       "category": "music",
-      "displayName": "Dinho"
+      "displayName": "Reginaldo Rossi"
     },
     {
       "id": "leandro-hassum",
@@ -9016,10 +8836,10 @@
       "displayName": "Poppy"
     },
     {
-      "id": "iza",
+      "id": "gretchen",
       "level": 2,
       "category": "music",
-      "displayName": "IZA"
+      "displayName": "Gretchen"
     },
     {
       "id": "maisa",
@@ -9034,10 +8854,10 @@
       "displayName": "Jack Skellington"
     },
     {
-      "id": "luisa-sonza",
+      "id": "joelma",
       "level": 2,
       "category": "music",
-      "displayName": "Luísa Sonza"
+      "displayName": "Joelma"
     },
     {
       "id": "larissa-manoela",
@@ -9052,10 +8872,10 @@
       "displayName": "Shere Khan"
     },
     {
-      "id": "gloria-groove",
+      "id": "chitaozinho",
       "level": 2,
       "category": "music",
-      "displayName": "Gloria Groove"
+      "displayName": "Chitãozinho"
     },
     {
       "id": "claudia-raia",
@@ -9070,10 +8890,10 @@
       "displayName": "Bagheera"
     },
     {
-      "id": "sidney-magal",
+      "id": "xororo",
       "level": 2,
       "category": "music",
-      "displayName": "Sidney Magal"
+      "displayName": "Xororó"
     },
     {
       "id": "caua-reymond",
@@ -9088,10 +8908,10 @@
       "displayName": "Kuzco"
     },
     {
-      "id": "reginaldo-rossi",
+      "id": "paula-fernandes",
       "level": 2,
       "category": "music",
-      "displayName": "Reginaldo Rossi"
+      "displayName": "Paula Fernandes"
     },
     {
       "id": "reynaldo-gianecchini",
@@ -9106,10 +8926,10 @@
       "displayName": "O Poderoso Chefinho"
     },
     {
-      "id": "gretchen",
+      "id": "simone-mendes",
       "level": 2,
       "category": "music",
-      "displayName": "Gretchen"
+      "displayName": "Simone Mendes"
     },
     {
       "id": "grazi-massafera",
@@ -9118,10 +8938,10 @@
       "displayName": "Grazi Massafera"
     },
     {
-      "id": "joelma",
+      "id": "ana-castela",
       "level": 2,
       "category": "music",
-      "displayName": "Joelma"
+      "displayName": "Ana Castela"
     },
     {
       "id": "paolla-oliveira",
@@ -9130,10 +8950,10 @@
       "displayName": "Paolla Oliveira"
     },
     {
-      "id": "chitaozinho",
+      "id": "joao-gomes",
       "level": 2,
       "category": "music",
-      "displayName": "Chitãozinho"
+      "displayName": "João Gomes"
     },
     {
       "id": "deborah-secco",
@@ -9142,10 +8962,10 @@
       "displayName": "Deborah Secco"
     },
     {
-      "id": "xororo",
+      "id": "alcione",
       "level": 2,
       "category": "music",
-      "displayName": "Xororó"
+      "displayName": "Alcione"
     },
     {
       "id": "tais-araujo",
@@ -9154,10 +8974,10 @@
       "displayName": "Taís Araújo"
     },
     {
-      "id": "paula-fernandes",
+      "id": "beth-carvalho",
       "level": 2,
       "category": "music",
-      "displayName": "Paula Fernandes"
+      "displayName": "Beth Carvalho"
     },
     {
       "id": "antonio-fagundes",
@@ -9166,10 +8986,10 @@
       "displayName": "Antônio Fagundes"
     },
     {
-      "id": "simone-mendes",
+      "id": "martinho-da-vila",
       "level": 2,
       "category": "music",
-      "displayName": "Simone Mendes"
+      "displayName": "Martinho da Vila"
     },
     {
       "id": "susana-vieira",
@@ -9178,10 +8998,10 @@
       "displayName": "Susana Vieira"
     },
     {
-      "id": "ana-castela",
+      "id": "jorge-aragao",
       "level": 2,
       "category": "music",
-      "displayName": "Ana Castela"
+      "displayName": "Jorge Aragão"
     },
     {
       "id": "isis-valverde",
@@ -9190,10 +9010,10 @@
       "displayName": "Isis Valverde"
     },
     {
-      "id": "joao-gomes",
+      "id": "arlindo-cruz",
       "level": 2,
       "category": "music",
-      "displayName": "João Gomes"
+      "displayName": "Arlindo Cruz"
     },
     {
       "id": "marina-ruy-barbosa",
@@ -9202,10 +9022,10 @@
       "displayName": "Marina Ruy Barbosa"
     },
     {
-      "id": "alcione",
+      "id": "diogo-nogueira",
       "level": 2,
       "category": "music",
-      "displayName": "Alcione"
+      "displayName": "Diogo Nogueira"
     },
     {
       "id": "giovanna-antonelli",
@@ -9214,10 +9034,10 @@
       "displayName": "Giovanna Antonelli"
     },
     {
-      "id": "beth-carvalho",
+      "id": "pericles",
       "level": 2,
       "category": "music",
-      "displayName": "Beth Carvalho"
+      "displayName": "Péricles"
     },
     {
       "id": "kefera",
@@ -9226,10 +9046,10 @@
       "displayName": "Kéfera"
     },
     {
-      "id": "martinho-da-vila",
+      "id": "belo",
       "level": 2,
       "category": "music",
-      "displayName": "Martinho da Vila"
+      "displayName": "Belo"
     },
     {
       "id": "gaules",
@@ -9238,10 +9058,10 @@
       "displayName": "Gaules"
     },
     {
-      "id": "jorge-aragao",
+      "id": "alexandre-pires",
       "level": 2,
       "category": "music",
-      "displayName": "Jorge Aragão"
+      "displayName": "Alexandre Pires"
     },
     {
       "id": "luva-de-pedreiro",
@@ -9250,10 +9070,10 @@
       "displayName": "Luva de Pedreiro"
     },
     {
-      "id": "arlindo-cruz",
+      "id": "bell-marques",
       "level": 2,
       "category": "music",
-      "displayName": "Arlindo Cruz"
+      "displayName": "Bell Marques"
     },
     {
       "id": "juliette",
@@ -9262,10 +9082,10 @@
       "displayName": "Juliette"
     },
     {
-      "id": "diogo-nogueira",
+      "id": "carlinhos-brown",
       "level": 2,
       "category": "music",
-      "displayName": "Diogo Nogueira"
+      "displayName": "Carlinhos Brown"
     },
     {
       "id": "gil-do-vigor",
@@ -9274,10 +9094,10 @@
       "displayName": "Gil do Vigor"
     },
     {
-      "id": "pericles",
+      "id": "pedro-sampaio",
       "level": 2,
       "category": "music",
-      "displayName": "Péricles"
+      "displayName": "Pedro Sampaio"
     },
     {
       "id": "adriana-lima",
@@ -9286,10 +9106,10 @@
       "displayName": "Adriana Lima"
     },
     {
-      "id": "belo",
+      "id": "mc-kevinho",
       "level": 2,
       "category": "music",
-      "displayName": "Belo"
+      "displayName": "MC Kevinho"
     },
     {
       "id": "naomi-campbell",
@@ -9298,46 +9118,16 @@
       "displayName": "Naomi Campbell"
     },
     {
-      "id": "alexandre-pires",
+      "id": "matue",
       "level": 2,
       "category": "music",
-      "displayName": "Alexandre Pires"
+      "displayName": "Matuê"
     },
     {
       "id": "cindy-crawford",
       "level": 2,
       "category": "celebrity",
       "displayName": "Cindy Crawford"
-    },
-    {
-      "id": "bell-marques",
-      "level": 2,
-      "category": "music",
-      "displayName": "Bell Marques"
-    },
-    {
-      "id": "carlinhos-brown",
-      "level": 2,
-      "category": "music",
-      "displayName": "Carlinhos Brown"
-    },
-    {
-      "id": "pedro-sampaio",
-      "level": 2,
-      "category": "music",
-      "displayName": "Pedro Sampaio"
-    },
-    {
-      "id": "mc-kevinho",
-      "level": 2,
-      "category": "music",
-      "displayName": "MC Kevinho"
-    },
-    {
-      "id": "matue",
-      "level": 2,
-      "category": "music",
-      "displayName": "Matuê"
     },
     {
       "id": "emicida",
@@ -9448,10 +9238,10 @@
       "displayName": "Billie Joe Armstrong"
     },
     {
-      "id": "garrincha",
+      "id": "rayssa-leal",
       "level": 3,
       "category": "sport",
-      "displayName": "Garrincha"
+      "displayName": "Rayssa Leal"
     },
     {
       "id": "arcanine",
@@ -9490,10 +9280,10 @@
       "displayName": "Homem-Formiga"
     },
     {
-      "id": "rayssa-leal",
+      "id": "endrick",
       "level": 3,
       "category": "sport",
-      "displayName": "Rayssa Leal"
+      "displayName": "Endrick"
     },
     {
       "id": "cubone",
@@ -9530,12 +9320,6 @@
       "level": 3,
       "category": "comics",
       "displayName": "Gavião Arqueiro"
-    },
-    {
-      "id": "endrick",
-      "level": 3,
-      "category": "sport",
-      "displayName": "Endrick"
     },
     {
       "id": "umbreon",
