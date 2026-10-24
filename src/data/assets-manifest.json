@@ -2548,8 +2548,15 @@
       "file": "characters/princesa-leia.webp"
     },
     "han-solo": {
-      "status": "missing",
-      "file": "characters/han-solo.webp"
+      "status": "ready",
+      "file": "characters/han-solo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Han Solo from the original Star Wars trilogy, recognizable adult Harrison Ford face, tousled brown hair, black vest over cream open-collar shirt, charming crooked smile.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "chewbacca": {
       "status": "missing",
@@ -2861,8 +2868,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "james-bond": {
-      "status": "missing",
-      "file": "characters/james-bond.webp"
+      "status": "ready",
+      "file": "characters/james-bond.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "James Bond in his iconic adult Sean Connery appearance, slick short dark hair, recognizable face and raised eyebrow, black dinner jacket, white shirt and black bow tie, composed confident portrait, no weapon.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rocky-balboa": {
       "status": "ready",
@@ -3008,8 +3022,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jason-voorhees": {
-      "status": "missing",
-      "file": "characters/jason-voorhees.webp"
+      "status": "ready",
+      "file": "characters/jason-voorhees.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Jason Voorhees from Friday the 13th, iconic off-white hockey mask with round ventilation holes and red triangular markings, dark weathered jacket, imposing upper-body portrait. Clean fictional horror icon, no weapon, blood, wound or victim.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "chucky": {
       "status": "missing",
@@ -5098,8 +5119,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "leoncio": {
-      "status": "missing",
-      "file": "characters/leoncio.webp"
+      "status": "ready",
+      "file": "characters/leoncio.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Wally Walrus from the classic Woody Woodpecker cartoons, canonical broad brown walrus with a large tan muzzle, drooping whiskers and two long white tusks, recognizable classic face and usual costume, friendly grumpy upper-body pose.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "he-man": {
       "status": "ready",
@@ -5770,8 +5798,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "diddy-kong": {
-      "status": "missing",
-      "file": "characters/diddy-kong.webp"
+      "status": "ready",
+      "file": "characters/diddy-kong.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Diddy Kong from Nintendo, canonical small brown monkey with long tail, red cap and red shirt with two intrinsic yellow stars, cheerful energetic full character.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "waluigi": {
       "status": "missing",
@@ -9063,8 +9098,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "obi-wan-kenobi": {
-      "status": "missing",
-      "file": "characters/obi-wan-kenobi.webp"
+      "status": "ready",
+      "file": "characters/obi-wan-kenobi.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Obi-Wan Kenobi from A New Hope, recognizable mature Alec Guinness face, short white hair and neat white beard, cream Jedi tunic under a brown hooded robe with hood lowered, wise gentle expression.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "palpatine": {
       "status": "missing",
@@ -9150,8 +9192,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "davy-jones": {
-      "status": "missing",
-      "file": "characters/davy-jones.webp"
+      "status": "ready",
+      "file": "characters/davy-jones.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Davy Jones from Pirates of the Caribbean, canonical weathered tricorn hat, recognizable octopus-like tentacle beard and face, dark sea captain coat, one crab-claw hand relaxed at chest level. Entire hat and tentacles visible, clean fantasy creature, no gore.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.\nRefinement: Edit only the framing of this existing Davy Jones illustration. Zoom out uniformly and recenter the character so his entire tricorn hat, including the highest peak now clipped by the top edge, fits inside the vertical 4:5 frame with at least 8 percent clear navy background above and at the sides. Preserve the exact octopus face, eyes, tentacle beard, crab-claw hand, weathered coat, pose, proportions, textures, painterly finish, colors and navy-indigo background. Do not redesign him or add objects. No words, name, watermark or border.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "morpheus": {
       "status": "ready",
@@ -9235,8 +9284,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mary-poppins": {
-      "status": "missing",
-      "file": "characters/mary-poppins.webp"
+      "status": "ready",
+      "file": "characters/mary-poppins.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Mary Poppins in her classic adult Julie Andrews appearance, recognizable face, neat dark hair, dark Edwardian hat with small flowers, navy coat over white high-neck blouse and red bow tie, holding a closed black umbrella with parrot-head handle at her side.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mad-max": {
       "status": "ready",
@@ -9698,16 +9754,37 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "samara": {
-      "status": "missing",
-      "file": "characters/samara.webp"
+      "status": "ready",
+      "file": "characters/samara.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Samara Morgan from The Ring, canonical fictional ghost girl with very long straight black hair partly covering her pale face, simple fully clothed long white dress, standing quietly with arms lowered. Atmospheric navy background, no blood, injury, victim or violence.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "annabelle": {
-      "status": "missing",
-      "file": "characters/annabelle.webp"
+      "status": "ready",
+      "file": "characters/annabelle.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Annabelle, the iconic fictional porcelain doll from The Conjuring films, pale painted face, large glass eyes, red-haired braids and bangs, white long-sleeved vintage dress with red ribbon and fabric rose, seated entire doll; no gore or violence.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "valak": {
-      "status": "missing",
-      "file": "characters/valak.webp"
+      "status": "ready",
+      "file": "characters/valak.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Valak in the iconic fictional nun form from The Conjuring, pale face, dark eye sockets and yellow eyes, black veil and white wimple, fully clothed black habit, austere upper-body portrait. No blood, wound or victim.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "jigsaw": {
       "status": "ready",
@@ -9721,12 +9798,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "leatherface": {
-      "status": "missing",
-      "file": "characters/leatherface.webp"
+      "status": "ready",
+      "file": "characters/leatherface.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Leatherface from The Texas Chain Saw Massacre, iconic beige stitched theatrical face mask, untidy dark hair, white collared shirt, dark tie and butcher apron, clean fictional horror upper-body portrait. No tools, weapon, blood, injury or victims.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "pinhead": {
-      "status": "missing",
-      "file": "characters/pinhead.webp"
+      "status": "ready",
+      "file": "characters/pinhead.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Pinhead from Hellraiser, canonical pale bald head with precise square grid and small metal pins, composed stern face, high-collar black leather costume, clean fictional horror upper-body portrait. No wounds, blood or victims.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ringo-starr": {
       "status": "missing",
@@ -10669,12 +10760,26 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "luna-show-da-luna": {
-      "status": "missing",
-      "file": "characters/luna-show-da-luna.webp"
+      "status": "ready",
+      "file": "characters/luna-show-da-luna.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Luna from the Brazilian cartoon Earth to Luna / O Show da Luna, faithful canonical little girl with black hair in two pigtails, large brown eyes, blue sleeveless dress with red belt and yellow buckle, white socks and dark shoes, curious happy full character.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "peixonauta": {
-      "status": "missing",
-      "file": "characters/peixonauta.webp"
+      "status": "ready",
+      "file": "characters/peixonauta.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Peixonauta / Fishtronaut from the Brazilian animated series, faithful canonical cheerful orange fish visible inside a clear spherical spacesuit helmet, white-and-blue astronaut suit and backpack, fins and orange tail, entire small character.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mr-meeseeks": {
       "status": "missing",
@@ -10693,8 +10798,15 @@
       "file": "characters/sideshow-bob.webp"
     },
     "lois-griffin": {
-      "status": "missing",
-      "file": "characters/lois-griffin.webp"
+      "status": "ready",
+      "file": "characters/lois-griffin.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Lois Griffin from Family Guy, canonical adult woman with orange-red bob haircut, green collared short-sleeved blouse and beige trousers, pearl earrings, recognizable friendly face and upper-body pose.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "zoidberg": {
       "status": "ready",
@@ -10979,8 +11091,15 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "oompa-loompa": {
-      "status": "missing",
-      "file": "characters/oompa-loompa.webp"
+      "status": "ready",
+      "file": "characters/oompa-loompa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "One classic Oompa-Loompa from the 1971 Willy Wonka film, iconic orange face, neatly curled bright green hair, white eyebrows, brown turtleneck and white crossed suspenders with white trousers, playful full small character. Exactly one figure.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "tubarao": {
       "status": "ready",
@@ -11032,12 +11151,26 @@
       "file": "characters/dixie-kong.webp"
     },
     "king-k-rool": {
-      "status": "missing",
-      "file": "characters/king-k-rool.webp"
+      "status": "ready",
+      "file": "characters/king-k-rool.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "King K. Rool from Donkey Kong, canonical large green crocodile with gold belly plate, small gold crown, red cape and jeweled clasp, large toothy snout and bulging expressive eyes, powerful full creature.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "navi": {
-      "status": "missing",
-      "file": "characters/navi.webp"
+      "status": "ready",
+      "file": "characters/navi.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Navi from The Legend of Zelda Ocarina of Time, canonical tiny blue glowing fairy, bright white-blue orb with four delicate translucent blue-white wings, entire luminous fairy centered on navy background, no human form.\nUse case: stylized-concept. Asset type: individual character portrait for Ícones — Maratona image quiz. Faithful instantly recognizable canonical face, silhouette, proportions, costume and colors. Premium expressive illustration, clean outlines and detailed painterly cel shading, subtle cinematic rim light matching the recent quiz art. Vertical 4:5 canvas. Center upper body unless entire character specified. Entire uninterrupted head, hair, horns, ears, hats, crown, raised hands and accessories inside frame with generous 10 percent clear margin above and at sides. Simple deep navy-indigo background. Correct canonical anatomy and limb count. No printed names, captions, words, readable numbers, franchise title, watermark, border or collage; retain intrinsic costume symbols only when explicitly requested. No photorealism. One character except an explicitly named duo.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "blinky": {
       "status": "ready",

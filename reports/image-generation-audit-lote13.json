@@ -1,0 +1,616 @@
+{
+  "base": "f9450fd294bbe744d9a642f0778b03c342355383",
+  "previousReady": 742,
+  "selected": 74,
+  "uniqueIds": 74,
+  "readyOverlap": [],
+  "priorAttemptOverlap": [],
+  "existingFileOverlap": [],
+  "skipped": [],
+  "checks": [
+    "missing in manifest",
+    "absent from blocked report and documented legacy blocks",
+    "absent from earlier local generation results",
+    "no existing art file",
+    "unique ID within batch"
+  ],
+  "date": "2026-10-24",
+  "previousImagesPreserved": 742,
+  "added": 19,
+  "blocked": 55,
+  "duplicateImageBytes": 0,
+  "entries": [
+    {
+      "id": "luke-skywalker",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "princesa-leia",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "han-solo",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "chewbacca",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "r2-d2",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "c-3po",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "grogu",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "stormtrooper",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "mandaloriano",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "james-bond",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "jason-voorhees",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "chucky",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "obi-wan-kenobi",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "palpatine",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "boba-fett",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "jabba",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "kylo-ren",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "darth-maul",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "bb-8",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "davy-jones",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "mary-poppins",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "samara",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "annabelle",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "valak",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "leatherface",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "pinhead",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "miss-piggy",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "oscar-resmungao",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "oompa-loompa",
+      "category": "film-tv",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "minnie-mouse",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "pato-donald",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "pateta",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "pluto",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "margarida",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "tio-patinhas",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "ze-carioca",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "pepe-le-gamba",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "tico-e-teco",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "max-goof",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "pato-darkwing",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "leoncio",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "maggie-simpson",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "ned-flanders",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "krusty",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "milhouse",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "moe-szyslak",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "luna-show-da-luna",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "peixonauta",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "mr-meeseeks",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "ralph-wiggum",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "abe-simpson",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "sideshow-bob",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "lois-griffin",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "candace-flynn",
+      "category": "cartoon",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "luigi",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "princesa-peach",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "bowser",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "yoshi",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "toad",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "wario",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "donkey-kong",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "diddy-kong",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "waluigi",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "princesa-daisy",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "bowser-jr",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "rei-boo",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "goomba",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "rosalina",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "koopa-troopa",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "planta-piranha",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "lakitu",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "dixie-kong",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "king-k-rool",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "navi",
+      "category": "game",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    }
+  ]
+}
