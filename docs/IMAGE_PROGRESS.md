@@ -1,19 +1,27 @@
 # Continuidade das imagens — Ícones
 
-Atualizado em 24/10/2026.
+Atualizado em 25/10/2026.
 
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 761.
-- Entradas ainda sem imagem: 731.
-- Continuação atual: 19 novas ilustrações integradas (4 de desenhos, 3 de videogames, 12 de filmes e séries), revisadas individualmente.
-- As 742 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 782.
+- Entradas ainda sem imagem: 710.
+- Continuação atual: 21 novas ilustrações integradas (5 de animações, 16 de personalidades), revisadas individualmente.
+- As 761 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+Seleção sem repetir IDs prontos, arquivos existentes ou tentativas anteriores; conferência registrada em [image-generation-audit-lote14.json](../reports/image-generation-audit-lote14.json).
+
+`rex-toy-story`, `porquinho-hamm`, `boo-monstros`, `randall`, `gelado`, `jo-soares`, `chacrinha`, `renato-aragao`, `mussum`, `paulo-gustavo`, `whindersson-nunes`, `casimiro`, `virginia-fonseca`, `carlinhos-maia`, `marcos-mion`, `fernanda-montenegro`, `lazaro-ramos`, `bruna-marquezine`, `juliana-paes`, `gloria-pires`, `regina-case`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts completos, eventuais refinamentos e proveniência no manifesto. Refinamentos de enquadramento revisados em: `chacrinha`, `juliana-paes`. As tentativas bloqueadas continuam `missing` e estão registradas em `reports/image-generation-pending.json`.
+
+## Lote anterior de 19 retratos — desenhos, videogames, filmes e séries
 
 Seleção sem repetir IDs prontos, arquivos existentes ou tentativas anteriores; conferência registrada em [image-generation-audit-lote13.json](../reports/image-generation-audit-lote13.json).
 
@@ -129,6 +137,8 @@ Bloqueios da continuação de 23/10/2026: `homem-de-ferro`, `capitao-america`, `
 Bloqueios da continuação de 23/10/2026: `michael-jackson`, `david-bowie`, `whitney-houston`, `muhammad-ali`. Prompts completos em `reports/image-generation-pending.json`.
 
 Bloqueios da continuação de 24/10/2026: `luke-skywalker`, `princesa-leia`, `chewbacca`, `r2-d2`, `c-3po`, `grogu`, `stormtrooper`, `mandaloriano`, `chucky`, `palpatine`, `boba-fett`, `jabba`, `kylo-ren`, `darth-maul`, `bb-8`, `miss-piggy`, `oscar-resmungao`, `minnie-mouse`, `pato-donald`, `pateta`, `pluto`, `margarida`, `tio-patinhas`, `ze-carioca`, `pepe-le-gamba`, `tico-e-teco`, `max-goof`, `pato-darkwing`, `maggie-simpson`, `ned-flanders`, `krusty`, `milhouse`, `moe-szyslak`, `mr-meeseeks`, `ralph-wiggum`, `abe-simpson`, `sideshow-bob`, `candace-flynn`, `luigi`, `princesa-peach`, `bowser`, `yoshi`, `toad`, `wario`, `donkey-kong`, `waluigi`, `princesa-daisy`, `bowser-jr`, `rei-boo`, `goomba`, `rosalina`, `koopa-troopa`, `planta-piranha`, `lakitu`, `dixie-kong`. Prompts completos em `reports/image-generation-pending.json`.
+
+Bloqueios da continuação de 25/10/2026: `branca-de-neve`, `aurora`, `malevola`, `pocahontas`, `cruella`, `peter-pan`, `capitao-gancho`, `sininho`, `dumbo`, `bambi`, `pinoquio`, `mogli`, `balu`, `hercules`, `tarzan`, `detona-ralph`, `sr-cabeca-de-batata`, `slinky`, `zurg`, `lotso`, `garfinho`, `marlin`, `crush-tartaruga`, `mulher-elastica`, `flecha`, `violeta-incriveis`, `zeze-incriveis`, `sindrome`, `jennifer-aniston`, `audrey-hepburn`, `marilyn-monroe`, `oprah-winfrey`. Prompts completos em `reports/image-generation-pending.json`.
 
 A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam outra identidade, grupos, fantasias imprecisas, nomes visíveis ou enquadramento inadequado; esses arquivos não foram usados. As demais entradas `missing` continuam disponíveis para geração/curadoria. O manifesto é a fonte do estado atual; `npm run assets:report` apresenta a contagem atualizada.
 
