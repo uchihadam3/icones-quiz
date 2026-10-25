@@ -1,0 +1,452 @@
+{
+  "base": "d9bdb0d3412dc721fd1101b4b155bfd1fcd46589",
+  "previousReady": 761,
+  "selected": 53,
+  "uniqueIds": 53,
+  "readyOverlap": [],
+  "priorAttemptOverlap": [],
+  "existingFileOverlap": [],
+  "skipped": [],
+  "checks": [
+    "missing in manifest",
+    "absent from blocked report and documented legacy blocks",
+    "absent from earlier local generation results",
+    "no existing art file",
+    "unique ID within batch"
+  ],
+  "date": "2026-10-25",
+  "previousImagesPreserved": 761,
+  "added": 21,
+  "blocked": 32,
+  "duplicateImageBytes": 0,
+  "refinements": [
+    "chacrinha",
+    "juliana-paes"
+  ],
+  "entries": [
+    {
+      "id": "branca-de-neve",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "aurora",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "malevola",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "pocahontas",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "cruella",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "peter-pan",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "capitao-gancho",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "sininho",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "dumbo",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "bambi",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "pinoquio",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "mogli",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "balu",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "hercules",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "tarzan",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "detona-ralph",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "sr-cabeca-de-batata",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "rex-toy-story",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "porquinho-hamm",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "slinky",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "zurg",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "lotso",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "garfinho",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "marlin",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "crush-tartaruga",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "boo-monstros",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "randall",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "mulher-elastica",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "flecha",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "violeta-incriveis",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "zeze-incriveis",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "gelado",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "sindrome",
+      "category": "animation",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "jennifer-aniston",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "audrey-hepburn",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "marilyn-monroe",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "oprah-winfrey",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "jo-soares",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "chacrinha",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "renato-aragao",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "mussum",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "paulo-gustavo",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "whindersson-nunes",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "casimiro",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "virginia-fonseca",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "carlinhos-maia",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "marcos-mion",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "fernanda-montenegro",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "lazaro-ramos",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "bruna-marquezine",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "juliana-paes",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "gloria-pires",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "regina-case",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    }
+  ]
+}

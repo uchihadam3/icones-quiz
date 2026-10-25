@@ -2161,24 +2161,59 @@
       "attribution": "Foto: Sergio Savarese / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "jo-soares": {
-      "status": "missing",
-      "file": "characters/jo-soares.webp"
+      "status": "ready",
+      "file": "characters/jo-soares.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Jô Soares, recognizable older Brazilian presenter with large round face, short receding gray hair, gray beard and mustache, thin round spectacles, dark suit, white shirt and burgundy tie, cheerful smile.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "chacrinha": {
-      "status": "missing",
-      "file": "characters/chacrinha.webp"
+      "status": "ready",
+      "file": "characters/chacrinha.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Chacrinha Abelardo Barbosa, recognizable older Brazilian presenter in colorful eccentric carnival jacket, oversized round glasses and exuberant decorated red hat. Broad joyful smile, small handheld microphone, entire hat visible. No written words on clothes or hat.\nRefinement: Use case: precise-object-edit. Refine only composition/framing of this approved Chacrinha quiz illustration. Keep the exact same identifiable face, age, smile, spectacles, colorful costume, microphone, hands, navy background and illustration style. Pull the camera back slightly and center the subject so the ENTIRE decorated red hat and ALL feather tips are completely inside the vertical 4:5 canvas, with at least 8 percent clear navy space above the tallest feather and comfortable side margins. Restore only the currently clipped feather tips. No words, names, extra people or other changes.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "renato-aragao": {
-      "status": "missing",
-      "file": "characters/renato-aragao.webp"
+      "status": "ready",
+      "file": "characters/renato-aragao.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Renato Aragão, recognizable older Brazilian comedian with expressive long face, dark thinning hair, prominent ears and warm broad toothy smile, beige casual jacket over blue shirt, as himself.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "mussum": {
-      "status": "missing",
-      "file": "characters/mussum.webp"
+      "status": "ready",
+      "file": "characters/mussum.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Mussum Antônio Carlos Bernardes Gomes, recognizable adult Black Brazilian comedian, round cheerful face, short natural hair, small mustache and distinctive broad smile, light brown casual jacket over pale shirt, as himself.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "paulo-gustavo": {
-      "status": "missing",
-      "file": "characters/paulo-gustavo.webp"
+      "status": "ready",
+      "file": "characters/paulo-gustavo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Paulo Gustavo, recognizable adult Brazilian comedian with bald head, expressive dark eyebrows, neat dark stubble, broad joyful smile, plain dark crew-neck shirt and open casual jacket, as himself.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "tata-werneck": {
       "status": "ready",
@@ -2192,8 +2227,15 @@
       "attribution": "Foto: Humor Multishow / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "whindersson-nunes": {
-      "status": "missing",
-      "file": "characters/whindersson-nunes.webp"
+      "status": "ready",
+      "file": "characters/whindersson-nunes.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Whindersson Nunes, recognizable adult Brazilian comedian with short dark hair, trimmed mustache and beard, visible small neck tattoos, friendly amused expression, plain charcoal T-shirt. No written text.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "felipe-neto": {
       "status": "ready",
@@ -2218,24 +2260,59 @@
       "attribution": "Foto: Web Summit Rio / Wikimedia Commons, CC BY 2.0; recorte e conversão para WebP."
     },
     "casimiro": {
-      "status": "missing",
-      "file": "characters/casimiro.webp"
+      "status": "ready",
+      "file": "characters/casimiro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Casimiro Miguel, recognizable adult Brazilian streamer with stocky face, thick dark eyebrows, short black hair, trimmed beard and mustache, rectangular black glasses, relaxed smile and plain black T-shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "virginia-fonseca": {
-      "status": "missing",
-      "file": "characters/virginia-fonseca.webp"
+      "status": "ready",
+      "file": "characters/virginia-fonseca.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Virginia Fonseca, recognizable adult Brazilian public personality with long straight honey-blonde hair, brown eyes, defined arched eyebrows, warm smile, elegant cream jacket and plain blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "carlinhos-maia": {
-      "status": "missing",
-      "file": "characters/carlinhos-maia.webp"
+      "status": "ready",
+      "file": "characters/carlinhos-maia.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Carlinhos Maia, recognizable adult Brazilian comedian with medium tan skin, short closely faded dark hair, carefully trimmed beard and mustache, expressive dark eyebrows and broad smile, black casual shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "marcos-mion": {
-      "status": "missing",
-      "file": "characters/marcos-mion.webp"
+      "status": "ready",
+      "file": "characters/marcos-mion.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Marcos Mion, recognizable adult Brazilian presenter with dark swept-back short hair, full trimmed dark beard, brown eyes, broad friendly smile, black jacket over plain light shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "fernanda-montenegro": {
-      "status": "missing",
-      "file": "characters/fernanda-montenegro.webp"
+      "status": "ready",
+      "file": "characters/fernanda-montenegro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Fernanda Montenegro, recognizable elderly Brazilian actress with expressive deeply lined face, short wavy gray hair, fine arched eyebrows and warm thoughtful smile, elegant dark blazer and simple small earrings.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "tony-ramos": {
       "status": "ready",
@@ -2271,24 +2348,59 @@
       "attribution": "Foto: Harald Krichel / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "lazaro-ramos": {
-      "status": "missing",
-      "file": "characters/lazaro-ramos.webp"
+      "status": "ready",
+      "file": "characters/lazaro-ramos.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Lázaro Ramos, recognizable adult Black Brazilian actor with short curly dark hair, trimmed mustache and beard, expressive dark eyes, broad warm smile, dark blue jacket over cream shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "bruna-marquezine": {
-      "status": "missing",
-      "file": "characters/bruna-marquezine.webp"
+      "status": "ready",
+      "file": "characters/bruna-marquezine.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Bruna Marquezine, recognizable adult Brazilian actress with long straight dark brown hair parted at center, brown eyes, distinctive thick eyebrows and warm composed smile, elegant plain black top.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "juliana-paes": {
-      "status": "missing",
-      "file": "characters/juliana-paes.webp"
+      "status": "ready",
+      "file": "characters/juliana-paes.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Juliana Paes, recognizable adult Brazilian actress with long voluminous dark wavy hair, brown eyes, full arched eyebrows, broad warm smile, gold earrings and elegant emerald green blouse.\nRefinement: Use case: precise-object-edit. Refine only the composition/framing of this approved Juliana Paes portrait for the image quiz. Keep the exact same recognizable adult face, expression, age, long dark wavy hair, gold earrings, green blouse, lighting and navy background. Pull the camera back enough to fit the entire top and side silhouette of her voluminous hair comfortably INSIDE the vertical 4:5 image, with visible navy margin above her head and on both sides. Preserve identity and natural anatomy. No other changes, no words or logos.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "gloria-pires": {
-      "status": "missing",
-      "file": "characters/gloria-pires.webp"
+      "status": "ready",
+      "file": "characters/gloria-pires.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Glória Pires, recognizable mature Brazilian actress with shoulder-length dark brown straight hair, dark eyes, distinctive expressive eyebrows, composed warm smile, simple burgundy blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "regina-case": {
-      "status": "missing",
-      "file": "characters/regina-case.webp"
+      "status": "ready",
+      "file": "characters/regina-case.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Accurate recognizable adult public figure, as themselves, no character costume, endorsement or brand logos. Regina Casé, recognizable mature Brazilian presenter and actress with long wavy dark hair, wide joyful toothy smile, expressive dark eyes, colorful patterned blouse without writing, bold round earrings.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "gisele-bundchen": {
       "status": "ready",
@@ -6580,12 +6692,26 @@
       "file": "characters/sr-cabeca-de-batata.webp"
     },
     "rex-toy-story": {
-      "status": "missing",
-      "file": "characters/rex-toy-story.webp"
+      "status": "ready",
+      "file": "characters/rex-toy-story.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. Rex from Toy Story, friendly green plastic toy Tyrannosaurus rex with tiny arms, rounded snout, white toy teeth, lighter green belly and long tail. Whole toy, exactly two little arms and two feet, anxious endearing smile.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "porquinho-hamm": {
-      "status": "missing",
-      "file": "characters/porquinho-hamm.webp"
+      "status": "ready",
+      "file": "characters/porquinho-hamm.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. Hamm from Toy Story, round pink plastic piggy bank with coin slot in back, small black eyes, broad pig snout, short triangular ears, four small legs with dark hooves and curled tail. Whole toy, no clothing.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "slinky": {
       "status": "missing",
@@ -6612,12 +6738,26 @@
       "file": "characters/crush-tartaruga.webp"
     },
     "boo-monstros": {
-      "status": "missing",
-      "file": "characters/boo-monstros.webp"
+      "status": "ready",
+      "file": "characters/boo-monstros.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. Boo from Monsters Inc, original animated little girl with dark brown hair in two tiny pigtails with pink ties, large brown eyes, oversized pink T-shirt, purple leggings and white socks. Whole child standing with cheerful innocent smile, no monsters.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "randall": {
-      "status": "missing",
-      "file": "characters/randall.webp"
+      "status": "ready",
+      "file": "characters/randall.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. Randall Boggs from Monsters Inc, slender purple reptilian monster, long curving tail, three short head fronds, narrowed green eyes, exactly four arms and four legs with small adhesive fingertips. Whole monster, no extra limbs beyond canonical eight.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mulher-elastica": {
       "status": "missing",
@@ -6636,8 +6776,15 @@
       "file": "characters/zeze-incriveis.webp"
     },
     "gelado": {
-      "status": "missing",
-      "file": "characters/gelado.webp"
+      "status": "ready",
+      "file": "characters/gelado.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, canonical proportions and colors. Center upper body unless entire subject specified. Entire head, hair, ears, hats, crown, raised hands and accessories fully inside frame with generous 10 percent margin above and at sides. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume symbols only when explicitly specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. Frozone Lucius Best from The Incredibles, tall slim Black adult superhero in white and ice-blue supersuit, white head covering and narrow wraparound pale-blue visor over eyes, clean-shaven face. Upper body cool confident pose, no ice covering face.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sindrome": {
       "status": "missing",
