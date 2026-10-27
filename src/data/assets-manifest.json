@@ -6791,12 +6791,26 @@
       "file": "characters/sindrome.webp"
     },
     "sally-carrera": {
-      "status": "missing",
-      "file": "characters/sally-carrera.webp"
+      "status": "ready",
+      "file": "characters/sally-carrera.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Sally Carrera from Cars, canonical light blue Porsche sports car with expressive green eyes in windshield, friendly smile in front bumper, silver wheels and small rear spoiler. Entire car in three-quarter view; no printed number plates or brand lettering.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "anton-ego": {
-      "status": "missing",
-      "file": "characters/anton-ego.webp"
+      "status": "ready",
+      "file": "characters/anton-ego.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Anton Ego from Ratatouille, very thin older food critic with long pale angular face, dark receding hair with gray temples, heavy-lidded eyes, dark burgundy turtleneck and dark jacket. One elegant hand holding a pen, thoughtful stern expression.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "russell-up": {
       "status": "missing",
@@ -6823,8 +6837,15 @@
       "file": "characters/medo.webp"
     },
     "ansiedade": {
-      "status": "missing",
-      "file": "characters/ansiedade.webp"
+      "status": "ready",
+      "file": "characters/ansiedade.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Anxiety from Inside Out 2, orange-skinned emotion with huge broad mouth, round green eyes and messy upright orange hair like a fountain, orange-and-white striped sweater and brown trousers. Whole small figure, alert worried smile.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "bing-bong": {
       "status": "missing",
@@ -6839,24 +6860,45 @@
       "file": "characters/hector-coco.webp"
     },
     "eva-wall-e": {
-      "status": "missing",
-      "file": "characters/eva-wall-e.webp"
+      "status": "ready",
+      "file": "characters/eva-wall-e.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. EVE from WALL-E, sleek small white egg-shaped hovering robot with smooth oval white head, black face visor containing two bright blue expressive eyes, two detached-looking rounded white arms and tapered hovering white body. Whole robot, exactly two arms, no legs.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "luca-paguro": {
       "status": "missing",
       "file": "characters/luca-paguro.webp"
     },
     "mei-lee": {
-      "status": "missing",
-      "file": "characters/mei-lee.webp"
+      "status": "ready",
+      "file": "characters/mei-lee.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Mei Lee from Turning Red in canonical giant red panda form, large fluffy red-orange fur, round ears with white inner patches, white eyebrows, round expressive brown eyes, light muzzle, little black nose and bushy striped tail. Whole panda, excited friendly expression.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kristoff": {
       "status": "missing",
       "file": "characters/kristoff.webp"
     },
     "sven": {
-      "status": "missing",
-      "file": "characters/sven.webp"
+      "status": "ready",
+      "file": "characters/sven.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Sven from Frozen, canonical friendly brown reindeer with cream chest fur, large branching antlers, dark nose and big brown eyes. Whole reindeer with all four hooves and entire pair of antlers fully inside frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "nala": {
       "status": "missing",
@@ -6867,8 +6909,15 @@
       "file": "characters/rafiki.webp"
     },
     "zazu": {
-      "status": "missing",
-      "file": "characters/zazu.webp"
+      "status": "ready",
+      "file": "characters/zazu.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Zazu from The Lion King, canonical small blue hornbill with white face and chest, very large curved orange-yellow beak, expressive eyelids, dark blue wings and tail. Whole bird standing with exactly two orange feet and two wings.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "mirabel": {
       "status": "missing",
@@ -6899,8 +6948,15 @@
       "file": "characters/flynn-rider.webp"
     },
     "pascal": {
-      "status": "missing",
-      "file": "characters/pascal.webp"
+      "status": "ready",
+      "file": "characters/pascal.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Pascal from Tangled, canonical tiny bright green chameleon with large rounded green eyes, small smiling mouth, tiny crest and tightly curled tail. Whole chameleon on a small branch, exactly four feet.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "sebastiao": {
       "status": "missing",
@@ -6911,8 +6967,15 @@
       "file": "characters/linguado.webp"
     },
     "rei-tritao": {
-      "status": "missing",
-      "file": "characters/rei-tritao.webp"
+      "status": "ready",
+      "file": "characters/rei-tritao.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. King Triton from The Little Mermaid, canonical powerful older merman king with long flowing white hair and beard, gold crown, gold wristbands, teal fish tail and gold trident. Whole merman, entire crown and trident tips inside frame.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "lumiere": {
       "status": "missing",
@@ -8599,84 +8662,217 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "george-clooney": {
-      "status": "missing",
-      "file": "characters/george-clooney.webp"
+      "status": "ready",
+      "file": "characters/george-clooney.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. George Clooney, recognizable adult actor with salt-and-pepper short hair, expressive dark eyebrows, brown eyes, neatly trimmed gray beard and warm smile, dark suit jacket and open-collar white shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "matt-damon": {
-      "status": "missing",
-      "file": "characters/matt-damon.webp"
+      "status": "ready",
+      "file": "characters/matt-damon.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Matt Damon, recognizable adult actor with short light brown hair, blue eyes, broad square face and friendly smile, clean-shaven, navy casual jacket over plain gray shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "ben-affleck": {
-      "status": "missing",
-      "file": "characters/ben-affleck.webp"
+      "status": "ready",
+      "file": "characters/ben-affleck.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Ben Affleck, recognizable adult actor with short dark hair, broad square jaw, brown eyes and trimmed salt-and-pepper beard, charcoal jacket over cream shirt, relaxed smile.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "christian-bale": {
-      "status": "missing",
-      "file": "characters/christian-bale.webp"
+      "status": "ready",
+      "file": "characters/christian-bale.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Christian Bale, recognizable adult actor with swept-back dark brown hair, angular long face, dark brown eyes and short beard, plain dark jacket over gray crew-neck shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "henry-cavill": {
-      "status": "missing",
-      "file": "characters/henry-cavill.webp"
+      "status": "ready",
+      "file": "characters/henry-cavill.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Henry Cavill, recognizable adult actor with thick dark wavy hair, blue eyes, broad square jaw and defined chin, clean-shaven face, navy open-collar shirt and calm friendly smile, as himself.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "robert-pattinson": {
-      "status": "missing",
-      "file": "characters/robert-pattinson.webp"
+      "status": "ready",
+      "file": "characters/robert-pattinson.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Robert Pattinson, recognizable adult actor with tousled brown hair, blue-gray eyes, angular cheekbones and strong jawline, light stubble, dark jacket over a plain white T-shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "joaquin-phoenix": {
-      "status": "missing",
-      "file": "characters/joaquin-phoenix.webp"
+      "status": "ready",
+      "file": "characters/joaquin-phoenix.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Joaquin Phoenix, recognizable adult actor with dark swept-back hair, green eyes, distinctive scar above the upper lip, angular face and short salt-and-pepper beard, simple dark jacket, as himself without makeup.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "cillian-murphy": {
-      "status": "missing",
-      "file": "characters/cillian-murphy.webp"
+      "status": "ready",
+      "file": "characters/cillian-murphy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Cillian Murphy, recognizable adult actor with short dark brown hair, vivid blue eyes, high angular cheekbones, pale skin and clean-shaven narrow face, plain black jacket and cream shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "bruce-willis": {
-      "status": "missing",
-      "file": "characters/bruce-willis.webp"
+      "status": "ready",
+      "file": "characters/bruce-willis.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Bruce Willis, recognizable older adult actor with bald head, blue eyes, broad nose and square jaw, close gray stubble, warm wry smile, plain dark blue crew-neck shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "mel-gibson": {
-      "status": "missing",
-      "file": "characters/mel-gibson.webp"
+      "status": "ready",
+      "file": "characters/mel-gibson.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Mel Gibson, recognizable older adult actor with short graying dark hair, vivid blue eyes, broad face and full short gray beard, simple dark jacket and blue shirt, friendly expression.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "russell-crowe": {
-      "status": "missing",
-      "file": "characters/russell-crowe.webp"
+      "status": "ready",
+      "file": "characters/russell-crowe.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Russell Crowe, recognizable mature adult actor with broad face, blue eyes, brushed-back gray-brown hair and short gray beard, relaxed smile, plain charcoal jacket and light shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "anthony-hopkins": {
-      "status": "missing",
-      "file": "characters/anthony-hopkins.webp"
+      "status": "ready",
+      "file": "characters/anthony-hopkins.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Anthony Hopkins, recognizable elderly actor with sparse white hair around receding bald crown, intense blue eyes, deeply lined face and gentle closed-mouth smile, black blazer and blue shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "liam-neeson": {
-      "status": "missing",
-      "file": "characters/liam-neeson.webp"
+      "status": "ready",
+      "file": "characters/liam-neeson.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Liam Neeson, recognizable mature adult actor with tall angular face, dark brown hair graying at temples, blue eyes and distinctive broad nose, light stubble, navy jacket over pale gray shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "idris-elba": {
-      "status": "missing",
-      "file": "characters/idris-elba.webp"
+      "status": "ready",
+      "file": "characters/idris-elba.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Idris Elba, recognizable adult Black actor with close-cropped dark hair, short salt-and-pepper beard, brown eyes and broad warm smile, dark blue suit jacket and open-collar white shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "marlon-brando": {
-      "status": "missing",
-      "file": "characters/marlon-brando.webp"
+      "status": "ready",
+      "file": "characters/marlon-brando.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Marlon Brando, recognizable adult actor in his classic young-adult era with short dark hair, heavy expressive eyebrows, broad square jaw and defined lips, plain black T-shirt, relaxed confident expression as himself.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "james-dean": {
-      "status": "missing",
-      "file": "characters/james-dean.webp"
+      "status": "ready",
+      "file": "characters/james-dean.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. James Dean, recognizable young adult actor with thick light brown quiff, blue eyes and angular face, plain dark jacket over white T-shirt, composed thoughtful expression, no cigarette.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "elizabeth-taylor": {
       "status": "missing",
       "file": "characters/elizabeth-taylor.webp"
     },
     "will-ferrell": {
-      "status": "missing",
-      "file": "characters/will-ferrell.webp"
+      "status": "ready",
+      "file": "characters/will-ferrell.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Will Ferrell, recognizable adult comedian with short curly light brown hair, blue eyes, broad rounded face and friendly amused smile, navy jacket over a pale blue shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "steve-carell": {
-      "status": "missing",
-      "file": "characters/steve-carell.webp"
+      "status": "ready",
+      "file": "characters/steve-carell.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Steve Carell, recognizable mature adult actor with short salt-and-pepper hair, thick dark eyebrows, brown eyes and distinctive broad nose, warm smile, dark jacket over cream shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "jack-black": {
-      "status": "missing",
-      "file": "characters/jack-black.webp"
+      "status": "ready",
+      "file": "characters/jack-black.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Accurate recognizable adult public figure as themselves, no character costume, endorsement or brand logos. Jack Black, recognizable adult actor with stocky build, medium-length shaggy dark hair and bushy salt-and-pepper beard, expressive brown eyes and exuberant open smile, plain black T-shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "kevin-hart": {
       "status": "missing",
@@ -10691,20 +10887,41 @@
       "file": "characters/magnus-carlsen.webp"
     },
     "shere-khan": {
-      "status": "missing",
-      "file": "characters/shere-khan.webp"
+      "status": "ready",
+      "file": "characters/shere-khan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Shere Khan from The Jungle Book, canonical large orange tiger with black stripes, white muzzle and cheek ruff, yellow-green eyes, stern dignified face. Whole tiger standing, all four paws and tail inside frame, no clothing.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "bagheera": {
-      "status": "missing",
-      "file": "characters/bagheera.webp"
+      "status": "ready",
+      "file": "characters/bagheera.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Bagheera from The Jungle Book, canonical sleek dark charcoal-black panther with pale gray muzzle, expressive yellow eyes, round small ears and long tail. Whole panther sitting, all paws and tail inside frame, composed wise expression.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "rei-louie": {
       "status": "missing",
       "file": "characters/rei-louie.webp"
     },
     "kaa": {
-      "status": "missing",
-      "file": "characters/kaa.webp"
+      "status": "ready",
+      "file": "characters/kaa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Kaa from The Jungle Book, canonical long tan-brown python with pale yellow belly, expressive large green eyes and narrow rounded face, coiled naturally around a simple small branch. Entire coherent single snake, one head and tail, no limbs, sly relaxed smile.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "kuzco": {
       "status": "missing",
@@ -10719,8 +10936,15 @@
       "file": "characters/poderoso-chefinho.webp"
     },
     "chicken-little": {
-      "status": "missing",
-      "file": "characters/chicken-little.webp"
+      "status": "ready",
+      "file": "characters/chicken-little.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Chicken Little from Disney animated film, canonical small white chicken boy with large green round glasses, brown eyes, bright red three-lobed comb, yellow beak, green striped T-shirt, brown shorts and orange chicken feet. Whole figure, friendly slightly nervous smile.",
+      "rightsNote": "User-directed generated fan depiction; the character remains the property of its respective rights holders.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "gepeto": {
       "status": "missing",
