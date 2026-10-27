@@ -14,12 +14,12 @@
   },
   "statuses": {
     "missing": {
-      "count": 710,
-      "percent": 47.6
+      "count": 678,
+      "percent": 45.4
     },
     "ready": {
-      "count": 782,
-      "percent": 52.4
+      "count": 814,
+      "percent": 54.6
     }
   },
   "byCategory": {
@@ -29,8 +29,8 @@
       "n1": 29,
       "n2": 105,
       "n3": 36,
-      "ready": 21,
-      "missing": 149,
+      "ready": 34,
+      "missing": 136,
       "rejected": 0
     },
     "anime": {
@@ -59,8 +59,8 @@
       "n1": 24,
       "n2": 154,
       "n3": 3,
-      "ready": 80,
-      "missing": 101,
+      "ready": 99,
+      "missing": 82,
       "rejected": 0
     },
     "comics": {
@@ -6028,10 +6028,10 @@
       "displayName": "Sócrates"
     },
     {
-      "id": "george-clooney",
+      "id": "elizabeth-taylor",
       "level": 2,
       "category": "celebrity",
-      "displayName": "George Clooney"
+      "displayName": "Elizabeth Taylor"
     },
     {
       "id": "squirtle",
@@ -6082,10 +6082,10 @@
       "displayName": "Bebeto"
     },
     {
-      "id": "matt-damon",
+      "id": "kevin-hart",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Matt Damon"
+      "displayName": "Kevin Hart"
     },
     {
       "id": "jigglypuff",
@@ -6136,10 +6136,10 @@
       "displayName": "Taffarel"
     },
     {
-      "id": "ben-affleck",
+      "id": "ben-stiller",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Ben Affleck"
+      "displayName": "Ben Stiller"
     },
     {
       "id": "meowth",
@@ -6190,10 +6190,10 @@
       "displayName": "Rogério Ceni"
     },
     {
-      "id": "christian-bale",
+      "id": "chris-rock",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Christian Bale"
+      "displayName": "Chris Rock"
     },
     {
       "id": "mewtwo",
@@ -6244,10 +6244,10 @@
       "displayName": "Dunga"
     },
     {
-      "id": "henry-cavill",
+      "id": "jamie-foxx",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Henry Cavill"
+      "displayName": "Jamie Foxx"
     },
     {
       "id": "snorlax",
@@ -6298,10 +6298,10 @@
       "displayName": "Felipão"
     },
     {
-      "id": "robert-pattinson",
+      "id": "danny-devito",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Robert Pattinson"
+      "displayName": "Danny DeVito"
     },
     {
       "id": "eevee",
@@ -6352,10 +6352,10 @@
       "displayName": "Tite"
     },
     {
-      "id": "joaquin-phoenix",
+      "id": "paul-walker",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Joaquin Phoenix"
+      "displayName": "Paul Walker"
     },
     {
       "id": "vegetto",
@@ -6406,10 +6406,10 @@
       "displayName": "Falcão"
     },
     {
-      "id": "cillian-murphy",
+      "id": "macaulay-culkin",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Cillian Murphy"
+      "displayName": "Macaulay Culkin"
     },
     {
       "id": "brock",
@@ -6460,10 +6460,10 @@
       "displayName": "Thiago Silva"
     },
     {
-      "id": "bruce-willis",
+      "id": "zac-efron",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Bruce Willis"
+      "displayName": "Zac Efron"
     },
     {
       "id": "misty",
@@ -6514,10 +6514,10 @@
       "displayName": "Casemiro"
     },
     {
-      "id": "mel-gibson",
+      "id": "antonio-banderas",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Mel Gibson"
+      "displayName": "Antonio Banderas"
     },
     {
       "id": "equipe-rocket",
@@ -6568,10 +6568,10 @@
       "displayName": "Richarlison"
     },
     {
-      "id": "russell-crowe",
+      "id": "jet-li",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Russell Crowe"
+      "displayName": "Jet Li"
     },
     {
       "id": "lucario",
@@ -6622,10 +6622,10 @@
       "displayName": "Gabigol"
     },
     {
-      "id": "anthony-hopkins",
+      "id": "shah-rukh-khan",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Anthony Hopkins"
+      "displayName": "Shah Rukh Khan"
     },
     {
       "id": "greninja",
@@ -6670,10 +6670,10 @@
       "displayName": "Johan Cruyff"
     },
     {
-      "id": "liam-neeson",
+      "id": "halle-berry",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Liam Neeson"
+      "displayName": "Halle Berry"
     },
     {
       "id": "mew",
@@ -6718,10 +6718,10 @@
       "displayName": "Thierry Henry"
     },
     {
-      "id": "idris-elba",
+      "id": "salma-hayek",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Idris Elba"
+      "displayName": "Salma Hayek"
     },
     {
       "id": "lugia",
@@ -6766,10 +6766,10 @@
       "displayName": "Andrés Iniesta"
     },
     {
-      "id": "marlon-brando",
+      "id": "penelope-cruz",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Marlon Brando"
+      "displayName": "Penélope Cruz"
     },
     {
       "id": "gyarados",
@@ -6814,10 +6814,10 @@
       "displayName": "Xavi"
     },
     {
-      "id": "james-dean",
+      "id": "sofia-vergara",
       "level": 2,
       "category": "celebrity",
-      "displayName": "James Dean"
+      "displayName": "Sofía Vergara"
     },
     {
       "id": "dragonite",
@@ -6862,10 +6862,10 @@
       "displayName": "Sergio Ramos"
     },
     {
-      "id": "elizabeth-taylor",
+      "id": "charlize-theron",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Elizabeth Taylor"
+      "displayName": "Charlize Theron"
     },
     {
       "id": "onix",
@@ -6910,10 +6910,10 @@
       "displayName": "Iker Casillas"
     },
     {
-      "id": "will-ferrell",
+      "id": "kate-winslet",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Will Ferrell"
+      "displayName": "Kate Winslet"
     },
     {
       "id": "togepi",
@@ -6958,10 +6958,10 @@
       "displayName": "Gianluigi Buffon"
     },
     {
-      "id": "steve-carell",
+      "id": "kristen-stewart",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Steve Carell"
+      "displayName": "Kristen Stewart"
     },
     {
       "id": "blastoise",
@@ -7006,10 +7006,10 @@
       "displayName": "Andrea Pirlo"
     },
     {
-      "id": "jack-black",
+      "id": "reese-witherspoon",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Jack Black"
+      "displayName": "Reese Witherspoon"
     },
     {
       "id": "venusaur",
@@ -7054,10 +7054,10 @@
       "displayName": "Wayne Rooney"
     },
     {
-      "id": "kevin-hart",
+      "id": "drew-barrymore",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Kevin Hart"
+      "displayName": "Drew Barrymore"
     },
     {
       "id": "raichu",
@@ -7096,10 +7096,10 @@
       "displayName": "Didier Drogba"
     },
     {
-      "id": "ben-stiller",
+      "id": "lindsay-lohan",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Ben Stiller"
+      "displayName": "Lindsay Lohan"
     },
     {
       "id": "magikarp",
@@ -7138,10 +7138,10 @@
       "displayName": "Samuel Eto'o"
     },
     {
-      "id": "chris-rock",
+      "id": "hilary-duff",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Chris Rock"
+      "displayName": "Hilary Duff"
     },
     {
       "id": "ditto",
@@ -7180,10 +7180,10 @@
       "displayName": "Kevin De Bruyne"
     },
     {
-      "id": "jamie-foxx",
+      "id": "whoopi-goldberg",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Jamie Foxx"
+      "displayName": "Whoopi Goldberg"
     },
     {
       "id": "ferb",
@@ -7216,10 +7216,10 @@
       "displayName": "Harry Kane"
     },
     {
-      "id": "danny-devito",
+      "id": "viola-davis",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Danny DeVito"
+      "displayName": "Viola Davis"
     },
     {
       "id": "doofenshmirtz",
@@ -7252,10 +7252,10 @@
       "displayName": "Jude Bellingham"
     },
     {
-      "id": "paul-walker",
+      "id": "sydney-sweeney",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Paul Walker"
+      "displayName": "Sydney Sweeney"
     },
     {
       "id": "dipper-pines",
@@ -7288,10 +7288,10 @@
       "displayName": "Lamine Yamal"
     },
     {
-      "id": "macaulay-culkin",
+      "id": "anya-taylor-joy",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Macaulay Culkin"
+      "displayName": "Anya Taylor-Joy"
     },
     {
       "id": "mabel-pines",
@@ -7324,10 +7324,10 @@
       "displayName": "Luis Suárez"
     },
     {
-      "id": "zac-efron",
+      "id": "ellen-degeneres",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Zac Efron"
+      "displayName": "Ellen DeGeneres"
     },
     {
       "id": "bill-cipher",
@@ -7360,10 +7360,10 @@
       "displayName": "Antoine Griezmann"
     },
     {
-      "id": "antonio-banderas",
+      "id": "jimmy-fallon",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Antonio Banderas"
+      "displayName": "Jimmy Fallon"
     },
     {
       "id": "maggie-simpson",
@@ -7396,10 +7396,10 @@
       "displayName": "Karim Benzema"
     },
     {
-      "id": "jet-li",
+      "id": "gordon-ramsay",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Jet Li"
+      "displayName": "Gordon Ramsay"
     },
     {
       "id": "ned-flanders",
@@ -7432,10 +7432,10 @@
       "displayName": "Manuel Neuer"
     },
     {
-      "id": "shah-rukh-khan",
+      "id": "paris-hilton",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Shah Rukh Khan"
+      "displayName": "Paris Hilton"
     },
     {
       "id": "krusty",
@@ -7462,10 +7462,10 @@
       "displayName": "Pep Guardiola"
     },
     {
-      "id": "halle-berry",
+      "id": "kylie-jenner",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Halle Berry"
+      "displayName": "Kylie Jenner"
     },
     {
       "id": "milhouse",
@@ -7492,10 +7492,10 @@
       "displayName": "José Mourinho"
     },
     {
-      "id": "salma-hayek",
+      "id": "kendall-jenner",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Salma Hayek"
+      "displayName": "Kendall Jenner"
     },
     {
       "id": "fry-futurama",
@@ -7522,10 +7522,10 @@
       "displayName": "Carlo Ancelotti"
     },
     {
-      "id": "penelope-cruz",
+      "id": "jeff-bezos",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Penélope Cruz"
+      "displayName": "Jeff Bezos"
     },
     {
       "id": "stewie-griffin",
@@ -7552,10 +7552,10 @@
       "displayName": "Jürgen Klopp"
     },
     {
-      "id": "sofia-vergara",
+      "id": "pewdiepie",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Sofía Vergara"
+      "displayName": "PewDiePie"
     },
     {
       "id": "estelar",
@@ -7582,10 +7582,10 @@
       "displayName": "Kevin Durant"
     },
     {
-      "id": "charlize-theron",
+      "id": "khaby-lame",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Charlize Theron"
+      "displayName": "Khaby Lame"
     },
     {
       "id": "ciborgue",
@@ -7612,10 +7612,10 @@
       "displayName": "Larry Bird"
     },
     {
-      "id": "kate-winslet",
+      "id": "eliana",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Kate Winslet"
+      "displayName": "Eliana"
     },
     {
       "id": "pinky",
@@ -7642,10 +7642,10 @@
       "displayName": "Kareem Abdul-Jabbar"
     },
     {
-      "id": "kristen-stewart",
+      "id": "serginho-groisman",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Kristen Stewart"
+      "displayName": "Serginho Groisman"
     },
     {
       "id": "cerebro",
@@ -7672,10 +7672,10 @@
       "displayName": "Dennis Rodman"
     },
     {
-      "id": "reese-witherspoon",
+      "id": "pedro-bial",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Reese Witherspoon"
+      "displayName": "Pedro Bial"
     },
     {
       "id": "mr-meeseeks",
@@ -7702,10 +7702,10 @@
       "displayName": "Andre Agassi"
     },
     {
-      "id": "drew-barrymore",
+      "id": "tiago-leifert",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Drew Barrymore"
+      "displayName": "Tiago Leifert"
     },
     {
       "id": "russell-up",
@@ -7726,10 +7726,10 @@
       "displayName": "Maria Sharapova"
     },
     {
-      "id": "lindsay-lohan",
+      "id": "boninho",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Lindsay Lohan"
+      "displayName": "Boninho"
     },
     {
       "id": "dug",
@@ -7750,10 +7750,10 @@
       "displayName": "Carlos Alcaraz"
     },
     {
-      "id": "hilary-duff",
+      "id": "raul-gil",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Hilary Duff"
+      "displayName": "Raul Gil"
     },
     {
       "id": "tristeza",
@@ -7774,10 +7774,10 @@
       "displayName": "Nelson Piquet"
     },
     {
-      "id": "whoopi-goldberg",
+      "id": "datena",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Whoopi Goldberg"
+      "displayName": "Datena"
     },
     {
       "id": "raiva",
@@ -7798,10 +7798,10 @@
       "displayName": "Emerson Fittipaldi"
     },
     {
-      "id": "viola-davis",
+      "id": "adriane-galisteu",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Viola Davis"
+      "displayName": "Adriane Galisteu"
     },
     {
       "id": "nojinho",
@@ -7822,10 +7822,10 @@
       "displayName": "Felipe Massa"
     },
     {
-      "id": "sydney-sweeney",
+      "id": "ana-hickmann",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Sydney Sweeney"
+      "displayName": "Ana Hickmann"
     },
     {
       "id": "medo",
@@ -7846,16 +7846,16 @@
       "displayName": "Fernando Alonso"
     },
     {
-      "id": "anya-taylor-joy",
+      "id": "carla-perez",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Anya Taylor-Joy"
+      "displayName": "Carla Perez"
     },
     {
-      "id": "ansiedade",
+      "id": "miguel-coco",
       "level": 2,
       "category": "animation",
-      "displayName": "Ansiedade"
+      "displayName": "Miguel"
     },
     {
       "id": "camila-cabello",
@@ -7870,16 +7870,16 @@
       "displayName": "Sebastian Vettel"
     },
     {
-      "id": "ellen-degeneres",
+      "id": "sergio-mallandro",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Ellen DeGeneres"
+      "displayName": "Sérgio Mallandro"
     },
     {
-      "id": "miguel-coco",
+      "id": "luca-paguro",
       "level": 2,
       "category": "animation",
-      "displayName": "Miguel"
+      "displayName": "Luca"
     },
     {
       "id": "demi-lovato",
@@ -7894,16 +7894,16 @@
       "displayName": "José Aldo"
     },
     {
-      "id": "jimmy-fallon",
+      "id": "cid-moreira",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Jimmy Fallon"
+      "displayName": "Cid Moreira"
     },
     {
-      "id": "eva-wall-e",
+      "id": "kristoff",
       "level": 2,
       "category": "animation",
-      "displayName": "EVA"
+      "displayName": "Kristoff"
     },
     {
       "id": "shawn-mendes",
@@ -7918,16 +7918,16 @@
       "displayName": "Amanda Nunes"
     },
     {
-      "id": "gordon-ramsay",
+      "id": "chico-anysio",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Gordon Ramsay"
+      "displayName": "Chico Anysio"
     },
     {
-      "id": "luca-paguro",
+      "id": "nala",
       "level": 2,
       "category": "animation",
-      "displayName": "Luca"
+      "displayName": "Nala"
     },
     {
       "id": "sam-smith",
@@ -7942,16 +7942,16 @@
       "displayName": "Minotauro"
     },
     {
-      "id": "paris-hilton",
+      "id": "dede-santana",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Paris Hilton"
+      "displayName": "Dedé Santana"
     },
     {
-      "id": "kristoff",
+      "id": "rafiki",
       "level": 2,
       "category": "animation",
-      "displayName": "Kristoff"
+      "displayName": "Rafiki"
     },
     {
       "id": "sabrina-carpenter",
@@ -7966,16 +7966,16 @@
       "displayName": "Vitor Belfort"
     },
     {
-      "id": "kylie-jenner",
+      "id": "zacarias",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Kylie Jenner"
+      "displayName": "Zacarias"
     },
     {
-      "id": "nala",
+      "id": "mirabel",
       "level": 2,
       "category": "animation",
-      "displayName": "Nala"
+      "displayName": "Mirabel"
     },
     {
       "id": "notorious-big",
@@ -7990,16 +7990,16 @@
       "displayName": "Alex Poatan"
     },
     {
-      "id": "kendall-jenner",
+      "id": "tom-cavalcante",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Kendall Jenner"
+      "displayName": "Tom Cavalcante"
     },
     {
-      "id": "rafiki",
+      "id": "bruno-madrigal",
       "level": 2,
       "category": "animation",
-      "displayName": "Rafiki"
+      "displayName": "Bruno Madrigal"
     },
     {
       "id": "dr-dre",
@@ -8014,16 +8014,16 @@
       "displayName": "Popó"
     },
     {
-      "id": "jeff-bezos",
+      "id": "fabio-porchat",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Jeff Bezos"
+      "displayName": "Fábio Porchat"
     },
     {
-      "id": "mirabel",
+      "id": "judy-hopps",
       "level": 2,
       "category": "animation",
-      "displayName": "Mirabel"
+      "displayName": "Judy Hopps"
     },
     {
       "id": "ice-cube",
@@ -8038,16 +8038,16 @@
       "displayName": "Floyd Mayweather"
     },
     {
-      "id": "pewdiepie",
+      "id": "marcelo-adnet",
       "level": 2,
       "category": "celebrity",
-      "displayName": "PewDiePie"
+      "displayName": "Marcelo Adnet"
     },
     {
-      "id": "bruno-madrigal",
+      "id": "nick-wilde",
       "level": 2,
       "category": "animation",
-      "displayName": "Bruno Madrigal"
+      "displayName": "Nick Wilde"
     },
     {
       "id": "kendrick-lamar",
@@ -8062,16 +8062,16 @@
       "displayName": "Manny Pacquiao"
     },
     {
-      "id": "khaby-lame",
+      "id": "danilo-gentili",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Khaby Lame"
+      "displayName": "Danilo Gentili"
     },
     {
-      "id": "judy-hopps",
+      "id": "flynn-rider",
       "level": 2,
       "category": "animation",
-      "displayName": "Judy Hopps"
+      "displayName": "Flynn Rider"
     },
     {
       "id": "travis-scott",
@@ -8086,16 +8086,16 @@
       "displayName": "Canelo Álvarez"
     },
     {
-      "id": "eliana",
+      "id": "leandro-hassum",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Eliana"
+      "displayName": "Leandro Hassum"
     },
     {
-      "id": "nick-wilde",
+      "id": "sebastiao",
       "level": 2,
       "category": "animation",
-      "displayName": "Nick Wilde"
+      "displayName": "Sebastião"
     },
     {
       "id": "lil-wayne",
@@ -8110,16 +8110,16 @@
       "displayName": "Khabib Nurmagomedov"
     },
     {
-      "id": "serginho-groisman",
+      "id": "maisa",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Serginho Groisman"
+      "displayName": "Maisa"
     },
     {
-      "id": "flynn-rider",
+      "id": "linguado",
       "level": 2,
       "category": "animation",
-      "displayName": "Flynn Rider"
+      "displayName": "Linguado"
     },
     {
       "id": "lil-nas-x",
@@ -8134,16 +8134,16 @@
       "displayName": "Ronda Rousey"
     },
     {
-      "id": "pedro-bial",
+      "id": "larissa-manoela",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Pedro Bial"
+      "displayName": "Larissa Manoela"
     },
     {
-      "id": "sebastiao",
+      "id": "lumiere",
       "level": 2,
       "category": "animation",
-      "displayName": "Sebastião"
+      "displayName": "Lumière"
     },
     {
       "id": "marshmello",
@@ -8158,16 +8158,16 @@
       "displayName": "Nadia Comăneci"
     },
     {
-      "id": "tiago-leifert",
+      "id": "claudia-raia",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Tiago Leifert"
+      "displayName": "Claudia Raia"
     },
     {
-      "id": "linguado",
+      "id": "gaston",
       "level": 2,
       "category": "animation",
-      "displayName": "Linguado"
+      "displayName": "Gaston"
     },
     {
       "id": "david-guetta",
@@ -8182,16 +8182,16 @@
       "displayName": "Daiane dos Santos"
     },
     {
-      "id": "boninho",
+      "id": "caua-reymond",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Boninho"
+      "displayName": "Cauã Reymond"
     },
     {
-      "id": "lumiere",
+      "id": "jafar",
       "level": 2,
       "category": "animation",
-      "displayName": "Lumière"
+      "displayName": "Jafar"
     },
     {
       "id": "andrea-bocelli",
@@ -8206,16 +8206,16 @@
       "displayName": "César Cielo"
     },
     {
-      "id": "raul-gil",
+      "id": "reynaldo-gianecchini",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Raul Gil"
+      "displayName": "Reynaldo Gianecchini"
     },
     {
-      "id": "gaston",
+      "id": "mushu",
       "level": 2,
       "category": "animation",
-      "displayName": "Gaston"
+      "displayName": "Mushu"
     },
     {
       "id": "luciano-pavarotti",
@@ -8230,16 +8230,16 @@
       "displayName": "Giba"
     },
     {
-      "id": "datena",
+      "id": "grazi-massafera",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Datena"
+      "displayName": "Grazi Massafera"
     },
     {
-      "id": "jafar",
+      "id": "hades-disney",
       "level": 2,
       "category": "animation",
-      "displayName": "Jafar"
+      "displayName": "Hades"
     },
     {
       "id": "marc-anthony",
@@ -8254,16 +8254,16 @@
       "displayName": "Bernardinho"
     },
     {
-      "id": "adriane-galisteu",
+      "id": "paolla-oliveira",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Adriane Galisteu"
+      "displayName": "Paolla Oliveira"
     },
     {
-      "id": "mushu",
+      "id": "rainha-ma",
       "level": 2,
       "category": "animation",
-      "displayName": "Mushu"
+      "displayName": "Rainha Má"
     },
     {
       "id": "maluma",
@@ -8278,16 +8278,16 @@
       "displayName": "Kelly Slater"
     },
     {
-      "id": "ana-hickmann",
+      "id": "deborah-secco",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Ana Hickmann"
+      "displayName": "Deborah Secco"
     },
     {
-      "id": "hades-disney",
+      "id": "alice-pais-das-maravilhas",
       "level": 2,
       "category": "animation",
-      "displayName": "Hades"
+      "displayName": "Alice"
     },
     {
       "id": "luis-fonsi",
@@ -8302,16 +8302,16 @@
       "displayName": "Tony Hawk"
     },
     {
-      "id": "carla-perez",
+      "id": "tais-araujo",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Carla Perez"
+      "displayName": "Taís Araújo"
     },
     {
-      "id": "rainha-ma",
+      "id": "gato-de-cheshire",
       "level": 2,
       "category": "animation",
-      "displayName": "Rainha Má"
+      "displayName": "Gato de Cheshire"
     },
     {
       "id": "gloria-estefan",
@@ -8326,16 +8326,16 @@
       "displayName": "The Undertaker"
     },
     {
-      "id": "sergio-mallandro",
+      "id": "antonio-fagundes",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Sérgio Mallandro"
+      "displayName": "Antônio Fagundes"
     },
     {
-      "id": "alice-pais-das-maravilhas",
+      "id": "chapeleiro-maluco",
       "level": 2,
       "category": "animation",
-      "displayName": "Alice"
+      "displayName": "Chapeleiro Maluco"
     },
     {
       "id": "julio-iglesias",
@@ -8350,16 +8350,16 @@
       "displayName": "Rey Mysterio"
     },
     {
-      "id": "cid-moreira",
+      "id": "susana-vieira",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Cid Moreira"
+      "displayName": "Susana Vieira"
     },
     {
-      "id": "gato-de-cheshire",
+      "id": "tigrao",
       "level": 2,
       "category": "animation",
-      "displayName": "Gato de Cheshire"
+      "displayName": "Tigrão"
     },
     {
       "id": "thalia",
@@ -8374,16 +8374,16 @@
       "displayName": "Stone Cold Steve Austin"
     },
     {
-      "id": "chico-anysio",
+      "id": "isis-valverde",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Chico Anysio"
+      "displayName": "Isis Valverde"
     },
     {
-      "id": "chapeleiro-maluco",
+      "id": "leitao",
       "level": 2,
       "category": "animation",
-      "displayName": "Chapeleiro Maluco"
+      "displayName": "Leitão"
     },
     {
       "id": "jungkook",
@@ -8398,16 +8398,16 @@
       "displayName": "Magnus Carlsen"
     },
     {
-      "id": "dede-santana",
+      "id": "marina-ruy-barbosa",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Dedé Santana"
+      "displayName": "Marina Ruy Barbosa"
     },
     {
-      "id": "tigrao",
+      "id": "bisonho",
       "level": 2,
       "category": "animation",
-      "displayName": "Tigrão"
+      "displayName": "Bisonho"
     },
     {
       "id": "lisa-blackpink",
@@ -8422,16 +8422,16 @@
       "displayName": "Daniel Alves"
     },
     {
-      "id": "zacarias",
+      "id": "giovanna-antonelli",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Zacarias"
+      "displayName": "Giovanna Antonelli"
     },
     {
-      "id": "leitao",
+      "id": "lilo",
       "level": 2,
       "category": "animation",
-      "displayName": "Leitão"
+      "displayName": "Lilo"
     },
     {
       "id": "rose-blackpink",
@@ -8446,46 +8446,10 @@
       "displayName": "Philippe Coutinho"
     },
     {
-      "id": "tom-cavalcante",
+      "id": "kefera",
       "level": 2,
       "category": "celebrity",
-      "displayName": "Tom Cavalcante"
-    },
-    {
-      "id": "bisonho",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Bisonho"
-    },
-    {
-      "id": "vinicius-de-moraes",
-      "level": 2,
-      "category": "music",
-      "displayName": "Vinicius de Moraes"
-    },
-    {
-      "id": "fabio-porchat",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Fábio Porchat"
-    },
-    {
-      "id": "lilo",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Lilo"
-    },
-    {
-      "id": "joao-gilberto",
-      "level": 2,
-      "category": "music",
-      "displayName": "João Gilberto"
-    },
-    {
-      "id": "marcelo-adnet",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Marcelo Adnet"
+      "displayName": "Kéfera"
     },
     {
       "id": "vanellope",
@@ -8494,310 +8458,10 @@
       "displayName": "Vanellope"
     },
     {
-      "id": "erasmo-carlos",
+      "id": "vinicius-de-moraes",
       "level": 2,
       "category": "music",
-      "displayName": "Erasmo Carlos"
-    },
-    {
-      "id": "danilo-gentili",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Danilo Gentili"
-    },
-    {
-      "id": "tiana",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Tiana"
-    },
-    {
-      "id": "cassia-eller",
-      "level": 2,
-      "category": "music",
-      "displayName": "Cássia Eller"
-    },
-    {
-      "id": "leandro-hassum",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Leandro Hassum"
-    },
-    {
-      "id": "tambor",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Tambor"
-    },
-    {
-      "id": "marisa-monte",
-      "level": 2,
-      "category": "music",
-      "displayName": "Marisa Monte"
-    },
-    {
-      "id": "maisa",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Maisa"
-    },
-    {
-      "id": "grilo-falante",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Grilo Falante"
-    },
-    {
-      "id": "samuel-rosa",
-      "level": 2,
-      "category": "music",
-      "displayName": "Samuel Rosa"
-    },
-    {
-      "id": "larissa-manoela",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Larissa Manoela"
-    },
-    {
-      "id": "lord-farquaad",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Lord Farquaad"
-    },
-    {
-      "id": "nando-reis",
-      "level": 2,
-      "category": "music",
-      "displayName": "Nando Reis"
-    },
-    {
-      "id": "claudia-raia",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Claudia Raia"
-    },
-    {
-      "id": "soluco",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Soluço"
-    },
-    {
-      "id": "herbert-vianna",
-      "level": 2,
-      "category": "music",
-      "displayName": "Herbert Vianna"
-    },
-    {
-      "id": "caua-reymond",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Cauã Reymond"
-    },
-    {
-      "id": "alex-o-leao",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Alex, o Leão"
-    },
-    {
-      "id": "chorao",
-      "level": 2,
-      "category": "music",
-      "displayName": "Chorão"
-    },
-    {
-      "id": "reynaldo-gianecchini",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Reynaldo Gianecchini"
-    },
-    {
-      "id": "marty-a-zebra",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Marty, a Zebra"
-    },
-    {
-      "id": "pitty",
-      "level": 2,
-      "category": "music",
-      "displayName": "Pitty"
-    },
-    {
-      "id": "grazi-massafera",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Grazi Massafera"
-    },
-    {
-      "id": "pinguins-de-madagascar",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Pinguins de Madagascar"
-    },
-    {
-      "id": "dinho-mamonas",
-      "level": 2,
-      "category": "music",
-      "displayName": "Dinho"
-    },
-    {
-      "id": "paolla-oliveira",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Paolla Oliveira"
-    },
-    {
-      "id": "agnes",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Agnes"
-    },
-    {
-      "id": "iza",
-      "level": 2,
-      "category": "music",
-      "displayName": "IZA"
-    },
-    {
-      "id": "deborah-secco",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Deborah Secco"
-    },
-    {
-      "id": "megamente",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Megamente"
-    },
-    {
-      "id": "luisa-sonza",
-      "level": 2,
-      "category": "music",
-      "displayName": "Luísa Sonza"
-    },
-    {
-      "id": "tais-araujo",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Taís Araújo"
-    },
-    {
-      "id": "poppy-trolls",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Poppy"
-    },
-    {
-      "id": "gloria-groove",
-      "level": 2,
-      "category": "music",
-      "displayName": "Gloria Groove"
-    },
-    {
-      "id": "antonio-fagundes",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Antônio Fagundes"
-    },
-    {
-      "id": "jack-skellington",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Jack Skellington"
-    },
-    {
-      "id": "sidney-magal",
-      "level": 2,
-      "category": "music",
-      "displayName": "Sidney Magal"
-    },
-    {
-      "id": "susana-vieira",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Susana Vieira"
-    },
-    {
-      "id": "shere-khan",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Shere Khan"
-    },
-    {
-      "id": "reginaldo-rossi",
-      "level": 2,
-      "category": "music",
-      "displayName": "Reginaldo Rossi"
-    },
-    {
-      "id": "isis-valverde",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Isis Valverde"
-    },
-    {
-      "id": "bagheera",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Bagheera"
-    },
-    {
-      "id": "gretchen",
-      "level": 2,
-      "category": "music",
-      "displayName": "Gretchen"
-    },
-    {
-      "id": "marina-ruy-barbosa",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Marina Ruy Barbosa"
-    },
-    {
-      "id": "kuzco",
-      "level": 2,
-      "category": "animation",
-      "displayName": "Kuzco"
-    },
-    {
-      "id": "joelma",
-      "level": 2,
-      "category": "music",
-      "displayName": "Joelma"
-    },
-    {
-      "id": "giovanna-antonelli",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Giovanna Antonelli"
-    },
-    {
-      "id": "poderoso-chefinho",
-      "level": 2,
-      "category": "animation",
-      "displayName": "O Poderoso Chefinho"
-    },
-    {
-      "id": "chitaozinho",
-      "level": 2,
-      "category": "music",
-      "displayName": "Chitãozinho"
-    },
-    {
-      "id": "kefera",
-      "level": 2,
-      "category": "celebrity",
-      "displayName": "Kéfera"
-    },
-    {
-      "id": "xororo",
-      "level": 2,
-      "category": "music",
-      "displayName": "Xororó"
+      "displayName": "Vinicius de Moraes"
     },
     {
       "id": "gaules",
@@ -8806,10 +8470,16 @@
       "displayName": "Gaules"
     },
     {
-      "id": "paula-fernandes",
+      "id": "tiana",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Tiana"
+    },
+    {
+      "id": "joao-gilberto",
       "level": 2,
       "category": "music",
-      "displayName": "Paula Fernandes"
+      "displayName": "João Gilberto"
     },
     {
       "id": "luva-de-pedreiro",
@@ -8818,10 +8488,16 @@
       "displayName": "Luva de Pedreiro"
     },
     {
-      "id": "simone-mendes",
+      "id": "tambor",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Tambor"
+    },
+    {
+      "id": "erasmo-carlos",
       "level": 2,
       "category": "music",
-      "displayName": "Simone Mendes"
+      "displayName": "Erasmo Carlos"
     },
     {
       "id": "juliette",
@@ -8830,10 +8506,16 @@
       "displayName": "Juliette"
     },
     {
-      "id": "ana-castela",
+      "id": "grilo-falante",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Grilo Falante"
+    },
+    {
+      "id": "cassia-eller",
       "level": 2,
       "category": "music",
-      "displayName": "Ana Castela"
+      "displayName": "Cássia Eller"
     },
     {
       "id": "gil-do-vigor",
@@ -8842,10 +8524,16 @@
       "displayName": "Gil do Vigor"
     },
     {
-      "id": "joao-gomes",
+      "id": "lord-farquaad",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Lord Farquaad"
+    },
+    {
+      "id": "marisa-monte",
       "level": 2,
       "category": "music",
-      "displayName": "João Gomes"
+      "displayName": "Marisa Monte"
     },
     {
       "id": "adriana-lima",
@@ -8854,10 +8542,16 @@
       "displayName": "Adriana Lima"
     },
     {
-      "id": "alcione",
+      "id": "soluco",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Soluço"
+    },
+    {
+      "id": "samuel-rosa",
       "level": 2,
       "category": "music",
-      "displayName": "Alcione"
+      "displayName": "Samuel Rosa"
     },
     {
       "id": "naomi-campbell",
@@ -8866,16 +8560,184 @@
       "displayName": "Naomi Campbell"
     },
     {
-      "id": "beth-carvalho",
+      "id": "alex-o-leao",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Alex, o Leão"
+    },
+    {
+      "id": "nando-reis",
       "level": 2,
       "category": "music",
-      "displayName": "Beth Carvalho"
+      "displayName": "Nando Reis"
     },
     {
       "id": "cindy-crawford",
       "level": 2,
       "category": "celebrity",
       "displayName": "Cindy Crawford"
+    },
+    {
+      "id": "marty-a-zebra",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Marty, a Zebra"
+    },
+    {
+      "id": "herbert-vianna",
+      "level": 2,
+      "category": "music",
+      "displayName": "Herbert Vianna"
+    },
+    {
+      "id": "pinguins-de-madagascar",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Pinguins de Madagascar"
+    },
+    {
+      "id": "chorao",
+      "level": 2,
+      "category": "music",
+      "displayName": "Chorão"
+    },
+    {
+      "id": "agnes",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Agnes"
+    },
+    {
+      "id": "pitty",
+      "level": 2,
+      "category": "music",
+      "displayName": "Pitty"
+    },
+    {
+      "id": "megamente",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Megamente"
+    },
+    {
+      "id": "dinho-mamonas",
+      "level": 2,
+      "category": "music",
+      "displayName": "Dinho"
+    },
+    {
+      "id": "poppy-trolls",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Poppy"
+    },
+    {
+      "id": "iza",
+      "level": 2,
+      "category": "music",
+      "displayName": "IZA"
+    },
+    {
+      "id": "jack-skellington",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Jack Skellington"
+    },
+    {
+      "id": "luisa-sonza",
+      "level": 2,
+      "category": "music",
+      "displayName": "Luísa Sonza"
+    },
+    {
+      "id": "kuzco",
+      "level": 2,
+      "category": "animation",
+      "displayName": "Kuzco"
+    },
+    {
+      "id": "gloria-groove",
+      "level": 2,
+      "category": "music",
+      "displayName": "Gloria Groove"
+    },
+    {
+      "id": "poderoso-chefinho",
+      "level": 2,
+      "category": "animation",
+      "displayName": "O Poderoso Chefinho"
+    },
+    {
+      "id": "sidney-magal",
+      "level": 2,
+      "category": "music",
+      "displayName": "Sidney Magal"
+    },
+    {
+      "id": "reginaldo-rossi",
+      "level": 2,
+      "category": "music",
+      "displayName": "Reginaldo Rossi"
+    },
+    {
+      "id": "gretchen",
+      "level": 2,
+      "category": "music",
+      "displayName": "Gretchen"
+    },
+    {
+      "id": "joelma",
+      "level": 2,
+      "category": "music",
+      "displayName": "Joelma"
+    },
+    {
+      "id": "chitaozinho",
+      "level": 2,
+      "category": "music",
+      "displayName": "Chitãozinho"
+    },
+    {
+      "id": "xororo",
+      "level": 2,
+      "category": "music",
+      "displayName": "Xororó"
+    },
+    {
+      "id": "paula-fernandes",
+      "level": 2,
+      "category": "music",
+      "displayName": "Paula Fernandes"
+    },
+    {
+      "id": "simone-mendes",
+      "level": 2,
+      "category": "music",
+      "displayName": "Simone Mendes"
+    },
+    {
+      "id": "ana-castela",
+      "level": 2,
+      "category": "music",
+      "displayName": "Ana Castela"
+    },
+    {
+      "id": "joao-gomes",
+      "level": 2,
+      "category": "music",
+      "displayName": "João Gomes"
+    },
+    {
+      "id": "alcione",
+      "level": 2,
+      "category": "music",
+      "displayName": "Alcione"
+    },
+    {
+      "id": "beth-carvalho",
+      "level": 2,
+      "category": "music",
+      "displayName": "Beth Carvalho"
     },
     {
       "id": "martinho-da-vila",
@@ -9244,10 +9106,10 @@
       "displayName": "Skye"
     },
     {
-      "id": "sally-carrera",
+      "id": "bing-bong",
       "level": 3,
       "category": "animation",
-      "displayName": "Sally Carrera"
+      "displayName": "Bing Bong"
     },
     {
       "id": "tom-nook",
@@ -9268,10 +9130,10 @@
       "displayName": "Ralph Wiggum"
     },
     {
-      "id": "anton-ego",
+      "id": "hector-coco",
       "level": 3,
       "category": "animation",
-      "displayName": "Anton Ego"
+      "displayName": "Héctor"
     },
     {
       "id": "isabelle-animal-crossing",
@@ -9292,10 +9154,10 @@
       "displayName": "Vovô Simpson"
     },
     {
-      "id": "bing-bong",
+      "id": "luisa-madrigal",
       "level": 3,
       "category": "animation",
-      "displayName": "Bing Bong"
+      "displayName": "Luisa Madrigal"
     },
     {
       "id": "lakitu",
@@ -9316,10 +9178,10 @@
       "displayName": "Sideshow Bob"
     },
     {
-      "id": "hector-coco",
+      "id": "heihei",
       "level": 3,
       "category": "animation",
-      "displayName": "Héctor"
+      "displayName": "Heihei"
     },
     {
       "id": "dixie-kong",
@@ -9340,10 +9202,10 @@
       "displayName": "Candace"
     },
     {
-      "id": "mei-lee",
+      "id": "madame-samovar",
       "level": 3,
       "category": "animation",
-      "displayName": "Mei Lee"
+      "displayName": "Madame Samovar"
     },
     {
       "id": "noturno",
@@ -9358,10 +9220,10 @@
       "displayName": "Tio Stan"
     },
     {
-      "id": "sven",
+      "id": "abu",
       "level": 3,
       "category": "animation",
-      "displayName": "Sven"
+      "displayName": "Abu"
     },
     {
       "id": "gambit",
@@ -9370,10 +9232,10 @@
       "displayName": "Gambit"
     },
     {
-      "id": "zazu",
+      "id": "iago",
       "level": 3,
       "category": "animation",
-      "displayName": "Zazu"
+      "displayName": "Iago"
     },
     {
       "id": "blade",
@@ -9382,10 +9244,10 @@
       "displayName": "Blade"
     },
     {
-      "id": "luisa-madrigal",
+      "id": "megara",
       "level": 3,
       "category": "animation",
-      "displayName": "Luisa Madrigal"
+      "displayName": "Megara"
     },
     {
       "id": "asa-noturna",
@@ -9394,10 +9256,10 @@
       "displayName": "Asa Noturna"
     },
     {
-      "id": "heihei",
+      "id": "robin-hood-disney",
       "level": 3,
       "category": "animation",
-      "displayName": "Heihei"
+      "displayName": "Robin Hood"
     },
     {
       "id": "darkseid",
@@ -9406,10 +9268,10 @@
       "displayName": "Darkseid"
     },
     {
-      "id": "pascal",
+      "id": "tai-lung",
       "level": 3,
       "category": "animation",
-      "displayName": "Pascal"
+      "displayName": "Tai Lung"
     },
     {
       "id": "senhor-frio",
@@ -9418,10 +9280,10 @@
       "displayName": "Senhor Frio"
     },
     {
-      "id": "rei-tritao",
+      "id": "gloria-hipopotamo",
       "level": 3,
       "category": "animation",
-      "displayName": "Rei Tritão"
+      "displayName": "Gloria, a Hipopótamo"
     },
     {
       "id": "rorschach",
@@ -9430,10 +9292,10 @@
       "displayName": "Rorschach"
     },
     {
-      "id": "madame-samovar",
+      "id": "tronco-trolls",
       "level": 3,
       "category": "animation",
-      "displayName": "Madame Samovar"
+      "displayName": "Tronco"
     },
     {
       "id": "gamora",
@@ -9442,10 +9304,10 @@
       "displayName": "Gamora"
     },
     {
-      "id": "abu",
+      "id": "spirit",
       "level": 3,
       "category": "animation",
-      "displayName": "Abu"
+      "displayName": "Spirit"
     },
     {
       "id": "drax",
@@ -9454,10 +9316,10 @@
       "displayName": "Drax"
     },
     {
-      "id": "iago",
+      "id": "rei-louie",
       "level": 3,
       "category": "animation",
-      "displayName": "Iago"
+      "displayName": "Rei Louie"
     },
     {
       "id": "shang-chi",
@@ -9466,10 +9328,10 @@
       "displayName": "Shang-Chi"
     },
     {
-      "id": "megara",
+      "id": "yzma",
       "level": 3,
       "category": "animation",
-      "displayName": "Megara"
+      "displayName": "Yzma"
     },
     {
       "id": "hela",
@@ -9478,10 +9340,10 @@
       "displayName": "Hela"
     },
     {
-      "id": "robin-hood-disney",
+      "id": "gepeto",
       "level": 3,
       "category": "animation",
-      "displayName": "Robin Hood"
+      "displayName": "Gepeto"
     },
     {
       "id": "mulher-hulk",
@@ -9490,22 +9352,10 @@
       "displayName": "Mulher-Hulk"
     },
     {
-      "id": "tai-lung",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Tai Lung"
-    },
-    {
       "id": "cavaleiro-da-lua",
       "level": 3,
       "category": "comics",
       "displayName": "Cavaleiro da Lua"
-    },
-    {
-      "id": "gloria-hipopotamo",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Gloria, a Hipopótamo"
     },
     {
       "id": "apocalipse",
@@ -9514,52 +9364,10 @@
       "displayName": "Apocalipse"
     },
     {
-      "id": "tronco-trolls",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Tronco"
-    },
-    {
       "id": "deathstroke",
       "level": 3,
       "category": "comics",
       "displayName": "Deathstroke"
-    },
-    {
-      "id": "spirit",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Spirit"
-    },
-    {
-      "id": "rei-louie",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Rei Louie"
-    },
-    {
-      "id": "kaa",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Kaa"
-    },
-    {
-      "id": "yzma",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Yzma"
-    },
-    {
-      "id": "chicken-little",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Chicken Little"
-    },
-    {
-      "id": "gepeto",
-      "level": 3,
-      "category": "animation",
-      "displayName": "Gepeto"
     }
   ]
 }
