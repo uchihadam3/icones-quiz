@@ -3642,12 +3642,26 @@
       "file": "characters/whitney-houston.webp"
     },
     "mariah-carey": {
-      "status": "missing",
-      "file": "characters/mariah-carey.webp"
+      "status": "ready",
+      "file": "characters/mariah-carey.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Mariah Carey, recognizable adult singer with long honey-blonde wavy hair, warm brown eyes, softly rounded face and bright smile, elegant burgundy long-sleeve high-neck outfit and small earrings.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "celine-dion": {
-      "status": "missing",
-      "file": "characters/celine-dion.webp"
+      "status": "ready",
+      "file": "characters/celine-dion.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Céline Dion, recognizable mature adult singer with long straight medium-brown hair, brown eyes, narrow angular face, distinctive long nose and warm smile, elegant cream jacket over a plain blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "amy-winehouse": {
       "status": "ready",
@@ -3797,8 +3811,15 @@
       "file": "characters/britney-spears.webp"
     },
     "ariana-grande": {
-      "status": "missing",
-      "file": "characters/ariana-grande.webp"
+      "status": "ready",
+      "file": "characters/ariana-grande.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Ariana Grande as an adult, recognizable face with brown eyes, defined dark eyebrows and long chestnut-brown hair in her signature high ponytail, elegant black jacket over cream blouse, friendly smile. Entire ponytail inside frame.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "justin-bieber": {
       "status": "missing",
@@ -3952,8 +3973,15 @@
       "file": "characters/drake.webp"
     },
     "kanye-west": {
-      "status": "missing",
-      "file": "characters/kanye-west.webp"
+      "status": "ready",
+      "file": "characters/kanye-west.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Kanye West, recognizable adult Black rapper with very short black hair, close dark beard, broad cheekbones and jaw, brown eyes, plain black crew-neck shirt, composed neutral expression, as himself.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "jay-z": {
       "status": "missing",
@@ -3982,8 +4010,15 @@
       "attribution": "Foto: Runawaymo / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "post-malone": {
-      "status": "missing",
-      "file": "characters/post-malone.webp"
+      "status": "ready",
+      "file": "characters/post-malone.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Post Malone, recognizable adult musician with short curly brown hair, brown eyes, mustache and beard, small facial and neck tattoos without readable lettering, broad warm smile, plain dark jacket over gray T-shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "lana-del-rey": {
       "status": "ready",
@@ -4019,8 +4054,15 @@
       "attribution": "Foto: Nate the Director / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "pitbull": {
-      "status": "missing",
-      "file": "characters/pitbull.webp"
+      "status": "ready",
+      "file": "characters/pitbull.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Pitbull Armando Pérez, recognizable adult Cuban-American rapper with shaved bald head, clean-shaven face, dark aviator sunglasses and broad confident smile, black suit jacket over open-collar white shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "bad-bunny": {
       "status": "ready",
@@ -4045,8 +4087,15 @@
       "attribution": "Foto: Jeff Pinilla / Wikimedia Commons, CC BY 3.0; recorte e conversão para WebP."
     },
     "daddy-yankee": {
-      "status": "missing",
-      "file": "characters/daddy-yankee.webp"
+      "status": "ready",
+      "file": "characters/daddy-yankee.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Daddy Yankee, recognizable adult Puerto Rican musician with medium tan skin, neatly trimmed goatee, dark eyes, plain black baseball cap and dark sunglasses, black casual jacket over white T-shirt. Entire cap inside frame.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "ricky-martin": {
       "status": "ready",
@@ -4082,12 +4131,26 @@
       "attribution": "Foto: Junta de Andalucía / Wikimedia Commons, CC BY-SA 2.0; recorte e conversão para WebP."
     },
     "rosalia": {
-      "status": "missing",
-      "file": "characters/rosalia.webp"
+      "status": "ready",
+      "file": "characters/rosalia.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Rosalía, recognizable adult Spanish singer with long straight dark brown hair parted at center, brown eyes, strong dark eyebrows and full lips, composed warm smile, simple red blazer over black blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "psy": {
-      "status": "missing",
-      "file": "characters/psy.webp"
+      "status": "ready",
+      "file": "characters/psy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. PSY Park Jae-sang, recognizable adult Korean singer with round cheerful face, short slicked-back black hair, dark sunglasses, light blue tuxedo jacket, white shirt and black bow tie, broad playful smile.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "roberto-carlos-cantor": {
       "status": "ready",
@@ -4211,16 +4274,37 @@
       "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "renato-russo": {
-      "status": "missing",
-      "file": "characters/renato-russo.webp"
+      "status": "ready",
+      "file": "characters/renato-russo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Renato Russo, recognizable adult Brazilian singer with unruly short dark brown hair, full dark beard and mustache, thin wire spectacles, brown eyes and thoughtful gentle expression, plain black T-shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "elis-regina": {
-      "status": "missing",
-      "file": "characters/elis-regina.webp"
+      "status": "ready",
+      "file": "characters/elis-regina.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Elis Regina, recognizable adult Brazilian singer in her classic 1970s appearance, short dark pixie haircut, dark brown eyes, expressive brows and wide radiant smile, simple mustard-yellow blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "gal-costa": {
-      "status": "missing",
-      "file": "characters/gal-costa.webp"
+      "status": "ready",
+      "file": "characters/gal-costa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Gal Costa, recognizable adult Brazilian singer with very voluminous long dark curls and thick curly fringe, brown eyes, broad warm smile, simple deep-red blouse, entire silhouette of hair inside frame.\nRefinement: Use case: precise-object-edit. Refine only the composition/framing of this approved Gal Costa portrait for Ícones image quiz. Keep the exact same recognizable adult face, expression, long voluminous curly dark hair, red blouse, lighting, colors and painterly illustration style. Pull the camera back and center her so the entire top and both side edges of her hair are fully INSIDE the vertical 4:5 canvas, with a clear navy margin above and on both sides. Restore only clipped outer curls as needed. Keep a large clearly readable face. Do not change identity, clothing or expression. No text, logos or extra people.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "maria-bethania": {
       "status": "ready",
@@ -4860,8 +4944,15 @@
       "attribution": "Ilustração de pessoa pública gerada para Ícones — Maratona com OpenAI; não é fotografia nem endosso."
     },
     "conor-mcgregor": {
-      "status": "missing",
-      "file": "characters/conor-mcgregor.webp"
+      "status": "ready",
+      "file": "characters/conor-mcgregor.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Conor McGregor, recognizable adult Irish athlete with short closely faded brown hair, full ginger beard, blue eyes and strong square jaw, plain black sleeveless training top with some neck and chest tattoos visible without readable lettering. Relaxed nonviolent stance.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "serena-williams": {
       "status": "ready",
@@ -4963,8 +5054,15 @@
       "attribution": "Foto: Sarah Ladot / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "rayssa-leal": {
-      "status": "missing",
-      "file": "characters/rayssa-leal.webp"
+      "status": "ready",
+      "file": "characters/rayssa-leal.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Rayssa Leal as an adult professional skateboarder, recognizable Brazilian young adult woman with long dark wavy hair, brown eyes, medium tan skin and broad friendly smile, simple navy skate T-shirt. Adult present-day portrait, as herself.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "gabriel-medina": {
       "status": "ready",
@@ -4978,8 +5076,15 @@
       "attribution": "Foto: Secretaria Especial do Esporte / Wikimedia Commons, CC BY-SA 3.0; recorte e conversão para WebP."
     },
     "tiger-woods": {
-      "status": "missing",
-      "file": "characters/tiger-woods.webp"
+      "status": "ready",
+      "file": "characters/tiger-woods.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Tiger Woods, recognizable mature adult Black and Asian American golfer with broad smiling face, brown eyes, clean-shaven, plain black baseball cap and iconic red polo shirt, no logos or printed marks. Entire cap visible.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "tom-brady": {
       "status": "ready",
@@ -4993,8 +5098,15 @@
       "attribution": "Foto: Barcex / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "hulk-hogan": {
-      "status": "missing",
-      "file": "characters/hulk-hogan.webp"
+      "status": "ready",
+      "file": "characters/hulk-hogan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Hulk Hogan, recognizable adult professional wrestler in his classic appearance with tan skin, long straight platinum-blond hair, bald crown under plain red bandana, large blond horseshoe mustache, blue eyes and yellow athletic tank top. Friendly confident expression, no written slogans.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "john-cena": {
       "status": "ready",
@@ -8875,68 +8987,180 @@
       "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "kevin-hart": {
-      "status": "missing",
-      "file": "characters/kevin-hart.webp"
+      "status": "ready",
+      "file": "characters/kevin-hart.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Kevin Hart, recognizable adult Black comedian with short tightly curled dark hair, close trimmed beard, expressive brown eyes and broad toothy smile, plain charcoal jacket over a black T-shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "ben-stiller": {
-      "status": "missing",
-      "file": "characters/ben-stiller.webp"
+      "status": "ready",
+      "file": "characters/ben-stiller.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Ben Stiller, recognizable adult actor with short dark hair graying at temples, blue eyes, long angular face, prominent ears and distinctive raised eyebrows, clean-shaven, navy jacket and cream shirt, warm amused expression.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "chris-rock": {
-      "status": "missing",
-      "file": "characters/chris-rock.webp"
+      "status": "ready",
+      "file": "characters/chris-rock.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Chris Rock, recognizable adult Black comedian with short black hair, narrow expressive face, dark eyes, small neat goatee and broad playful toothy grin, black casual jacket over white shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "jamie-foxx": {
-      "status": "missing",
-      "file": "characters/jamie-foxx.webp"
+      "status": "ready",
+      "file": "characters/jamie-foxx.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Jamie Foxx, recognizable adult Black actor with closely cropped hair, precisely trimmed black goatee, broad strong face and brown eyes, calm friendly smile, dark blue jacket over black shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "danny-devito": {
-      "status": "missing",
-      "file": "characters/danny-devito.webp"
+      "status": "ready",
+      "file": "characters/danny-devito.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Danny DeVito, recognizable older actor with round face, receding bald crown and wispy white hair at the sides, thick dark eyebrows, thin round glasses and warm mischievous smile, dark blazer and light blue shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "paul-walker": {
-      "status": "missing",
-      "file": "characters/paul-walker.webp"
+      "status": "ready",
+      "file": "characters/paul-walker.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Paul Walker, recognizable adult actor with short sandy blond hair, bright blue eyes, square jaw and light stubble, relaxed kind smile, plain blue crew-neck T-shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "macaulay-culkin": {
-      "status": "missing",
-      "file": "characters/macaulay-culkin.webp"
+      "status": "ready",
+      "file": "characters/macaulay-culkin.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Macaulay Culkin as an adult, recognizable slim face with bright blue eyes, swept-back medium-length blond hair, light stubble and subtle amused smile, black jacket over cream shirt. Clearly an adult, not a child or movie character.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "zac-efron": {
-      "status": "missing",
-      "file": "characters/zac-efron.webp"
+      "status": "ready",
+      "file": "characters/zac-efron.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Zac Efron as an adult, recognizable square jaw, bright blue eyes, short textured brown hair, trimmed brown beard and warm smile, dark jacket over plain light gray T-shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "antonio-banderas": {
-      "status": "missing",
-      "file": "characters/antonio-banderas.webp"
+      "status": "ready",
+      "file": "characters/antonio-banderas.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Antonio Banderas, recognizable mature adult actor with wavy dark hair graying at temples, brown eyes, angular expressive face and short salt-and-pepper beard, warm smile, dark blazer with open-collar cream shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "jet-li": {
-      "status": "missing",
-      "file": "characters/jet-li.webp"
+      "status": "ready",
+      "file": "characters/jet-li.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Jet Li, recognizable mature adult Chinese actor with short straight dark hair, brown eyes, clean-shaven round face and gentle composed smile, plain dark stand-collar jacket, as himself.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "shah-rukh-khan": {
-      "status": "missing",
-      "file": "characters/shah-rukh-khan.webp"
+      "status": "ready",
+      "file": "characters/shah-rukh-khan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Shah Rukh Khan, recognizable adult Indian actor with swept-back thick dark hair, dark brown eyes, expressive arched eyebrows, prominent nose, light stubble and warm dimpled smile, black jacket and white shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "halle-berry": {
-      "status": "missing",
-      "file": "characters/halle-berry.webp"
+      "status": "ready",
+      "file": "characters/halle-berry.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Halle Berry, recognizable adult actress with warm brown skin, short dark pixie hairstyle, brown eyes, distinctive high cheekbones and gentle smile, elegant plain navy blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "salma-hayek": {
-      "status": "missing",
-      "file": "characters/salma-hayek.webp"
+      "status": "ready",
+      "file": "characters/salma-hayek.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Salma Hayek, recognizable adult Mexican actress with long wavy dark hair, brown eyes, strong dark eyebrows, softly rounded face and warm smile, elegant emerald-green high-neck blouse and small gold earrings.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "penelope-cruz": {
-      "status": "missing",
-      "file": "characters/penelope-cruz.webp"
+      "status": "ready",
+      "file": "characters/penelope-cruz.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Penélope Cruz, recognizable adult Spanish actress with long dark brown hair, brown eyes, thick arched eyebrows, distinctive nose and warm composed smile, simple burgundy blazer over cream blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "sofia-vergara": {
-      "status": "missing",
-      "file": "characters/sofia-vergara.webp"
+      "status": "ready",
+      "file": "characters/sofia-vergara.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Sofía Vergara, recognizable adult Colombian actress with long highlighted brown hair, brown eyes, broad joyful smile and expressive eyebrows, elegant plain royal-blue blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "charlize-theron": {
-      "status": "missing",
-      "file": "characters/charlize-theron.webp"
+      "status": "ready",
+      "file": "characters/charlize-theron.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Charlize Theron, recognizable adult actress with short swept-back blonde hair, blue-green eyes, high cheekbones and composed warm smile, simple black blazer over white blouse.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "kate-winslet": {
       "status": "missing",
@@ -10607,52 +10831,136 @@
       "file": "characters/gabriel-o-pensador.webp"
     },
     "socrates": {
-      "status": "missing",
-      "file": "characters/socrates.webp"
+      "status": "ready",
+      "file": "characters/socrates.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Sócrates Brasileiro, recognizable adult Brazilian footballer in classic playing-era appearance, tall lean face, thick curly dark hair, full dark beard and mustache, brown eyes and plain white headband, yellow Brazil-style football jersey with green collar, no logos or writing.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "bebeto": {
-      "status": "missing",
-      "file": "characters/bebeto.webp"
+      "status": "ready",
+      "file": "characters/bebeto.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Bebeto José Roberto Gama de Oliveira, recognizable adult Brazilian footballer in classic 1990s appearance, short thick wavy dark hair, brown eyes, clean-shaven face and warm smile, yellow football jersey with green collar, no logos or writing.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "taffarel": {
-      "status": "missing",
-      "file": "characters/taffarel.webp"
+      "status": "ready",
+      "file": "characters/taffarel.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Cláudio Taffarel, recognizable adult Brazilian goalkeeper in classic 1990s appearance, short thinning light brown hair, brown eyes, broad clean-shaven face and kind smile, plain green long-sleeve goalkeeper jersey with black shoulder panels.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "rogerio-ceni": {
-      "status": "missing",
-      "file": "characters/rogerio-ceni.webp"
+      "status": "ready",
+      "file": "characters/rogerio-ceni.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Rogério Ceni, recognizable mature adult Brazilian goalkeeper with short receding brown hair, brown eyes, broad clean-shaven face and small smile, plain black goalkeeper jersey with subtle red trim.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "dunga": {
-      "status": "missing",
-      "file": "characters/dunga.webp"
+      "status": "ready",
+      "file": "characters/dunga.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Dunga Carlos Caetano Bledorn Verri, recognizable mature adult Brazilian football coach with short dark hair graying at temples, brown eyes, broad clean-shaven face, thick eyebrows and firm composed expression, plain navy coaching jacket.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "felipao": {
-      "status": "missing",
-      "file": "characters/felipao.webp"
+      "status": "ready",
+      "file": "characters/felipao.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Luiz Felipe Scolari Felipão, recognizable older Brazilian football coach with receding short white hair, thick gray mustache, rectangular spectacles, brown eyes and broad friendly smile, plain dark blue coaching jacket.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "tite": {
-      "status": "missing",
-      "file": "characters/tite.webp"
+      "status": "ready",
+      "file": "characters/tite.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Tite Adenor Leonardo Bacchi, recognizable mature adult Brazilian football coach with short silver-gray hair, brown eyes, clean-shaven face and composed warm smile, plain dark navy polo shirt.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "falcao-futsal": {
-      "status": "missing",
-      "file": "characters/falcao-futsal.webp"
+      "status": "ready",
+      "file": "characters/falcao-futsal.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Falcão Alessandro Rosa Vieira, recognizable adult Brazilian futsal player with shaved head, brown eyes, dark trimmed goatee and expressive dark eyebrows, broad smile, yellow futsal jersey with green collar and no logos or lettering.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "thiago-silva": {
-      "status": "missing",
-      "file": "characters/thiago-silva.webp"
+      "status": "ready",
+      "file": "characters/thiago-silva.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Thiago Silva, recognizable adult Brazilian footballer with medium tan skin, short dark curls in a close fade, brown eyes, clean-shaven face and expressive eyebrows, relaxed smile, yellow football jersey with green collar and no logos.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "casemiro": {
-      "status": "missing",
-      "file": "characters/casemiro.webp"
+      "status": "ready",
+      "file": "characters/casemiro.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Casemiro Carlos Henrique, recognizable adult Brazilian footballer with broad rounded face, short close-faded black hair, dark brown eyes, thick eyebrows and clean-shaven face, friendly smile, plain yellow football jersey with green collar.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "richarlison": {
-      "status": "missing",
-      "file": "characters/richarlison.webp"
+      "status": "ready",
+      "file": "characters/richarlison.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Richarlison, recognizable adult Brazilian footballer with platinum-blond buzz cut, medium brown skin, brown eyes, clean-shaven face, broad nose and small visible neck tattoos without readable lettering, warm smile, plain yellow football jersey with green collar.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "gabigol": {
-      "status": "missing",
-      "file": "characters/gabigol.webp"
+      "status": "ready",
+      "file": "characters/gabigol.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Gabriel Barbosa Gabigol, recognizable adult Brazilian footballer with short bleached-blond curls over dark roots, medium tan skin, dark eyes, full neatly trimmed dark beard and mustache, small stud earrings, plain red-and-black football shirt without lettering or logos.",
+      "rightsNote": "User-directed generated illustration of a public figure for an image recognition quiz; not a photograph or endorsement.",
+      "attribution": "Ilustração de personalidade pública gerada para Ícones — Maratona com OpenAI."
     },
     "endrick": {
       "status": "missing",
