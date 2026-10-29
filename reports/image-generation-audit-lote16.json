@@ -1,0 +1,411 @@
+{
+  "base": "760588c4a084a8cb734cbfc070d3162f813c52e3",
+  "previousReady": 814,
+  "selected": 48,
+  "uniqueIds": 48,
+  "readyOverlap": [],
+  "priorAttemptOverlap": [],
+  "existingFileOverlap": [],
+  "skipped": [],
+  "checks": [
+    "missing in manifest",
+    "absent from blocked report and documented legacy blocks",
+    "absent from earlier local generation results",
+    "no existing art file",
+    "unique ID within batch"
+  ],
+  "date": "2026-10-29",
+  "previousImagesPreserved": 814,
+  "added": 44,
+  "blocked": 4,
+  "duplicateImageBytes": 0,
+  "refinements": [
+    "gal-costa"
+  ],
+  "entries": [
+    {
+      "id": "kevin-hart",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "mariah-carey",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "conor-mcgregor",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "ben-stiller",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "celine-dion",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "rayssa-leal",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "chris-rock",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "britney-spears",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "tiger-woods",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "jamie-foxx",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "ariana-grande",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "hulk-hogan",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "danny-devito",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "justin-bieber",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "socrates",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "paul-walker",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "drake",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "bebeto",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "macaulay-culkin",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "kanye-west",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "taffarel",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "zac-efron",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "jay-z",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "blocked"
+    },
+    {
+      "id": "rogerio-ceni",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "antonio-banderas",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "post-malone",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "dunga",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "jet-li",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "pitbull",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "felipao",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "shah-rukh-khan",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "daddy-yankee",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "tite",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "halle-berry",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "rosalia",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "falcao-futsal",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "salma-hayek",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "psy",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "thiago-silva",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "penelope-cruz",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "renato-russo",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "casemiro",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "sofia-vergara",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "elis-regina",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "richarlison",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "charlize-theron",
+      "category": "celebrity",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "gal-costa",
+      "category": "music",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    },
+    {
+      "id": "gabigol",
+      "category": "sport",
+      "previousStatus": "missing",
+      "previousFileExisted": false,
+      "priorAttempt": false,
+      "result": "ready"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-10-29",
   "entries": [
     {
       "id": "elsa",
@@ -2196,6 +2196,30 @@
     {
       "id": "gepeto",
       "prompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light. Vertical 4:5 canvas, simple deep navy-indigo background. Preserve instantly recognizable identity, face, silhouette, proportions and colors. Center upper body unless whole subject specified. Entire head, hair, ears, hats, crown, hands and signature accessories inside frame with clear margin above and at both sides; pull camera back enough for this. Correct anatomy and canonical limb count. No printed names, captions, readable words or numbers, watermark, border, collage, UI or franchise title. Retain intrinsic costume motifs only when specified. No photorealism. Faithful canonical animated design, no live-action reinterpretation. One character unless a named canonical group is explicitly specified. Geppetto from Disney Pinocchio, canonical kind elderly woodcarver with fluffy white hair, bushy white mustache, round wire spectacles low on nose, cream shirt with rolled sleeves, brown vest and blue apron. Gentle warm smile, head and hands inside frame.",
+      "status": "blocked",
+      "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
+    },
+    {
+      "id": "britney-spears",
+      "prompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Britney Spears as an adult, recognizable face with brown eyes, long blonde hair, distinctive broad smile and warm expression, simple dark blue top and black casual jacket. Clearly adult, as herself.",
+      "status": "blocked",
+      "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
+    },
+    {
+      "id": "justin-bieber",
+      "prompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Justin Bieber as an adult, recognizable face with hazel eyes, short sandy-blond hair with dark roots, light mustache and stubble, small neck tattoos without readable lettering, white casual jacket over black T-shirt.",
+      "status": "blocked",
+      "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
+    },
+    {
+      "id": "drake",
+      "prompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Drake Aubrey Graham, recognizable adult Black Canadian rapper with short black cropped hair, thick neatly trimmed dark beard, brown eyes and rounded strong face, plain dark navy hoodie, relaxed friendly smile.",
+      "status": "blocked",
+      "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
+    },
+    {
+      "id": "jay-z",
+      "prompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Jay-Z Shawn Carter, recognizable mature adult Black rapper with medium-length freeform black twists, brown eyes, distinctive broad nose and full lips, dark casual jacket over black shirt, relaxed confident expression.",
       "status": "blocked",
       "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
     }

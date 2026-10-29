@@ -1,19 +1,27 @@
 # Continuidade das imagens — Ícones
 
-Atualizado em 26/10/2026.
+Atualizado em 29/10/2026.
 
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 814.
-- Entradas ainda sem imagem: 678.
-- Continuação atual: 32 novas ilustrações integradas (13 de animações, 19 de personalidades), revisadas individualmente.
-- As 782 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 858.
+- Entradas ainda sem imagem: 634.
+- Continuação atual: 44 novas ilustrações integradas (16 de personalidades, 12 de música, 16 de esporte), revisadas individualmente.
+- As 814 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
 ## Ilustrações desta continuação
+
+Seleção sem repetir IDs prontos, arquivos existentes ou tentativas anteriores; conferência registrada em [image-generation-audit-lote16.json](../reports/image-generation-audit-lote16.json).
+
+`kevin-hart`, `mariah-carey`, `conor-mcgregor`, `ben-stiller`, `celine-dion`, `rayssa-leal`, `chris-rock`, `tiger-woods`, `jamie-foxx`, `ariana-grande`, `hulk-hogan`, `danny-devito`, `socrates`, `paul-walker`, `bebeto`, `macaulay-culkin`, `kanye-west`, `taffarel`, `zac-efron`, `rogerio-ceni`, `antonio-banderas`, `post-malone`, `dunga`, `jet-li`, `pitbull`, `felipao`, `shah-rukh-khan`, `daddy-yankee`, `tite`, `halle-berry`, `rosalia`, `falcao-futsal`, `salma-hayek`, `psy`, `thiago-silva`, `penelope-cruz`, `renato-russo`, `casemiro`, `sofia-vergara`, `elis-regina`, `richarlison`, `charlize-theron`, `gal-costa`, `gabigol`.
+
+Artes individuais geradas com a ferramenta integrada de imagens da OpenAI. Arquivos em `art/characters/<id>.webp`, 960 × 1200, todos abaixo de 150 KB; prompts completos, eventuais refinamentos e proveniência no manifesto. Refinamentos revisados em: `gal-costa`. As tentativas bloqueadas continuam `missing` e estão registradas em `reports/image-generation-pending.json`.
+
+## Lote anterior de 32 retratos — animações e personalidades
 
 Seleção sem repetir IDs prontos, arquivos existentes ou tentativas anteriores; conferência registrada em [image-generation-audit-lote15.json](../reports/image-generation-audit-lote15.json).
 
@@ -149,6 +157,8 @@ Bloqueios da continuação de 24/10/2026: `luke-skywalker`, `princesa-leia`, `ch
 Bloqueios da continuação de 25/10/2026: `branca-de-neve`, `aurora`, `malevola`, `pocahontas`, `cruella`, `peter-pan`, `capitao-gancho`, `sininho`, `dumbo`, `bambi`, `pinoquio`, `mogli`, `balu`, `hercules`, `tarzan`, `detona-ralph`, `sr-cabeca-de-batata`, `slinky`, `zurg`, `lotso`, `garfinho`, `marlin`, `crush-tartaruga`, `mulher-elastica`, `flecha`, `violeta-incriveis`, `zeze-incriveis`, `sindrome`, `jennifer-aniston`, `audrey-hepburn`, `marilyn-monroe`, `oprah-winfrey`. Prompts completos em `reports/image-generation-pending.json`.
 
 Bloqueios da continuação de 26/10/2026: `russell-up`, `dug`, `tristeza`, `raiva`, `nojinho`, `medo`, `bing-bong`, `miguel-coco`, `hector-coco`, `luca-paguro`, `kristoff`, `nala`, `rafiki`, `mirabel`, `bruno-madrigal`, `luisa-madrigal`, `judy-hopps`, `nick-wilde`, `heihei`, `flynn-rider`, `sebastiao`, `linguado`, `lumiere`, `gaston`, `madame-samovar`, `jafar`, `abu`, `iago`, `mushu`, `hades-disney`, `megara`, `rainha-ma`, `alice-pais-das-maravilhas`, `gato-de-cheshire`, `chapeleiro-maluco`, `ursinho-pooh`, `tigrao`, `leitao`, `bisonho`, `lilo`, `vanellope`, `tiana`, `elizabeth-taylor`, `tambor`, `grilo-falante`, `robin-hood-disney`, `pinguins-de-madagascar`, `rei-louie`, `kuzco`, `yzma`, `gepeto`. Prompts completos em `reports/image-generation-pending.json`.
+
+Bloqueios da continuação de 29/10/2026: `britney-spears`, `justin-bieber`, `drake`, `jay-z`. Prompts completos em `reports/image-generation-pending.json`.
 
 A busca externa já recuperou e comparou dezenas de candidatos. Muitos mostravam outra identidade, grupos, fantasias imprecisas, nomes visíveis ou enquadramento inadequado; esses arquivos não foram usados. As demais entradas `missing` continuam disponíveis para geração/curadoria. O manifesto é a fonte do estado atual; `npm run assets:report` apresenta a contagem atualizada.
 
