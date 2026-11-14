@@ -1,13 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import { GAME_CONFIG } from '../config/gameConfig';
-import { initialLives, isRecoveryPaused, onMiss, onStreakBreak, onUnaidedCorrect, recoveryRequirement, type LivesState } from './lives';
+import { initialLives, isRecoveryPaused, onMiss, onStreakBreak, onCorrect, recoveryRequirement, type LivesState } from './lives';
 
 const cfg = GAME_CONFIG;
 
 function correctTimes(state: LivesState, n: number): { state: LivesState; gained: number } {
   let gained = 0;
   for (let i = 0; i < n; i++) {
-    const r = onUnaidedCorrect(state, cfg);
+    const r = onCorrect(state, cfg);
     state = r.state;
     if (r.lifeGained) gained++;
   }
@@ -20,9 +20,9 @@ describe('B) vidas e recuperação', () => {
     expect(initialLives({ ...cfg, lives: { initial: 9, max: 3 } }).lives).toBe(3);
   });
 
-  it('exigências [3,5,7,10,15] e depois teto fixo 15', () => {
+  it('a exigência é sempre 3, independentemente das vidas já recuperadas', () => {
     const seq = Array.from({ length: 9 }, (_, i) => recoveryRequirement(i, cfg));
-    expect(seq).toEqual([3, 5, 7, 10, 15, 15, 15, 15, 15]);
+    expect(seq).toEqual([3, 3, 3, 3, 3, 3, 3, 3, 3]);
   });
 
   it('1 erro custa exatamente 1 vida e zera a sequência', () => {
@@ -47,7 +47,7 @@ describe('B) vidas e recuperação', () => {
     let s = onMiss(initialLives(cfg)).state;
     s = correctTimes(s, 2).state;
     expect(s.lives).toBe(2);
-    const r = onUnaidedCorrect(s, cfg);
+    const r = onCorrect(s, cfg);
     expect(r.lifeGained).toBe(true);
     expect(r.state).toEqual({ lives: 3, streak: 0, recovered: 1 });
   });
@@ -62,11 +62,11 @@ describe('B) vidas e recuperação', () => {
     expect(s).toEqual({ lives: 2, streak: 0, recovered: 1 });
   });
 
-  it('pulo/ajuda zeram apenas a sequência de recuperação', () => {
+  it('pulo ou rodada anulada zeram apenas a sequência de recuperação', () => {
     expect(onStreakBreak({ lives: 2, streak: 4, recovered: 2 })).toEqual({ lives: 2, streak: 0, recovered: 2 });
   });
 
-  it('recuperações seguintes exigem 5, 7, 10, 15, 15…', () => {
+  it('recuperações repetidas continuam exigindo somente 3 acertos', () => {
     let s: LivesState = { lives: 1, streak: 0, recovered: 0 };
     const needed: number[] = [];
     for (let k = 0; k < 7; k++) {
@@ -75,18 +75,18 @@ describe('B) vidas e recuperação', () => {
       let count = 0;
       for (;;) {
         count++;
-        const r = onUnaidedCorrect(s, cfg);
+        const r = onCorrect(s, cfg);
         s = r.state;
         if (r.lifeGained) break;
       }
       needed.push(count);
     }
-    expect(needed).toEqual([3, 5, 7, 10, 15, 15, 15]);
+    expect(needed).toEqual([3, 3, 3, 3, 3, 3, 3]);
   });
 
   it('vidas nunca passam do máximo, mesmo recuperando', () => {
-    const r = onUnaidedCorrect({ lives: 2, streak: 2, recovered: 0 }, cfg);
+    const r = onCorrect({ lives: 2, streak: 2, recovered: 0 }, cfg);
     expect(r.state.lives).toBe(3);
-    expect(onUnaidedCorrect(r.state, cfg).state.lives).toBe(3);
+    expect(onCorrect(r.state, cfg).state.lives).toBe(3);
   });
 });

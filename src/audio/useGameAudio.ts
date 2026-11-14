@@ -58,13 +58,12 @@ export function useGameAudio(state: GameState, opts: { seed: number; best: numbe
       if (after > before) audio.play(`tier-up-${Math.min(5, after)}` as SfxEvent, { key, delay: 0.16 });
     }
     // Sequência de recuperação: um "ping" que sobe na escala a cada acerto (a vida recuperada tem som próprio).
-    if (res.outcome === 'correct' && !res.lifeGained && lives.streak > 0) {
+    if ((res.outcome === 'correct' || res.outcome === 'correct-hint') && !res.lifeGained && lives.streak > 0) {
       audio.play('recovery-step', { key, delay: 0.32, cents: PENTATONIC[(lives.streak - 1) % PENTATONIC.length] });
     }
-    if (res.hintRecharged) audio.play('hint-recharge', { key, delay: res.lifeGained ? 0.9 : 0.45 });
+    if (res.hintRecharged || res.skipRecharged) audio.play('hint-recharge', { key, delay: res.lifeGained ? 0.9 : 0.45 });
     const brokeStreak = streakBreak?.roundId === res.roundId;
-    // (Se a quebra veio da ajuda nesta rodada, o som já tocou ao abrir as alternativas.)
-    if (brokeStreak && res.outcome !== 'skipped' && round?.options == null) audio.play('recovery-break', { key, delay: 0.5 });
+    if (brokeStreak && res.outcome !== 'skipped') audio.play('recovery-break', { key, delay: 0.5 });
     else if ((res.outcome === 'wrong' || res.outcome === 'timeout') && res.comboBefore >= 3) audio.play('combo-break', { key, delay: 0.25 });
     // lives.lives é lido no momento da resolução; não precisa disparar de novo quando muda.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -74,11 +73,6 @@ export function useGameAudio(state: GameState, opts: { seed: number; best: numbe
   useEffect(() => {
     if (hintOpen && roundId !== undefined) audio.play('hint', { key: roundId });
   }, [hintOpen, roundId]);
-  // Usar a ajuda quebra a sequência de recuperação: mesmo som da quebra, logo após o som da ajuda.
-  const brokeByHint = hintOpen && streakBreak !== null && streakBreak.roundId === roundId && phase === 'playing';
-  useEffect(() => {
-    if (brokeByHint) audio.play('recovery-break', { key: `hint-${roundId}`, delay: 0.35 });
-  }, [brokeByHint, roundId]);
 
   const prevPhase = useRef(phase);
   useEffect(() => {

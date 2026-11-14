@@ -129,7 +129,7 @@ export function StreakChip({ combo }: { combo: number }) {
 }
 
 /**
- * Barra "Recuperar vida": acertos SEGUIDOS SEM AJUDA rumo à próxima vida (metas 3, 5, 7, 10, 15…).
+ * Barra "Recuperar vida": acertos SEGUIDOS rumo à próxima vida (sempre 3).
  * Mensagens derivadas do estado canônico do motor (sem estado próprio): quebra da sequência na rodada
  * atual (`brokenNow`) e vida recuperada (`gainedNow`). Animações por acerto ficam em efeitos.
  */
@@ -253,7 +253,7 @@ export function TimeFuse({ remainingMs, durationMs, warning }: { remainingMs: nu
  * Cargas da ajuda "3 alternativas" (cristais) + recarga por acertos ACUMULADOS (linha na base do botão).
  * Visual distinto da barra de vida: cristais violeta, nada de corações nem de "seguidos".
  */
-export function HintCharges({ charges, max, progress, every, full, remaining }: HintRechargeView) {
+export function HintCharges({ charges, max, progress, every, full, remaining, resource = 'alternativa' }: HintRechargeView & { resource?: 'alternativa' | 'pulo' }) {
   const ref = useRef<HTMLSpanElement>(null);
   const prev = useRef(charges);
   useEffect(() => {
@@ -266,15 +266,15 @@ export function HintCharges({ charges, max, progress, every, full, remaining }: 
       particlesFx.burst(pip, PALETTES.cyan, 10, 0.45);
     }
     if (charges > prev.current) {
-      // Recarga: o cristal volta com bounce, faíscas e o selo "+1 alternativa".
+      // Recarga: o cristal volta com bounce, faíscas e o selo do recurso.
       const pip = el.querySelector(`[data-pip="${charges - 1}"]`);
       if (pip && !isReduced()) gsap.fromTo(pip, { scale: 0.2, rotation: -90 }, { scale: 1, rotation: 0, duration: 0.8, ease: 'elastic.out(1.1, 0.4)' });
       particlesFx.burst(el, PALETTES.cyan, 26, 0.9);
-      fx.floatText(el, '+1 alternativa', 'float-cyan');
+      fx.floatText(el, `+1 ${resource}`, 'float-cyan');
       haptic(22);
     }
     prev.current = charges;
-  }, [charges]);
+  }, [charges, resource]);
   return (
     <span className={`hint-charges${full ? ' is-full' : ''}${charges === 0 ? ' is-empty' : ''}`} ref={ref} aria-hidden="true">
       <span className="hc-row">

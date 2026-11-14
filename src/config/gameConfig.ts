@@ -14,7 +14,7 @@ export interface LevelMix {
 export interface GameConfig {
   lives: { initial: number; max: number };
   recovery: {
-    /** Acertos consecutivos sem ajuda exigidos para a 1ª, 2ª, 3ª… vida recuperada. */
+    /** Acertos consecutivos exigidos por vida recuperada. A configuração atual mantém sempre 3. */
     thresholds: readonly number[];
     /** Exigência fixa depois que a lista acaba. */
     cap: number;
@@ -31,8 +31,8 @@ export interface GameConfig {
     skips: number;
     /** Cargas iniciais da ajuda "3 alternativas" (também o máximo: nunca acumula acima disso). */
     optionHints: number;
-    /** Acertos ACUMULADOS (não precisam ser seguidos; com ou sem ajuda) que devolvem 1 carga. */
-    optionHintRechargeEvery: number;
+    /** Acertos ACUMULADOS (com ou sem ajuda) que devolvem 1 pulo e 1 carga, respeitando cada teto. */
+    aidRechargeEvery: number;
     /** Quantidade de alternativas exibidas pela ajuda (inclui a correta). */
     optionCount: number;
   };
@@ -61,9 +61,9 @@ export interface GameConfig {
 
 export const GAME_CONFIG: GameConfig = {
   lives: { initial: 3, max: 3 },
-  recovery: { thresholds: [3, 5, 7, 10, 15], cap: 15 },
+  recovery: { thresholds: [3], cap: 3 },
   timer: { earlyRounds: 5, earlySeconds: 25, normalSeconds: 20, warningSeconds: 6 },
-  aids: { skips: 3, optionHints: 3, optionHintRechargeEvery: 15, optionCount: 3 },
+  aids: { skips: 3, optionHints: 3, aidRechargeEvery: 5, optionCount: 3 },
   scoring: {
     basePoints: 100,
     levelBonus: { 1: 0, 2: 30, 3: 60 },

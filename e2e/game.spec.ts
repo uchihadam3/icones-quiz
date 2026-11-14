@@ -366,11 +366,16 @@ test.describe('partida real: vida, alternativas recarregáveis e corretor', () =
     await expect(page.getByRole('img', { name: '2 de 3 vidas' })).toBeVisible();
   });
 
-  test('alternativas: 3 cargas, acerto vale metade, +1 carga após 15 acertos acumulados (teto 3)', async ({ page }) => {
+  test('alternativas e pulo: +1 de cada após 5 acertos totais, respeitando teto 3', async ({ page }) => {
     test.setTimeout(90_000);
     await page.goto('./');
     await page.getByTestId('play').click();
     const hint = page.getByTestId('hint-button');
+    const skip = page.getByTestId('skip-button');
+    const from = await roundNumber(page);
+    await skip.click();
+    await advance(page, from);
+    await expect(skip).toHaveAttribute('aria-label', 'Pular, 2 restantes, +1 pulo em 5 acertos');
     await expect(hint).toHaveAttribute('aria-label', 'Mostrar 3 alternativas: 3 de 3 cargas');
     const identity = await shown(page);
     let n = await roundNumber(page);
@@ -379,14 +384,19 @@ test.describe('partida real: vida, alternativas recarregáveis e corretor', () =
     await expect(page.getByTestId('feedback')).toContainText('½ com ajuda');
     await expect(hint).toHaveCount(0); // durante o feedback o botão "Próximo" ocupa o lugar das ajudas
     await advance(page, n);
-    await expect(hint).toHaveAttribute('aria-label', 'Mostrar 3 alternativas: 2 de 3 cargas, +1 carga em 14 acertos');
-    for (let i = 0; i < 13; i++) {
+    await expect(hint).toHaveAttribute('aria-label', 'Mostrar 3 alternativas: 2 de 3 cargas, +1 carga em 4 acertos');
+    await expect(skip).toHaveAttribute('aria-label', 'Pular, 2 restantes, +1 pulo em 4 acertos');
+    for (let i = 0; i < 3; i++) {
       n = await answer(page);
       await advance(page, n);
     }
     await expect(hint).toHaveAttribute('aria-label', /2 de 3 cargas, \+1 carga em 1 acertos/);
-    n = await answer(page); // 15º acerto acumulado (o acerto com ajuda contou)
+    n = await answer(page); // 5º acerto acumulado (o acerto com ajuda contou)
+    await expect(page.getByTestId('feedback')).toContainText('+1 alternativa');
+    await expect(page.getByTestId('feedback')).toContainText('+1 pulo');
     await advance(page, n);
+    await expect(skip).toHaveAttribute('aria-label', 'Pular, 3 restantes');
+    await noHorizontalScroll(page);
     await expect(hint).toHaveAttribute('aria-label', 'Mostrar 3 alternativas: 3 de 3 cargas');
   });
 

@@ -3,8 +3,8 @@ import type { GameConfig } from '../config/gameConfig';
 /**
  * Vidas e recuperação.
  *
- * - `streak`: acertos CONSECUTIVOS SEM AJUDA contando para a próxima vida.
- * - `recovered`: quantas vidas já foram recuperadas na run (define a próxima exigência).
+ * - `streak`: acertos CONSECUTIVOS contando para a próxima vida, com ou sem alternativas.
+ * - `recovered`: quantas vidas já foram recuperadas na run.
  * - Com vidas cheias a recuperação fica pausada: o streak não acumula.
  */
 export interface LivesState {
@@ -19,7 +19,7 @@ export function initialLives(config: LivesConfig): LivesState {
   return { lives: Math.min(config.lives.initial, config.lives.max), streak: 0, recovered: 0 };
 }
 
-/** Exigência para a (recovered+1)-ésima vida recuperada: [3,5,7,10,15] e depois teto fixo. */
+/** Exigência para a próxima vida; a configuração canônica mantém sempre 3. */
 export function recoveryRequirement(recovered: number, config: LivesConfig): number {
   const { thresholds, cap } = config.recovery;
   if (recovered < thresholds.length) return thresholds[recovered] ?? cap;
@@ -36,8 +36,8 @@ export interface LivesOutcome {
   lifeLost: boolean;
 }
 
-/** Acerto por digitação, sem ajuda. */
-export function onUnaidedCorrect(state: LivesState, config: LivesConfig): LivesOutcome {
+/** Qualquer acerto, digitado ou com alternativas. */
+export function onCorrect(state: LivesState, config: LivesConfig): LivesOutcome {
   if (isRecoveryPaused(state, config)) {
     return { state: { ...state, streak: 0 }, lifeGained: false, lifeLost: false };
   }
@@ -65,7 +65,7 @@ export function onMiss(state: LivesState): LivesOutcome {
   };
 }
 
-/** Pulo, uso de ajuda ou rodada anulada: sem custo de vida, mas a sequência deixa de ser "consecutiva sem ajuda". */
+/** Pulo ou rodada anulada: sem custo de vida, mas interrompe a sequência de acertos. */
 export function onStreakBreak(state: LivesState): LivesState {
   return { ...state, streak: 0 };
 }

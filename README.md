@@ -15,9 +15,9 @@ digita quem é. Quanto mais acertos seguidos, maior o combo — e mais rápido a
 
 - 3 vidas (nunca mais que 3). Erro ou tempo esgotado custa 1.
 - 25 s nas 5 primeiras rodadas, 20 s fixos depois (o desafio é reconhecer, não correr contra um relógio cada vez menor).
-- Acertos seguidos sem ajuda recuperam vida: 3, 5, 7, 10, 15 e depois 15 fixo.
+- Uma vida a cada 3 acertos seguidos, com ou sem alternativas. A meta nunca aumenta.
 - Combo com multiplicador até x5; pontos por acerto, nível do ícone e velocidade.
-- 3 pulos e 3 ajudas de "3 alternativas" por partida.
+- Começa com 3 pulos e 3 ajudas de "3 alternativas". A cada 5 acertos totais, recupera 1 de cada (máximo 3 de cada).
 
 Regras completas e decisões anti-exploit: [docs/GAME_RULES.md](docs/GAME_RULES.md).
 Sistema visual, animações e game feel: [docs/DESIGN.md](docs/DESIGN.md).

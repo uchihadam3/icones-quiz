@@ -16,10 +16,10 @@ borrada nem revelada aos poucos. Não é um Akinator.
 | Vidas iniciais / máximo | 3 / 3 | `lives` |
 | Tempo das rodadas 1–5 | 25 s | `timer.earlySeconds` |
 | Tempo a partir da rodada 6 | 20 s fixos (combo e progressão não reduzem) | `timer.normalSeconds` |
-| Acertos seguidos por vida recuperada | 3, 5, 7, 10, 15 e depois 15 fixo | `recovery` |
-| Pulos por run | 3 | `aids.skips` |
+| Acertos seguidos por vida recuperada | sempre 3 (com ou sem alternativas) | `recovery` |
+| Pulos (início e teto) | 3 | `aids.skips` |
 | Cargas de "3 alternativas" (início e teto) | 3 | `aids.optionHints` |
-| Acertos acumulados por carga devolvida | 15 | `aids.optionHintRechargeEvery` |
+| Acertos acumulados por recarga de 1 pulo e 1 alternativa | 5 | `aids.aidRechargeEvery` |
 | Pontos de um acerto com alternativas | metade do acerto digitado | `scoring.optionHintShare` |
 | Multiplicador máximo | x5 | `scoring.maxMultiplier` |
 
@@ -32,8 +32,8 @@ borrada nem revelada aos poucos. Não é um Akinator.
 
 ## Recuperação de vida
 
-- Conta **acertos consecutivos, digitados, sem ajuda**.
-- Exigência da 1ª vida recuperada: 3; 2ª: 5; 3ª: 7; 4ª: 10; 5ª: 15; depois sempre 15.
+- Conta **acertos consecutivos, digitados ou pelas alternativas**. Abrir as alternativas não quebra a sequência.
+- A exigência é **sempre 3**, independentemente de quantas vidas já foram recuperadas.
 - Erro/timeout zera a sequência. Recuperar uma vida zera **só** o contador de recuperação; o combo de
   pontuação continua.
 - Com 3 vidas, a recuperação fica **pausada**: nada acumula para "vida extra".
@@ -55,22 +55,32 @@ borrada nem revelada aos poucos. Não é um Akinator.
 | Ação | Vida | Pontos | Combo | Sequência de recuperação |
 |---|---|---|---|---|
 | Pular | mantém | 0 | **congelado** | **zera** |
-| Usar "3 alternativas" | — | — | — | **zera na hora** |
-| Acertar pela alternativa | mantém | **metade** do mesmo acerto digitado (base + nível + velocidade, × multiplicador atual), `Math.round` | **congelado** | continua 0 |
+| Usar "3 alternativas" | — | — | — | mantém |
+| Acertar pela alternativa | pode recuperar | **metade** do mesmo acerto digitado (base + nível + velocidade, × multiplicador atual), `Math.round` | **congelado** | +1 acerto |
 | Errar a alternativa | −1 | 0 | zera | zera |
 
-Por quê: se pular/ajuda não zerasse a sequência, daria para "pular os difíceis" e recuperar vidas só
-com os fáceis. Congelar (em vez de zerar) o combo mantém pular útil sem transformar ajuda em pontos.
-Um acerto com alternativas vale exatamente metade do mesmo acerto digitado (testado em `scoring.test.ts`).
+Pular interrompe a sequência de vida porque não é um acerto. Acertos com alternativas contam para
+recuperar vida, mas mantêm o combo de pontuação congelado e valem metade dos pontos.
 
-### Recarga das alternativas (sistema separado das vidas)
+### Recarga de pulos e alternativas (separada das vidas)
 
-- Começa com **3 cargas**; cada uso consome 1 (duplo clique não cobra 2; 1 uso por rodada).
-- **+1 carga a cada 15 acertos ACUMULADOS** na partida — não precisam ser seguidos; acertos com
-  alternativas contam; erro, tempo e pulo **não zeram** o progresso; pulo não conta.
-- Teto de 3: com as cargas cheias o medidor fica parado em 0/15 (sem estoque invisível); ao gastar uma,
-  recomeça de 0/15. Nova partida = 3 cargas e medidor zerado.
-- Visual próprio (cristais violeta + linha de recarga no botão), diferente da barra de vida.
+- Começa com **3 pulos e 3 cargas de alternativas**; cada uso consome 1 do recurso correspondente.
+- A cada **5 acertos ACUMULADOS** na partida, devolve **1 pulo e 1 carga de alternativas**,
+  verificando separadamente se cada um está abaixo do máximo de 3.
+- Acertos com alternativas contam. Erros, tempo esgotado e pulos não contam e **não zeram** o progresso.
+- Os marcos são o 5º, 10º, 15º… acerto total, mesmo se um recurso estiver cheio. Nesse caso,
+  sua recarga é descartada, sem estoque de cargas acima do teto e sem impedir a recarga do outro recurso.
+- Exemplo: 4 acertos com ajudas cheias, depois usa alternativas e acerta: o 5º acerto devolve a carga usada.
+- Ambos os botões mostram quantos acertos faltam quando o recurso não está cheio. Nova partida zera o progresso.
+- Ações duplicadas não contam duas vezes nem concedem duas recargas.
+
+### Alteração aprovada em 14/11/2026
+
+A pedido do usuário: recuperação fixa de vida com três acertos seguidos e recarga conjunta de pulo e
+alternativas a cada cinco acertos totais. Testes de `lives.test.ts` e `engine.test.ts` verificam
+recuperações repetidas, acertos com alternativas, acertos intercalados com erros/timeout/pulo,
+marcos com recursos cheios, limites independentes e ações duplicadas. O E2E verifica a apresentação
+nas telas móvel e desktop usando o build de produção.
 
 **O timer NÃO pausa durante a ajuda.** Estourar o tempo com as alternativas abertas custa 1 vida
 (testado em `engine.test.ts`).

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAME_CONFIG } from '../config/gameConfig';
 import { CHARACTERS } from '../data/characters';
-import { createEngine, currentMultiplier, hintRechargeView, recoveryView, roundRemainingMs, type GameState } from './engine';
+import { createEngine, currentMultiplier, hintRechargeView, skipRechargeView, recoveryView, roundRemainingMs, type GameState } from './engine';
 import { scoreUnaided } from './scoring';
 
 const engine = createEngine({ catalog: CHARACTERS, isImageReady: () => true, config: GAME_CONFIG });
@@ -93,12 +93,12 @@ describe('B) vidas no fluxo real', () => {
     expect(recoveryView(s, GAME_CONFIG)).toEqual({ required: 3, progress: 1, paused: false });
   });
 
-  it('após recuperar a 1ª vida, a próxima exige 5', () => {
+  it('após recuperar a 1ª vida, a próxima continua exigindo 3', () => {
     let s = start();
     s = wrong(s, 0);
     for (let i = 0; i < 3; i++) s = correct(s, 0);
     s = wrong(s, 0);
-    expect(recoveryView(s, GAME_CONFIG)).toEqual({ required: 5, progress: 0, paused: false });
+    expect(recoveryView(s, GAME_CONFIG)).toEqual({ required: 3, progress: 0, paused: false });
   });
 });
 
@@ -270,7 +270,7 @@ describe('E) pulos e ajudas sem exploits', () => {
     expect(engine.reduce(s, { type: 'skip', roundId: rid(s), now: 1 })).toBe(s);
   });
 
-  it('intercalar pulos não deixa recuperar vida (sequência precisa ser consecutiva sem ajuda)', () => {
+  it('intercalar pulos não deixa recuperar vida (sequência precisa ser consecutiva)', () => {
     let s = start();
     s = wrong(s, 0);
     s = correct(s, 0);
@@ -293,14 +293,14 @@ describe('E) pulos e ajudas sem exploits', () => {
     expect(r.hintsLeft).toBe(GAME_CONFIG.aids.optionHints - 1);
   });
 
-  it('ajuda zera a recuperação na hora; acerto pela ajuda vale metade e não sobe combo', () => {
+  it('ajuda mantém a sequência; acerto pela ajuda recupera vida, vale metade e não sobe combo', () => {
     let s = start();
     s = wrong(s, 0);
     s = correct(s, 0);
     s = correct(s, 0);
     const comboBefore = s.combo;
     const h = engine.reduce(s, { type: 'useHint', roundId: rid(s), now: 10 });
-    expect(h.lives.streak).toBe(0);
+    expect(h.lives.streak).toBe(2);
     const r = engine.reduce(h, { type: 'pickOption', roundId: rid(h), optionId: h.round!.identityId, now: 20 });
     expect(r.lastResolution?.outcome).toBe('correct-hint');
     // Metade do que o mesmo acerto valeria digitado no mesmo instante, com o multiplicador atual.
@@ -310,7 +310,8 @@ describe('E) pulos e ajudas sem exploits', () => {
     expect(r.lastResolution?.score.multiplier).toBe(currentMultiplier(s, GAME_CONFIG));
     expect(r.lastResolution?.score.aidedShare).toBe(0.5);
     expect(r.combo).toBe(comboBefore);
-    expect(r.lives.lives).toBe(2);
+    expect(r.lives.lives).toBe(3);
+    expect(r.lastResolution?.lifeGained).toBe(true);
   });
 
   it('alternativa errada custa 1 vida e zera o combo', () => {
@@ -341,7 +342,7 @@ describe('E) pulos e ajudas sem exploits', () => {
     expect(late.lives.lives).toBe(2);
   });
 
-  it('ajudas não recuperam vidas, mesmo usadas em sequência', () => {
+  it('três acertos seguidos com alternativas também recuperam uma vida', () => {
     let s = start();
     s = wrong(s, 0);
     for (let i = 0; i < GAME_CONFIG.aids.optionHints; i++) {
@@ -349,7 +350,7 @@ describe('E) pulos e ajudas sem exploits', () => {
       const r = engine.reduce(h, { type: 'pickOption', roundId: rid(h), optionId: h.round!.identityId, now: 0 });
       s = engine.reduce(r, { type: 'next', roundId: rid(r), now: 0 });
     }
-    expect(s.lives.lives).toBe(2);
+    expect(s.lives.lives).toBe(3);
     expect(s.lives.streak).toBe(0);
     expect(s.hintsLeft).toBe(0);
   });
@@ -372,9 +373,7 @@ describe('E) pulos e ajudas sem exploits', () => {
   });
 });
 
-describe('E) alternativas recarregáveis (+1 carga a cada 15 acertos acumulados, teto 3)', () => {
-  const every = GAME_CONFIG.aids.optionHintRechargeEvery;
-  const max = GAME_CONFIG.aids.optionHints;
+describe('E) pulos e alternativas recarregam juntos a cada 5 acertos totais', () => {
   const openHint = (s: GameState) => engine.reduce(s, { type: 'useHint', roundId: rid(s), now: 0 });
   function hintCorrect(s: GameState): GameState {
     const h = openHint(s);
@@ -383,73 +382,97 @@ describe('E) alternativas recarregáveis (+1 carga a cada 15 acertos acumulados,
     return engine.reduce(r, { type: 'next', roundId: rid(r), now: 1 });
   }
 
-  it('começa com 3 cargas e o medidor parado (cheio)', () => {
+  it('começa com 3 de cada recurso e medidores cheios', () => {
     const s = start();
-    expect(hintRechargeView(s, GAME_CONFIG)).toEqual({ charges: max, max, progress: 0, every, full: true, remaining: 0 });
+    const view = { charges: 3, max: 3, progress: 0, every: 5, full: true, remaining: 0 };
+    expect(hintRechargeView(s, GAME_CONFIG)).toEqual(view);
+    expect(skipRechargeView(s, GAME_CONFIG)).toEqual(view);
   });
 
-  it('com cargas cheias, acertos não acumulam estoque invisível', () => {
-    let s = start();
-    for (let i = 0; i < every + 5; i++) s = correct(s, 0);
-    expect(s.hintsLeft).toBe(max);
-    expect(s.hintProgress).toBe(0);
-  });
-
-  it('exemplo do enunciado: usa 1 → 2/3 0/15; 10 acertos → 10/15; erro mantém; +5 → 3/3 e pausa; usa outra → 2/3 0/15', () => {
-    let s = openHint(start());
-    expect(s.hintsLeft).toBe(max - 1);
-    s = engine.reduce(s, { type: 'pickOption', roundId: rid(s), optionId: s.round!.options!.find((id) => id !== s.round!.identityId)!, now: 0 });
-    expect(s.hintProgress).toBe(0); // alternativa errada não conta
-    s = engine.reduce(s, { type: 'next', roundId: rid(s), now: 1 });
-    for (let i = 0; i < 10; i++) s = correct(s, 0);
-    expect(hintRechargeView(s, GAME_CONFIG)).toMatchObject({ charges: 2, progress: 10, remaining: 5, full: false });
-    s = wrong(s, 0);
-    expect(s.hintProgress).toBe(10); // erro NÃO zera a recarga (diferente das vidas)
-    s = skip(s, 0);
-    expect(s.hintProgress).toBe(10); // pulo não conta nem zera
-    for (let i = 0; i < 4; i++) s = correct(s, 0);
-    expect(s.hintProgress).toBe(14);
-    const r = engine.reduce(s, { type: 'submit', roundId: rid(s), guess: answerFor(s), now: 0 });
-    expect(r.lastResolution?.hintRecharged).toBe(true); // 14 → 15 devolve 1 carga
-    expect(r.hintsLeft).toBe(3);
-    expect(r.hintProgress).toBe(0);
-    expect(r.stats.hintsRecharged).toBe(1);
-    s = engine.reduce(r, { type: 'next', roundId: rid(r), now: 1 });
+  it('o quinto acerto devolve 1 de cada; três acertos ainda não recarregam', () => {
+    let s = hintCorrect(skip(start(), 0)); // 1 acerto, 2 cargas e 2 pulos
+    for (let i = 0; i < 2; i++) s = correct(s, 0);
+    expect(s.aidProgress).toBe(3);
+    expect(s.hintsLeft).toBe(2);
+    expect(s.skipsLeft).toBe(2);
     s = correct(s, 0);
-    expect(s.hintProgress).toBe(0); // cheio: pausado
-    s = openHint(s);
-    expect(hintRechargeView(s, GAME_CONFIG)).toMatchObject({ charges: 2, progress: 0, remaining: every });
+    expect(hintRechargeView(s, GAME_CONFIG).remaining).toBe(1);
+    const r = engine.reduce(s, { type: 'submit', roundId: rid(s), guess: answerFor(s), now: 0 });
+    expect(r).toMatchObject({ hintsLeft: 3, skipsLeft: 3, aidProgress: 0 });
+    expect(r.lastResolution).toMatchObject({ hintRecharged: true, skipRecharged: true });
+    expect(r.stats).toMatchObject({ hintsRecharged: 1, skipsRecharged: 1 });
+    // Envios atrasados/duplicados não devolvem outro par de recursos.
+    expect(engine.reduce(r, { type: 'submit', roundId: rid(r), guess: answerFor(r), now: 1 })).toBe(r);
   });
 
-  it('acerto COM alternativas conta para a recarga, mas não para a recuperação de vida', () => {
-    let s = wrong(start(), 0); // 2 vidas: recuperação ativa
+  it('erros, tempo e pulos não contam nem zeram os acertos acumulados', () => {
+    let s = hintCorrect(start());
+    s = correct(s, 0); // 2 acertos
+    s = wrong(s, 0);
+    s = skip(s, 0);
+    const t = engine.reduce(s, { type: 'timeout', roundId: rid(s), now: 100_000 });
+    expect(t.aidProgress).toBe(2);
+    s = engine.reduce(t, { type: 'next', roundId: rid(t), now: 0 });
+    s = correct(s, 0);
+    s = correct(s, 0);
+    expect(s).toMatchObject({ aidProgress: 4, hintsLeft: 2, skipsLeft: 2 });
+    s = correct(s, 0);
+    expect(s).toMatchObject({ aidProgress: 0, hintsLeft: 3, skipsLeft: 3 });
+  });
+
+  it('usa os marcos 5, 10, 15… da partida, inclusive após acertos com recursos cheios', () => {
+    let s = start();
+    for (let i = 0; i < 4; i++) s = correct(s, 0);
+    expect(s.aidProgress).toBe(4);
+    s = hintCorrect(s); // usa e devolve a carga no quinto acerto
+    expect(s.hintsLeft).toBe(3);
+    expect(s.lastResolution).toMatchObject({ hintRecharged: true, skipRecharged: false });
+    for (let i = 0; i < 6; i++) s = correct(s, 0); // 11 acertos; o marco cheio de 10 não fica guardado
+    s = skip(s, 0);
+    expect(skipRechargeView(s, GAME_CONFIG)).toMatchObject({ charges: 2, progress: 1, remaining: 4 });
+    for (let i = 0; i < 4; i++) s = correct(s, 0);
+    expect(s).toMatchObject({ skipsLeft: 3, hintsLeft: 3, aidProgress: 0 });
+    expect(s.stats).toMatchObject({ hintsRecharged: 1, skipsRecharged: 1 });
+  });
+
+  it('recarrega pulos mesmo com alternativas cheias, e alternativas mesmo com pulos cheios', () => {
+    let s = skip(start(), 0);
+    for (let i = 0; i < 5; i++) s = correct(s, 0);
+    expect(s.lastResolution).toMatchObject({ hintRecharged: false, skipRecharged: true });
     s = hintCorrect(s);
-    expect(s.hintProgress).toBe(1);
-    expect(s.lives.streak).toBe(0);
-    expect(s.lives.lives).toBe(2);
+    for (let i = 0; i < 4; i++) s = correct(s, 0);
+    expect(s.lastResolution).toMatchObject({ hintRecharged: true, skipRecharged: false });
+    expect(s).toMatchObject({ hintsLeft: 3, skipsLeft: 3 });
   });
 
-  it('cada rodada conta uma vez só (duplo envio não soma 2) e nunca passa de 3 cargas', () => {
-    let s = openHint(start());
-    s = engine.reduce(s, { type: 'pickOption', roundId: rid(s), optionId: s.round!.identityId, now: 0 });
-    const again = engine.reduce(s, { type: 'pickOption', roundId: rid(s), optionId: s.round!.identityId, now: 1 });
-    expect(again).toBe(s);
-    expect(s.hintProgress).toBe(1);
-    s = engine.reduce(s, { type: 'next', roundId: rid(s), now: 2 });
-    for (let i = 0; i < every * 3; i++) s = correct(s, 0);
-    expect(s.hintsLeft).toBe(max);
+  it('nunca passa do teto e não guarda recargas de marcos anteriores', () => {
+    let s = start();
+    for (let i = 0; i < 50; i++) s = correct(s, 0);
+    expect(s).toMatchObject({ hintsLeft: 3, skipsLeft: 3, aidProgress: 0 });
+    expect(s.stats).toMatchObject({ hintsRecharged: 0, skipsRecharged: 0 });
+    s = hintCorrect(skip(s, 0));
+    expect(s).toMatchObject({ hintsLeft: 2, skipsLeft: 2, aidProgress: 1 });
+    expect(s.lastResolution).toMatchObject({ hintRecharged: false, skipRecharged: false });
   });
 
-  it('nova partida recomeça com 3 cargas e medidor zerado', () => {
+  it('falha técnica e pausa não contam nem apagam progresso de recarga', () => {
+    let s = correct(correct(start(), 0), 0);
+    s = engine.reduce(s, { type: 'imageFailed', roundId: rid(s), now: 0 });
+    s = engine.reduce(s, { type: 'hide', now: 0 });
+    s = engine.reduce(s, { type: 'resume', now: 1 });
+    expect(s.aidProgress).toBe(2);
+    expect(s.stats.correct).toBe(2);
+  });
+
+  it('nova partida recomeça com todos os recursos e progresso zerado', () => {
     const s = start(7);
-    expect(s.hintsLeft).toBe(max);
-    expect(s.hintProgress).toBe(0);
-    expect(s.stats.hintsRecharged).toBe(0);
+    expect(s).toMatchObject({ hintsLeft: 3, skipsLeft: 3, aidProgress: 0 });
+    expect(s.stats).toMatchObject({ hintsRecharged: 0, skipsRecharged: 0 });
   });
 });
 
-describe('F) sequência de recuperação de vida: metas 3/5/7/10/15 e quebra registrada', () => {
-  it('metas 3, 5, 7, 10, 15 e depois 15 fixos; nunca passa de 3 vidas', () => {
+describe('F) sequência de recuperação de vida: meta fixa de 3 e quebra registrada', () => {
+  it('sempre 3 acertos por vida; nunca passa de 3 vidas', () => {
     let s = start();
     const reached: number[] = [];
     for (let k = 0; k < 6; k++) {
@@ -466,7 +489,7 @@ describe('F) sequência de recuperação de vida: metas 3/5/7/10/15 e quebra reg
       s = engine.reduce(r, { type: 'next', roundId: rid(r), now: 1 });
       expect(recoveryView(s, GAME_CONFIG).paused).toBe(true); // vidas completas: barra pausada
     }
-    expect(reached).toEqual([3, 5, 7, 10, 15, 15]);
+    expect(reached).toEqual([3, 3, 3, 3, 3, 3]);
   });
 
   it('erro zera a sequência e registra a quebra (para a animação "Sequência interrompida")', () => {
@@ -478,11 +501,12 @@ describe('F) sequência de recuperação de vida: metas 3/5/7/10/15 e quebra reg
     expect(r.streakBreak).toEqual({ roundId: rid(s), lost: 2 });
   });
 
-  it('usar alternativas também quebra a sequência (e registra); acerto normal não registra quebra', () => {
+  it('abrir alternativas preserva a sequência e não registra uma quebra', () => {
     let s = wrong(start(), 0);
     s = correct(s, 0);
     expect(s.streakBreak).toBeNull();
     const h = engine.reduce(s, { type: 'useHint', roundId: rid(s), now: 0 });
-    expect(h.streakBreak).toEqual({ roundId: rid(s), lost: 1 });
+    expect(h.streakBreak).toBeNull();
+    expect(h.lives.streak).toBe(1);
   });
 });

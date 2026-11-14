@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import { GAME_CONFIG } from '../../config/gameConfig';
-import { hintRechargeView, recoveryView, roundRemainingMs, type Engine, type GameMode, type GameState, type Resolution } from '../../domain/engine';
+import { hintRechargeView, skipRechargeView, recoveryView, roundRemainingMs, type Engine, type GameMode, type GameState, type Resolution } from '../../domain/engine';
 import { heatLevel, isFastAnswer, multiplierProgress } from '../../domain/progress';
 import { multiplierFor } from '../../domain/scoring';
 import type { Identity } from '../../domain/types';
@@ -99,6 +99,7 @@ export function GameScreen({
 
   const recovery = recoveryView(state, cfg);
   const hints = hintRechargeView(state, cfg);
+  const skips = skipRechargeView(state, cfg);
   const resolution = phase === 'feedback' || phase === 'gameover' ? state.lastResolution : null;
   const resolvedHere = resolution && resolution.roundId === round.id ? resolution : null;
   const brokenNow = state.streakBreak?.roundId === round.id;
@@ -179,12 +180,16 @@ export function GameScreen({
               className="btn btn--aid"
               disabled={!canAct || state.skipsLeft <= 0}
               onClick={() => dispatch({ type: 'skip', roundId: round.id })}
-              aria-label={`Pular, ${state.skipsLeft} restantes`}
+              aria-label={`Pular, ${state.skipsLeft} restantes${skips.full ? '' : `, +1 pulo em ${skips.remaining} acertos`}`}
+              data-testid="skip-button"
             >
               <AidIcon tone="skip" left={state.skipsLeft}>
                 <SkipIcon />
               </AidIcon>
-              <span className="aid-label">Pular</span>
+              <span className="aid-stack">
+                <span className="aid-label">Pular</span>
+                <HintCharges {...skips} resource="pulo" />
+              </span>
             </button>
             <button
               className="btn btn--aid btn--hint"
@@ -452,6 +457,8 @@ function FeedbackOverlay({ resolution, name }: { resolution: Resolution; name: s
           {fast && <span className="tag tag--fast">rápido +{score.speedBonus}</span>}
           {resolution.lifeLost && <span className="tag tag--bad">−1 vida</span>}
           {resolution.lifeGained && <span className="tag tag--good">+1 vida</span>}
+          {resolution.hintRecharged && <span className="tag tag--good">+1 alternativa</span>}
+          {resolution.skipRecharged && <span className="tag tag--good">+1 pulo</span>}
           {outcome === 'skipped' && <span className="tag">vida mantida</span>}
         </span>
       </div>

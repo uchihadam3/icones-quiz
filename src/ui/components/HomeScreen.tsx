@@ -179,17 +179,17 @@ export function HomeScreen({
           <li className="rule rule--recover">
             <ShieldHeart />
             <b>Vida de volta</b>
-            <span>{cfg.recovery.thresholds.slice(0, 3).join(', ')}… acertos seguidos</span>
+            <span>a cada {cfg.recovery.cap} acertos seguidos, sempre</span>
           </li>
           <li className="rule rule--skip">
             <SkipIcon />
             <b>{cfg.aids.skips} pulos</b>
-            <span>sem perder vida, sem pontos</span>
+            <span>+1 a cada {cfg.aids.aidRechargeEvery} acertos no total</span>
           </li>
           <li className="rule rule--hint">
             <OptionsIcon />
             <b>{cfg.aids.optionHints} alternativas</b>
-            <span>valem metade · +1 a cada {cfg.aids.optionHintRechargeEvery} acertos</span>
+            <span>valem metade · +1 a cada {cfg.aids.aidRechargeEvery} acertos no total</span>
           </li>
         </ul>
       </section>
