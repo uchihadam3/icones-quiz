@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-11-15",
   "entries": [
     {
       "id": "elsa",
@@ -420,14 +420,6 @@
       "prompt": "Meowth, canonical cream cat Pokémon with golden oval coin on forehead, black-tipped ears, long whiskers, brown curled tail and paws. Full mischievous bipedal creature, all whiskers inside frame.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
       "status": "blocked",
       "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
-    },
-    {
-      "id": "mewtwo",
-      "prompt": "Mewtwo, canonical pale-gray humanoid psychic Pokémon, purple belly and long purple tail, two short head protrusions and three-fingered hands. Calm powerful pose with subtle violet psychic aura.\nUse case: stylized-concept. Asset type: individual character art for Ícones — Maratona image quiz. Premium expressive illustration, clean outlines and rich painterly cel shading, subtle cinematic rim light, same quality as existing quiz art. Faithful instantly recognizable canonical design, face, proportions and colors. Vertical 4:5, deep navy-indigo neutral background. Frame upper body unless full creature requested. Do NOT fill canvas: leave clear empty 8–10 percent margin above ALL head/hair/horns/hats and at sides. Entire recognizable silhouette, ears, head accessories and hands uninterrupted, no cropped tips. Correct anatomy and limb count. One subject unless group explicitly requested. No printed names, captions, words, franchise title/logo, watermarks, borders or collage; intrinsic costume symbols explicitly mentioned may remain. No photorealism.",
-      "status": "blocked",
-      "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio.",
-      "refinementPrompt": "Correct anatomy only in this Mewtwo quiz portrait. His extended foreground hand must have exactly THREE rounded bulb-tipped digits total, including thumb, matching canonical Mewtwo anatomy; remove the extra fourth digit and make the remaining three naturally spaced. Keep the foreshortened arm, pose, body, other hand, face, horns, purple tail, psychic aura, navy background, colors and illustration style identical. No new text, logos, watermark or border.",
-      "reviewNote": "A arte inicial tinha quatro dedos na mão estendida; rejeitada na revisão. O refinamento anatômico foi bloqueado. Manter missing e não repetir a geração para contornar o bloqueio."
     },
     {
       "id": "snorlax",
@@ -2222,6 +2214,42 @@
       "prompt": "Use case: stylized-concept. Asset type: individual portrait for Ícones — Maratona image quiz. Accurate recognizable adult public figure as themselves. Premium expressive illustration, clean outlines, detailed painterly cel shading and subtle cinematic rim light, matching the recent quiz portraits. Vertical 4:5 canvas, simple deep navy-indigo background. Center upper body, preserve accurate identity, face, hair and skin tone. Entire head, hair, hats, hands and accessories comfortably inside frame with clear navy margin above and at both sides. Correct anatomy. No photorealism, extra people, printed names, captions, words, readable numbers, sponsors, brand logos, watermark, border or UI. No endorsement. Jay-Z Shawn Carter, recognizable mature adult Black rapper with medium-length freeform black twists, brown eyes, distinctive broad nose and full lips, dark casual jacket over black shirt, relaxed confident expression.",
       "status": "blocked",
       "nextAction": "Curar uma imagem externa apropriada, verificar autoria e licença e revisar a identidade e o enquadramento antes de integrar. Não repetir o prompt para contornar o bloqueio."
+    },
+    {
+      "id": "christina-aguilera",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Christina Aguilera as themselves, singer, platinum blonde hair, red lipstick, elegant black outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "tupac",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Tupac as themselves, Tupac Shakur in his iconic appearance, shaved head with bandana tied in front, thin mustache and goatee, dark clothing. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "notorious-big",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of The Notorious B.I.G. as themselves, Biggie Smalls, heavyset Black rapper in iconic 1990s appearance, black cap, calm recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "luisa-sonza",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Luísa Sonza as themselves, Brazilian singer, adult woman with long wavy blonde hair, recognizable face, dark outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "blocked",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "joelma",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Joelma as themselves, Brazilian singer, adult woman with long voluminous blonde hair, recognizable face, blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "chitaozinho",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Chitãozinho as themselves, Brazilian country singer, mature man with recognizable face and short light brown-gray hair, dark blazer. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
     }
   ]
 }

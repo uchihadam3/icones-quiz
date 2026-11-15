@@ -1,0 +1,666 @@
+{
+  "base": "ca8390a1520022d0ff7c9062b60c55da59c48c76",
+  "entries": [
+    {
+      "id": "alcione",
+      "sha256": "2a303d22af5f319dd68d39e7e458708952b3e47afa81f264eef2defe32fc779f",
+      "bytes": 124440,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Alcione, Brazilian samba singer, mature Black woman with long dark wavy hair, rounded expressive face, radiant smile, elegant burgundy outfit with silver jewelry. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "alicia-keys",
+      "sha256": "aa1cc36b170524ef5240598e435e8632a462f1dd22e643368cc122f4790bbcbd",
+      "bytes": 76282,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Alicia Keys, American singer and pianist, adult Black woman with recognizable face, dark braided hair, warm smile and simple dark blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "avril-lavigne",
+      "sha256": "4a1d8e37218088dad07932ef26b0f1b283bd2cc82cd31feeee7465a8ae68e0d9",
+      "bytes": 149056,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Avril Lavigne, Canadian singer, adult woman with long straight blonde hair, black eyeliner, recognizable face and gentle confident expression, plain black rock jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "chester-bennington",
+      "sha256": "8b0cd7e3badfc9322702fabc58c3da7b0b2682825cd76d3f61e4c48022f5d3ab",
+      "bytes": 65202,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Chester Bennington, Linkin Park vocalist, adult man with very short bleached blond hair, thin dark rectangular glasses, ear plugs, recognizable face, plain black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "dave-grohl",
+      "sha256": "66094f9a76d1bea48338dfc5db5aa6d0e366e2386887257b06cb22b70979bb47",
+      "bytes": 98194,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Dave Grohl, rock singer and guitarist, middle-aged man with long dark hair, dark full beard, broad friendly smile and recognizable face, plain black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "george-harrison",
+      "sha256": "8b380ac203f6ff8ea0ac4a5fa51c1d6c3a2eb04cc414f7f4016a88ebeeb63fa5",
+      "bytes": 131962,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of George Harrison as themselves, Beatles guitarist in his early solo era, long dark hair and beard, serene expressive face. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "janis-joplin",
+      "sha256": "96cca8c450c80d633ef026c542b236063659b2cee1b0c9a6a300141d0badf523",
+      "bytes": 131138,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Janis Joplin as themselves, rock singer, long wavy brown hair, round tinted glasses, beaded necklaces, expressive face. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "jim-morrison",
+      "sha256": "fc69d82a5aa66025255783bb1918ac6101c12a62f58e521ba0a4695aaf8ebcc0",
+      "bytes": 104768,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jim Morrison as themselves, Doors singer, iconic young adult appearance, long thick curly brown hair, clean-shaven face, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "jimi-hendrix",
+      "sha256": "e6754620b30b05de9e1dde40572540cde03da414199bce1e04d7b92abe312a78",
+      "bytes": 148704,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jimi Hendrix as themselves, rock guitarist in his iconic late-1960s appearance, Black man with full afro, mustache, colorful psychedelic jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "jorge-ben-jor",
+      "sha256": "dfa6298d41947d09e0568e845d756e5e8ceeef6fe59919c03330779a1d9fdceb",
+      "bytes": 95282,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jorge Ben Jor, Brazilian singer and guitarist, older Black man with rounded expressive face, short graying curly hair, smiling warmly in a plain dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "jose-mourinho",
+      "sha256": "fe3011af288ab4cc0ba16a3b746133401b61cbc696a0748111248d50c197bd5a",
+      "bytes": 78888,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of José Mourinho, Portuguese football coach, mature man with short silver hair, dark eyebrows, strong serious features, navy blazer over a dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "keith-richards",
+      "sha256": "83ae13221df62ce3e70c592421a2571a1b8d40089f971dd63b3dfa209af5229f",
+      "bytes": 149352,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Keith Richards as themselves, Rolling Stones guitarist, older weathered face, dark bandana and gray hair, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "khaby-lame",
+      "sha256": "2d94fe07cdd278bf37758a487ee5530d8653c1b8e3004a9c8bfc22ad877e15ae",
+      "bytes": 87680,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Khaby Lame as themselves, Senegalese-Italian creator, young Black man with short black hair, expressive eyebrows and subtle knowing smile, palms open in his signature gesture. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "lulu-santos",
+      "sha256": "2d7e0c7cbb7b6f5eb3827c304fceafc03e5d06359e947201435be2af0b4eaadd",
+      "bytes": 83902,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lulu Santos as themselves, Brazilian singer, mature man with salt-and-pepper hair and recognizable face, dark casual jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "manuel-neuer",
+      "sha256": "9d3754f20fe67ae2785f8e8c0d062a298b5f4b3d83c4a2729b45472e3105de06",
+      "bytes": 99244,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Manuel Neuer as themselves, German goalkeeper, short light brown hair, light eyes, recognizable angular face, plain green goalkeeper jersey. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "ney-matogrosso",
+      "sha256": "fe620a1591ebdc85043435926bd37712c6f1600d0cfa84253f8cbad0b2891124",
+      "bytes": 86112,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Ney Matogrosso, Brazilian singer as himself, mature slim man with short silver hair, distinctive large expressive eyes, arched eyebrows, angular face, warm subtle smile, plain black open-collar shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "pep-guardiola",
+      "sha256": "2ffccf33481133b547513ae0ccaeb5c6b14798229c4ac79486a70e7475aefed3",
+      "bytes": 74328,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Pep Guardiola as themselves, Spanish football coach, bald head, close gray beard, plain dark crew-neck sweater. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "ringo-starr",
+      "sha256": "56a9a4465c005ddbb73de80b4225621c85a75bd19d9273621c23e12ebb4627fa",
+      "bytes": 101876,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Ringo Starr as themselves, Beatles drummer, older man with short dark hair, gray beard, round dark sunglasses, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "seu-jorge",
+      "sha256": "ea82302e0b08a34d9af336746ee207e9b9d01ec251b7dd32e5dfbb763005279c",
+      "bytes": 53158,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Seu Jorge as themselves, Brazilian singer and actor, adult Black man with short dark hair and trimmed beard, friendly smile, plain shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "slash",
+      "sha256": "ae23e0b28030c6c55fd1cc3acbe87fc85fd85318c0d57cbff0b4d0bc453ae10c",
+      "bytes": 111152,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Slash, rock guitarist, recognizable long dense black curly hair, black top hat fully inside frame, dark aviator sunglasses, sleeveless black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "zeze-di-camargo",
+      "sha256": "e80964d2be9627b9a8761c19f0043e651a5cdb0e6cc82e372d011df58db672de",
+      "bytes": 83694,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Zezé Di Camargo as themselves, Brazilian sertanejo singer, mature man, short dark hair and recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "aretha-franklin",
+      "sha256": "a953a75db07a743db1a2639ab69bdd4e9bc406d0b5b8317aa83f88f60300a0fe",
+      "bytes": 124488,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Aretha Franklin as themselves, soul singer, mature Black woman with rounded face and elegant voluminous dark hair, burgundy dress. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "bob-dylan",
+      "sha256": "384266f5f78c7dfe04c7bb2b63c8804f92af3950618a8dd69fe1c08b9b04d020",
+      "bytes": 110886,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Bob Dylan as themselves, iconic 1960s folk-rock singer, curly dark hair, recognizable narrow face, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "brian-may",
+      "sha256": "72ca1183e1f18431ed9b7334af9ef57b2d28585a4758a14edaa99787c6cce4da",
+      "bytes": 144104,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Brian May as themselves, Queen guitarist, tall mature man with signature long enormous gray curly hair, recognizable face. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "bruce-springsteen",
+      "sha256": "46a9bfaf8dafa61dbbc900b5acf84687bd556b96f54985accda1dba0003928c4",
+      "bytes": 138614,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Bruce Springsteen as themselves, mature rock singer, short brown-gray hair, rugged recognizable face, denim jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "diana-ross",
+      "sha256": "3eb6b8a7328d4056e43180ce2df120b721ea32411f6b5d2c298bd1c5f1f04754",
+      "bytes": 114364,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Diana Ross as themselves, soul singer with iconic large dark curls, elegant burgundy clothing, warm smile. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "dolly-parton",
+      "sha256": "c2d54c82be471d4010dad1c96c1bebde5101c6719f330801fd5aa15f8d114d57",
+      "bytes": 128680,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Dolly Parton as themselves, iconic blonde country singer with voluminous blonde hair, warm smile and elegant sparkling outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "eric-clapton",
+      "sha256": "7ace3475caa1c44d79984cdb77b05b985b41322364fa207ace82b4a29ef31ce6",
+      "bytes": 114172,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Eric Clapton as themselves, older British guitarist with gray hair, short gray beard, rectangular glasses, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "james-brown",
+      "sha256": "fc13e054e968a167f6d72f1f4ecb14975a4de2fc7688ae6f94dd3c38ccd56c52",
+      "bytes": 96212,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of James Brown as themselves, soul singer with iconic pompadour hair, recognizable face and confident smile, dark suit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "johnny-cash",
+      "sha256": "147e72b533896c37f12dce1735a1393381abea41b938b927382aca43cb5155b4",
+      "bytes": 57932,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Johnny Cash as themselves, iconic mature appearance, swept-back dark hair, serious recognizable face, all-black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "marvin-gaye",
+      "sha256": "10a0e9bb6300c99fdf048a8b9617baabc83f5a769f07020309b1cb701534d0f5",
+      "bytes": 75174,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Marvin Gaye as themselves, soul singer, adult Black man with short hair, full beard, warm smile, simple dark clothing. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "shania-twain",
+      "sha256": "945cf5570d78a7ae40f7aba1e6dc50b806f0a6d51bb86fa602141ddff25a7b17",
+      "bytes": 109198,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Shania Twain as themselves, country singer with long dark hair, recognizable face, warm smile, simple elegant dark outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "adam-levine",
+      "sha256": "c4cff791b5fb233efc6935777d4ec850c22caa0255389f0e7403aff37dbfe250",
+      "bytes": 88204,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Adam Levine as themselves, Maroon 5 singer, short dark hair and trimmed beard, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "angus-young",
+      "sha256": "04cf420a60689491a64b1a7a906f0d380cb0acca48e12ca9b229ac8731336cc9",
+      "bytes": 111958,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Angus Young as themselves, AC/DC guitarist in iconic schoolboy stage outfit with dark cap, white shirt and dark blazer, entire cap visible. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "billie-joe-armstrong",
+      "sha256": "495a8e76abbd366d2ca5b5fe30665ec52a273df739c44986acd2492c06587f27",
+      "bytes": 77336,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Billie Joe Armstrong as themselves, Green Day singer, short spiky black hair, black eyeliner, black shirt and thin red tie. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "chris-martin",
+      "sha256": "8ec089c9f29fd116297edd8c70d8124ccde039463b06398ee81acc6b434e80ee",
+      "bytes": 105202,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Chris Martin as themselves, Coldplay singer, curly short light brown hair, blue eyes, relaxed smile. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "gene-simmons",
+      "sha256": "4213aaca90cebc07da733c3e77050f176ee7f47cd14566dee6ced09c8f011f9e",
+      "bytes": 148144,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gene Simmons as themselves, KISS bassist in iconic black-and-white Demon stage makeup, long black hair and black stage outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "james-hetfield",
+      "sha256": "8b9254d8a10838ecdec677344479f33c682f6ed2e4998ac7be1795b479c6c72b",
+      "bytes": 91280,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of James Hetfield as themselves, Metallica frontman, mature man with short gray hair and gray goatee, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "justin-timberlake",
+      "sha256": "adfc8dbda5ce27fc0cbea6c908a9e052eb3b115087f7d1498bcf404bd398ee16",
+      "bytes": 78324,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Justin Timberlake as themselves, recognizable singer, short brown hair, close beard, navy jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "lionel-richie",
+      "sha256": "8ba3064c8b83088528ee6027ab48d155b580589e13473322a7b48f3e07868b31",
+      "bytes": 78650,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lionel Richie as themselves, mature singer with curly dark hair and distinctive mustache, warm smile, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "phil-collins",
+      "sha256": "6a4812b07c8455bcefd924844e757e1faeb5c03e48e0b385ee8dfa84ee0d6f52",
+      "bytes": 96982,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Phil Collins as themselves, mature British singer and drummer, balding head, gray stubble, recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "robert-plant",
+      "sha256": "623bdc8da4c4f004805da922c37929bcbf50092a4abee9f47c7589db99ccf547",
+      "bytes": 149400,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Robert Plant as themselves, Led Zeppelin singer in iconic long golden curly-haired appearance, recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "steven-tyler",
+      "sha256": "d4eed942bb133d924e14973e76e5c3e750857758c2cd6aab1846f371ec43baf1",
+      "bytes": 139060,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Steven Tyler as themselves, Aerosmith singer, long brown hair with highlights, distinctive lips, expressive recognizable face, patterned scarf. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "sting",
+      "sha256": "d3d38302cb066525126b087dd9576376d572d2f1278e261902d982e6232f7dea",
+      "bytes": 87412,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sting as themselves, mature British singer and bassist, short blond-gray hair, recognizable angular face, simple dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "camila-cabello",
+      "sha256": "3a377c7f20bee8b587b89f3889aff39d3b2c4cb18e2907a029b2f55deb59056e",
+      "bytes": 115418,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Camila Cabello as themselves, adult singer with long dark hair and bangs, warm smile. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "demi-lovato",
+      "sha256": "663731076646ff83d3042fb105374855aa52ec1be283c6d88c9d8675299d690d",
+      "bytes": 101228,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Demi Lovato as themselves, adult singer with dark hair, recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "gwen-stefani",
+      "sha256": "41b5f991df1b1afeca83e4e39cf20efaff45d1bcebda04502396008b0f1170b5",
+      "bytes": 92514,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gwen Stefani as themselves, singer, platinum blonde hair, red lipstick, black outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "kelly-clarkson",
+      "sha256": "641c00d81c41c885105ae1d5b9f97c4b93be324bea58aedd5fa8593ef3cd0fad",
+      "bytes": 120860,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Kelly Clarkson as themselves, singer, long warm blonde-brown hair, broad warm smile, burgundy outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "lizzo",
+      "sha256": "70cf65f132c7b479edf396a158a797e7ad0ac36545402ee77fcf7240e960899e",
+      "bytes": 102212,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lizzo as themselves, adult Black singer with long dark hair, radiant smile, elegant burgundy clothing. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "pharrell-williams",
+      "sha256": "1c0f17be66fb7c3bb4ff09d52b34cbb9be9b97bb6c4b8c4ee4fb03b221c4e1bd",
+      "bytes": 120312,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Pharrell Williams as themselves, Black musician with recognizable youthful face, signature oversized brown felt hat fully inside frame. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "pink-cantora",
+      "sha256": "f18d07cb3bdf621b54b8c7033bccb7432416e6088b271137f5191b13dfe55516",
+      "bytes": 106952,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of P!nk as themselves, singer P!nk, short platinum pixie haircut, distinctive face, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "sam-smith",
+      "sha256": "35243a05f539d1f1b9e3fe144c28a3fce5c2f3c6163204fe6fdcf3eac27b28c5",
+      "bytes": 82432,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sam Smith as themselves, adult singer with short bleached hair, close beard, recognizable face, elegant dark outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "shawn-mendes",
+      "sha256": "60d693b271cd2e1f70bcf2448bb125585e9f51622ecda6b7a65dd194f5aa8b0b",
+      "bytes": 56348,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Shawn Mendes as themselves, adult singer, thick curly brown hair, recognizable face, plain dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "sia",
+      "sha256": "7d7945661179ee29c3d3b8dd6799703d6c00580b4429ae2fda3e10e954805bcb",
+      "bytes": 61660,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sia as themselves, singer in signature oversized half-black half-white bob wig covering eyes, large black bow entirely within frame. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "usher",
+      "sha256": "3652b2f82a10d54795e9a28838866e3979ae84f5cb0879f724d647f01f98218f",
+      "bytes": 89972,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Usher as themselves, adult Black R&B singer with cropped hair, close beard and recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "50-cent",
+      "sha256": "b28048b9956c961d4661280fe975d6dabdc633813f10d3dbdf42a5acf9d6e84e",
+      "bytes": 79840,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of 50 Cent as themselves, Curtis Jackson, adult Black rapper with close cropped hair, short beard, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "andrea-bocelli",
+      "sha256": "d8f2a78beaa90d20082ddaf3e13db9095b61a7cc9a3397164856153121da48ec",
+      "bytes": 86714,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Andrea Bocelli as themselves, mature Italian tenor, curly gray hair, neatly trimmed beard, dark formal suit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "david-guetta",
+      "sha256": "01898ec7f731bf09b6ca93938d247663a7f630b643d26a2225a903d7b125afee",
+      "bytes": 80374,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of David Guetta as themselves, mature French DJ with medium brown hair and short beard, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "dr-dre",
+      "sha256": "40830ccb578458fb86237a61ae9127dc8636437a89c9bb27bebc308eb8f3d72f",
+      "bytes": 57854,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Dr. Dre as themselves, mature Black music producer with closely shaved hair and trimmed beard, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "erasmo-carlos",
+      "sha256": "f4542842c60b26b567106af12a32064d2c828f2b3633cb5c50a67b0ce9b1277f",
+      "bytes": 132832,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Erasmo Carlos as themselves, Brazilian rock singer, mature appearance with shaggy gray hair, short beard and recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "gloria-estefan",
+      "sha256": "2970fc996bf054eb1826eee73c14704baa26602ff0e099db71e11b0244251dff",
+      "bytes": 104682,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gloria Estefan as themselves, Cuban-American singer with shoulder-length wavy dark brown hair, warm smile, burgundy dress. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "ice-cube",
+      "sha256": "6d235dd0427fb72184b143c26b82eb7a7b216049b5377b0dccf7da2ca28ca8db",
+      "bytes": 73946,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Ice Cube as themselves, mature Black rapper and actor, short black hair and close beard, expressive recognizable brows, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "julio-iglesias",
+      "sha256": "dc5122987a2f624059aedc1afb4ca0d892517bf0a5e70799062f4819a34c8a59",
+      "bytes": 73794,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Julio Iglesias as themselves, mature Spanish singer, swept-back brown hair and tanned recognizable face, dark suit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "jungkook",
+      "sha256": "c9beae62613286974aa94809f910495f66467e3141021833698bc7ac1f66fbc9",
+      "bytes": 77562,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jungkook as themselves, adult Korean singer from BTS, recognizable face, dark hair parted in center, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "kendrick-lamar",
+      "sha256": "1c8688c0a8a1649efdaf73cf03c0a8e22f798ee23551cb23b1847bf903e2a11f",
+      "bytes": 79340,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Kendrick Lamar as themselves, adult Black rapper with braided hair and short beard, recognizable face, plain dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "lil-nas-x",
+      "sha256": "9ede45851728ee116af2d0541b626d1c543d21afbf406ace39faadde989a732b",
+      "bytes": 146596,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lil Nas X as themselves, adult Black singer with short twists, recognizable face, colorful elegant jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "lil-wayne",
+      "sha256": "31d180fe7de05449cf8581c7f9b80db43e62fff537025fe632342924525e541b",
+      "bytes": 142726,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lil Wayne as themselves, adult Black rapper with long dreadlocks, recognizable face tattoos, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "luciano-pavarotti",
+      "sha256": "c89d31b22a306453186ac3cbc11d7ddbe16db64bea7fd9a9ca69450ce26ed8ac",
+      "bytes": 101708,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Luciano Pavarotti as themselves, Italian tenor in iconic appearance, large dark beard and dark hair, expressive face, black tuxedo. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "luis-fonsi",
+      "sha256": "24e9223a6ee94cbdaff2938f9926f4d454709fb5b3051f0ba7282ed8c7089a80",
+      "bytes": 83418,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Luis Fonsi as themselves, Puerto Rican singer with short dark hair and trimmed beard, warm smile, navy jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "maluma",
+      "sha256": "03839e38ced8a40602366352fed9e094b0999790fb83a973fbcbf22db0ff4ea0",
+      "bytes": 71476,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Maluma as themselves, Colombian singer, short dark hair and trimmed beard, recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "marc-anthony",
+      "sha256": "ea46b9796199573fd3e26dfdc15a79341014d5411ba096e89e07c0c0726e7e2a",
+      "bytes": 74634,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Marc Anthony as themselves, Puerto Rican singer, slim face, short dark hair and close beard, dark suit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "marshmello",
+      "sha256": "fe107683b119454780a74a02958ac7f09ed5dcf3a9bd3ece4ab155c7be77a046",
+      "bytes": 68856,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Marshmello as themselves, DJ in signature cylindrical white helmet with simple black eyes and smile, full helmet inside frame, white hoodie. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "sabrina-carpenter",
+      "sha256": "a68245c9a66eaa8e68059ca2223a7e95b654d01619991c3766a40c4cc5e62123",
+      "bytes": 124246,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sabrina Carpenter as themselves, adult singer with long blonde hair and curtain bangs, recognizable face, elegant blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "travis-scott",
+      "sha256": "95191d18e2fead9971a4ea083dd43a2bffcb87f550fb232c600b9a1e1fe1077c",
+      "bytes": 82060,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Travis Scott as themselves, adult Black rapper with signature thin braids, recognizable face, plain dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "cassia-eller",
+      "sha256": "8fd9270b04acd2ce18d122932eb101e16c8537b8a3bb2f3bc19b65f76cce084b",
+      "bytes": 80488,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Cássia Eller as themselves, Brazilian rock singer, short tousled dark hair, distinctive expressive face, casual black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "chorao",
+      "sha256": "4cda3c6ce17c611795046c533304d38d964a7aa3bf3db23585f625bffe2defff",
+      "bytes": 64082,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Chorão as themselves, Chorão, Alexandre Magno Abrão from Charlie Brown Jr, iconic adult appearance with black cap, round face, goatee, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "dinho-mamonas",
+      "sha256": "9a879fe0a4329b1e09858ee625e1c20e7884771243717726c7ff27bd647d9aaf",
+      "bytes": 68106,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Dinho as themselves, Dinho, Alecsander Alves, vocalist of Mamonas Assassinas in iconic 1990s adult appearance, dark shaggy hair, animated smile, plain dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "herbert-vianna",
+      "sha256": "f8877f2049aad8a6f837a3fd352a51c26a7db403256ef0214e0d74c305a03660",
+      "bytes": 95016,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Herbert Vianna as themselves, Brazilian singer and guitarist from Paralamas do Sucesso, mature man with short light-gray hair, thin rectangular glasses, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "iza",
+      "sha256": "1876f732f6e9517dfb9c4a7c3ad0c396d8d3ba75a8ca8d2a4237916b96987839",
+      "bytes": 99370,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of IZA as themselves, Brazilian singer IZA, adult Black woman with long voluminous dark curls, recognizable face, elegant burgundy outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "joao-gilberto",
+      "sha256": "c10cf628118d7ad238c0b6dcea63443ba7620e369f47ec14d43a2fcc8445a7a5",
+      "bytes": 120876,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of João Gilberto as themselves, Brazilian bossa nova singer, mature appearance with receding dark-gray hair and recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "lisa-blackpink",
+      "sha256": "e606fec1c863d7d2847552a6e62623e459fdf957dbb49486228be95c95d46ba9",
+      "bytes": 102012,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lisa (BLACKPINK) as themselves, adult Thai singer Lisa from BLACKPINK, recognizable face, straight dark hair with blunt bangs, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "marisa-monte",
+      "sha256": "9f7f7a709628e6734a65a6f572e89c7faa19d1b3c6bf215c473041c430ccc65d",
+      "bytes": 109658,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Marisa Monte as themselves, Brazilian singer with long wavy dark hair, warm subtle smile, elegant dark outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "nando-reis",
+      "sha256": "0a9e2117d883ab1b9ee6b89d3025ddc0720a35c6ae3c2f0a154ffb77a24de151",
+      "bytes": 84864,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Nando Reis as themselves, Brazilian singer with distinctive curly ginger hair, recognizably narrow face and red facial hair, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "pitty",
+      "sha256": "f7fe8525ce088d29429c27bfb2e643729c4e238342405042d8190d177838482f",
+      "bytes": 134036,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Pitty as themselves, Brazilian rock singer, long dark hair with straight fringe, recognizable face, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "rose-blackpink",
+      "sha256": "cb305fb6ccc469f050918f8d1651918dacb2daf96d7a137b6889de6aae27acc1",
+      "bytes": 132584,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Rosé (BLACKPINK) as themselves, adult Korean-New Zealand singer Rosé from BLACKPINK, recognizable face, long pale blonde hair, blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "samuel-rosa",
+      "sha256": "2dcf5f6af025a2e915cfd1f52a33850183ee8745bd0138e6bf0b2bc202472975",
+      "bytes": 84450,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Samuel Rosa as themselves, Brazilian singer from Skank, recognizable face, dark wavy hair and close beard, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "thalia",
+      "sha256": "1672b52803c556ea62b6d29ce0e983e507cbf0f9bbfdab192855d52dfa0b24c6",
+      "bytes": 139508,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Thalía as themselves, Mexican singer with long wavy caramel-brown hair, radiant smile, elegant blue dress. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "vinicius-de-moraes",
+      "sha256": "5eb8f26a23003a9fb82da77851bef93afb252ebbbb02494eb6f01e2faf9205cf",
+      "bytes": 88086,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Vinicius de Moraes as themselves, Brazilian poet and musician in iconic mature appearance, receding white hair, large black square glasses, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "diogo-nogueira",
+      "sha256": "0605ddd4a1c6ff6c1eb19eaffd4a24e0712c1846b84f58961a918f272706f0f4",
+      "bytes": 91528,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Diogo Nogueira as themselves, Brazilian samba singer, adult man with short dark curly hair, close beard, warm smile and recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "gloria-groove",
+      "sha256": "e88f0c7059686d67fe0977718fe14c70277a6a15268c3025ea283a7ce858e960",
+      "bytes": 141912,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gloria Groove as themselves, Brazilian singer and drag artist Gloria Groove in glamorous stage persona, dramatic polished eye makeup, voluminous dark hair, elegant purple outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "gretchen",
+      "sha256": "48e41f503400b3f3abbb818ea3d773150b099ed60af073936368e86b461f1919",
+      "bytes": 100098,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gretchen as themselves, Brazilian singer, mature woman with long dark hair and recognizable face, elegant burgundy clothing. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "martinho-da-vila",
+      "sha256": "2fe154038fcde37e7e7a728c3a03ecd1d19b7e3d019b295d8a16e9a7c42ff9d3",
+      "bytes": 120892,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Martinho da Vila as themselves, Brazilian samba singer, older Black man with short gray hair, recognizable round face and warm smile, white shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "paula-fernandes",
+      "sha256": "e396a3483cc1ed8ec988ae4af9a9e26014b88ad5fa37502ebb76d32bef266a5e",
+      "bytes": 145970,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Paula Fernandes as themselves, Brazilian country singer, adult woman with long dark wavy hair and recognizable face, blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "reginaldo-rossi",
+      "sha256": "b2df45304c0d95219e2ed8d7d002b0ea2af8cb7548752fe49e5044b1cdce0084",
+      "bytes": 94918,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Reginaldo Rossi as themselves, Brazilian singer, older appearance with dark-gray hair, recognizable face and large dark sunglasses, suit jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "sidney-magal",
+      "sha256": "2df4bf2ae42bd3a535ca4fc50cf20b1bac2e688378844688d90c4e49ee21ef4d",
+      "bytes": 139302,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sidney Magal as themselves, Brazilian singer, mature appearance with black curly hair and distinctive mustache, warm smile, open-collar shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "simone-mendes",
+      "sha256": "7d22d182c4794e0151042e8eaca01aed661ec3a856461bdb56bc80d82644341a",
+      "bytes": 120136,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Simone Mendes as themselves, Brazilian singer, adult woman with long dark hair, warm broad smile and recognizable face, burgundy outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "xororo",
+      "sha256": "5a4979dc3eb57f7e2a93553bd83d2ba03172c9e97475c6cd4f61bc5b2141a885",
+      "bytes": 88678,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Xororó as themselves, Brazilian country singer, mature man with distinctive facial features and short dark-gray hair, dark blazer. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "ana-castela",
+      "sha256": "0b3b94a92d9425327a8e8812f663f5d699019d053997fd80e8ae63afa6a8b80d",
+      "bytes": 100202,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Ana Castela as themselves, Brazilian country singer, adult woman with long straight dark hair and signature cowboy hat entirely visible, dark country outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "arlindo-cruz",
+      "sha256": "b0b4f479c006df9a54c73ad3c9a05ea8a3d62d1e224bee18f93634f2e3de3a9e",
+      "bytes": 102844,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Arlindo Cruz as themselves, Brazilian samba singer in classic adult appearance, heavyset Black man with short curly dark hair, close mustache and goatee, warm smile, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "beth-carvalho",
+      "sha256": "8edbd5bc10fe455afea9b9f95dece35ea3b7e19d9db5aef125cf4b652f2d6875",
+      "bytes": 115002,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Beth Carvalho as themselves, Brazilian samba singer, older woman with long dark hair and bangs, recognizable face, radiant smile and burgundy blouse. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "joao-gomes",
+      "sha256": "3789d4b01650a8de5de53a44301bce90763ec3223cee3c76e2128557984cb5b2",
+      "bytes": 86622,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of João Gomes as themselves, Brazilian piseiro singer, young adult man with short curly dark hair, recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    },
+    {
+      "id": "jorge-aragao",
+      "sha256": "eb9a93cb9b42466e5aa31c8d03715ca3b8ae68096bcc343841faf70c84e0bea5",
+      "bytes": 91496,
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jorge Aragão as themselves, Brazilian samba singer, mature Black man with short gray hair, gray mustache and beard, thin glasses, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement."
+    }
+  ],
+  "added": 102,
+  "selected": 108,
+  "failed": [
+    {
+      "id": "christina-aguilera",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Christina Aguilera as themselves, singer, platinum blonde hair, red lipstick, elegant black outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "tupac",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Tupac as themselves, Tupac Shakur in his iconic appearance, shaved head with bandana tied in front, thin mustache and goatee, dark clothing. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "notorious-big",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of The Notorious B.I.G. as themselves, Biggie Smalls, heavyset Black rapper in iconic 1990s appearance, black cap, calm recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "luisa-sonza",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Luísa Sonza as themselves, Brazilian singer, adult woman with long wavy blonde hair, recognizable face, dark outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "blocked",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "joelma",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Joelma as themselves, Brazilian singer, adult woman with long voluminous blonde hair, recognizable face, blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    },
+    {
+      "id": "chitaozinho",
+      "prompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Chitãozinho as themselves, Brazilian country singer, mature man with recognizable face and short light brown-gray hair, dark blazer. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "status": "failed",
+      "nextAction": "Não repetir a geração; buscar uma imagem existente com origem e permissão verificáveis."
+    }
+  ],
+  "previousImagesPreserved": 858,
+  "visuallyReviewed": true,
+  "reviewChecks": [
+    "Recognizable identity",
+    "No written answer",
+    "Full head and hairstyle visible",
+    "Consistent portrait style"
+  ],
+  "finalReady": 965
+}

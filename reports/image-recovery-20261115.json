@@ -1,0 +1,47 @@
+{
+  "base": "ca8390a1520022d0ff7c9062b60c55da59c48c76",
+  "previousReady": 858,
+  "added": 5,
+  "entries": [
+    {
+      "id": "sandy",
+      "sourceFilename": "Painterly portrait of Sandy Leah.png",
+      "sourceSha256": "602e52950a84194770ddef9238298a6e71e30a072a91f750e9fe0075bdfbb5de",
+      "bytes": 91152,
+      "sha256": "f3ac648598df5d25cfea5db285d831ced6a9221eecbbeaf9464dd8052ad760ed",
+      "review": "Identity, framing, anatomy and absence of answer text visually checked."
+    },
+    {
+      "id": "daniela-mercury",
+      "sourceFilename": "Daniela Mercury in elegant stage light.png",
+      "sourceSha256": "9c86030d4cb23c23d26f7217121983e6a435818fa9819856b6b7e4d9cc478a24",
+      "bytes": 142096,
+      "sha256": "c26dcebab5aa4065c2e040e92794ce73e8f0b7d4d739e104f2ac5ba1543ae2b7",
+      "review": "Identity, framing, anatomy and absence of answer text visually checked."
+    },
+    {
+      "id": "tony-hawk",
+      "sourceFilename": "Tony Hawk with a Skateboard.png",
+      "sourceSha256": "144cab9b4974a9f18bdfd147b2f3ac640c979e7b8d3b5d1e52eece0437ec4da8",
+      "bytes": 91496,
+      "sha256": "bed8ff747c6ca26ae060821b7c80e8f5da1133436a5c28fa62d11ae3de445202",
+      "review": "Identity, framing, anatomy and absence of answer text visually checked."
+    },
+    {
+      "id": "magnus-carlsen",
+      "sourceFilename": "Magnus Carlsen in navy attire.png",
+      "sourceSha256": "07364dc5fb294a5a30b9e88d12a56c714f8fe9ca3282211d2ed175d2dcce224b",
+      "bytes": 79374,
+      "sha256": "7a0528459779207b42be3ac7d5b887f2975c162d667da736f82e5a23cc2d78fe",
+      "review": "Identity, framing, anatomy and absence of answer text visually checked."
+    },
+    {
+      "id": "mewtwo",
+      "sourceFilename": "Mewtwo with violet psychic aura.png",
+      "sourceSha256": "dd5ccb99d4e46d70732a2c22916df245e51da2e34dc62fb098c047a5a1bab171",
+      "bytes": 70094,
+      "sha256": "f3f074bb5940c3a7e4b17b6242027e805959d287e8e4a6d305b435b75f8266cb",
+      "review": "Identity, framing, anatomy and absence of answer text visually checked."
+    }
+  ]
+}

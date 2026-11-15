@@ -1,19 +1,27 @@
 # Continuidade das imagens — Ícones
 
-Atualizado em 29/10/2026.
+Atualizado em 15/11/2026.
 
 ## Estado verificado
 
 - Catálogo: 1.492 identidades (inclui a expansão da Etapa 04).
-- Imagens prontas: 858.
-- Entradas ainda sem imagem: 634.
-- Continuação atual: 44 novas ilustrações integradas (16 de personalidades, 12 de música, 16 de esporte), revisadas individualmente.
-- As 814 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
+- Imagens prontas: 965.
+- Entradas ainda sem imagem: 527.
+- Continuação atual: 107 imagens integradas: cinco artes existentes recuperadas e 102 retratos reconstruídos, revisados visualmente.
+- As 858 imagens anteriores e seus metadados foram preservados integralmente, incluindo o Ikki com a armadura corrigida.
 - Todas as novas imagens: WebP, 960 × 1200, proporção 4:5.
 - Os prompts completos das artes geradas estão em `src/data/assets-manifest.json`, no campo `generationPrompt`.
 - As fotografias de Batman, Homem-Aranha e Mulher-Maravilha são de Gage Skidmore / Wikimedia Commons, CC BY-SA 2.0. Fonte, licença e alterações estão registradas no manifesto e nos créditos do jogo. Os arquivos derivados mantêm CC BY-SA 2.0.
 
-## Ilustrações desta continuação
+## Recuperação e reconstrução de novembro de 2026
+
+A comparação com a main `ca8390a` confirmou 858 imagens prontas. As contagens anteriores de um lote local de mais de cem imagens não correspondiam a arquivos recuperáveis no checkout, nas branches remotas ou na busca dos arquivos salvos. Foram recuperadas as artes existentes de Sandy, Daniela Mercury, Tony Hawk, Magnus Carlsen e Mewtwo. Os prompts originais desses cinco arquivos não estavam disponíveis; essa limitação está registrada sem inventar autoria ou prompt.
+
+Foram reconstruídos 102 retratos de identidades ainda sem imagem, incluindo Ney Matogrosso, Jorge Ben Jor, Slash, José Mourinho, Chester Bennington, Avril Lavigne, Dave Grohl, Alcione, Alicia Keys, Manuel Neuer, Khaby Lame e Pep Guardiola. Seis tentativas não retornaram imagem utilizável e não foram repetidas. Os arquivos válidos foram convertidos em WebP 960 × 1200, abaixo de 150 KB, e integrados ao catálogo.
+
+Proveniência e hashes em `reports/image-recovery-20261115.json` e `reports/image-reconstruction-20261115.json`. Todos os retratos novos são de IDs distintos e as 858 entradas ready anteriores foram preservadas integralmente.
+
+## Lote anterior de 44 retratos
 
 Seleção sem repetir IDs prontos, arquivos existentes ou tentativas anteriores; conferência registrada em [image-generation-audit-lote16.json](../reports/image-generation-audit-lote16.json).
 

@@ -593,8 +593,15 @@
       "file": "characters/meowth.webp"
     },
     "mewtwo": {
-      "status": "missing",
-      "file": "characters/mewtwo.webp"
+      "status": "ready",
+      "file": "characters/mewtwo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Recovered previously generated artwork: Mewtwo with violet psychic aura.png. Original creation prompt was not available in the recovered file metadata; no new generation was performed.",
+      "rightsNote": "User-directed generated illustration, recovered from the user’s existing artwork. Public figures and characters remain associated with their respective holders; no endorsement is implied.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "snorlax": {
       "status": "missing",
@@ -4318,8 +4325,15 @@
       "attribution": "Foto: Lula Oficial / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "ney-matogrosso": {
-      "status": "missing",
-      "file": "characters/ney-matogrosso.webp"
+      "status": "ready",
+      "file": "characters/ney-matogrosso.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Ney Matogrosso, Brazilian singer as himself, mature slim man with short silver hair, distinctive large expressive eyes, arched eyebrows, angular face, warm subtle smile, plain black open-collar shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "milton-nascimento": {
       "status": "ready",
@@ -4344,16 +4358,37 @@
       "attribution": "Foto: Tsaorin / Wikimedia Commons, CC BY-SA 4.0; recorte e conversão para WebP."
     },
     "jorge-ben-jor": {
-      "status": "missing",
-      "file": "characters/jorge-ben-jor.webp"
+      "status": "ready",
+      "file": "characters/jorge-ben-jor.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jorge Ben Jor, Brazilian singer and guitarist, older Black man with rounded expressive face, short graying curly hair, smiling warmly in a plain dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "lulu-santos": {
-      "status": "missing",
-      "file": "characters/lulu-santos.webp"
+      "status": "ready",
+      "file": "characters/lulu-santos.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lulu Santos as themselves, Brazilian singer, mature man with salt-and-pepper hair and recognizable face, dark casual jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "seu-jorge": {
-      "status": "missing",
-      "file": "characters/seu-jorge.webp"
+      "status": "ready",
+      "file": "characters/seu-jorge.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Seu Jorge as themselves, Brazilian singer and actor, adult Black man with short dark hair and trimmed beard, friendly smile, plain shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "zeca-pagodinho": {
       "status": "ready",
@@ -4389,8 +4424,15 @@
       "attribution": "Foto: Agência Brasil / Wikimedia Commons, CC BY 3.0 br; recorte e conversão para WebP."
     },
     "daniela-mercury": {
-      "status": "missing",
-      "file": "characters/daniela-mercury.webp"
+      "status": "ready",
+      "file": "characters/daniela-mercury.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Recovered previously generated portrait: Daniela Mercury in elegant stage light.png. Original creation prompt was not available in the recovered file metadata; no new generation was performed.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves, recovered from the user’s existing artwork. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "ludmilla": {
       "status": "ready",
@@ -4481,8 +4523,15 @@
       "attribution": "Foto: prefeitura de novo hamburgo1 / Wikimedia Commons, CC0; recorte e conversão para WebP."
     },
     "sandy": {
-      "status": "missing",
-      "file": "characters/sandy.webp"
+      "status": "ready",
+      "file": "characters/sandy.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Recovered previously generated portrait: Painterly portrait of Sandy Leah.png. Original creation prompt was not available in the recovered file metadata; no new generation was performed.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves, recovered from the user’s existing artwork. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "fabio-jr": {
       "status": "ready",
@@ -4496,8 +4545,15 @@
       "attribution": "Foto: Unknown authorUnknown author / Wikimedia Commons, CC BY 2.5; recorte e conversão para WebP."
     },
     "zeze-di-camargo": {
-      "status": "missing",
-      "file": "characters/zeze-di-camargo.webp"
+      "status": "ready",
+      "file": "characters/zeze-di-camargo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Zezé Di Camargo as themselves, Brazilian sertanejo singer, mature man, short dark hair and recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "leo-santana": {
       "status": "ready",
@@ -9235,8 +9291,15 @@
       "file": "characters/pewdiepie.webp"
     },
     "khaby-lame": {
-      "status": "missing",
-      "file": "characters/khaby-lame.webp"
+      "status": "ready",
+      "file": "characters/khaby-lame.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Khaby Lame as themselves, Senegalese-Italian creator, young Black man with short black hair, expressive eyebrows and subtle knowing smile, palms open in his signature gesture. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "eliana": {
       "status": "missing",
@@ -10387,192 +10450,514 @@
       "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI; personagem de seus respectivos titulares."
     },
     "ringo-starr": {
-      "status": "missing",
-      "file": "characters/ringo-starr.webp"
+      "status": "ready",
+      "file": "characters/ringo-starr.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Ringo Starr as themselves, Beatles drummer, older man with short dark hair, gray beard, round dark sunglasses, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "george-harrison": {
-      "status": "missing",
-      "file": "characters/george-harrison.webp"
+      "status": "ready",
+      "file": "characters/george-harrison.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of George Harrison as themselves, Beatles guitarist in his early solo era, long dark hair and beard, serene expressive face. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "keith-richards": {
-      "status": "missing",
-      "file": "characters/keith-richards.webp"
+      "status": "ready",
+      "file": "characters/keith-richards.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Keith Richards as themselves, Rolling Stones guitarist, older weathered face, dark bandana and gray hair, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "jimi-hendrix": {
-      "status": "missing",
-      "file": "characters/jimi-hendrix.webp"
+      "status": "ready",
+      "file": "characters/jimi-hendrix.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jimi Hendrix as themselves, rock guitarist in his iconic late-1960s appearance, Black man with full afro, mustache, colorful psychedelic jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "janis-joplin": {
-      "status": "missing",
-      "file": "characters/janis-joplin.webp"
+      "status": "ready",
+      "file": "characters/janis-joplin.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Janis Joplin as themselves, rock singer, long wavy brown hair, round tinted glasses, beaded necklaces, expressive face. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "jim-morrison": {
-      "status": "missing",
-      "file": "characters/jim-morrison.webp"
+      "status": "ready",
+      "file": "characters/jim-morrison.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jim Morrison as themselves, Doors singer, iconic young adult appearance, long thick curly brown hair, clean-shaven face, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "bob-dylan": {
-      "status": "missing",
-      "file": "characters/bob-dylan.webp"
+      "status": "ready",
+      "file": "characters/bob-dylan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Bob Dylan as themselves, iconic 1960s folk-rock singer, curly dark hair, recognizable narrow face, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "bruce-springsteen": {
-      "status": "missing",
-      "file": "characters/bruce-springsteen.webp"
+      "status": "ready",
+      "file": "characters/bruce-springsteen.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Bruce Springsteen as themselves, mature rock singer, short brown-gray hair, rugged recognizable face, denim jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "johnny-cash": {
-      "status": "missing",
-      "file": "characters/johnny-cash.webp"
+      "status": "ready",
+      "file": "characters/johnny-cash.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Johnny Cash as themselves, iconic mature appearance, swept-back dark hair, serious recognizable face, all-black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "dolly-parton": {
-      "status": "missing",
-      "file": "characters/dolly-parton.webp"
+      "status": "ready",
+      "file": "characters/dolly-parton.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Dolly Parton as themselves, iconic blonde country singer with voluminous blonde hair, warm smile and elegant sparkling outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "shania-twain": {
-      "status": "missing",
-      "file": "characters/shania-twain.webp"
+      "status": "ready",
+      "file": "characters/shania-twain.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Shania Twain as themselves, country singer with long dark hair, recognizable face, warm smile, simple elegant dark outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "aretha-franklin": {
-      "status": "missing",
-      "file": "characters/aretha-franklin.webp"
+      "status": "ready",
+      "file": "characters/aretha-franklin.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Aretha Franklin as themselves, soul singer, mature Black woman with rounded face and elegant voluminous dark hair, burgundy dress. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "james-brown": {
-      "status": "missing",
-      "file": "characters/james-brown.webp"
+      "status": "ready",
+      "file": "characters/james-brown.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of James Brown as themselves, soul singer with iconic pompadour hair, recognizable face and confident smile, dark suit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "marvin-gaye": {
-      "status": "missing",
-      "file": "characters/marvin-gaye.webp"
+      "status": "ready",
+      "file": "characters/marvin-gaye.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Marvin Gaye as themselves, soul singer, adult Black man with short hair, full beard, warm smile, simple dark clothing. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "diana-ross": {
-      "status": "missing",
-      "file": "characters/diana-ross.webp"
+      "status": "ready",
+      "file": "characters/diana-ross.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Diana Ross as themselves, soul singer with iconic large dark curls, elegant burgundy clothing, warm smile. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "lionel-richie": {
-      "status": "missing",
-      "file": "characters/lionel-richie.webp"
+      "status": "ready",
+      "file": "characters/lionel-richie.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lionel Richie as themselves, mature singer with curly dark hair and distinctive mustache, warm smile, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "phil-collins": {
-      "status": "missing",
-      "file": "characters/phil-collins.webp"
+      "status": "ready",
+      "file": "characters/phil-collins.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Phil Collins as themselves, mature British singer and drummer, balding head, gray stubble, recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "sting": {
-      "status": "missing",
-      "file": "characters/sting.webp"
+      "status": "ready",
+      "file": "characters/sting.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sting as themselves, mature British singer and bassist, short blond-gray hair, recognizable angular face, simple dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "eric-clapton": {
-      "status": "missing",
-      "file": "characters/eric-clapton.webp"
+      "status": "ready",
+      "file": "characters/eric-clapton.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Eric Clapton as themselves, older British guitarist with gray hair, short gray beard, rectangular glasses, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "brian-may": {
-      "status": "missing",
-      "file": "characters/brian-may.webp"
+      "status": "ready",
+      "file": "characters/brian-may.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Brian May as themselves, Queen guitarist, tall mature man with signature long enormous gray curly hair, recognizable face. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "robert-plant": {
-      "status": "missing",
-      "file": "characters/robert-plant.webp"
+      "status": "ready",
+      "file": "characters/robert-plant.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Robert Plant as themselves, Led Zeppelin singer in iconic long golden curly-haired appearance, recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "steven-tyler": {
-      "status": "missing",
-      "file": "characters/steven-tyler.webp"
+      "status": "ready",
+      "file": "characters/steven-tyler.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Steven Tyler as themselves, Aerosmith singer, long brown hair with highlights, distinctive lips, expressive recognizable face, patterned scarf. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "gene-simmons": {
-      "status": "missing",
-      "file": "characters/gene-simmons.webp"
+      "status": "ready",
+      "file": "characters/gene-simmons.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gene Simmons as themselves, KISS bassist in iconic black-and-white Demon stage makeup, long black hair and black stage outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "angus-young": {
-      "status": "missing",
-      "file": "characters/angus-young.webp"
+      "status": "ready",
+      "file": "characters/angus-young.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Angus Young as themselves, AC/DC guitarist in iconic schoolboy stage outfit with dark cap, white shirt and dark blazer, entire cap visible. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "slash": {
-      "status": "missing",
-      "file": "characters/slash.webp"
+      "status": "ready",
+      "file": "characters/slash.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Slash, rock guitarist, recognizable long dense black curly hair, black top hat fully inside frame, dark aviator sunglasses, sleeveless black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "james-hetfield": {
-      "status": "missing",
-      "file": "characters/james-hetfield.webp"
+      "status": "ready",
+      "file": "characters/james-hetfield.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of James Hetfield as themselves, Metallica frontman, mature man with short gray hair and gray goatee, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "dave-grohl": {
-      "status": "missing",
-      "file": "characters/dave-grohl.webp"
+      "status": "ready",
+      "file": "characters/dave-grohl.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Dave Grohl, rock singer and guitarist, middle-aged man with long dark hair, dark full beard, broad friendly smile and recognizable face, plain black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "chester-bennington": {
-      "status": "missing",
-      "file": "characters/chester-bennington.webp"
+      "status": "ready",
+      "file": "characters/chester-bennington.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Chester Bennington, Linkin Park vocalist, adult man with very short bleached blond hair, thin dark rectangular glasses, ear plugs, recognizable face, plain black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "chris-martin": {
-      "status": "missing",
-      "file": "characters/chris-martin.webp"
+      "status": "ready",
+      "file": "characters/chris-martin.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Chris Martin as themselves, Coldplay singer, curly short light brown hair, blue eyes, relaxed smile. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "adam-levine": {
-      "status": "missing",
-      "file": "characters/adam-levine.webp"
+      "status": "ready",
+      "file": "characters/adam-levine.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Adam Levine as themselves, Maroon 5 singer, short dark hair and trimmed beard, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "billie-joe-armstrong": {
-      "status": "missing",
-      "file": "characters/billie-joe-armstrong.webp"
+      "status": "ready",
+      "file": "characters/billie-joe-armstrong.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Billie Joe Armstrong as themselves, Green Day singer, short spiky black hair, black eyeliner, black shirt and thin red tie. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "justin-timberlake": {
-      "status": "missing",
-      "file": "characters/justin-timberlake.webp"
+      "status": "ready",
+      "file": "characters/justin-timberlake.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Justin Timberlake as themselves, recognizable singer, short brown hair, close beard, navy jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "christina-aguilera": {
       "status": "missing",
       "file": "characters/christina-aguilera.webp"
     },
     "avril-lavigne": {
-      "status": "missing",
-      "file": "characters/avril-lavigne.webp"
+      "status": "ready",
+      "file": "characters/avril-lavigne.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Avril Lavigne, Canadian singer, adult woman with long straight blonde hair, black eyeliner, recognizable face and gentle confident expression, plain black rock jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "gwen-stefani": {
-      "status": "missing",
-      "file": "characters/gwen-stefani.webp"
+      "status": "ready",
+      "file": "characters/gwen-stefani.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gwen Stefani as themselves, singer, platinum blonde hair, red lipstick, black outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "pink-cantora": {
-      "status": "missing",
-      "file": "characters/pink-cantora.webp"
+      "status": "ready",
+      "file": "characters/pink-cantora.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of P!nk as themselves, singer P!nk, short platinum pixie haircut, distinctive face, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "kelly-clarkson": {
-      "status": "missing",
-      "file": "characters/kelly-clarkson.webp"
+      "status": "ready",
+      "file": "characters/kelly-clarkson.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Kelly Clarkson as themselves, singer, long warm blonde-brown hair, broad warm smile, burgundy outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "sia": {
-      "status": "missing",
-      "file": "characters/sia.webp"
+      "status": "ready",
+      "file": "characters/sia.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sia as themselves, singer in signature oversized half-black half-white bob wig covering eyes, large black bow entirely within frame. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "lizzo": {
-      "status": "missing",
-      "file": "characters/lizzo.webp"
+      "status": "ready",
+      "file": "characters/lizzo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lizzo as themselves, adult Black singer with long dark hair, radiant smile, elegant burgundy clothing. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "alicia-keys": {
-      "status": "missing",
-      "file": "characters/alicia-keys.webp"
+      "status": "ready",
+      "file": "characters/alicia-keys.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Alicia Keys, American singer and pianist, adult Black woman with recognizable face, dark braided hair, warm smile and simple dark blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "usher": {
-      "status": "missing",
-      "file": "characters/usher.webp"
+      "status": "ready",
+      "file": "characters/usher.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Usher as themselves, adult Black R&B singer with cropped hair, close beard and recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "pharrell-williams": {
-      "status": "missing",
-      "file": "characters/pharrell-williams.webp"
+      "status": "ready",
+      "file": "characters/pharrell-williams.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Pharrell Williams as themselves, Black musician with recognizable youthful face, signature oversized brown felt hat fully inside frame. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "camila-cabello": {
-      "status": "missing",
-      "file": "characters/camila-cabello.webp"
+      "status": "ready",
+      "file": "characters/camila-cabello.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Camila Cabello as themselves, adult singer with long dark hair and bangs, warm smile. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "demi-lovato": {
-      "status": "missing",
-      "file": "characters/demi-lovato.webp"
+      "status": "ready",
+      "file": "characters/demi-lovato.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Demi Lovato as themselves, adult singer with dark hair, recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "shawn-mendes": {
-      "status": "missing",
-      "file": "characters/shawn-mendes.webp"
+      "status": "ready",
+      "file": "characters/shawn-mendes.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Shawn Mendes as themselves, adult singer, thick curly brown hair, recognizable face, plain dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "sam-smith": {
-      "status": "missing",
-      "file": "characters/sam-smith.webp"
+      "status": "ready",
+      "file": "characters/sam-smith.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sam Smith as themselves, adult singer with short bleached hair, close beard, recognizable face, elegant dark outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "sabrina-carpenter": {
-      "status": "missing",
-      "file": "characters/sabrina-carpenter.webp"
+      "status": "ready",
+      "file": "characters/sabrina-carpenter.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sabrina Carpenter as themselves, adult singer with long blonde hair and curtain bangs, recognizable face, elegant blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "tupac": {
       "status": "missing",
@@ -10583,152 +10968,404 @@
       "file": "characters/notorious-big.webp"
     },
     "dr-dre": {
-      "status": "missing",
-      "file": "characters/dr-dre.webp"
+      "status": "ready",
+      "file": "characters/dr-dre.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Dr. Dre as themselves, mature Black music producer with closely shaved hair and trimmed beard, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "ice-cube": {
-      "status": "missing",
-      "file": "characters/ice-cube.webp"
+      "status": "ready",
+      "file": "characters/ice-cube.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Ice Cube as themselves, mature Black rapper and actor, short black hair and close beard, expressive recognizable brows, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "50-cent": {
-      "status": "missing",
-      "file": "characters/50-cent.webp"
+      "status": "ready",
+      "file": "characters/50-cent.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of 50 Cent as themselves, Curtis Jackson, adult Black rapper with close cropped hair, short beard, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "kendrick-lamar": {
-      "status": "missing",
-      "file": "characters/kendrick-lamar.webp"
+      "status": "ready",
+      "file": "characters/kendrick-lamar.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Kendrick Lamar as themselves, adult Black rapper with braided hair and short beard, recognizable face, plain dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "travis-scott": {
-      "status": "missing",
-      "file": "characters/travis-scott.webp"
+      "status": "ready",
+      "file": "characters/travis-scott.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Travis Scott as themselves, adult Black rapper with signature thin braids, recognizable face, plain dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "lil-wayne": {
-      "status": "missing",
-      "file": "characters/lil-wayne.webp"
+      "status": "ready",
+      "file": "characters/lil-wayne.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lil Wayne as themselves, adult Black rapper with long dreadlocks, recognizable face tattoos, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "lil-nas-x": {
-      "status": "missing",
-      "file": "characters/lil-nas-x.webp"
+      "status": "ready",
+      "file": "characters/lil-nas-x.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lil Nas X as themselves, adult Black singer with short twists, recognizable face, colorful elegant jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "marshmello": {
-      "status": "missing",
-      "file": "characters/marshmello.webp"
+      "status": "ready",
+      "file": "characters/marshmello.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Marshmello as themselves, DJ in signature cylindrical white helmet with simple black eyes and smile, full helmet inside frame, white hoodie. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "david-guetta": {
-      "status": "missing",
-      "file": "characters/david-guetta.webp"
+      "status": "ready",
+      "file": "characters/david-guetta.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of David Guetta as themselves, mature French DJ with medium brown hair and short beard, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "andrea-bocelli": {
-      "status": "missing",
-      "file": "characters/andrea-bocelli.webp"
+      "status": "ready",
+      "file": "characters/andrea-bocelli.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Andrea Bocelli as themselves, mature Italian tenor, curly gray hair, neatly trimmed beard, dark formal suit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "luciano-pavarotti": {
-      "status": "missing",
-      "file": "characters/luciano-pavarotti.webp"
+      "status": "ready",
+      "file": "characters/luciano-pavarotti.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Luciano Pavarotti as themselves, Italian tenor in iconic appearance, large dark beard and dark hair, expressive face, black tuxedo. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "marc-anthony": {
-      "status": "missing",
-      "file": "characters/marc-anthony.webp"
+      "status": "ready",
+      "file": "characters/marc-anthony.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Marc Anthony as themselves, Puerto Rican singer, slim face, short dark hair and close beard, dark suit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "maluma": {
-      "status": "missing",
-      "file": "characters/maluma.webp"
+      "status": "ready",
+      "file": "characters/maluma.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Maluma as themselves, Colombian singer, short dark hair and trimmed beard, recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "luis-fonsi": {
-      "status": "missing",
-      "file": "characters/luis-fonsi.webp"
+      "status": "ready",
+      "file": "characters/luis-fonsi.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Luis Fonsi as themselves, Puerto Rican singer with short dark hair and trimmed beard, warm smile, navy jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "gloria-estefan": {
-      "status": "missing",
-      "file": "characters/gloria-estefan.webp"
+      "status": "ready",
+      "file": "characters/gloria-estefan.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gloria Estefan as themselves, Cuban-American singer with shoulder-length wavy dark brown hair, warm smile, burgundy dress. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "julio-iglesias": {
-      "status": "missing",
-      "file": "characters/julio-iglesias.webp"
+      "status": "ready",
+      "file": "characters/julio-iglesias.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Julio Iglesias as themselves, mature Spanish singer, swept-back brown hair and tanned recognizable face, dark suit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "thalia": {
-      "status": "missing",
-      "file": "characters/thalia.webp"
+      "status": "ready",
+      "file": "characters/thalia.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Thalía as themselves, Mexican singer with long wavy caramel-brown hair, radiant smile, elegant blue dress. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "jungkook": {
-      "status": "missing",
-      "file": "characters/jungkook.webp"
+      "status": "ready",
+      "file": "characters/jungkook.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jungkook as themselves, adult Korean singer from BTS, recognizable face, dark hair parted in center, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "lisa-blackpink": {
-      "status": "missing",
-      "file": "characters/lisa-blackpink.webp"
+      "status": "ready",
+      "file": "characters/lisa-blackpink.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Lisa (BLACKPINK) as themselves, adult Thai singer Lisa from BLACKPINK, recognizable face, straight dark hair with blunt bangs, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "rose-blackpink": {
-      "status": "missing",
-      "file": "characters/rose-blackpink.webp"
+      "status": "ready",
+      "file": "characters/rose-blackpink.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Rosé (BLACKPINK) as themselves, adult Korean-New Zealand singer Rosé from BLACKPINK, recognizable face, long pale blonde hair, blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "vinicius-de-moraes": {
-      "status": "missing",
-      "file": "characters/vinicius-de-moraes.webp"
+      "status": "ready",
+      "file": "characters/vinicius-de-moraes.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Vinicius de Moraes as themselves, Brazilian poet and musician in iconic mature appearance, receding white hair, large black square glasses, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "joao-gilberto": {
-      "status": "missing",
-      "file": "characters/joao-gilberto.webp"
+      "status": "ready",
+      "file": "characters/joao-gilberto.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of João Gilberto as themselves, Brazilian bossa nova singer, mature appearance with receding dark-gray hair and recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "erasmo-carlos": {
-      "status": "missing",
-      "file": "characters/erasmo-carlos.webp"
+      "status": "ready",
+      "file": "characters/erasmo-carlos.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Erasmo Carlos as themselves, Brazilian rock singer, mature appearance with shaggy gray hair, short beard and recognizable face, dark jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "cassia-eller": {
-      "status": "missing",
-      "file": "characters/cassia-eller.webp"
+      "status": "ready",
+      "file": "characters/cassia-eller.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Cássia Eller as themselves, Brazilian rock singer, short tousled dark hair, distinctive expressive face, casual black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "marisa-monte": {
-      "status": "missing",
-      "file": "characters/marisa-monte.webp"
+      "status": "ready",
+      "file": "characters/marisa-monte.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Marisa Monte as themselves, Brazilian singer with long wavy dark hair, warm subtle smile, elegant dark outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "samuel-rosa": {
-      "status": "missing",
-      "file": "characters/samuel-rosa.webp"
+      "status": "ready",
+      "file": "characters/samuel-rosa.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Samuel Rosa as themselves, Brazilian singer from Skank, recognizable face, dark wavy hair and close beard, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "nando-reis": {
-      "status": "missing",
-      "file": "characters/nando-reis.webp"
+      "status": "ready",
+      "file": "characters/nando-reis.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Nando Reis as themselves, Brazilian singer with distinctive curly ginger hair, recognizably narrow face and red facial hair, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "herbert-vianna": {
-      "status": "missing",
-      "file": "characters/herbert-vianna.webp"
+      "status": "ready",
+      "file": "characters/herbert-vianna.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Herbert Vianna as themselves, Brazilian singer and guitarist from Paralamas do Sucesso, mature man with short light-gray hair, thin rectangular glasses, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "chorao": {
-      "status": "missing",
-      "file": "characters/chorao.webp"
+      "status": "ready",
+      "file": "characters/chorao.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Chorão as themselves, Chorão, Alexandre Magno Abrão from Charlie Brown Jr, iconic adult appearance with black cap, round face, goatee, black shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "pitty": {
-      "status": "missing",
-      "file": "characters/pitty.webp"
+      "status": "ready",
+      "file": "characters/pitty.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Pitty as themselves, Brazilian rock singer, long dark hair with straight fringe, recognizable face, black jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "dinho-mamonas": {
-      "status": "missing",
-      "file": "characters/dinho-mamonas.webp"
+      "status": "ready",
+      "file": "characters/dinho-mamonas.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Dinho as themselves, Dinho, Alecsander Alves, vocalist of Mamonas Assassinas in iconic 1990s adult appearance, dark shaggy hair, animated smile, plain dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "iza": {
-      "status": "missing",
-      "file": "characters/iza.webp"
+      "status": "ready",
+      "file": "characters/iza.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of IZA as themselves, Brazilian singer IZA, adult Black woman with long voluminous dark curls, recognizable face, elegant burgundy outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "luisa-sonza": {
       "status": "missing",
       "file": "characters/luisa-sonza.webp"
     },
     "gloria-groove": {
-      "status": "missing",
-      "file": "characters/gloria-groove.webp"
+      "status": "ready",
+      "file": "characters/gloria-groove.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gloria Groove as themselves, Brazilian singer and drag artist Gloria Groove in glamorous stage persona, dramatic polished eye makeup, voluminous dark hair, elegant purple outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "sidney-magal": {
-      "status": "missing",
-      "file": "characters/sidney-magal.webp"
+      "status": "ready",
+      "file": "characters/sidney-magal.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Sidney Magal as themselves, Brazilian singer, mature appearance with black curly hair and distinctive mustache, warm smile, open-collar shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "reginaldo-rossi": {
-      "status": "missing",
-      "file": "characters/reginaldo-rossi.webp"
+      "status": "ready",
+      "file": "characters/reginaldo-rossi.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Reginaldo Rossi as themselves, Brazilian singer, older appearance with dark-gray hair, recognizable face and large dark sunglasses, suit jacket. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "gretchen": {
-      "status": "missing",
-      "file": "characters/gretchen.webp"
+      "status": "ready",
+      "file": "characters/gretchen.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Gretchen as themselves, Brazilian singer, mature woman with long dark hair and recognizable face, elegant burgundy clothing. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "joelma": {
       "status": "missing",
@@ -10739,48 +11376,125 @@
       "file": "characters/chitaozinho.webp"
     },
     "xororo": {
-      "status": "missing",
-      "file": "characters/xororo.webp"
+      "status": "ready",
+      "file": "characters/xororo.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Xororó as themselves, Brazilian country singer, mature man with distinctive facial features and short dark-gray hair, dark blazer. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "paula-fernandes": {
-      "status": "missing",
-      "file": "characters/paula-fernandes.webp"
+      "status": "ready",
+      "file": "characters/paula-fernandes.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Paula Fernandes as themselves, Brazilian country singer, adult woman with long dark wavy hair and recognizable face, blue outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "simone-mendes": {
-      "status": "missing",
-      "file": "characters/simone-mendes.webp"
+      "status": "ready",
+      "file": "characters/simone-mendes.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Simone Mendes as themselves, Brazilian singer, adult woman with long dark hair, warm broad smile and recognizable face, burgundy outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "ana-castela": {
-      "status": "missing",
-      "file": "characters/ana-castela.webp"
+      "status": "ready",
+      "file": "characters/ana-castela.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Ana Castela as themselves, Brazilian country singer, adult woman with long straight dark hair and signature cowboy hat entirely visible, dark country outfit. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "joao-gomes": {
-      "status": "missing",
-      "file": "characters/joao-gomes.webp"
+      "status": "ready",
+      "file": "characters/joao-gomes.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of João Gomes as themselves, Brazilian piseiro singer, young adult man with short curly dark hair, recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "alcione": {
-      "status": "missing",
-      "file": "characters/alcione.webp"
+      "status": "ready",
+      "file": "characters/alcione.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Alcione, Brazilian samba singer, mature Black woman with long dark wavy hair, rounded expressive face, radiant smile, elegant burgundy outfit with silver jewelry. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "beth-carvalho": {
-      "status": "missing",
-      "file": "characters/beth-carvalho.webp"
+      "status": "ready",
+      "file": "characters/beth-carvalho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Beth Carvalho as themselves, Brazilian samba singer, older woman with long dark hair and bangs, recognizable face, radiant smile and burgundy blouse. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "martinho-da-vila": {
-      "status": "missing",
-      "file": "characters/martinho-da-vila.webp"
+      "status": "ready",
+      "file": "characters/martinho-da-vila.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Martinho da Vila as themselves, Brazilian samba singer, older Black man with short gray hair, recognizable round face and warm smile, white shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "jorge-aragao": {
-      "status": "missing",
-      "file": "characters/jorge-aragao.webp"
+      "status": "ready",
+      "file": "characters/jorge-aragao.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Jorge Aragão as themselves, Brazilian samba singer, mature Black man with short gray hair, gray mustache and beard, thin glasses, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "arlindo-cruz": {
-      "status": "missing",
-      "file": "characters/arlindo-cruz.webp"
+      "status": "ready",
+      "file": "characters/arlindo-cruz.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Arlindo Cruz as themselves, Brazilian samba singer in classic adult appearance, heavyset Black man with short curly dark hair, close mustache and goatee, warm smile, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "diogo-nogueira": {
-      "status": "missing",
-      "file": "characters/diogo-nogueira.webp"
+      "status": "ready",
+      "file": "characters/diogo-nogueira.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Diogo Nogueira as themselves, Brazilian samba singer, adult man with short dark curly hair, close beard, warm smile and recognizable face, dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "pericles": {
       "status": "missing",
@@ -11039,16 +11753,37 @@
       "file": "characters/karim-benzema.webp"
     },
     "manuel-neuer": {
-      "status": "missing",
-      "file": "characters/manuel-neuer.webp"
+      "status": "ready",
+      "file": "characters/manuel-neuer.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Manuel Neuer as themselves, German goalkeeper, short light brown hair, light eyes, recognizable angular face, plain green goalkeeper jersey. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "pep-guardiola": {
-      "status": "missing",
-      "file": "characters/pep-guardiola.webp"
+      "status": "ready",
+      "file": "characters/pep-guardiola.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of Pep Guardiola as themselves, Spanish football coach, bald head, close gray beard, plain dark crew-neck sweater. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "jose-mourinho": {
-      "status": "missing",
-      "file": "characters/jose-mourinho.webp"
+      "status": "ready",
+      "file": "characters/jose-mourinho.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Use case: stylized-concept. Asset type: one individual portrait for Ícones — Maratona, an image recognition quiz. A recognizable illustrated portrait of José Mourinho, Portuguese football coach, mature man with short silver hair, dark eyebrows, strong serious features, navy blazer over a dark shirt. Premium painterly illustration matching the game’s existing portraits, rich colors, detailed face, soft cyan rim lighting. Plain deep navy-to-indigo gradient background. Vertical 4:5 composition. Centered waist-up, entire head and hair and accessories visible with generous margins. Natural anatomy. No writing, printed name, words, numbers, logos, watermark, frame or UI. This is an illustrated public figure portrait, no endorsement.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "carlo-ancelotti": {
       "status": "missing",
@@ -11175,8 +11910,15 @@
       "file": "characters/kelly-slater.webp"
     },
     "tony-hawk": {
-      "status": "missing",
-      "file": "characters/tony-hawk.webp"
+      "status": "ready",
+      "file": "characters/tony-hawk.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Recovered previously generated portrait: Tony Hawk with a Skateboard.png. Original creation prompt was not available in the recovered file metadata; no new generation was performed.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves, recovered from the user’s existing artwork. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "undertaker": {
       "status": "missing",
@@ -11191,8 +11933,15 @@
       "file": "characters/stone-cold.webp"
     },
     "magnus-carlsen": {
-      "status": "missing",
-      "file": "characters/magnus-carlsen.webp"
+      "status": "ready",
+      "file": "characters/magnus-carlsen.webp",
+      "width": 960,
+      "height": 1200,
+      "origin": "generated",
+      "author": "OpenAI image generation, directed for Ícones — Maratona",
+      "generationPrompt": "Recovered previously generated portrait: Magnus Carlsen in navy attire.png. Original creation prompt was not available in the recovered file metadata; no new generation was performed.",
+      "rightsNote": "User-directed generated illustration of a public figure as themselves, recovered from the user’s existing artwork. Does not imply endorsement.",
+      "attribution": "Ilustração gerada para Ícones — Maratona com OpenAI."
     },
     "shere-khan": {
       "status": "ready",
